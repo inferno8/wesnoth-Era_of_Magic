@@ -1,0 +1,13 @@
+#textdomain wesnoth-Era_of_Magic
+[multiplayer_side]
+    id=darkblood_masters
+    image,name="factions/EoMa-faction-darkblood.png", _"Dark Blood Alliance"
+	{MAGENTA_IS_THE_TEAM_COLOR}
+    type=EoMa_Mystic
+    leader=EoMa_Mystic,EoMa_Swamp_Mage,EoMa_Mystical_Toad,EoMa_Double_Ranged_Toad,EoMa_Dreadnaught,EoMa_Saurian_Champion,EoMa_Saurian_Assassin
+    random_leader=EoMa_Mystic,EoMa_Swamp_Mage,EoMa_Mystical_Toad,EoMa_Double_Ranged_Toad,EoMa_Dreadnaught,EoMa_Saurian_Champion,EoMa_Saurian_Assassin
+    recruit=EoMa_Toad,EoMa_Heavy_Toad,EoMa_Ranged_Toad,EoMa_Shamanistic_Toad,EoMa_Saurian_Pikeman,EoMa_Jungle_Guardian,EoMa_Shamanistic_Adept,EoMa_Clan_Leader,EoMa_Corrupted_Shaman,EoMa_Saurian_Shooter,EoMa_Saurian_Crossbowman,EoMa_Wyvern,EoMa_Great_Wyvern,EoMa_Wyvern_Rider,EoMa_Wyvern_Tamer,EoMa_Salamander,EoMa_Blue_Salamander,EoMa_Green_Salamander,EoMa_Yellow_Salamander
+    [ai]
+        recruitment_pattern=fighter,fighter,archer,archer,mixed fighter,mixed fighter,scout,healer,healer
+    [/ai]
+[/multiplayer_side]

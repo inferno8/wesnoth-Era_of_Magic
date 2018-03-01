@@ -1,0 +1,30 @@
+border_size=1
+usage=map
+
+Ur, Ur, Qxu, Urb, Qxu, Urb, Uu, Ur^Br\, Ur^Br\, Xuc, Xuc, Xuc, Xuc, Xuc, Xuc, Ur^Br|, Xuc, Xuc, Xuc, Xuc, Xuc, Xuc, Xuc, Xuc, Xuc, Xuc, Uu, Uu, Ur^Br/, Ur^Br/, Uu
+Ur, Ur^Eoma, Ur, Ur, Ur, Qxu, Ur, Uu, Uu^Iim, Qxu^Iim, Ur^Br\, Xuc, Xuc, Xuc, Uh, Ur^Br|, Uu, Xuc, Qxu, Xuc, Qxu, Xuc, Ur, Uu, Uu, Uu, Ur^Br/, Ur^Br/, Uu, Uu, Uu
+Ur^Br\, Uu, Uu, Uu, Uu, Ur, Ur, Ur^Iim, Qxu^Iim, Uu^Iim, Ur, Ur^Br\, Ur^Br\, Uh, Xuc, Ur^Br|, Uu, Uu, Uu, Qxu, Qxu^Bp/, Ur, Uh, Ur, Ur^Br/, Ur^Br/, Uu, Uu, Uu, Uu, Uu
+Qxu, Ur^Br\, Ur^Br\, Uu, Uu, Uu, Uu^Iim, Ur^Iim, Ur^Iim, Ur^Iim, Uu, Cud, Uh, Ur^Br\, Ur^Br\, Ur^Br|, Uu^Uf, Uu, Uu, Uu, Uu, Qxu, Ur^Br/, Ur^Br/, Uh, Uu^Vu, Uu^Edb, Uu, Qxu, Qxu, Qxu
+Qxu, Qxu, Qxu, Ur^Br\, Ur^Br\, Uu, Ur^Iim, Ur^Iim, Qxu^Iim, Qxu^Iim, Qxu, Uue, Uu, Uu, Uu, Ur^Br|, Uh, Qxu, Uu^Edb, Uu, Ur^Br/, Ur^Br/, Uu^Uf, Qxu, Qxu, Uh, Uu^Edb, Qxu, Qxu, Qxu, Ur
+Qxu, Qxu, Qxu, Qxu, Qxu, Ur^Br\, Ur^Br\, Uu^Iim, Uue, Uue, Ur, Qxu, Qxu, Uu, Uh, Ur^Br|, Uu^Vud, Qxu, Ur^Br/, Ur^Br/, Uu, Uu, Uu, Uu, Cud, Uu, Qxu, Uu^Vu, Ur, Ur, Uu
+Qxu, Qxu, Qxu, Qxu, Uue, Cud, Uh, Ur^Br\, Ur^Br\, Uue, Ur, Ur, Ur, Cud, Uu^Emf, Ur^Br|, Ur^Br/, Ur^Br/, Qxu, Uu^Vu, Uu, Uu, Uu, Uu^Edb, Uu, Cud, Ur, Qxu^Bp/, Qxu, Ur, Uu
+Qxu, Qxu, Qxu, Uu, Uu, Uue, Uue, Uu, Uu, Ur^Br\, Ur^Br|, Uh, Uu, Uu, Ur^Br/, Ur^Br/, Urb^Iim, Uh^Iim, Ur, Qxu, Uh, Uu^Edb, Ur, Uu, Ur, Ur, Uu, Uu^Uf, Qxu, Ur, Uu
+Qxu, Qxu, Qxu, Uu, Uue, Uu, Uu, Uu, Ce, Uu, Ur^Br|, Uu^Vu, Ur^Br/, Ur^Br/, Uu^Iim, Urb^Iim, Uu^Uf, Ur, Uh, Ur, Ur, Ur, Ce, Ur, Uu, Uu^Edb, Uu, Uu, Qxu^Bp/, Ur, Uu
+Xuc, Qxu, Qxu, Uu, Uue, Uh, Ce, Ke, Qxu, Uh, Ur^Br/, Ur^Br/, Urb^Iim, Uu^Iim, Qxu^Iim, Uu^Vud, Qxu^Iim, Uu, Uu^Em, Uu^Edb, Uu^Vud, Ur, Uh, Ke, Ce, Uh, Ur, Ur, Qxu^Iim, Uu^Iim, Ql
+Xuc, Xuc, Xuc, Uu, Uu, Uu^Vu, Uu^Uf, Qxu, Ur^Br/, Ur^Br/, Urb, Urb^Iim, Qxu^Iim, Urb^Iim, Cud^Iim, Qxu^Iim, Cud^Iim, Uh, Qxu, Uu, Uu^Em, Ur, Ur, Qxu, Qxu, Uu^Vud, Uu^Em, Uu^Iim, Ql, Ql, Ql
+Xuc, Xuc, Xuc, Uu, Cud, Uu^Edb, Ur^Br/, Ur^Br/, Urb, Urb, Uu^Iim, Qxu^Iim, Qxu^Iim, Qxu^Iim, Urb^Iim, 5 Kud^Iim, Urb, Qxu, Qxu, Qxu, Qxu^Bh/, Ur, Uh, Ur, Qxu^Bp\, Qxu, Uu, Uu^Iim, Ql, Ql, Ur^Iim
+Xuc, Xuc, Xuc, Uu, Ur^Br/, Ur^Br/, Cud, Urb, Urb, Uu^Uf, Qxu^Iim, Uh^Iim, Cud^Iim, Urb^Iim, Qxu^Iim, Qxu^Iim, Qxu, Urb, Cud, Qxu^Bh/, Qxu, Uu^Uf, Uu, Uu^Em, Qxu, Qxu^Bp\, Ur, Uu^Iim, Ur^Iim, Ur^Iim, Xuc
+Xuc, Xuc, Ur^Iim, Ur^Br/, Ur, Ur, Qxu, Uu, Uu, Uu^Vud, Qxu, Qxu^Iim, Cud^Iim, 2 Kud^Iim, Qxu^Iim, 1 Gg^Fet, Qxu, 3 Kud, Cud, Qxu, Qxu, Uu^Vud, Urb, Uu, Cud, Ur, Ur^Br/, Ur^Br/, Xuc, Xuc, Xuc
+Ur^Iim, Ur^Iim, Ql, Uu^Iim, Uu, Qxu^Bp\, Qxu^Bp\, Uu^Em, Uh, Uu^Uf, Qxu^Bh/, Qxu^Bh/, Qxu^Iim, Urb^Iim, Urb, Qxu, Urb, Urb, Qxu, Uh, Uu, Uu^Uf, Urb, Urb, Ur^Br/, Ur^Br/, Cud, Uu, Xuc, Xuc, Xuc
+Ql, Ql, Ql, Uu^Iim, Uu^Em, Qxu, Qxu, Ur, Ur, Ur, Uu^Em, Qxu, Qxu, Qxu, Cud, 4 Kud, Cud, Qxu, Qxu, Qxu, Urb, Urb, Ur^Br/, Ur^Br/, Uu^Uf, Uu^Edb, Uu, Uu, Xuc, Xuc, Xuc
+Ql, Ql, Qxu^Iim, Uu^Iim, Ur, Uu^Vud, Ce, Qxu, Uh, Ur, Uu^Vud, Uu, Uu^Em, Uh, Qxu, Qxu, Qxu, Urb, Urb, Urb, Ur^Br/, Ur^Br/, Qxu, Qxu, Ce, Uu^Vu, Uue, Uu, Qxu, Xuc, Xuc
+Uu, Uu^Iim, Qxu^Bp/, Ur, Uu, Uh, Uu, Ke, Ce, Ur, Ur, Uu^Edb, Uh, Uu, Uu^Uf, Uu^Vud, Uu^Uf, Uu^Em, Ur^Br/, Ur^Br/, Ur^Br|, Uh, Ce, Ke, Uu, Uh, Uue, Uu, Qxu, Qxu, Qxu
+Uu, Ur, Qxu, Uu, Uu, Uu^Edb, Ur, Ur, Ur, Ur, Uh, Ur, Ur, Ur, Urb, Urb, Ur^Br/, Ur^Br/, Uu, Uu^Vu, Ur^Br|, Uu, Uu, Uu, Uue, Uu, Uu, Uu, Qxu, Qxu, Qxu
+Uu, Ur, Qxu, Uu^Uf, Ur, Ur, Uu, Uu, Uu, Uu^Edb, Uu, Qxu, Qxu, Uh, Ur^Br/, Ur^Br/, Uu^Emf, Uu, Ur, Uh, Ur, Ur^Br\, Ur^Br\, Uu, Uh, Uue, Uue, Uu, Qxu, Qxu, Qxu
+Uu, Ur, Ur, Qxu^Bp/, Qxu, Cud, Cud, Uu^Edb, Uu, Uu, Uu, Uu^Vu, Ur^Br/, Ur^Br/, Uu^Vud, Ur^Br|, Uh, Cud, Qxu, Ur, Ur, Uue, Uue, Ur^Br\, Ur^Iim, Cud, Qxu, Qxu, Qxu, Qxu, Qxu
+Ur, Ur, Qxu, Uu^Vu, Uu^Edb, Uu, Qxu, Uu, Uu^Uf, Uu, Ur^Br/, Ur^Br/, Uu^Edb, Qxu, Uh, Ur^Br|, Uu, Uu, Uu, Qxu, Qxu, Uue, Qxu^Iim, Uu^Iim, Ur^Iim, Ur^Iim, Ur^Br\, Qxu, Qxu, Qxu, Qxu
+Qxu, Qxu, Qxu, Qxu, Uu^Edb, Uh, Uh, Qxu, Ur^Br/, Ur^Br/, Uu, Uu, Uu, Qxu, Uu^Uf, Ur^Br|, Ur^Br\, Uu, Uh, Uue, Uu, Qxu^Iim, Ur^Iim, Ur^Iim, Uu, Uu, Uu, Ur^Br\, Ur^Br\, Qxu, Qxu
+Uu, Qxu, Uu, Uu, Uu, Uu^Vu, Ur^Br/, Ur^Br/, Uh, Qxu, Qxu^Bp/, Uu, Uu, Uu, Uu, Ur^Br|, Xuc, Ur^Br\, Ur^Br\, Cud, Ur, Ur^Iim, Qxu^Iim, Ur^Iim, Ur, Uu, Uu, Uu, Uu, Ur^Br\, Ur^Br\
+Uu, Uu, Uu, Uu, Ur^Br/, Ur^Br/, Uu, Ur, Ur, Ur, Qxu, Qxu, Qxu, Uu, Uu, Ur^Br|, Uh, Uh, Xuc, Ur^Br\, Ur^Br\, Uu, Uu, Ur, Ur, Ur, Ur, Uu, Ur, Uu, Ur
+Uu, Uu, Ur^Br/, Ur^Br/, Uu, Uu, Xuc, Uu, Xuc, Xuc, Xuc, Xuc, Xuc, Xuc, Xuc, Ur^Br|, Xuc, Xuc, Xuc, Xuc, Xuc, Qxu, Ur^Br\, Uu, Uu, Qxu, Qxu, Ur, Qxu, Ur, Ur
+Uu, Ur^Br/, Uu, Uu, Xuc, Xuc, Xuc, Xuc, Xuc, Xuc, Xuc, Xuc, Xuc, Xuc, Qxu, Ur^Br|, Xuc, Xuc, Xuc, Xuc, Xuc, Xuc, Xuc, Ur^Br\, Ur^Br\, Urb, Qxu, Urb, Qxu, Ur, Qxu
