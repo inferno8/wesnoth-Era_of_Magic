@@ -1,6 +1,23 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.1.1
+ ### Units
+    * Kharos:
+	 * Brown Warrior: renamed to Bronze Warrior
+	* Summoners:
+     * Jinn -> Jinni correction
+     * Efreet -> Efreeti correction
+ ### Abilities
+   * renamed 'build drone' to 'activate drone'
+   * improved the banish weapon special code
+   * improved the soul catcher ability code
+ ### Descriptions
+   * improved some descriptions
+   * fixed some typos
+ ### Code
+   * improved code formatting in some places
+
 ## Version 3.1
  ### Units
    * Barbarians:
