@@ -1,6 +1,11 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.1.2
+ ### Code
+   * fixed the damage aura ability code
+   * fixed incorrect unit ids
+
 ## Version 3.1.1
  ### Units
     * Kharos:
