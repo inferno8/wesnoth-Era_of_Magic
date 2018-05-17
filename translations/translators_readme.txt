@@ -3,7 +3,7 @@ If you want to translate the add-on, follow these instructions:
 1. Download Poedit (this is a free editor for translating apps)
 https://poedit.net/download
 
-2. Open TLU_raw_translation_file.po (usually located in add-ons/Era_of_Magic/translations/
+2. Open EoMa_raw_translation_file.po (usually located in add-ons/Era_of_Magic/translations/
 
 3. Choose your language via settings
 
