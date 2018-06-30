@@ -33,10 +33,12 @@ Espreon
 fog_of_gold
 ForestDragon
 kalfat
+Ravana
 
 DESCRIPTIONS
 AzuSkyLigh (Summoners)
 Araja (corrections)
+Caladbolg (Dharma'rhami)
 CheeseLord (Runemasters)
 Edwylm (Salamanders)
 ForestDragon (various)
@@ -82,6 +84,7 @@ Karambol
 TRANSLATIONS
 BioHazardX
 Drakefriend
+galegosimpatico
 inferno8
 IWAI Masaharu
 Kelemen Zoltán
