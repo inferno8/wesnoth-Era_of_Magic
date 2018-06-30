@@ -1,6 +1,100 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.2
+ ### Units
+    * Barbarians:
+	 * Cyclops: blade res. from 20% to 10%; pierce res. from 20% to 5%; impact res. from 0% to 10%
+	 * Cyclops Breaker: blade res. from 20% to 10%; pierce res. from 20% to 5%; impact res. from 10% to 15%
+	 * Cyclops Brute: blade res. from 20% to 10%; pierce res. from 20% to 5%; impact res. from 10% to 15%
+	 * Raging Cyclops: renamed to Cyclops Warmonger; blade res. from 20% to 10%; pierce res. from 20% to 5%; impact res. from 10% to 20%
+	 * Cyclops Goliath: blade res. from 20% to 15%; pierce res. from 20% to 6%; impact res. from 15% to 25%
+	 * Goblin Hunter: increased defense by 10% on many terrain types; nerfed blade/pierce/impact resistances from 0% to -10%, and reduced hp from 31 to 29 (to compensate for the terrain defense buff)
+	 * Goblin Assassin: increased defense by 10% on many terrain types; nerfed blade/pierce/impact resistances from 0% to -10%, and reduced hp from 42 to 40 (to compensate for the terrain defense buff)
+	* Darkblood Alliance:
+	 * Saurian Shooter: renamed to Saurian Blowgunner
+	 * Toad Shaman: nerfed pierce resistance to -20%
+	 * Mystical Toad: renamed to Toad Mystic; nerfed pierce resistance to -20%; nerfed fire resistance to 20%
+	 * Wyvern and Great Wyvern: 10% fire resistance
+	 * Chaos Wyvern: 20% fire resistance
+	 * Wyverns in general: changed impact resistance from -20% to 0%, but pierce from 0% to -20% 
+    * Destroyers:
+	 * added a new unit: Cyclops Necromancer (he's an alternative advancement for Cyclops Skeleton, summoning a free lvl0 zombie unit next to self each turn)
+	 * Fallen Cyclops King: can now summon lvl1 Destroyers for a price
+	 * Dark Portal: nerfed cold resistance from 40% to 30% (to make the unit counter-able with runeadept/shamistic adept line units, as those factions don't have arcane damage), but buffed arcane resistance from 10% to 15% (to make the unit a bit less frail vs Kharos)
+	 * Infernal Vortex: nerfed cold resistance from 40% to 30% (to make the unit counter-able with runeadept/shamistic adept line units, as those factions don't have arcane damage), but buffed arcane resistance from 10% to 15% (to make the unit a bit less frail vs Kharos)
+	 * Zombie Goblin Kamikaze: fixed the goblin kamikaze's ability not working
+	* Kharos:
+	 * Adept of Light: renamed to Cleric
+	 * Cleric: renamed to Bishop
+	 * Massive Kharos War Banner: renamed to Grand Kharosian Warbanner
+	 * Protector: renamed to Hoplite
+	 * Prophet of Light: nerfed arcane resistance from 80% to 60%, but buffed fire/cold resistances from 0% to 10%
+	 * Solar Guardian: buffed impact resistance from 0% to 10%
+	 * Kirios: nerfed arcane resistance from 90% to 80%, nerfed fire/cold resistances from 70% to 60%, buffed impact resistance from 10% to 15% (as a compensation), reduced price from 85 gold to 75
+	* Runemasters:
+	 * Tanks: renamed 'mini-cannons' to 'machine gun'; renamed 'explosive ammo' to 'cannons'
+	* Sky Kingdom:
+	 * Guru: renamed to Guru of Magic
+	 * Mage of Air: renamed to Aeromancer
+	 * Mage of Fire: renamed to Pyromancer
+	 * Mage of Water: renamed to Hydromancer
+	* Tharis:
+     * Raging Hydra: renamed to Great Hydra
+	 * Storm Sphere: removed the energy boost ability, but added a new ranged attack called life drain (9-2 cold, magical and drain), as well as buffed impact resistance from 0% to 10%
+	 * Matriarch of Darkness: buffed most resistances so they're as high as Great Witch's, but nerfed melee from 9-3 to 8-3
+	 * Bladedancer: buffed impact resistance from -20% to -10%; buffed cold resistance from 0% to 20%; nerfed arcane resistance from 20% to 0%
+	 * Sworddancer: buffed impact resistance from -20% to -10%; buffed cold resistance from 0% to 20%; nerfed arcane resistance from 20% to 0%
+	 * Dark Commander: nerfed cold resistance from 20% to 10%, and fire resistances from 10% to 20% (to add a bit more uniqueness to the unit)
+	 * Dark General: nerfed cold resistance from 20% to 10%, and fire resistances from 10% to 20% (to add a bit more uniqueness to the unit)
+	 * Dark Warlord: changed fire resistance from 10% to 20%
+	 * Great Warlock: changed blade resistance from 20% to 10%
+	 * Master of Darkness: blade res. from 35% to 30%, pierce res. from 35% to 30%
+ ### Abilities
+    * Dark Aura: now it behaves like illuminates, but for chaotic units
+    * Magic Absorber ability: now the ability only buffs resistances by 70%, instead of 99%
+    * Banishment: made banishment values linear
+	* improved the cleave special (now nearby allies can no longer killed by the cleave damage (their health can't go below 1, like with poison). Also fixed cleave not checking whether the hit units are petrified or not)
+	* improved the all-around special (friendly units can no longer be killed with the aoe damage (the special doesn't reduce the hp below 1, like poison). also added a petrification check)
+	* improved beam special (like other aoe abilities, it no longer kills friendly units hit by the aoe damage)
+	* improved the area of effect special (like others, it now can't kill friendly units)
+ ### Graphics
+    * improved Dharma'rhami tackle animation
+	* improved Bone Golem line headbutt animation
+	* improved wonderful and mystical jinn's melee animations
+	* improved the battle toad/dreadnought spear animations
+	* improved the wyvern rider line spear animations
+	* new scream animation for Wyverns and Piryflies lines
+	* fixed great witch's curse animation timing
+	* changed runeaura ability image/portrait
+ ### Descriptions
+    * added Roc Master description
+    * added Chosen of Forest description
+    * added Mystic description
+    * added Cleric description
+    * added Dwarvish Tank description
+    * added Cyclops Breaker description
+    * added Goblin Hunter description
+    * various description improvements
+	* fixed misleading special notes
+ ### Code
+    * added hit/die sounds to kharos warbanner line
+    * renamed all instances of {MAGENTA_IS_THE_TEAM_COLOR}
+	* added eoma_ prefix to all races
+	* replaced eomaprecision with eoma_precision
+	* fixed incorrect add-on prefix
+	* fixed incorrect faction id suffixes
+	* fixed some trait issues
+	* fixed typos
+	* replaced defense_weight=0 with [disable]
+	* removed duplicated tags
+	* fixed drone advancement issues
+	* fixed double macro definitions
+	* changed hide_help.cfg loading order
+	* improved the awake ability code
+ ### Translations
+    * updated the Spanish translation
+
 ## Version 3.1.2
  ### Code
    * fixed the damage aura ability code
