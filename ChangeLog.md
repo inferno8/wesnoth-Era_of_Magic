@@ -1,6 +1,31 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.2.1
+ ### Units
+	* Darkblood Alliance:
+	 * changed wyvern impact resistance from 100% to 0%
+	* Summoners:
+	 * fixed Dimensional Gates earning xp from AoE attacks
+ ### Code
+	* removed mountainfoot unwalkable/impassable values (used inheritance instead)
+	* replaced movecost 100 with UNREACHABLE (99)
+	* require EoMa installation to join Zombies Challenge
+	* added fake _info.cfg
+	* fixed summon ability not working in some cases
+	* fixed some animation issues
+	* fixed aoe filters criteria (now they should not affect petrified units)
+	* fixed the order of attack specials
+	* fixed some triple strike issues (fixed draining hp from incorrect targets; prevented status restoration on drain; fixed enemy hp issues on attack end)
+	* remove unwanted newlines
+	* implemented changes required for wmlxgettext
+	* replaced MENU_IMG_TXT with image and label keys
+	* removed {SOUND_POISON}
+	* use unit_placed as runeaura setup trigger
+ ### Descriptions
+	* fixed the Hydra description
+	* removed unused special notes from descriptions
+
 ## Version 3.2
  ### Units
     * Barbarians:
