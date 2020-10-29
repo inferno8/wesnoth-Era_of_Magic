@@ -9,6 +9,7 @@ ForestDragon
 ERA MAINTAINERS
 inferno8
 ForestDragon
+Ravana
 Espreon
 Alarantalara
 
@@ -119,6 +120,7 @@ Zaku
 official BfW forum users:
 (in alphabetical order)
 
+Atreides
 Aura (art advisory)
 Binaryquasar
 devas
