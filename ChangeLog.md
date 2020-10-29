@@ -1,6 +1,96 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.3
+ ### Units
+	** Barbarians:
+	 * Cyclops: XP from 48 to 52, price from 20g to 21g
+	 * Cyclops Warmonger: matched pierce resistance with its lv2, Health from 84 to 80, Pierce resistance from 5% to 15%
+	 * Cyclops Goliath: Health from 105 to 101, Pierce resistance from 6% to 15%
+	 * Cyclops Noble: Gaze 16-1 to 17-1, added the Attack-only special, NEW ATTACK: Gaze 12-1 fire + the skilled special, XP from 90 to 100
+	 * Cyclops Lord: Health from 80 to 77, Gaze 25-1 +Precision having as well +Attack-only Special, NEW ATTACK: gaze 19-1 fire +Skilled, Cold resistance from 10% to 0%
+	 * Gobling Shaman: Fire/Cold resistances from 0% to 10%, added a new ability: regenerates(+2), Price from 18g to 17g, replaced heals+2 with heals+5
+	 * Gobling Druid: Fire/Cold resistances from 0% to 10%
+	 * Roc Rider: XP from 40 to 46
+	 * Roc Master: Bow damage from 8-2 to 7-2
+	** Dark Blood Alliance:
+	 *Shamanistic Adept: XP from 45 to 49
+	 *Toad Rider: Cold resistance from 20% to 10%, Hills/Mountains defense from 50% to 40%, Swamp defense from 50% to 40%, Fungus movement cost from 1 to 2, XP from 46 to 52
+	 *Battle Toad: Blade resistance from 30% to 20%, Cold resistance from 20% to 10%, Hills/Mountains defense from 50% to 40%, Swamp defense from 50% to 40%, Fungus movement cost from 1 to 2
+	 *Dreadnought: Health from 80 to 78, Tongue damage from 10-2 to 9-2, Spear throw damage from 10-2 to 9-2, Cold resistance from 20% to 10%, Hills/Mountains defense from 50% to 40%, Swamp defense from 50% to 40%, Fungus movement cost from 1 to 2
+	 *Toad Arhcer: Cold resistance from 20% to 10%, Hills/Mountains defense from 50% to 40%, Swamp defense from 50% to 40%, Fungus movement cost from 1 to 2
+	 *Twin Toad Archer: Cold resistance from 20% to 10%, Hills/Mountains defense from 50% to 40%, Swamp defense from 50% to 40%, Fungus movement cost from 1 to 2
+	 *Toad Shaman: Fire/Arcane resistance from 10% to 0%, Cold resistance from 30% to 20%, Hills/Mountains defense from 50% to 40%, Swamp defense from 50% to 40%, Fungus movement cost from 1 to 2
+	 *Toad Mystic: Arcane resistance from 25% to 15%, Cold resistance from 40% to 30%, Fire resistance from 20% to 10%, Mountains defense from 50% to 40%, Swamp defense from 50% to 40%, Fungus movement cost from 1 to 2
+	 *Wyvern: Fire resistance from 10% to 0%
+	 *Great Wyvern: Health from 64 to 60, Fire resistance from 10% to 0%, XP from 110 to 120
+	 *Chaos Wyvern: Health from 85 to 80, Fire resistance from 20% to 10%
+	 *Wyvern Rider: Health from 47 to 49, Fire resistance from 10% to 0%
+	 *Wyvern Knight: Health from 56 to 57, Fire resistance from 10% to 0%, XP from 100 to 115
+	 *Chaos Wyvern Knight: Fire resistance from 20% to 10%
+	** Destroyers:
+	 *Atokpi General: Health from 59 to 67, awe 2 to awe 1, Fire/Arcane resistances from -10% to -5%, Impact resistance from 0% to 6%
+	 *Atokpi Master / Dark Atokpi: Health from 73 to 85, awe 3 to awe 2, Fire/Arcane resistances from -10% to 0%
+	 *Bone Giant: removed the awe 1 ability
+	 *Moloch: Awe 2 to Awe 1, Impact resistance from 20% to 25%,
+	 *Cyclops Necromancer: decreased the total number of summoned zombies from 6 to 4 per cyclops necromancer
+	 *Dark Portal / Infernal Vortex: Blade/Pierce/Impact resistances from 40% to 35%, Fire resistance from 50% to 40%, Cold resistance from 30% to 25%, Cave/Musrhoom grove defense from 50% to 40%, Dark Portal's aura (ranged) damage from 9-1 to 8-1, Dark Portal's regenerate value to +5, Infernal Vortex's, damage-aura from 16 to 14
+	 *Punisher: Sword damage from 14-2 to 13-2,
+	 *Obliterator: Health from 53 to 55, Attack (defense version) damage from 13-3 to 12-3, Sword damage from 17-2 to 16-2, Chaotic Blast damage from 6-2 to 7-2, added the skilled special, Cold resistance from 30% to 25%, Fire resistance from 20% to 15%
+	 *Abbadon: Health from 64 to 67, Attack (defense version) damage from 16-3 to 15-3, Sword damage from 23-2 to 21-2, Cold resistance from 40% to 30%, Fire resistance from 30% to 20%, Chaotic Blast damage from 10-2 to 11-2, added the skilled special
+	 *Titania: Health from 58 to 63, Awe 3 to Awe 2, Arcane/Blade/Fire resistances from -10% to 0%, Pierce resistance from 10% to 20%, Impact resistance from 0% to 10%
+	** Kharos:
+	 *Calvary Archer: Price from 19g to 18g
+	 *Hoplite: Spear (ranged) damage adjustment from 10-1 to 8-1
+	 *Avenger: Spear (ranged) damage from 11-1 to 9-1
+	 *Child of Light: Health from 37 to 39, Removed the leadership ability, Movement from 7 to 6, XP from 160 to 145
+	 *Sister of Light: Price from 18g to 17g
+	 *Mistress of Light: Health from 55 to 57, Removed the Leadership ability, Movement from 8 to 7
+	 *Fanatic: Health from 42 to 45, Aligment from Lawful to Neutral, Removed the skirmisher ability, Price from 37g to 34g
+	 *Sun Follower: Price from 28g to 27g
+	** Runemasters:
+	 *Striding Machine: Arcane resistance from 30% to 20%
+	 *Dwarvish Tank: Health from 67 to 63, Arcane resistance from 30% to 20%
+	 *Pacificator: Arcane resistance from 40% to 30%, Cold resistance from 30% to 20%, Fire resistance from 20% to 10%
+	 *Drone: Arcane resistance from 30% to 20%
+	 *Balloon: Arcane resistance from 20% to 10%
+	** Sky Kingdom:
+	 *Elementalist: Fire/Cold resistances from 0% to 6%
+	 *Hidden Face: XP from 46 to 42
+	 *Mu: Missile damage from 7-1 to 6-1
+	 *Black Mage: Cold resistance from 10% to 15%
+	 * Hydromancer / Water Master movement from 6 to 5
+	 * Pyromancer / Fire Master movement from 5 to 6
+	 *Um: Um strike from 18-1 +Precision to 15-1 +Magical
+	** Summoners:
+	 *Air Elemental: Arcane resistance from 70% to 65%, Pierce resistance from 55% to 50%, XP from 35 to 40
+	 *Air Avatar: Regenerates+8 to Regenerates+6, Arcane resistance from 70% to 65%, Pierce resistance from 60% to 55%, XP from 100 to 104
+	 *Air God: Regenerates from +8 to +6, Arcane resistance from 70% to 65%, Blade/Impact resistances from 50% to 45%
+	 *Fire Elemental: XP from 35 to 42, Price from 17g to 18g, Shallow Water defense from 50% to 20%
+	 *Fire Avatar: Swallow/Deep Water movement cost from 1 to 2, Deep water defense from 50% to 40%, XP from 90 to 100
+	 *Summoner: Fire/Cold resistances from 6% to 8%
+	 *Water Elemental / Water Avatar: Cold resistance from 30% to 40%
+	 *Water God: Cold resistance from 40% to 45%
+	** Tharis:
+	 *Dark Warrior:, XP from 45 to 42
+	 *Dark Slayer: Health from 40 to 43, XP from 90 to 85
+	 *Disciple: Cold resistance from 20% to 25%
+	 *Blademaster: Health from 52 to 54
+	 *Dark Assasin / Great Hunter: XP from 100 to 94
+	 *Witch: Health from 29 to 30, XP from 48 to 44
+	 *Great Witch: XP from 120 to 110
+	 *Matriarch of Frost: AMLA XP from 300 to 150
+ ### Graphics
+    * portraits for lvl1 Destroyers
+ ### Descriptions
+	* fixed the Mage of Water description
+	* fixed the Rhami description
+	* removed the regeneration special note from the Water Elemental description
+	* removed the Goblin Warrior's description (a duplicate of Goblin Runt's)
+	* fixed some typos
+### Code
+	* improved the furious death ability description format
+
 ## Version 3.2.1
  ### Units
 	* Darkblood Alliance:
@@ -25,6 +115,9 @@ Era of Magic - ChangeLog
  ### Descriptions
 	* fixed the Hydra description
 	* removed unused special notes from descriptions
+ ### Translations
+	* updated the raw translation file
+    * updated the Polish translation
 
 ## Version 3.2
  ### Units
@@ -111,7 +204,7 @@ Era of Magic - ChangeLog
 	* fixed incorrect faction id suffixes
 	* fixed some trait issues
 	* fixed typos
-	* replaced defense_weight=0 with [disable]
+	* replaced defense_weight=0 with  *disable:
 	* removed duplicated tags
 	* fixed drone advancement issues
 	* fixed double macro definitions
@@ -1302,7 +1395,7 @@ Era of Magic - ChangeLog
 	
 * Maps:
    * added some extra options to the Zombies Challenge scenario (now it is fully customable)
-   * made the side 1's [side] tag have 'hidden=yes'
+   * made the side 1's  *side: tag have 'hidden=yes'
    * when recapturing a previously zombie-controlled village, 2 random eoma zombies appear
    * villages captured by zombies produce 1 zombie each turn
 
@@ -1609,7 +1702,7 @@ Era of Magic - ChangeLog
    * Increased Dark Warriors's cost (16g instead of 15g) and decreased his hitpoints (28 instead of 32)
 	
  ### Misc
-   * Added the [feedback] tag in the .pbl file
+   * Added the  *feedback: tag in the .pbl file
 
 ## Version 1.1.0
 
@@ -1704,7 +1797,7 @@ Era of Magic - ChangeLog
    * Dropped support for 1.9.9 and below, including all of 1.8.x.
    * Fixed sculpted units' not being unpetrified if they were hit by a retaliating sculpt attack
    * Enchanced sculpt's unpetrification event
-   * Made it so that hydra's strike's event code gets placed outside of [attack] blocks
+   * Made it so that hydra's strike's event code gets placed outside of  *attack: blocks
    * Made circle of susceptibility work properly
 
 ## Version 0.17.0a
@@ -1792,7 +1885,7 @@ Era of Magic - ChangeLog
    * Changed directories names to match factions names
    * Rewrote double attack and the DRT's version of it; renamed the DRT's version to "split fire"
    * Modularized double attack, split fire, and energy draining
-   * Added a [binary_path] codeblock for the EoMa to campaign.cfg
+   * Added a  *binary_path: codeblock for the EoMa to campaign.cfg
 
 ## Version 0.13.0
 
