@@ -34,6 +34,7 @@ Espreon
 fog_of_gold
 ForestDragon
 kalfat
+MXB2001
 Ravana
 
 DESCRIPTIONS
@@ -57,10 +58,10 @@ Adris
 barowei
 dk
 fog_of_gold
-ForestDragon (2.0-3.0 balancing)
+ForestDragon (2.0-3.0+ balancing)
 Froz
 Hejnewar
-IPS (2.0-3.0 balancing)
+IPS (2.0-3.0+ balancing)
 jozio
 kalfat
 nikon
