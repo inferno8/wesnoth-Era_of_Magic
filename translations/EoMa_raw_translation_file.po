@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2020-10-27 15:22 UTC\n"
+"POT-Creation-Date: 2021-07-03 07:52 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 #: Era_of_Magic\factions\default\barbarians-default.cfg:4
 #: Era_of_Magic\factions\mrpg\barbarians-mrpg.cfg:4
 #: Era_of_Magic\factions\ms\barbarians-ms.cfg:4
-#: Era_of_Magic\EoMa_eras.cfg:25
+#: Era_of_Magic\EoMa_eras.cfg:68
 msgid "Barbarians"
 msgstr ""
 
@@ -32,7 +32,7 @@ msgstr ""
 #: Era_of_Magic\factions\default\darkblood-default.cfg:4
 #: Era_of_Magic\factions\mrpg\darkblood-mrpg.cfg:4
 #: Era_of_Magic\factions\ms\darkblood-ms.cfg:4
-#: Era_of_Magic\EoMa_eras.cfg:28
+#: Era_of_Magic\EoMa_eras.cfg:71
 msgid "Dark Blood Alliance"
 msgstr ""
 
@@ -45,7 +45,7 @@ msgstr ""
 #: Era_of_Magic\factions\default\destroyers-default.cfg:4
 #: Era_of_Magic\factions\mrpg\destroyers-mrpg.cfg:4
 #: Era_of_Magic\factions\ms\destroyers-ms.cfg:4
-#: Era_of_Magic\EoMa_eras.cfg:34
+#: Era_of_Magic\EoMa_eras.cfg:77
 msgid "Destroyers"
 msgstr ""
 
@@ -58,7 +58,7 @@ msgstr ""
 #: Era_of_Magic\factions\default\kharos-default.cfg:4
 #: Era_of_Magic\factions\mrpg\kharos-mrpg.cfg:4
 #: Era_of_Magic\factions\ms\kharos-ms.cfg:4
-#: Era_of_Magic\EoMa_eras.cfg:22
+#: Era_of_Magic\EoMa_eras.cfg:65
 msgid "Kharos"
 msgstr ""
 
@@ -71,7 +71,7 @@ msgstr ""
 #: Era_of_Magic\factions\default\runemasters-default.cfg:4
 #: Era_of_Magic\factions\mrpg\runemasters-mrpg.cfg:4
 #: Era_of_Magic\factions\ms\runemasters-ms.cfg:4
-#: Era_of_Magic\EoMa_eras.cfg:31
+#: Era_of_Magic\EoMa_eras.cfg:74
 msgid "Runemasters"
 msgstr ""
 
@@ -84,7 +84,7 @@ msgstr ""
 #: Era_of_Magic\factions\default\skykingdom-default.cfg:4
 #: Era_of_Magic\factions\mrpg\skykingdom-mrpg.cfg:4
 #: Era_of_Magic\factions\ms\skykingdom-ms.cfg:4
-#: Era_of_Magic\EoMa_eras.cfg:13
+#: Era_of_Magic\EoMa_eras.cfg:56
 msgid "Sky Kingdom"
 msgstr ""
 
@@ -97,7 +97,7 @@ msgstr ""
 #: Era_of_Magic\factions\default\summoners-default.cfg:4
 #: Era_of_Magic\factions\mrpg\summoners-mrpg.cfg:4
 #: Era_of_Magic\factions\ms\summoners-ms.cfg:4
-#: Era_of_Magic\EoMa_eras.cfg:16
+#: Era_of_Magic\EoMa_eras.cfg:59
 msgid "Summoners"
 msgstr ""
 
@@ -110,7 +110,7 @@ msgstr ""
 #: Era_of_Magic\factions\default\tharis-default.cfg:4
 #: Era_of_Magic\factions\mrpg\tharis-mrpg.cfg:4
 #: Era_of_Magic\factions\ms\tharis-ms.cfg:4
-#: Era_of_Magic\EoMa_eras.cfg:19
+#: Era_of_Magic\EoMa_eras.cfg:62
 msgid "Tharis"
 msgstr ""
 
@@ -126,7 +126,7 @@ msgstr ""
 msgid "Cumbersome and lacking fine intellect, the Cyclops race had been driven near to extinction before becoming a part of the barbarian horde. Two centuries later and these lumbering beasts have flourished, growing in both strength and number. Some say that it was a strange magic which bound the cyclopes to their new allegiance and is perhaps a reason for their increased power. One thing about these beasts is a certainty: when facing one in combat it is best not to get hit."
 msgstr ""
 
-#. [unit_type]: id=EoMa_Ancient_Cyclops, race=eoma_cyclops, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_SLOW}
+#. [unit_type]: id=EoMa_Ancient_Cyclops, race=eoma_cyclops, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Barbarians\Cyclops_Ancient.cfg:4
 msgid "Cyclops Lord"
 msgstr ""
@@ -141,8 +141,8 @@ msgstr ""
 #: Era_of_Magic\units\Barbarians\Cyclops_Goliath.cfg:67
 #: Era_of_Magic\units\Destroyers\Cyclops_Legendary.cfg:68
 #: Era_of_Magic\units\Destroyers\Cyclops_Legendary.cfg:81
-#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:127
-#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:140
+#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:130
+#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:143
 #: Era_of_Magic\units\Destroyers\Cyclops_Skeleton.cfg:67
 #: Era_of_Magic\units\Destroyers\Cyclops_Skeleton.cfg:80
 #: Era_of_Magic\units\Destroyers\Cyclop_Extinct_Mage.cfg:70
@@ -207,7 +207,7 @@ msgstr ""
 msgid "Cyclops Warmonger"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Goblin_Archer, race=goblin, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_POISON}
+#. [unit_type]: id=EoMa_Goblin_Archer, race=goblin, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Barbarians\Goblin_Archer.cfg:4
 msgid "Goblin Archer"
 msgstr ""
@@ -218,7 +218,7 @@ msgstr ""
 msgid "poisoned arrow"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Goblin_Assassin, race=goblin, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_SKIRMISHER}+{SPECIAL_NOTES_SLOW}
+#. [unit_type]: id=EoMa_Goblin_Assassin, race=goblin, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Barbarians\Goblin_Assassin.cfg:4
 msgid "Goblin Assassin"
 msgstr ""
@@ -229,7 +229,7 @@ msgstr ""
 msgid "bolas"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Goblin_Druid, race=goblin, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_MAGICAL}+{SPECIAL_NOTES_SLOW}+{SPECIAL_NOTES_ARCANE}+{SPECIAL_NOTES_HEALS}
+#. [unit_type]: id=EoMa_Goblin_Druid, race=goblin, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Barbarians\Goblin_Druid.cfg:4
 msgid "Goblin Druid"
 msgstr ""
@@ -262,7 +262,7 @@ msgstr ""
 msgid "explosion"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Goblin_Raider, race=goblin, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_MARKSMAN}+{SPECIAL_NOTES_POISON}
+#. [unit_type]: id=EoMa_Goblin_Raider, race=goblin, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Barbarians\Goblin_Raider.cfg:4
 msgid "Goblin Raider"
 msgstr ""
@@ -314,12 +314,12 @@ msgstr ""
 msgid "Long ago, an unusually intelligent goblin decided to leave his tribe, tired of his boring life. In his travels, he've been observing users of of magic all over the world. Most goblins, orcs and trolls are too dumb to even understand it's basics, not to mention using it. He tried the best he could to learn how to use it, whatever it takes. After about a decade of observing, imitating, and stealing from various kinds of magi he encountered, he started figuring out patterns of spellcasting. Upon his return, his newfound powers attracted many a follower among goblins, who wanted to learn this outlandish skill. Most of them failed to learn even the basics, but some succeeded, and then started spreading this knowledge across the wasteland, long after their master's death, starting a chain reaction that started from a single goblin, and turned into an entire cult. These so-called goblin shamans aren't very common, but plentiful enough to be often seen in the rear of barbarian hordes, acting as healers and advisors."
 msgstr ""
 
-#. [unit_type]: id=EoMa_Goblin_Sniper, race=goblin, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_MARKSMAN}+{SPECIAL_NOTES_POISON}
+#. [unit_type]: id=EoMa_Goblin_Sniper, race=goblin, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Barbarians\Goblin_Sniper.cfg:4
 msgid "Goblin Sniper"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Goblin_Veteran, race=goblin, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_SKIRMISHER}
+#. [unit_type]: id=EoMa_Goblin_Veteran, race=goblin, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Barbarians\Goblin_Veteran.cfg:4
 msgid "Goblin Veteran"
 msgstr ""
@@ -351,12 +351,12 @@ msgstr ""
 msgid "sword+axe"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Barbarian_Berserker, race=orc, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_BERSERK}
+#. [unit_type]: id=EoMa_Barbarian_Berserker, race=orc, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Barbarians\Orc_Berserker.cfg:4
 msgid "Barbarian Berserker"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Blood_Warrior, race=orc, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_BERSERK}
+#. [unit_type]: id=EoMa_Blood_Warrior, race=orc, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Barbarians\Orc_Blood_Warrior.cfg:4
 msgid "Blood Warrior"
 msgstr ""
@@ -455,7 +455,7 @@ msgstr ""
 msgid "The Trolls within the Barbarian horde do not practice magic as it is known to most races of the world although it easily could be confused for such. Rather the rough skin of these mysterious creatures when brought into rapid contact with itself can spark, igniting any flammable materials around them. Thus with a snap of the fingers trolls can ignite the small bundles of straw held within their palms before flinging them at the enemy. Such is the preternatural aim of the Troll Sorcerers that no matter where the target is hiding they will unerringly seek it out."
 msgstr ""
 
-#. [unit_type]: id=EoMa_Troll_Warbanner, race=troll, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_REGENERATES}+{SPECIAL_NOTES_MAGICAL}
+#. [unit_type]: id=EoMa_Troll_Warbanner, race=troll, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Barbarians\Troll_Warbanner.cfg:4
 msgid "Troll Warbanner"
 msgstr ""
@@ -617,9 +617,7 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Green_Salamander, race=eoma_salamander
 #: Era_of_Magic\units\Dark_Blood_Alliance\Salamander_Green.cfg:20
-msgid ""
-"When a Salamander's skin turns green, their ability to blend in with vegetation increases. To improve their already tremendous camouflage capabilities even further, they wear foliage on their bodies. Battle reports state that these warriors are seldom by themselves and are the Dark Blood Alliance's hunters. Their tactics involve attacking from the trees, using nets to hinder the enemy, and then finishing them off with their wrist blades.\n"
-""
+msgid "When a Salamander's skin turns green, their ability to blend in with vegetation increases. To improve their already tremendous camouflage capabilities even further, they wear foliage on their bodies. Battle reports state that these warriors are seldom by themselves and are the Dark Blood Alliance's hunters. Their tactics involve attacking from the trees, using nets to hinder the enemy, and then finishing them off with their wrist blades."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Red_Salamander, race=eoma_salamander
@@ -770,7 +768,7 @@ msgstr ""
 msgid "tongue"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Double_Ranged_Toad, race=lizard, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_SLOW}
+#. [unit_type]: id=EoMa_Double_Ranged_Toad, race=lizard, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Dark_Blood_Alliance\Toad_Double_Ranged.cfg:4
 msgid "Twin Archer Toad"
 msgstr ""
@@ -785,7 +783,7 @@ msgstr ""
 msgid "rapid fire"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Heavy_Toad, race=lizard, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_SLOW}
+#. [unit_type]: id=EoMa_Heavy_Toad, race=lizard, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Dark_Blood_Alliance\Toad_Heavy.cfg:4
 msgid "Battle Toad"
 msgstr ""
@@ -799,7 +797,7 @@ msgstr ""
 msgid "charge"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Mystical_Toad, race=lizard, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_CURES}+{SPECIAL_NOTES_SLOW}+{SPECIAL_NOTES_MAGICAL}
+#. [unit_type]: id=EoMa_Mystical_Toad, race=lizard, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Dark_Blood_Alliance\Toad_Mystical.cfg:4
 msgid "Toad Mystic"
 msgstr ""
@@ -810,17 +808,17 @@ msgstr ""
 msgid "magic missile"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Dreadnaught, race=lizard, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_SLOW}
+#. [unit_type]: id=EoMa_Dreadnaught, race=lizard, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Dark_Blood_Alliance\Toad_Panzer.cfg:4
 msgid "Dreadnought"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Ranged_Toad, race=lizard, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_SLOW}
+#. [unit_type]: id=EoMa_Ranged_Toad, race=lizard, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Dark_Blood_Alliance\Toad_Ranged.cfg:4
 msgid "Toad Archer"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Shamanistic_Toad, race=lizard, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_HEALS}+{SPECIAL_NOTES_SLOW}+{SPECIAL_NOTES_MAGICAL}
+#. [unit_type]: id=EoMa_Shamanistic_Toad, race=lizard, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Dark_Blood_Alliance\Toad_Shamanistic.cfg:4
 msgid "Toad Shaman"
 msgstr ""
@@ -849,7 +847,7 @@ msgstr ""
 msgid "scream"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Chaos_Rider, race=lizard, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_DRAIN}+{SPECIAL_NOTES_CHARGE}
+#. [unit_type]: id=EoMa_Chaos_Rider, race=lizard, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Dark_Blood_Alliance\Wyvern_Chaos_Rider.cfg:4
 msgid "Chaos Wyvern Rider"
 msgstr ""
@@ -869,12 +867,12 @@ msgstr ""
 msgid "Not all of the Wyverns captured by the Dark Blooded are tortured and sent to the frontier; some of them are tamed and used as mounts by some of the more dastardly Saurians. They usually charge into the fray with their Pikes, then goad their mounts to bite their foes; sometimes, the Wyverns swallow them whole."
 msgstr ""
 
-#. [unit_type]: id=EoMa_Wyvern_Tamer, race=lizard, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_DRAIN}+{SPECIAL_NOTES_CHARGE}
+#. [unit_type]: id=EoMa_Wyvern_Tamer, race=lizard, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Dark_Blood_Alliance\Wyvern_Tamer.cfg:4
 msgid "Wyvern Knight"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Abaddon, race=undead, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}
+#. [unit_type]: id=EoMa_Abaddon, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Destroyers\Abaddon.cfg:4
 msgid "Abaddon"
 msgstr ""
@@ -897,7 +895,7 @@ msgstr ""
 msgid "chaotic blast"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Apocalypse, race=undead, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_DRAIN}+{SPECIAL_NOTES_SPIRIT}
+#. [unit_type]: id=EoMa_Apocalypse, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Destroyers\Apocalypse.cfg:4
 msgid "Apocalypse"
 msgstr ""
@@ -932,7 +930,7 @@ msgstr ""
 msgid "katana"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Atokpi_Dark, race=undead, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_SUBMERGE}
+#. [unit_type]: id=EoMa_Atokpi_Dark, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Destroyers\Atokpi_Dark.cfg:4
 msgid "Dark Atokpi"
 msgstr ""
@@ -943,17 +941,17 @@ msgstr ""
 msgid "anti-magic"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Atokpi_General, race=undead, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_SUBMERGE}
+#. [unit_type]: id=EoMa_Atokpi_General, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Destroyers\Atokpi_General.cfg:4
 msgid "Atokpi General"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Atokpi_Master, race=undead, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_SUBMERGE}
+#. [unit_type]: id=EoMa_Atokpi_Master, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Destroyers\Atokpi_Master.cfg:4
 msgid "Atokpi Master"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Atokpi_Samurai, race=undead, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_SUBMERGE}
+#. [unit_type]: id=EoMa_Atokpi_Samurai, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Destroyers\Atokpi_Samurai.cfg:4
 msgid "Atokpi Samurai"
 msgstr ""
@@ -987,22 +985,22 @@ msgstr ""
 msgid "tail"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Bone_Giant, race=undead, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}
+#. [unit_type]: id=EoMa_Bone_Giant, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Destroyers\Bone_Giant.cfg:4
 msgid "Bone Giant"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Bone_Golem, race=undead, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}
+#. [unit_type]: id=EoMa_Bone_Golem, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Destroyers\Bone_Golem.cfg:4
 msgid "Bone Golem"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Moloch, race=undead, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}
+#. [unit_type]: id=EoMa_Moloch, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Destroyers\Bone_Moloch.cfg:4
 msgid "Moloch"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Legendary_Cyclops, race=undead, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}
+#. [unit_type]: id=EoMa_Legendary_Cyclops, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Destroyers\Cyclops_Legendary.cfg:4
 msgid "Legendary Cyclops"
 msgstr ""
@@ -1031,12 +1029,12 @@ msgid "This unit summons a lvl0 zombie of random variation next to self at the s
 msgstr ""
 
 #. [attack]: type=blade
-#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:115
+#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:118
 msgid "cursed dagger"
 msgstr ""
 
 #. [dummy]: id=eoma_summoned_zombie
-#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:449
+#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:457
 msgid "This unit counts towards the summoned zombie limit."
 msgstr ""
 
@@ -1050,12 +1048,12 @@ msgstr ""
 msgid "There was a time, roughly hundreds of years ago, when Cyclops Magi still existed. They ruled the world with their natural powers but soon, thereafter, even their civilization has fallen against the mighty Destroyers. Now their corpses are another part of the Destroyers' hordes."
 msgstr ""
 
-#. [unit_type]: id=EoMa_Extinct_Cyclops_Mage, race=undead, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}
+#. [unit_type]: id=EoMa_Extinct_Cyclops_Mage, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Destroyers\Cyclop_Extinct_Mage.cfg:4
 msgid "Extinct Cyclops Mage"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Fallen_Cyclops_King, race=undead, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}
+#. [unit_type]: id=EoMa_Fallen_Cyclops_King, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Destroyers\Cyclop_Fallen_King.cfg:4
 msgid "Fallen Cyclops King"
 msgstr ""
@@ -1080,7 +1078,7 @@ msgstr ""
 msgid "Summon Pirafly"
 msgstr ""
 
-#. [unit_type]: id=EoMa_DarkApostle, race=undead, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_DRAIN}+{SPECIAL_NOTES_SPIRIT}
+#. [unit_type]: id=EoMa_DarkApostle, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Destroyers\Dark_Apostle.cfg:4
 msgid "Dark Apostle"
 msgstr ""
@@ -1129,9 +1127,9 @@ msgstr ""
 #: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:305
 #: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:425
 #: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:443
-#: Era_of_Magic\units\Runemasters\Balloon.cfg:92
-#: Era_of_Magic\units\Runemasters\Balloon_Heavy.cfg:110
-#: Era_of_Magic\units\Runemasters\Flying_Fortress.cfg:96
+#: Era_of_Magic\units\Runemasters\Balloon.cfg:91
+#: Era_of_Magic\units\Runemasters\Balloon_Heavy.cfg:109
+#: Era_of_Magic\units\Runemasters\Flying_Fortress.cfg:95
 #: Era_of_Magic\units\Runemasters\RuneMaster2.cfg:62
 #: Era_of_Magic\units\Summoners\Carpet_Rider.cfg:60
 msgid "defend-only"
@@ -1142,9 +1140,9 @@ msgstr ""
 #: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:306
 #: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:426
 #: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:444
-#: Era_of_Magic\units\Runemasters\Balloon.cfg:93
-#: Era_of_Magic\units\Runemasters\Balloon_Heavy.cfg:111
-#: Era_of_Magic\units\Runemasters\Flying_Fortress.cfg:97
+#: Era_of_Magic\units\Runemasters\Balloon.cfg:92
+#: Era_of_Magic\units\Runemasters\Balloon_Heavy.cfg:110
+#: Era_of_Magic\units\Runemasters\Flying_Fortress.cfg:96
 #: Era_of_Magic\units\Runemasters\RuneMaster2.cfg:63
 #: Era_of_Magic\units\Summoners\Carpet_Rider.cfg:61
 msgid "This attack doesn't work on offense."
@@ -1160,7 +1158,7 @@ msgstr ""
 msgid "These occult masterpieces of anti-magic are pure manifestations of destructive power. Nothing can withstand the ceaseless anti-magic emissions of an Infernal Vortex. Whatever lies in its center, it surely must be connected directly to hell. There is no other explanation..."
 msgstr ""
 
-#. [unit_type]: id=EoMa_Mara, race=undead, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_DRAIN}+{SPECIAL_NOTES_SPIRIT}
+#. [unit_type]: id=EoMa_Mara, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Destroyers\Mara.cfg:4
 msgid "Mara"
 msgstr ""
@@ -1180,7 +1178,7 @@ msgstr ""
 msgid "Nightmares are ghostly animated remains, held together by anti-magic. Their fiery touch can drain a creature's life force, as well as making them hallucinate. Many speculate that the these things may very well have originated from whatever is on the other side of the Dark Portals."
 msgstr ""
 
-#. [unit_type]: id=EoMa_Obliterator, race=undead, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}
+#. [unit_type]: id=EoMa_Obliterator, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Destroyers\Obliterator.cfg:4
 msgid "Obliterator"
 msgstr ""
@@ -1195,7 +1193,7 @@ msgstr ""
 msgid "Omens are lesser manifestations of the Destroyers' will - chaotic creatures made of mixed parts of the most powerful warriors consumed by Destroyers thousands of years ago. They do not have legs - instead, they levitate above ground, emerging from a red cloud, which is, by many, equated with pure hell."
 msgstr ""
 
-#. [unit_type]: id=EoMa_Devourer, race=undead, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_DRAIN}
+#. [unit_type]: id=EoMa_Devourer, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Destroyers\Piranha_Devourer.cfg:4
 msgid "Devourer"
 msgstr ""
@@ -1214,7 +1212,7 @@ msgstr ""
 msgid "This unit costs 1 less gold worth of upkeep than it would normally."
 msgstr ""
 
-#. [unit_type]: id=EoMa_Pirania_Monstruosa, race=undead, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_DRAIN}
+#. [unit_type]: id=EoMa_Pirania_Monstruosa, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Destroyers\Piranha_Monstruosa.cfg:4
 msgid "Pirania Monstruosa"
 msgstr ""
@@ -1239,12 +1237,12 @@ msgstr ""
 msgid "This unit doesn't cost upkeep."
 msgstr ""
 
-#. [unit_type]: id=EoMa_Titania, race=undead, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_DRAIN}
+#. [unit_type]: id=EoMa_Titania, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Destroyers\Piranha_Titania.cfg:4
 msgid "Titania"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Punisher, race=undead, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}
+#. [unit_type]: id=EoMa_Punisher, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Destroyers\Punisher.cfg:4
 msgid "Punisher"
 msgstr ""
@@ -1307,7 +1305,7 @@ msgstr ""
 msgid "trample"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Child_of_Light, race=human, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_CURES}+{SPECIAL_NOTES_LEADERSHIP}+{SPECIAL_NOTES_MAGICAL}+{SPECIAL_NOTES_ARCANE}
+#. [unit_type]: id=EoMa_Child_of_Light, race=human, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Kharos\Child_of_Light.cfg:4
 msgid "female^Child of Light"
 msgstr ""
@@ -1377,7 +1375,7 @@ msgstr ""
 msgid "Fanatics belong to a very unique cast of warriors in Kharos society. Equipped with enchanted blades converting enemy pain into healing power. Once deployed, they can outmatch even the strongest warriors."
 msgstr ""
 
-#. [unit_type]: id=EoMa_Fire_Swordsman, race=human, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_BERSERK}
+#. [unit_type]: id=EoMa_Fire_Swordsman, race=human, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Kharos\Fire_Swordsman.cfg:4
 msgid "Fire Swordsman"
 msgstr ""
@@ -1401,12 +1399,12 @@ msgstr ""
 msgid "white sword"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Heavy_Cavalry_Archer, race=human, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_STEADFAST}
+#. [unit_type]: id=EoMa_Heavy_Cavalry_Archer, race=human, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Kharos\Heavy_Cavalry_Archer.cfg:4
 msgid "Heavy Cavalry Archer"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Inspired, race=human, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{EOMA_SPECIAL_NOTES_INSPIRE}+{EOMA_SPECIAL_NOTES_AWAKE}
+#. [unit_type]: id=EoMa_Inspired, race=human, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Kharos\Inspired.cfg:4
 msgid "female^Inspired"
 msgstr ""
@@ -1482,7 +1480,7 @@ msgstr ""
 msgid "Mistress of Light is an extremely powerful healer, the true miracle on the battlefield, incarnation of light itself."
 msgstr ""
 
-#. [unit_type]: id=EoMa_Mystical_Archer, race=human, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_MAGICAL}+{SPECIAL_NOTES_SLOW}
+#. [unit_type]: id=EoMa_Mystical_Archer, race=human, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Kharos\Mystical_Archer.cfg:4
 msgid "Mystical Archer"
 msgstr ""
@@ -1502,7 +1500,7 @@ msgstr ""
 msgid "In the old times when Kharos country was divided between warring factions, one of them had access to mines rich with high quality ores, allowing its people to craft equipment far superior to that of their rivals. This allowed them to subjugate multiple smaller tribes, and pose a serious threat to the magic-oriented Sun Cult. In the end, however, it was the Sun Cult who emerged victorious, but the Platinum Clan along with its fine equipment remained as an integral part of the new social structure of the Kharos, remaining the finest heavy infantry the nation has to offer."
 msgstr ""
 
-#. [unit_type]: id=EoMa_Prophet_of_Light, race=human, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_LEADERSHIP}+{SPECIAL_NOTES_ARCANE}+{SPECIAL_NOTES_MAGICAL}+{SPECIAL_NOTES_CURES}+{SPECIAL_NOTES_LEADERSHIP}+{SPECIAL_NOTES_SLOW}
+#. [unit_type]: id=EoMa_Prophet_of_Light, race=human, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Kharos\Prophet_of_Light.cfg:4
 msgid "female^Prophet of Light"
 msgstr ""
@@ -1542,7 +1540,7 @@ msgstr ""
 msgid "White warriors with enough field experience can choose to become either silver, or brown warriors. While brown warriors sacrifice their agility in favor of armor and brute force, silver warriors combine agility and light magic, giving them rather unique abilities. They are capable of teleporting between friendly villages, utilizing their combined soul power. This allows them to quickly dart between parts of the battle field, making it harder to flank Kharosian forces. They also wield glowing swords which have been enchanted by light magic, instead of the normal ones, making them more effective against various spawns of darkness, or magical beings. It also allows them to shoot weak magical missiles at their foes, which are generally used to defend against enemy archers of magi."
 msgstr ""
 
-#. [unit_type]: id=EoMa_Sister_of_Light, race=human, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_MAGICAL}+{SPECIAL_NOTES_ARCANE}+{EOMA_SPECIAL_NOTES_HEALS2}+{EOMA_SPECIAL_NOTES_INSPIRE}
+#. [unit_type]: id=EoMa_Sister_of_Light, race=human, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Kharos\Sister_of_Light.cfg:4
 msgid "female^Sister of Light"
 msgstr ""
@@ -1603,10 +1601,10 @@ msgid "Capable of more than ample speeds, they can cover virtually any terrain w
 msgstr ""
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Runemasters\Balloon.cfg:74
-#: Era_of_Magic\units\Runemasters\Balloon_Heavy.cfg:78
-#: Era_of_Magic\units\Runemasters\Flying_Fortress.cfg:49
-#: Era_of_Magic\units\Runemasters\Steamcopter.cfg:41
+#: Era_of_Magic\units\Runemasters\Balloon.cfg:73
+#: Era_of_Magic\units\Runemasters\Balloon_Heavy.cfg:77
+#: Era_of_Magic\units\Runemasters\Flying_Fortress.cfg:48
+#: Era_of_Magic\units\Runemasters\Steamcopter.cfg:40
 msgid "bombs"
 msgstr ""
 
@@ -1624,11 +1622,11 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=pierce
-#: Era_of_Magic\units\Runemasters\Balloon_Heavy.cfg:87
-#: Era_of_Magic\units\Runemasters\Balloon_Heavy.cfg:99
+#: Era_of_Magic\units\Runemasters\Balloon_Heavy.cfg:86
+#: Era_of_Magic\units\Runemasters\Balloon_Heavy.cfg:98
 #: Era_of_Magic\units\Runemasters\Dwarvish_Tank.cfg:63
-#: Era_of_Magic\units\Runemasters\Flying_Fortress.cfg:61
-#: Era_of_Magic\units\Runemasters\Flying_Fortress.cfg:85
+#: Era_of_Magic\units\Runemasters\Flying_Fortress.cfg:60
+#: Era_of_Magic\units\Runemasters\Flying_Fortress.cfg:84
 #: Era_of_Magic\units\Runemasters\Pacificator.cfg:64
 #: Era_of_Magic\units\Runemasters\Striding_Machine.cfg:51
 msgid "machine gun"
@@ -1772,7 +1770,7 @@ msgstr ""
 
 #. [attack]: type=impact
 #: Era_of_Magic\units\Runemasters\Drone_Perfect.cfg:107
-#: Era_of_Magic\units\Runemasters\Flying_Fortress.cfg:73
+#: Era_of_Magic\units\Runemasters\Flying_Fortress.cfg:72
 msgid "cannon"
 msgstr ""
 
@@ -1825,7 +1823,7 @@ msgstr ""
 msgid "Dwarvish Veteran"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Dwarvish_Rune_Lord, race=dwarf, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_MAGICAL}
+#. [unit_type]: id=EoMa_Dwarvish_Rune_Lord, race=dwarf, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Runemasters\Dwarvish_Rune_Lord.cfg:4
 msgid "Dwarvish Rune Lord"
 msgstr ""
@@ -1835,7 +1833,7 @@ msgstr ""
 msgid "runic sword"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Dwarvish_Rune_Warrior, race=dwarf, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_MARKSMAN}
+#. [unit_type]: id=EoMa_Dwarvish_Rune_Warrior, race=dwarf, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Runemasters\Dwarvish_Rune_Warrior.cfg:4
 msgid "Dwarvish Runic Warrior"
 msgstr ""
@@ -1892,7 +1890,7 @@ msgstr ""
 msgid "These dwarves are recruited for their uncanny knack for engineering. If their robotic creations are at the head of an offense, then the mechanics form the backbone, repairing oil leaks, replacing broken fuel tanks, and keeping the front line running in clockwork fashion. Even if beset by opposition they hold their own, employing their vast arsenal of tools to hold enemies at bay until their better armored brethren come to their rescue."
 msgstr ""
 
-#. [unit_type]: id=EoMa_Pacificator, race=mechanical, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_MARKSMAN}+{SPECIAL_NOTES_CHARGE}
+#. [unit_type]: id=EoMa_Pacificator, race=mechanical, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Runemasters\Pacificator.cfg:4
 msgid "Pacificator"
 msgstr ""
@@ -1941,7 +1939,7 @@ msgstr ""
 msgid "ice runes"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Runemaster, race=dwarf, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_MAGICAL}+{SPECIAL_NOTES_SLOW}
+#. [unit_type]: id=EoMa_Runemaster, race=dwarf, description={NO_DESCR_AVAILABLE}
 #. [variation]
 #. [unit_type]: id=EoMa_Runemaster_Protected, race=dwarf, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Runemasters\Runemaster.cfg:4
@@ -1967,12 +1965,12 @@ msgstr ""
 msgid "runic lightning"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Runesmith, race=dwarf, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_MAGICAL}
+#. [unit_type]: id=EoMa_Runesmith, race=dwarf, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Runemasters\Runesmith.cfg:4
 msgid "Runesmith"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Rune_Artist, race=dwarf, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_MAGICAL}
+#. [unit_type]: id=EoMa_Rune_Artist, race=dwarf, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Runemasters\Rune_Artist.cfg:4
 msgid "Rune Artist"
 msgstr ""
@@ -1982,12 +1980,12 @@ msgstr ""
 msgid "Steamcopter"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Steam_Berserker, race=mechanical, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_BERSERK}
+#. [unit_type]: id=EoMa_Steam_Berserker, race=mechanical, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Runemasters\Steam_Berserker.cfg:4
 msgid "Steam Berserker"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Steam_Turboserker, race=mechanical, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_BERSERK}
+#. [unit_type]: id=EoMa_Steam_Turboserker, race=mechanical, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Runemasters\Steam_Turboserker.cfg:4
 msgid "Steam Turboserker"
 msgstr ""
@@ -2088,15 +2086,15 @@ msgid "Battle Eyes are an upgraded version of the Magical Eyes, specifically des
 msgstr ""
 
 #. [attack]: type=blade
-#: Era_of_Magic\units\Sky_Kingdom\Eye_Battle.cfg:47
-#: Era_of_Magic\units\Sky_Kingdom\Eye_Cosmic.cfg:48
+#: Era_of_Magic\units\Sky_Kingdom\Eye_Battle.cfg:46
+#: Era_of_Magic\units\Sky_Kingdom\Eye_Cosmic.cfg:47
 msgid "blade ring"
 msgstr ""
 
 #. [attack]: type=arcane
-#: Era_of_Magic\units\Sky_Kingdom\Eye_Battle.cfg:59
-#: Era_of_Magic\units\Sky_Kingdom\Eye_Cosmic.cfg:60
-#: Era_of_Magic\units\Sky_Kingdom\Eye_Magical.cfg:43
+#: Era_of_Magic\units\Sky_Kingdom\Eye_Battle.cfg:58
+#: Era_of_Magic\units\Sky_Kingdom\Eye_Cosmic.cfg:59
+#: Era_of_Magic\units\Sky_Kingdom\Eye_Magical.cfg:42
 msgid "beam"
 msgstr ""
 
@@ -2111,7 +2109,7 @@ msgid "Cosmic Eyes are the most advanced version of the magical eye. They are us
 msgstr ""
 
 #. [attack]: type=secret
-#: Era_of_Magic\units\Sky_Kingdom\Eye_Cosmic.cfg:72
+#: Era_of_Magic\units\Sky_Kingdom\Eye_Cosmic.cfg:71
 msgid "reality warp"
 msgstr ""
 
@@ -3239,16 +3237,16 @@ msgid "'Black Orbs' are electricity-conducting crystal spheres, which have been 
 msgstr ""
 
 #. [attack]: type=cold
-#: Era_of_Magic\units\Tharis\Black_Orb.cfg:139
-#: Era_of_Magic\units\Tharis\Dark_Observer.cfg:121
-#: Era_of_Magic\units\Tharis\Storm_Sphere.cfg:169
+#: Era_of_Magic\units\Tharis\Black_Orb.cfg:138
+#: Era_of_Magic\units\Tharis\Dark_Observer.cfg:120
+#: Era_of_Magic\units\Tharis\Storm_Sphere.cfg:168
 msgid "touch"
 msgstr ""
 
 #. [attack]: type=cold
-#: Era_of_Magic\units\Tharis\Black_Orb.cfg:151
-#: Era_of_Magic\units\Tharis\Dark_Observer.cfg:133
-#: Era_of_Magic\units\Tharis\Storm_Sphere.cfg:181
+#: Era_of_Magic\units\Tharis\Black_Orb.cfg:150
+#: Era_of_Magic\units\Tharis\Dark_Observer.cfg:132
+#: Era_of_Magic\units\Tharis\Storm_Sphere.cfg:180
 msgid "dark lightning"
 msgstr ""
 
@@ -3278,7 +3276,7 @@ msgid "Unlike their colleagues, some great witches prefer to abandon their home,
 msgstr ""
 
 #. [attack]: type=cold
-#: Era_of_Magic\units\Tharis\Cold_Matriarch.cfg:118
+#: Era_of_Magic\units\Tharis\Cold_Matriarch.cfg:117
 msgid "chill tempest"
 msgstr ""
 
@@ -3318,7 +3316,7 @@ msgstr ""
 msgid "knives"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Dark_Executioner, race=eoma_tharis, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_SLOW}+{SPECIAL_NOTES_BACKSTAB}+{SPECIAL_NOTES_POISON}
+#. [unit_type]: id=EoMa_Dark_Executioner, race=eoma_tharis, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Tharis\Dark_Executioner.cfg:4
 msgid "Dark Executioner"
 msgstr ""
@@ -3333,7 +3331,7 @@ msgstr ""
 msgid "Dark hunters are probably some of the best examples of what Tharis represents for other races. These silent killers can easily eliminate most kinds of enemy infantry, especially if there is a gap in their formation, but are less efficient against non-living enemies, since they are immune to the poisoned thrown daggers used by dark hunters."
 msgstr ""
 
-#. [unit_type]: id=EoMa_Dark_Observer, race=mechanical, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_MAGICAL}
+#. [unit_type]: id=EoMa_Dark_Observer, race=mechanical, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Tharis\Dark_Observer.cfg:4
 msgid "Dark Observer"
 msgstr ""
@@ -3384,7 +3382,7 @@ msgstr ""
 msgid "Dark Disciples are inexperienced practitioners of the occult. Every one of them aspires to become a Great Warlock someday, but only a select few actually succeed in earning that prestigious title in their lifetime. Although they only have their fists to defend themselves with in melee combat, their dark spells are not something to underestimate."
 msgstr ""
 
-#. [unit_type]: id=EoMa_General, race=eoma_tharis, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_MAGICAL}+{SPECIAL_NOTES_LEADERSHIP}
+#. [unit_type]: id=EoMa_General, race=eoma_tharis, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Tharis\General.cfg:4
 msgid "Dark General"
 msgstr ""
@@ -3464,7 +3462,7 @@ msgstr ""
 msgid "Chaos Hydras are the finest specimens of their kind, enhanced with black magic. These towering beasts devour infantry with ease, and sow fear in the enemy ranks."
 msgstr ""
 
-#. [unit_type]: id=EoMa_Raging_Hydra, race=monster, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_REGENERATES}+{SPECIAL_NOTES_SWARM}+{SPECIAL_NOTES_DRAIN}
+#. [unit_type]: id=EoMa_Raging_Hydra, race=monster, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Tharis\Hydra_Raging.cfg:4
 msgid "Great Hydra"
 msgstr ""
@@ -3484,7 +3482,7 @@ msgstr ""
 msgid "implosion"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Master_of_War, race=eoma_tharis, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_MAGICAL}+{SPECIAL_NOTES_LEADERSHIP}
+#. [unit_type]: id=EoMa_Master_of_War, race=eoma_tharis, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Tharis\Master_of_War.cfg:4
 msgid "Dark Warlord"
 msgstr ""
@@ -3525,13 +3523,13 @@ msgstr ""
 msgid "metal claws"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Storm_Sphere, race=mechanical, description={NO_DESCR_AVAILABLE}+{SPECIAL_NOTES}+{SPECIAL_NOTES_MAGICAL}
+#. [unit_type]: id=EoMa_Storm_Sphere, race=mechanical, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Tharis\Storm_Sphere.cfg:4
 msgid "Storm Sphere"
 msgstr ""
 
 #. [attack]: type=cold
-#: Era_of_Magic\units\Tharis\Storm_Sphere.cfg:193
+#: Era_of_Magic\units\Tharis\Storm_Sphere.cfg:192
 msgid "life drain"
 msgstr ""
 
@@ -3687,156 +3685,156 @@ msgstr ""
 
 #. [damage]: id=eoma_furiousdeath{DMG}{TYPE}
 #: Era_of_Magic\utils\abilities.cfg:96
-msgid "Moments before this unit's death, it flies into a fury, dealing {DMG} damage to adjacent units, friend or foes alike."
-msgstr ""
-
-#. [dummy]: id=eoma_hardlanding{DMG}{TYPE}
-#: Era_of_Magic\utils\abilities.cfg:147
-msgid "hard landing"
+msgid "Moments before this unit's death, it flies into a fury, dealing {DMG} damage to adjacent units, friend or foes alike. When a harmed adjacent unit goes to or below 0 HP, its HP are set to 1 instead of being killed."
 msgstr ""
 
 #. [dummy]: id=eoma_hardlanding{DMG}{TYPE}
 #: Era_of_Magic\utils\abilities.cfg:148
-msgid "When this large unit is destroyed, it falls on a ground dealing damage to all adjacent units. "
+msgid "hard landing"
 msgstr ""
 
-#. [dummy]: id=eoma_parachute
-#: Era_of_Magic\utils\abilities.cfg:188
-msgid "parachute"
+#. [dummy]: id=eoma_hardlanding{DMG}{TYPE}
+#: Era_of_Magic\utils\abilities.cfg:149
+msgid "When this large unit is destroyed, it falls on a ground dealing damage to all adjacent units. When a harmed adjacent unit goes to or below 0 HP, its HP are set to 1 instead of being killed."
 msgstr ""
 
 #. [dummy]: id=eoma_parachute
 #: Era_of_Magic\utils\abilities.cfg:190
+msgid "parachute"
+msgstr ""
+
+#. [dummy]: id=eoma_parachute
+#: Era_of_Magic\utils\abilities.cfg:192
 msgid "The pilot of this machine is equipped with a parachute, and he can survive the destruction of his vehicle, continuing to fight as a lvl0 unit."
 msgstr ""
 
 #. [damage]: id=eoma_areaeffect
-#: Era_of_Magic\utils\abilities.cfg:224
+#: Era_of_Magic\utils\abilities.cfg:226
 msgid "area effect"
 msgstr ""
 
 #. [damage]: id=eoma_areaeffect
-#: Era_of_Magic\utils\abilities.cfg:226
+#: Era_of_Magic\utils\abilities.cfg:228
 msgid "When this attack is used, all units adjacent to the target (except the attacker) receive half of the attack's damage. Does not work on defense."
 msgstr ""
 
 #. [damage]: id=eoma_areaeffectrandom
-#: Era_of_Magic\utils\abilities.cfg:373
+#: Era_of_Magic\utils\abilities.cfg:375
 msgid "random area effect"
 msgstr ""
 
 #. [damage]: id=eoma_areaeffectrandom
-#: Era_of_Magic\utils\abilities.cfg:374
+#: Era_of_Magic\utils\abilities.cfg:376
 msgid "When this attack is used, random units adjacent to the target (except the attacker) get half of the basic damage. Does not work on defense."
 msgstr ""
 
 #. [damage]: id=eoma_swallow{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:514
+#: Era_of_Magic\utils\abilities.cfg:516
 msgid "swallow"
 msgstr ""
 
 #. [damage]: id=eoma_swallow{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:515
+#: Era_of_Magic\utils\abilities.cfg:517
 msgid "This unit gains hitpoints added to its current health whenever it kills a living unit."
 msgstr ""
 
-#. [dummy]: id=eoma_bonecollector
-#: Era_of_Magic\utils\abilities.cfg:560
+#. [bonecollector]: id=eoma_bonecollector
+#: Era_of_Magic\utils\abilities.cfg:562
 msgid "bone collector"
 msgstr ""
 
-#. [dummy]: id=eoma_bonecollector
-#: Era_of_Magic\utils\abilities.cfg:561
+#. [bonecollector]: id=eoma_bonecollector
+#: Era_of_Magic\utils\abilities.cfg:563
 msgid "This unit gains hitpoints added to its current health whenever it kills a non-magical unit. The amount of hitpoints gained equals"
 msgstr ""
 
-#. [dummy]: id=eoma_bonecollector
-#: Era_of_Magic\utils\abilities.cfg:561
+#. [bonecollector]: id=eoma_bonecollector
+#: Era_of_Magic\utils\abilities.cfg:563
 msgid "of defeated enemy's max health. This unit also gains +1 max hp with each successful kill of a non-magical unit."
 msgstr ""
 
 #. [floating_text]
-#: Era_of_Magic\utils\abilities.cfg:580
+#: Era_of_Magic\utils\abilities.cfg:585
 msgid "+1 max hp"
 msgstr ""
 
 #. [dummy]: id=eoma_split
-#: Era_of_Magic\utils\abilities.cfg:610
+#: Era_of_Magic\utils\abilities.cfg:615
 msgid "split"
 msgstr ""
 
 #. [dummy]: id=eoma_split
-#: Era_of_Magic\utils\abilities.cfg:611
+#: Era_of_Magic\utils\abilities.cfg:616
 msgid "When dying this unit splits into 2 smaller versions of itself."
 msgstr ""
 
 #. [dummy]: id=eoma_antishield
-#: Era_of_Magic\utils\abilities.cfg:644
+#: Era_of_Magic\utils\abilities.cfg:649
 msgid "anti-shield"
 msgstr ""
 
 #. [dummy]: id=eoma_antishield
-#: Era_of_Magic\utils\abilities.cfg:645
+#: Era_of_Magic\utils\abilities.cfg:650
 msgid "This attack negates all possible resistances, thus the damage output is always constant."
 msgstr ""
 
 #. [dummy]: id=eoma_poisonousaura
-#: Era_of_Magic\utils\abilities.cfg:652
+#: Era_of_Magic\utils\abilities.cfg:657
 msgid "poisonous aura"
 msgstr ""
 
 #. [dummy]: id=eoma_poisonousaura
-#: Era_of_Magic\utils\abilities.cfg:653
+#: Era_of_Magic\utils\abilities.cfg:658
 msgid "All living non-magical enemy units adjacent to this unit lose 2 HP and become poisoned at the beginning of this unit's turn. If an enemy unit's HP goes to or below 0 HP, its HP are set to 1."
 msgstr ""
 
 #. [dummy]: id=eoma_alterego
-#: Era_of_Magic\utils\abilities.cfg:716
+#: Era_of_Magic\utils\abilities.cfg:721
 msgid "alter ego"
 msgstr ""
 
 #. [dummy]: id=eoma_alterego
-#: Era_of_Magic\utils\abilities.cfg:717
+#: Era_of_Magic\utils\abilities.cfg:722
 msgid "At night this unit transforms into its alternative version."
 msgstr ""
 
 #. [dummy]: id=eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:745
+#: Era_of_Magic\utils\abilities.cfg:750
 msgid "damage aura"
 msgstr ""
 
 #. [dummy]: id=eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:746
+#: Era_of_Magic\utils\abilities.cfg:751
 msgid "This unit harms all adjacent enemies at the start of each turn by a certain amount of damage (affected by the ToD bonus), giving the unit experience for each enemy harmed/killed."
 msgstr ""
 
 #. [dummy]: id=lesser_eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:835
+#: Era_of_Magic\utils\abilities.cfg:840
 msgid "lesser damage aura"
 msgstr ""
 
 #. [dummy]: id=lesser_eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:836
+#: Era_of_Magic\utils\abilities.cfg:841
 msgid "This unit harms all adjacent enemies at the start of each turn by a certain amount of damage (affected by the ToD bonus), without giving the unit experience for each enemy harmed. Like poison, it can't kill."
 msgstr ""
 
 #. [damage]: id=eoma_immoblize
-#: Era_of_Magic\utils\abilities.cfg:926
+#: Era_of_Magic\utils\abilities.cfg:931
 msgid "immobilize"
 msgstr ""
 
 #. [damage]: id=eoma_immoblize
-#: Era_of_Magic\utils\abilities.cfg:927
+#: Era_of_Magic\utils\abilities.cfg:932
 msgid "When used offensively, units hit with this attack become unable to move for 1 turn"
 msgstr ""
 
 #. [damage]: id=eoma_dazzle
-#: Era_of_Magic\utils\abilities.cfg:1061
+#: Era_of_Magic\utils\abilities.cfg:1066
 msgid "dazzle"
 msgstr ""
 
 #. [damage]: id=eoma_dazzle
-#: Era_of_Magic\utils\abilities.cfg:1062
+#: Era_of_Magic\utils\abilities.cfg:1067
 msgid "When used offensively, units hit with this attack suffer a 35% reduction in damage and a 10% reduction in defenses for 1 turn"
 msgstr ""
 
@@ -3931,7 +3929,7 @@ msgstr ""
 
 #. [damage]: id=eoma_growingfury{ARRAY}{ADD}
 #: Era_of_Magic\utils\growing-fury.cfg:11
-msgid "When this attack is used, this units damage increases after each successful hit."
+msgid "When this attack is used, this units damage increases after each successful hit until 4th strike."
 msgstr ""
 
 #. [heals]: id=eoma_healing
@@ -4187,52 +4185,12 @@ msgstr ""
 msgid "This unit can only advance by consuming a magical or living being."
 msgstr ""
 
-#: Era_of_Magic\utils\special-notes.cfg:4
-msgid "This unit can create other units in the near free spaces, but not in villages."
-msgstr ""
-
-#: Era_of_Magic\utils\special-notes.cfg:7
-msgid " This unit returns to life if it is killed while it has more than one hit point."
-msgstr ""
-
-#: Era_of_Magic\utils\special-notes.cfg:10
-msgid " This unit can effecively fight with magical units by turning them into Dimensional Gates."
-msgstr ""
-
-#: Era_of_Magic\utils\special-notes.cfg:13
-msgid " This unit regenerates in the presence of lava."
-msgstr ""
-
-#: Era_of_Magic\utils\special-notes.cfg:16
-msgid " This unit is capable of minor healing."
-msgstr ""
-
-#: Era_of_Magic\utils\special-notes.cfg:19
-msgid " The presence of this unit inspires own units next to it to deal more damage in combat, though this only applies to units of lower or equal level."
-msgstr ""
-
-#: Era_of_Magic\utils\special-notes.cfg:22
-msgid " This unit increases the resistances of adjacent friendly units."
-msgstr ""
-
-#: Era_of_Magic\utils\special-notes.cfg:25
-msgid " This unit invokes awe in adjacent enemy units of the same or lower level, causing them to have their damage reduced."
-msgstr ""
-
-#: Era_of_Magic\utils\special-notes.cfg:28
-msgid " This unit can turn enemy units into stone for two turns."
-msgstr ""
-
-#: Era_of_Magic\utils\special-notes.cfg:31
-msgid " This unit is capable of superior healing and also cures poison."
-msgstr ""
-
-#: Era_of_Magic\utils\special-notes.cfg:34
-msgid " This unit regenerates in the presence of water."
-msgstr ""
-
 #: Era_of_Magic\utils\strings.cfg:4
 msgid "No description available"
+msgstr ""
+
+#: Era_of_Magic\utils\strings.cfg:7
+msgid "(INACTIVE IN RPG MODE)"
 msgstr ""
 
 #. [dummy]: id=eoma_summon
@@ -4249,39 +4207,39 @@ msgid ""
 msgstr ""
 
 #. [set_menu_item]: id=summon_{ID}, description= - 
-#: Era_of_Magic\utils\summon.cfg:41
+#: Era_of_Magic\utils\summon.cfg:44
 msgid "gold:"
 msgstr ""
 
 #. [unstore_unit]
-#: Era_of_Magic\utils\summon.cfg:113
-#: Era_of_Magic\utils\summon.cfg:149
-#: Era_of_Magic\utils\summon.cfg:179
+#: Era_of_Magic\utils\summon.cfg:118
+#: Era_of_Magic\utils\summon.cfg:154
+#: Era_of_Magic\utils\summon.cfg:184
 msgid "+3 exp"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Era_of_Magic\utils\summon.cfg:196
+#: Era_of_Magic\utils\summon.cfg:201
 msgid "Error"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Era_of_Magic\utils\summon.cfg:197
+#: Era_of_Magic\utils\summon.cfg:202
 msgid "I have insufficient materials. I am unable to summon."
 msgstr ""
 
 #. [set_menu_item]: id=summon_zhelp
-#: Era_of_Magic\utils\summon.cfg:208
+#: Era_of_Magic\utils\summon.cfg:213
 msgid "Summoning Help"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Era_of_Magic\utils\summon.cfg:223
+#: Era_of_Magic\utils\summon.cfg:230
 msgid "Help"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Era_of_Magic\utils\summon.cfg:224
+#: Era_of_Magic\utils\summon.cfg:231
 msgid ""
 "To summon a unit right-click on hexes adjacent to a selected summoner.\n"
 "\n"
@@ -4312,47 +4270,47 @@ msgid "secret"
 msgstr ""
 
 #. [era]: id=era_magic
-#: Era_of_Magic\EoMa_eras.cfg:9
+#: Era_of_Magic\EoMa_eras.cfg:52
 msgid "Era of Magic"
 msgstr ""
 
 #. [era]: id=era_magic
-#: Era_of_Magic\EoMa_eras.cfg:11
+#: Era_of_Magic\EoMa_eras.cfg:54
 msgid "The Era of Magic consists of 8 unique factions (all of which are fully animated, with many unit having fancy custom abilities/weapon specials):"
 msgstr ""
 
 #. [era]: id=era_magic
-#: Era_of_Magic\EoMa_eras.cfg:37
+#: Era_of_Magic\EoMa_eras.cfg:80
 msgid "The Era of Magic consists currently of 8 unique, fully animated factions: Barbarians, Darkblooded, Destroyers, Kharos, Runemasters, Sky Kingdom, Summoners and Tharis. Many units have fancy custom abilities/weapon specials."
 msgstr ""
 
 #. [era]: id=era_magic_rpg
-#: Era_of_Magic\EoMa_eras.cfg:56
+#: Era_of_Magic\EoMa_eras.cfg:99
 msgid "Era of Magic (RPG)"
 msgstr ""
 
 #. [era]: id=era_magic_rpg
-#: Era_of_Magic\EoMa_eras.cfg:58
+#: Era_of_Magic\EoMa_eras.cfg:101
 msgid "A variant of Era of Magic designed for playing scenarios which involve elements of roleplaying (RPG) by having lvl1 units as leaders with empty recruit lists."
 msgstr ""
 
 #. [era]: id=era_magic_aoh
-#: Era_of_Magic\EoMa_eras.cfg:76
+#: Era_of_Magic\EoMa_eras.cfg:119
 msgid "Era of Magic (Age of Heroes)"
 msgstr ""
 
 #. [era]: id=era_magic_aoh
-#: Era_of_Magic\EoMa_eras.cfg:77
+#: Era_of_Magic\EoMa_eras.cfg:120
 msgid "A variant of Era of Magic with higher level units: level 3 leaders, with level 1 and 2 units available for recruit. Not considered balanced."
 msgstr ""
 
 #. [era]: id=era_magic_masters&slaves
-#: Era_of_Magic\EoMa_eras.cfg:95
+#: Era_of_Magic\EoMa_eras.cfg:138
 msgid "Era of Magic (Masters &amp; Slaves)"
 msgstr ""
 
 #. [era]: id=era_magic_masters&slaves
-#: Era_of_Magic\EoMa_eras.cfg:96
+#: Era_of_Magic\EoMa_eras.cfg:139
 msgid "A variant of Era of Magic with higher level units: level 4 leaders, with level 2 and 3 units available for recruit. Not considered balanced."
 msgstr ""
 
