@@ -1,6 +1,41 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.4 Beta 1
+ ### Units
+	** Barbarians:
+	 * Cyclops Breaker: changed main fist attack from 7-4 to 5-5 and decreased growing fury value from 4 to 3
+	** Sky Kingdom:
+	 * Black Mage: the entrapement spell has magical instead of skilled weapon special
+	 * Master of Fire: hitpoints from 55 to 58
+	 * Master of Water: hitpooints from 58 to 55
+	**Tharis:
+	 * Dark Slayer: hitpoints from 40 to 42
+ ### Abiltiies
+	* disabled some abilities and weapon specials in rpg mode (summon, summon undead, bone collector, sculpt)
+	* limited growing fury damage boost to 3 first strikes
+	* furious death and hard landing abilities no longer kill adjacent units when hp < 0
+ ### Gameplay
+	* removed some units from leaders' lists (Blood Warrior, lvl2 Toads, Dwarvish Tank, Pacificator, Dark Assassin)
+	* some lvl2 leaders are now nerfed in Multiplayer by applying the "weak" trait (Rhami'datu, Rhami'kai, Dharma'rhami, Ho'rhami, Great Jinni, Wonderful Jinni, Efreeti, Great Efreeti); additionaly Efreeti's max movement as leader is decreased by 1
+ ### Code
+	* enabled lua support; implemented rpg check
+    * fixed terrain type animation filter for Cold Matriarch
+	* removed get_hit_sound= key - replaced it with {DEFENSE_ANIM} macro where possible
+	* fixed invalid pango markup in the Zombies Challenge scenario
+	* restored {SOUND_LIST:GOBLIN_DIE} for the Goblin Shaman line
+	* removed all occurrences of {SPECIAL_NOTES} macros; deleted special-notes.cfg
+	* replaced the deprecated special= weapon filter with special_id= and special_type= keys
+	* replaced placement=map_passable with placement=map passable=yes
+	* fix zombie events not being registered properly (workaround)
+	* reworked the no counter-attack weapon special to use [disable] instead of [chance_to_hit]
+	* add some missing variation ids; add the "Fallen" prefix to all undead variation names
+	* added space in mixedfighter in Wyvern.cfg
+ ### Translations
+	* updated the raw translation file
+    * updated the Polish translation
+    * updated the Chinese translation
+
 ## Version 3.3
  ### Units
 	** Barbarians:
