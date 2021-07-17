@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2021-07-03 07:52 UTC\n"
+"POT-Creation-Date: 2021-07-17 13:00 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -141,8 +141,8 @@ msgstr ""
 #: Era_of_Magic\units\Barbarians\Cyclops_Goliath.cfg:67
 #: Era_of_Magic\units\Destroyers\Cyclops_Legendary.cfg:68
 #: Era_of_Magic\units\Destroyers\Cyclops_Legendary.cfg:81
-#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:130
-#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:143
+#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:132
+#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:145
 #: Era_of_Magic\units\Destroyers\Cyclops_Skeleton.cfg:67
 #: Era_of_Magic\units\Destroyers\Cyclops_Skeleton.cfg:80
 #: Era_of_Magic\units\Destroyers\Cyclop_Extinct_Mage.cfg:70
@@ -1029,12 +1029,12 @@ msgid "This unit summons a lvl0 zombie of random variation next to self at the s
 msgstr ""
 
 #. [attack]: type=blade
-#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:118
+#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:120
 msgid "cursed dagger"
 msgstr ""
 
 #. [dummy]: id=eoma_summoned_zombie
-#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:457
+#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:463
 msgid "This unit counts towards the summoned zombie limit."
 msgstr ""
 
@@ -3729,119 +3729,119 @@ msgid "When this attack is used, random units adjacent to the target (except the
 msgstr ""
 
 #. [damage]: id=eoma_swallow{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:516
+#: Era_of_Magic\utils\abilities.cfg:519
 msgid "swallow"
 msgstr ""
 
 #. [damage]: id=eoma_swallow{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:517
+#: Era_of_Magic\utils\abilities.cfg:520
 msgid "This unit gains hitpoints added to its current health whenever it kills a living unit."
 msgstr ""
 
 #. [bonecollector]: id=eoma_bonecollector
-#: Era_of_Magic\utils\abilities.cfg:562
+#: Era_of_Magic\utils\abilities.cfg:565
 msgid "bone collector"
 msgstr ""
 
 #. [bonecollector]: id=eoma_bonecollector
-#: Era_of_Magic\utils\abilities.cfg:563
+#: Era_of_Magic\utils\abilities.cfg:566
 msgid "This unit gains hitpoints added to its current health whenever it kills a non-magical unit. The amount of hitpoints gained equals"
 msgstr ""
 
 #. [bonecollector]: id=eoma_bonecollector
-#: Era_of_Magic\utils\abilities.cfg:563
+#: Era_of_Magic\utils\abilities.cfg:566
 msgid "of defeated enemy's max health. This unit also gains +1 max hp with each successful kill of a non-magical unit."
 msgstr ""
 
 #. [floating_text]
-#: Era_of_Magic\utils\abilities.cfg:585
+#: Era_of_Magic\utils\abilities.cfg:590
 msgid "+1 max hp"
 msgstr ""
 
 #. [dummy]: id=eoma_split
-#: Era_of_Magic\utils\abilities.cfg:615
+#: Era_of_Magic\utils\abilities.cfg:620
 msgid "split"
 msgstr ""
 
 #. [dummy]: id=eoma_split
-#: Era_of_Magic\utils\abilities.cfg:616
+#: Era_of_Magic\utils\abilities.cfg:621
 msgid "When dying this unit splits into 2 smaller versions of itself."
 msgstr ""
 
 #. [dummy]: id=eoma_antishield
-#: Era_of_Magic\utils\abilities.cfg:649
+#: Era_of_Magic\utils\abilities.cfg:654
 msgid "anti-shield"
 msgstr ""
 
 #. [dummy]: id=eoma_antishield
-#: Era_of_Magic\utils\abilities.cfg:650
+#: Era_of_Magic\utils\abilities.cfg:655
 msgid "This attack negates all possible resistances, thus the damage output is always constant."
 msgstr ""
 
 #. [dummy]: id=eoma_poisonousaura
-#: Era_of_Magic\utils\abilities.cfg:657
+#: Era_of_Magic\utils\abilities.cfg:662
 msgid "poisonous aura"
 msgstr ""
 
 #. [dummy]: id=eoma_poisonousaura
-#: Era_of_Magic\utils\abilities.cfg:658
+#: Era_of_Magic\utils\abilities.cfg:663
 msgid "All living non-magical enemy units adjacent to this unit lose 2 HP and become poisoned at the beginning of this unit's turn. If an enemy unit's HP goes to or below 0 HP, its HP are set to 1."
 msgstr ""
 
 #. [dummy]: id=eoma_alterego
-#: Era_of_Magic\utils\abilities.cfg:721
+#: Era_of_Magic\utils\abilities.cfg:729
 msgid "alter ego"
 msgstr ""
 
 #. [dummy]: id=eoma_alterego
-#: Era_of_Magic\utils\abilities.cfg:722
+#: Era_of_Magic\utils\abilities.cfg:730
 msgid "At night this unit transforms into its alternative version."
 msgstr ""
 
 #. [dummy]: id=eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:750
+#: Era_of_Magic\utils\abilities.cfg:758
 msgid "damage aura"
 msgstr ""
 
 #. [dummy]: id=eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:751
+#: Era_of_Magic\utils\abilities.cfg:759
 msgid "This unit harms all adjacent enemies at the start of each turn by a certain amount of damage (affected by the ToD bonus), giving the unit experience for each enemy harmed/killed."
 msgstr ""
 
 #. [dummy]: id=lesser_eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:840
+#: Era_of_Magic\utils\abilities.cfg:852
 msgid "lesser damage aura"
 msgstr ""
 
 #. [dummy]: id=lesser_eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:841
+#: Era_of_Magic\utils\abilities.cfg:853
 msgid "This unit harms all adjacent enemies at the start of each turn by a certain amount of damage (affected by the ToD bonus), without giving the unit experience for each enemy harmed. Like poison, it can't kill."
 msgstr ""
 
 #. [damage]: id=eoma_immoblize
-#: Era_of_Magic\utils\abilities.cfg:931
+#: Era_of_Magic\utils\abilities.cfg:947
 msgid "immobilize"
 msgstr ""
 
 #. [damage]: id=eoma_immoblize
-#: Era_of_Magic\utils\abilities.cfg:932
+#: Era_of_Magic\utils\abilities.cfg:948
 msgid "When used offensively, units hit with this attack become unable to move for 1 turn"
 msgstr ""
 
 #. [damage]: id=eoma_dazzle
-#: Era_of_Magic\utils\abilities.cfg:1066
+#: Era_of_Magic\utils\abilities.cfg:1091
 msgid "dazzle"
 msgstr ""
 
 #. [damage]: id=eoma_dazzle
-#: Era_of_Magic\utils\abilities.cfg:1067
+#: Era_of_Magic\utils\abilities.cfg:1092
 msgid "When used offensively, units hit with this attack suffer a 35% reduction in damage and a 10% reduction in defenses for 1 turn"
 msgstr ""
 
 #. [dummy]: id=eoma_cleave
 #. [dummy]: id=eoma_cleave{DISPLAYVALUE}
 #: Era_of_Magic\utils\cleave.cfg:128
-#: Era_of_Magic\utils\cleave.cfg:281
+#: Era_of_Magic\utils\cleave.cfg:287
 msgid "cleave"
 msgstr ""
 
@@ -3851,17 +3851,17 @@ msgid "A unit with this ability can hurt units that are adjacent to the attacker
 msgstr ""
 
 #. [dummy]: id=eoma_cleave{DISPLAYVALUE}
-#: Era_of_Magic\utils\cleave.cfg:282
+#: Era_of_Magic\utils\cleave.cfg:288
 msgid "A unit with this ability can hurt units that are adjacent to the attacker and the defender at the same time. The damage dealt equals {DISPLAYVALUE}% of the base damage."
 msgstr ""
 
 #. [dummy]: id=eoma_cleavehalf
-#: Era_of_Magic\utils\cleave.cfg:436
+#: Era_of_Magic\utils\cleave.cfg:448
 msgid "cleave 50%"
 msgstr ""
 
 #. [dummy]: id=eoma_cleavehalf
-#: Era_of_Magic\utils\cleave.cfg:437
+#: Era_of_Magic\utils\cleave.cfg:449
 msgid "A unit with this ability can hurt units that are adjacent to the attacker and the defender at the same time. The damage dealt equals 50% of the base damage."
 msgstr ""
 
@@ -3871,12 +3871,12 @@ msgid "This unit can attack two enemies in one turn, but cannot move from a hex,
 msgstr ""
 
 #. [unstore_unit]
-#: Era_of_Magic\utils\doubleattack.cfg:103
+#: Era_of_Magic\utils\doubleattack.cfg:106
 msgid "second target"
 msgstr ""
 
 #. [dummy]: id=split fire
-#: Era_of_Magic\utils\doubleattack.cfg:115
+#: Era_of_Magic\utils\doubleattack.cfg:118
 msgid "This unit can attack two enemies in one turn with this attack."
 msgstr ""
 
@@ -4207,39 +4207,39 @@ msgid ""
 msgstr ""
 
 #. [set_menu_item]: id=summon_{ID}, description= - 
-#: Era_of_Magic\utils\summon.cfg:44
+#: Era_of_Magic\utils\summon.cfg:46
 msgid "gold:"
 msgstr ""
 
 #. [unstore_unit]
-#: Era_of_Magic\utils\summon.cfg:118
-#: Era_of_Magic\utils\summon.cfg:154
-#: Era_of_Magic\utils\summon.cfg:184
+#: Era_of_Magic\utils\summon.cfg:124
+#: Era_of_Magic\utils\summon.cfg:160
+#: Era_of_Magic\utils\summon.cfg:191
 msgid "+3 exp"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Era_of_Magic\utils\summon.cfg:201
+#: Era_of_Magic\utils\summon.cfg:208
 msgid "Error"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Era_of_Magic\utils\summon.cfg:202
+#: Era_of_Magic\utils\summon.cfg:209
 msgid "I have insufficient materials. I am unable to summon."
 msgstr ""
 
 #. [set_menu_item]: id=summon_zhelp
-#: Era_of_Magic\utils\summon.cfg:213
+#: Era_of_Magic\utils\summon.cfg:220
 msgid "Summoning Help"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Era_of_Magic\utils\summon.cfg:230
+#: Era_of_Magic\utils\summon.cfg:239
 msgid "Help"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Era_of_Magic\utils\summon.cfg:231
+#: Era_of_Magic\utils\summon.cfg:240
 msgid ""
 "To summon a unit right-click on hexes adjacent to a selected summoner.\n"
 "\n"
