@@ -1,6 +1,14 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.4 Beta 2
+ ### Code
+	* replaced {FOREACH} with the [foreach] tag
+	* replaced {MISSILE_FRAME_FIREBALL} with {MISSILE_FRAME_FIREBALL_XY}
+	* check the rpg condition only in multiplayer
+ ### Translations
+	* updated the raw translation file
+
 ## Version 3.4 Beta 1
  ### Units
 	** Barbarians:
