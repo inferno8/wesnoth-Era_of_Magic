@@ -34,7 +34,7 @@ Espreon
 fog_of_gold
 ForestDragon
 kalfat
-MXB2001
+Atreides (MXB2001)
 Ravana
 
 DESCRIPTIONS
@@ -121,7 +121,7 @@ Zaku
 official BfW forum users:
 (in alphabetical order)
 
-Atreides
+Atreides (MXB2001)
 Aura (art advisory)
 Binaryquasar
 devas
