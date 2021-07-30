@@ -1,6 +1,17 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.4 Beta 3
+ ### Units
+	** Runemasters:
+	 * Red Ulfserker: renamed to 'Red Steam Ulfserker'
+ ### Code
+	* replaced placement=map_overwrite with placement,overwrite=map,yes
+	* added[allow_undo] to eoma_summon_select_event, constructor events, drone upgrade events and soul catcher events
+	* removed an invalid underscore in the triple strike weapon special causing pango markup warnings
+ ### Translations
+	* updated the raw translation file
+
 ## Version 3.4 Beta 2
  ### Code
 	* replaced {FOREACH} with the [foreach] tag
