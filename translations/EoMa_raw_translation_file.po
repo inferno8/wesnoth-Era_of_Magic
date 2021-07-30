@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2021-07-17 13:00 UTC\n"
+"POT-Creation-Date: 2021-07-30 14:42 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1653,33 +1653,33 @@ msgid "Build Drone"
 msgstr ""
 
 #. [attack]: type=blade
-#: Era_of_Magic\units\Runemasters\Constructor.cfg:104
+#: Era_of_Magic\units\Runemasters\Constructor.cfg:106
 #: Era_of_Magic\units\Runemasters\Mechanic.cfg:52
 #: Era_of_Magic\units\Runemasters\Technician.cfg:81
 msgid "saw"
 msgstr ""
 
 #. [attack]: type=impact
-#: Era_of_Magic\units\Runemasters\Constructor.cfg:113
+#: Era_of_Magic\units\Runemasters\Constructor.cfg:115
 #: Era_of_Magic\units\Runemasters\Mechanic.cfg:61
 #: Era_of_Magic\units\Runemasters\Technician.cfg:90
 msgid "wrench"
 msgstr ""
 
 #. [attack]: type=pierce
-#: Era_of_Magic\units\Runemasters\Constructor.cfg:122
+#: Era_of_Magic\units\Runemasters\Constructor.cfg:124
 #: Era_of_Magic\units\Runemasters\Mechanic.cfg:70
 #: Era_of_Magic\units\Runemasters\Technician.cfg:99
 msgid "screwdriver"
 msgstr ""
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Runemasters\Constructor.cfg:131
+#: Era_of_Magic\units\Runemasters\Constructor.cfg:133
 msgid "flamethrower"
 msgstr ""
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Runemasters\Constructor.cfg:141
+#: Era_of_Magic\units\Runemasters\Constructor.cfg:143
 #: Era_of_Magic\units\Runemasters\Technician.cfg:118
 msgid "bomb"
 msgstr ""
@@ -1902,7 +1902,7 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Red_Ulfserker, race=mechanical
 #: Era_of_Magic\units\Runemasters\Red_Ulfserker.cfg:4
-msgid "Red Ulfserker"
+msgid "Red Steam Ulfserker"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Red_Ulfserker, race=mechanical
@@ -4207,39 +4207,39 @@ msgid ""
 msgstr ""
 
 #. [set_menu_item]: id=summon_{ID}, description= - 
-#: Era_of_Magic\utils\summon.cfg:46
+#: Era_of_Magic\utils\summon.cfg:48
 msgid "gold:"
 msgstr ""
 
 #. [unstore_unit]
-#: Era_of_Magic\utils\summon.cfg:124
-#: Era_of_Magic\utils\summon.cfg:160
-#: Era_of_Magic\utils\summon.cfg:191
+#: Era_of_Magic\utils\summon.cfg:126
+#: Era_of_Magic\utils\summon.cfg:162
+#: Era_of_Magic\utils\summon.cfg:193
 msgid "+3 exp"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Era_of_Magic\utils\summon.cfg:208
+#: Era_of_Magic\utils\summon.cfg:210
 msgid "Error"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Era_of_Magic\utils\summon.cfg:209
+#: Era_of_Magic\utils\summon.cfg:211
 msgid "I have insufficient materials. I am unable to summon."
 msgstr ""
 
 #. [set_menu_item]: id=summon_zhelp
-#: Era_of_Magic\utils\summon.cfg:220
+#: Era_of_Magic\utils\summon.cfg:222
 msgid "Summoning Help"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Era_of_Magic\utils\summon.cfg:239
+#: Era_of_Magic\utils\summon.cfg:241
 msgid "Help"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Era_of_Magic\utils\summon.cfg:240
+#: Era_of_Magic\utils\summon.cfg:242
 msgid ""
 "To summon a unit right-click on hexes adjacent to a selected summoner.\n"
 "\n"
