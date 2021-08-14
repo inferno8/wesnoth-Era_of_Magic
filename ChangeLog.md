@@ -1,6 +1,14 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.4 Beta 4
+ ### Graphics
+	*flying units no longer cast shadows on chasm or lava tiles
+ ### Code
+	* fixed the "levelling loop" bug for aoe weapon specials utilizing "experience freeze" mechanics
+	* simplified animation code for Piranhas
+	* enabled lua for campaigns
+
 ## Version 3.4 Beta 3
  ### Units
 	** Runemasters:
