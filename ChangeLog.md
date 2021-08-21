@@ -1,6 +1,23 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.4 Beta 5
+ ### Units
+	** Barbarians:
+	 * Troll Sorcerer: -10% arcane resistance; increased cost by 1g from 19 to 20g
+	 * Roc Rider: decreased movement points from 9 to 8
+	 * Roc Rider: decreased movement points from 10 to 9
+	** Sky Kingdom:
+	 * Subversive Mage: increased movement points from 5 to 6 
+	 * Black Mage: increased movement points from 5 to 6 
+	 * Sculptor: increased movement points from 5 to 6 
+	 * Void Mage: increased movement points from 5 to 6 
+ ### Abilities
+	* improved the 'activate drone' ability description
+ ### Code
+	* fixed a bug in expfreeze resulting in hp restoration
+	* expfreeze uses most up-to-date value of unit experience
+
 ## Version 3.4 Beta 4
  ### Graphics
 	*flying units no longer cast shadows on chasm or lava tiles
