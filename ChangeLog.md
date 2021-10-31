@@ -1,6 +1,85 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.5
+ ### Gameplay
+	* added special rpg variations of 130 units with altered stats
+ ### Units
+	** Barbarians:
+	 * Goblin Archer: movement from 5 to 6; cost from 15g to 14g
+	 * Roc Rider: arcane resistance from 10% to 0%; pierce resistance from 0 to -10%
+	** Darkblood Alliance:
+	 * Chosen of Forest: cave defense 50%
+	 * Chosen of Marsh: cave defense 60%
+	 * Clan Leader: cave defense 50%
+	 * Corrupted Shaman: cave defense 60%
+	 * Swamp Mage: cave defense 60%
+	 * Jungle Guardian: cave defense 50%
+	 * Mystic: cave defense 50%
+	 * Saurian Assassin: cave defense 50%
+	 * Saurian Champion: cave defense 50%
+	 * Saurian Crossbowman: cave defense 50%
+	 * Saurian Pikeman: cave defense 50%
+	 * Saurian Blowgunner: cave defense 50%
+	 * Shamanistic Adept: cave defense 50%
+	 * Salamander: cold resistance from -10% to 0%; cave defense 60%; fungus defense 50%
+	 * Black Salamander: cold resistance from -10% to 0%; cave defense 60%; fungus defense 60%
+	 * Green Salamander: cold resistance from -10% to 0%; fungus defense 50%
+	 * Yellow Salamander: cold resistance from -10% to 0%; cave defense 60%; fungus defense 50%
+	 * Toad + advancements: now have only 1 trait
+	 * Battle Toad: cost from 40 to 42
+	 * Toad Archer: cost from 38 to 40
+	 * Toad Shaman: cost from 42 to 44
+	** Destroyers:
+	 * Nightmare: cost from 19g to 18g; replaced 'magical' with 'magical (offensive) weapon special for the 'touch' attack; changed 'chaotic blast' damage from 4 to 5
+	** Runemasters:
+	 * Heavy Baloon: cost from 32g to 35g
+	 * Steam Berserker: cost from 46g to 42g
+	 * Striding Machine: 'trample' attack damage from 9 to 8
+	** Sky Kingdom:
+	 * Subversive Mage: cold resistance from 10% to 15%; pierce resistance to 0%; swamp movement cost to 2; swamp defense to 40%
+	 * Black Mage: cold resistance from 15% to 10%; pierce resistance from -10% to 0%; swamp movement cost to 2; swamp defense 40%
+	 * Sculptor: cold resistance from 10% to 20%; pierce resistance to 0%
+	 * Void Mage: cold resistance from 20% to 25%; pierce resistance to 0%
+	 * Elementalist: fire resistance from 6% to 8%; cold resitance from 6% to 8%; frozen movement cost 2; sand defense 40%; shallow water defense 40%; frozen defense 30%
+	 * Pyromancer: sand defense 40%; sand movement cost to 1; mountains movement cost to 2
+	 * Master of Fire: sand defense 40%; sand movement cost to 1; mountains movement cost to 2
+	 * Hydromancer: swamp defense 40%; sand defense 40%; shallow water defense 40%; frozen defense 30; frozen movement cost to 2; swamp movement cost to 2; mountains movement cost to 2; cold and fire resistances from 6% to 8%
+	 * Golem: impact resistance from -20% to -15%
+	 * Hidden Face + advancements: number of traits increased to 2
+	 * Hidden Face: experience from 42 to 38; impact resistance from -20% to -10%
+	 * Mystic Warrior: impact resistance from -20% to -10%; experience from 110 to 114
+	 * Mu: impact resistance from 0% to 10%
+	** Summoners:
+	 * Air Elemental: 'hurricane' attack damage from 9 to 8
+	 * Camel Rider: experience from 52 to 42; frozen movement cost to 3; pierce resistance from -10% to 0%
+	 * Camel Master: frozen movement cost to 3; pierce resistance from -10% to 0%
+	 * Carpet Rider: removed the dextrous trait from the traits pool
+	 * Carpet Master: removed the dextrous trait from the traits pool
+	 * Fire Elemental: forest defense 40%
+	 * Fire Avatar: forest defense 40%
+	 * Rhami: experience from 52 to 48
+	 * Rhami'datu: experience from 110 to 114
+	 * Rhami'kai: experience from 110 to 114
+	 * Novice Summoner: 'scroll' damage from 12 to 11
+	 * Water Elemental: cost from 16g to 15g
+	** Tharis:
+	 * Blade Dancer: movement from 6 to 5; impact resistance from -10% to -20%; 'chakram' damage from 4 to 5 + 'marksman' weapon special
+	 * Sword Dancer: movement from 6 to 5; impact resistance from -10% to -20%; cost from 36 to 38
+	 * Dark Slayer: hitpoints from 42 to 44
+	 * Storm Sphere: cost from 26 to 34	 
+ ### Abilities
+	* added new "magical (offensive)" weapon special
+ ### Code
+	* remove the random_leader= key
+	* changed order of attacks for Steamcopter so the melee attack is on top
+	* fixed a typo in Sculptor's petrifying spell
+ ### Descriptions
+	* removed a note about secret resistance for Guru
+ ### Translations
+	* updated the raw translation file
+    * updated the Polish translation
+
 ## Version 3.4 Beta 5
  ### Units
 	** Barbarians:
