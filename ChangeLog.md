@@ -1,6 +1,31 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.5.1
+ ### Units
+	** Barbarians:
+	 * Troll Warbanner: melee attack has 'first strike' special now; added +1 strike for the ranged attack
+	** Sky Kingdom:
+	 * Battle Eye: the unit is now recruitable in the default gampeplay mode
+	 * Battlemage: reduced experience from 54 to 52; increased impact resistance by 10%
+	 * Elementalist: changed mountains movement costs from 3 to 2; added a new ranged pierce attack
+	 * Guru: increased secret resistance to 15%; changed cave defense to 40%; changed fungus defense to 40%; change cave movement cost to 2; change fungus movements cost to 2; the 'mystic touch' melee attack deals secret damage type, damage decreased from 11 to 9 (does not apply to the rpg variant)
+	 * Hydromancer: decreased impact resistance to 0
+	 * Master of Water: decreased impact resistance to 0, decreased the amount of regenerationton to +4 instead of +8
+	 * Mastermage: increased arcane resistance from 20% to 30%
+	 * Sorcerer: fire and cold resistances from 15% to 20%, increased arcane resistance from 20% to 30%
+	 * Subversive Mage: melee damage from 7-1 to 8-1
+	 * War Mage: impact resistance from 15% to 20%
+	** Summoners:
+	 * Air Elemental: decreased arcane resistance from 65% to 60%
+	 * Air Avatar: decreased arcane resistance from 65% to 60%
+	 * Air Avatar: decreased arcane resistance from 65% to 60%
+	 * Dimensional Gate: decreased arcane resistance from 40% to 30%
+	** Tharis: 
+	 * Bladedancer: increased experience from 42 to 46
+	 * Shadowblade: changed the second 'metal claws' melee attack damage from 9-3 to 8-4
+	 * Hydra: decreased experience from 58 to 54
+
 ## Version 3.5
  ### Gameplay
 	* added special rpg variations of 130 units with altered stats
