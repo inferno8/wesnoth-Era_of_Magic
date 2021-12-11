@@ -1,6 +1,10 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.5.1a
+ ### Code
+	* add #ifdef MULTIPLAYER check for the cleave weapon special to prevent lua errors in TLU
+
 ## Version 3.5.1
  ### Units
 	** Barbarians:
