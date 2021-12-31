@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2021-10-31 16:10 UTC\n"
+"POT-Creation-Date: 2021-12-31 12:31 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -163,7 +163,7 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Cyclops_Breaker, race=eoma_cyclops
 #: Era_of_Magic\units\Barbarians\Cyclops_Breaker.cfg:25
-msgid "While most cyclopes don't put much thought into their unarmed fighting style, some are intelligent enough to do otherwise. These so-called 'cyclops breakers' are the closest thing to martial artists that the barbarians have. Their brute force combined with some technique can easily knock out any humanoid being in seconds, if is careless enough to let its guard down."
+msgid "While most cyclopes don't put much thought into their unarmed fighting style, some are intelligent enough to do otherwise. These so-called 'cyclops breakers' are the closest thing to martial artists that the barbarians have. Their brute force combined with some technique can easily knock out any humanoid being in seconds, if they are careless enough to let its guard down."
 msgstr ""
 
 #. [specials]
@@ -280,8 +280,8 @@ msgstr ""
 #. [attack]: type=pierce
 #: Era_of_Magic\units\Barbarians\Goblin_Raider.cfg:68
 #: Era_of_Magic\units\Barbarians\Goblin_Raider.cfg:60
-#: Era_of_Magic\units\Dark_Blood_Alliance\Saurian_Assassin.cfg:72
-#: Era_of_Magic\units\Dark_Blood_Alliance\Saurian_Assassin.cfg:64
+#: Era_of_Magic\units\Dark_Blood_Alliance\Saurian_Assassin.cfg:70
+#: Era_of_Magic\units\Dark_Blood_Alliance\Saurian_Assassin.cfg:62
 #: Era_of_Magic\units\Dark_Blood_Alliance\Toad_Double_Ranged.cfg:88
 #: Era_of_Magic\units\Dark_Blood_Alliance\Toad_Double_Ranged.cfg:81
 #: Era_of_Magic\units\Dark_Blood_Alliance\Toad_Double_Ranged_rpg.cfg:18
@@ -316,7 +316,7 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Goblin_Shaman, race=goblin
 #: Era_of_Magic\units\Barbarians\Goblin_Shaman.cfg:23
-msgid "Long ago, an unusually intelligent goblin decided to leave his tribe, tired of his boring life. In his travels, he've been observing users of of magic all over the world. Most goblins, orcs and trolls are too dumb to even understand it's basics, not to mention using it. He tried the best he could to learn how to use it, whatever it takes. After about a decade of observing, imitating, and stealing from various kinds of magi he encountered, he started figuring out patterns of spellcasting. Upon his return, his newfound powers attracted many a follower among goblins, who wanted to learn this outlandish skill. Most of them failed to learn even the basics, but some succeeded, and then started spreading this knowledge across the wasteland, long after their master's death, starting a chain reaction that started from a single goblin, and turned into an entire cult. These so-called goblin shamans aren't very common, but plentiful enough to be often seen in the rear of barbarian hordes, acting as healers and advisors."
+msgid "Long ago, an unusually intelligent goblin decided to leave his tribe, tired of his boring life. In his travels, he'd been observing users of of magic all over the world. Most goblins, orcs and trolls are too dumb to even understand it's basics, not to mention using it. He tried the best he could to learn how to use it, whatever it takes. After about a decade of observing, imitating, and stealing from various kinds of magi he encountered, he started figuring out patterns of spellcasting. Upon his return, his newfound powers attracted many a follower among goblins, who wanted to learn this outlandish skill. Most of them failed to learn even the basics, but some succeeded, and then started spreading this knowledge across the wasteland, long after their master's death, starting a chain reaction that started from a single goblin, and turned into an entire cult. These so-called goblin shamans aren't very common, but plentiful enough to be often seen in the rear of barbarian hordes, acting as healers and advisors."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Goblin_Sniper, race=goblin, description={NO_DESCR_AVAILABLE}
@@ -383,7 +383,7 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Barbarian_King, race=orc
 #: Era_of_Magic\units\Barbarians\Orc_King.cfg:20
-msgid "The Barbarian King is the Great Horde's ruthless monarch, ruling over his subjects with an iron fist. Though he spends most of his time on his skull-decorated throne, he can easily beat just about any opponent in one-on-one melee combat, or groups of inexperienced soldiers. He always dreamed of conquering the Jungle of Life (with it's vast natural resources), stopping at nothing to make the dream a reality."
+msgid "The Barbarian King is the Great Horde's ruthless monarch, ruling over his subjects with an iron fist. Though he spends most of his time on his skull-decorated throne, he can easily beat just about any opponent in one-on-one melee combat, or groups of inexperienced soldiers. He always dreamed of conquering the Jungle of Life (with it's vast natural resources), stopping at nothing to make his dream a reality."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Barbarian_Lord, race=orc, description={NO_DESCR_AVAILABLE}
@@ -439,9 +439,7 @@ msgid "Troll Fire Wizard"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Troll_Fire_Wizard, race=troll
-#. [unit_type]: id=EoMa_Troll_Warlock, race=troll
 #: Era_of_Magic\units\Barbarians\Troll_Fire_Wizard.cfg:27
-#: Era_of_Magic\units\Barbarians\Troll_Warlock.cfg:28
 msgid "Troll shamans are the mystical leaders of the trolls. Though not as strong or tough as other trolls, their true power lies in their fire magic, which they use to blast enemies with gouts of fire."
 msgstr ""
 
@@ -474,6 +472,11 @@ msgstr ""
 #. [unit_type]: id=EoMa_Troll_Warlock, race=troll
 #: Era_of_Magic\units\Barbarians\Troll_Warlock.cfg:4
 msgid "Troll Warlock"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Troll_Warlock, race=troll
+#: Era_of_Magic\units\Barbarians\Troll_Warlock.cfg:28
+msgid "Troll warlocks are the mystical leaders of the trolls. Though not as strong or tough as other trolls, their true power lies in their fire magic, which they use to blast enemies with gouts of fire."
 msgstr ""
 
 #. [attack]: type=fire
@@ -622,7 +625,7 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Green_Salamander, race=eoma_salamander
 #: Era_of_Magic\units\Dark_Blood_Alliance\Salamander_Green.cfg:20
-msgid "When a Salamander's skin turns green, their ability to blend in with vegetation increases. To improve their already tremendous camouflage capabilities even further, they wear foliage on their bodies. Battle reports state that these warriors are seldom by themselves and are the Dark Blood Alliance's hunters. Their tactics involve attacking from the trees, using nets to hinder the enemy, and then finishing them off with their wrist blades."
+msgid "When a Salamander's skin turns green, their ability to blend in with vegetation increases. To improve their already tremendous camouflage capabilities even further, they wear foliage on their bodies. Battle reports state that these warriors are seldom by themselves and are the Dark Blood Alliance's hunters. Their tactics involve attacking from the trees, using nets to hinder the enemy, and then finishing them off with their maces."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Red_Salamander, race=eoma_salamander
@@ -662,27 +665,19 @@ msgstr ""
 msgid "kunai"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Saurian_Assassin, race=lizard
+#. [unit_type]: id=EoMa_Saurian_Assassin, race=lizard, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Dark_Blood_Alliance\Saurian_Assassin.cfg:4
 msgid "Saurian Assassin"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Saurian_Assassin, race=lizard
-#: Era_of_Magic\units\Dark_Blood_Alliance\Saurian_Assassin.cfg:21
-msgid ""
-"Saurians are very small of frame, and though they are somewhat frail because of this, they are very, very agile. In combat, their size allows them to dart past defenses that would hold any grown man at bay, making them a tricky foe to deal with.\n"
-"\n"
-"Spears are their preferred weapon, as their powerful hind legs can drive a spear with enough force to do considerable damage, either in hand or thrown."
-msgstr ""
-
 #. [unit_type]: id=EoMa_Saurian_Champion, race=lizard, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Dark_Blood_Alliance\Saurian_Champion.cfg:4
-msgid "Saurian Champion"
+msgid "Jungle Champion"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Saurian_Crossbowman, race=lizard
 #: Era_of_Magic\units\Dark_Blood_Alliance\Saurian_Crossbowman.cfg:4
-msgid "Saurian Crossbowman"
+msgid "Jungle Crossbowman"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Saurian_Crossbowman, race=lizard
@@ -692,7 +687,7 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Saurian_Pikeman, race=lizard
 #: Era_of_Magic\units\Dark_Blood_Alliance\Saurian_Pikeman.cfg:4
-msgid "Saurian Pikeman"
+msgid "Jungle Pikeman"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Saurian_Pikeman, race=lizard
@@ -702,7 +697,7 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Saurian_Shooter, race=lizard
 #: Era_of_Magic\units\Dark_Blood_Alliance\Saurian_Shooter.cfg:4
-msgid "Saurian Blowgunner"
+msgid "Jungle Blowgunner"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Saurian_Shooter, race=lizard
@@ -1039,7 +1034,7 @@ msgid "cursed dagger"
 msgstr ""
 
 #. [dummy]: id=eoma_summoned_zombie
-#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:463
+#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:467
 msgid "This unit counts towards the summoned zombie limit."
 msgstr ""
 
@@ -1259,7 +1254,7 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Adept_of_Light, race=human
 #: Era_of_Magic\units\Kharos\Adept_of_Light.cfg:20
-msgid "In the Kharosian society, it's common for women to join the priesthood. They aren't quite as capable of using solar magic as men are, but are far more adept light magic; conjuring beams of light at their boes, and being quite skilled at healing the wounded."
+msgid "In the Kharosian society, it's common for women to join the priesthood. They aren't quite as capable of using solar magic as men are, but are far more adept at light magic; conjuring beams of light at their foes, and being quite skilled at healing the wounded."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Avenger, race=human
@@ -1320,7 +1315,6 @@ msgstr ""
 #: Era_of_Magic\units\Kharos\Child_of_Light.cfg:67
 #: Era_of_Magic\units\Kharos\Mistress_of_Light.cfg:82
 #: Era_of_Magic\units\Kharos\Sister_of_Light.cfg:51
-#: Era_of_Magic\units\Sky_Kingdom\Guru.cfg:100
 #: Era_of_Magic\units\Sky_Kingdom\Mastermage.cfg:39
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:85
 msgid "light touch"
@@ -1339,7 +1333,7 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Cleric, race=human
 #: Era_of_Magic\units\Kharos\Cleric.cfg:19
-msgid "Bishops are the more experienced and higher-ranking priestesses of Light. Their blessings not only quick regenerate their allies' wounds, but also strongly boost their morale."
+msgid "Bishops are the more experienced and higher-ranking priestesses of Light. Their blessings not only quicky regenerate their allies' wounds, but also strongly boost their morale."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Elemental_Archer, race=human
@@ -1438,18 +1432,18 @@ msgid "Kirios"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Kirios, race=human
-#: Era_of_Magic\units\Kharos\Kirios.cfg:19
+#: Era_of_Magic\units\Kharos\Kirios.cfg:18
 msgid "The Kirios is a sun guardian who reached the peak of connection to the sun, at least to an extent achievable by a human being. During the day, he is able to easily regenerate even some of the wounds that would be lethal for anyone else, and his willpower is so strong, that he treats barrages of enemy spells as if they were just a gentle breeze. Kirios is able to summon large beams of solar energy, which are able to fry multiple foes in a row. He's also the commander-in-chief of the Kharos army."
 msgstr ""
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Kharos\Kirios.cfg:94
+#: Era_of_Magic\units\Kharos\Kirios.cfg:93
 #: Era_of_Magic\units\Kharos\Sun_Guardian.cfg:90
 msgid "fusion"
 msgstr ""
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Kharos\Kirios.cfg:106
+#: Era_of_Magic\units\Kharos\Kirios.cfg:105
 msgid "solar beam"
 msgstr ""
 
@@ -1465,7 +1459,7 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Master_of_Sun, race=human
 #: Era_of_Magic\units\Kharos\Master_of_Sun.cfg:20
-msgid "The Solar Master is the most skilled golden warrior in the entire Kharosian nation. He attacks in a twinkle of an eye, making his enemies almost unable to dodge his strikes. He is also able to shoot barrages of magic missiles onto his opponents, easily dodge most non-magical attacks, and regenerate some of his wounds during daytime."
+msgid "The Solar Master is the most skilled golden warrior in the entire Kharosian nation. He can attack in the blink of an eye, making his enemies almost unable to dodge his strikes. He is also able to shoot barrages of magic missiles onto his opponents, easily dodge most non-magical attacks, and heal some of his wounds during daytime."
 msgstr ""
 
 #. [attack]: type=blade
@@ -1572,7 +1566,7 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Sun_Follower, race=human
 #: Era_of_Magic\units\Kharos\Sun_Follower.cfg:18
-msgid "Sun Followers belong to the Sun Guardian caste. They wear masks covering their entire faces (including their eyes) which, in shape, are quite similar to sunflowers in shape, and thus, they are often mocked as 'sunflowers' by non-Kharosians. Even though their eyes are covered, they are still perfectly aware of their surroundings, since they 'use their soul' to sense things around them, allowing them to 'see' certain things that other can't, and making it pretty much impossible to sneak up on them. They harness energy from the sun, allowing them to heal their wounds. Their willpower, combined with their connection to the sun also allows them to negate some of the damage from spells cast on them. Unlike solar regeneration, spell damage negation and soul vision works even if it's dark."
+msgid "Sun Followers belong to the Sun Guardian caste. They wear masks covering their entire faces (including their eyes) which, in shape, are quite similar to sunflowers in shape, and thus, they are often mocked as 'sunflowers' by non-Kharosians. Even though their eyes are covered, they are still perfectly aware of their surroundings, since they 'use their soul' to sense things around them, allowing them to 'see' certain things that others can't, and making it pretty much impossible to sneak up on them. They harness energy from the sun, allowing them to heal their wounds. Their willpower, combined with their connection to the sun also allows them to negate some of the damage from spells cast on them. Unlike solar regeneration, spell damage negation and soul vision works even if it's dark."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Sun_Guardian, race=human
@@ -2082,6 +2076,16 @@ msgstr ""
 msgid "While Elementalists aren’t exactly great combatants compared to other Sky Kingdom magi, they are quick learners, being able to become quite powerful quite quickly by choosing to learn one of the Elemental Paths. They know a few basic spells of each element, including shooting somewhat weak magical missiles, healing minor wounds with water magic, as well as some non-combat spells."
 msgstr ""
 
+#. [attack]: type=pierce
+#. [attack]: type=cold
+#: Era_of_Magic\units\Sky_Kingdom\Elementalist.cfg:55
+#: Era_of_Magic\units\Sky_Kingdom\Mage_of_Water.cfg:84
+#: Era_of_Magic\units\Sky_Kingdom\Mastermage.cfg:51
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:97
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Water.cfg:78
+msgid "icicles"
+msgstr ""
+
 #. [unit_type]: id=EoMa_Battle_Eye, race=mechanical
 #: Era_of_Magic\units\Sky_Kingdom\Eye_Battle.cfg:4
 msgid "Battle Eye"
@@ -2182,12 +2186,17 @@ msgid "Summon Golem (16 Gold)"
 msgstr ""
 
 #. [attack]: type=secret
-#: Era_of_Magic\units\Sky_Kingdom\Guru.cfg:112
+#: Era_of_Magic\units\Sky_Kingdom\Guru.cfg:108
+msgid "mystic touch"
+msgstr ""
+
+#. [attack]: type=secret
+#: Era_of_Magic\units\Sky_Kingdom\Guru.cfg:121
 msgid "um strike"
 msgstr ""
 
 #. [attack]: type=impact
-#: Era_of_Magic\units\Sky_Kingdom\Guru.cfg:125
+#: Era_of_Magic\units\Sky_Kingdom\Guru.cfg:134
 msgid "landmass"
 msgstr ""
 
@@ -2262,26 +2271,19 @@ msgstr ""
 
 #. [regenerate]: id=eoma_water_regeneration
 #: Era_of_Magic\units\Sky_Kingdom\Mage_of_Water.cfg:45
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Water.cfg:48
 msgid "water regeneration +4"
 msgstr ""
 
 #. [regenerate]: id=eoma_water_regeneration
 #: Era_of_Magic\units\Sky_Kingdom\Mage_of_Water.cfg:46
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Water.cfg:49
 msgid "When stading on water (except ford and reef terrain), this unit will heal itself 4 HP per turn. If it is poisoned, it will remove the poison instead of healing."
 msgstr ""
 
 #. [attack]: type=impact
 #: Era_of_Magic\units\Sky_Kingdom\Mage_of_Water.cfg:72
 msgid "water blast"
-msgstr ""
-
-#. [attack]: type=pierce
-#. [attack]: type=cold
-#: Era_of_Magic\units\Sky_Kingdom\Mage_of_Water.cfg:84
-#: Era_of_Magic\units\Sky_Kingdom\Mastermage.cfg:51
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:97
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Water.cfg:66
-msgid "icicles"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Mastermage, race=human
@@ -2346,7 +2348,7 @@ msgstr ""
 
 #. [abilities]
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:65
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Water.cfg:47
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Water.cfg:59
 #: Era_of_Magic\units\Summoners\Summoner_Grand.cfg:68
 #: Era_of_Magic\units\Summoners\Summons_Master.cfg:87
 msgid "Summon Water Elemental"
@@ -2399,18 +2401,18 @@ msgid "The most talented Water Magi eventually become Masters of Water. They are
 msgstr ""
 
 #. [attack]: type=impact
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Water.cfg:54
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Water.cfg:66
 msgid "frozen fist"
 msgstr ""
 
 #. [attack]: type=cold
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Water.cfg:78
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Water.cfg:90
 #: Era_of_Magic\units\Summoners\Water_God.cfg:78
 msgid "ice strike"
 msgstr ""
 
 #. [attack]: type=impact
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Water.cfg:90
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Water.cfg:102
 msgid "bubble"
 msgstr ""
 
@@ -2758,15 +2760,18 @@ msgid "Dimensional Gate"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Dimensional_Gate, race=eoma_magical
-#. [unit_type]: id=EoMa_Dimensional_Gate_II, race=eoma_magical
 #: Era_of_Magic\units\Summoners\Dimensional_Gate.cfg:29
-#: Era_of_Magic\units\Summoners\Dimensional_Gate_2.cfg:29
 msgid "The most inexperienced of summoners are capable of summoning only dimensional gates: unstable bridges of arcane energy between this world and the Abyss. Dimensional gates, though primitive, are capable of surging forth with accurate pinpoint attacks of arcane matter. Although weak and fragile, a single fallen life is all that the gate requires in order to solidify itself into a true door for a being from the Abyss to emerge out of."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Dimensional_Gate_II, race=eoma_magical
 #: Era_of_Magic\units\Summoners\Dimensional_Gate_2.cfg:15
 msgid "Dimensional Gate II"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Dimensional_Gate_II, race=eoma_magical
+#: Era_of_Magic\units\Summoners\Dimensional_Gate_2.cfg:29
+msgid "Dimensional Gate II is a more sophisticated variant of a typical blue gate. It can be created only by summons experts or via the process of banishing a more powerful magical being like Rhami'datu or Great Jinni. Summoners consider Dimensional Gates II extremely valuable because of their improved connection to the Abyss which allows summoning much more powerful beings in exchange for a living or magical being's soul."
 msgstr ""
 
 #. [attack]: type=arcane
@@ -3059,7 +3064,7 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_RhamiKai, race=eoma_magical
 #: Era_of_Magic\units\Summoners\RhamiKai.cfg:19
-msgid "Rhami’kais trade in their four scimitars for a single weapon: the spear. With this, Rhami’kais attain more power and precision with their attacks but at the loss of speed. RhamiKais, charismatic and as sentient as humans, lead others into combat, organizing attacks with timing and skill. Rhami’kais also can launch magical attacks through their eyes that drain the strength and life of opponents into their own."
+msgid "Rhami’kais trade in their four scimitars for a single weapon: the spear. With this, Rhami’kais attain more power and precision with their attacks but at the loss of speed. Rhami'kais, charismatic and as sentient as humans, lead others into combat, organizing attacks with timing and skill. Rhami’kais also can launch magical attacks through their eyes that drain the strength and life of opponents into their own."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Summoner, race=eoma_summoner
@@ -3122,9 +3127,9 @@ msgstr ""
 msgid ""
 "A summoner trained in the ‘heavy arts’ holds a unique advantage over other summoners of the Third Degree: the knowledge of summoning a support-based circle around themselves and their allies. Circles of resistance will ward off incoming magical attacks, lessening their impact and protecting the heavy summoner’s comrades.\n"
 "\n"
-"Heavy summoners are disciplined to fight in direct face-to-face brawls, boasting physiques built for resilience and strength. Rather than focusing their training on the summoning arts, they cultivate their brawn through their years to dominate fights in close-range. Heavy summoners still know their Second Degree’s ability of summoning magical arrows, though it is an ability that has been forsaken for the sake of their muscles.\n"
+"Heavy summoners are disciplined to fight in direct face-to-face brawls, boasting physiques built for resilience and strength. Rather than focusing their training on the summoning arts, they cultivate their brawn through their years to dominate fights in close-range.\n"
 "\n"
-"Like their fellow neutral summoners, heavy summoners can call forth Rhamis from the Abyss through their summoning circles."
+"Similarly to their fellow neutral summoners who can summon Jinn, heavy summoners can call forth Rhamis from the Abyss through their summoning circles."
 msgstr ""
 
 #. [abilities]
@@ -3242,7 +3247,7 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Black_Orb, race=mechanical
 #: Era_of_Magic\units\Tharis\Black_Orb.cfg:16
-msgid "'Black Orbs' are electricity-conducting crystal spheres, which have been animated by Great Warlocks, and are powered by occult magic. These flying creations are generally used for scouting, but can also zap opponents by applying fairly voltage to their bodies on contact."
+msgid "'Black Orbs' are electricity-conducting crystal spheres, which have been animated by Great Warlocks, and are powered by occult magic. These flying creations are generally used for scouting, but can also zap opponents by applying fairly high voltage to their bodies on contact."
 msgstr ""
 
 #. [attack]: type=cold
@@ -3306,9 +3311,7 @@ msgid "Dark Assassin"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Dark_Assassin, race=eoma_tharis
-#. [unit_type]: id=EoMa_Shadowblade, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Dark_Assassin.cfg:22
-#: Era_of_Magic\units\Tharis\Shadowblade.cfg:23
 msgid "Dark Assassins can easily sneak around enemy troops unnoticed during night-time, and are able to easily eliminate enemy leaders, or wounded troops in the enemy rear. They are also more agile than your average infantry, being, almost as fast as cavalry, making them able to easily flee after exposing themselves."
 msgstr ""
 
@@ -3484,7 +3487,7 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Master_of_Darkness, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:21
-msgid "While the title of Great Warlock is undoubtedly very prestigious, it's strongly overshadowed by that of a Master of Darkness. The Master of Darkness is the Tharis monarch and a religious figure. Every century, the most powerful great warlocks are selected by the dark gods as candidates for the title, and have to venture into the cursed depths. The warlock who survives the rituals without completely losing his sanity is recognized as the leader. The dark gods grant him many powers, including the ability to cast spells that shatter even the most robust structures with easy, shrug off heavy plows like minor bruises, and dissipate into bats."
+msgid "While the title of Great Warlock is undoubtedly very prestigious, it's strongly overshadowed by that of a Master of Darkness. The Master of Darkness is the Tharis monarch and a religious figure. Every century, the most powerful great warlocks are selected by the dark gods as candidates for the title, and have to venture into the cursed depths. The warlock who survives the rituals without completely losing his sanity is recognized as the leader. The dark gods grant him many powers, including the ability to cast spells that shatter even the most robust structures with ease, shrug off heavy plows like minor bruises, and dissipate into bats."
 msgstr ""
 
 #. [attack]: type=cold
@@ -3522,7 +3525,7 @@ msgstr ""
 msgid "Matriarchs of Emptiness own powerful orbs of unknown origin, which contain strange entities, who gluttonously drain magical energy from the air, making spells cast into the area in reach of the orb pretty much useless. Such orbs also give their bearers some of their absorbed power (to heal the bearer's wounds, focusing some of the orb's collected energy onto enemies in a beam, as well as enchanting their weapon with life-draining properties) in exchange for the matriarchs carrying them to locations that haven't been drained yet."
 msgstr ""
 
-#. [unit_type]: id=EoMa_Shadowblade, race=eoma_tharis
+#. [unit_type]: id=EoMa_Shadowblade, race=eoma_tharis, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Tharis\Shadowblade.cfg:4
 msgid "Shadowblade"
 msgstr ""
@@ -3695,7 +3698,7 @@ msgstr ""
 
 #. [damage]: id=eoma_furiousdeath{DMG}{TYPE}
 #: Era_of_Magic\utils\abilities.cfg:96
-msgid "Moments before this unit's death, it flies into a fury, dealing {DMG} damage to adjacent units, friend or foes alike. When a harmed adjacent unit goes to or below 0 HP, its HP are set to 1 instead of being killed."
+msgid "Moments before this unit's death, it flies into a fury, dealing {DMG} impact damage to adjacent units, friend or foes alike. When a harmed adjacent unit goes to or below 0 HP, its HP are set to 1 instead of being killed."
 msgstr ""
 
 #. [dummy]: id=eoma_hardlanding{DMG}{TYPE}
@@ -3709,142 +3712,142 @@ msgid "When this large unit is destroyed, it falls on a ground dealing damage to
 msgstr ""
 
 #. [dummy]: id=eoma_parachute
-#: Era_of_Magic\utils\abilities.cfg:190
+#: Era_of_Magic\utils\abilities.cfg:194
 msgid "parachute"
 msgstr ""
 
 #. [dummy]: id=eoma_parachute
-#: Era_of_Magic\utils\abilities.cfg:192
+#: Era_of_Magic\utils\abilities.cfg:196
 msgid "The pilot of this machine is equipped with a parachute, and he can survive the destruction of his vehicle, continuing to fight as a lvl0 unit."
 msgstr ""
 
 #. [damage]: id=eoma_areaeffect
-#: Era_of_Magic\utils\abilities.cfg:226
+#: Era_of_Magic\utils\abilities.cfg:235
 msgid "area effect"
 msgstr ""
 
 #. [damage]: id=eoma_areaeffect
-#: Era_of_Magic\utils\abilities.cfg:228
+#: Era_of_Magic\utils\abilities.cfg:237
 msgid "When this attack is used, all units adjacent to the target (except the attacker) receive half of the attack's damage. Does not work on defense."
 msgstr ""
 
 #. [damage]: id=eoma_areaeffectrandom
-#: Era_of_Magic\utils\abilities.cfg:375
+#: Era_of_Magic\utils\abilities.cfg:384
 msgid "random area effect"
 msgstr ""
 
 #. [damage]: id=eoma_areaeffectrandom
-#: Era_of_Magic\utils\abilities.cfg:376
+#: Era_of_Magic\utils\abilities.cfg:385
 msgid "When this attack is used, random units adjacent to the target (except the attacker) get half of the basic damage. Does not work on defense."
 msgstr ""
 
 #. [damage]: id=eoma_swallow{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:519
+#: Era_of_Magic\utils\abilities.cfg:528
 msgid "swallow"
 msgstr ""
 
 #. [damage]: id=eoma_swallow{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:520
-msgid "This unit gains hitpoints added to its current health whenever it kills a living unit."
+#: Era_of_Magic\utils\abilities.cfg:529
+msgid "When killing a living enemy, this unit is healed by "
 msgstr ""
 
 #. [bonecollector]: id=eoma_bonecollector
-#: Era_of_Magic\utils\abilities.cfg:571
+#: Era_of_Magic\utils\abilities.cfg:580
 msgid "bone collector"
 msgstr ""
 
 #. [bonecollector]: id=eoma_bonecollector
-#: Era_of_Magic\utils\abilities.cfg:572
+#: Era_of_Magic\utils\abilities.cfg:581
 msgid "This unit gains hitpoints added to its current health whenever it kills a non-magical unit. The amount of hitpoints gained equals"
 msgstr ""
 
 #. [bonecollector]: id=eoma_bonecollector
-#: Era_of_Magic\utils\abilities.cfg:572
+#: Era_of_Magic\utils\abilities.cfg:581
 msgid "of defeated enemy's max health. This unit also gains +1 max hp with each successful kill of a non-magical unit."
 msgstr ""
 
 #. [floating_text]
-#: Era_of_Magic\utils\abilities.cfg:596
+#: Era_of_Magic\utils\abilities.cfg:609
 msgid "+1 max hp"
 msgstr ""
 
 #. [dummy]: id=eoma_split
-#: Era_of_Magic\utils\abilities.cfg:626
+#: Era_of_Magic\utils\abilities.cfg:635
 msgid "split"
 msgstr ""
 
 #. [dummy]: id=eoma_split
-#: Era_of_Magic\utils\abilities.cfg:627
+#: Era_of_Magic\utils\abilities.cfg:636
 msgid "When dying this unit splits into 2 smaller versions of itself."
 msgstr ""
 
 #. [dummy]: id=eoma_antishield
-#: Era_of_Magic\utils\abilities.cfg:660
+#: Era_of_Magic\utils\abilities.cfg:667
 msgid "anti-shield"
 msgstr ""
 
 #. [dummy]: id=eoma_antishield
-#: Era_of_Magic\utils\abilities.cfg:661
+#: Era_of_Magic\utils\abilities.cfg:668
 msgid "This attack negates all possible resistances, thus the damage output is always constant."
 msgstr ""
 
 #. [dummy]: id=eoma_poisonousaura
-#: Era_of_Magic\utils\abilities.cfg:668
+#: Era_of_Magic\utils\abilities.cfg:675
 msgid "poisonous aura"
 msgstr ""
 
 #. [dummy]: id=eoma_poisonousaura
-#: Era_of_Magic\utils\abilities.cfg:669
+#: Era_of_Magic\utils\abilities.cfg:676
 msgid "All living non-magical enemy units adjacent to this unit lose 2 HP and become poisoned at the beginning of this unit's turn. If an enemy unit's HP goes to or below 0 HP, its HP are set to 1."
 msgstr ""
 
 #. [dummy]: id=eoma_alterego
-#: Era_of_Magic\utils\abilities.cfg:735
+#: Era_of_Magic\utils\abilities.cfg:742
 msgid "alter ego"
 msgstr ""
 
 #. [dummy]: id=eoma_alterego
-#: Era_of_Magic\utils\abilities.cfg:736
+#: Era_of_Magic\utils\abilities.cfg:743
 msgid "At night this unit transforms into its alternative version."
 msgstr ""
 
 #. [dummy]: id=eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:764
+#: Era_of_Magic\utils\abilities.cfg:771
 msgid "damage aura"
 msgstr ""
 
 #. [dummy]: id=eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:765
+#: Era_of_Magic\utils\abilities.cfg:772
 msgid "This unit harms all adjacent enemies at the start of each turn by a certain amount of damage (affected by the ToD bonus), giving the unit experience for each enemy harmed/killed."
 msgstr ""
 
 #. [dummy]: id=lesser_eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:858
+#: Era_of_Magic\utils\abilities.cfg:865
 msgid "lesser damage aura"
 msgstr ""
 
 #. [dummy]: id=lesser_eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:859
+#: Era_of_Magic\utils\abilities.cfg:866
 msgid "This unit harms all adjacent enemies at the start of each turn by a certain amount of damage (affected by the ToD bonus), without giving the unit experience for each enemy harmed. Like poison, it can't kill."
 msgstr ""
 
 #. [damage]: id=eoma_immoblize
-#: Era_of_Magic\utils\abilities.cfg:953
+#: Era_of_Magic\utils\abilities.cfg:960
 msgid "immobilize"
 msgstr ""
 
 #. [damage]: id=eoma_immoblize
-#: Era_of_Magic\utils\abilities.cfg:954
+#: Era_of_Magic\utils\abilities.cfg:961
 msgid "When used offensively, units hit with this attack become unable to move for 1 turn"
 msgstr ""
 
 #. [damage]: id=eoma_dazzle
-#: Era_of_Magic\utils\abilities.cfg:1097
+#: Era_of_Magic\utils\abilities.cfg:1104
 msgid "dazzle"
 msgstr ""
 
 #. [damage]: id=eoma_dazzle
-#: Era_of_Magic\utils\abilities.cfg:1098
+#: Era_of_Magic\utils\abilities.cfg:1105
 msgid "When used offensively, units hit with this attack suffer a 35% reduction in damage and a 10% reduction in defenses for 1 turn"
 msgstr ""
 
@@ -3871,12 +3874,12 @@ msgid "A unit with this ability can hurt units that are adjacent to the attacker
 msgstr ""
 
 #. [dummy]: id=eoma_cleavehalf
-#: Era_of_Magic\utils\cleave.cfg:451
+#: Era_of_Magic\utils\cleave.cfg:453
 msgid "cleave 50%"
 msgstr ""
 
 #. [dummy]: id=eoma_cleavehalf
-#: Era_of_Magic\utils\cleave.cfg:452
+#: Era_of_Magic\utils\cleave.cfg:454
 msgid "A unit with this ability can hurt units that are adjacent to the attacker and the defender at the same time. The damage dealt equals 50% of the base damage."
 msgstr ""
 
