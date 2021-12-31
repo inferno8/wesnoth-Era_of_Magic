@@ -1,6 +1,35 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.5.2
+ ### Units
+	** Darkblood Alliance:
+	 * Saurian Pikeman: renamed to Jungle Pikeman
+	 * Saurian Champion: renamed to Jungle Champion
+	 * Saurian Blowgunner: renamed to Jungle Blowgunner
+	 * Saurian Crossbowman: renamed to Jungle Crossbowman
+	** Kharos:
+	 * Kirios: increased damage for all attacks by 1
+	 * Master of Sun: increased damage for melee attacks by 1; decreased cost from 90 to 80
+ ### Abilities
+	* fixed the soul catcher ability - now it works only on living and magical units
+	* improved the soul catcher ability - now it is no longer possible to transform a gate into a walking unit on an unwalkable terrain
+	* fixed the summon undead ability so that it no longer takes units in recall lists into account
+	* units summoned via the summon undead ability now have 0 moves and cannot attack (just like freshly recruited units)
+	* the split ability no longer spawns damaged units
+	* the parachute ability no longer spawns damaged Parachutists
+	* fixed the bone collector ability not working	
+ ### Gameplay
+	* removed Perfect Drone from recruits' lists in Masters and Slaves mode
+ ### Descriptions
+	* improved descriptions/fixed typos: Cyclops Breaker, Goblin Shaman, Orcish King, Troll Warlock, Green Salamander, Cleric, Bishop, Sun Follower, Solar Master, Dimensional Gate II, Rhami'kai, Heavy Summoner, Black Orb, Master of Darkness
+	* removed descriptions of Saurian Assassin and Shadowblade
+	* improved descriptions of the swallow weapon special and the furious death ability
+ ### Code
+	* fixed incorrect unit id in one of summons options for Cyclops Fallen King
+ ### Translations
+	* updated the raw translation file
+
 ## Version 3.5.1a
  ### Code
 	* add #ifdef MULTIPLAYER check for the cleave weapon special to prevent lua errors in TLU
