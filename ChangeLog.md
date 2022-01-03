@@ -1,6 +1,10 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.5.2a
+ ### Abilities
+	* fixed a bug where the banishment ability granted combat xp to a newly created Dimensional Gate
+
 ## Version 3.5.2
  ### Units
 	** Darkblood Alliance:
