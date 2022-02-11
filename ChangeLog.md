@@ -1,6 +1,50 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.6
+ ### Gameplay
+	* fixed a bug where units summoned in Zombie Challenge would automatically level up
+	* renamed the 'Masters and Slaves' era to 'Masters' era
+	* Solar Master is no longer available as a leader choice in the 'Masters' era
+	* new Masters era exclusive traits: heroic and elite - they are automatically applied to certain units to make things more balanced
+ ### Units
+	** Kharos:
+	 * Avenger: cost from 32g to 31g
+	 * Hoplite: cost from 34g to 32g
+	 * Bishop: cost from 40g to 38g
+	 * Heavy Cavalry Archer: cost from 34g to 32g
+	 * Mistress of Light: cost from 68g to 63g
+	** Runemasters:
+	 * Dwarvish Cannoneer: cost from 30g to 32g
+	 * Flying Fortress: movement from 7 to 6; cost from 56 to 62; the cannon attack no longer has the 'first strike' weapon special; the machine gun attack damage from 16 to 15
+	** Sky Kingdom:
+	 * Master of Air: can now summon Air Avatars for 42g
+	 * Master of Fire: can now summon Fire Avatars for 42g; Fire Elemental summon cost from 12g to 17g
+	 * Master of Water: can now summon Water Avatars for 44g; Water Elemental summon cost from 12g to 14g
+	** Tharis
+	 * Dark Observer: experience from 43 to 49
+	 * Storm Sphere: cost from 34g to 33g
+	 * Master of Darnkess: the scythe attack got the 'first strike' weapon special
+ ### Abilities
+	* the Destroyers' plague weapon special no longer works on units standing in villages
+ ### Descriptions
+	* improved the Banisher description
+	* improved faction descriptions
+ ### Graphics
+	* fixed visual glitches caused by the soul catcher ability
+	* unused attack icons are now used
+ ### Code
+	* renamed unit files to match their names
+	* added a missing space to the 'hit and run' floating text
+	* improved the summon menu option text for Guru of Magic
+	* the 'construct drone' and drone upgrades work 'on unit placed' events too
+	* implemented lua check for the Masters era
+	* dropped support for older BfW versions
+	* project-wide code cleanup
+ ### Translations
+    * updated the Polish translation
+	* updated the raw translation file
+
 ## Version 3.5.2a
  ### Abilities
 	* fixed a bug where the banishment ability granted combat xp to a newly created Dimensional Gate
