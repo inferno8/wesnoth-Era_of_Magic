@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-02-11 17:06 UTC\n"
+"POT-Creation-Date: 2022-02-18 10:31 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -214,8 +214,8 @@ msgstr ""
 #: Era_of_Magic\units\Destroyers\Extinct_Cyclops_Mage.cfg:83
 #: Era_of_Magic\units\Destroyers\Fallen_Cyclops_King.cfg:78
 #: Era_of_Magic\units\Destroyers\Fallen_Cyclops_King.cfg:91
-#: Era_of_Magic\units\Destroyers\Legendary_Cyclops.cfg:68
-#: Era_of_Magic\units\Destroyers\Legendary_Cyclops.cfg:81
+#: Era_of_Magic\units\Destroyers\Greater_Cyclops_Skeleton.cfg:68
+#: Era_of_Magic\units\Destroyers\Greater_Cyclops_Skeleton.cfg:81
 #: Era_of_Magic\units\Summoners\Ho_rhami.cfg:82
 #: Era_of_Magic\units\Summoners\Rhami_kai.cfg:70
 msgid "gaze"
@@ -1007,7 +1007,7 @@ msgstr ""
 #: Era_of_Magic\units\Destroyers\Cyclops_Skeleton.cfg:56
 #: Era_of_Magic\units\Destroyers\Extinct_Cyclops_Mage.cfg:58
 #: Era_of_Magic\units\Destroyers\Fallen_Cyclops_King.cfg:66
-#: Era_of_Magic\units\Destroyers\Legendary_Cyclops.cfg:57
+#: Era_of_Magic\units\Destroyers\Greater_Cyclops_Skeleton.cfg:57
 msgid "head"
 msgstr ""
 
@@ -1141,6 +1141,11 @@ msgstr ""
 msgid "Summon Pirafly"
 msgstr ""
 
+#. [unit_type]: id=EoMa_Legendary_Cyclops, race=undead, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Destroyers\Greater_Cyclops_Skeleton.cfg:4
+msgid "Greater Cyclops Skeleton"
+msgstr ""
+
 #. [unit_type]: id=EoMa_Infernal_Vortex, race=eoma_magical
 #: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:4
 msgid "Infernal Vortex"
@@ -1149,11 +1154,6 @@ msgstr ""
 #. [unit_type]: id=EoMa_Infernal_Vortex, race=eoma_magical
 #: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:19
 msgid "These occult masterpieces of anti-magic are pure manifestations of destructive power. Nothing can withstand the ceaseless anti-magic emissions of an Infernal Vortex. Whatever lies in its center, it surely must be connected directly to hell. There is no other explanation..."
-msgstr ""
-
-#. [unit_type]: id=EoMa_Legendary_Cyclops, race=undead, description={NO_DESCR_AVAILABLE}
-#: Era_of_Magic\units\Destroyers\Legendary_Cyclops.cfg:4
-msgid "Legendary Cyclops"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Mara, race=undead, description={NO_DESCR_AVAILABLE}
@@ -4300,6 +4300,26 @@ msgstr ""
 msgid "female^elite"
 msgstr ""
 
+#. [trait]: id=eoma_veteran
+#: Era_of_Magic\utils\traits.cfg:126
+msgid "veteran"
+msgstr ""
+
+#. [trait]: id=eoma_veteran
+#: Era_of_Magic\utils\traits.cfg:127
+msgid "female^veteran"
+msgstr ""
+
+#. [trait]: id=eoma_fanatic
+#: Era_of_Magic\utils\traits.cfg:150
+msgid "fanatic"
+msgstr ""
+
+#. [trait]: id=eoma_fanatic
+#: Era_of_Magic\utils\traits.cfg:151
+msgid "female^fanatic"
+msgstr ""
+
 #. [language]
 #: Era_of_Magic\english.cfg:4
 msgid "range^kamikaze"
@@ -4311,42 +4331,42 @@ msgid "secret"
 msgstr ""
 
 #. [era]: id=era_magic
-#: Era_of_Magic\EoMa_eras.cfg:99
+#: Era_of_Magic\EoMa_eras.cfg:156
 msgid "Era of Magic"
 msgstr ""
 
 #. [era]: id=era_magic
-#: Era_of_Magic\EoMa_eras.cfg:100
+#: Era_of_Magic\EoMa_eras.cfg:157
 msgid "The Era of Magic consists currently of 8 unique, fully animated factions: Barbarians, Darkblooded, Destroyers, Kharos, Runemasters, Sky Kingdom, Summoners and Tharis. Many units have fancy custom abilities/weapon specials."
 msgstr ""
 
 #. [era]: id=era_magic_rpg
-#: Era_of_Magic\EoMa_eras.cfg:119
+#: Era_of_Magic\EoMa_eras.cfg:176
 msgid "Era of Magic (RPG)"
 msgstr ""
 
 #. [era]: id=era_magic_rpg
-#: Era_of_Magic\EoMa_eras.cfg:120
+#: Era_of_Magic\EoMa_eras.cfg:177
 msgid "A variant of Era of Magic designed for playing scenarios which involve elements of roleplaying (RPG) by having lvl1 units as leaders with empty recruit lists."
 msgstr ""
 
 #. [era]: id=era_magic_aoh
-#: Era_of_Magic\EoMa_eras.cfg:138
+#: Era_of_Magic\EoMa_eras.cfg:195
 msgid "Era of Magic (Age of Heroes)"
 msgstr ""
 
 #. [era]: id=era_magic_aoh
-#: Era_of_Magic\EoMa_eras.cfg:139
+#: Era_of_Magic\EoMa_eras.cfg:196
 msgid "A variant of Era of Magic with higher level units: level 3 leaders, with level 1 and 2 units available for recruit. Not considered balanced."
 msgstr ""
 
 #. [era]: id=era_magic_masters
-#: Era_of_Magic\EoMa_eras.cfg:157
+#: Era_of_Magic\EoMa_eras.cfg:214
 msgid "Era of Magic (Masters)"
 msgstr ""
 
 #. [era]: id=era_magic_masters
-#: Era_of_Magic\EoMa_eras.cfg:158
+#: Era_of_Magic\EoMa_eras.cfg:215
 msgid "A variant of Era of Magic with higher level units: level 3-4 leaders, with level 2 and 3 units available for recruit. Not considered balanced."
 msgstr ""
 
