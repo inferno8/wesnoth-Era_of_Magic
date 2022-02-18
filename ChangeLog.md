@@ -1,6 +1,49 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.6.1
+ ### Gameplay
+	* lvl2 units who cannot advance to lvl3 (because they lack that option) receive special veteran/fanatic traits together with AMLA
+	* the following leaders in the Masters era are no longer resilient: Atokpi Master, Fallen Cyclops King, Abaddon
+	* Carpet Riders are no longer available in the Masters Era
+	* Mystical Jinn are no longer available as leaders in the Masters Era
+	* Dwarvish Baloon is now available for recruitment in the Masters Era
+ ### Units
+	** Darkblood Alliance:
+	 * all Toads: village defense to 40%
+	 * all Salamanders: village defense to 60%
+	 * Black Salamander: the melee attack got the 'first strike' weapon special
+	 * Great Wyvern: decreased the scream attack damage from 7-2 to 6-2
+	 * Chaos Wyvern: decreased the scream attack damage from 9-2 to 8-2
+	 * Chaos Wyvern Rider: decreased the scream attack damage from 10-2 to 8-2
+	** Destroyers:
+	 * Atokpi Samurai: cost from 32g to 31g
+	 * Atokpi General: cost from 50g to 52g
+	 * Bone Golem: cost from 30g to 29g
+	 * Bone Giant: cost from 34g to 48g
+	 * Devourer: cost from 43g to 47g
+	 * Legendary Cyclops: renamed to Greater Cyclops Skeleton; cost from 33g to 32g
+	 * Extinct Cyclops Mage: cost from 55g to 58g
+	 * Punisher: cost from 43g to 44g
+	 * Obliterator: cost from 65g to 67g
+	 * Piranha Monstruosa: cost from 34g to 31g
+	 * Titania: cost from 63g to 65g
+	** Runemasters
+	 * Mechanical Dragon: cost from 56g to 60g; fire resistance from 10% to 20%; changed the fangs attack damage type from blade to pierce, added the marksman weapon special; added the second 8x3 melee attack with blade damage type and the marksman weapon special
+	 * Rune Adept: ice runes damage increased from 7x2 to 8x2
+	 * Runesmith: ice runes damage increased from 10x2 to 12x2
+	 * Rune Artist: ice runes damage increased from 15x2 to 16x2
+	** Summoners
+	 * Air Elemental: changed regenerates +6 to +4
+	 * Carpet Master: decreased movement points from 9 to 8
+	 * Earth Elemental: village defense from 60% to 50%
+	 * Earth Avatar: village defense from 60% to 50%
+	 * Earth God: village defense from 60% to 50%
+	 * Fire God: changed hitpoints from 71 to 72; changed the ranged attack damage from 11x2 to 7x3
+ ### Translations
+    * updated the Polish translation
+	* updated the raw translation file
+
 ## Version 3.6
  ### Gameplay
 	* fixed a bug where units summoned in Zombie Challenge would automatically level up
