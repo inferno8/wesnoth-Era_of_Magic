@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-02-18 10:31 UTC\n"
+"POT-Creation-Date: 2022-02-26 15:08 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -126,14 +126,10 @@ msgid "The Barbarian King is the Great Horde's ruthless monarch, ruling over his
 msgstr ""
 
 #. [specials]
-#. [unstore_unit]
-#. [dummy]: id=double attack
 #: Era_of_Magic\units\Barbarians\Barbarian_King.cfg:56
 #: Era_of_Magic\units\Barbarians\Barbarian_Lord.cfg:55
 #: Era_of_Magic\units\Barbarians\Cyclops_Breaker.cfg:56
 #: Era_of_Magic\units\Barbarians\Cyclops_Breaker_rpg.cfg:16
-#: Era_of_Magic\utils\doubleattack.cfg:14
-#: Era_of_Magic\utils\doubleattack.cfg:25
 msgid "double attack"
 msgstr ""
 
@@ -3882,19 +3878,14 @@ msgstr ""
 msgid "A unit with this ability can hurt units that are adjacent to the attacker and the defender at the same time. The damage dealt equals 50% of the base damage."
 msgstr ""
 
-#. [dummy]: id=double attack
-#: Era_of_Magic\utils\doubleattack.cfg:26
-msgid "This unit can attack two enemies in one turn, but cannot move from a hex, where the first enemy was attacked."
+#. [dummy]: id=splitfire
+#: Era_of_Magic\utils\doubleattack.cfg:9
+msgid "The unit can use this attack twice per turn (when used, other attacks become unavailable till the end of this unit's turn)."
 msgstr ""
 
 #. [unstore_unit]
-#: Era_of_Magic\utils\doubleattack.cfg:106
-msgid "second target"
-msgstr ""
-
-#. [dummy]: id=split fire
-#: Era_of_Magic\utils\doubleattack.cfg:118
-msgid "This unit can attack two enemies in one turn with this attack."
+#: Era_of_Magic\utils\doubleattack.cfg:40
+msgid "2nd attack"
 msgstr ""
 
 #. [dummy]: id=eoma_dbreath
