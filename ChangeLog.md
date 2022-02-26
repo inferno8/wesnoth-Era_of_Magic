@@ -1,6 +1,40 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.6.2
+ ### Gameplay
+	* fixed zombie advancements not working properly in some cases
+	* fixed the 'double attack/split fire' weapon special not working as intended
+ ### Units
+	** Barbarians:
+	 * Roc Master: hitpoints from 50 to 47
+	** Darkblood Alliance:
+	 * Jungle Pikeman and advancements are now neutral
+	 * Jungle Blowgunner and advancements are now chaotic
+	 * Jungle Crossbowman: the second crossbow attack is now 6-4 instead of 8-3
+	 * Saurian Assassin: the second crossbow attack is now 7-5 skilled instead of 9x4 marksman (the skilled weapon special is disabled in rpg mode); cost from 44 to 45
+	** Destroyers:
+	 * Cyclops Necromancer: movement from 5 to 6; dagger damage from 8-2 to 5-3; 1st gaze attack damage from 20-1 to 17-1; 2nd gaze attack damage from 10-2 to 9-2
+	 * Heavy Cavalry Archer: trample attack damage from 11-2 to 8-3
+	** Runemasters:
+	 * Technician: fire resistance from 20% to 30%
+	 * Constructor: fire resistance from 30% to 40%
+	 * Rune Adept: fire resistance from 10% to 20%
+	 * Runesmith: fire resistance from 15% to 25%
+	 * Runeartist: fire resistance from 20% to 30%
+	 * Runemaster: fire resistance from 30% to 25%
+	 * Flying Fortress: 'hard landing' damage from 17 to 13
+	 * Mechanical Dragon: 'hard landing' damage from 14 to 11
+	** Sky Kingdom:
+	 * Hydromancer: cost from 35g to 38g
+	** Summoners:
+	 * Fire God: physical resistances from 30% to 20%
+ ### Descriptions
+	* improved the 'double attack/split fire' weapon special description
+ ### Translations
+    * updated the Polish translation
+	* updated the raw translation file
+
 ## Version 3.6.1
  ### Gameplay
 	* lvl2 units who cannot advance to lvl3 (because they lack that option) receive special veteran/fanatic traits together with AMLA
