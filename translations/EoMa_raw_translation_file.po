@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-02-26 15:08 UTC\n"
+"POT-Creation-Date: 2022-03-04 11:36 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -305,6 +305,7 @@ msgstr ""
 
 #. [specials]
 #. [attack]: type=pierce
+#. [attack]: type=impact
 #: Era_of_Magic\units\Barbarians\Goblin_Raider.cfg:68
 #: Era_of_Magic\units\Barbarians\Goblin_Raider.cfg:60
 #: Era_of_Magic\units\Dark_Blood_Alliance\Saurian_Assassin.cfg:70
@@ -312,6 +313,10 @@ msgstr ""
 #: Era_of_Magic\units\Dark_Blood_Alliance\Twin_Archer_Toad.cfg:88
 #: Era_of_Magic\units\Dark_Blood_Alliance\Twin_Archer_Toad.cfg:81
 #: Era_of_Magic\units\Dark_Blood_Alliance\Twin_Archer_Toad_rpg.cfg:18
+#: Era_of_Magic\units\Runemasters\Dwarvish_Mobile_Turret.cfg:84
+#: Era_of_Magic\units\Runemasters\Dwarvish_Mobile_Turret.cfg:77
+#: Era_of_Magic\units\Runemasters\Mobile_Defensive_Platform.cfg:87
+#: Era_of_Magic\units\Runemasters\Mobile_Defensive_Platform.cfg:80
 msgid "split fire"
 msgstr ""
 
@@ -803,7 +808,10 @@ msgid "Twin Archer Toad"
 msgstr ""
 
 #. [attack]: type=pierce
+#. [attack]: type=impact
 #: Era_of_Magic\units\Dark_Blood_Alliance\Twin_Archer_Toad.cfg:72
+#: Era_of_Magic\units\Runemasters\Dwarvish_Mobile_Turret.cfg:65
+#: Era_of_Magic\units\Runemasters\Mobile_Defensive_Platform.cfg:68
 msgid "concentrated fire"
 msgstr ""
 
@@ -1277,7 +1285,7 @@ msgstr ""
 #. [attack]: type=impact
 #: Era_of_Magic\units\Kharos\Cavalry_Archer.cfg:28
 #: Era_of_Magic\units\Kharos\Elemental_Archer.cfg:39
-#: Era_of_Magic\units\Kharos\Heavy_Cavalry_Archer.cfg:37
+#: Era_of_Magic\units\Kharos\Heavy_Cavalry.cfg:36
 #: Era_of_Magic\units\Kharos\Mystical_Archer.cfg:41
 #: Era_of_Magic\units\Runemasters\Dwarvish_Tank.cfg:42
 #: Era_of_Magic\units\Runemasters\Pacificator.cfg:43
@@ -1340,7 +1348,7 @@ msgstr ""
 
 #. [attack]: type=pierce
 #: Era_of_Magic\units\Kharos\Elemental_Archer.cfg:73
-#: Era_of_Magic\units\Kharos\Heavy_Cavalry_Archer.cfg:46
+#: Era_of_Magic\units\Kharos\Heavy_Cavalry.cfg:45
 msgid "arrow"
 msgstr ""
 
@@ -1391,8 +1399,8 @@ msgid "It's common practice in the Kharosian military to use war banners to boos
 msgstr ""
 
 #. [unit_type]: id=EoMa_Heavy_Cavalry_Archer, race=human, description={NO_DESCR_AVAILABLE}
-#: Era_of_Magic\units\Kharos\Heavy_Cavalry_Archer.cfg:4
-msgid "Heavy Cavalry Archer"
+#: Era_of_Magic\units\Kharos\Heavy_Cavalry.cfg:4
+msgid "Heavy Cavalry"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Protector, race=human
@@ -1478,7 +1486,7 @@ msgid "female^Prophet of Light"
 msgstr ""
 
 #. [attack]: type=arcane
-#: Era_of_Magic\units\Kharos\Prophet_of_Light.cfg:62
+#: Era_of_Magic\units\Kharos\Prophet_of_Light.cfg:74
 msgid "blinding light"
 msgstr ""
 
@@ -1583,7 +1591,7 @@ msgstr ""
 #: Era_of_Magic\units\Runemasters\Balloon.cfg:73
 #: Era_of_Magic\units\Runemasters\Flying_Fortress.cfg:48
 #: Era_of_Magic\units\Runemasters\Heavy_Balloon.cfg:77
-#: Era_of_Magic\units\Runemasters\Steamcopter.cfg:49
+#: Era_of_Magic\units\Runemasters\Steamcopter.cfg:52
 msgid "bombs"
 msgstr ""
 
@@ -1630,6 +1638,8 @@ msgstr ""
 
 #. [attack]: type=fire
 #: Era_of_Magic\units\Runemasters\Constructor.cfg:130
+#: Era_of_Magic\units\Runemasters\Technocrat.cfg:55
+#: Era_of_Magic\units\Runemasters\Technologist.cfg:54
 msgid "flamethrower"
 msgstr ""
 
@@ -1708,6 +1718,24 @@ msgstr ""
 msgid "movepoints"
 msgstr ""
 
+#. [unit_type]: id=EoMa_Dwarvish_Cadet, race=dwarf, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Runemasters\Dwarvish_Cadet.cfg:4
+msgid "Dwarvish Cadet"
+msgstr ""
+
+#. [attack]: type=pierce
+#: Era_of_Magic\units\Runemasters\Dwarvish_Cadet.cfg:51
+#: Era_of_Magic\units\Runemasters\Dwarvish_Cannoneer.cfg:61
+#: Era_of_Magic\units\Runemasters\Dwarvish_Gunner.cfg:45
+#: Era_of_Magic\units\Runemasters\Dwarvish_Rune_Lord.cfg:59
+#: Era_of_Magic\units\Runemasters\Dwarvish_Runic_Warrior.cfg:40
+#: Era_of_Magic\units\Runemasters\Dwarvish_Soldier.cfg:52
+#: Era_of_Magic\units\Runemasters\Dwarvish_Veteran.cfg:38
+#: Era_of_Magic\units\Runemasters\Dwarvish_Warrior.cfg:41
+#: Era_of_Magic\units\Runemasters\Parachutist.cfg:36
+msgid "gun"
+msgstr ""
+
 #. [unit_type]: id=EoMa_Dwarvish_Cannoneer, race=dwarf, description=
 #: Era_of_Magic\units\Runemasters\Dwarvish_Cannoneer.cfg:4
 msgid "Dwarvish Cannoneer"
@@ -1724,20 +1752,26 @@ msgstr ""
 msgid "point blank"
 msgstr ""
 
-#. [attack]: type=pierce
-#: Era_of_Magic\units\Runemasters\Dwarvish_Cannoneer.cfg:61
-#: Era_of_Magic\units\Runemasters\Dwarvish_Gunner.cfg:45
-#: Era_of_Magic\units\Runemasters\Dwarvish_Rune_Lord.cfg:59
-#: Era_of_Magic\units\Runemasters\Dwarvish_Runic_Warrior.cfg:40
-#: Era_of_Magic\units\Runemasters\Dwarvish_Veteran.cfg:38
-#: Era_of_Magic\units\Runemasters\Dwarvish_Warrior.cfg:41
-#: Era_of_Magic\units\Runemasters\Parachutist.cfg:36
-msgid "gun"
-msgstr ""
-
 #. [unit_type]: id=EoMa_Dwarvish_Gunner, race=dwarf, description=
 #: Era_of_Magic\units\Runemasters\Dwarvish_Gunner.cfg:4
 msgid "Dwarvish Gunner"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Mobile_Turret, race=mechanical, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Runemasters\Dwarvish_Mobile_Turret.cfg:4
+msgid "Dwarvish Mobile Turret"
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Magic\units\Runemasters\Dwarvish_Mobile_Turret.cfg:52
+#: Era_of_Magic\units\Runemasters\Mobile_Defensive_Platform.cfg:54
+msgid "shockwave"
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Magic\units\Runemasters\Dwarvish_Mobile_Turret.cfg:89
+#: Era_of_Magic\units\Runemasters\Mobile_Defensive_Platform.cfg:93
+msgid "spread shot"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Dwarvish_Rune_Lord, race=dwarf, description={NO_DESCR_AVAILABLE}
@@ -1755,6 +1789,11 @@ msgstr ""
 #: Era_of_Magic\units\Runemasters\Dwarvish_Runic_Warrior.cfg:4
 #: Era_of_Magic\units\Runemasters\Dwarvish_Runic_Warrior_rpg.cfg:7
 msgid "Dwarvish Runic Warrior"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Dwarvish_Soldier, race=dwarf, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Runemasters\Dwarvish_Soldier.cfg:4
+msgid "Dwarvish Soldier"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Dwarvish_Tank, race=mechanical
@@ -1842,6 +1881,11 @@ msgstr ""
 #. [unit_type]: id=EoMa_Mechanic, race=dwarf
 #: Era_of_Magic\units\Runemasters\Mechanic.cfg:21
 msgid "These dwarves are recruited for their uncanny knack for engineering. If their robotic creations are at the head of an offense, then the mechanics form the backbone, repairing oil leaks, replacing broken fuel tanks, and keeping the front line running in clockwork fashion. Even if beset by opposition they hold their own, employing their vast arsenal of tools to hold enemies at bay until their better armored brethren come to their rescue."
+msgstr ""
+
+#. [unit_type]: id=EoMa_Mobile_Defensive_Platform, race=mechanical, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Runemasters\Mobile_Defensive_Platform.cfg:4
+msgid "Mobile Defensive Platform"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Pacificator, race=mechanical, description={NO_DESCR_AVAILABLE}
@@ -2015,6 +2059,33 @@ msgstr ""
 #. [attack]: type=fire
 #: Era_of_Magic\units\Runemasters\Technician.cfg:108
 msgid "burner"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Technocrat, race=dwarf, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Runemasters\Technocrat.cfg:4
+msgid "Technocrat"
+msgstr ""
+
+#. [attack]: type=pierce
+#: Era_of_Magic\units\Runemasters\Technocrat.cfg:64
+#: Era_of_Magic\units\Runemasters\Technologist.cfg:63
+msgid "rifle"
+msgstr ""
+
+#. [attack]: type=pierce
+#: Era_of_Magic\units\Runemasters\Technocrat.cfg:77
+msgid "plasma shot"
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Magic\units\Runemasters\Technocrat.cfg:90
+#: Era_of_Magic\units\Runemasters\Technologist.cfg:75
+msgid "shock grenade"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Technologist, race=dwarf, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Runemasters\Technologist.cfg:4
+msgid "Technologist"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Mage_of_Air, race=human
@@ -3846,6 +3917,21 @@ msgstr ""
 msgid "When used offensively, units hit with this attack suffer a 35% reduction in damage and a 10% reduction in defenses for 1 turn"
 msgstr ""
 
+#. [chance_to_hit]: id=eoma_stun
+#: Era_of_Magic\utils\abilities.cfg:1247
+msgid "stun"
+msgstr ""
+
+#. [chance_to_hit]: id=eoma_stun
+#: Era_of_Magic\utils\abilities.cfg:1248
+msgid "This attack puts enormous pressure on the enemy, disrupting his ZOC if a hit is landed. Not active on defense. Does not work on units that do not have a ZoC."
+msgstr ""
+
+#. [unstore_unit]
+#: Era_of_Magic\utils\abilities.cfg:1284
+msgid "stunned"
+msgstr ""
+
 #. [disable]: id=eoma_disable_in_rpg, description=
 #: Era_of_Magic\utils\abilities_rpg.cfg:6
 msgid "inactive in RPG"
@@ -3854,28 +3940,34 @@ msgstr ""
 #. [dummy]: id=eoma_cleave
 #. [dummy]: id=eoma_cleave{DISPLAYVALUE}
 #: Era_of_Magic\utils\cleave.cfg:128
-#: Era_of_Magic\utils\cleave.cfg:287
+#: Era_of_Magic\utils\cleave.cfg:305
 msgid "cleave"
 msgstr ""
 
 #. [dummy]: id=eoma_cleave
 #: Era_of_Magic\utils\cleave.cfg:129
-msgid "A unit with this ability can hurt units that are adjacent to the attacker and the defender at the same time."
+msgid ""
+"A unit with this ability can hurt units that are adjacent to the attacker and the defender at the same time.\n"
+"This ability does not work against berserker units."
 msgstr ""
 
 #. [dummy]: id=eoma_cleave{DISPLAYVALUE}
-#: Era_of_Magic\utils\cleave.cfg:288
-msgid "A unit with this ability can hurt units that are adjacent to the attacker and the defender at the same time. The damage dealt equals {DISPLAYVALUE}% of the base damage."
+#: Era_of_Magic\utils\cleave.cfg:306
+msgid ""
+"A unit with this ability can hurt units that are adjacent to the attacker and the defender at the same time. The damage dealt equals {DISPLAYVALUE}% of the base damage.\n"
+"This ability does not work against berserker units."
 msgstr ""
 
 #. [dummy]: id=eoma_cleavehalf
-#: Era_of_Magic\utils\cleave.cfg:453
+#: Era_of_Magic\utils\cleave.cfg:489
 msgid "cleave 50%"
 msgstr ""
 
 #. [dummy]: id=eoma_cleavehalf
-#: Era_of_Magic\utils\cleave.cfg:454
-msgid "A unit with this ability can hurt units that are adjacent to the attacker and the defender at the same time. The damage dealt equals 50% of the base damage."
+#: Era_of_Magic\utils\cleave.cfg:490
+msgid ""
+"A unit with this ability can hurt units that are adjacent to the attacker and the defender at the same time. The damage dealt equals 50% of the base damage.\n"
+"This ability does not work against berserker units."
 msgstr ""
 
 #. [dummy]: id=splitfire
@@ -4028,13 +4120,26 @@ msgstr ""
 msgid "The unit will heal itself 12 HP per turn. If it is poisoned, it will remove the poison instead of healing."
 msgstr ""
 
-#. [heals]: id=eoma_repair6
+#. [heals]: id=eoma_repair4
 #: Era_of_Magic\utils\healing.cfg:244
+msgid "repairs +4"
+msgstr ""
+
+#. [heals]: id=eoma_repair4
+#: Era_of_Magic\utils\healing.cfg:245
+msgid ""
+"Allows the unit to repair adjacent friendly mechanical units at the beginning of each turn.\n"
+"\n"
+"A unit cared for by this healer may heal up to 4 HP per turn."
+msgstr ""
+
+#. [heals]: id=eoma_repair6
+#: Era_of_Magic\utils\healing.cfg:263
 msgid "repairs +6"
 msgstr ""
 
 #. [heals]: id=eoma_repair6
-#: Era_of_Magic\utils\healing.cfg:245
+#: Era_of_Magic\utils\healing.cfg:264
 msgid ""
 "Allows the unit to repair adjacent friendly mechanical units at the beginning of each turn.\n"
 "\n"
@@ -4042,12 +4147,12 @@ msgid ""
 msgstr ""
 
 #. [heals]: id=eoma_repair8
-#: Era_of_Magic\utils\healing.cfg:264
+#: Era_of_Magic\utils\healing.cfg:283
 msgid "repairs +8"
 msgstr ""
 
 #. [heals]: id=eoma_repair8
-#: Era_of_Magic\utils\healing.cfg:265
+#: Era_of_Magic\utils\healing.cfg:284
 msgid ""
 "Allows the unit to repair adjacent friendly mechanical units at the beginning of each turn.\n"
 "\n"
@@ -4055,52 +4160,52 @@ msgid ""
 msgstr ""
 
 #. [regenerate]: id=eoma_water
-#: Era_of_Magic\utils\healing.cfg:283
+#: Era_of_Magic\utils\healing.cfg:302
 msgid "water"
 msgstr ""
 
 #. [regenerate]: id=eoma_water
-#: Era_of_Magic\utils\healing.cfg:284
+#: Era_of_Magic\utils\healing.cfg:303
 msgid "This unit is made of water. As a result, if it is standing in water (except ford and reef terrain), it will be healed by 6 hp every turn."
 msgstr ""
 
 #. [regenerate]: id=eoma_funguslord{VALUE}
-#: Era_of_Magic\utils\healing.cfg:299
+#: Era_of_Magic\utils\healing.cfg:318
 msgid "fungal regeneration"
 msgstr ""
 
 #. [regenerate]: id=eoma_funguslord{VALUE}
-#: Era_of_Magic\utils\healing.cfg:300
+#: Era_of_Magic\utils\healing.cfg:319
 msgid "This unit regenerates some hp each turn it is on a mushroom grove."
 msgstr ""
 
 #. [regenerate]: id=eoma_regeneratessolar1_{VALUE}_{VALUE2}
-#: Era_of_Magic\utils\healing.cfg:316
+#: Era_of_Magic\utils\healing.cfg:335
 msgid "solar regeneration"
 msgstr ""
 
 #. [regenerate]: id=eoma_regeneratessolar1_{VALUE}_{VALUE2}
-#: Era_of_Magic\utils\healing.cfg:317
+#: Era_of_Magic\utils\healing.cfg:336
 msgid "The unit will heal itself some HP at dawn or dusk and more HP during day. If it is poisoned, it will remove the poison instead of healing."
 msgstr ""
 
 #. [regenerate]: id=eoma_regeneratesnight1_{VALUE}
-#: Era_of_Magic\utils\healing.cfg:345
+#: Era_of_Magic\utils\healing.cfg:364
 msgid "nocturnal regeneration"
 msgstr ""
 
 #. [regenerate]: id=eoma_regeneratesnight1_{VALUE}
-#: Era_of_Magic\utils\healing.cfg:346
+#: Era_of_Magic\utils\healing.cfg:365
 msgid "The unit will heal itself some HP during night and when in caves or indoors. If it is poisoned, it will remove the poison instead of healing."
 msgstr ""
 
 #. [heals]: id=undeadheal{VALUE}
-#: Era_of_Magic\utils\healing.cfg:363
+#: Era_of_Magic\utils\healing.cfg:382
 msgid "heal undead "
 msgstr ""
 
 #. [heals]: id=undeadheal{VALUE}
-#: Era_of_Magic\utils\healing.cfg:364
+#: Era_of_Magic\utils\healing.cfg:383
 msgid ""
 "Allows the unit to repair adjacent friendly undead units at the beginning of each turn.\n"
 "\n"
