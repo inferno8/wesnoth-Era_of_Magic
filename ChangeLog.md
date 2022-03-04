@@ -1,6 +1,32 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.7
+ ### Gameplay
+	* added 6 new units for the Runemasters faction: Dwarvish Cadet, Dwarvish Soldier, Technologist, Technocrat, Dwarvish Mobile Turret, Mobile Defensive Platform
+	* lvl2 dwarves can now perform drone upgrades (previously only lvl3 dwarves were allowed to do this)
+	* Area of Effect attacks (all-around, cleave and triple strike) no longer work against berserkers (in this case AoE attacks harm only a single target)
+ ### Units
+	** Kharos:
+	 * Bishop: added a new ranged magical arcane 8-3 attack
+	 * Priestess of Light: added a new ranged magical arcane 10-3 attack
+	 * Heavy Cavalry Archer: renamed to Heavy Cavalry; hitpoints from 58 to 53; blade resistance from 10% to 20%, pierce resistance from 5% to 10%, impact resistance from 20% to 40%; changed the arrow attack damage from 11-2 to 9-2
+	** Runemasters:
+	 * added 6 new units: Dwarvish Cadet, Dwarvish Soldier, Technologist, Technocrat, Dwarvish Mobile Turret, Mobile Defensive Platform
+	** Sky Kingdom:
+	 * Cosmic Eye: impact resistance from 0% to -10%
+	** Summoners:
+	 * Carpet Master: fire resistance from 10% to 0%
+	** Tharis: 
+	 * Dark Wizard: cost from 42g to 39g
+ ### Abilities
+	* added the "stun" weapon special
+	* added the "repairs +4" ability
+	* added the "precision (offensive)" weapon special
+ ### Translations
+    * updated the Polish translation
+	* updated the raw translation file
+
 ## Version 3.6.2
  ### Gameplay
 	* fixed zombie advancements not working properly in some cases
