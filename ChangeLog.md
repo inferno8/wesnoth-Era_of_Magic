@@ -1,6 +1,13 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.7.1a
+ ### Units
+	** Runemasters:
+	 * Dwarvish Soldier: fixed incorrect unit level
+	 * Dwarvish Mobile Turret: fixed incorrect unit level
+	 * Mobile Defensive Platform: fixed incorrect unit level
+
 ## Version 3.7.1
  ### Units
 	** Kharos:
