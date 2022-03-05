@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-03-04 11:36 UTC\n"
+"POT-Creation-Date: 2022-03-05 08:35 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1284,7 +1284,7 @@ msgstr ""
 
 #. [attack]: type=impact
 #: Era_of_Magic\units\Kharos\Cavalry_Archer.cfg:28
-#: Era_of_Magic\units\Kharos\Elemental_Archer.cfg:39
+#: Era_of_Magic\units\Kharos\Elemental_Archer.cfg:40
 #: Era_of_Magic\units\Kharos\Heavy_Cavalry.cfg:36
 #: Era_of_Magic\units\Kharos\Mystical_Archer.cfg:41
 #: Era_of_Magic\units\Runemasters\Dwarvish_Tank.cfg:42
@@ -1335,19 +1335,19 @@ msgid "Elite cavalry archers are often seen using enchanted arrows to gain the u
 msgstr ""
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Kharos\Elemental_Archer.cfg:48
+#: Era_of_Magic\units\Kharos\Elemental_Archer.cfg:49
 #: Era_of_Magic\units\Kharos\Mystical_Archer.cfg:50
 msgid "fire arrow"
 msgstr ""
 
 #. [attack]: type=cold
-#: Era_of_Magic\units\Kharos\Elemental_Archer.cfg:60
+#: Era_of_Magic\units\Kharos\Elemental_Archer.cfg:61
 #: Era_of_Magic\units\Kharos\Mystical_Archer.cfg:62
 msgid "ice arrow"
 msgstr ""
 
 #. [attack]: type=pierce
-#: Era_of_Magic\units\Kharos\Elemental_Archer.cfg:73
+#: Era_of_Magic\units\Kharos\Elemental_Archer.cfg:74
 #: Era_of_Magic\units\Kharos\Heavy_Cavalry.cfg:45
 msgid "arrow"
 msgstr ""
@@ -1724,12 +1724,12 @@ msgid "Dwarvish Cadet"
 msgstr ""
 
 #. [attack]: type=pierce
-#: Era_of_Magic\units\Runemasters\Dwarvish_Cadet.cfg:51
+#: Era_of_Magic\units\Runemasters\Dwarvish_Cadet.cfg:54
 #: Era_of_Magic\units\Runemasters\Dwarvish_Cannoneer.cfg:61
 #: Era_of_Magic\units\Runemasters\Dwarvish_Gunner.cfg:45
 #: Era_of_Magic\units\Runemasters\Dwarvish_Rune_Lord.cfg:59
 #: Era_of_Magic\units\Runemasters\Dwarvish_Runic_Warrior.cfg:40
-#: Era_of_Magic\units\Runemasters\Dwarvish_Soldier.cfg:52
+#: Era_of_Magic\units\Runemasters\Dwarvish_Soldier.cfg:55
 #: Era_of_Magic\units\Runemasters\Dwarvish_Veteran.cfg:38
 #: Era_of_Magic\units\Runemasters\Dwarvish_Warrior.cfg:41
 #: Era_of_Magic\units\Runemasters\Parachutist.cfg:36
@@ -1770,7 +1770,7 @@ msgstr ""
 
 #. [attack]: type=impact
 #: Era_of_Magic\units\Runemasters\Dwarvish_Mobile_Turret.cfg:89
-#: Era_of_Magic\units\Runemasters\Mobile_Defensive_Platform.cfg:93
+#: Era_of_Magic\units\Runemasters\Mobile_Defensive_Platform.cfg:94
 msgid "spread shot"
 msgstr ""
 
