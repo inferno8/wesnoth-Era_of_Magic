@@ -1,6 +1,21 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.7.1
+ ### Units
+	** Kharos:
+	 * Elemental Archer: fire resistance from 15% to 20%; arcane resistance from 20% to 30%
+	 * Mystical Archer: arcane resistance from 30% to 40%
+	** Runemasters:
+	 * Steamcopter: fixed incorrect number of strikes
+	 * Dwarvish Mobile Turret: fixed incorrect number of strikes
+	 * Mobile Defensive Platform: the split fire attack got the 'lesser revenge' weapon special (at least 60% chance in retaliation)
+	 * Dwarvish Cadet: added the 'concealment' ability
+	 * Dwarvish Soldier: added the 'concealment' ability
+ ### Translations
+    * updated the Polish translation
+	* updated the raw translation file
+
 ## Version 3.7
  ### Gameplay
 	* added 6 new units for the Runemasters faction: Dwarvish Cadet, Dwarvish Soldier, Technologist, Technocrat, Dwarvish Mobile Turret, Mobile Defensive Platform
