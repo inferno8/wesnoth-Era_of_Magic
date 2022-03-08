@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-03-05 08:35 UTC\n"
+"POT-Creation-Date: 2022-03-08 11:13 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3376,14 +3376,14 @@ msgstr ""
 #. [attack]: type=blade
 #. [attack]: type=pierce
 #: Era_of_Magic\units\Tharis\Dark_Assassin.cfg:32
-#: Era_of_Magic\units\Tharis\Dark_Assassin.cfg:44
-#: Era_of_Magic\units\Tharis\Dark_Assassin.cfg:53
+#: Era_of_Magic\units\Tharis\Dark_Assassin.cfg:45
+#: Era_of_Magic\units\Tharis\Dark_Assassin.cfg:54
 #: Era_of_Magic\units\Tharis\Dark_Executioner.cfg:39
 #: Era_of_Magic\units\Tharis\Dark_Hunter.cfg:35
 #: Era_of_Magic\units\Tharis\Dark_Hunter.cfg:47
 #: Era_of_Magic\units\Tharis\Great_Hunter.cfg:28
 #: Era_of_Magic\units\Tharis\Great_Hunter.cfg:40
-#: Era_of_Magic\units\Tharis\Shadowblade.cfg:48
+#: Era_of_Magic\units\Tharis\Shadowblade.cfg:49
 msgid "knives"
 msgstr ""
 
@@ -3498,14 +3498,20 @@ msgstr ""
 msgid "Becoming a Great Warlock is the dream of almost any Tharis mage. Their skill with black magic is superb. Great Warlocks have learned the secret of levitation, allowing them to move for long distances, as well as on unfavorable terrain. They are also a equipped with scythes, which are a ceremonial weapon of Tharis, and they are very skilled with martial arts. Their dark spells can easily devastate enemy forces, leaving no survivors most of the time."
 msgstr ""
 
-#. [attack]: type=blade
+#. [abilities]
 #: Era_of_Magic\units\Tharis\Great_Warlock.cfg:111
-#: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:180
+#: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:26
+msgid "Summon Dark Observer"
+msgstr ""
+
+#. [attack]: type=blade
+#: Era_of_Magic\units\Tharis\Great_Warlock.cfg:116
+#: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:183
 msgid "scythe"
 msgstr ""
 
 #. [attack]: type=cold
-#: Era_of_Magic\units\Tharis\Great_Warlock.cfg:129
+#: Era_of_Magic\units\Tharis\Great_Warlock.cfg:134
 msgid "dark ball"
 msgstr ""
 
@@ -3547,7 +3553,7 @@ msgid "While the title of Great Warlock is undoubtedly very prestigious, it's st
 msgstr ""
 
 #. [attack]: type=cold
-#: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:201
+#: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:204
 msgid "implosion"
 msgstr ""
 
@@ -3588,6 +3594,11 @@ msgstr ""
 
 #. [attack]: type=cold
 #: Era_of_Magic\units\Tharis\Matriarch_of_Frost.cfg:115
+msgid "frozen spear"
+msgstr ""
+
+#. [attack]: type=cold
+#: Era_of_Magic\units\Tharis\Matriarch_of_Frost.cfg:124
 msgid "chill tempest"
 msgstr ""
 
@@ -3598,7 +3609,7 @@ msgstr ""
 
 #. [attack]: type=blade
 #: Era_of_Magic\units\Tharis\Shadowblade.cfg:27
-#: Era_of_Magic\units\Tharis\Shadowblade.cfg:39
+#: Era_of_Magic\units\Tharis\Shadowblade.cfg:40
 msgid "metal claws"
 msgstr ""
 
