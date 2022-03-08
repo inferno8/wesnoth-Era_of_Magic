@@ -1,6 +1,42 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.7.2
+ ### Units
+	** Dark Blood Alliance:
+	 * Saurian Assassin: changed alignment to chaotic
+	** Destroyers:
+	 * Atokpi Samurai: cost from 31g to 29g
+	 * Greater Cyclops Skeleton: cost from 32g to 31g
+	 * Mara: cost from 35g to 34g
+	 * Pirania Monstruosa: cost from 28g to 27g
+	** Kharos:
+	 * Silver Warrior: cost from 33g to 32g
+	** Runemasters:
+	 * Dwarvish Cadet: fixed incorrect mountains defense values
+	 * Dwarvish Soldier: fixed incorrect mountains defense values
+	 * Steamcopter: fire resistance from -20% to -10%
+	 * Technologist: the shock grenade got 'magical (offensive)' weapon special
+	 * Technocrat: increased the shock grenade's damage from 11-2 to 12-2
+	** Sky Kingdom:
+	 * Battle Eye: replaced the 'precision' weapon special with 'magical' for the melee attack
+	 * Golden Mage: impact resistance from 15% to 25%
+	** Summoners:
+	 * Dimensional Gate II: cost from 21g to 27g
+	 * Water Avatar: cost from 32g to 31g
+	** Tharis:
+	 * Dark Assassin: added the first strike weapon special for the 6-2 melee attack
+	 * Shadowblade: added the first strike weapon special for the 10-2 melee attack
+	 * Great Warlock: added the 'Summon Dark Observer' ability (cost 18g)
+	 * Master of Darkness: added the 'Summon Dark Observer' ability (cost 16g)
+	 * Matriarch of Darkness: hitpoints from 53 to 55; cost from 60g to 58g; added a new melee attack: 'frozen spear' (10-2 cold)
+ ### Code
+	* replaced deprecated code in the stun weapon special
+	* renamed EoMa_raw_translation_file.po to EoMa_translation_template.pot
+ ### Translations
+	* updated the EoMa_translation_template.pot
+	* updated translators_readme.txt
+
 ## Version 3.7.1a
  ### Units
 	** Runemasters:
