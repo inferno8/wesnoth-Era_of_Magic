@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-03-08 11:13 UTC\n"
+"POT-Creation-Date: 2022-03-11 17:19 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1115,6 +1115,34 @@ msgstr ""
 msgid "This unit costs 1 less gold worth of upkeep than it would normally."
 msgstr ""
 
+#. [unit_type]: id=EoMa_Doom_Bringer, race=undead, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Destroyers\Doom_Bringer.cfg:4
+msgid "Doom Bringer"
+msgstr ""
+
+#. [abilities]
+#: Era_of_Magic\units\Destroyers\Doom_Bringer.cfg:41
+msgid "Summon Dark Portal"
+msgstr ""
+
+#. [attack]: type=fire
+#: Era_of_Magic\units\Destroyers\Doom_Bringer.cfg:160
+#: Era_of_Magic\units\Destroyers\Harbinger.cfg:136
+msgid "flames of doom"
+msgstr ""
+
+#. [attack]: type=fire
+#: Era_of_Magic\units\Destroyers\Doom_Bringer.cfg:172
+#: Era_of_Magic\units\Destroyers\Harbinger.cfg:148
+msgid "corrupted fire"
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Magic\units\Destroyers\Doom_Bringer.cfg:185
+#: Era_of_Magic\units\Destroyers\Harbinger.cfg:161
+msgid "chaotic vortex"
+msgstr ""
+
 #. [unit_type]: id=EoMa_Extinct_Cyclops_Mage, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Destroyers\Extinct_Cyclops_Mage.cfg:4
 msgid "Extinct Cyclops Mage"
@@ -1148,6 +1176,11 @@ msgstr ""
 #. [unit_type]: id=EoMa_Legendary_Cyclops, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Destroyers\Greater_Cyclops_Skeleton.cfg:4
 msgid "Greater Cyclops Skeleton"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Harbinger, race=undead, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Destroyers\Harbinger.cfg:4
+msgid "Harbinger"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Infernal_Vortex, race=eoma_magical
@@ -1718,9 +1751,14 @@ msgstr ""
 msgid "movepoints"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Dwarvish_Cadet, race=dwarf, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Dwarvish_Cadet, race=dwarf
 #: Era_of_Magic\units\Runemasters\Dwarvish_Cadet.cfg:4
 msgid "Dwarvish Cadet"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Dwarvish_Cadet, race=dwarf
+#: Era_of_Magic\units\Runemasters\Dwarvish_Cadet.cfg:19
+msgid "Dwarvish warriors who don't find the tradition of runic warriors appealing enough often choose a different path and enroll for army to gain knowledge of military art. Thanks to modern and lighter armor designed by technologists they are faster and can strike more times than their runic counterparts."
 msgstr ""
 
 #. [attack]: type=pierce
@@ -1757,9 +1795,14 @@ msgstr ""
 msgid "Dwarvish Gunner"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Mobile_Turret, race=mechanical, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Mobile_Turret, race=mechanical
 #: Era_of_Magic\units\Runemasters\Dwarvish_Mobile_Turret.cfg:4
 msgid "Dwarvish Mobile Turret"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Mobile_Turret, race=mechanical
+#: Era_of_Magic\units\Runemasters\Dwarvish_Mobile_Turret.cfg:18
+msgid "The devastating Destroyers' invasion on dwarvish lands forced Technologists and Technocrats to design new weapon systems to effectively deal with the deadly threat. That's how Mobile Turrets and Defensive Platforms came into being. Based on striding machine's chassis, operated by autonomous steam robots, these extraordinary vehicles of war are equipped with state-of-the-art shockwave generators capable of decimating swarms of enemies with ease."
 msgstr ""
 
 #. [attack]: type=impact
@@ -2083,9 +2126,14 @@ msgstr ""
 msgid "shock grenade"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Technologist, race=dwarf, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Technologist, race=dwarf
 #: Era_of_Magic\units\Runemasters\Technologist.cfg:4
 msgid "Technologist"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Technologist, race=dwarf
+#: Era_of_Magic\units\Runemasters\Technologist.cfg:18
+msgid "Technologists belong to a special 'caste' of dwarfs responsible for designing advanced machinery and new weapons. Simply put: they do not create machines - they invent them. Armed with experimental rifles they pose a serious threat to any kind of foe."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Mage_of_Air, race=human
@@ -2134,7 +2182,7 @@ msgstr ""
 
 #. [attack]: type=arcane
 #: Era_of_Magic\units\Sky_Kingdom\Battle_Eye.cfg:58
-#: Era_of_Magic\units\Sky_Kingdom\Cosmic_Eye.cfg:59
+#: Era_of_Magic\units\Sky_Kingdom\Cosmic_Eye.cfg:60
 #: Era_of_Magic\units\Sky_Kingdom\Magical_Eye.cfg:42
 msgid "beam"
 msgstr ""
@@ -2179,7 +2227,7 @@ msgid "Cosmic Eyes are the most advanced version of the magical eye. They are us
 msgstr ""
 
 #. [attack]: type=secret
-#: Era_of_Magic\units\Sky_Kingdom\Cosmic_Eye.cfg:71
+#: Era_of_Magic\units\Sky_Kingdom\Cosmic_Eye.cfg:72
 msgid "reality warp"
 msgstr ""
 
@@ -2388,7 +2436,7 @@ msgstr ""
 
 #. [attack]: type=impact
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:132
-#: Era_of_Magic\units\Summoners\Great_Efreeti.cfg:94
+#: Era_of_Magic\units\Summoners\Great_Efreeti.cfg:95
 msgid "meteor shower"
 msgstr ""
 
