@@ -1,6 +1,24 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.7.3
+ ### Gameplay
+	* added 2 new units for the Destroyers faction: Harbinger and Doom Bringer
+ ### Units
+	** Dark Blood Alliance:
+	 * Mystic: changed freezing spell damage from 4-4 to 5-4
+	** Sky Kingdom:
+	 * Cosmic Eye: experience from 100 to 111; cost from 44g to 45g; replaced melee attack precision weapon special with precision (offensive), added the magical weapon special
+	** Summoners:
+	 * Great Efreeti: reduced the destruction attack damage from 33-1 to 27-1, added 'attack-only' weapon special
+ ### Descriptions
+	* added a description for Dwarvish Cadet
+	* added a description for Dwarvish Mobile Turret
+	* added a description for Technologist
+ ### Translations
+    * updated the Polish translation
+	* updated the raw translation file
+
 ## Version 3.7.2
  ### Units
 	** Dark Blood Alliance:
