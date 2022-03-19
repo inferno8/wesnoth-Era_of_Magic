@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-03-11 17:19 UTC\n"
+"POT-Creation-Date: 2022-03-19 19:23 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -557,7 +557,7 @@ msgstr ""
 
 #. [attack]: type=cold
 #: Era_of_Magic\units\Dark_Blood_Alliance\Chaos_Wyvern.cfg:56
-#: Era_of_Magic\units\Dark_Blood_Alliance\Chaos_Wyvern_Rider.cfg:72
+#: Era_of_Magic\units\Dark_Blood_Alliance\Chaos_Wyvern_Rider.cfg:71
 #: Era_of_Magic\units\Dark_Blood_Alliance\Great_Wyvern.cfg:55
 #: Era_of_Magic\units\Destroyers\Devourer.cfg:67
 #: Era_of_Magic\units\Destroyers\Titania.cfg:69
@@ -580,16 +580,16 @@ msgid "The Chosen of Forest, or 'The Keeper', as many refer to him, is the Darkb
 msgstr ""
 
 #. [attack]: type=cold
-#: Era_of_Magic\units\Dark_Blood_Alliance\Chosen_of_Forest.cfg:124
-#: Era_of_Magic\units\Dark_Blood_Alliance\Clan_Leader.cfg:115
-#: Era_of_Magic\units\Dark_Blood_Alliance\Mystic.cfg:97
+#: Era_of_Magic\units\Dark_Blood_Alliance\Chosen_of_Forest.cfg:125
+#: Era_of_Magic\units\Dark_Blood_Alliance\Clan_Leader.cfg:116
+#: Era_of_Magic\units\Dark_Blood_Alliance\Mystic.cfg:98
 #: Era_of_Magic\units\Dark_Blood_Alliance\Shamanistic_Adept.cfg:95
 msgid "iceball"
 msgstr ""
 
 #. [attack]: type=cold
-#: Era_of_Magic\units\Dark_Blood_Alliance\Chosen_of_Forest.cfg:136
-#: Era_of_Magic\units\Dark_Blood_Alliance\Mystic.cfg:109
+#: Era_of_Magic\units\Dark_Blood_Alliance\Chosen_of_Forest.cfg:137
+#: Era_of_Magic\units\Dark_Blood_Alliance\Mystic.cfg:110
 msgid "freezing spell"
 msgstr ""
 
@@ -726,7 +726,7 @@ msgstr ""
 
 #. [attack]: type=fire
 #: Era_of_Magic\units\Dark_Blood_Alliance\Red_Salamander.cfg:95
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Fire.cfg:94
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Fire.cfg:92
 #: Era_of_Magic\units\Sky_Kingdom\Pyromancer.cfg:77
 msgid "fire wave"
 msgstr ""
@@ -883,9 +883,14 @@ msgstr ""
 msgid "chaotic blast"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Apocalypse, race=undead, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Apocalypse, race=undead
 #: Era_of_Magic\units\Destroyers\Apocalypse.cfg:4
 msgid "Apocalypse"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Apocalypse, race=undead
+#: Era_of_Magic\units\Destroyers\Apocalypse.cfg:25
+msgid "An Apocalypse is the lament of a thousand souls contained in a Mara. This spirit has fused its own soul to the ones it has devoured, subjugating them in the process. Being devoured by an Apocalypse is one of the worst fates possible, as you will be a conscious soul inside an eternal tortured existence, or until the Apocalypse is banished from this realm."
 msgstr ""
 
 #. [attack]: type=fire
@@ -1015,9 +1020,14 @@ msgstr ""
 msgid "head"
 msgstr ""
 
-#. [unit_type]: id=EoMa_DarkApostle, race=undead, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_DarkApostle, race=undead
 #: Era_of_Magic\units\Destroyers\Dark_Apostle.cfg:4
 msgid "Dark Apostle"
+msgstr ""
+
+#. [unit_type]: id=EoMa_DarkApostle, race=undead
+#: Era_of_Magic\units\Destroyers\Dark_Apostle.cfg:26
+msgid "The Dark Apostles are the forerunners of extinction, the product of a million souls inside the emptiness of an eternal Nightmare: so many that they can be constantly heard from the outside of the void as a ceaseless whisper. A Dark Apostle is formidable by itself, but the real danger is what they represent: the dreadful force they are spearheading with their whispering."
 msgstr ""
 
 #. [leadership]: id=leadership
@@ -1115,9 +1125,14 @@ msgstr ""
 msgid "This unit costs 1 less gold worth of upkeep than it would normally."
 msgstr ""
 
-#. [unit_type]: id=EoMa_Doom_Bringer, race=undead, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Doom_Bringer, race=undead
 #: Era_of_Magic\units\Destroyers\Doom_Bringer.cfg:4
 msgid "Doom Bringer"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Doom_Bringer, race=undead
+#: Era_of_Magic\units\Destroyers\Doom_Bringer.cfg:26
+msgid "These abominations are wounds so large in reality that they generate dark portals to stabilize their mass. They are so unstable that their mere existence is contradictory and a sinful menace to the realm."
 msgstr ""
 
 #. [abilities]
@@ -1178,9 +1193,14 @@ msgstr ""
 msgid "Greater Cyclops Skeleton"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Harbinger, race=undead, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Harbinger, race=undead
 #: Era_of_Magic\units\Destroyers\Harbinger.cfg:4
 msgid "Harbinger"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Harbinger, race=undead
+#: Era_of_Magic\units\Destroyers\Harbinger.cfg:25
+msgid "Sometimes, when a Nightmare consumes too many souls, they fail to stabilize their original soul and implode into a being of pure void, fracturing reality around itself into an anti-magic black hole. This cursed spirit is able to destabilize its prey to more easily absorb its vital energy, but is no longer interested in devouring the soul: it just erases it, feeding the corpse to the growing hordes of the Destroyers."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Infernal_Vortex, race=eoma_magical
@@ -1193,9 +1213,14 @@ msgstr ""
 msgid "These occult masterpieces of anti-magic are pure manifestations of destructive power. Nothing can withstand the ceaseless anti-magic emissions of an Infernal Vortex. Whatever lies in its center, it surely must be connected directly to hell. There is no other explanation..."
 msgstr ""
 
-#. [unit_type]: id=EoMa_Mara, race=undead, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Mara, race=undead
 #: Era_of_Magic\units\Destroyers\Mara.cfg:4
 msgid "Mara"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Mara, race=undead
+#: Era_of_Magic\units\Destroyers\Mara.cfg:25
+msgid "When a Nightmare has consumed enough souls, they may stabilize their chaotic anti-magic energy flux and channel it into an echo of the being it used to be: a Mara. A Mara is an abomination to the spirit realm, as it possesses no will of its own, and is in constant terrible agony by just existing. This tortured soul seeks vengeance on everything the destroyers see fit, making it a force to be reckoned with."
 msgstr ""
 
 #. [attack]: type=fire
@@ -1274,13 +1299,13 @@ msgid "Avenger"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Avenger, race=human
-#: Era_of_Magic\units\Kharos\Avenger.cfg:20
+#: Era_of_Magic\units\Kharos\Avenger.cfg:27
 msgid "The Avenger is a heavy tactical defense unit. His retaliation strikes are always successful."
 msgstr ""
 
 #. [attack]: type=impact
-#: Era_of_Magic\units\Kharos\Avenger.cfg:45
-#: Era_of_Magic\units\Kharos\Hoplite.cfg:45
+#: Era_of_Magic\units\Kharos\Avenger.cfg:52
+#: Era_of_Magic\units\Kharos\Hoplite.cfg:52
 #: Era_of_Magic\units\Kharos\Shielder.cfg:45
 msgid "shield"
 msgstr ""
@@ -1442,7 +1467,7 @@ msgid "Hoplite"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Protector, race=human
-#: Era_of_Magic\units\Kharos\Hoplite.cfg:20
+#: Era_of_Magic\units\Kharos\Hoplite.cfg:27
 msgid "Hoplites are elite shielders, whose shields are large enough not only to protect themselves, but also to cover their comrades."
 msgstr ""
 
@@ -2456,7 +2481,7 @@ msgid "Summon Fire Avatar"
 msgstr ""
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Fire.cfg:62
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Fire.cfg:60
 #: Era_of_Magic\units\Summoners\Fire_Avatar.cfg:207
 #: Era_of_Magic\units\Summoners\Fire_Elemental.cfg:86
 #: Era_of_Magic\units\Summoners\Fire_God.cfg:109
@@ -2464,13 +2489,13 @@ msgid "burning fist"
 msgstr ""
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Fire.cfg:71
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Fire.cfg:69
 #: Era_of_Magic\units\Sky_Kingdom\Pyromancer.cfg:54
 msgid "flames"
 msgstr ""
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Fire.cfg:107
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Fire.cfg:105
 msgid "infernal flame"
 msgstr ""
 
@@ -3996,6 +4021,11 @@ msgstr ""
 msgid "inactive in RPG"
 msgstr ""
 
+#. [advancement]: id=eoma_amla_default_{ID}
+#: Era_of_Magic\utils\amla.cfg:26
+msgid "Max HP bonus +3, Max XP +20%"
+msgstr ""
+
 #. [dummy]: id=eoma_cleave
 #. [dummy]: id=eoma_cleave{DISPLAYVALUE}
 #: Era_of_Magic\utils\cleave.cfg:128
@@ -4475,6 +4505,16 @@ msgstr ""
 msgid "female^fanatic"
 msgstr ""
 
+#. [trait]: id=eoma_survivor
+#: Era_of_Magic\utils\traits.cfg:168
+msgid "survivor"
+msgstr ""
+
+#. [trait]: id=eoma_survivor
+#: Era_of_Magic\utils\traits.cfg:169
+msgid "female^survivor"
+msgstr ""
+
 #. [language]
 #: Era_of_Magic\english.cfg:4
 msgid "range^kamikaze"
@@ -4486,42 +4526,42 @@ msgid "secret"
 msgstr ""
 
 #. [era]: id=era_magic
-#: Era_of_Magic\EoMa_eras.cfg:156
+#: Era_of_Magic\EoMa_eras.cfg:321
 msgid "Era of Magic"
 msgstr ""
 
 #. [era]: id=era_magic
-#: Era_of_Magic\EoMa_eras.cfg:157
+#: Era_of_Magic\EoMa_eras.cfg:322
 msgid "The Era of Magic consists currently of 8 unique, fully animated factions: Barbarians, Darkblooded, Destroyers, Kharos, Runemasters, Sky Kingdom, Summoners and Tharis. Many units have fancy custom abilities/weapon specials."
 msgstr ""
 
 #. [era]: id=era_magic_rpg
-#: Era_of_Magic\EoMa_eras.cfg:176
+#: Era_of_Magic\EoMa_eras.cfg:341
 msgid "Era of Magic (RPG)"
 msgstr ""
 
 #. [era]: id=era_magic_rpg
-#: Era_of_Magic\EoMa_eras.cfg:177
+#: Era_of_Magic\EoMa_eras.cfg:342
 msgid "A variant of Era of Magic designed for playing scenarios which involve elements of roleplaying (RPG) by having lvl1 units as leaders with empty recruit lists."
 msgstr ""
 
 #. [era]: id=era_magic_aoh
-#: Era_of_Magic\EoMa_eras.cfg:195
+#: Era_of_Magic\EoMa_eras.cfg:360
 msgid "Era of Magic (Age of Heroes)"
 msgstr ""
 
 #. [era]: id=era_magic_aoh
-#: Era_of_Magic\EoMa_eras.cfg:196
+#: Era_of_Magic\EoMa_eras.cfg:361
 msgid "A variant of Era of Magic with higher level units: level 3 leaders, with level 1 and 2 units available for recruit. Not considered balanced."
 msgstr ""
 
 #. [era]: id=era_magic_masters
-#: Era_of_Magic\EoMa_eras.cfg:214
+#: Era_of_Magic\EoMa_eras.cfg:379
 msgid "Era of Magic (Masters)"
 msgstr ""
 
 #. [era]: id=era_magic_masters
-#: Era_of_Magic\EoMa_eras.cfg:215
+#: Era_of_Magic\EoMa_eras.cfg:380
 msgid "A variant of Era of Magic with higher level units: level 3-4 leaders, with level 2 and 3 units available for recruit. Not considered balanced."
 msgstr ""
 
