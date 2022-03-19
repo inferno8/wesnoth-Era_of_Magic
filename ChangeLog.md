@@ -1,6 +1,40 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.7.4
+ ### Gameplay
+	* implemented a 'sequence of AMLAs' to selected units (veteran_trait->amla_default; survivor_trait->amla_default; veteran_trait->survivor_trait->amla_default)
+	* added a new trait: survivor (+7HP +20% XP)
+	* Darkblood Alliance can now recruit lvl1 Wyverns in Masters era
+ ### Units
+	** Dark Blood Alliance:
+	 * Black Salamander: blade resistance from -10% to 0%
+	 * Chaos Wyvern Rider: removed the drains weapon special from the fangs attack
+	 * Chosen of Forest: set cold resistance to 40%; set arcane resistance to 30%
+	 * Chosen of Marsh: set cold resistance to 30%
+	 * Corrupted Shaman: set cold resistance to 20%
+	 * Mystic: set cold resistance to 30%; set arcane resistance to 30%
+	 * Clan Leader: set cold resistance to 20%; set fire resistance to -10%
+	 * Swamp Mage: hitpoints from 46 to 48; cold resistance from 20% to 30%
+	** Destroyers:
+	 * Zombie Um: changed experience from 36 to 62
+	** Kharos:
+	 * Elemental Archer: changed fire resistance from 20% to 15%; cold resistance from 15% to 20%
+	 * Grand Kharosian Warbanner: hitpoints from 90 to 85; arcane resistance from 50% to 40%
+	** Runemasters:
+	 * Constructor: experience from 100 to 111
+	 * Dwarvish Cadet: thunderstick damage from 15 to 16
+	 * Dwarvish Cadet: experience from 88 to 126; thunderstick damage from 19 to 21
+	 * Steam Turboserker: experience from 100 to 126
+	 * Steamcopter: added the first strike weapon special to the bomb attack
+	** Sky Kingdom:
+	 * Cosmic Eye: changed reality warp's precision weapon special to precision (offensive), added lesser revenge
+	 * Master of Fire: cost from 60g to 62g; sand movement cost to 1; inferno damage from 32 to 29
+	** Tharis:
+	 * Storm Sphere: cost from 33g to 35g
+ ### Descriptions
+	* added new descriptions for Mara, Apocalypse, Dark Apostle, Harbinger, Doom Bringer (by Lord_bold)
+
 ## Version 3.7.3
  ### Gameplay
 	* added 2 new units for the Destroyers faction: Harbinger and Doom Bringer
