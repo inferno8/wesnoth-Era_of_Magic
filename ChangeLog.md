@@ -1,6 +1,25 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.7.5
+ ### Gameplay
+	* added new options for the sequence of traits\AMLAs
+ ### Units
+	** Barbarians:
+	 * Barbarian King: hitpoints from 82 to 87
+	** Runemasters:
+	 * Dwarvish Rune Lord: decreased thunderstick damage from 26 to 24
+	 * Runemaster: decreased runic hammer damage from 17-2 to 15-2
+	 * Technocrat: fixed incorrect damage type for plasma rifle
+	** Sky Kingdom:
+	 * Master of Elements: decreased mountains movement cost to 2
+	** Tharis:
+	 * Dark Wizard: cost from 39g to 38g
+	 * Great Warlock: can no longer summon in RPG mode
+	 * Master of Darkness: new attack: implosion 12-3 (ranged magical impact); can no longer summon in RPG mode
+ ### Translations
+	* updated the EoMa_translation_template
+
 ## Version 3.7.4
  ### Gameplay
 	* implemented a 'sequence of AMLAs' to selected units (veteran_trait->amla_default; survivor_trait->amla_default; veteran_trait->survivor_trait->amla_default)
