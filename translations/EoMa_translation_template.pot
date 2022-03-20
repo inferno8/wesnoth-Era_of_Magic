@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-03-19 19:23 UTC\n"
+"POT-Creation-Date: 2022-03-20 10:19 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -334,7 +334,7 @@ msgstr ""
 #. [attack]: type=blade
 #: Era_of_Magic\units\Barbarians\Goblin_Runt.cfg:43
 #: Era_of_Magic\units\Barbarians\Goblin_Veteran.cfg:47
-#: Era_of_Magic\units\Barbarians\Goblin_Warbanner.cfg:65
+#: Era_of_Magic\units\Barbarians\Goblin_Warbanner.cfg:72
 #: Era_of_Magic\units\Barbarians\Goblin_Warrior.cfg:46
 #: Era_of_Magic\units\Dark_Blood_Alliance\Battle_Toad.cfg:91
 #: Era_of_Magic\units\Dark_Blood_Alliance\Dreadnought.cfg:92
@@ -367,7 +367,7 @@ msgid "Goblin Warbanner"
 msgstr ""
 
 #. [abilities]
-#: Era_of_Magic\units\Barbarians\Goblin_Warbanner.cfg:35
+#: Era_of_Magic\units\Barbarians\Goblin_Warbanner.cfg:42
 msgid "Summon Roc Rider"
 msgstr ""
 
@@ -383,7 +383,7 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Orcish_Warbanner, race=orc
 #. [unit_type]: id=EoMa_Orcish_Warrior, race=orc
-#: Era_of_Magic\units\Barbarians\Orcish_Warbanner.cfg:20
+#: Era_of_Magic\units\Barbarians\Orcish_Warbanner.cfg:27
 #: Era_of_Magic\units\Barbarians\Orcish_Warrior.cfg:20
 msgid ""
 "Savage and warlike Orcs form the back bone of the Barbarian hordes.\n"
@@ -449,7 +449,7 @@ msgid "Troll Warbanner"
 msgstr ""
 
 #. [attack]: type=impact
-#: Era_of_Magic\units\Barbarians\Troll_Warbanner.cfg:40
+#: Era_of_Magic\units\Barbarians\Troll_Warbanner.cfg:47
 #: Era_of_Magic\units\Kharos\Kharos_War_Banner.cfg:45
 msgid "banner"
 msgstr ""
@@ -1362,7 +1362,7 @@ msgstr ""
 #: Era_of_Magic\units\Kharos\Mistress_of_Light.cfg:81
 #: Era_of_Magic\units\Kharos\Sister_of_Light.cfg:51
 #: Era_of_Magic\units\Sky_Kingdom\Master_Mage.cfg:39
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:85
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:86
 msgid "light touch"
 msgstr ""
 
@@ -2140,7 +2140,7 @@ msgstr ""
 msgid "rifle"
 msgstr ""
 
-#. [attack]: type=pierce
+#. [attack]: type=fire
 #: Era_of_Magic\units\Runemasters\Technocrat.cfg:77
 msgid "plasma shot"
 msgstr ""
@@ -2271,7 +2271,7 @@ msgstr ""
 #: Era_of_Magic\units\Sky_Kingdom\Elementalist.cfg:55
 #: Era_of_Magic\units\Sky_Kingdom\Hydromancer.cfg:84
 #: Era_of_Magic\units\Sky_Kingdom\Master_Mage.cfg:51
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:97
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:98
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Water.cfg:79
 msgid "icicles"
 msgstr ""
@@ -2409,7 +2409,7 @@ msgstr ""
 
 #. [abilities]
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Air.cfg:26
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:66
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:67
 #: Era_of_Magic\units\Summoners\Grand_Summoner.cfg:66
 #: Era_of_Magic\units\Summoners\Summons_Master.cfg:86
 msgid "Summon Air Elemental"
@@ -2422,7 +2422,7 @@ msgstr ""
 
 #. [attack]: type=arcane
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Air.cfg:125
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:120
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:121
 msgid "eye of the storm"
 msgstr ""
 
@@ -2437,7 +2437,7 @@ msgid "It's generally believed that one person can't truly master more than a si
 msgstr ""
 
 #. [abilities]
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:64
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:65
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Fire.cfg:24
 #: Era_of_Magic\units\Summoners\Grand_Summoner.cfg:64
 #: Era_of_Magic\units\Summoners\Summons_Master.cfg:84
@@ -2445,7 +2445,7 @@ msgid "Summon Fire Elemental"
 msgstr ""
 
 #. [abilities]
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:65
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:66
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Water.cfg:59
 #: Era_of_Magic\units\Summoners\Grand_Summoner.cfg:65
 #: Era_of_Magic\units\Summoners\Summons_Master.cfg:85
@@ -2453,14 +2453,14 @@ msgid "Summon Water Elemental"
 msgstr ""
 
 #. [abilities]
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:67
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:68
 #: Era_of_Magic\units\Summoners\Grand_Summoner.cfg:67
 #: Era_of_Magic\units\Summoners\Summons_Master.cfg:87
 msgid "Summon Earth Elemental"
 msgstr ""
 
 #. [attack]: type=impact
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:132
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:133
 #: Era_of_Magic\units\Summoners\Great_Efreeti.cfg:95
 msgid "meteor shower"
 msgstr ""
@@ -3626,7 +3626,9 @@ msgid "While the title of Great Warlock is undoubtedly very prestigious, it's st
 msgstr ""
 
 #. [attack]: type=cold
+#. [attack]: type=impact
 #: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:204
+#: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:216
 msgid "implosion"
 msgstr ""
 
@@ -4526,42 +4528,42 @@ msgid "secret"
 msgstr ""
 
 #. [era]: id=era_magic
-#: Era_of_Magic\EoMa_eras.cfg:321
+#: Era_of_Magic\EoMa_eras.cfg:433
 msgid "Era of Magic"
 msgstr ""
 
 #. [era]: id=era_magic
-#: Era_of_Magic\EoMa_eras.cfg:322
+#: Era_of_Magic\EoMa_eras.cfg:434
 msgid "The Era of Magic consists currently of 8 unique, fully animated factions: Barbarians, Darkblooded, Destroyers, Kharos, Runemasters, Sky Kingdom, Summoners and Tharis. Many units have fancy custom abilities/weapon specials."
 msgstr ""
 
 #. [era]: id=era_magic_rpg
-#: Era_of_Magic\EoMa_eras.cfg:341
+#: Era_of_Magic\EoMa_eras.cfg:453
 msgid "Era of Magic (RPG)"
 msgstr ""
 
 #. [era]: id=era_magic_rpg
-#: Era_of_Magic\EoMa_eras.cfg:342
+#: Era_of_Magic\EoMa_eras.cfg:454
 msgid "A variant of Era of Magic designed for playing scenarios which involve elements of roleplaying (RPG) by having lvl1 units as leaders with empty recruit lists."
 msgstr ""
 
 #. [era]: id=era_magic_aoh
-#: Era_of_Magic\EoMa_eras.cfg:360
+#: Era_of_Magic\EoMa_eras.cfg:472
 msgid "Era of Magic (Age of Heroes)"
 msgstr ""
 
 #. [era]: id=era_magic_aoh
-#: Era_of_Magic\EoMa_eras.cfg:361
+#: Era_of_Magic\EoMa_eras.cfg:473
 msgid "A variant of Era of Magic with higher level units: level 3 leaders, with level 1 and 2 units available for recruit. Not considered balanced."
 msgstr ""
 
 #. [era]: id=era_magic_masters
-#: Era_of_Magic\EoMa_eras.cfg:379
+#: Era_of_Magic\EoMa_eras.cfg:491
 msgid "Era of Magic (Masters)"
 msgstr ""
 
 #. [era]: id=era_magic_masters
-#: Era_of_Magic\EoMa_eras.cfg:380
+#: Era_of_Magic\EoMa_eras.cfg:492
 msgid "A variant of Era of Magic with higher level units: level 3-4 leaders, with level 2 and 3 units available for recruit. Not considered balanced."
 msgstr ""
 
