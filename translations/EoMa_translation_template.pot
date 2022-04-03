@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-03-20 10:19 UTC\n"
+"POT-Creation-Date: 2022-04-03 18:16 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -141,16 +141,6 @@ msgstr ""
 #. [unit_type]: id=EoMa_Blood_Warrior, race=orc, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Barbarians\Blood_Warrior.cfg:4
 msgid "Blood Warrior"
-msgstr ""
-
-#. [dummy]: id=eoma_bloodlust_5
-#: Era_of_Magic\units\Barbarians\Blood_Warrior.cfg:27
-msgid "bloodlust +5"
-msgstr ""
-
-#. [dummy]: id=eoma_bloodlust_5
-#: Era_of_Magic\units\Barbarians\Blood_Warrior.cfg:28
-msgid "This unit gains 5 hitpoints added to its current health whenever it kills a living unit."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Cyclops, race=eoma_cyclops
@@ -502,6 +492,9 @@ msgstr ""
 #. [attack]: type=impact
 #: Era_of_Magic\units\Dark_Blood_Alliance\Battle_Toad.cfg:70
 #: Era_of_Magic\units\Dark_Blood_Alliance\Dreadnought.cfg:71
+#: Era_of_Magic\units\Destroyers\Atokpi_Charger.cfg:75
+#: Era_of_Magic\units\Destroyers\Atokpi_Infantry.cfg:73
+#: Era_of_Magic\units\Destroyers\Crimson_Atokpi.cfg:76
 #: Era_of_Magic\units\Sky_Kingdom\Golem.cfg:54
 #: Era_of_Magic\units\Sky_Kingdom\War_Golem.cfg:88
 msgid "charge"
@@ -918,14 +911,40 @@ msgstr ""
 #: Era_of_Magic\units\Destroyers\Atokpi.cfg:48
 #: Era_of_Magic\units\Destroyers\Atokpi_General.cfg:46
 #: Era_of_Magic\units\Destroyers\Atokpi_Master.cfg:49
-#: Era_of_Magic\units\Destroyers\Atokpi_Samurai.cfg:46
+#: Era_of_Magic\units\Destroyers\Atokpi_Samurai.cfg:45
 #: Era_of_Magic\units\Destroyers\Dark_Atokpi.cfg:51
 msgid "katana"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Atokpi_Charger, race=undead, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Destroyers\Atokpi_Charger.cfg:4
+msgid "Atokpi Charger"
+msgstr ""
+
+#. [attack]: type=blade
+#. [attack]: type=pierce
+#: Era_of_Magic\units\Destroyers\Atokpi_Charger.cfg:51
+#: Era_of_Magic\units\Destroyers\Atokpi_Charger.cfg:63
+#: Era_of_Magic\units\Destroyers\Atokpi_Infantry.cfg:49
+#: Era_of_Magic\units\Destroyers\Atokpi_Infantry.cfg:61
+#: Era_of_Magic\units\Destroyers\Crimson_Atokpi.cfg:52
+#: Era_of_Magic\units\Destroyers\Crimson_Atokpi.cfg:64
+msgid "yari"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Atokpi_General, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Destroyers\Atokpi_General.cfg:4
 msgid "Atokpi General"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Atokpi_Infantry, race=undead
+#: Era_of_Magic\units\Destroyers\Atokpi_Infantry.cfg:4
+msgid "Atokpi Infantry"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Atokpi_Infantry, race=undead
+#: Era_of_Magic\units\Destroyers\Atokpi_Infantry.cfg:25
+msgid "Before the fall of the Atokpi Empire the vast majority of Atokpis were Yari users. Equipped with these unusual spear-like weapons, proud Atokpi warriors formed unstoppable legions often deployed in the war against Darkblooded thousands of years ago. The use of 4 arms combined with their exoskeleton anatomy made Atokpis literally unbeatable when using these powerful polearm weapons and almost lead to victory over the inhabitants of the Great Jungle. Unfortunately, Atokpis' demise from the hands of Destroyers and subsequent transformation into an undead swarm, severely limited their potential to effectively wield these legendary weapons. The lack of muscles forced undead Atokpis to use much smaller Yari weapons than their living counterparts used to carry. The result was a more mobile but much less stronger version of a living Atokpi warrior."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Atokpi_Master, race=undead, description={NO_DESCR_AVAILABLE}
@@ -975,6 +994,16 @@ msgstr ""
 #. [unit_type]: id=EoMa_Bone_Golem, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Destroyers\Bone_Golem.cfg:4
 msgid "Bone Golem"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Crimson_Atokpi, race=undead
+#: Era_of_Magic\units\Destroyers\Crimson_Atokpi.cfg:4
+msgid "Crimson Atokpi"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Crimson_Atokpi, race=undead
+#: Era_of_Magic\units\Destroyers\Crimson_Atokpi.cfg:26
+msgid "It is said that elite troops of the Atokpi Empire were capable of carrying legendary Doom Spears of astonishing length. Thanks to these powerful weapons they were capable of killing any kind of armored foe with just one strike. But sadly for Atokpi, their best warriors were not as effective as expected against undead swarms. Destroyers tried to equip the doom spears but none of their undead Atokpis were able to even carry one of these incredible weapons, that is why they just equipped the shorter but more portable version of Yari, typically used by novices. Crimson Atokpis, albeit smaller that their samurai counterparts, are very agile and will try to find and assault weak spots in enemy defense lines, allowing the undead swarm to destroy even the most fortified targets from behind."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Cyclops_Necromancer, race=undead, description={NO_DESCR_AVAILABLE}
@@ -1141,19 +1170,19 @@ msgid "Summon Dark Portal"
 msgstr ""
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Destroyers\Doom_Bringer.cfg:160
+#: Era_of_Magic\units\Destroyers\Doom_Bringer.cfg:156
 #: Era_of_Magic\units\Destroyers\Harbinger.cfg:136
 msgid "flames of doom"
 msgstr ""
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Destroyers\Doom_Bringer.cfg:172
+#: Era_of_Magic\units\Destroyers\Doom_Bringer.cfg:168
 #: Era_of_Magic\units\Destroyers\Harbinger.cfg:148
 msgid "corrupted fire"
 msgstr ""
 
 #. [attack]: type=impact
-#: Era_of_Magic\units\Destroyers\Doom_Bringer.cfg:185
+#: Era_of_Magic\units\Destroyers\Doom_Bringer.cfg:181
 #: Era_of_Magic\units\Destroyers\Harbinger.cfg:161
 msgid "chaotic vortex"
 msgstr ""
@@ -4016,6 +4045,29 @@ msgstr ""
 #. [unstore_unit]
 #: Era_of_Magic\utils\abilities.cfg:1284
 msgid "stunned"
+msgstr ""
+
+#. [dummy]: id=eoma_bloodlust{VALUE}
+#: Era_of_Magic\utils\abilities.cfg:1369
+msgid "bloodlust"
+msgstr ""
+
+#. [dummy]: id=eoma_bloodlust{VALUE}
+#: Era_of_Magic\utils\abilities.cfg:1370
+msgid "This unit gains {VALUE} hitpoints added to its current health whenever it kills a living unit."
+msgstr ""
+
+#. [damage]: id=eoma_supercharge
+#: Era_of_Magic\utils\abilities.cfg:1415
+msgid "supercharge"
+msgstr ""
+
+#. [damage]: id=eoma_supercharge
+#: Era_of_Magic\utils\abilities.cfg:1416
+msgid ""
+"When used offensively, this attack deals double damage to the target. It also causes this unit to take double damage from the target’s counterattack.\n"
+"\n"
+"When the opponent is defeated, the attacker with this ability moves to the opponent's location."
 msgstr ""
 
 #. [disable]: id=eoma_disable_in_rpg, description=
