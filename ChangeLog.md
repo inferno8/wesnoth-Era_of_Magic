@@ -1,6 +1,29 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.8
+ ### Gameplay
+	* added 3 new units for the Destroyers faction: Atokpi Infantry, Crimson Atokpi and Atkopi Charger
+	* removed Troll Warbanner and Goblin Druid from the list of available leaders in Age of Heroes era
+ ### Units
+	** Kharos:
+	 * Great Kharos Warbanner: changed the lightbeam attack weapon special from magical to magical (offensive), added the enchanted weapon special, reduced damage from 9-3 to 8-3
+ ### Abilities
+	* added the dauntless ability
+	* added the enchanted weapon special
+	* added the supercharge weapon special
+ ### Graphics
+	* improved Doom Bringer's animations
+	* improved Mobile Turret and MDP animations
+	* new attack icons (machine gun, impact ammo and shockwave)
+ ### Code
+	* moved the bloodlust ability from Blood_Warrior.cfg to abilities.cfg
+ ### Descriptions
+	* added new descriptions for Atokpi Infantry and Crimson Atokpi (by IPS)
+ ### Translations
+	* updated the raw translation file
+    * updated the Polish translation
+
 ## Version 3.7.5
  ### Gameplay
 	* added new options for the sequence of traits\AMLAs
