@@ -2,14 +2,15 @@
 ERA CREATOR
 inferno8
 
-ERA OF MAGIC 3.0 CO-CREATORS
+ERA OF MAGIC 3.0+ CO-CREATORS
 inferno8
 ForestDragon
+IPS
 
 ERA MAINTAINERS
 inferno8
-ForestDragon
 Ravana
+ForestDragon
 Espreon
 Alarantalara
 
@@ -22,10 +23,10 @@ ForestDragon
 Dingo7
 
 TEAM COLORS
+inferno8
 Eagle_11
 ForestDragon
 glonstons
-inferno8
 
 CODING
 inferno8
@@ -46,13 +47,14 @@ Edwylm (Salamanders)
 ForestDragon (various)
 galegosimpatico (Banisher)
 inferno8 (various)
+IPS (Destroyers)
 Lord_bold (Destroyers)
 Slug (Barbarians)
 sur.nhm (Dark Blood Alliance)
 
 SOUNDS FX
-ForestDragon
 inferno8
+ForestDragon
 
 BALANCING
 Adris
@@ -96,7 +98,7 @@ wuxiangjinxing
 
 SPECIAL THANKS
 ForestDragon for his incredible EoMa 2.0-3.0 feedback regarding almost every aspect of the era.
-IPS for his post 2.0 detailed balance analysis
+IPS for his post 2.0 extremely detailed balance analysis and concepts for new units
 Chewan for his amazing story/descriptions feedback
 All creators of: Era of Myths, Extended Era, Imperial Era, Mercenaries Era
 
@@ -130,7 +132,7 @@ Fatquack (bugs finder)
 fog_of_gold (a lot of balancing suggestions)
 ForestDragon (EoMa 2.0-3.0 balancing, animation coding, ideas, gameplay improvements)
 Gena
-IPS
+IPS (EoMa 2.0-3.0+ balancing)
 Konrad2
 lightdragonx
 lastdragon
