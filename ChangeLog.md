@@ -1,6 +1,15 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.8.1
+ ### Abilities
+	* changed supercharge damage modifier from 2 to 1.5
+	* fixed the supercharge weapon special not giving kill experience
+ ### Descriptions
+	* added new descriptions for Bone Golem, Bone Giant and Moloch (by Lord_bold)
+ ### Translations
+	* updated EoMa_translation_template.pot
+
 ## Version 3.8
  ### Gameplay
 	* added 3 new units for the Destroyers faction: Atokpi Infantry, Crimson Atokpi and Atkopi Charger
