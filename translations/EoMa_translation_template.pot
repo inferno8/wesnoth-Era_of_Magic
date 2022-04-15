@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-04-03 18:16 UTC\n"
+"POT-Creation-Date: 2022-04-15 08:20 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -971,7 +971,7 @@ msgstr ""
 #: Era_of_Magic\units\Destroyers\Bone_Beast.cfg:60
 #: Era_of_Magic\units\Destroyers\Bone_Giant.cfg:57
 #: Era_of_Magic\units\Destroyers\Bone_Golem.cfg:57
-#: Era_of_Magic\units\Destroyers\Moloch.cfg:60
+#: Era_of_Magic\units\Destroyers\Moloch.cfg:62
 #: Era_of_Magic\units\Tharis\Chaos_Hydra.cfg:60
 #: Era_of_Magic\units\Tharis\Great_Hydra.cfg:59
 #: Era_of_Magic\units\Tharis\Hydra.cfg:68
@@ -982,18 +982,28 @@ msgstr ""
 #: Era_of_Magic\units\Destroyers\Bone_Beast.cfg:71
 #: Era_of_Magic\units\Destroyers\Bone_Giant.cfg:68
 #: Era_of_Magic\units\Destroyers\Bone_Golem.cfg:68
-#: Era_of_Magic\units\Destroyers\Moloch.cfg:71
+#: Era_of_Magic\units\Destroyers\Moloch.cfg:73
 msgid "tail"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Bone_Giant, race=undead, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Bone_Giant, race=undead
 #: Era_of_Magic\units\Destroyers\Bone_Giant.cfg:4
 msgid "Bone Giant"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Bone_Golem, race=undead, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Bone_Giant, race=undead
+#: Era_of_Magic\units\Destroyers\Bone_Giant.cfg:25
+msgid "Bone giants are gigantic necromantic constructs of bone, of varying heights: they've incorporated thousands of broken bones into their body, making it very resilient to physical damage. Their size is perhaps one of its most limiting factors: the amount of bone needed to transform the already massive bone golems into giants is so large that seeing one means you will become part of him."
+msgstr ""
+
+#. [unit_type]: id=EoMa_Bone_Golem, race=undead
 #: Era_of_Magic\units\Destroyers\Bone_Golem.cfg:4
 msgid "Bone Golem"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Bone_Golem, race=undead
+#: Era_of_Magic\units\Destroyers\Bone_Golem.cfg:25
+msgid "As the dark forces of the destroyers tighten their grip around a civilization and exterminate it, some corpses of the former living race are bound to be broken beyond necromantic powers to reanimate. Bone beasts feed upon the osseous matter of these fallen enemies, up until their skeletal mass doubles in size and strength, becoming golems in the process."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Crimson_Atokpi, race=undead
@@ -1257,9 +1267,17 @@ msgstr ""
 msgid "touch of doom"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Moloch, race=undead, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Moloch, race=undead
 #: Era_of_Magic\units\Destroyers\Moloch.cfg:4
 msgid "Moloch"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Moloch, race=undead
+#: Era_of_Magic\units\Destroyers\Moloch.cfg:26
+msgid ""
+"In the destroyers' path of extinguishing any life, some races are bound to not be fit for combat or casting: peaceful trading races and farming societies that value peace above all have very little use as undead minions unless they have an outstanding physique or mind.\n"
+"Everything else is crushed, absorbed and condensed into the largest of the destroyers' war machines, a titanic construct of death and desolation: the Moloch.\n"
+"This mindless rotten abomination carries the will of the destroyers to any world they conquer, as a terrifying reminder to the weak that even they will become strong when united."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Nightmare, race=undead
@@ -4065,7 +4083,7 @@ msgstr ""
 #. [damage]: id=eoma_supercharge
 #: Era_of_Magic\utils\abilities.cfg:1416
 msgid ""
-"When used offensively, this attack deals double damage to the target. It also causes this unit to take double damage from the target’s counterattack.\n"
+"When used offensively, this attack deals 150% damage to the target. It also causes this unit to take 150% damage from the target’s counterattack.\n"
 "\n"
 "When the opponent is defeated, the attacker with this ability moves to the opponent's location."
 msgstr ""
