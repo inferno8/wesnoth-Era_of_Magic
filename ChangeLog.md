@@ -1,6 +1,33 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.8.2
+ ### Gameplay
+	* added a new unit for Destroyers: Black Portal
+ ### Units
+	** Dark Blood Alliance:
+	 * Corrupted Shaman: fire resistance from 10% to 15%
+	 * Mystic: fire resistance from -10% to 0%
+	 * Jungle Champion: fire resistance from -10% to -5%
+	 * Saurian Assassin: fire resistance from -10% to -5%
+	 * Yellow Salamander: fire resistance from 15% to 20%
+	** Summoners:
+	 * Great Efreeti: hitpoints from 62 to 60; experience from 110 to 150; cost from 66g to 68g; Meteor Shower attack damage from 18-2 to 17-2
+ ### Abilities
+	* added the scavenger ability
+	* added the "magical (defensive)" weapon special
+ ### Graphics
+	* improved the look of Infernal Vortex
+	* fixed the size of Dark Portal and Infernal Vortex unit icons on gui elements
+ ### Descriptions
+	* added new descriptions for Cyclops Necromancer and Greater Cyclops Skeleton (by Lord_bold)
+ ### Code
+	* moved functions from main and EoMa_eras to era_macros.cfg
+	* removed macros as they are now in era_macros.cfg
+ ### Translations
+	* updated the raw translation file
+    * updated the Polish translation
+
 ## Version 3.8.1
  ### Abilities
 	* changed supercharge damage modifier from 2 to 1.5
