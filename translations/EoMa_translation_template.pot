@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-04-15 08:20 UTC\n"
+"POT-Creation-Date: 2022-04-29 14:37 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -957,6 +957,31 @@ msgstr ""
 msgid "Atokpi Samurai"
 msgstr ""
 
+#. [unit_type]: id=EoMa_Black_Portal, race=eoma_magical
+#: Era_of_Magic\units\Destroyers\Black_Portal.cfg:4
+msgid "Black Portal"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Black_Portal, race=eoma_magical
+#: Era_of_Magic\units\Destroyers\Black_Portal.cfg:19
+msgid "...forever zero..."
+msgstr ""
+
+#. [attack]: type=fire
+#: Era_of_Magic\units\Destroyers\Black_Portal.cfg:194
+#: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:291
+#: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:310
+#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:276
+#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:295
+msgid "aura"
+msgstr ""
+
+#. [attack]: type=cold
+#: Era_of_Magic\units\Destroyers\Black_Portal.cfg:207
+#: Era_of_Magic\units\Tharis\Great_Warlock.cfg:134
+msgid "dark ball"
+msgstr ""
+
 #. [unit_type]: id=EoMa_Beast, race=undead
 #: Era_of_Magic\units\Destroyers\Bone_Beast.cfg:4
 msgid "Bone Beast"
@@ -1016,9 +1041,14 @@ msgstr ""
 msgid "It is said that elite troops of the Atokpi Empire were capable of carrying legendary Doom Spears of astonishing length. Thanks to these powerful weapons they were capable of killing any kind of armored foe with just one strike. But sadly for Atokpi, their best warriors were not as effective as expected against undead swarms. Destroyers tried to equip the doom spears but none of their undead Atokpis were able to even carry one of these incredible weapons, that is why they just equipped the shorter but more portable version of Yari, typically used by novices. Crimson Atokpis, albeit smaller that their samurai counterparts, are very agile and will try to find and assault weak spots in enemy defense lines, allowing the undead swarm to destroy even the most fortified targets from behind."
 msgstr ""
 
-#. [unit_type]: id=EoMa_Cyclops_Necromancer, race=undead, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Cyclops_Necromancer, race=undead
 #: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:4
 msgid "Cyclops Necromancer"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Cyclops_Necromancer, race=undead
+#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:25
+msgid "Destroyer 'necromancers' are not to be mistaken with lich of any kind, for they do not possess any semblance of willpower of their past self, nor soul or mind. These long dead masters of the undead support the destroyer dark forces with an untold supply of corpses from past conquests... or maybe not so old battles. The only certainty is death on their wake."
 msgstr ""
 
 #. [dummy]: id=eoma_summonzombie
@@ -1111,19 +1141,11 @@ msgstr ""
 msgid "Dark Portals are powerful constructs of unknown origin, emanating extreme amounts of anti-magic. Nobody knows where they lead, but one thing is sure: nothing is going to live long enough near these bizarre things to find out. Besides harming living beings in close proximity, the anti-magic emission also seems to make nearby Destroyers regenerate."
 msgstr ""
 
-#. [attack]: type=fire
-#: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:276
-#: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:295
-#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:414
-#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:433
-msgid "aura"
-msgstr ""
-
 #. [dummy]: id=defend-only
-#: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:287
-#: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:305
-#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:425
-#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:443
+#: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:302
+#: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:320
+#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:287
+#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:305
 #: Era_of_Magic\units\Runemasters\Balloon.cfg:91
 #: Era_of_Magic\units\Runemasters\Flying_Fortress.cfg:92
 #: Era_of_Magic\units\Runemasters\Heavy_Balloon.cfg:109
@@ -1133,10 +1155,10 @@ msgid "defend-only"
 msgstr ""
 
 #. [dummy]: id=defend-only
-#: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:288
-#: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:306
-#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:426
-#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:444
+#: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:303
+#: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:321
+#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:288
+#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:306
 #: Era_of_Magic\units\Runemasters\Balloon.cfg:92
 #: Era_of_Magic\units\Runemasters\Flying_Fortress.cfg:93
 #: Era_of_Magic\units\Runemasters\Heavy_Balloon.cfg:110
@@ -1227,9 +1249,14 @@ msgstr ""
 msgid "Summon Pirafly"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Legendary_Cyclops, race=undead, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Legendary_Cyclops, race=undead
 #: Era_of_Magic\units\Destroyers\Greater_Cyclops_Skeleton.cfg:4
 msgid "Greater Cyclops Skeleton"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Legendary_Cyclops, race=undead
+#: Era_of_Magic\units\Destroyers\Greater_Cyclops_Skeleton.cfg:24
+msgid "In the time before time, the cyclopean Empire stood unchallenged, mighty and eternal. Its mastery over the dark arts cannot be measured nor compared to what today is known, many of its secrets lost to time... and the calamity that caused its downfall. This undead minion is an echo of this distant past."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Harbinger, race=undead
@@ -3630,11 +3657,6 @@ msgstr ""
 msgid "scythe"
 msgstr ""
 
-#. [attack]: type=cold
-#: Era_of_Magic\units\Tharis\Great_Warlock.cfg:134
-msgid "dark ball"
-msgstr ""
-
 #. [unit_type]: id=EoMa_Great_Witch, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Great_Witch.cfg:4
 msgid "Great Witch"
@@ -4086,6 +4108,16 @@ msgid ""
 "When used offensively, this attack deals 150% damage to the target. It also causes this unit to take 150% damage from the target’s counterattack.\n"
 "\n"
 "When the opponent is defeated, the attacker with this ability moves to the opponent's location."
+msgstr ""
+
+#. [dummy]: id=eoma_scavenger{VALUE}
+#: Era_of_Magic\utils\abilities.cfg:1473
+msgid "scavenger"
+msgstr ""
+
+#. [dummy]: id=eoma_scavenger{VALUE}
+#: Era_of_Magic\utils\abilities.cfg:1474
+msgid "This unit gains {VALUE} hitpoints added to its current health whenever an adjacent unit dies."
 msgstr ""
 
 #. [disable]: id=eoma_disable_in_rpg, description=
@@ -4598,42 +4630,42 @@ msgid "secret"
 msgstr ""
 
 #. [era]: id=era_magic
-#: Era_of_Magic\EoMa_eras.cfg:433
+#: Era_of_Magic\EoMa_eras.cfg:5
 msgid "Era of Magic"
 msgstr ""
 
 #. [era]: id=era_magic
-#: Era_of_Magic\EoMa_eras.cfg:434
+#: Era_of_Magic\EoMa_eras.cfg:6
 msgid "The Era of Magic consists currently of 8 unique, fully animated factions: Barbarians, Darkblooded, Destroyers, Kharos, Runemasters, Sky Kingdom, Summoners and Tharis. Many units have fancy custom abilities/weapon specials."
 msgstr ""
 
 #. [era]: id=era_magic_rpg
-#: Era_of_Magic\EoMa_eras.cfg:453
+#: Era_of_Magic\EoMa_eras.cfg:25
 msgid "Era of Magic (RPG)"
 msgstr ""
 
 #. [era]: id=era_magic_rpg
-#: Era_of_Magic\EoMa_eras.cfg:454
+#: Era_of_Magic\EoMa_eras.cfg:26
 msgid "A variant of Era of Magic designed for playing scenarios which involve elements of roleplaying (RPG) by having lvl1 units as leaders with empty recruit lists."
 msgstr ""
 
 #. [era]: id=era_magic_aoh
-#: Era_of_Magic\EoMa_eras.cfg:472
+#: Era_of_Magic\EoMa_eras.cfg:44
 msgid "Era of Magic (Age of Heroes)"
 msgstr ""
 
 #. [era]: id=era_magic_aoh
-#: Era_of_Magic\EoMa_eras.cfg:473
+#: Era_of_Magic\EoMa_eras.cfg:45
 msgid "A variant of Era of Magic with higher level units: level 3 leaders, with level 1 and 2 units available for recruit. Not considered balanced."
 msgstr ""
 
 #. [era]: id=era_magic_masters
-#: Era_of_Magic\EoMa_eras.cfg:491
+#: Era_of_Magic\EoMa_eras.cfg:63
 msgid "Era of Magic (Masters)"
 msgstr ""
 
 #. [era]: id=era_magic_masters
-#: Era_of_Magic\EoMa_eras.cfg:492
+#: Era_of_Magic\EoMa_eras.cfg:64
 msgid "A variant of Era of Magic with higher level units: level 3-4 leaders, with level 2 and 3 units available for recruit. Not considered balanced."
 msgstr ""
 
