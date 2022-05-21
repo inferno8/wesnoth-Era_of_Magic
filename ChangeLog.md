@@ -1,6 +1,21 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.8.3
+ ### Gameplay
+	* added 5 new units: Battlecopter, Mirrorshield, Recruitment Officer, Kharosian Javelineer and Kharosian Impaler
+ ### Units
+	** Kharos:
+	 * Elemental Archer: fire resistance from 15% to 20%
+ ### Abilities
+	* implemented a new ability: 'Recruit' (modified variant of the 'Summon' ability for Recruitment Officers)
+	* implemented a new ability: 'Deflect Magic' (for Mirrorshield)
+ ### Descriptions
+	* added new descriptions for Steamcopter (IPS), Battlecopter (IPS), Mechanical Dragon (IPS + Lord-Knightmare), Fallen Cyclops King (Lord_bold), Black Portal (IPS), Recruitment Officer (Lord_bold), Kharosian Javelineer (IPS)
+ ### Translations
+	* updated the raw translation file
+    * updated the Polish translation	
+
 ## Version 3.8.2
  ### Gameplay
 	* added a new unit for Destroyers: Black Portal
