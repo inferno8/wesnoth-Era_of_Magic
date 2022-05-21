@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-04-29 14:37 UTC\n"
+"POT-Creation-Date: 2022-05-21 12:24 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -198,8 +198,8 @@ msgstr ""
 #: Era_of_Magic\units\Destroyers\Cyclops_Skeleton.cfg:80
 #: Era_of_Magic\units\Destroyers\Extinct_Cyclops_Mage.cfg:70
 #: Era_of_Magic\units\Destroyers\Extinct_Cyclops_Mage.cfg:83
-#: Era_of_Magic\units\Destroyers\Fallen_Cyclops_King.cfg:78
-#: Era_of_Magic\units\Destroyers\Fallen_Cyclops_King.cfg:91
+#: Era_of_Magic\units\Destroyers\Fallen_Cyclops_King.cfg:84
+#: Era_of_Magic\units\Destroyers\Fallen_Cyclops_King.cfg:97
 #: Era_of_Magic\units\Destroyers\Greater_Cyclops_Skeleton.cfg:68
 #: Era_of_Magic\units\Destroyers\Greater_Cyclops_Skeleton.cfg:81
 #: Era_of_Magic\units\Summoners\Ho_rhami.cfg:82
@@ -964,11 +964,16 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Black_Portal, race=eoma_magical
 #: Era_of_Magic\units\Destroyers\Black_Portal.cfg:19
-msgid "...forever zero..."
+msgid ""
+"In most situations Dark Portals implode into Infernal Vortices, but sometimes they absorb surrounding black magic instead, transforming themselves into a mix of both anti-magic and black magic - Black Portals.\n"
+"\n"
+"This gives them new properties like much greater speed - fast enough to chase very agile enemies - and the ability to use sparks of black magic to directly attack selected targets.\n"
+"\n"
+"It is known that Black Portals can devour almost anything standing nearby including living, magical, undead and mechanical beings. Consumed matter helps these bizarre units stabilize their singularities allowing them to last longer on battlefields."
 msgstr ""
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Destroyers\Black_Portal.cfg:194
+#: Era_of_Magic\units\Destroyers\Black_Portal.cfg:198
 #: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:291
 #: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:310
 #: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:276
@@ -977,7 +982,7 @@ msgid "aura"
 msgstr ""
 
 #. [attack]: type=cold
-#: Era_of_Magic\units\Destroyers\Black_Portal.cfg:207
+#: Era_of_Magic\units\Destroyers\Black_Portal.cfg:211
 #: Era_of_Magic\units\Tharis\Great_Warlock.cfg:134
 msgid "dark ball"
 msgstr ""
@@ -1084,7 +1089,7 @@ msgstr ""
 #. [attack]: type=impact
 #: Era_of_Magic\units\Destroyers\Cyclops_Skeleton.cfg:56
 #: Era_of_Magic\units\Destroyers\Extinct_Cyclops_Mage.cfg:58
-#: Era_of_Magic\units\Destroyers\Fallen_Cyclops_King.cfg:66
+#: Era_of_Magic\units\Destroyers\Fallen_Cyclops_King.cfg:72
 #: Era_of_Magic\units\Destroyers\Greater_Cyclops_Skeleton.cfg:57
 msgid "head"
 msgstr ""
@@ -1224,28 +1229,40 @@ msgstr ""
 msgid "Extinct Cyclops Mage"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Fallen_Cyclops_King, race=undead, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Fallen_Cyclops_King, race=undead
 #: Era_of_Magic\units\Destroyers\Fallen_Cyclops_King.cfg:4
 msgid "Fallen Cyclops King"
 msgstr ""
 
+#. [unit_type]: id=EoMa_Fallen_Cyclops_King, race=undead
+#: Era_of_Magic\units\Destroyers\Fallen_Cyclops_King.cfg:25
+msgid ""
+"The following extract has been compiled by golem XTC1-3 from excavation site 3, property of cartographer Silos:\n"
+"<span font-style='italic'>-(...) most unusual. The subservient dead flesh (...) animated using (...) (new?) (...) useful. Much (intelligence?) easier.\n"
+"- New (...) (milestone?). Necromancy reigns (a supreme?) dark art. Artisans of living flesh will (bow to?) our thrulls (...).\n"
+"-They destroyed them. But they don't (...). No (...) control. It (...) conscience. We (cannot?) (...).\n"
+"- High warlocks have (barricade?) inside (...). Population (...) alone. (...) slaughter. (must?) flee. (King?) fled by the (...) gate. (...) collapse (...).\n"
+"- Battle lost (...). They (are?) legion. They (not?) stop. They (only?) destroy. They all destroy. (...) prime command prevails (...). What have (we?) done. (...)failure (...).\n"
+"- They share (...) mind. (...) not necromancy (...). Do not engage (...) it will grow (...) more intelligence. Do not repeat (....). If you (read?) flee. You (...) doomed.</span>"
+msgstr ""
+
 #. [abilities]
-#: Era_of_Magic\units\Destroyers\Fallen_Cyclops_King.cfg:58
+#: Era_of_Magic\units\Destroyers\Fallen_Cyclops_King.cfg:64
 msgid "Summon Nightmare"
 msgstr ""
 
 #. [abilities]
-#: Era_of_Magic\units\Destroyers\Fallen_Cyclops_King.cfg:59
+#: Era_of_Magic\units\Destroyers\Fallen_Cyclops_King.cfg:65
 msgid "Summon Atokpi"
 msgstr ""
 
 #. [abilities]
-#: Era_of_Magic\units\Destroyers\Fallen_Cyclops_King.cfg:60
+#: Era_of_Magic\units\Destroyers\Fallen_Cyclops_King.cfg:66
 msgid "Summon Bone Beast"
 msgstr ""
 
 #. [abilities]
-#: Era_of_Magic\units\Destroyers\Fallen_Cyclops_King.cfg:61
+#: Era_of_Magic\units\Destroyers\Fallen_Cyclops_King.cfg:67
 msgid "Summon Pirafly"
 msgstr ""
 
@@ -1378,9 +1395,13 @@ msgid "The Avenger is a heavy tactical defense unit. His retaliation strikes are
 msgstr ""
 
 #. [attack]: type=impact
+#. [attack]: type=blade
+#. [attack]: type=pierce
 #: Era_of_Magic\units\Kharos\Avenger.cfg:52
 #: Era_of_Magic\units\Kharos\Hoplite.cfg:52
 #: Era_of_Magic\units\Kharos\Shielder.cfg:45
+#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:65
+#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:74
 msgid "shield"
 msgstr ""
 
@@ -1556,6 +1577,21 @@ msgstr ""
 msgid "holy arrow"
 msgstr ""
 
+#. [unit_type]: id=EoMa_Kharosian_Impaler, race=human, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Kharos\Kharosian_Impaler.cfg:4
+msgid "Kharosian Impaler"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Kharosian_Javelineer, race=human
+#: Era_of_Magic\units\Kharos\Kharosian_Javelineer.cfg:4
+msgid "Kharosian Javelineer"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Kharosian_Javelineer, race=human
+#: Era_of_Magic\units\Kharos\Kharosian_Javelineer.cfg:20
+msgid "Not all Kharosians can afford expensive shields used by elite troops. That is why some of them decide to specialize in throwing light spears to decimate their foes. This traditional way of fighting dates back to ancient times, when Kharos lands were divided among many different tribes and cults constantly waging domination wars against each other. One of such tribes was particularly known for its fierce javelineers wrecking havoc on their enemies. Nowadays Kharosian armies often consist of multiple squads of Javelineers and more experienced Impalers to gain the upper hand in any battle."
+msgstr ""
+
 #. [unit_type]: id=EoMa_Kharos_Warbanner, race=human
 #: Era_of_Magic\units\Kharos\Kharos_War_Banner.cfg:4
 msgid "Kharos War Banner"
@@ -1620,6 +1656,21 @@ msgstr ""
 #. [attack]: type=arcane
 #: Era_of_Magic\units\Kharos\Prophet_of_Light.cfg:74
 msgid "blinding light"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Recruitment_Officer, race=human
+#: Era_of_Magic\units\Kharos\Recruitment_Officer.cfg:4
+msgid "Recruitment Officer"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Recruitment_Officer, race=human
+#: Era_of_Magic\units\Kharos\Recruitment_Officer.cfg:19
+msgid "Some soldiers never truly shine enough to be recognized as heroes by the peasants, or join the sacred legions. Most just go back to their families when they are relieved of service. However, a very select few choose to stay on the army to help educate and conscript more people. This job, while not glorious or awe inspiring as the feats of the Platinum Guard or Pious as the Sacred Sun order is nevertheless extremely important."
+msgstr ""
+
+#. [abilities]
+#: Era_of_Magic\units\Kharos\Recruitment_Officer.cfg:29
+msgid "Recruit Shielder"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Shielder, race=human
@@ -1725,6 +1776,32 @@ msgstr ""
 #: Era_of_Magic\units\Runemasters\Heavy_Balloon.cfg:77
 #: Era_of_Magic\units\Runemasters\Steamcopter.cfg:52
 msgid "bombs"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Battlecopter, race=mechanical
+#: Era_of_Magic\units\Runemasters\Battlecopter.cfg:4
+msgid "Battlecopter"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Battlecopter, race=mechanical
+#: Era_of_Magic\units\Runemasters\Battlecopter.cfg:18
+msgid "Some veteran pilots prefer speed and agility more than anything else. To meet their demand, the brightest minds of the Dwarvish Kingdom of Ulsaria designed one of most sophisticated vehicles ever created - the Battlecopter. While much smaller than other elite flying machines, these technological masterpieces are specifically tailored to expectations of pilots with best reflexes and navigational skills. Being a still relatively new addition to Runemasters' arsenal, Battlecopters are equipped with state-of-the-art engines, weaponry and guidance systems, not found in older, more traditional designs. This makes them incredibly effective at patrolling large areas and eliminating any kind of threat with their deadly missiles."
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Magic\units\Runemasters\Battlecopter.cfg:81
+msgid "shock gun"
+msgstr ""
+
+#. [attack]: type=fire
+#. [attack]: type=impact
+#. [attack]: type=secret
+#: Era_of_Magic\units\Runemasters\Battlecopter.cfg:94
+#: Era_of_Magic\units\Runemasters\Battlecopter.cfg:107
+#: Era_of_Magic\units\Runemasters\Steam_Turboserker.cfg:74
+#: Era_of_Magic\units\Sky_Kingdom\Battle_Mage.cfg:38
+#: Era_of_Magic\units\Sky_Kingdom\Mu.cfg:71
+msgid "missile"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Constructor, race=dwarf, description={NO_DESCR_AVAILABLE}
@@ -2142,9 +2219,14 @@ msgstr ""
 msgid "Rune Artist"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Steamcopter, race=mechanical, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Steamcopter, race=mechanical
 #: Era_of_Magic\units\Runemasters\Steamcopter.cfg:4
 msgid "Steamcopter"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Steamcopter, race=mechanical
+#: Era_of_Magic\units\Runemasters\Steamcopter.cfg:17
+msgid "Pilots who are bored with traditional balloon-based aircraft and prefer higher mobility often pick Steamocopters as their next flying machine. Even with outdated weaponry this unusual vehicle is still considered very efficient and easy to maintain, which explains why it is still mass-produced. In situations where dwarves have to act quickly they often deploy Steamcopters as they are ready almost instantly if well maintained."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Steam_Berserker, race=mechanical, description={NO_DESCR_AVAILABLE}
@@ -2155,14 +2237,6 @@ msgstr ""
 #. [unit_type]: id=EoMa_Steam_Turboserker, race=mechanical, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Runemasters\Steam_Turboserker.cfg:4
 msgid "Steam Turboserker"
-msgstr ""
-
-#. [attack]: type=fire
-#. [attack]: type=secret
-#: Era_of_Magic\units\Runemasters\Steam_Turboserker.cfg:74
-#: Era_of_Magic\units\Sky_Kingdom\Battle_Mage.cfg:38
-#: Era_of_Magic\units\Sky_Kingdom\Mu.cfg:71
-msgid "missile"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Steam_Ulfserker, race=mechanical
@@ -2604,6 +2678,33 @@ msgstr ""
 msgid "bubble"
 msgstr ""
 
+#. [unit_type]: id=EoMa_Mirrorshield, race=human, description={NO_DESCR_AVAILABLE}, type=fire,cold,arcane
+#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:4
+msgid "Mirrorshield"
+msgstr ""
+
+#. [dummy]: id=eoma_deflectmagic
+#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:14
+msgid "deflect magic"
+msgstr ""
+
+#. [dummy]: id=eoma_deflectmagic
+#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:15
+msgid "Enemy magical attacks (fire, cold and arcane with the magical or enchanted special) deal two thirds of the base damage (rounded up) back to the attackers (applying the attacker's resistances). When the attacker goes to or below 0 HP, it is not killed, instead its HP are set to 1."
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:83
+msgid "shield bash"
+msgstr ""
+
+#. [attack]: type=secret
+#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:92
+#: Era_of_Magic\units\Sky_Kingdom\Mystic_Warrior.cfg:79
+#: Era_of_Magic\units\Sky_Kingdom\Sky_Guardian.cfg:88
+msgid "secret hit"
+msgstr ""
+
 #. [unit_type]: id=EoMa_Mu, race=monster
 #: Era_of_Magic\units\Sky_Kingdom\Mu.cfg:4
 msgid "Mu"
@@ -2634,12 +2735,6 @@ msgstr ""
 #: Era_of_Magic\units\Sky_Kingdom\Mystic_Warrior.cfg:61
 #: Era_of_Magic\units\Tharis\Blademaster.cfg:48
 msgid "blades"
-msgstr ""
-
-#. [attack]: type=secret
-#: Era_of_Magic\units\Sky_Kingdom\Mystic_Warrior.cfg:79
-#: Era_of_Magic\units\Sky_Kingdom\Sky_Guardian.cfg:88
-msgid "secret hit"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Mage_of_Fire, race=human
@@ -4471,6 +4566,69 @@ msgid ""
 "Adjacent friendly level 3 units will do 6% more damage in battle."
 msgstr ""
 
+#. [dummy]: id=eoma_recruit
+#: Era_of_Magic\utils\recruit.cfg:5
+msgid "recruit"
+msgstr ""
+
+#. [dummy]: id=eoma_recruit
+#: Era_of_Magic\utils\recruit.cfg:6
+msgid ""
+"This unit can recruit new units on adjacent tiles, but only when standing in villages.\n"
+"\n"
+"For more information, choose the 'Recruiting Help' rightclick option which appears when rightclicking on a unit with the 'recruit' ability."
+msgstr ""
+
+#. [set_menu_item]: id=recruit_{ID}, description= - 
+#. [set_menu_item]: id=summon_{ID}, description= - 
+#: Era_of_Magic\utils\recruit.cfg:48
+#: Era_of_Magic\utils\summon.cfg:48
+msgid "gold:"
+msgstr ""
+
+#. [unstore_unit]
+#: Era_of_Magic\utils\recruit.cfg:124
+#: Era_of_Magic\utils\recruit.cfg:160
+#: Era_of_Magic\utils\recruit.cfg:191
+#: Era_of_Magic\utils\summon.cfg:126
+#: Era_of_Magic\utils\summon.cfg:162
+#: Era_of_Magic\utils\summon.cfg:193
+msgid "+3 exp"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Era_of_Magic\utils\recruit.cfg:208
+#: Era_of_Magic\utils\summon.cfg:210
+msgid "Error"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Era_of_Magic\utils\recruit.cfg:209
+msgid "I don't have enough gold. I am unable to recruit."
+msgstr ""
+
+#. [set_menu_item]: id=recruit_zhelp
+#: Era_of_Magic\utils\recruit.cfg:220
+msgid "Recruiting Help"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Era_of_Magic\utils\recruit.cfg:239
+#: Era_of_Magic\utils\summon.cfg:241
+msgid "Help"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Era_of_Magic\utils\recruit.cfg:240
+msgid ""
+"To recruit a unit right-click on hexes adjacent to a selected recruiter.\n"
+"\n"
+"You need all movement points (and remaining attacks) to recruit one creature. You can only recruit in villages. A new unit can’t be recruited on water.\n"
+"Every recruiting adds +3 to current experience.\n"
+"\n"
+"If there are 2 or more recruiters, a new unit will be recruited by the last selected unit able to recruit, or if no recruiter has been selected, a recruiter next to the selected tile will be chosen randomly."
+msgstr ""
+
 #. [petrifies]: id=sculpts
 #: Era_of_Magic\utils\sculpt.cfg:8
 msgid "sculpts"
@@ -4512,23 +4670,6 @@ msgid ""
 "For more information, choose the 'Summoning Help' rightclick option which appears when rightclicking on a unit with the 'summon' ability."
 msgstr ""
 
-#. [set_menu_item]: id=summon_{ID}, description= - 
-#: Era_of_Magic\utils\summon.cfg:48
-msgid "gold:"
-msgstr ""
-
-#. [unstore_unit]
-#: Era_of_Magic\utils\summon.cfg:126
-#: Era_of_Magic\utils\summon.cfg:162
-#: Era_of_Magic\utils\summon.cfg:193
-msgid "+3 exp"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Era_of_Magic\utils\summon.cfg:210
-msgid "Error"
-msgstr ""
-
 #. [message]: speaker=narrator
 #: Era_of_Magic\utils\summon.cfg:211
 msgid "I have insufficient materials. I am unable to summon."
@@ -4537,11 +4678,6 @@ msgstr ""
 #. [set_menu_item]: id=summon_zhelp
 #: Era_of_Magic\utils\summon.cfg:222
 msgid "Summoning Help"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Era_of_Magic\utils\summon.cfg:241
-msgid "Help"
 msgstr ""
 
 #. [message]: speaker=narrator
