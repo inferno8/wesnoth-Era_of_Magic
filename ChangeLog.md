@@ -1,6 +1,17 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.8.3a
+ ### Gameplay
+	* fixed veteran/fanatic AMLA issues
+ ### Units
+	** Kharos:
+	 * Kharosian Javelineer: removed the steadfast ability; set resistances to: 0% (blade, impact, cold), 20% pierce, 30% arcane
+	 * Kharosian Impaler: removed the steadfast ability; set resistances to: 0% (blade, impact, cold), 30% pierce, 40% arcane, 15% fire
+	** Sky Kingdom:
+	 * Mirrorshield: set resistances to: -10% blade, 0% impact, 0% pierce; the unit has 2 traits now
+	 * Sky Guardian: the unit has 2 traits now
+
 ## Version 3.8.3
  ### Gameplay
 	* added 5 new units: Battlecopter, Mirrorshield, Recruitment Officer, Kharosian Javelineer and Kharosian Impaler
