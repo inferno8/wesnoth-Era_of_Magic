@@ -1,6 +1,46 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.9
+ ### Gameplay
+	* added 12 new units: Bladefury, Chainlady, Frontliner, Crimson Blade, Pain Mistress, Matriarch of Pain, Terramancer, Master of Earth, Architect, Kharosian Bulwark, Forest Spirit, Swamp Spirit
+ ### Units
+	** Destroyers:
+	 * Doom Bringer: changed melee attack damage from 6-4 to 7-4
+	** Kharos:
+	 * Recruitment Officer: reduced Shielder's recruitment cost from 18 to 14; added an option to recruit White Warriors 
+	 * Kharosian Impaler: changed ranged attack damage from 14-2 to 16-2
+	** Runemasters:
+	 * Battlecopter: increased movement from 9 to 10; increased Shock Gun attack damage from 11-1 to 12-1; changed impact missile damage from 6-4 to 11-3
+	 * Parachutist: can now advance to Balloon
+ ### Abilities:
+	* added new ability: Statue Copy
+	* added new ability: Tenacity (unused)
+	* added new ability: Warrior Influence (unused)
+	* added new ability: Crimson Aura
+	* added new ability: Nature Regeneration +4
+	* added new ability: Forest Regeneration +4
+	* added new ability: Swamp Regeneration +8
+	* added new ability: Nature Detox
+	* added new ability: Kamikaze Heal
+	* added new weapon special: Bleed
+	* added new weapon special: Dread
+	* added new ability/weapon special: Shielded
+	* added new ability/weapon special: Pain Absorption	
+ ### Graphics
+	* improved Guru's landmass attack animation
+ ### Descriptions
+	* improved the Dauntless ability description
+ ### Code
+	* improved the check for units with [drains]; added a special check for pain absorption
+	* added [fire_event] for the "all around" weapon special
+	* updated missing unit ids in hide_help.cfg
+	* fixed a weapon special mentioned twice in DEFLECT_MAGIC_FILTER
+	* removed profile and small_profile keys in Mirrorshield.cfg
+ ### Translations
+	* updated the raw translation file
+    * updated the Polish translation
+
 ## Version 3.8.3a
  ### Gameplay
 	* fixed veteran/fanatic AMLA issues
