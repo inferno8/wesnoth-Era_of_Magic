@@ -2,13 +2,63 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-05-21 12:24 UTC\n"
+"POT-Creation-Date: 2022-06-25 18:15 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#. [era]: id=era_magic
+#: Era_of_Magic\EoMa_eras.cfg:5
+msgid "Era of Magic"
+msgstr ""
+
+#. [era]: id=era_magic
+#: Era_of_Magic\EoMa_eras.cfg:6
+msgid "The Era of Magic consists currently of 8 unique, fully animated factions: Barbarians, Darkblooded, Destroyers, Kharos, Runemasters, Sky Kingdom, Summoners and Tharis. Many units have fancy custom abilities/weapon specials."
+msgstr ""
+
+#. [era]: id=era_magic_rpg
+#: Era_of_Magic\EoMa_eras.cfg:25
+msgid "Era of Magic (RPG)"
+msgstr ""
+
+#. [era]: id=era_magic_rpg
+#: Era_of_Magic\EoMa_eras.cfg:26
+msgid "A variant of Era of Magic designed for playing scenarios which involve elements of roleplaying (RPG) by having lvl1 units as leaders with empty recruit lists."
+msgstr ""
+
+#. [era]: id=era_magic_aoh
+#: Era_of_Magic\EoMa_eras.cfg:44
+msgid "Era of Magic (Age of Heroes)"
+msgstr ""
+
+#. [era]: id=era_magic_aoh
+#: Era_of_Magic\EoMa_eras.cfg:45
+msgid "A variant of Era of Magic with higher level units: level 3 leaders, with level 1 and 2 units available for recruit. Not considered balanced."
+msgstr ""
+
+#. [era]: id=era_magic_masters
+#: Era_of_Magic\EoMa_eras.cfg:63
+msgid "Era of Magic (Masters)"
+msgstr ""
+
+#. [era]: id=era_magic_masters
+#: Era_of_Magic\EoMa_eras.cfg:64
+msgid "A variant of Era of Magic with higher level units: level 3-4 leaders, with level 2 and 3 units available for recruit. Not considered balanced."
+msgstr ""
+
+#. [language]
+#: Era_of_Magic\english.cfg:4
+msgid "range^kamikaze"
+msgstr ""
+
+#. [language]
+#: Era_of_Magic\english.cfg:8
+msgid "secret"
+msgstr ""
 
 #. [multiplayer_side]: id=barbarians_aoh, type=EoMa_Barbarian_Lord
 #. [multiplayer_side]: id=barbarians, type=EoMa_Barbarian
@@ -539,6 +589,8 @@ msgstr ""
 #: Era_of_Magic\units\Dark_Blood_Alliance\Blue_Salamander.cfg:105
 #: Era_of_Magic\units\Tharis\Blade_Dancer.cfg:42
 #: Era_of_Magic\units\Tharis\Blade_Dancer.cfg:54
+#: Era_of_Magic\units\Tharis\Crimson_Blade.cfg:73
+#: Era_of_Magic\units\Tharis\Frontliner.cfg:59
 #: Era_of_Magic\units\Tharis\Sword_Dancer.cfg:42
 msgid "chakram"
 msgstr ""
@@ -572,17 +624,23 @@ msgstr ""
 msgid "The Chosen of Forest, or 'The Keeper', as many refer to him, is the Darkblooded's monarch of sorts. He is the oldest and probably wisest of the saurian mystics, knowing most of the jungle's secrets, including ones most men would prefer not to know. While he does spend most of his time managing state affairs, or meditating in the jungle, he's by no means incapable of holding his own on the battlefield."
 msgstr ""
 
+#. [abilities]
+#: Era_of_Magic\units\Dark_Blood_Alliance\Chosen_of_Forest.cfg:27
+#: Era_of_Magic\units\Dark_Blood_Alliance\Mystic.cfg:26
+msgid "Summon Forest Spirit"
+msgstr ""
+
 #. [attack]: type=cold
-#: Era_of_Magic\units\Dark_Blood_Alliance\Chosen_of_Forest.cfg:125
+#: Era_of_Magic\units\Dark_Blood_Alliance\Chosen_of_Forest.cfg:128
 #: Era_of_Magic\units\Dark_Blood_Alliance\Clan_Leader.cfg:116
-#: Era_of_Magic\units\Dark_Blood_Alliance\Mystic.cfg:98
+#: Era_of_Magic\units\Dark_Blood_Alliance\Mystic.cfg:101
 #: Era_of_Magic\units\Dark_Blood_Alliance\Shamanistic_Adept.cfg:95
 msgid "iceball"
 msgstr ""
 
 #. [attack]: type=cold
-#: Era_of_Magic\units\Dark_Blood_Alliance\Chosen_of_Forest.cfg:137
-#: Era_of_Magic\units\Dark_Blood_Alliance\Mystic.cfg:110
+#: Era_of_Magic\units\Dark_Blood_Alliance\Chosen_of_Forest.cfg:140
+#: Era_of_Magic\units\Dark_Blood_Alliance\Mystic.cfg:113
 msgid "freezing spell"
 msgstr ""
 
@@ -596,9 +654,15 @@ msgstr ""
 msgid "The Chosen of Marsh are the mightiest of the Swamp Magi, fully consumed by the Great Bog's darkness. They seem to emit clouds of magical poison gas whenever they go, as potent as their venom-dipped claws. These vessels of darkness are dreaded across the Jungle of Life, only ever referred to as 'those who must not be mentioned'. While the cult is not exactly in best relations with the Darkblooded mystics, they did help the latter in repelling the Atokpi, a civilization now extinct, albeit not without consequence."
 msgstr ""
 
+#. [abilities]
+#: Era_of_Magic\units\Dark_Blood_Alliance\Chosen_of_Marsh.cfg:25
+#: Era_of_Magic\units\Dark_Blood_Alliance\Swamp_Mage.cfg:24
+msgid "Summon Swamp Spirit"
+msgstr ""
+
 #. [attack]: type=fire
-#: Era_of_Magic\units\Dark_Blood_Alliance\Chosen_of_Marsh.cfg:72
-#: Era_of_Magic\units\Dark_Blood_Alliance\Swamp_Mage.cfg:68
+#: Era_of_Magic\units\Dark_Blood_Alliance\Chosen_of_Marsh.cfg:75
+#: Era_of_Magic\units\Dark_Blood_Alliance\Swamp_Mage.cfg:71
 msgid "damned flame"
 msgstr ""
 
@@ -627,6 +691,46 @@ msgstr ""
 #. [unit_type]: id=EoMa_Dreadnaught, race=lizard, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Dark_Blood_Alliance\Dreadnought.cfg:4
 msgid "Dreadnought"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Forest_Spirit, race=eoma_magical, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:4
+msgid "Forest Spirit"
+msgstr ""
+
+#. [dummy]: id=eoma_kamikazeheal
+#: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:22
+msgid "kamikaze heal"
+msgstr ""
+
+#. [dummy]: id=eoma_kamikazeheal
+#: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:23
+msgid ""
+"This unit can be sacrificed to heal a selected friendly unit.\n"
+"\n"
+"	For more information, choose the 'Forest Spirit Help' rightclick option which appears when rightclicking on a unit with this ability."
+msgstr ""
+
+#. [set_menu_item]: id=fspirit
+#: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:170
+msgid "Heal +25 with Forest Spirit"
+msgstr ""
+
+#. [set_menu_item]: id=fspirit_zhelp
+#: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:225
+msgid "Forest Spirit Help"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:240
+#: Era_of_Magic\utils\recruit.cfg:239
+#: Era_of_Magic\utils\summon.cfg:241
+msgid "Help"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:241
+msgid "To heal an adjacent friendly unit, rightclick that unit and choose the option 'Heal +25'. The Forest Spirit will be sacrificed in the process."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Great_Wyvern, race=monster, description={NO_DESCR_AVAILABLE}
@@ -759,6 +863,18 @@ msgstr ""
 #. [unit_type]: id=EoMa_Swamp_Mage, race=lizard
 #: Era_of_Magic\units\Dark_Blood_Alliance\Swamp_Mage.cfg:19
 msgid "Some of the Corrupted Shamans do not come out of the Great Bog. Instead, they opt to remain and find their fate there. Some of those wander to a certain part of the Bog which is suffused with darkness. Most of them die; the few who survive, probably through some sort of deal with that place’s dark rulers, come back... wrong. Their personalities are wiped blank, and they serve as the darkness’s vehicles. They gain great power in its service, and their ability to use the fires of the darkness itself and regenerate almost any wound is infamous in some parts of the Bog."
+msgstr ""
+
+#. [unit_type]: id=EoMa_Swamp_Spirit, race=eoma_magical, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Dark_Blood_Alliance\Swamp_Spirit.cfg:4
+msgid "Swamp Spirit"
+msgstr ""
+
+#. [attack]: type=secret
+#. [dummy]: id=eoma_kamikaze
+#: Era_of_Magic\units\Dark_Blood_Alliance\Swamp_Spirit.cfg:110
+#: Era_of_Magic\utils\abilities.cfg:15
+msgid "kamikaze"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Ranged_Toad, race=lizard, description={NO_DESCR_AVAILABLE}
@@ -1398,10 +1514,11 @@ msgstr ""
 #. [attack]: type=blade
 #. [attack]: type=pierce
 #: Era_of_Magic\units\Kharos\Avenger.cfg:52
-#: Era_of_Magic\units\Kharos\Hoplite.cfg:52
+#: Era_of_Magic\units\Kharos\Hoplite.cfg:44
+#: Era_of_Magic\units\Kharos\Kharosian_Bulwark.cfg:61
 #: Era_of_Magic\units\Kharos\Shielder.cfg:45
-#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:65
-#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:74
+#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:64
+#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:73
 msgid "shield"
 msgstr ""
 
@@ -1562,7 +1679,7 @@ msgid "Hoplite"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Protector, race=human
-#: Era_of_Magic\units\Kharos\Hoplite.cfg:27
+#: Era_of_Magic\units\Kharos\Hoplite.cfg:19
 msgid "Hoplites are elite shielders, whose shields are large enough not only to protect themselves, but also to cover their comrades."
 msgstr ""
 
@@ -1575,6 +1692,38 @@ msgstr ""
 #: Era_of_Magic\units\Kharos\Inspired.cfg:92
 #: Era_of_Magic\units\Kharos\Mystical_Archer.cfg:87
 msgid "holy arrow"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Kharos_Warbanner, race=human
+#: Era_of_Magic\units\Kharos\Kharos_War_Banner.cfg:4
+msgid "Kharos War Banner"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Kharosian_Bulwark, race=human, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Kharos\Kharosian_Bulwark.cfg:4
+msgid "Kharosian Bulwark"
+msgstr ""
+
+#. [resistance]: id=eoma_shielded
+#. [dummy]: id=eoma_shielded_special
+#: Era_of_Magic\units\Kharos\Kharosian_Bulwark.cfg:29
+#: Era_of_Magic\units\Kharos\Kharosian_Bulwark.cfg:70
+msgid "shielded"
+msgstr ""
+
+#. [resistance]: id=eoma_shielded
+#: Era_of_Magic\units\Kharos\Kharosian_Bulwark.cfg:30
+msgid "female^shielded"
+msgstr ""
+
+#. [resistance]: id=eoma_shielded
+#: Era_of_Magic\units\Kharos\Kharosian_Bulwark.cfg:31
+msgid "This unit gains +5% to all resistances, up to a maximum of 60%, when using a weapon with the 'shielded' special."
+msgstr ""
+
+#. [dummy]: id=eoma_shielded_special
+#: Era_of_Magic\units\Kharos\Kharosian_Bulwark.cfg:71
+msgid "This attack activates the 'shielded' ability of the unit applying the +5 resistance bonus to the owner."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Kharosian_Impaler, race=human, description={NO_DESCR_AVAILABLE}
@@ -1590,11 +1739,6 @@ msgstr ""
 #. [unit_type]: id=EoMa_Kharosian_Javelineer, race=human
 #: Era_of_Magic\units\Kharos\Kharosian_Javelineer.cfg:20
 msgid "Not all Kharosians can afford expensive shields used by elite troops. That is why some of them decide to specialize in throwing light spears to decimate their foes. This traditional way of fighting dates back to ancient times, when Kharos lands were divided among many different tribes and cults constantly waging domination wars against each other. One of such tribes was particularly known for its fierce javelineers wrecking havoc on their enemies. Nowadays Kharosian armies often consist of multiple squads of Javelineers and more experienced Impalers to gain the upper hand in any battle."
-msgstr ""
-
-#. [unit_type]: id=EoMa_Kharos_Warbanner, race=human
-#: Era_of_Magic\units\Kharos\Kharos_War_Banner.cfg:4
-msgid "Kharos War Banner"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Kirios, race=human
@@ -1671,6 +1815,11 @@ msgstr ""
 #. [abilities]
 #: Era_of_Magic\units\Kharos\Recruitment_Officer.cfg:29
 msgid "Recruit Shielder"
+msgstr ""
+
+#. [abilities]
+#: Era_of_Magic\units\Kharos\Recruitment_Officer.cfg:30
+msgid "Recruit White Warrior"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Shielder, race=human
@@ -2157,53 +2306,6 @@ msgid ""
 "The rust that forms their coat of paint is misleading, for they outstrip their younger cousins in every aspect. The additional heavy armor plating that is affixed upon them serves as a shield of sorts, and such is their inward vigour and strength, that they can turn back damage accrued through the tides of time through careful conservation of energy."
 msgstr ""
 
-#. [unit_type]: id=EoMa_Runemaster, race=dwarf, description={NO_DESCR_AVAILABLE}
-#. [variation]
-#. [unit_type]: id=EoMa_Runemaster_Protected, race=dwarf, description={NO_DESCR_AVAILABLE}
-#: Era_of_Magic\units\Runemasters\Runemaster.cfg:4
-#: Era_of_Magic\units\Runemasters\Runemaster2.cfg:236
-#: Era_of_Magic\units\Runemasters\Runemaster2.cfg:4
-msgid "Runemaster"
-msgstr ""
-
-#. [attack]: type=impact
-#: Era_of_Magic\units\Runemasters\Runemaster.cfg:37
-#: Era_of_Magic\units\Runemasters\Rune_Artist.cfg:31
-msgid "runic hammer"
-msgstr ""
-
-#. [attack]: type=fire
-#: Era_of_Magic\units\Runemasters\Runemaster.cfg:49
-#: Era_of_Magic\units\Runemasters\Runesmith.cfg:56
-#: Era_of_Magic\units\Runemasters\Rune_Adept.cfg:44
-#: Era_of_Magic\units\Runemasters\Rune_Artist.cfg:43
-msgid "fire runes"
-msgstr ""
-
-#. [attack]: type=cold
-#: Era_of_Magic\units\Runemasters\Runemaster.cfg:61
-#: Era_of_Magic\units\Runemasters\Runesmith.cfg:68
-#: Era_of_Magic\units\Runemasters\Rune_Adept.cfg:56
-#: Era_of_Magic\units\Runemasters\Rune_Artist.cfg:55
-msgid "ice runes"
-msgstr ""
-
-#. [attack]: type=fire
-#: Era_of_Magic\units\Runemasters\Runemaster.cfg:73
-#: Era_of_Magic\units\Runemasters\Rune_Artist.cfg:67
-msgid "lightning bolt"
-msgstr ""
-
-#. [attack]: type=secret
-#: Era_of_Magic\units\Runemasters\Runemaster2.cfg:53
-msgid "runic lightning"
-msgstr ""
-
-#. [unit_type]: id=EoMa_Runesmith, race=dwarf, description={NO_DESCR_AVAILABLE}
-#: Era_of_Magic\units\Runemasters\Runesmith.cfg:4
-msgid "Runesmith"
-msgstr ""
-
 #. [unit_type]: id=EoMa_Runeadept, race=dwarf
 #: Era_of_Magic\units\Runemasters\Rune_Adept.cfg:4
 msgid "Rune Adept"
@@ -2214,19 +2316,56 @@ msgstr ""
 msgid "These short but stout dwarfsmen are known as Runeadepts, forgers of fire in ancient tongue. When grouped in numbers, they are a fearsome sight to behold, and are armed with huge hammers that shatter through the enemy front lines. Though the very sight of them is intimidating enough, it is even more fearsome for the dwarven foe to see the unrelenting accuracy of their attacks, for these items of weaponry are imbued with potent forces of magic that rip through any trick aimed at hazing assault."
 msgstr ""
 
+#. [attack]: type=fire
+#: Era_of_Magic\units\Runemasters\Rune_Adept.cfg:44
+#: Era_of_Magic\units\Runemasters\Rune_Artist.cfg:43
+#: Era_of_Magic\units\Runemasters\Runemaster.cfg:49
+#: Era_of_Magic\units\Runemasters\Runesmith.cfg:56
+msgid "fire runes"
+msgstr ""
+
+#. [attack]: type=cold
+#: Era_of_Magic\units\Runemasters\Rune_Adept.cfg:56
+#: Era_of_Magic\units\Runemasters\Rune_Artist.cfg:55
+#: Era_of_Magic\units\Runemasters\Runemaster.cfg:61
+#: Era_of_Magic\units\Runemasters\Runesmith.cfg:68
+msgid "ice runes"
+msgstr ""
+
 #. [unit_type]: id=EoMa_Rune_Artist, race=dwarf, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Runemasters\Rune_Artist.cfg:4
 msgid "Rune Artist"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Steamcopter, race=mechanical
-#: Era_of_Magic\units\Runemasters\Steamcopter.cfg:4
-msgid "Steamcopter"
+#. [attack]: type=impact
+#: Era_of_Magic\units\Runemasters\Rune_Artist.cfg:31
+#: Era_of_Magic\units\Runemasters\Runemaster.cfg:37
+msgid "runic hammer"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Steamcopter, race=mechanical
-#: Era_of_Magic\units\Runemasters\Steamcopter.cfg:17
-msgid "Pilots who are bored with traditional balloon-based aircraft and prefer higher mobility often pick Steamocopters as their next flying machine. Even with outdated weaponry this unusual vehicle is still considered very efficient and easy to maintain, which explains why it is still mass-produced. In situations where dwarves have to act quickly they often deploy Steamcopters as they are ready almost instantly if well maintained."
+#. [attack]: type=fire
+#: Era_of_Magic\units\Runemasters\Rune_Artist.cfg:67
+#: Era_of_Magic\units\Runemasters\Runemaster.cfg:73
+msgid "lightning bolt"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Runemaster, race=dwarf, description={NO_DESCR_AVAILABLE}
+#. [variation]
+#. [unit_type]: id=EoMa_Runemaster_Protected, race=dwarf, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Runemasters\Runemaster.cfg:4
+#: Era_of_Magic\units\Runemasters\Runemaster2.cfg:236
+#: Era_of_Magic\units\Runemasters\Runemaster2.cfg:4
+msgid "Runemaster"
+msgstr ""
+
+#. [attack]: type=secret
+#: Era_of_Magic\units\Runemasters\Runemaster2.cfg:53
+msgid "runic lightning"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Runesmith, race=dwarf, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Runemasters\Runesmith.cfg:4
+msgid "Runesmith"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Steam_Berserker, race=mechanical, description={NO_DESCR_AVAILABLE}
@@ -2247,6 +2386,16 @@ msgstr ""
 #. [unit_type]: id=EoMa_Steam_Ulfserker, race=mechanical
 #: Era_of_Magic\units\Runemasters\Steam_Ulfserker.cfg:20
 msgid "Steam Ulfserkers are the face of any serious offensive movement. Armoured and armed with steel, they cut through opposition lines with ease, for these mechanical beings hold nothing back in a assault. It results in locking the opponent in close combat, attacking in a furious frenzy that only ends when either one is dead."
+msgstr ""
+
+#. [unit_type]: id=EoMa_Steamcopter, race=mechanical
+#: Era_of_Magic\units\Runemasters\Steamcopter.cfg:4
+msgid "Steamcopter"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Steamcopter, race=mechanical
+#: Era_of_Magic\units\Runemasters\Steamcopter.cfg:17
+msgid "Pilots who are bored with traditional balloon-based aircraft and prefer higher mobility often pick Steamocopters as their next flying machine. Even with outdated weaponry this unusual vehicle is still considered very efficient and easy to maintain, which explains why it is still mass-produced. In situations where dwarves have to act quickly they often deploy Steamcopters as they are ready almost instantly if well maintained."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Striding_Machine, race=mechanical
@@ -2337,6 +2486,27 @@ msgstr ""
 msgid "small lightning"
 msgstr ""
 
+#. [unit_type]: id=EoMa_Architect, race=human, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Sky_Kingdom\Architect.cfg:4
+msgid "Architect"
+msgstr ""
+
+#. [attack]: type=impact
+#. [attack]: type=cold
+#: Era_of_Magic\units\Sky_Kingdom\Architect.cfg:58
+#: Era_of_Magic\units\Sky_Kingdom\Black_Mage.cfg:62
+#: Era_of_Magic\units\Sky_Kingdom\Sculptor.cfg:55
+#: Era_of_Magic\units\Sky_Kingdom\Subversive_Mage.cfg:57
+#: Era_of_Magic\units\Sky_Kingdom\Void_Mage.cfg:102
+msgid "entrapment spell"
+msgstr ""
+
+#. [attack]: type=cold
+#: Era_of_Magic\units\Sky_Kingdom\Architect.cfg:72
+#: Era_of_Magic\units\Sky_Kingdom\Sculptor.cfg:68
+msgid "petrifying spell"
+msgstr ""
+
 #. [unit_type]: id=EoMa_Battle_Eye, race=mechanical
 #: Era_of_Magic\units\Sky_Kingdom\Battle_Eye.cfg:4
 msgid "Battle Eye"
@@ -2378,15 +2548,6 @@ msgstr ""
 #. [unit_type]: id=EoMa_Black_Mage, race=human
 #: Era_of_Magic\units\Sky_Kingdom\Black_Mage.cfg:18
 msgid "While most nations persecute black magic, the Sky Kingdom doesn't seem mind it, and even treats it equally to other forms of magic, due to their ideology. While the practitioners of this kind of sorcery are uncommon in the Sky Kingdom, they are certainly capable of feats comparable to those of the Tharis warlocks. However, the years of dabbling in the dark arts have been noticed to alter the mages' personality..."
-msgstr ""
-
-#. [attack]: type=cold
-#. [attack]: type=impact
-#: Era_of_Magic\units\Sky_Kingdom\Black_Mage.cfg:62
-#: Era_of_Magic\units\Sky_Kingdom\Sculptor.cfg:56
-#: Era_of_Magic\units\Sky_Kingdom\Subversive_Mage.cfg:57
-#: Era_of_Magic\units\Sky_Kingdom\Void_Mage.cfg:102
-msgid "entrapment spell"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Cosmic_Eye, race=mechanical
@@ -2477,6 +2638,9 @@ msgstr ""
 
 #. [attack]: type=impact
 #: Era_of_Magic\units\Sky_Kingdom\Guru_of_Magic.cfg:132
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Earth.cfg:111
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Earth.cfg:123
+#: Era_of_Magic\units\Sky_Kingdom\Terramancer.cfg:86
 msgid "landmass"
 msgstr ""
 
@@ -2574,6 +2738,53 @@ msgstr ""
 msgid "eye of the storm"
 msgstr ""
 
+#. [unit_type]: id=EoMa_Master_of_Earth, race=human
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Earth.cfg:4
+msgid "Master of Earth"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Master_of_Earth, race=human
+#. [unit_type]: id=EoMa_Terramancer, race=human
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Earth.cfg:48
+#: Era_of_Magic\units\Sky_Kingdom\Terramancer.cfg:46
+msgid "."
+msgstr ""
+
+#. [heals]: id=eoma_detox_nature
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Earth.cfg:55
+msgid "nature detox"
+msgstr ""
+
+#. [heals]: id=eoma_detox_nature
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Earth.cfg:56
+msgid "A curer can cure a unit of poison, although that unit will receive no additional healing on the turn it is cured of the poison."
+msgstr ""
+
+#. [abilities]
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Earth.cfg:72
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:68
+#: Era_of_Magic\units\Summoners\Grand_Summoner.cfg:67
+#: Era_of_Magic\units\Summoners\Summons_Master.cfg:87
+msgid "Summon Earth Elemental"
+msgstr ""
+
+#. [abilities]
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Earth.cfg:73
+msgid "Summon Earth Avatar"
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Earth.cfg:86
+#: Era_of_Magic\units\Sky_Kingdom\Terramancer.cfg:61
+msgid "earth blast"
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Earth.cfg:99
+#: Era_of_Magic\units\Sky_Kingdom\Terramancer.cfg:74
+msgid "stones"
+msgstr ""
+
 #. [unit_type]: id=EoMa_Master_of_Elements, race=human
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:4
 msgid "Master of Elements"
@@ -2598,13 +2809,6 @@ msgstr ""
 #: Era_of_Magic\units\Summoners\Grand_Summoner.cfg:65
 #: Era_of_Magic\units\Summoners\Summons_Master.cfg:85
 msgid "Summon Water Elemental"
-msgstr ""
-
-#. [abilities]
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:68
-#: Era_of_Magic\units\Summoners\Grand_Summoner.cfg:67
-#: Era_of_Magic\units\Summoners\Summons_Master.cfg:87
-msgid "Summon Earth Elemental"
 msgstr ""
 
 #. [attack]: type=impact
@@ -2684,22 +2888,22 @@ msgid "Mirrorshield"
 msgstr ""
 
 #. [dummy]: id=eoma_deflectmagic
-#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:14
+#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:12
 msgid "deflect magic"
 msgstr ""
 
 #. [dummy]: id=eoma_deflectmagic
-#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:15
+#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:13
 msgid "Enemy magical attacks (fire, cold and arcane with the magical or enchanted special) deal two thirds of the base damage (rounded up) back to the attackers (applying the attacker's resistances). When the attacker goes to or below 0 HP, it is not killed, instead its HP are set to 1."
 msgstr ""
 
 #. [attack]: type=impact
-#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:83
+#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:82
 msgid "shield bash"
 msgstr ""
 
 #. [attack]: type=secret
-#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:92
+#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:91
 #: Era_of_Magic\units\Sky_Kingdom\Mystic_Warrior.cfg:79
 #: Era_of_Magic\units\Sky_Kingdom\Sky_Guardian.cfg:88
 msgid "secret hit"
@@ -2758,13 +2962,8 @@ msgid "Sculptor"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Sculptor, race=human
-#: Era_of_Magic\units\Sky_Kingdom\Sculptor.cfg:21
+#: Era_of_Magic\units\Sky_Kingdom\Sculptor.cfg:20
 msgid "The 'Sculptors' are a strange group of subversive magi, who know the art of petrification. It's an ancient and mysterious form of magic, only preserved in some of the ancient ruins the Sky Kingdom stumbled upon. It works on most kinds of physical bodies, be it a rain drop or an entire sentient being. Interestingly enough, the effect wears off after a few hours, leaving the petrified object in it's original state, which means that sustaining the effect for long periods of time requires special magical equipment. The sculptors themselves generally keep to themselves, and hang out in the underground museums they built inside a floating island, preserving petrifying samples of various objects, rarely participating in combat."
-msgstr ""
-
-#. [attack]: type=cold
-#: Era_of_Magic\units\Sky_Kingdom\Sculptor.cfg:69
-msgid "petrifying spell"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Shadowmage, race=human
@@ -2821,6 +3020,11 @@ msgstr ""
 #. [unit_type]: id=EoMa_Subversive_Mage, race=human
 #: Era_of_Magic\units\Sky_Kingdom\Subversive_Mage.cfg:19
 msgid "Subversive Magi are an unusual group that studies black magic. They are still novices, but they are good at evading enemy strikes, capable of entangling enemies in nets made out of energy, and then battering them with cold missiles."
+msgstr ""
+
+#. [unit_type]: id=EoMa_Terramancer, race=human
+#: Era_of_Magic\units\Sky_Kingdom\Terramancer.cfg:4
+msgid "Terramancer"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Um, race=monster
@@ -3573,11 +3777,6 @@ msgstr ""
 msgid "dark lightning"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Blademaster, race=eoma_tharis, description={NO_DESCR_AVAILABLE}
-#: Era_of_Magic\units\Tharis\Blademaster.cfg:4
-msgid "Blademaster"
-msgstr ""
-
 #. [unit_type]: id=EoMa_Bladedancer, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Blade_Dancer.cfg:4
 msgid "Blade Dancer"
@@ -3586,6 +3785,52 @@ msgstr ""
 #. [unit_type]: id=EoMa_Bladedancer, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Blade_Dancer.cfg:19
 msgid "Tharis blade dancers are a rather eccentric type of troops, fighting using chakrams, and using potent psychedelic substances which tamper with their self-preservation instincts, resulting in a frenzied dancing fighting style. They are also quite agile, easily dodging most enemy counter-attacks, but are rather frail."
+msgstr ""
+
+#. [unit_type]: id=EoMa_Bladefury, race=eoma_tharis, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Tharis\Bladefury.cfg:4
+msgid "Bladefury"
+msgstr ""
+
+#. [attack]: type=blade
+#. [attack]: type=pierce
+#: Era_of_Magic\units\Tharis\Bladefury.cfg:51
+#: Era_of_Magic\units\Tharis\Chainlady.cfg:148
+#: Era_of_Magic\units\Tharis\Chainlady.cfg:162
+#: Era_of_Magic\units\Tharis\Chainlady.cfg:174
+msgid "chain"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Blademaster, race=eoma_tharis, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Tharis\Blademaster.cfg:4
+msgid "Blademaster"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Chainlady, race=eoma_tharis, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Tharis\Chainlady.cfg:4
+msgid "Chainlady"
+msgstr ""
+
+#. [advancement]: id=pain_amla
+#: Era_of_Magic\units\Tharis\Chainlady.cfg:19
+msgid "Upgrade to Pain Absorption +2; +2 max HP; +20% XP"
+msgstr ""
+
+#. [advancement]: id=firststrike_amla
+#: Era_of_Magic\units\Tharis\Chainlady.cfg:45
+msgid "+First strike to melee attacks; +5 max HP; +20% XP"
+msgstr ""
+
+#. [advancement]: id=skirmisher_amla
+#: Era_of_Magic\units\Tharis\Chainlady.cfg:75
+msgid "+Skirmisher; +30% XP"
+msgstr ""
+
+#. [advancement]: id=amla_standard
+#. [advancement]: id=eoma_amla_default_{ID}
+#: Era_of_Magic\units\Tharis\Chainlady.cfg:92
+#: Era_of_Magic\utils\amla.cfg:26
+msgid "Max HP bonus +3, Max XP +20%"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Chaos_Hydra, race=monster
@@ -3603,6 +3848,30 @@ msgstr ""
 #: Era_of_Magic\units\Tharis\Great_Hydra.cfg:45
 #: Era_of_Magic\units\Tharis\Hydra.cfg:54
 msgid "bite"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Crimson_Blade, race=eoma_tharis, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Tharis\Crimson_Blade.cfg:4
+msgid "Crimson Blade"
+msgstr ""
+
+#. [drains]: id=eoma_crimson_aura
+#: Era_of_Magic\units\Tharis\Crimson_Blade.cfg:36
+msgid "crimson aura"
+msgstr ""
+
+#. [drains]: id=eoma_crimson_aura
+#: Era_of_Magic\units\Tharis\Crimson_Blade.cfg:37
+msgid "All adjacent enemy units take damage equal to 15% of damage they deal. This ability cannot, of itself, kill a unit. It will remain on a battlefield with 1 HP instead."
+msgstr ""
+
+#. [attack]: type=blade
+#. [attack]: type=pierce
+#: Era_of_Magic\units\Tharis\Crimson_Blade.cfg:48
+#: Era_of_Magic\units\Tharis\Crimson_Blade.cfg:60
+#: Era_of_Magic\units\Tharis\Frontliner.cfg:35
+#: Era_of_Magic\units\Tharis\Frontliner.cfg:46
+msgid "curved swords"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Dark_Assassin, race=eoma_tharis
@@ -3713,6 +3982,18 @@ msgstr ""
 #. [unit_type]: id=EoMa_Disciple, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Disciple.cfg:19
 msgid "Dark Disciples are inexperienced practitioners of the occult. Every one of them aspires to become a Great Warlock someday, but only a select few actually succeed in earning that prestigious title in their lifetime. Although they only have their fists to defend themselves with in melee combat, their dark spells are not something to underestimate."
+msgstr ""
+
+#. [unit_type]: id=EoMa_Frontliner, race=eoma_tharis
+#: Era_of_Magic\units\Tharis\Frontliner.cfg:4
+msgid "Frontliner"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Frontliner, race=eoma_tharis
+#: Era_of_Magic\units\Tharis\Frontliner.cfg:19
+msgid ""
+"Unlike most Tharis troops, these warriors have been trained for direct combat rather than sneak tactics like poison or no counter attack techniques.\n"
+"They are noticeably more resilient than most, carrying two curved swords for melee combat and chakrams for ranged encounters."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Great_Hunter, race=eoma_tharis
@@ -3839,6 +4120,28 @@ msgstr ""
 #. [attack]: type=cold
 #: Era_of_Magic\units\Tharis\Matriarch_of_Frost.cfg:124
 msgid "chill tempest"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Matriarch_of_Pain, race=eoma_tharis, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Tharis\Matriarch_of_Pain.cfg:4
+msgid "Matriarch of Pain"
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Magic\units\Tharis\Matriarch_of_Pain.cfg:37
+#: Era_of_Magic\units\Tharis\Pain_Mistress.cfg:33
+msgid "whip"
+msgstr ""
+
+#. [attack]: type=fire
+#: Era_of_Magic\units\Tharis\Matriarch_of_Pain.cfg:50
+#: Era_of_Magic\units\Tharis\Pain_Mistress.cfg:46
+msgid "pain"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Pain_Mistress, race=eoma_tharis, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Tharis\Pain_Mistress.cfg:4
+msgid "Pain Mistress"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Shadowblade, race=eoma_tharis, description={NO_DESCR_AVAILABLE}
@@ -3980,11 +4283,6 @@ msgstr ""
 #. [disable]: id=eoma_attack_only
 #: Era_of_Magic\utils\abilities.cfg:7
 msgid "This weapon will never be used on defense."
-msgstr ""
-
-#. [dummy]: id=eoma_kamikaze
-#: Era_of_Magic\utils\abilities.cfg:15
-msgid "kamikaze"
 msgstr ""
 
 #. [dummy]: id=eoma_kamikaze
@@ -4215,14 +4513,21 @@ msgstr ""
 msgid "This unit gains {VALUE} hitpoints added to its current health whenever an adjacent unit dies."
 msgstr ""
 
+#. [damage]: id=eoma_dread
+#: Era_of_Magic\utils\abilities.cfg:1508
+#: Era_of_Magic\utils\abilities.cfg:1509
+msgid "dread"
+msgstr ""
+
+#. [damage]: id=eoma_dread
+#: Era_of_Magic\utils\abilities.cfg:1510
+#: Era_of_Magic\utils\abilities.cfg:1511
+msgid "When this attack is used offensively, this unit takes one third less damage in retaliation."
+msgstr ""
+
 #. [disable]: id=eoma_disable_in_rpg, description=
 #: Era_of_Magic\utils\abilities_rpg.cfg:6
 msgid "inactive in RPG"
-msgstr ""
-
-#. [advancement]: id=eoma_amla_default_{ID}
-#: Era_of_Magic\utils\amla.cfg:26
-msgid "Max HP bonus +3, Max XP +20%"
 msgstr ""
 
 #. [dummy]: id=eoma_cleave
@@ -4457,43 +4762,73 @@ msgstr ""
 msgid "This unit is made of water. As a result, if it is standing in water (except ford and reef terrain), it will be healed by 6 hp every turn."
 msgstr ""
 
-#. [regenerate]: id=eoma_funguslord{VALUE}
+#. [regenerate]: id=eoma_forest_regeneration
 #: Era_of_Magic\utils\healing.cfg:318
+msgid "forest regeneration +6"
+msgstr ""
+
+#. [regenerate]: id=eoma_forest_regeneration
+#: Era_of_Magic\utils\healing.cfg:319
+msgid "When standing on a forest tile, this unit will heal itself 6 HP per turn. If it is poisoned, it will remove the poison instead of healing."
+msgstr ""
+
+#. [regenerate]: id=eoma_nature_regeneration{VALUE}
+#: Era_of_Magic\utils\healing.cfg:334
+msgid "nature regeneration +{VALUE}"
+msgstr ""
+
+#. [regenerate]: id=eoma_nature_regeneration{VALUE}
+#: Era_of_Magic\utils\healing.cfg:335
+msgid "When standing on a forest or mushroom tile, this unit will heal itself {VALUE} HP per turn. If it is poisoned, it will remove the poison instead of healing."
+msgstr ""
+
+#. [regenerate]: id=eoma_swamp_regeneration
+#: Era_of_Magic\utils\healing.cfg:350
+msgid "swamp regeneration +8"
+msgstr ""
+
+#. [regenerate]: id=eoma_swamp_regeneration
+#: Era_of_Magic\utils\healing.cfg:351
+msgid "When standing on a swamp tile, this unit will heal itself 8 HP per turn. If it is poisoned, it will remove the poison instead of healing."
+msgstr ""
+
+#. [regenerate]: id=eoma_funguslord{VALUE}
+#: Era_of_Magic\utils\healing.cfg:366
 msgid "fungal regeneration"
 msgstr ""
 
 #. [regenerate]: id=eoma_funguslord{VALUE}
-#: Era_of_Magic\utils\healing.cfg:319
+#: Era_of_Magic\utils\healing.cfg:367
 msgid "This unit regenerates some hp each turn it is on a mushroom grove."
 msgstr ""
 
 #. [regenerate]: id=eoma_regeneratessolar1_{VALUE}_{VALUE2}
-#: Era_of_Magic\utils\healing.cfg:335
+#: Era_of_Magic\utils\healing.cfg:383
 msgid "solar regeneration"
 msgstr ""
 
 #. [regenerate]: id=eoma_regeneratessolar1_{VALUE}_{VALUE2}
-#: Era_of_Magic\utils\healing.cfg:336
+#: Era_of_Magic\utils\healing.cfg:384
 msgid "The unit will heal itself some HP at dawn or dusk and more HP during day. If it is poisoned, it will remove the poison instead of healing."
 msgstr ""
 
 #. [regenerate]: id=eoma_regeneratesnight1_{VALUE}
-#: Era_of_Magic\utils\healing.cfg:364
+#: Era_of_Magic\utils\healing.cfg:412
 msgid "nocturnal regeneration"
 msgstr ""
 
 #. [regenerate]: id=eoma_regeneratesnight1_{VALUE}
-#: Era_of_Magic\utils\healing.cfg:365
+#: Era_of_Magic\utils\healing.cfg:413
 msgid "The unit will heal itself some HP during night and when in caves or indoors. If it is poisoned, it will remove the poison instead of healing."
 msgstr ""
 
 #. [heals]: id=undeadheal{VALUE}
-#: Era_of_Magic\utils\healing.cfg:382
+#: Era_of_Magic\utils\healing.cfg:430
 msgid "heal undead "
 msgstr ""
 
 #. [heals]: id=undeadheal{VALUE}
-#: Era_of_Magic\utils\healing.cfg:383
+#: Era_of_Magic\utils\healing.cfg:431
 msgid ""
 "Allows the unit to repair adjacent friendly undead units at the beginning of each turn.\n"
 "\n"
@@ -4566,6 +4901,19 @@ msgid ""
 "Adjacent friendly level 3 units will do 6% more damage in battle."
 msgstr ""
 
+#. [leadership]: id=leadership
+#: Era_of_Magic\utils\leaderships.cfg:152
+msgid "warrior influence"
+msgstr ""
+
+#. [leadership]: id=leadership
+#: Era_of_Magic\utils\leaderships.cfg:153
+msgid ""
+"This unit can inspire friendly units that are next to it, making them fight better.\n"
+"\n"
+"Adjacent friendly units will do 15% more damage in battle."
+msgstr ""
+
 #. [dummy]: id=eoma_recruit
 #: Era_of_Magic\utils\recruit.cfg:5
 msgid "recruit"
@@ -4610,12 +4958,6 @@ msgstr ""
 #. [set_menu_item]: id=recruit_zhelp
 #: Era_of_Magic\utils\recruit.cfg:220
 msgid "Recruiting Help"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Era_of_Magic\utils\recruit.cfg:239
-#: Era_of_Magic\utils\summon.cfg:241
-msgid "Help"
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -4753,55 +5095,5 @@ msgstr ""
 #. [trait]: id=eoma_survivor
 #: Era_of_Magic\utils\traits.cfg:169
 msgid "female^survivor"
-msgstr ""
-
-#. [language]
-#: Era_of_Magic\english.cfg:4
-msgid "range^kamikaze"
-msgstr ""
-
-#. [language]
-#: Era_of_Magic\english.cfg:8
-msgid "secret"
-msgstr ""
-
-#. [era]: id=era_magic
-#: Era_of_Magic\EoMa_eras.cfg:5
-msgid "Era of Magic"
-msgstr ""
-
-#. [era]: id=era_magic
-#: Era_of_Magic\EoMa_eras.cfg:6
-msgid "The Era of Magic consists currently of 8 unique, fully animated factions: Barbarians, Darkblooded, Destroyers, Kharos, Runemasters, Sky Kingdom, Summoners and Tharis. Many units have fancy custom abilities/weapon specials."
-msgstr ""
-
-#. [era]: id=era_magic_rpg
-#: Era_of_Magic\EoMa_eras.cfg:25
-msgid "Era of Magic (RPG)"
-msgstr ""
-
-#. [era]: id=era_magic_rpg
-#: Era_of_Magic\EoMa_eras.cfg:26
-msgid "A variant of Era of Magic designed for playing scenarios which involve elements of roleplaying (RPG) by having lvl1 units as leaders with empty recruit lists."
-msgstr ""
-
-#. [era]: id=era_magic_aoh
-#: Era_of_Magic\EoMa_eras.cfg:44
-msgid "Era of Magic (Age of Heroes)"
-msgstr ""
-
-#. [era]: id=era_magic_aoh
-#: Era_of_Magic\EoMa_eras.cfg:45
-msgid "A variant of Era of Magic with higher level units: level 3 leaders, with level 1 and 2 units available for recruit. Not considered balanced."
-msgstr ""
-
-#. [era]: id=era_magic_masters
-#: Era_of_Magic\EoMa_eras.cfg:63
-msgid "Era of Magic (Masters)"
-msgstr ""
-
-#. [era]: id=era_magic_masters
-#: Era_of_Magic\EoMa_eras.cfg:64
-msgid "A variant of Era of Magic with higher level units: level 3-4 leaders, with level 2 and 3 units available for recruit. Not considered balanced."
 msgstr ""
 
