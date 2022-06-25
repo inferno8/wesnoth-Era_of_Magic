@@ -79,14 +79,6 @@ WindEnchanter
 X-Site
 Xargon
 
-ORGANIZING
-Alarantalara
-Espreon
-Mica
--stf-
-kalfat
-Karambol
-
 TRANSLATIONS
 BioHazardX
 Drakefriend
@@ -103,26 +95,7 @@ IPS for his post 2.0 extremely detailed balance analysis and concepts for new un
 Chewan for his amazing story/descriptions feedback
 All creators of: Era of Myths, Extended Era, Imperial Era, Mercenaries Era
 
-Polish BfW community:
-(in alphabetical order)
-barowei (SRP support; BRP support; RIPLIB suggestions)
-dk
-dragon_warrior
-Froz (early balancing)
-Hejnewar (balancing)
-Jah
-James Revan (Rhami concept)
-Karambol (stderr.txt suggestions)
-kalfat (animation code optimization)
-Poliuks (RIPLIB suggestions; BRP suggestions)
-Sagez (Jinns concept, active support)
-Serpent (originator of the Dark-blood Alliance)
-vetch (Eagle Eye)
-vul6 (WRP support)
-Werian
-Zaku
-
-official BfW forum users:
+-official BfW forum users:
 (in alphabetical order)
 
 Atreides (MXB2001)
@@ -131,9 +104,9 @@ Binaryquasar
 devas
 Fatquack (bugs finder)
 fog_of_gold (a lot of balancing suggestions)
-ForestDragon (EoMa 2.0-3.0 balancing, animation coding, ideas, gameplay improvements)
+ForestDragon (EoMa 2.0-3.0+ balancing, animation coding, unit ideas, gameplay improvements)
 Gena
-IPS (EoMa 2.0-3.0+ balancing)
+IPS (EoMa 2.0-3.0+ balancing, 3.0+ unit ideas, gameplay improvements)
 Konrad2
 lightdragonx
 lastdragon
@@ -147,6 +120,7 @@ Ravana
 Sandermatt
 Slug (Barbarians descriptions)
 -stf-
+Tezereth (unit concepts for Frontliner, Crimson Blade, Architect, Kharosian Bulwark)
 Thrawn (original units names suggestions)
 Velensk (Alchemists -> Summoners)
 Vendanna (hydras and balancing)
@@ -154,5 +128,24 @@ wesfreak (amazing balance suggestions)
 WindEnchanter (translations)
 zacharias (traits removing idea)
 Zookeeper (WML support on the official forum)
+
+-Polish BfW community:
+(in alphabetical order)
+barowei (SRP support; BRP support; RIPLIB suggestions)
+dk
+dragon_warrior
+Froz (early balancing)
+Hejnewar (balancing)
+Jah
+James Revan (Rhami concept)
+Karambol (stderr.txt suggestions)
+kalfat (animation code optimization)
+Poliuks (RIPLIB suggestions; BRP suggestions)
+Sagez (Jinn concept, active support)
+Serpent (originator of the Dark-blood Alliance)
+vetch (Eagle Eye)
+vul6 (WRP support)
+Werian
+Zaku
 
 and all Era of Magic's fans.
