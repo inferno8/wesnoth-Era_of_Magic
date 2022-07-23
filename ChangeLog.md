@@ -1,6 +1,48 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.9.1
+ ### Gameplay
+	* added a new unit: Temple Guardian
+ ### Abilities
+	* added a new weapon special: Phase
+	* the boodlust ability no longer cures poison
+ ### Units
+	** Darkblood Alliance:
+	 * Forest Spirit: disabled zoc
+	 * Swamp Spirit: disabled zoc
+	** Destroyers:
+	 * Doom Bringer: changed melee attack damage from 7-4 to 6-4
+	** Kharos:
+	 * Hoplite: hitpoints from 55 to 53; changed the shield attack damage from 17-1 to 16-1
+	 * Prophet of Light: changed the lightbeam attack damage from 10-3 to 11-3
+	** Runemasters:
+	 * Balloon: impact resistance from 20 to 10
+	 * Heavy Balloon: impact resistance from 20 to 10
+	 * Battlecopter: cost from 64 to 68
+	 * Mechanic: set impact resistance to 30
+	 * Technician: set impact resistance to 30
+	 * Constructor: set impact resistance to 30
+	 * Dwarvish Soldier: added the marksman weapon special to the gun attack
+	 * Flying Fortress: hitpoints from 82 to 80; changed the hard landing damage value from 13 to 11; changed the impact resistance from 20 to 10
+	 * Mechanical Dragon: changed the hard landing damage value from 11 to 9
+	 * Technologist: impact resistance from 10 to 20
+	 * Technocrat: impact resistance from 10 to 20
+	** Sky Kingdom:
+	 * Master Mage: set mountains movement cost to 2; changed the lightning attack damage from 34-1 to 33-1
+	 * Um: set village defense to 50%
+	 * War Mage: cost from 36 to 34
+	** Summoners:
+	 * Efreeti: fire resistance from 50 to 40
+	 * Great Efreeti: fire resistance from 50 to 40
+ ### Descriptions
+	* improved the deflect magic ability description
+ ### Code
+	* fixed missing {AMLA_DEFAULT} in Recruitment Officer
+ ### Translations
+	* updated the raw translation file
+    * updated the Polish translation
+
 ## Version 3.9
  ### Gameplay
 	* added 12 new units: Bladefury, Chainlady, Frontliner, Crimson Blade, Pain Mistress, Matriarch of Pain, Terramancer, Master of Earth, Architect, Kharosian Bulwark, Forest Spirit, Swamp Spirit
