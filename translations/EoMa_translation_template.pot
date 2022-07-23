@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-06-25 18:15 UTC\n"
+"POT-Creation-Date: 2022-07-23 13:23 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -699,12 +699,12 @@ msgid "Forest Spirit"
 msgstr ""
 
 #. [dummy]: id=eoma_kamikazeheal
-#: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:22
+#: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:23
 msgid "kamikaze heal"
 msgstr ""
 
 #. [dummy]: id=eoma_kamikazeheal
-#: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:23
+#: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:24
 msgid ""
 "This unit can be sacrificed to heal a selected friendly unit.\n"
 "\n"
@@ -712,24 +712,24 @@ msgid ""
 msgstr ""
 
 #. [set_menu_item]: id=fspirit
-#: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:170
+#: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:171
 msgid "Heal +25 with Forest Spirit"
 msgstr ""
 
 #. [set_menu_item]: id=fspirit_zhelp
-#: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:225
+#: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:226
 msgid "Forest Spirit Help"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:240
+#: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:241
 #: Era_of_Magic\utils\recruit.cfg:239
 #: Era_of_Magic\utils\summon.cfg:241
 msgid "Help"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:241
+#: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:242
 msgid "To heal an adjacent friendly unit, rightclick that unit and choose the option 'Heal +25'. The Forest Spirit will be sacrificed in the process."
 msgstr ""
 
@@ -872,9 +872,24 @@ msgstr ""
 
 #. [attack]: type=secret
 #. [dummy]: id=eoma_kamikaze
-#: Era_of_Magic\units\Dark_Blood_Alliance\Swamp_Spirit.cfg:110
+#: Era_of_Magic\units\Dark_Blood_Alliance\Swamp_Spirit.cfg:111
 #: Era_of_Magic\utils\abilities.cfg:15
 msgid "kamikaze"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Temple_Guard, race=lizard, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Dark_Blood_Alliance\Temple_Guard.cfg:4
+msgid "Temple Guard"
+msgstr ""
+
+#. [disable]: id=eoma_phase
+#: Era_of_Magic\units\Dark_Blood_Alliance\Temple_Guard.cfg:73
+msgid "phase"
+msgstr ""
+
+#. [disable]: id=eoma_phase
+#: Era_of_Magic\units\Dark_Blood_Alliance\Temple_Guard.cfg:74
+msgid "This attack will only be used against magical and undead beings."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Ranged_Toad, race=lizard, description={NO_DESCR_AVAILABLE}
@@ -1573,7 +1588,7 @@ msgstr ""
 #: Era_of_Magic\units\Kharos\Child_of_Light.cfg:66
 #: Era_of_Magic\units\Kharos\Mistress_of_Light.cfg:81
 #: Era_of_Magic\units\Kharos\Sister_of_Light.cfg:51
-#: Era_of_Magic\units\Sky_Kingdom\Master_Mage.cfg:39
+#: Era_of_Magic\units\Sky_Kingdom\Master_Mage.cfg:42
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:86
 msgid "light touch"
 msgstr ""
@@ -1808,17 +1823,17 @@ msgid "Recruitment Officer"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Recruitment_Officer, race=human
-#: Era_of_Magic\units\Kharos\Recruitment_Officer.cfg:19
+#: Era_of_Magic\units\Kharos\Recruitment_Officer.cfg:20
 msgid "Some soldiers never truly shine enough to be recognized as heroes by the peasants, or join the sacred legions. Most just go back to their families when they are relieved of service. However, a very select few choose to stay on the army to help educate and conscript more people. This job, while not glorious or awe inspiring as the feats of the Platinum Guard or Pious as the Sacred Sun order is nevertheless extremely important."
 msgstr ""
 
 #. [abilities]
-#: Era_of_Magic\units\Kharos\Recruitment_Officer.cfg:29
+#: Era_of_Magic\units\Kharos\Recruitment_Officer.cfg:30
 msgid "Recruit Shielder"
 msgstr ""
 
 #. [abilities]
-#: Era_of_Magic\units\Kharos\Recruitment_Officer.cfg:30
+#: Era_of_Magic\units\Kharos\Recruitment_Officer.cfg:31
 msgid "Recruit White Warrior"
 msgstr ""
 
@@ -1959,51 +1974,51 @@ msgid "Constructor"
 msgstr ""
 
 #. [dummy]: id=eoma_builddrone
-#: Era_of_Magic\units\Runemasters\Constructor.cfg:36
+#: Era_of_Magic\units\Runemasters\Constructor.cfg:37
 msgid "activate drone"
 msgstr ""
 
 #. [dummy]: id=eoma_builddrone
-#: Era_of_Magic\units\Runemasters\Constructor.cfg:37
+#: Era_of_Magic\units\Runemasters\Constructor.cfg:38
 msgid "This unit can create new drones on adjacent tiles, but not in villages, or on water."
 msgstr ""
 
 #. [event]: id=eoma_summon_init_event_constructor
-#: Era_of_Magic\units\Runemasters\Constructor.cfg:62
+#: Era_of_Magic\units\Runemasters\Constructor.cfg:63
 msgid "Build Drone"
 msgstr ""
 
 #. [attack]: type=blade
-#: Era_of_Magic\units\Runemasters\Constructor.cfg:103
-#: Era_of_Magic\units\Runemasters\Mechanic.cfg:52
-#: Era_of_Magic\units\Runemasters\Technician.cfg:81
+#: Era_of_Magic\units\Runemasters\Constructor.cfg:104
+#: Era_of_Magic\units\Runemasters\Mechanic.cfg:53
+#: Era_of_Magic\units\Runemasters\Technician.cfg:82
 msgid "saw"
 msgstr ""
 
 #. [attack]: type=impact
-#: Era_of_Magic\units\Runemasters\Constructor.cfg:112
-#: Era_of_Magic\units\Runemasters\Mechanic.cfg:61
-#: Era_of_Magic\units\Runemasters\Technician.cfg:90
+#: Era_of_Magic\units\Runemasters\Constructor.cfg:113
+#: Era_of_Magic\units\Runemasters\Mechanic.cfg:62
+#: Era_of_Magic\units\Runemasters\Technician.cfg:91
 msgid "wrench"
 msgstr ""
 
 #. [attack]: type=pierce
-#: Era_of_Magic\units\Runemasters\Constructor.cfg:121
-#: Era_of_Magic\units\Runemasters\Mechanic.cfg:70
-#: Era_of_Magic\units\Runemasters\Technician.cfg:99
+#: Era_of_Magic\units\Runemasters\Constructor.cfg:122
+#: Era_of_Magic\units\Runemasters\Mechanic.cfg:71
+#: Era_of_Magic\units\Runemasters\Technician.cfg:100
 msgid "screwdriver"
 msgstr ""
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Runemasters\Constructor.cfg:130
+#: Era_of_Magic\units\Runemasters\Constructor.cfg:131
 #: Era_of_Magic\units\Runemasters\Technocrat.cfg:55
 #: Era_of_Magic\units\Runemasters\Technologist.cfg:54
 msgid "flamethrower"
 msgstr ""
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Runemasters\Constructor.cfg:139
-#: Era_of_Magic\units\Runemasters\Technician.cfg:117
+#: Era_of_Magic\units\Runemasters\Constructor.cfg:140
+#: Era_of_Magic\units\Runemasters\Technician.cfg:118
 msgid "bomb"
 msgstr ""
 
@@ -2422,7 +2437,7 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Runemasters\Technician.cfg:108
+#: Era_of_Magic\units\Runemasters\Technician.cfg:109
 msgid "burner"
 msgstr ""
 
@@ -2579,7 +2594,7 @@ msgstr ""
 #. [attack]: type=cold
 #: Era_of_Magic\units\Sky_Kingdom\Elementalist.cfg:55
 #: Era_of_Magic\units\Sky_Kingdom\Hydromancer.cfg:84
-#: Era_of_Magic\units\Sky_Kingdom\Master_Mage.cfg:51
+#: Era_of_Magic\units\Sky_Kingdom\Master_Mage.cfg:54
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:98
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Water.cfg:79
 msgid "icicles"
@@ -2702,7 +2717,7 @@ msgid "Though not as skilled with each element as the Elemental Masters, Master 
 msgstr ""
 
 #. [attack]: type=arcane
-#: Era_of_Magic\units\Sky_Kingdom\Master_Mage.cfg:74
+#: Era_of_Magic\units\Sky_Kingdom\Master_Mage.cfg:77
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Air.cfg:113
 #: Era_of_Magic\units\Summoners\Air_Avatar.cfg:108
 #: Era_of_Magic\units\Summoners\Air_God.cfg:107
@@ -2921,7 +2936,7 @@ msgstr ""
 
 #. [attack]: type=secret
 #: Era_of_Magic\units\Sky_Kingdom\Mu.cfg:57
-#: Era_of_Magic\units\Sky_Kingdom\Um.cfg:90
+#: Era_of_Magic\units\Sky_Kingdom\Um.cfg:93
 msgid "magic barrage"
 msgstr ""
 
@@ -3038,7 +3053,7 @@ msgid "Ums (<italic>text='um'</italic> in single) are the Sky Kingdom's top secr
 msgstr ""
 
 #. [attack]: type=secret
-#: Era_of_Magic\units\Sky_Kingdom\Um.cfg:104
+#: Era_of_Magic\units\Sky_Kingdom\Um.cfg:107
 msgid "um blast"
 msgstr ""
 
@@ -4491,12 +4506,12 @@ msgid "This unit gains {VALUE} hitpoints added to its current health whenever it
 msgstr ""
 
 #. [damage]: id=eoma_supercharge
-#: Era_of_Magic\utils\abilities.cfg:1415
+#: Era_of_Magic\utils\abilities.cfg:1416
 msgid "supercharge"
 msgstr ""
 
 #. [damage]: id=eoma_supercharge
-#: Era_of_Magic\utils\abilities.cfg:1416
+#: Era_of_Magic\utils\abilities.cfg:1417
 msgid ""
 "When used offensively, this attack deals 150% damage to the target. It also causes this unit to take 150% damage from the target’s counterattack.\n"
 "\n"
@@ -4504,24 +4519,24 @@ msgid ""
 msgstr ""
 
 #. [dummy]: id=eoma_scavenger{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1473
+#: Era_of_Magic\utils\abilities.cfg:1474
 msgid "scavenger"
 msgstr ""
 
 #. [dummy]: id=eoma_scavenger{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1474
+#: Era_of_Magic\utils\abilities.cfg:1475
 msgid "This unit gains {VALUE} hitpoints added to its current health whenever an adjacent unit dies."
 msgstr ""
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic\utils\abilities.cfg:1508
 #: Era_of_Magic\utils\abilities.cfg:1509
+#: Era_of_Magic\utils\abilities.cfg:1510
 msgid "dread"
 msgstr ""
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic\utils\abilities.cfg:1510
 #: Era_of_Magic\utils\abilities.cfg:1511
+#: Era_of_Magic\utils\abilities.cfg:1512
 msgid "When this attack is used offensively, this unit takes one third less damage in retaliation."
 msgstr ""
 
