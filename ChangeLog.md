@@ -1,9 +1,52 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.9.2
+ ### Units
+	** Darkblood Alliance:
+	 * Temple Guard: added the 'first strike' and 'magic counter' weapon specials to the arcane melee attack; added the magic hardening ability
+	 * Chosen of Forest: added the magic counter weapon special to the melee attack
+	** Destroyers:
+	 * Atokpi Samurai: hitpoints from 47 to 48
+	 * Apocalypse (RPG): changed hitpoints from 38 to 44; set resistances to match those of Mara
+	 * Dark Apostle (RPG): changed hitpoints from 45 to 55; set resistances to match those of Mara
+	 * Harbiner (RPG): set cold resistance to 0%, set arcane resistance to -10%; changed the corrupted fire damage from 7-3 to 8-3; changed the melee magical special to magical (offensive); replaced marksman with precision (offensive) for the Chaotic Vortex attack, removed the immobilize special
+	 * Doom Bringer (RPG): set cold resistance to 0%, set arcane resistance to -10%; changed the corrupted fire damage from 10-3 to 11-3; changed the melee magical special to magical (offensive), increased damage from 6-4 to 7-4; replaced marksman with precision (offensive) for the Chaotic Vortex attack and changed damage from 21-1 to 19-1, removed the immobilize and precision (offensive) specials.
+	 * Atokpi Infantry: fire resistance from -10% to -20%, impact resistance from -10% to -15%
+	 * Atokpi Infantry (RPG): removed the precision (offensive) weapon special; changed movement from 6 to 5
+	 * Atokpi Charger (RPG): replaced the precision weapon special with skilled; changed movement from 7 to 6
+	 * Crimson Atokpi: fire resistance from -10% to -20%
+	 * Crimson Atokpi (RPG): replaced the precision weapon special with skilled; changed movement from 6 to 5
+	** Kharos:
+	 * Hoplite: cost from 32g to 35g
+	 * Kirios: cost from 75 to 83g
+	 * Kharosian Javelineer: fire resistance from -5% to +6%
+	** Runemasters:
+	 * Battlecopter (RPG): changed movement from 10 to 9; removed the first strike special from the ranged impact attack
+	 * Dwarvish Mobile Turret (RPG): decreased the shockwave attack damage from 10-2 to 8-1, removed the no-counter special; disabled the split fire attack; removed the triple strike special from the spread shot attack
+	 * Mobile Defensive Platform (RPG): decreased the shockwave attack damage from 9-3 to 8-2, removed the no-counter special; disabled the split fire attack; removed the triple strike special from the spread shot attack
+	 * Red Steam Ulfserker: added the magic counter weapon special to the melee attack
+	** Sky Kingdom:
+	 * Guru of Magic: added the magic counter weapon special to the melee attack
+	 * Hidden Face: added the magic counter (offensive) weapon special to the melee attack
+	 * Mystic Warrior: added the magic counter (offensive) weapon special to the melee attack
+	 * Sky Guardian: added the magic counter (offensive) weapon special to the melee attack
+	** Tharis:
+	 * Sword Dancer: added the magic counter weapon special to the melee attack
+ ### Abilities
+	* added the 'magic hardening' ability
+	* added the 'magic counter' weapon special
+	* renamed the 'phase' weapon special to 'divine'
+ ### Code
+	* added the first strike special disabler for RPG mode
+	* added missing textdomains to some files
+ ### Translations
+	* updated the raw translation file
+    * updated the Polish translation
+
 ## Version 3.9.1
  ### Gameplay
-	* added a new unit: Temple Guardian
+	* added a new unit: Temple Guard
  ### Abilities
 	* added a new weapon special: Phase
 	* the boodlust ability no longer cures poison
