@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-07-30 16:27 UTC\n"
+"POT-Creation-Date: 2022-07-31 14:03 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -179,12 +179,14 @@ msgstr ""
 #: Era_of_Magic\units\Barbarians\Barbarian_King.cfg:56
 #: Era_of_Magic\units\Barbarians\Barbarian_Lord.cfg:55
 #: Era_of_Magic\units\Barbarians\Cyclops_Breaker.cfg:56
-#: Era_of_Magic\units\Barbarians\Cyclops_Breaker_rpg.cfg:16
+#: Era_of_Magic\units\Barbarians\Cyclops_Breaker_rpg.cfg:18
 msgid "double attack"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Barbarian_Lord, race=orc, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Barbarian_Lord_rpg
 #: Era_of_Magic\units\Barbarians\Barbarian_Lord.cfg:4
+#: Era_of_Magic\units\Barbarians\Barbarian_Lord_rpg.cfg:7
 msgid "Barbarian Lord"
 msgstr ""
 
@@ -206,9 +208,7 @@ msgid "Cumbersome and lacking fine intellect, the Cyclops race had been driven n
 msgstr ""
 
 #. [unit_type]: id=EoMa_Cyclops_Breaker, race=eoma_cyclops
-#. [unit_type]: id=EoMa_Cyclops_Breaker_rpg
 #: Era_of_Magic\units\Barbarians\Cyclops_Breaker.cfg:4
-#: Era_of_Magic\units\Barbarians\Cyclops_Breaker_rpg.cfg:7
 msgid "Cyclops Breaker"
 msgstr ""
 
@@ -710,7 +710,7 @@ msgstr ""
 msgid ""
 "This unit can be sacrificed to heal a selected friendly unit.\n"
 "\n"
-"	For more information, choose the 'Forest Spirit Help' rightclick option which appears when rightclicking on a unit with this ability."
+"For more information, choose the 'Forest Spirit Help' rightclick option which appears when rightclicking on a unit with this ability."
 msgstr ""
 
 #. [set_menu_item]: id=fspirit
@@ -889,12 +889,12 @@ msgid "Temple Guard"
 msgstr ""
 
 #. [disable]: id=eoma_divine
-#: Era_of_Magic\units\Dark_Blood_Alliance\Temple_Guard.cfg:72
+#: Era_of_Magic\units\Dark_Blood_Alliance\Temple_Guard.cfg:71
 msgid "divine"
 msgstr ""
 
 #. [disable]: id=eoma_divine
-#: Era_of_Magic\units\Dark_Blood_Alliance\Temple_Guard.cfg:73
+#: Era_of_Magic\units\Dark_Blood_Alliance\Temple_Guard.cfg:72
 msgid "This attack will only be used against magical and undead beings."
 msgstr ""
 
@@ -4559,6 +4559,16 @@ msgstr ""
 msgid "When this attack is used offensively, this unit takes one third less damage in retaliation."
 msgstr ""
 
+#. [damage]: id=eoma_magic_hardening
+#: Era_of_Magic\utils\abilities.cfg:1523
+msgid "magic hardening"
+msgstr ""
+
+#. [damage]: id=eoma_magic_hardening
+#: Era_of_Magic\utils\abilities.cfg:1524
+msgid "While attacking, this unit will take 20% less fire/cold/arcane damage in retaliation."
+msgstr ""
+
 #. [disable]: id=eoma_disable_in_rpg, description=
 #: Era_of_Magic\utils\abilities_rpg.cfg:6
 msgid "inactive in RPG"
@@ -5580,16 +5590,6 @@ msgstr ""
 #. [resistance]: id=eoma_tenacity
 #: Era_of_Magic\utils\resistance.cfg:332
 msgid "This unit’s vulnerabilities are halved when attacking."
-msgstr ""
-
-#. [resistance]: id=eoma_magic_hardening
-#: Era_of_Magic\utils\resistance.cfg:344
-msgid "magic hardening"
-msgstr ""
-
-#. [resistance]: id=eoma_magic_hardening
-#: Era_of_Magic\utils\resistance.cfg:345
-msgid "While attacking, this unit will take 20% less fire/cold/arcane damage."
 msgstr ""
 
 #. [dummy]: id=eoma_runeaura
