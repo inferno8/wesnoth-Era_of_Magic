@@ -1,6 +1,40 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.9.3
+ ### Gameplay
+	* disabled the 'hard landing' and 'furious death' abilities in the RPG mode
+ ### Units
+	** Barbarians:
+	 * Cyclops breaker (RPG): hitpoints from 58 to 62; changed the 'fist' (double-attack) attack damage from 6-4 to 3-3
+	 * Cyclops Goliath (RPG): replaced the precision weapon special with precision (offensive) for the 'gaze' attack
+	 * Cyclops Noble (RPG): changed the 'gaze (offensive)' attack damage from 17-1 to 14-1
+	 * Cyclops Lord (RPG): changed the 'gaze (offensive)' attack damage from 25-1 to 20-1
+	 * Gobling Shaman (RPG): added the magic counter weapon special to the staff attack; added magic hardening weapon special to all attacks
+	 * Barbarian Lord (RPG): changed the 'sword+axe' attack damage from 9-3 to 6-2
+	 * Barbarian King (RPG): changed the 'sword+axe' attack damage from 13-3 to 10-2
+	 * Troll Warlock (RPG): changed the 'fist' attack damage from 15-2 to 16-2, changed the 'blue flame' attack damage from 10-3 to 8-3
+	 * Troll Warbanner (RPG): added the magic hardening weapon special to all attacks
+	** Destroyers:
+	 * Apocalypse (RPG): changed the 'devour' attack damage from 22-1 to 17-1, the 'chaotic blast' attack damage from 9-2 to 7-2
+	 * Dark Apostle (RPG): changed the 'devour' attack damage from 36-1 to 21-1, the 'chaotic blast' damage from 13-2 to 9-2
+	 * Cyclops Necromancer (RPG): hitpoints from 40 to 44; added the regenerates ability; added the magic counter weapon special for melee attack, changed melee damage from 5-3 to 5-4
+	 * Greater Cyclops Skeleton (RPG): changed the 'gaze' attack damage from 25-1 to 22-1
+	 * Extinct Cyclops Mage (RPG): changed the 'gaze' attack damage from 38-1 to 29-1; changed the 'gaze (arcane)' attack damage from 13-3 to 10-4
+	 * Fallen Cyclops King (RPG): changed the 'gaze' attack damage from 56-1 to 37-1, changed the 'gaze (arcane)' attack damage from 14-4 to 11-5
+	 * Bone Giant (RPG): hitpoints from 71 to 83; set resistances to match those of Bone Golem
+	 * Moloch (RPG): hitpoints from 92 to 101; disabled the 'Split' ability; set resistances to match those of Bonge Giant
+	** Sky Kingdom:
+	 * Master of Fire: changed the 'flames' attack damage from 4-10 to 4-9
+ ### Abilities
+	* replaced the 'magic hardening' ability with a weapon special with the same name
+	* the 'magic hardening' reduces opponents' damage now, instead of buffing its owner's resistances
+ ### Code:
+	* replaced all occurrences of 'special=' with 'special_id='
+ ### Translations
+	* updated the raw translation file
+    * updated the Polish translation
+
 ## Version 3.9.2
  ### Units
 	** Darkblood Alliance:
