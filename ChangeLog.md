@@ -1,6 +1,31 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.9.4
+ ### Gameplay
+	* disabled the 'awe' ability in RPG mode
+ ### Units
+	** Darkblood Alliance:
+	 * Dreadnought (RPG): removed the 'skilled' weapon special from the 'spear throw' attack
+	 * Twin Archer Toad (RPG): changed the 'Split Fire' attack damage from 11-2 to 10-1
+	** Destroyers:
+	 * Cyclops Skeleton (and all advancements) (RPG): set fire/cold resistance to 20%, set arcane resistance to 0%
+	 * Omen (RPG): replaced the 'all-around' weapon special with 'triple strike'; replaced the 'no-counter' weapon special with 'dread'
+	 * Punisher (RPG): replaced the 'all-around' weapon special with 'triple strike'; replaced the 'no-counter' weapon special with 'dread'
+	 * Obliterator (RPG): replaced the 'all-around' weapon special with 'triple strike'; replaced the 'no-counter' weapon special with 'dread'; set resistances to match those of Punisher; replaced the 'skilled' weapon special with 'marksman' for the sword (blade) attack, replaced the 'precision' weapon special with 'skilled' for the sword (pierce) attack
+	 * Abaddon (RPG): replaced the 'all-around' weapon special with 'triple strike'; replaced the 'no-counter' weapon special with 'dread'; set resistances to match those of Punisher; replaced the 'skilled' weapon special with 'marksman' for the sword (blade) attack, replaced the 'precision' weapon special with 'skilled' for the sword (pierce) attack
+	** Kharos:
+	 * Kirios (RPG): changed the arcane resistance from 50% to 40%; changed the fire and cold resistances from 40% to 35%; changed the 'solar beam' attack damage from 17-2 to 15-1
+	 * Heavy Cavalry (RPG): added the 'dread' weapon special to the 'trample' attack
+	 * Elemental Archer (RPG): changed the 'fire arrow' attack damage from 12-2 to 10-2; changed the 'ice arrow' attack damage from 8-2 to 6-2
+	 * Mystical Archer (RPG): changed the 'fire arrow' attack damage from 12-3 to 10-3; changed the 'ice arrow' attack damage from 8-3 to 6-3; changed the 'holy arrow' attack damage from 16-2 to 11-2
+	 * Prophet of Light (RPG): replaced the 'magical' weapon special with 'magical offensive' for the 'blinding light' attack
+	 * Inspired (RPG): hitpoints from 36 to 48; added the 'magic counter' weapon special to the sword attack; added the 'magic counter' weapon special to the bow (pierce) attack
+ ### Code
+	* added missing RPG check for some weapon specials
+	* fixed swapped contents of Saurian_Assassin_rpg.cfg and Jungle_Crossbowman_rpg.cfg
+	* fixed UNTLB_ errors for Jungle Crossbowman
+
 ## Version 3.9.3
  ### Gameplay
 	* disabled the 'hard landing' and 'furious death' abilities in the RPG mode
@@ -1854,7 +1879,7 @@ Era of Magic - ChangeLog
      * Double Ranged Toad: hitpoints to 75 (+5); cost to 54 (+4); changed impact resistance to 10%; changed paw attack damage to 8-4 (+1); changed tongue damage to 8-3 (from 10-2)
      * Heavy Toad: cost 37 (+5); changed pierce resistance to -10%, impact to 20%; changed tongue damage to 13-1 (from 8-2), added the marksman special; changed charge attack damage to 22-1 (+2); changed spear throw damage to 7-2 (from 12-1)
      * Mystical Toad: cost to 64 (+14); changed impact resistance to 10%, cold and arcane to 25%; changed magic missile damage to 7-5 (from 9-4)
-     * Dreadnaught: cost to 60 (+10); changed pierce resistance to 0%, impact to 30%; changed tongue damage to 11-2 (from 10-2), added the marksman special; changed charge damage to 33-1 (from 20-2); changed spear throw damage to 11-2 (from 18-1)
+     * Dreadnought: cost to 60 (+10); changed pierce resistance to 0%, impact to 30%; changed tongue damage to 11-2 (from 10-2), added the marksman special; changed charge damage to 33-1 (from 20-2); changed spear throw damage to 11-2 (from 18-1)
      * Ranged Toad: cost to 36 (+3); changed impact resistance to 10%; changed paw damage to 7-3 (+1); changed tongue damage to 9-2 (+1), added the skilled special;
      * Shamanistic Toad: changed resistance to these values: impact 10%, cold 70%, fire and arcane 10%; changed paw damage to 7-3 (+1); changed magic missile damage to 6-4 (-1)
      * Wyvern: cost to 21 (+1); experience to 55 (+5)
@@ -2226,7 +2251,7 @@ Era of Magic - ChangeLog
      * Chaos Rider: changed spear attack damage to 15-2, tail damage to 22-1 (added cleave special), scream damage to 12-2, added skilled special
      * Toad: hitpoints from 50 to 47; cost from 18 to 19, melee from 4-3 to 6-3, renamed ranged pierce attack to 'javelin', changed damage from 4-3 to 5-3, ranged impact from 10-1 to 6-2 blade impact and cold resistance to 20% and pierce resistance form 0 to -20%
      * Battle Toad: renamed to Heavy Toad; hitpoints to 62; experience points to 90; changed melee damage to 7-4, changed tongue attack damage to 8-2; changed spear throw attack damage to 12-1
-     * Dreadnaught: hitpoints to 80; changed melee damage to 8-5, changed tongue attack damage to 10-2, added skilled special; changed spear damage to 14-3, changed spear throw attack damage to 18-1, added skilled special; impact resistance to 10%, pierce resistance to 20%
+     * Dreadnought: hitpoints to 80; changed melee damage to 8-5, changed tongue attack damage to 10-2, added skilled special; changed spear damage to 14-3, changed spear throw attack damage to 18-1, added skilled special; impact resistance to 10%, pierce resistance to 20%
      * Ranged Toad: hitpoints to 58; experience points to 90; changed melee damage to 6-3, changed tongue damage to 8-2; crossbow damage to 10 (+1)
      * Double Ranged Toad: changed melee damage to 7-4, changed tongue attack damage to 10-2, added skilled special, renamed 'crossbow x2' attack to 'split fire', changed its damage to 12-2, renamed 'aimed shot' to 'concentrated fire', renamed 'concentrated' fire to'rapid fire'
      * Shamanistic Toad: hitpoints to 58; experience points to 90; changed melee attack damage to 6-3, changed tongue attack damage to 8-2, added skilled special
