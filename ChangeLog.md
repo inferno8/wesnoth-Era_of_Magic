@@ -1,6 +1,36 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.9.5
+ ### Units
+	** Barbarians:
+	 * Goblin Druid: can cure poison now
+	 * Orcish Warbanner: impact resistance from 0% to 10%
+	** Kharos:
+	 * Golden Warrior: hitpoints from 56 to 57; solar regeneration values increased from +2/+4 to +3/+5
+	 * Solar Master: solar regeneration values increased from +4/+8 to +5/+8
+	 * Sun Follower: solar regeneration values increased from +2/+5 to +3/+5
+	 * Kharos War Banner: impact resistance from 5% to 10%
+	 * Grand Kharosian Warbanner: impact resistance from 10% to 15%
+	 * Recruitment Officer: impact resistance from 10% to 20%
+	 * Striding Machine: fire resistance from -10% to -15%
+	 * Dwarvish Tank: fire resistance from -10% to -15%
+	** Sky Kingdom:
+	 * Master Mage: changed melee attack damage from 9-2 to 8-2; renamed the melee attack to "Magic Touch"
+	 * Master of Elements: renamed the melee attack to "Magic Touch"
+	** Summoners:
+	 * Water Avatar: impact resistance from 20% to 30%
+	 * Water God: impact resistance increase from 20% to 30%
+	** Tharis:
+	 * Raging Hydra: impact resistance from 10% to 20%
+	 * Chaos Hydra: impact resistance from 10% to 20%
+ ### Graphics
+	* added Golden Warrior portrait
+ ### Code
+	* fixed missing #ifdef MULTIPLAYER in awe.cfg
+ ### Translations
+	* updated the raw translation file
+
 ## Version 3.9.4
  ### Gameplay
 	* disabled the 'awe' ability in RPG mode
