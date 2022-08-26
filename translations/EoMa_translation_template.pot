@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-07-31 14:03 UTC\n"
+"POT-Creation-Date: 2022-08-26 20:12 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -352,7 +352,7 @@ msgstr ""
 #: Era_of_Magic\units\Dark_Blood_Alliance\Saurian_Assassin.cfg:62
 #: Era_of_Magic\units\Dark_Blood_Alliance\Twin_Archer_Toad.cfg:88
 #: Era_of_Magic\units\Dark_Blood_Alliance\Twin_Archer_Toad.cfg:81
-#: Era_of_Magic\units\Dark_Blood_Alliance\Twin_Archer_Toad_rpg.cfg:18
+#: Era_of_Magic\units\Dark_Blood_Alliance\Twin_Archer_Toad_rpg.cfg:20
 #: Era_of_Magic\units\Runemasters\Dwarvish_Mobile_Turret.cfg:84
 #: Era_of_Magic\units\Runemasters\Dwarvish_Mobile_Turret.cfg:77
 #: Era_of_Magic\units\Runemasters\Dwarvish_Mobile_Turret_rpg.cfg:22
@@ -1590,12 +1590,9 @@ msgid "female^Child of Light"
 msgstr ""
 
 #. [attack]: type=arcane
-#. [attack]: type=impact
 #: Era_of_Magic\units\Kharos\Child_of_Light.cfg:66
 #: Era_of_Magic\units\Kharos\Mistress_of_Light.cfg:81
 #: Era_of_Magic\units\Kharos\Sister_of_Light.cfg:51
-#: Era_of_Magic\units\Sky_Kingdom\Master_Mage.cfg:42
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:86
 msgid "light touch"
 msgstr ""
 
@@ -2733,6 +2730,12 @@ msgstr ""
 #. [unit_type]: id=EoMa_Mastermage, race=human
 #: Era_of_Magic\units\Sky_Kingdom\Master_Mage.cfg:20
 msgid "Though not as skilled with each element as the Elemental Masters, Master Magi have decent knowledge of most kinds of magic, giving them a lot of options in terms of spellcasting. When attacked, Master Magi create an energy shield around themselves, which absorbs some of the incoming damage."
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Magic\units\Sky_Kingdom\Master_Mage.cfg:42
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:86
+msgid "magic touch"
 msgstr ""
 
 #. [attack]: type=arcane
@@ -4575,12 +4578,12 @@ msgid "inactive in RPG"
 msgstr ""
 
 #. [firststrike]: id=firststrike_rpg
-#: Era_of_Magic\utils\abilities_rpg.cfg:172
+#: Era_of_Magic\utils\abilities_rpg.cfg:178
 msgid "first strike"
 msgstr ""
 
 #. [firststrike]: id=firststrike_rpg
-#: Era_of_Magic\utils\abilities_rpg.cfg:173
+#: Era_of_Magic\utils\abilities_rpg.cfg:179
 msgid "This unit always strikes first with this attack, even if they are defending."
 msgstr ""
 
@@ -4696,7 +4699,7 @@ msgid ""
 "Adjacent enemy magical units of lower level will do less damage in battle. When a unit adjacent to, of the same level, or a lower level than, and is an enemy of the unit with Circle of Banishment engages in combat, its attacks do less damage (−40% lvl0, −30% lvl1, −20% lvl2, −10% lvl3)."
 msgstr ""
 
-#: Era_of_Magic\utils\awe.cfg:131
+#: Era_of_Magic\utils\awe.cfg:134
 msgid ""
 "This unit can frighten enemy units that are next to it, making them fight worse.\n"
 "\n"
@@ -4710,22 +4713,22 @@ msgid ""
 msgstr ""
 
 #. [leadership]: id=eoma_awe1
-#: Era_of_Magic\utils\awe.cfg:146
+#: Era_of_Magic\utils\awe.cfg:149
 msgid "awe 1"
 msgstr ""
 
 #. [leadership]: id=eoma_awe2
-#: Era_of_Magic\utils\awe.cfg:170
+#: Era_of_Magic\utils\awe.cfg:173
 msgid "awe 2"
 msgstr ""
 
 #. [leadership]: id=eoma_awe3
-#: Era_of_Magic\utils\awe.cfg:196
+#: Era_of_Magic\utils\awe.cfg:199
 msgid "awe 3"
 msgstr ""
 
 #. [leadership]: id=eoma_awe4
-#: Era_of_Magic\utils\awe.cfg:224
+#: Era_of_Magic\utils\awe.cfg:227
 msgid "awe 4"
 msgstr ""
 
