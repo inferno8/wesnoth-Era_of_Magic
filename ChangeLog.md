@@ -1,6 +1,32 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.9.6
+ ### General
+	* added 2 new units: Goblin Wizard (Barbarians) and Chaotic Observer (Destroyers)
+ ### Units
+	** Barbarians:
+	 * Goblin Shaman: fixed incorrect damage type for the melee attack (blade -> impact)
+	 * Goblin Druid: fixed incorrect damage type for the melee attack (blade -> impact)
+	** Destroyers:
+	 * Dark Portal: HP from 32 to 33; changed impact resistance from 35% to 50%
+	 * Infernal Vortex: changed impact resistance from 35% to 50%
+	 * Black Portal: changed impact resistance from 30% to 40%
+	 * Omen: reduced cost from 22g to 23g; changed impact resistance from -10% to -15%
+	 * Cyclops Skeleton: XP from 60 to 52
+	 * Greater Cyclops: XP from 120 to 110
+	 * Cyclops Necromancer: ranged damage from 17-1 to 16-1
+	 * Extinct Cyclops Mage: XP from 220 to 235
+	 * Atokpi: HP from 35 to 36; XP from 42 to 40; Blade resistance from 10% to 15%
+	 * Atokpi Samurai XP from 85 to 83
+ ### Abilities
+	* added the Chaos Channeling ability
+ ### Graphics
+	* added Sky Guardian portrait
+ ### Translations
+	* updated the raw translation file
+	* updated the Polish translation
+
 ## Version 3.9.5
  ### Units
 	** Barbarians:
