@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-08-26 20:12 UTC\n"
+"POT-Creation-Date: 2022-09-02 15:26 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -416,6 +416,20 @@ msgstr ""
 #. [unit_type]: id=EoMa_Goblin_Warrior, race=goblin, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Barbarians\Goblin_Warrior.cfg:4
 msgid "Goblin Warrior"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Goblin_Wizard, race=goblin, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Barbarians\Goblin_Wizard.cfg:4
+msgid "Goblin Wizard"
+msgstr ""
+
+#. [attack]: type=arcane
+#: Era_of_Magic\units\Barbarians\Goblin_Wizard.cfg:50
+#: Era_of_Magic\units\Sky_Kingdom\Master_Mage.cfg:77
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Air.cfg:113
+#: Era_of_Magic\units\Summoners\Air_Avatar.cfg:108
+#: Era_of_Magic\units\Summoners\Air_God.cfg:107
+msgid "lightning"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Orcish_Warbanner, race=orc
@@ -1006,6 +1020,7 @@ msgstr ""
 #. [attack]: type=fire
 #: Era_of_Magic\units\Destroyers\Abaddon.cfg:71
 #: Era_of_Magic\units\Destroyers\Apocalypse.cfg:67
+#: Era_of_Magic\units\Destroyers\Chaotic_Observer.cfg:50
 #: Era_of_Magic\units\Destroyers\Dark_Apostle.cfg:129
 #: Era_of_Magic\units\Destroyers\Mara.cfg:55
 #: Era_of_Magic\units\Destroyers\Nightmare.cfg:57
@@ -1110,16 +1125,16 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Destroyers\Black_Portal.cfg:198
-#: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:291
-#: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:310
-#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:276
-#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:295
+#: Era_of_Magic\units\Destroyers\Black_Portal.cfg:199
+#: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:292
+#: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:311
+#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:277
+#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:296
 msgid "aura"
 msgstr ""
 
 #. [attack]: type=cold
-#: Era_of_Magic\units\Destroyers\Black_Portal.cfg:211
+#: Era_of_Magic\units\Destroyers\Black_Portal.cfg:212
 #: Era_of_Magic\units\Tharis\Great_Warlock.cfg:134
 msgid "dark ball"
 msgstr ""
@@ -1171,6 +1186,18 @@ msgstr ""
 #. [unit_type]: id=EoMa_Bone_Golem, race=undead
 #: Era_of_Magic\units\Destroyers\Bone_Golem.cfg:25
 msgid "As the dark forces of the destroyers tighten their grip around a civilization and exterminate it, some corpses of the former living race are bound to be broken beyond necromantic powers to reanimate. Bone beasts feed upon the osseous matter of these fallen enemies, up until their skeletal mass doubles in size and strength, becoming golems in the process."
+msgstr ""
+
+#. [unit_type]: id=EoMa_Chaotic_Observer, race=undead, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Destroyers\Chaotic_Observer.cfg:4
+msgid "Chaotic Observer"
+msgstr ""
+
+#. [attack]: type=fire
+#: Era_of_Magic\units\Destroyers\Chaotic_Observer.cfg:38
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Fire.cfg:69
+#: Era_of_Magic\units\Sky_Kingdom\Pyromancer.cfg:54
+msgid "flames"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Crimson_Atokpi, race=undead
@@ -1284,10 +1311,10 @@ msgid "Dark Portals are powerful constructs of unknown origin, emanating extreme
 msgstr ""
 
 #. [dummy]: id=defend-only
-#: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:302
-#: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:320
-#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:287
-#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:305
+#: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:303
+#: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:321
+#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:288
+#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:306
 #: Era_of_Magic\units\Runemasters\Balloon.cfg:91
 #: Era_of_Magic\units\Runemasters\Flying_Fortress.cfg:92
 #: Era_of_Magic\units\Runemasters\Heavy_Balloon.cfg:109
@@ -1297,10 +1324,10 @@ msgid "defend-only"
 msgstr ""
 
 #. [dummy]: id=defend-only
-#: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:303
-#: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:321
-#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:288
-#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:306
+#: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:304
+#: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:322
+#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:289
+#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:307
 #: Era_of_Magic\units\Runemasters\Balloon.cfg:92
 #: Era_of_Magic\units\Runemasters\Flying_Fortress.cfg:93
 #: Era_of_Magic\units\Runemasters\Heavy_Balloon.cfg:110
@@ -2738,14 +2765,6 @@ msgstr ""
 msgid "magic touch"
 msgstr ""
 
-#. [attack]: type=arcane
-#: Era_of_Magic\units\Sky_Kingdom\Master_Mage.cfg:77
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Air.cfg:113
-#: Era_of_Magic\units\Summoners\Air_Avatar.cfg:108
-#: Era_of_Magic\units\Summoners\Air_God.cfg:107
-msgid "lightning"
-msgstr ""
-
 #. [unit_type]: id=EoMa_Master_of_Air, race=human
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Air.cfg:4
 msgid "Master of Air"
@@ -2878,12 +2897,6 @@ msgid "burning fist"
 msgstr ""
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Fire.cfg:69
-#: Era_of_Magic\units\Sky_Kingdom\Pyromancer.cfg:54
-msgid "flames"
-msgstr ""
-
-#. [attack]: type=fire
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Fire.cfg:105
 msgid "infernal flame"
 msgstr ""
@@ -2942,7 +2955,7 @@ msgstr ""
 #. [attack]: type=secret
 #: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:91
 #: Era_of_Magic\units\Sky_Kingdom\Mystic_Warrior.cfg:85
-#: Era_of_Magic\units\Sky_Kingdom\Sky_Guardian.cfg:97
+#: Era_of_Magic\units\Sky_Kingdom\Sky_Guardian.cfg:99
 msgid "secret hit"
 msgstr ""
 
@@ -3024,18 +3037,18 @@ msgid "Sky Guardian"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Sky_Guardian, race=human
-#: Era_of_Magic\units\Sky_Kingdom\Sky_Guardian.cfg:31
+#: Era_of_Magic\units\Sky_Kingdom\Sky_Guardian.cfg:33
 msgid "Sky Guardians are the Sky Kingdom's most elite troops. They usually act as bodyguards of important members of the Sky Kingdom society (such the Guru and high-ranking members of the Council of Masters), but are also sent on the rare expeditions where extreme military presence is required. Their weapon of choice is an unusual one: a long handle with a spear tip on one end, and a mace head on the other. Normally such a weapon would be very impractical, so it has been enchanted to dynamically redistribute the weight according to the guardian's needs."
 msgstr ""
 
 #. [attack]: type=blade
-#: Era_of_Magic\units\Sky_Kingdom\Sky_Guardian.cfg:61
+#: Era_of_Magic\units\Sky_Kingdom\Sky_Guardian.cfg:63
 #: Era_of_Magic\units\Tharis\Dark_Executioner.cfg:27
 msgid "blade"
 msgstr ""
 
 #. [attack]: type=pierce
-#: Era_of_Magic\units\Sky_Kingdom\Sky_Guardian.cfg:85
+#: Era_of_Magic\units\Sky_Kingdom\Sky_Guardian.cfg:87
 msgid "pike"
 msgstr ""
 
@@ -4570,6 +4583,21 @@ msgstr ""
 #. [damage]: id=eoma_magic_hardening
 #: Era_of_Magic\utils\abilities.cfg:1524
 msgid "While attacking, this unit will take 20% less fire/cold/arcane damage in retaliation."
+msgstr ""
+
+#. [dummy]: id=eoma_chaos_channeling
+#: Era_of_Magic\utils\abilities.cfg:1539
+msgid "chaos channelling"
+msgstr ""
+
+#. [dummy]: id=eoma_chaos_channeling
+#: Era_of_Magic\utils\abilities.cfg:1540
+msgid "When this unit dies a new Chaotic Observer unit is placed on the recall list of this unit's side."
+msgstr ""
+
+#. [floating_text]
+#: Era_of_Magic\utils\abilities.cfg:1560
+msgid "Recalling..."
 msgstr ""
 
 #. [disable]: id=eoma_disable_in_rpg, description=
