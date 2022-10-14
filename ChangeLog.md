@@ -1,6 +1,55 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.9.7
+ ### Gameplay
+	* rebalanced lvl2 leaders: Punisher now starts with Slow and Weak traits, Atokpi Samurai now starts with Dexterous trait and Greater Cyclops now starts with Strong trait.
+ ### Units
+	** Destroyers:
+	 * Mara: HP from 32 to 35; melee accuracy from Magical to both Magical(offensive) and Enchanted
+	 * Apocalypse: HP from 38 to 40; cost from 52 to 54g
+	 * Dark Apostle: HP from 45 to 52; AMLA XP from 100 to 200; impact and fire resistances from 60% to 50%, arcane resistance from 20% to 15%
+	 * Bone Golem: XP from 100 to 90
+	 * Moloch: AMLA XP from 100 to 200
+	 * Abaddon: AMLA XP from 140 to 200
+	 * Titania: AMLA XP from 100 to 164
+	** Barbarians:
+	 * Troll Warlock: AMLA XP from 100 to 150
+	 * Goblin Raider: AMLA XP from 100 to 126; Poisoned Bolt damage from 10-3 to 11-3, Split fire damage from 8-2 to 9-2, Net damage from 5-3 to 6-3
+	 * Goblin Assassin: Bolas damage from 6-3 to 5-3
+	 * Goblin Veteran: XP from 100 to 90
+	 * Cyclops Lord: cost from 60 to 63g
+	** Darkblood Alliance
+	 * Saurian Assassin: AMLA XP from 100 to 126
+	 * Jungle Champion: AMLA XP from 100 to 126
+	 * Temple Guard: AMLA XP from 100 to 150
+	 * Battletoad: HP from 62 to 64 ; XP from 94 to 103
+	 * Toad Archer: HP from 58 to 61 ; XP from 85 to 93
+	 * Toad Shaman: HP from 58 to 61 ; XP from 100 to 110
+	 * Dreadnought: HP from 78 to 81
+	 * Twin Archer: Toad HP from 75 to 78
+	 * Toad Mystic: HP from 70 to 73
+	 * Salamander: fire resistance from -10% to 10%, cold resistance from 0% to -10%
+	 * Black Salamander: fire resistance from -10% to 10%, ranged damage lowered from 4-4 to 3-4
+	 * Blue Salamander: fire resistance from -10% to 10%, cold resistance from 10% to 0%
+	 * Green Salamander: fire resistance from -10% to 10%, cold resistance from 0% to -10%
+	 * Yellow Salamander: cold resistance from 0% to -10%; Kunai ranged attack now has the Bleeding weapon special
+	** Sky Kingdom:
+	 * Master of Elements: AMLA XP from 150 to 200
+	 * Mirrorshield: AMLA XP from 111 to 126
+	 * Sky Guardian: AMLA XP from 100 to 126
+	 * Hydromancer: icicles attack readjusted from 3-7 Magical to 3-8 Enchanted
+	 * Master of Water: icicles attack readjusted from 3-10 Magical to 4-9 Enchanted
+	 * Sculptor: entrapment spell damage from 5-3 to 4-3; petrifying spell now has the 'attack-only' special
+	 * Architect: Petrifying spell will now has the 'attack-only' special
+	 * Golem: HP from 42 to 43; XP from 60 to 54
+	** Summoners:
+	 * Camel Master: AMLA XP from 100 to 126
+	 * Water God: AMLA XP from 150 to 126
+	 * Air God: AMLA XP from 150 to 175
+	** Tharis
+	 * Dark Executioner: AMLA XP from 100 to 150
+
 ## Version 3.9.6
  ### General
 	* added 2 new units: Goblin Wizard (Barbarians) and Chaotic Observer (Destroyers)
