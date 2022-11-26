@@ -1,6 +1,66 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.10
+ ### Gameplay
+	* added 3 new units: Chronomancer (Sky Kingdom), Goblin Invader and Orcish Chieftain (Barbarians)
+### Units
+	** Barbarians:
+	 * Goblin Wizard: cost from 33g to 36g; ranged attack type changed from Arcane to Impact
+	** Darkblood Alliance:
+	 * Swamp Mage: Dammed Flame damage decreased from 30-1 to 24-1; Blade resistance to 0% (+10% buff)
+	 * Chosen of Marsh: Dammed Flame damage decrease from 40-1 to 32-1; Blade resistance to 0% (+10% buff)
+	 * Dreadnought: HP from 81 to 83
+	 * Toad Mystic: HP from 73 to 75
+	 * Twin Archer Toad: HP from 78 to 80
+	** Destroyers:
+	 * Atokpi Samurai: HP from 48 to 50; cold resistance from 10% to 20%
+	 * Atokpi General: HP from 48 to 50; cold resistance from 10% to 20%
+	 * Nightmare: cold resistance from -15% to -20%, arcane resistance from 5% to 0%
+	 * Mara: cold resistance from -10% to -15%, arcane resistance from 10% to 5%
+	 * Apocalypse: cold resistance from -5% to -10%, arcane resistance from 15% to 10%
+	 * Dark Apostle cold resistance from -5% to -10%, arcane resistance from 15% to 10%
+	 * Greater Cyclops Skeleton: arcane resistance from 0% to 10%
+	 * Extinct Cyclops Mage: arcane resistance from 10% to 15%
+	 * Fallen Cyclops King: arcane resistance from 10% to 15%
+	 * Harbinger: melee accuracy from Magical to Enchanted
+	 * Dark Portal: ranged attack accuracy from Magical to Magical(defense)
+	 * Infernal Vortex: ranged attack accuracy from Magical to Magical(defense)
+	** Kharos:
+	 * Avenger: blade/pierce/impact resistances from 15% to 30%, arcane resistance from 20% to 30%; removed Steadfast
+	 * Kharosian Impaler: melee attack got Magic-Counter
+	 * Inspired: cost from 48 to 50g; HP from 36 to 38; Bow got first-strike
+	** Runemasters:
+	 * Rune Artist: lightning attack accuracy changed to Magical(offensive) and Enchanted
+	 * Runemaster: lightning attack accuracy changed to Magical(offensive) and Enchanted
+	 * Dwarvish Runelord: gun attack accuracy changed to Precision(offensive) and Skilled
+	 * Runeadept: hammer accuracy changed from Skilled to Enchanted
+	 * Runesmith: hammer accuracy changed from Skilled to Enchanted
+	 * Pacificator: AMLA XP from 150 to 175
+	** Sky Kingdom:
+	 * Sculptor: movement from 6 to 5; entrapment spell accuracy from Precision to Magical; petrifying spell Magical replaced with Magical(offensive)
+	 * Architect: entrapment spell accuracy from Precision to Magical; petrifying spell Precision replaced with Precision(offensive)
+	 * Master Mage: lightning attack accuracy changed to Magical(offensive) and Enchanted
+	 * Master of Elements: lightning attack accuracy changed to Magical(offensive) and Enchanted
+	 * Master of Water: bubble attack accuracy changed to Magical(offensive) and Enchanted
+	 * Master of Earth: Stones attack got First-strike
+	 * Golem & War Golem: melee attacks now have Magic-counter(offensive)
+	 * Um: barrage damage from 3-12 to 3-11; AMLA XP from 150 to 175
+	** Summoners:
+	 * Great Jinni: Scimitar attack damage readjusted from 11-1 to 6-2
+	 * Wonderful Jinni: Scimitar attack damage readjusted from 15-1 to 8-2 +First-strike
+	 * Mystical Jinni: Scimitar attack damage readjusted from 19-1 to 10-2 +First-strike
+	 * Great Efreeti destruction attack accuracy changed from Magical to Magical(offensive)
+	 * Air God: eye of the storm attack accuracy changed to Magical(offensive) and Enchanted
+	** Tharis:
+	 * Matriarch of Emptiness: ranged accuracy from Magical to Enchanted
+	 * Matriarch of Darkness: Bloodgate accuracy changed to Precision(offensive) + Magical
+ ### Abilities
+	* added the Chrono Aura ability
+ ### Translations
+	* updated the raw translation file
+	 
+
 ## Version 3.9.7
  ### Gameplay
 	* rebalanced lvl2 leaders: Punisher now starts with Slow and Weak traits, Atokpi Samurai now starts with Dexterous trait and Greater Cyclops now starts with Strong trait.
