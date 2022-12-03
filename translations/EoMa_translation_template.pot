@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-11-26 18:18 UTC\n"
+"POT-Creation-Date: 2022-12-03 18:47 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -460,7 +460,7 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Orcish_Warbanner, race=orc
 #. [unit_type]: id=EoMa_Orcish_Warrior, race=orc
-#: Era_of_Magic\units\Barbarians\Orcish_Warbanner.cfg:27
+#: Era_of_Magic\units\Barbarians\Orcish_Warbanner.cfg:16
 #: Era_of_Magic\units\Barbarians\Orcish_Warrior.cfg:20
 msgid ""
 "Savage and warlike Orcs form the back bone of the Barbarian hordes.\n"
@@ -579,7 +579,7 @@ msgstr ""
 #. [attack]: type=impact
 #: Era_of_Magic\units\Dark_Blood_Alliance\Battle_Toad.cfg:70
 #: Era_of_Magic\units\Dark_Blood_Alliance\Dreadnought.cfg:71
-#: Era_of_Magic\units\Destroyers\Atokpi_Charger.cfg:75
+#: Era_of_Magic\units\Destroyers\Atokpi_Charger.cfg:77
 #: Era_of_Magic\units\Destroyers\Atokpi_Infantry.cfg:73
 #: Era_of_Magic\units\Destroyers\Crimson_Atokpi.cfg:76
 #: Era_of_Magic\units\Sky_Kingdom\Golem.cfg:54
@@ -1097,7 +1097,7 @@ msgstr ""
 #. [attack]: type=blade
 #. [attack]: type=pierce
 #: Era_of_Magic\units\Destroyers\Atokpi_Charger.cfg:51
-#: Era_of_Magic\units\Destroyers\Atokpi_Charger.cfg:63
+#: Era_of_Magic\units\Destroyers\Atokpi_Charger.cfg:64
 #: Era_of_Magic\units\Destroyers\Atokpi_Infantry.cfg:49
 #: Era_of_Magic\units\Destroyers\Atokpi_Infantry.cfg:61
 #: Era_of_Magic\units\Destroyers\Crimson_Atokpi.cfg:52
@@ -1575,16 +1575,17 @@ msgid "Avenger"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Avenger, race=human
-#: Era_of_Magic\units\Kharos\Avenger.cfg:27
+#: Era_of_Magic\units\Kharos\Avenger.cfg:19
 msgid "The Avenger is a heavy tactical defense unit. His retaliation strikes are always successful."
 msgstr ""
 
 #. [attack]: type=impact
 #. [attack]: type=blade
 #. [attack]: type=pierce
-#: Era_of_Magic\units\Kharos\Avenger.cfg:52
+#: Era_of_Magic\units\Kharos\Avenger.cfg:44
 #: Era_of_Magic\units\Kharos\Hoplite.cfg:44
-#: Era_of_Magic\units\Kharos\Kharosian_Bulwark.cfg:61
+#: Era_of_Magic\units\Kharos\Kharosian_Bulwark.cfg:49
+#: Era_of_Magic\units\Kharos\Kharosian_Legionnaire.cfg:47
 #: Era_of_Magic\units\Kharos\Shielder.cfg:45
 #: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:64
 #: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:73
@@ -1624,7 +1625,8 @@ msgstr ""
 #. [attack]: type=impact
 #: Era_of_Magic\units\Kharos\Cavalry_Archer.cfg:28
 #: Era_of_Magic\units\Kharos\Elemental_Archer.cfg:40
-#: Era_of_Magic\units\Kharos\Heavy_Cavalry.cfg:36
+#: Era_of_Magic\units\Kharos\Heavy_Cavalry.cfg:35
+#: Era_of_Magic\units\Kharos\Kharosian_Cataphract.cfg:38
 #: Era_of_Magic\units\Kharos\Mystical_Archer.cfg:41
 #: Era_of_Magic\units\Runemasters\Dwarvish_Tank.cfg:42
 #: Era_of_Magic\units\Runemasters\Pacificator.cfg:43
@@ -1684,7 +1686,8 @@ msgstr ""
 
 #. [attack]: type=pierce
 #: Era_of_Magic\units\Kharos\Elemental_Archer.cfg:74
-#: Era_of_Magic\units\Kharos\Heavy_Cavalry.cfg:45
+#: Era_of_Magic\units\Kharos\Heavy_Cavalry.cfg:44
+#: Era_of_Magic\units\Kharos\Kharosian_Cataphract.cfg:64
 msgid "arrow"
 msgstr ""
 
@@ -1770,26 +1773,14 @@ msgstr ""
 msgid "Kharosian Bulwark"
 msgstr ""
 
-#. [resistance]: id=eoma_shielded
-#. [dummy]: id=eoma_shielded_special
-#: Era_of_Magic\units\Kharos\Kharosian_Bulwark.cfg:29
-#: Era_of_Magic\units\Kharos\Kharosian_Bulwark.cfg:70
-msgid "shielded"
+#. [unit_type]: id=EoMa_Kharosian_Cataphract, race=human, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Kharos\Kharosian_Cataphract.cfg:4
+msgid "Kharosian Cataphract"
 msgstr ""
 
-#. [resistance]: id=eoma_shielded
-#: Era_of_Magic\units\Kharos\Kharosian_Bulwark.cfg:30
-msgid "female^shielded"
-msgstr ""
-
-#. [resistance]: id=eoma_shielded
-#: Era_of_Magic\units\Kharos\Kharosian_Bulwark.cfg:31
-msgid "This unit gains +5% to all resistances, up to a maximum of 60%, when using a weapon with the 'shielded' special."
-msgstr ""
-
-#. [dummy]: id=eoma_shielded_special
-#: Era_of_Magic\units\Kharos\Kharosian_Bulwark.cfg:71
-msgid "This attack activates the 'shielded' ability of the unit applying the +5 resistance bonus to the owner."
+#. [attack]: type=pierce
+#: Era_of_Magic\units\Kharos\Kharosian_Cataphract.cfg:50
+msgid "bow"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Kharosian_Impaler, race=human, description={NO_DESCR_AVAILABLE}
@@ -1805,6 +1796,11 @@ msgstr ""
 #. [unit_type]: id=EoMa_Kharosian_Javelineer, race=human
 #: Era_of_Magic\units\Kharos\Kharosian_Javelineer.cfg:20
 msgid "Not all Kharosians can afford expensive shields used by elite troops. That is why some of them decide to specialize in throwing light spears to decimate their foes. This traditional way of fighting dates back to ancient times, when Kharos lands were divided among many different tribes and cults constantly waging domination wars against each other. One of such tribes was particularly known for its fierce javelineers wrecking havoc on their enemies. Nowadays Kharosian armies often consist of multiple squads of Javelineers and more experienced Impalers to gain the upper hand in any battle."
+msgstr ""
+
+#. [unit_type]: id=EoMa_Kharosian_Legionnaire, race=human, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Kharos\Kharosian_Legionnaire.cfg:4
+msgid "Kharosian Legionnaire"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Kirios, race=human
@@ -2159,7 +2155,7 @@ msgstr ""
 #: Era_of_Magic\units\Runemasters\Dwarvish_Cadet.cfg:54
 #: Era_of_Magic\units\Runemasters\Dwarvish_Cannoneer.cfg:61
 #: Era_of_Magic\units\Runemasters\Dwarvish_Gunner.cfg:45
-#: Era_of_Magic\units\Runemasters\Dwarvish_Rune_Lord.cfg:59
+#: Era_of_Magic\units\Runemasters\Dwarvish_Rune_Lord.cfg:60
 #: Era_of_Magic\units\Runemasters\Dwarvish_Runic_Warrior.cfg:40
 #: Era_of_Magic\units\Runemasters\Dwarvish_Soldier.cfg:55
 #: Era_of_Magic\units\Runemasters\Dwarvish_Veteran.cfg:38
@@ -4960,40 +4956,44 @@ msgstr ""
 #. [dummy]: id=eoma_chronoaura
 #: Era_of_Magic\utils\chronoaura.cfg:6
 msgid ""
-"This unit can cast a powerful time-manipulation spell around itself with the following effects lasting one turn:\n"
-"- this unit and all adjacent friendly units strike first and receive +20% chance to hit bonus;\n"
-"- all adjacent enemy units receive -30% chance to hit penalty (except for attacks which always hit);\n"
+"Time flows slower around this unit. This has the following effects:\n"
+"- all adjacent friendly units receive +5% chance to hit bonus;\n"
+"- all adjacent enemy units receive -5% chance to hit penalty (except for attacks which always hit)\n"
+"\n"
+"Also, this unit can cast a powerful time-manipulation spell with the following effects lasting one turn:\n"
+"- this unit and all adjacent friendly units strike first and receive +10% chance to hit bonus;\n"
+"- all adjacent enemy units receive -20% chance to hit penalty (except for attacks which always hit);\n"
 "- the caster of the spell gets the skirmisher ability.\n"
 "\n"
-"To activate this ability right-click the unit and select 'Activate Aura'."
+"To cast the spell right-click the unit and select 'Activate Aura'."
 msgstr ""
 
 #. [set_menu_item]: id=eoma_chronoaura_menu
 #. [set_menu_item]: id=eoma_runeaura_menu
-#: Era_of_Magic\utils\chronoaura.cfg:34
+#: Era_of_Magic\utils\chronoaura.cfg:67
 #: Era_of_Magic\utils\runeaura.cfg:35
 msgid "Activate Aura (20 Gold)"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Era_of_Magic\utils\chronoaura.cfg:55
+#: Era_of_Magic\utils\chronoaura.cfg:88
 #: Era_of_Magic\utils\runeaura.cfg:56
 msgid "Activate aura? (20 Gold)"
 msgstr ""
 
 #. [print]
-#: Era_of_Magic\utils\chronoaura.cfg:110
+#: Era_of_Magic\utils\chronoaura.cfg:143
 msgid "Not enough gold to activate the aura!"
 msgstr ""
 
 #. [firststrike]: id=eoma_chronoauractive
-#: Era_of_Magic\utils\chronoaura.cfg:124
+#: Era_of_Magic\utils\chronoaura.cfg:157
 msgid "chrono aura (active)"
 msgstr ""
 
 #. [firststrike]: id=eoma_chronoauractive
-#: Era_of_Magic\utils\chronoaura.cfg:125
-msgid "This unit and all adjacent friendly units strike first and receive +20% chance to hit bonus, while all adjacent enemy units receive -30% chance to hit penalty (except for attacks which always hit). The ability lasts one turn."
+#: Era_of_Magic\utils\chronoaura.cfg:158
+msgid "This unit and all adjacent friendly units strike first and receive +10% chance to hit bonus, while all adjacent enemy units receive -20% chance to hit penalty (except for attacks which always hit). The ability lasts one turn."
 msgstr ""
 
 #. [dummy]: id=eoma_cleave
@@ -5693,6 +5693,28 @@ msgstr ""
 #. [resistance]: id=eoma_tenacity
 #: Era_of_Magic\utils\resistance.cfg:332
 msgid "This unit’s vulnerabilities are halved when attacking."
+msgstr ""
+
+#. [resistance]: id=eoma_shielded
+#. [dummy]: id=eoma_shielded_special
+#: Era_of_Magic\utils\resistance.cfg:343
+#: Era_of_Magic\utils\resistance.cfg:356
+msgid "shielded"
+msgstr ""
+
+#. [resistance]: id=eoma_shielded
+#: Era_of_Magic\utils\resistance.cfg:344
+msgid "female^shielded"
+msgstr ""
+
+#. [resistance]: id=eoma_shielded
+#: Era_of_Magic\utils\resistance.cfg:345
+msgid "This unit gains +5% to all resistances, up to a maximum of 60%, when using a weapon with the 'shielded' special."
+msgstr ""
+
+#. [dummy]: id=eoma_shielded_special
+#: Era_of_Magic\utils\resistance.cfg:357
+msgid "This attack activates the 'shielded' ability of the unit applying the +5 resistance bonus to the owner."
 msgstr ""
 
 #. [dummy]: id=eoma_runeaura
