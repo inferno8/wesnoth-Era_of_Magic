@@ -1,10 +1,36 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.11
+ ### Gameplay
+	* added 2 new units: Kharosian Cataphract and Kharosian Legionnaire (Kharos)
+ ### Units
+	** Destroyers:
+	 * Atokpi Charger: added magic-counter(offensive) to all melee attacks
+	** Kharos:
+	 * Kharosian Bulwark: cost from 51g to 48g
+	 * Kharosian Impaler: cost from 50g to 47g; fire resistance from 15% to 20%
+	 * Platinum Warrior: cost from 52g to 54g; melee pierce attack from 15-3 to 14-3
+	** Runemasters:
+	 * Dwarvish Rune Lord: added the Skilled weapon special to the 'runic sword' attack
+	** Sky Kingdom:
+	 * Mirrorshield: cost from 60g to 56g
+	 * Void Mage: experience from 150 to 214
+	** Summoners:
+	 * the 'hurricane' attack damage from 9-3 to 8-3
+ ### Abilities
+	* added passive effects to the 'chrono aura' ability
+	* rebalanced the 'chrono aura (active)' ability
+ ### Code
+	* fixed missing advancement for Orcish Warbanner
+	* moved the 'shielded' ability/special to separate macros
+ ### Translations
+	* updated the raw translation file
+
 ## Version 3.10
  ### Gameplay
 	* added 3 new units: Chronomancer (Sky Kingdom), Goblin Invader and Orcish Chieftain (Barbarians)
-### Units
+ ### Units
 	** Barbarians:
 	 * Goblin Wizard: cost from 33g to 36g; ranged attack type changed from Arcane to Impact
 	** Darkblood Alliance:
@@ -59,7 +85,6 @@ Era of Magic - ChangeLog
 	* added the Chrono Aura ability
  ### Translations
 	* updated the raw translation file
-	 
 
 ## Version 3.9.7
  ### Gameplay
