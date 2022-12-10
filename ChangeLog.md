@@ -1,6 +1,47 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.11.1
+ ### Gameplay
+	* removed Bladefury from AoH and Masters recruit lists
+	* added Orcish Chieftain to the Masters recruit list
+ ### Units
+	** Kharos:
+	 * Kharosian Cataphract: movement from 7 to 8; AMLA XP from 150 to 126; disabled acquiring of the intelligent trait for recruitable Cataphracts; added the 'hit and run' weapon special to the ranged attack
+	 * Elemental Archer: changed the 'ice arrow' attack damage from 8-2 to 5-3
+	 * Mystical Archer: added the 'solar regeneration 0/3' ability
+	** Runemasters:
+	 * Pacificator: hitpoints from 88 to 85
+	** Sky Kingdom:
+	 * Terramancer: added a new melee pierce attack; the 'stones' attack now has the 'first strike' weapon special; changed the 'landmass' attack damage from 10-2 to 11-2
+	 * Master of Earth: added a new melee pierce attack; changed the number of strikes for the 'stones' attack from 8 to 9; changed the 'landmass' attack damage from 15-2 to 16-2
+	 * Aeromancer: added the hit and run +1 ability; added the 10% fire and cold resistance
+	 * Aeromancer: added the hit and run +1 ability; added the 10% fire and cold resistance
+	 * Black Mage: XP from 86 to 90
+	 * Chronomancer: cold resistance from 25% to 30%
+	** Summoners:
+	 * Camel Master: melee damage from 11-3 to 10-3
+	 * Banisher: cost from 55g to 57g
+	** Tharis:
+	 * Chaos Hydra: cold resistance from 10% to 20%
+	 * Blade Dancer cave defense from 50% to 60%
+	 * Sword Dancer: added the 'nocturnal regeneration +3' ability; cave defense from 50% to 60%
+	 * Dark Wizard: XP from 100 to 88
+	 * Great Warlock: added the 'nocturnal regeneration +3' ability
+	 * Great Witch: XP from 110 to 100
+	 * Dark Assassin: XP from 94 to 88
+	 * Great Hunter: XP from 94 to 88	 
+ ### Abilities
+	* added the 'hit and run' weapon special
+	* rebalanced the 'chrono aura (active)' ability
+	* the 'pain absorption' ability no longer restores statuses
+ ### Graphics
+	* improved Mirrorshield sprites and attack icons
+ ### Code
+	* restore missing unit keys and values for Orcish Warbanner
+ ### Translations
+	* updated the raw translation file
+
 ## Version 3.11
  ### Gameplay
 	* added 2 new units: Kharosian Cataphract and Kharosian Legionnaire (Kharos)
