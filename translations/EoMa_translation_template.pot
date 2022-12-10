@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-12-03 18:47 UTC\n"
+"POT-Creation-Date: 2022-12-10 15:50 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -437,9 +437,9 @@ msgstr ""
 #. [attack]: type=impact
 #: Era_of_Magic\units\Barbarians\Goblin_Wizard.cfg:50
 #: Era_of_Magic\units\Sky_Kingdom\Guru_of_Magic.cfg:133
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Earth.cfg:112
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Earth.cfg:124
-#: Era_of_Magic\units\Sky_Kingdom\Terramancer.cfg:86
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Earth.cfg:125
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Earth.cfg:137
+#: Era_of_Magic\units\Sky_Kingdom\Terramancer.cfg:100
 msgid "landmass"
 msgstr ""
 
@@ -460,7 +460,7 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Orcish_Warbanner, race=orc
 #. [unit_type]: id=EoMa_Orcish_Warrior, race=orc
-#: Era_of_Magic\units\Barbarians\Orcish_Warbanner.cfg:16
+#: Era_of_Magic\units\Barbarians\Orcish_Warbanner.cfg:19
 #: Era_of_Magic\units\Barbarians\Orcish_Warrior.cfg:20
 msgid ""
 "Savage and warlike Orcs form the back bone of the Barbarian hordes.\n"
@@ -624,11 +624,11 @@ msgstr ""
 
 #. [attack]: type=blade
 #: Era_of_Magic\units\Dark_Blood_Alliance\Blue_Salamander.cfg:105
-#: Era_of_Magic\units\Tharis\Blade_Dancer.cfg:42
-#: Era_of_Magic\units\Tharis\Blade_Dancer.cfg:54
+#: Era_of_Magic\units\Tharis\Blade_Dancer.cfg:45
+#: Era_of_Magic\units\Tharis\Blade_Dancer.cfg:57
 #: Era_of_Magic\units\Tharis\Crimson_Blade.cfg:73
 #: Era_of_Magic\units\Tharis\Frontliner.cfg:59
-#: Era_of_Magic\units\Tharis\Sword_Dancer.cfg:43
+#: Era_of_Magic\units\Tharis\Sword_Dancer.cfg:49
 msgid "chakram"
 msgstr ""
 
@@ -1156,7 +1156,7 @@ msgstr ""
 
 #. [attack]: type=cold
 #: Era_of_Magic\units\Destroyers\Black_Portal.cfg:212
-#: Era_of_Magic\units\Tharis\Great_Warlock.cfg:134
+#: Era_of_Magic\units\Tharis\Great_Warlock.cfg:135
 msgid "dark ball"
 msgstr ""
 
@@ -1626,8 +1626,8 @@ msgstr ""
 #: Era_of_Magic\units\Kharos\Cavalry_Archer.cfg:28
 #: Era_of_Magic\units\Kharos\Elemental_Archer.cfg:40
 #: Era_of_Magic\units\Kharos\Heavy_Cavalry.cfg:35
-#: Era_of_Magic\units\Kharos\Kharosian_Cataphract.cfg:38
-#: Era_of_Magic\units\Kharos\Mystical_Archer.cfg:41
+#: Era_of_Magic\units\Kharos\Kharosian_Cataphract.cfg:42
+#: Era_of_Magic\units\Kharos\Mystical_Archer.cfg:44
 #: Era_of_Magic\units\Runemasters\Dwarvish_Tank.cfg:42
 #: Era_of_Magic\units\Runemasters\Pacificator.cfg:43
 #: Era_of_Magic\units\Runemasters\Striding_Machine.cfg:42
@@ -1674,20 +1674,20 @@ msgstr ""
 
 #. [attack]: type=fire
 #: Era_of_Magic\units\Kharos\Elemental_Archer.cfg:49
-#: Era_of_Magic\units\Kharos\Mystical_Archer.cfg:50
+#: Era_of_Magic\units\Kharos\Mystical_Archer.cfg:53
 msgid "fire arrow"
 msgstr ""
 
 #. [attack]: type=cold
 #: Era_of_Magic\units\Kharos\Elemental_Archer.cfg:61
-#: Era_of_Magic\units\Kharos\Mystical_Archer.cfg:62
+#: Era_of_Magic\units\Kharos\Mystical_Archer.cfg:65
 msgid "ice arrow"
 msgstr ""
 
 #. [attack]: type=pierce
 #: Era_of_Magic\units\Kharos\Elemental_Archer.cfg:74
 #: Era_of_Magic\units\Kharos\Heavy_Cavalry.cfg:44
-#: Era_of_Magic\units\Kharos\Kharosian_Cataphract.cfg:64
+#: Era_of_Magic\units\Kharos\Kharosian_Cataphract.cfg:68
 msgid "arrow"
 msgstr ""
 
@@ -1759,7 +1759,7 @@ msgstr ""
 
 #. [attack]: type=arcane
 #: Era_of_Magic\units\Kharos\Inspired.cfg:93
-#: Era_of_Magic\units\Kharos\Mystical_Archer.cfg:87
+#: Era_of_Magic\units\Kharos\Mystical_Archer.cfg:90
 msgid "holy arrow"
 msgstr ""
 
@@ -1779,7 +1779,7 @@ msgid "Kharosian Cataphract"
 msgstr ""
 
 #. [attack]: type=pierce
-#: Era_of_Magic\units\Kharos\Kharosian_Cataphract.cfg:50
+#: Era_of_Magic\units\Kharos\Kharosian_Cataphract.cfg:54
 msgid "bow"
 msgstr ""
 
@@ -1840,7 +1840,7 @@ msgid "Mystical Archer"
 msgstr ""
 
 #. [attack]: type=pierce
-#: Era_of_Magic\units\Kharos\Mystical_Archer.cfg:75
+#: Era_of_Magic\units\Kharos\Mystical_Archer.cfg:78
 msgid "enchanted arrow"
 msgstr ""
 
@@ -2082,8 +2082,10 @@ msgstr ""
 
 #. [dummy]: id=eoma_hitandrundrone
 #. [dummy]: id=eoma_hitandrun{VALUE}
+#. [dummy]: id=eoma_hitandrunspecial{VALUE}
 #: Era_of_Magic\units\Runemasters\Drone.cfg:56
 #: Era_of_Magic\utils\abilities.cfg:41
+#: Era_of_Magic\utils\abilities.cfg:72
 msgid "hit and run"
 msgstr ""
 
@@ -2138,6 +2140,7 @@ msgstr ""
 #: Era_of_Magic\units\Runemasters\Drone.cfg:448
 #: Era_of_Magic\units\Runemasters\Perfect_Drone.cfg:222
 #: Era_of_Magic\utils\abilities.cfg:57
+#: Era_of_Magic\utils\abilities.cfg:90
 msgid "movepoints"
 msgstr ""
 
@@ -2542,19 +2545,19 @@ msgid "Air Magi are widely known for their extraordinary agility, but are rather
 msgstr ""
 
 #. [attack]: type=impact
-#: Era_of_Magic\units\Sky_Kingdom\Aeromancer.cfg:77
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Air.cfg:88
+#: Era_of_Magic\units\Sky_Kingdom\Aeromancer.cfg:80
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Air.cfg:89
 msgid "wind gust"
 msgstr ""
 
 #. [attack]: type=arcane
-#: Era_of_Magic\units\Sky_Kingdom\Aeromancer.cfg:86
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Air.cfg:100
+#: Era_of_Magic\units\Sky_Kingdom\Aeromancer.cfg:89
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Air.cfg:101
 msgid "sparks"
 msgstr ""
 
 #. [attack]: type=arcane
-#: Era_of_Magic\units\Sky_Kingdom\Aeromancer.cfg:99
+#: Era_of_Magic\units\Sky_Kingdom\Aeromancer.cfg:102
 #: Era_of_Magic\units\Summoners\Air_Elemental.cfg:76
 msgid "small lightning"
 msgstr ""
@@ -2788,7 +2791,7 @@ msgstr ""
 
 #. [attack]: type=arcane
 #: Era_of_Magic\units\Sky_Kingdom\Master_Mage.cfg:77
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Air.cfg:113
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Air.cfg:114
 #: Era_of_Magic\units\Summoners\Air_Avatar.cfg:108
 #: Era_of_Magic\units\Summoners\Air_God.cfg:107
 msgid "lightning"
@@ -2805,7 +2808,7 @@ msgid "Masters of Air are renowned for their mobility and control over electrici
 msgstr ""
 
 #. [abilities]
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Air.cfg:26
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Air.cfg:27
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:67
 #: Era_of_Magic\units\Summoners\Grand_Summoner.cfg:66
 #: Era_of_Magic\units\Summoners\Summons_Master.cfg:86
@@ -2813,12 +2816,12 @@ msgid "Summon Air Elemental"
 msgstr ""
 
 #. [abilities]
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Air.cfg:27
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Air.cfg:28
 msgid "Summon Air Avatar"
 msgstr ""
 
 #. [attack]: type=arcane
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Air.cfg:125
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Air.cfg:126
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:121
 msgid "eye of the storm"
 msgstr ""
@@ -2859,14 +2862,17 @@ msgid "Summon Earth Avatar"
 msgstr ""
 
 #. [attack]: type=impact
+#. [attack]: type=pierce
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Earth.cfg:86
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Earth.cfg:99
 #: Era_of_Magic\units\Sky_Kingdom\Terramancer.cfg:61
+#: Era_of_Magic\units\Sky_Kingdom\Terramancer.cfg:74
 msgid "earth blast"
 msgstr ""
 
 #. [attack]: type=impact
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Earth.cfg:99
-#: Era_of_Magic\units\Sky_Kingdom\Terramancer.cfg:74
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Earth.cfg:112
+#: Era_of_Magic\units\Sky_Kingdom\Terramancer.cfg:87
 msgid "stones"
 msgstr ""
 
@@ -3307,7 +3313,7 @@ msgstr ""
 #. [attack]: type=blade
 #: Era_of_Magic\units\Summoners\Dharma_rhami.cfg:56
 #: Era_of_Magic\units\Summoners\Rhami_datu.cfg:57
-#: Era_of_Magic\units\Tharis\Sword_Dancer.cfg:30
+#: Era_of_Magic\units\Tharis\Sword_Dancer.cfg:36
 msgid "swords"
 msgstr ""
 
@@ -4096,13 +4102,13 @@ msgid "Becoming a Great Warlock is the dream of almost any Tharis mage. Their sk
 msgstr ""
 
 #. [abilities]
-#: Era_of_Magic\units\Tharis\Great_Warlock.cfg:111
+#: Era_of_Magic\units\Tharis\Great_Warlock.cfg:112
 #: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:26
 msgid "Summon Dark Observer"
 msgstr ""
 
 #. [attack]: type=blade
-#: Era_of_Magic\units\Tharis\Great_Warlock.cfg:116
+#: Era_of_Magic\units\Tharis\Great_Warlock.cfg:117
 #: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:183
 msgid "scythe"
 msgstr ""
@@ -4364,213 +4370,218 @@ msgstr ""
 msgid "This unit always hits a target when attacking, but dies instantly afterwards."
 msgstr ""
 
+#. [dummy]: id=eoma_hitandrunspecial{VALUE}
+#: Era_of_Magic\utils\abilities.cfg:73
+msgid "This unit gains additional moves back after attacking with this weapon, but cannot attack again."
+msgstr ""
+
 #. [dummy]: id=eoma_fury
-#: Era_of_Magic\utils\abilities.cfg:67
+#: Era_of_Magic\utils\abilities.cfg:106
 msgid "fury"
 msgstr ""
 
 #. [dummy]: id=eoma_fury
-#: Era_of_Magic\utils\abilities.cfg:68
+#: Era_of_Magic\utils\abilities.cfg:107
 msgid "This unit can attack another unit after killing an enemy."
 msgstr ""
 
 #. [unstore_unit]
-#: Era_of_Magic\utils\abilities.cfg:84
+#: Era_of_Magic\utils\abilities.cfg:123
 msgid "FURY!"
 msgstr ""
 
 #. [damage]: id=eoma_furiousdeath{DMG}{TYPE}
-#: Era_of_Magic\utils\abilities.cfg:94
+#: Era_of_Magic\utils\abilities.cfg:133
 msgid "furious death"
 msgstr ""
 
 #. [damage]: id=eoma_furiousdeath{DMG}{TYPE}
-#: Era_of_Magic\utils\abilities.cfg:95
+#: Era_of_Magic\utils\abilities.cfg:134
 msgid "Moments before this unit's death, it flies into a fury, dealing {DMG} impact damage to adjacent units, friend or foes alike. When a harmed adjacent unit goes to or below 0 HP, its HP are set to 1 instead of being killed."
 msgstr ""
 
 #. [dummy]: id=eoma_hardlanding{DMG}{TYPE}
-#: Era_of_Magic\utils\abilities.cfg:147
+#: Era_of_Magic\utils\abilities.cfg:186
 msgid "hard landing"
 msgstr ""
 
 #. [dummy]: id=eoma_hardlanding{DMG}{TYPE}
-#: Era_of_Magic\utils\abilities.cfg:148
+#: Era_of_Magic\utils\abilities.cfg:187
 msgid "When this large unit is destroyed, it falls on a ground dealing damage to all adjacent units. When a harmed adjacent unit goes to or below 0 HP, its HP are set to 1 instead of being killed."
 msgstr ""
 
 #. [dummy]: id=eoma_parachute
-#: Era_of_Magic\utils\abilities.cfg:193
+#: Era_of_Magic\utils\abilities.cfg:232
 msgid "parachute"
 msgstr ""
 
 #. [dummy]: id=eoma_parachute
-#: Era_of_Magic\utils\abilities.cfg:194
+#: Era_of_Magic\utils\abilities.cfg:233
 msgid "The pilot of this machine is equipped with a parachute, and he can survive the destruction of his vehicle, continuing to fight as a lvl0 unit."
 msgstr ""
 
 #. [damage]: id=eoma_areaeffect
-#: Era_of_Magic\utils\abilities.cfg:233
+#: Era_of_Magic\utils\abilities.cfg:272
 msgid "area effect"
 msgstr ""
 
 #. [damage]: id=eoma_areaeffect
-#: Era_of_Magic\utils\abilities.cfg:234
+#: Era_of_Magic\utils\abilities.cfg:273
 msgid "When this attack is used, all units adjacent to the target (except the attacker) receive half of the attack's damage. Does not work on defense."
 msgstr ""
 
 #. [damage]: id=eoma_areaeffectrandom
-#: Era_of_Magic\utils\abilities.cfg:381
+#: Era_of_Magic\utils\abilities.cfg:420
 msgid "random area effect"
 msgstr ""
 
 #. [damage]: id=eoma_areaeffectrandom
-#: Era_of_Magic\utils\abilities.cfg:382
+#: Era_of_Magic\utils\abilities.cfg:421
 msgid "When this attack is used, random units adjacent to the target (except the attacker) get half of the basic damage. Does not work on defense."
 msgstr ""
 
 #. [damage]: id=eoma_swallow{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:525
+#: Era_of_Magic\utils\abilities.cfg:564
 msgid "swallow"
 msgstr ""
 
 #. [damage]: id=eoma_swallow{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:526
+#: Era_of_Magic\utils\abilities.cfg:565
 msgid "When killing a living enemy, this unit is healed by "
 msgstr ""
 
 #. [bonecollector]: id=eoma_bonecollector
-#: Era_of_Magic\utils\abilities.cfg:577
+#: Era_of_Magic\utils\abilities.cfg:616
 msgid "bone collector"
 msgstr ""
 
 #. [bonecollector]: id=eoma_bonecollector
-#: Era_of_Magic\utils\abilities.cfg:578
+#: Era_of_Magic\utils\abilities.cfg:617
 msgid "This unit gains hitpoints added to its current health whenever it kills a non-magical unit. The amount of hitpoints gained equals"
 msgstr ""
 
 #. [bonecollector]: id=eoma_bonecollector
-#: Era_of_Magic\utils\abilities.cfg:578
+#: Era_of_Magic\utils\abilities.cfg:617
 msgid "of defeated enemy's max health. This unit also gains +1 max hp with each successful kill of a non-magical unit."
 msgstr ""
 
 #. [floating_text]
-#: Era_of_Magic\utils\abilities.cfg:606
+#: Era_of_Magic\utils\abilities.cfg:645
 msgid "+1 max hp"
 msgstr ""
 
 #. [dummy]: id=eoma_split
-#: Era_of_Magic\utils\abilities.cfg:632
+#: Era_of_Magic\utils\abilities.cfg:671
 msgid "split"
 msgstr ""
 
 #. [dummy]: id=eoma_split
-#: Era_of_Magic\utils\abilities.cfg:633
+#: Era_of_Magic\utils\abilities.cfg:672
 msgid "When dying this unit splits into 2 smaller versions of itself."
 msgstr ""
 
 #. [dummy]: id=eoma_antishield
-#: Era_of_Magic\utils\abilities.cfg:664
+#: Era_of_Magic\utils\abilities.cfg:703
 msgid "anti-shield"
 msgstr ""
 
 #. [dummy]: id=eoma_antishield
-#: Era_of_Magic\utils\abilities.cfg:665
+#: Era_of_Magic\utils\abilities.cfg:704
 msgid "This attack negates all possible resistances, thus the damage output is always constant."
 msgstr ""
 
 #. [dummy]: id=eoma_poisonousaura
-#: Era_of_Magic\utils\abilities.cfg:672
+#: Era_of_Magic\utils\abilities.cfg:711
 msgid "poisonous aura"
 msgstr ""
 
 #. [dummy]: id=eoma_poisonousaura
-#: Era_of_Magic\utils\abilities.cfg:673
+#: Era_of_Magic\utils\abilities.cfg:712
 msgid "All living non-magical enemy units adjacent to this unit lose 2 HP and become poisoned at the beginning of this unit's turn. If an enemy unit's HP goes to or below 0 HP, its HP are set to 1."
 msgstr ""
 
 #. [dummy]: id=eoma_alterego
-#: Era_of_Magic\utils\abilities.cfg:739
+#: Era_of_Magic\utils\abilities.cfg:778
 msgid "alter ego"
 msgstr ""
 
 #. [dummy]: id=eoma_alterego
-#: Era_of_Magic\utils\abilities.cfg:740
+#: Era_of_Magic\utils\abilities.cfg:779
 msgid "At night this unit transforms into its alternative version."
 msgstr ""
 
 #. [dummy]: id=eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:768
+#: Era_of_Magic\utils\abilities.cfg:807
 msgid "damage aura"
 msgstr ""
 
 #. [dummy]: id=eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:769
+#: Era_of_Magic\utils\abilities.cfg:808
 msgid "This unit harms all adjacent enemies at the start of each turn by a certain amount of damage (affected by the ToD bonus), giving the unit experience for each enemy harmed/killed."
 msgstr ""
 
 #. [dummy]: id=lesser_eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:862
+#: Era_of_Magic\utils\abilities.cfg:901
 msgid "lesser damage aura"
 msgstr ""
 
 #. [dummy]: id=lesser_eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:863
+#: Era_of_Magic\utils\abilities.cfg:902
 msgid "This unit harms all adjacent enemies at the start of each turn by a certain amount of damage (affected by the ToD bonus), without giving the unit experience for each enemy harmed. Like poison, it can't kill."
 msgstr ""
 
 #. [damage]: id=eoma_immoblize
-#: Era_of_Magic\utils\abilities.cfg:957
+#: Era_of_Magic\utils\abilities.cfg:996
 msgid "immobilize"
 msgstr ""
 
 #. [damage]: id=eoma_immoblize
-#: Era_of_Magic\utils\abilities.cfg:958
+#: Era_of_Magic\utils\abilities.cfg:997
 msgid "When used offensively, units hit with this attack become unable to move for 1 turn"
 msgstr ""
 
 #. [damage]: id=eoma_dazzle
-#: Era_of_Magic\utils\abilities.cfg:1101
+#: Era_of_Magic\utils\abilities.cfg:1140
 msgid "dazzle"
 msgstr ""
 
 #. [damage]: id=eoma_dazzle
-#: Era_of_Magic\utils\abilities.cfg:1102
+#: Era_of_Magic\utils\abilities.cfg:1141
 msgid "When used offensively, units hit with this attack suffer a 35% reduction in damage and a 10% reduction in defenses for 1 turn"
 msgstr ""
 
 #. [chance_to_hit]: id=eoma_stun
-#: Era_of_Magic\utils\abilities.cfg:1247
+#: Era_of_Magic\utils\abilities.cfg:1286
 msgid "stun"
 msgstr ""
 
 #. [chance_to_hit]: id=eoma_stun
-#: Era_of_Magic\utils\abilities.cfg:1248
+#: Era_of_Magic\utils\abilities.cfg:1287
 msgid "This attack puts enormous pressure on the enemy, disrupting his ZOC if a hit is landed. Not active on defense. Does not work on units that do not have a ZoC."
 msgstr ""
 
 #. [unstore_unit]
-#: Era_of_Magic\utils\abilities.cfg:1284
+#: Era_of_Magic\utils\abilities.cfg:1323
 msgid "stunned"
 msgstr ""
 
 #. [dummy]: id=eoma_bloodlust{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1369
+#: Era_of_Magic\utils\abilities.cfg:1408
 msgid "bloodlust"
 msgstr ""
 
 #. [dummy]: id=eoma_bloodlust{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1370
+#: Era_of_Magic\utils\abilities.cfg:1409
 msgid "This unit gains {VALUE} hitpoints added to its current health whenever it kills a living unit."
 msgstr ""
 
 #. [damage]: id=eoma_supercharge
-#: Era_of_Magic\utils\abilities.cfg:1416
+#: Era_of_Magic\utils\abilities.cfg:1455
 msgid "supercharge"
 msgstr ""
 
 #. [damage]: id=eoma_supercharge
-#: Era_of_Magic\utils\abilities.cfg:1417
+#: Era_of_Magic\utils\abilities.cfg:1456
 msgid ""
 "When used offensively, this attack deals 150% damage to the target. It also causes this unit to take 150% damage from the target’s counterattack.\n"
 "\n"
@@ -4578,49 +4589,49 @@ msgid ""
 msgstr ""
 
 #. [dummy]: id=eoma_scavenger{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1474
+#: Era_of_Magic\utils\abilities.cfg:1513
 msgid "scavenger"
 msgstr ""
 
 #. [dummy]: id=eoma_scavenger{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1475
+#: Era_of_Magic\utils\abilities.cfg:1514
 msgid "This unit gains {VALUE} hitpoints added to its current health whenever an adjacent unit dies."
 msgstr ""
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic\utils\abilities.cfg:1509
-#: Era_of_Magic\utils\abilities.cfg:1510
+#: Era_of_Magic\utils\abilities.cfg:1548
+#: Era_of_Magic\utils\abilities.cfg:1549
 msgid "dread"
 msgstr ""
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic\utils\abilities.cfg:1511
-#: Era_of_Magic\utils\abilities.cfg:1512
+#: Era_of_Magic\utils\abilities.cfg:1550
+#: Era_of_Magic\utils\abilities.cfg:1551
 msgid "When this attack is used offensively, this unit takes one third less damage in retaliation."
 msgstr ""
 
 #. [damage]: id=eoma_magic_hardening
-#: Era_of_Magic\utils\abilities.cfg:1523
+#: Era_of_Magic\utils\abilities.cfg:1562
 msgid "magic hardening"
 msgstr ""
 
 #. [damage]: id=eoma_magic_hardening
-#: Era_of_Magic\utils\abilities.cfg:1524
+#: Era_of_Magic\utils\abilities.cfg:1563
 msgid "While attacking, this unit will take 20% less fire/cold/arcane damage in retaliation."
 msgstr ""
 
 #. [dummy]: id=eoma_chaos_channeling
-#: Era_of_Magic\utils\abilities.cfg:1539
+#: Era_of_Magic\utils\abilities.cfg:1578
 msgid "chaos channelling"
 msgstr ""
 
 #. [dummy]: id=eoma_chaos_channeling
-#: Era_of_Magic\utils\abilities.cfg:1540
+#: Era_of_Magic\utils\abilities.cfg:1579
 msgid "When this unit dies a new Chaotic Observer unit is placed on the recall list of this unit's side."
 msgstr ""
 
 #. [floating_text]
-#: Era_of_Magic\utils\abilities.cfg:1560
+#: Era_of_Magic\utils\abilities.cfg:1599
 msgid "Recalling..."
 msgstr ""
 
@@ -4961,24 +4972,21 @@ msgid ""
 "- all adjacent enemy units receive -5% chance to hit penalty (except for attacks which always hit)\n"
 "\n"
 "Also, this unit can cast a powerful time-manipulation spell with the following effects lasting one turn:\n"
-"- this unit and all adjacent friendly units strike first and receive +10% chance to hit bonus;\n"
-"- all adjacent enemy units receive -20% chance to hit penalty (except for attacks which always hit);\n"
+"- this unit and all adjacent friendly units strike first and receive +15% chance to hit bonus;\n"
+"- all adjacent enemy units receive -15% chance to hit penalty (except for attacks which always hit);\n"
 "- the caster of the spell gets the skirmisher ability.\n"
 "\n"
 "To cast the spell right-click the unit and select 'Activate Aura'."
 msgstr ""
 
 #. [set_menu_item]: id=eoma_chronoaura_menu
-#. [set_menu_item]: id=eoma_runeaura_menu
 #: Era_of_Magic\utils\chronoaura.cfg:67
-#: Era_of_Magic\utils\runeaura.cfg:35
-msgid "Activate Aura (20 Gold)"
+msgid "Activate Aura (15 Gold)"
 msgstr ""
 
 #. [message]: speaker=unit
 #: Era_of_Magic\utils\chronoaura.cfg:88
-#: Era_of_Magic\utils\runeaura.cfg:56
-msgid "Activate aura? (20 Gold)"
+msgid "Activate aura? (15 Gold)"
 msgstr ""
 
 #. [print]
@@ -4993,7 +5001,7 @@ msgstr ""
 
 #. [firststrike]: id=eoma_chronoauractive
 #: Era_of_Magic\utils\chronoaura.cfg:158
-msgid "This unit and all adjacent friendly units strike first and receive +10% chance to hit bonus, while all adjacent enemy units receive -20% chance to hit penalty (except for attacks which always hit). The ability lasts one turn."
+msgid "This unit and all adjacent friendly units strike first and receive +15% chance to hit bonus, while all adjacent enemy units receive -15% chance to hit penalty (except for attacks which always hit). The ability lasts one turn."
 msgstr ""
 
 #. [dummy]: id=eoma_cleave
@@ -5538,7 +5546,7 @@ msgstr ""
 #. [dummy]: id=eoma_painabsorb{VALUE}
 #. [dummy]: id=eoma_painabsorb_aura{VALUE}
 #: Era_of_Magic\utils\pain_absorption.cfg:10
-#: Era_of_Magic\utils\pain_absorption.cfg:95
+#: Era_of_Magic\utils\pain_absorption.cfg:97
 msgid "pain absorption"
 msgstr ""
 
@@ -5548,17 +5556,17 @@ msgid "When harming a living enemy, this unit is healed by "
 msgstr ""
 
 #. [dummy]: id=eoma_painabsorb_aura{VALUE}
-#: Era_of_Magic\utils\pain_absorption.cfg:96
+#: Era_of_Magic\utils\pain_absorption.cfg:98
 msgid "This unit gains {VALUE} hitpoints added to its current health whenever an adjacent living unit is harmed."
 msgstr ""
 
 #. [dummy]: id=eoma_painabsorb_aura_strict{VALUE}
-#: Era_of_Magic\utils\pain_absorption.cfg:173
+#: Era_of_Magic\utils\pain_absorption.cfg:177
 msgid "pain absorption (strict)"
 msgstr ""
 
 #. [dummy]: id=eoma_painabsorb_aura_strict{VALUE}
-#: Era_of_Magic\utils\pain_absorption.cfg:174
+#: Era_of_Magic\utils\pain_absorption.cfg:178
 msgid "This unit gains {VALUE} hitpoints added to its current health whenever an adjacent living unit is harmed with its attacks (directly or indirectly)."
 msgstr ""
 
@@ -5734,6 +5742,16 @@ msgid ""
 "-the aura can be rotated once per turn to cover appropriate units,\n"
 "-transformed Runemasters cannot attack, but have 70% magical and physical resistance,\n"
 "-the transformation lasts one turn."
+msgstr ""
+
+#. [set_menu_item]: id=eoma_runeaura_menu
+#: Era_of_Magic\utils\runeaura.cfg:35
+msgid "Activate Aura (20 Gold)"
+msgstr ""
+
+#. [message]: speaker=unit
+#: Era_of_Magic\utils\runeaura.cfg:56
+msgid "Activate aura? (20 Gold)"
 msgstr ""
 
 #. [print]
