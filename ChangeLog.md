@@ -1,6 +1,90 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.12
+ ### Units
+	** Darkblood Alliance:
+	 * Black Salamander: cost from 35g to 33g
+	 * Green Salamander: cost from 35g to 33g
+	 * Blue Salamander: cost from 35g to 33g
+	 * Yellow Salamander: cost from 35g to 32g
+	 * Red Salamander: cost from 36g to 34g
+	 * Battle Toad: cost from 42g to 39g
+	 * Toad Archer: cost from 40g to 38g
+	 * Toad Shaman: cost from 44g to 41g
+	 * Corrupted Shaman XP from 110 to 95
+	 * Swamp Mage XP from 200 to 210
+	 * Forest Spirit: replaced the 'forest regeneration' ability with the 'nature regeneration' ability
+	** Destroyers:
+	 * Infernal Vortex: cost from 58g to 55g
+	 * Black Portal: cost from 58g to 56g
+	 * Harbinger: XP from 114 to 107
+	** Kharos:
+	 * Bishop Price: from 38g to 36g
+	 * Avenger: cost from 31g to 30g
+	 * Kharosian Legionnaire: Price from 49g to 45g
+	 * Kharosian Impaler: cost from 47g to 45g
+	** Runemasters:
+	 * Dwarvish Cadet: cost from 31g to 30g
+	 * Dwarvish Soldier the 'gun' attack now has 'hit-run +1' (not in RPG)
+	 * Dwarvish: Veteran: cost from 33g to 31g
+	 * Dwarvish Runic Warrior: cost from 55g to 53g
+	 * Technocrat: cost from 52g to 51g
+	 * Steamcopter XP from 94 to 90
+	 * Turboserker: added 'hit-run +2' to its ranged attack
+	** Sky Kingdom:
+	 * Shadow Mage: cost from 54g to 52g; added the 'Nocturnal Regeneration +3' ability
+	 * Warmage XP from 115 to 105
+	 * Sorcerer: mountains movement cost from 3 to 2
+	** Summoners:
+	 * Rhami'Kai: cost from 38g to 36g
+	 * Neutral Summoner: cost from 56g to 54g
+	 * Grand Summoner cost from 54g to 53g
+	 * Earth Avatar: cost from 35g to 33g; XP from 105 to 90; fixed incorrect pierce resistance (65->55)
+	 * Earth God: added a new melee attack (12-3) with the 'Shielded' weapon special; cost from 60g to 55g
+	** Tharis:
+	 * Dark Wizard: cost from 38g to 37g
+	 * Great Hydra: cost from 38g to 36g
+	 * Chaos Hydra: cost from 57g to 55g; added the 'Scavenger +2' ability
+	 * Swordsdancer: added 'hit-run +2' to his ranged attack
+	 * Dark Slayer: added the 'Bloodlust +3' ability (not in RPG)
+	 * Blademaster: added the 'Bloodlust +4' ability (not in RPG)
+	 * Dark Assassin: added the 'Bloodlust +3' ability (not in RPG)
+	 * Shadow Blade: added the 'Bloodlust +4' ability (not in RPG)
+	 * Dark Executioner: added the 'Nocturnal Regeneration +3'
+	 * Frontliner: added the 'Bloodlust +3' ability (not in RPG)
+	 * Crimsom Blade: added the 'Bloodlust +4' ability (not in RPG)
+	 * Dark General: added the 'Nocturnal Regeneration +3' ability
+	 * Dark Warlord: added the 'Nocturnal Regeneration +5' ability
+ ### Abilities
+	* replaced 'goblin/orcish/troll leader' abilities with a single 'racial leader' ability
+	* renamed the 'fiery glow' ability to 'illuminates (weak)'
+	* renamed the 'swamp ambush' ability to 'swamp lurk'
+	* changed the 'water' ability into 'water regeneration +6'
+	* changed the activated 'rune aura' ability name to 'rune aura (active)'
+	* removed the 'forest regeneration' ability
+	* made water and swamp regeneration susceptible to magic absorption
+ ### Descriptions
+	* improved the 'voice of darkness' ability description
+	* improved the 'nature detox' ability description
+	* improved the 'heals undead' ability description
+	* improved the 'heals' ability description
+	* improved the 'fungal regeneration' ability description
+	* improved 'solar' and 'nocturnal regeneration' ability descriptions
+ ### Code
+	* replaced multiple healing ability macros with one macro with {VALUE}
+	* replaced multiple regenerating ability macros with one macro with {VALUE}
+	* replaced custom water regeneration ability macros with one macro with {VALUE}
+	* replaced custom repair ability macros with one macro with {VALUE}
+	* the 'swamp regeneration' ability macro uses {VALUE} now
+	* the 'hit and run +2' ability in Drone.cfg uses a corresponding macro now
+	* moved the 'fiery glow' ability from Fire_Avatar.cfg and Fire_Elemental.cfg to abilities.cfg
+	* moved the 'water regeneration +4' ability to healing.cfg
+	* improved text formatting of various ability names
+	* added _REGENERATION suffix to all terrain-specific regeneration macros
+ ### Translations
+	* updated the raw translation file
+
 ## Version 3.11.1
  ### Gameplay
 	* removed Bladefury from AoH and Masters recruit lists
@@ -16,7 +100,7 @@ Era of Magic - ChangeLog
 	 * Terramancer: added a new melee pierce attack; the 'stones' attack now has the 'first strike' weapon special; changed the 'landmass' attack damage from 10-2 to 11-2
 	 * Master of Earth: added a new melee pierce attack; changed the number of strikes for the 'stones' attack from 8 to 9; changed the 'landmass' attack damage from 15-2 to 16-2
 	 * Aeromancer: added the hit and run +1 ability; added the 10% fire and cold resistance
-	 * Aeromancer: added the hit and run +1 ability; added the 10% fire and cold resistance
+	 * Master of Air: added the hit and run +1 ability; added the 10% fire and cold resistance
 	 * Black Mage: XP from 86 to 90
 	 * Chronomancer: cold resistance from 25% to 30%
 	** Summoners:
@@ -38,7 +122,7 @@ Era of Magic - ChangeLog
  ### Graphics
 	* improved Mirrorshield sprites and attack icons
  ### Code
-	* restore missing unit keys and values for Orcish Warbanner
+	* restored missing unit keys and values for Orcish Warbanner
  ### Translations
 	* updated the raw translation file
 
