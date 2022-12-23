@@ -1,6 +1,31 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.12.1
+ ### Units
+	** Barbarians:
+	 * Goblin Druid: changed alignment to neutral
+	 * Goblin Shaman: changed alignment to neutral
+	 * Goblin Kamikaze: decreased the kamikaze attack damage from 15-1 to 13-1
+	** Darkblood Alliance:
+	 * Dreadnought: now regenerates +9 HP instead of 8
+	 * Toad Mystic: now regenerates +9 HP instead of 8
+	 * Twin Archer Toad: now regenerates +9 HP instead of 8
+	** Destroyers:
+	 * Greater Cyclops Skeleton: increased arcane resistance by 10%
+	 * Extinct Cyclops Mage: increased arcane resistance by 10%
+	 * Fallen Cyclops King: increased arcane resistance by 10%
+	** Sky Kingdom:
+	 * Sorcerer: cost from 41 to 40g
+	** Summoners:
+	 * Banisher: cost from 57 to 55g
+	 * Banisher: cost from 44 to 42g
+	 * Dimensional Gate: changed shallow water movement cost from 1 to 2; changed defense on unwalkable tiles from 50% to 40%
+	 * Water Avatar: XP from 91 to 82; the unit can now cure other friendly units of poison; added a new 7-3 cold ranged attack
+	** Tharis:
+	 * Great Witch: cost from 38 to 36g
+	 * Matriarch of Pain: cost from 55 to 51g; added the 'magic counter' weapon special to melee attacks
+
 ## Version 3.12
  ### Units
 	** Darkblood Alliance:
