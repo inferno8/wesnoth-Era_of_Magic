@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-12-17 11:07 UTC\n"
+"POT-Creation-Date: 2022-12-30 14:25 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -544,7 +544,7 @@ msgstr ""
 #. [attack]: type=fire
 #. [attack]: type=arcane
 #: Era_of_Magic\units\Barbarians\Troll_Warlock.cfg:55
-#: Era_of_Magic\units\Summoners\Dimensional_Gate.cfg:234
+#: Era_of_Magic\units\Summoners\Dimensional_Gate.cfg:237
 msgid "blue flame"
 msgstr ""
 
@@ -698,8 +698,8 @@ msgid "Summon Swamp Spirit"
 msgstr ""
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Dark_Blood_Alliance\Chosen_of_Marsh.cfg:75
-#: Era_of_Magic\units\Dark_Blood_Alliance\Swamp_Mage.cfg:72
+#: Era_of_Magic\units\Dark_Blood_Alliance\Chosen_of_Marsh.cfg:76
+#: Era_of_Magic\units\Dark_Blood_Alliance\Swamp_Mage.cfg:73
 msgid "damned flame"
 msgstr ""
 
@@ -924,12 +924,12 @@ msgid "Temple Guard"
 msgstr ""
 
 #. [disable]: id=eoma_divine
-#: Era_of_Magic\units\Dark_Blood_Alliance\Temple_Guard.cfg:71
+#: Era_of_Magic\units\Dark_Blood_Alliance\Temple_Guard.cfg:77
 msgid "divine"
 msgstr ""
 
 #. [disable]: id=eoma_divine
-#: Era_of_Magic\units\Dark_Blood_Alliance\Temple_Guard.cfg:72
+#: Era_of_Magic\units\Dark_Blood_Alliance\Temple_Guard.cfg:78
 msgid "This attack will only be used against magical and undead beings."
 msgstr ""
 
@@ -2798,16 +2798,9 @@ msgstr ""
 msgid "eye of the storm"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Master_of_Earth, race=human
+#. [unit_type]: id=EoMa_Master_of_Earth, race=human, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Earth.cfg:4
 msgid "Master of Earth"
-msgstr ""
-
-#. [unit_type]: id=EoMa_Master_of_Earth, race=human
-#. [unit_type]: id=EoMa_Terramancer, race=human
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Earth.cfg:48
-#: Era_of_Magic\units\Sky_Kingdom\Terramancer.cfg:46
-msgid "."
 msgstr ""
 
 #. [heals]: id=eoma_detox_nature
@@ -2930,6 +2923,7 @@ msgstr ""
 
 #. [attack]: type=cold
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Water.cfg:79
+#: Era_of_Magic\units\Summoners\Water_Avatar.cfg:74
 #: Era_of_Magic\units\Summoners\Water_God.cfg:78
 msgid "ice strike"
 msgstr ""
@@ -3034,7 +3028,7 @@ msgid "The Shadowmagi are a subsection of the black mage group, who act as the S
 msgstr ""
 
 #. [attack]: type=pierce
-#: Era_of_Magic\units\Sky_Kingdom\Shadow_Mage.cfg:91
+#: Era_of_Magic\units\Sky_Kingdom\Shadow_Mage.cfg:96
 msgid "cursed knives"
 msgstr ""
 
@@ -3079,7 +3073,7 @@ msgstr ""
 msgid "Subversive Magi are an unusual group that studies black magic. They are still novices, but they are good at evading enemy strikes, capable of entangling enemies in nets made out of energy, and then battering them with cold missiles."
 msgstr ""
 
-#. [unit_type]: id=EoMa_Terramancer, race=human
+#. [unit_type]: id=EoMa_Terramancer, race=human, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Sky_Kingdom\Terramancer.cfg:4
 msgid "Terramancer"
 msgstr ""
@@ -3391,7 +3385,7 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Efreet, race=eoma_magical
 #: Era_of_Magic\units\Summoners\Efreeti.cfg:20
-msgid "Cataclysmic by nature, efreets are jinns who have rejected most, if not all, of their inner desires to learn. Efreets, for profound reasons beyond the comprehension of their peers, search to cause destruction in their conquests. To this, their magical bodies have sunken into a crimson-reddish hue, tempering their magic with fire’s touch. In battles, efreets bask in razing and laying waste to whatever their blazes can reach."
+msgid "Cataclysmic by nature, efreets are jinn who have rejected most, if not all, of their inner desires to learn. Efreets, for profound reasons beyond the comprehension of their peers, search to cause destruction in their conquests. To this, their magical bodies have sunken into a crimson-reddish hue, tempering their magic with fire’s touch. In battles, efreets bask in razing and laying waste to whatever their blazes can reach."
 msgstr ""
 
 #. [attack]: type=fire
@@ -3492,7 +3486,7 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Great_Efreeti, race=eoma_magical
 #: Era_of_Magic\units\Summoners\Great_Efreeti.cfg:20
-msgid "Great efreetis seethe with a fiery rage that manifests itself in the form of their magic’s wake. In bodies of smoldering heat and flames, both militants and civilians have been burnt mercilessly to charred remains and then to ashes by these fervent beings. Settlements are annihilated overnight by a great efreeti, leaving nothing left but smoldering ruins. Little has anyone understood of their intent or anger, but little does it matter to the summoners who drive them forward, making as much use as possible of their blasts of hellfire and ravaging firestorms."
+msgid "Great efreet seethe with a fiery rage that manifests itself in the form of their magic’s wake. In bodies of smoldering heat and flames, both militants and civilians have been burnt mercilessly to charred remains and then to ashes by these fervent beings. Settlements are annihilated overnight by a great efreeti, leaving nothing left but smoldering ruins. Little has anyone understood of their intent or anger, but little does it matter to the summoners who drive them forward, making as much use as possible of their blasts of hellfire and ravaging firestorms."
 msgstr ""
 
 #. [attack]: type=fire
@@ -3508,9 +3502,9 @@ msgstr ""
 #. [unit_type]: id=EoMa_Great_Jinn, race=eoma_magical
 #: Era_of_Magic\units\Summoners\Great_Jinni.cfg:20
 msgid ""
-"New summoners learn early on that jinns are much different from the elementals they have summoned from the Abyss. Jinns bear an insatiable thirst for knowledge that will soon cause them to become great jinns. Wiser than their own masters and possessing some fundamentals of summoning, great jinns are treated similarly to humans, if not better for their insight.\n"
+"New summoners learn early on that jinn are much different from the elementals they have summoned from the Abyss. Jinn bear an insatiable thirst for knowledge that will soon cause them to become great jinn. Wiser than their own masters and possessing some fundamentals of summoning, great jinn are treated similarly to humans, if not better for their insight.\n"
 "\n"
-"Great jinns frequently hold positions of authority, commanding divisions and even having a place of power in councils. Gifted with quick minds, great jinns still search for answers to life’s questions, despite the position they have."
+"Great jinn frequently hold positions of authority, commanding divisions and even having a place of power in councils. Gifted with quick minds, great jinn still search for answers to life’s questions, despite the position they have."
 msgstr ""
 
 #. [attack]: type=blade
@@ -3583,7 +3577,7 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Jinn, race=eoma_magical
 #: Era_of_Magic\units\Summoners\Jinni.cfg:21
-msgid "Jinns are special by even summoners’ standards due to their cognitive process to think, comprehend, learn, and even talk: an affinity that no other elemental from the Abyss can ever acquire. Made entirely of magic, jinns are vulnerable to the arcane magicks though more resilient against tangible weapons. These entities, while able to err like humans, are valued allies of the summoners, with their curious thoughts always wandering about."
+msgid "Jinn are special by even summoners’ standards due to their cognitive process to think, comprehend, learn, and even talk: an affinity that no other elemental from the Abyss can ever acquire. Made entirely of magic, jinn are vulnerable to the arcane magicks though more resilient against tangible weapons. These entities, while able to err like humans, are valued allies of the summoners, with their curious thoughts always wandering about."
 msgstr ""
 
 #. [attack]: type=blade
@@ -3622,7 +3616,7 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Neutral_Summoner, race=eoma_summoner
 #: Era_of_Magic\units\Summoners\Neutral_Summoner.cfg:20
-msgid "Neutral summoners are the most enigmatic of the Summoners of the Third Degree. These summoners specialize in strange enfeebling magic that robs the life of foes with every strike. A covert group among summoners, neutral summoners infuse their scimitars with their ‘draining’ magic and also have learned to create their own unique circles that utilize it. Neutral summoners are also able to summon Jinns through complex circles that connect their world with the Abyss."
+msgid "Neutral summoners are the most enigmatic of the Summoners of the Third Degree. These summoners specialize in strange enfeebling magic that robs the life of foes with every strike. A covert group among summoners, neutral summoners infuse their scimitars with their ‘draining’ magic and also have learned to create their own unique circles that utilize it. Neutral summoners are also able to summon Jinn through complex circles that connect their world with the Abyss."
 msgstr ""
 
 #. [abilities]
@@ -3657,7 +3651,7 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Rhami, race=eoma_magical
 #: Era_of_Magic\units\Summoners\Rhami.cfg:30
-msgid "Rhamis are a race of limber and swift creatures residing in the Abyss. Four-armed and, like jinns, blessed with the gift of intelligence, Rhamis carry out their work as the precise strike force of the summoners. Due to some foreign magical affinity, Rhamis regenerate their bodies promptly after becoming wounded. They are armed with a blade in each hand, casting blows and slashes with astonishing inhuman speed. Through their four blades and spryness, a Rhami can dive into combat and strike before their foes can react. Rhamis are fiercely loyal and search to enact revenge on behalf of their fallen comrades."
+msgid "Rhamis are a race of limber and swift creatures residing in the Abyss. Four-armed and, like jinn, blessed with the gift of intelligence, Rhamis carry out their work as the precise strike force of the summoners. Due to some foreign magical affinity, Rhamis regenerate their bodies promptly after becoming wounded. They are armed with a blade in each hand, casting blows and slashes with astonishing inhuman speed. Through their four blades and spryness, a Rhami can dive into combat and strike before their foes can react. Rhamis are fiercely loyal and search to enact revenge on behalf of their fallen comrades."
 msgstr ""
 
 #. [attack]: type=blade
@@ -3776,7 +3770,7 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Wonderful_Jinn, race=eoma_magical
 #: Era_of_Magic\units\Summoners\Wonderful_Jinni.cfg:20
-msgid "Wonderful jinns are sages in the summoners’ society, spreading their wisdom to any ear willing to listen. Their unequalled imagination and intellect of the world is evident through their vast multitude of elemental and arcane spells. Jinns of such high caliber have taught themselves how to perform offensive summonings, an attainment that earns them prominent respect among their human peers. Wonderful jinns have long since been independent, servants to their masters no longer. It is a mystery as to whether or not they have sated their immeasurable thirst, for they still follow the orders of their superiors and have not yet retired into the shadows of the world."
+msgid "Wonderful jinn are sages in the summoners’ society, spreading their wisdom to any ear willing to listen. Their unequalled imagination and intellect of the world is evident through their vast multitude of elemental and arcane spells. Jinn of such high caliber have taught themselves how to perform offensive summonings, an attainment that earns them prominent respect among their human peers. Wonderful jinn have long since been independent, servants to their masters no longer. It is a mystery as to whether or not they have sated their immeasurable thirst, for they still follow the orders of their superiors and have not yet retired into the shadows of the world."
 msgstr ""
 
 #. [attack]: type=secret
@@ -4166,7 +4160,7 @@ msgid "whip"
 msgstr ""
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Tharis\Matriarch_of_Pain.cfg:50
+#: Era_of_Magic\units\Tharis\Matriarch_of_Pain.cfg:51
 #: Era_of_Magic\units\Tharis\Pain_Mistress.cfg:46
 msgid "pain"
 msgstr ""
