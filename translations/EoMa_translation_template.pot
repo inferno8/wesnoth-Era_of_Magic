@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-12-30 14:25 UTC\n"
+"POT-Creation-Date: 2022-12-31 09:20 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2492,19 +2492,19 @@ msgid "Technocrat"
 msgstr ""
 
 #. [attack]: type=pierce
-#: Era_of_Magic\units\Runemasters\Technocrat.cfg:64
-#: Era_of_Magic\units\Runemasters\Technologist.cfg:63
+#: Era_of_Magic\units\Runemasters\Technocrat.cfg:67
+#: Era_of_Magic\units\Runemasters\Technologist.cfg:66
 msgid "rifle"
 msgstr ""
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Runemasters\Technocrat.cfg:77
+#: Era_of_Magic\units\Runemasters\Technocrat.cfg:80
 msgid "plasma shot"
 msgstr ""
 
 #. [attack]: type=impact
-#: Era_of_Magic\units\Runemasters\Technocrat.cfg:90
-#: Era_of_Magic\units\Runemasters\Technologist.cfg:75
+#: Era_of_Magic\units\Runemasters\Technocrat.cfg:93
+#: Era_of_Magic\units\Runemasters\Technologist.cfg:78
 msgid "shock grenade"
 msgstr ""
 
@@ -4604,6 +4604,16 @@ msgid ""
 "This unit illuminates the surrounding area, making lawful units fight better, and chaotic units fight worse.\n"
 "\n"
 "Unlike the 'illuminates' ability, this ability affects the damage bonus/penalty for adjacent units by 15%, instead of 25%."
+msgstr ""
+
+#. [damage]: id=eoma_antimech{VALUE}
+#: Era_of_Magic\utils\abilities.cfg:1622
+msgid "anti-mech +{VALUE}"
+msgstr ""
+
+#. [damage]: id=eoma_antimech{VALUE}
+#: Era_of_Magic\utils\abilities.cfg:1623
+msgid "This attacks deals additional {VALUE} points of damage against mechanical units."
 msgstr ""
 
 #. [disable]: id=eoma_disable_in_rpg, description=
