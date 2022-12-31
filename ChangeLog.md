@@ -1,6 +1,51 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 3.12.2
+ ### Units
+	** Barbarians:
+	 * Orcish Chieftain: XP from 150 to 126; cost from 58g to 55g; now gets the 'veteran' trait with AMLA
+	 * Goblin Sniper: XP from 80 to 75
+	 * Goblin Veteran: XP from 90 to 77
+	 * Barbarian Lord: XP from 200 to 190
+	 * Cyclops Warmonger: XP from 240 to 230
+	** Darkblood Alliance:
+	 * Corrupted Shaman: sand defense from 50% to 60%; frozen movement cost from 4 to 3
+	 * Swamp Mage: sand defense from 50% to 60%; frozen movement cost from 4 to 3
+	 * Chosen of Marsh: sand defense from 50% to 60%; frozen movement cost from 4 to 3
+	 * Temple Guard: cost from 55g to 48g; added the 'Magic-counter' weapon special to melee attacks
+	** Destroyers:
+	 * Greater Cyclops Skeleton: XP from 110 to 100
+	 * Punisher: XP from 133 to 125
+	** Kharos:
+	 * Child of Light: XP from 145 to 132
+	 * Heavy Calvary: XP from 100 to 90
+	 * Elemental Archer: XP from 100 to 95
+	 * Avenger: XP from 100 to 90
+	 * Hoplite: XP from 100 to 95
+	** Runemasters:
+	 * Dwarvish Tank: XP from 120 to 115
+	 * Technician: XP from 100 to 94
+	 * Technologist: added the 'anti-mech +2' weapon special to the melee attack
+	 * Technocrat: added the 'anti-mech +3' weapon special to the melee attack
+	** Sky Kingdom:
+	 * Shadow Mage: the 'dagger' attack now has the 'magic-counter' weapon special; Mountains movement cost from 3 to 2; Cave movement cost from 2 to 1
+	 * Black Mage: XP from 90 to 95
+	 * Mystic Warrior: XP from 114 to 110
+	** Summoners:
+	 * Elite Camel Rider XP from 100 to 95
+	 * Rhami'kai XP from 114 to 107
+	 * Dispeller XP from 100 to 95
+ ### Abilities
+	* implemented the 'anti-mech' weapon special
+ ### Descriptions
+	* fix spelling of jinni/jinn and efreeti/efreet
+ ### Code
+	* added {NO_DESCR_AVAILABLE} to Master of Earth and Terramancer
+ ### Translations
+	* updated the raw translation file
+	* updated the Polish translation
+
 ## Version 3.12.1
  ### Units
 	** Barbarians:
@@ -19,7 +64,7 @@ Era of Magic - ChangeLog
 	 * Sorcerer: cost from 41 to 40g
 	** Summoners:
 	 * Banisher: cost from 57 to 55g
-	 * Banisher: cost from 44 to 42g
+	 * Great Jinni: cost from 44 to 42g
 	 * Dimensional Gate: changed shallow water movement cost from 1 to 2; changed defense on unwalkable tiles from 50% to 40%
 	 * Water Avatar: XP from 91 to 82; the unit can now cure other friendly units of poison; added a new 7-3 cold ranged attack
 	** Tharis:
