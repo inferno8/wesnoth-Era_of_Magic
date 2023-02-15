@@ -3,1371 +3,1371 @@ Era of Magic - ChangeLog
 
 ## Version 3.12.2
  ### Units
-	** Barbarians:
-	 * Orcish Chieftain: XP from 150 to 126; cost from 58g to 55g; now gets the 'veteran' trait with AMLA
-	 * Goblin Sniper: XP from 80 to 75
-	 * Goblin Veteran: XP from 90 to 77
-	 * Barbarian Lord: XP from 200 to 190
-	 * Cyclops Warmonger: XP from 240 to 230
-	** Darkblood Alliance:
-	 * Corrupted Shaman: sand defense from 50% to 60%; frozen movement cost from 4 to 3
-	 * Swamp Mage: sand defense from 50% to 60%; frozen movement cost from 4 to 3
-	 * Chosen of Marsh: sand defense from 50% to 60%; frozen movement cost from 4 to 3
-	 * Temple Guard: cost from 55g to 48g; added the 'Magic-counter' weapon special to melee attacks
-	** Destroyers:
-	 * Greater Cyclops Skeleton: XP from 110 to 100
-	 * Punisher: XP from 133 to 125
-	** Kharos:
-	 * Child of Light: XP from 145 to 132
-	 * Heavy Calvary: XP from 100 to 90
-	 * Elemental Archer: XP from 100 to 95
-	 * Avenger: XP from 100 to 90
-	 * Hoplite: XP from 100 to 95
-	** Runemasters:
-	 * Dwarvish Tank: XP from 120 to 115
-	 * Technician: XP from 100 to 94
-	 * Technologist: added the 'anti-mech +2' weapon special to the melee attack
-	 * Technocrat: added the 'anti-mech +3' weapon special to the melee attack
-	** Sky Kingdom:
-	 * Shadow Mage: the 'dagger' attack now has the 'magic-counter' weapon special; Mountains movement cost from 3 to 2; Cave movement cost from 2 to 1
-	 * Black Mage: XP from 90 to 95
-	 * Mystic Warrior: XP from 114 to 110
-	** Summoners:
-	 * Elite Camel Rider XP from 100 to 95
-	 * Rhami'kai XP from 114 to 107
-	 * Dispeller XP from 100 to 95
+   * Barbarians:
+     * Orcish Chieftain: XP from 150 to 126; cost from 58g to 55g; now gets the 'veteran' trait with AMLA
+     * Goblin Sniper: XP from 80 to 75
+     * Goblin Veteran: XP from 90 to 77
+     * Barbarian Lord: XP from 200 to 190
+     * Cyclops Warmonger: XP from 240 to 230
+   * Darkblood Alliance:
+     * Corrupted Shaman: sand defense from 50% to 60%; frozen movement cost from 4 to 3
+     * Swamp Mage: sand defense from 50% to 60%; frozen movement cost from 4 to 3
+     * Chosen of Marsh: sand defense from 50% to 60%; frozen movement cost from 4 to 3
+     * Temple Guard: cost from 55g to 48g; added the 'Magic-counter' weapon special to melee attacks
+   * Destroyers:
+     * Greater Cyclops Skeleton: XP from 110 to 100
+     * Punisher: XP from 133 to 125
+   * Kharos:
+     * Child of Light: XP from 145 to 132
+     * Heavy Calvary: XP from 100 to 90
+     * Elemental Archer: XP from 100 to 95
+     * Avenger: XP from 100 to 90
+     * Hoplite: XP from 100 to 95
+   * Runemasters:
+     * Dwarvish Tank: XP from 120 to 115
+     * Technician: XP from 100 to 94
+     * Technologist: added the 'anti-mech +2' weapon special to the melee attack
+     * Technocrat: added the 'anti-mech +3' weapon special to the melee attack
+   * Sky Kingdom:
+     * Shadow Mage: the 'dagger' attack now has the 'magic-counter' weapon special; Mountains movement cost from 3 to 2; Cave movement cost from 2 to 1
+     * Black Mage: XP from 90 to 95
+     * Mystic Warrior: XP from 114 to 110
+   * Summoners:
+     * Elite Camel Rider XP from 100 to 95
+     * Rhami'kai XP from 114 to 107
+     * Dispeller XP from 100 to 95
  ### Abilities
-	* implemented the 'anti-mech' weapon special
+   * implemented the 'anti-mech' weapon special
  ### Descriptions
-	* fix spelling of jinni/jinn and efreeti/efreet
+   * fix spelling of jinni/jinn and efreeti/efreet
  ### Code
-	* added {NO_DESCR_AVAILABLE} to Master of Earth and Terramancer
+   * added {NO_DESCR_AVAILABLE} to Master of Earth and Terramancer
  ### Translations
-	* updated the raw translation file
-	* updated the Polish translation
+   * updated the raw translation file
+   * updated the Polish translation
 
 ## Version 3.12.1
  ### Units
-	** Barbarians:
-	 * Goblin Druid: changed alignment to neutral
-	 * Goblin Shaman: changed alignment to neutral
-	 * Goblin Kamikaze: decreased the kamikaze attack damage from 15-1 to 13-1
-	** Darkblood Alliance:
-	 * Dreadnought: now regenerates +9 HP instead of 8
-	 * Toad Mystic: now regenerates +9 HP instead of 8
-	 * Twin Archer Toad: now regenerates +9 HP instead of 8
-	** Destroyers:
-	 * Greater Cyclops Skeleton: increased arcane resistance by 10%
-	 * Extinct Cyclops Mage: increased arcane resistance by 10%
-	 * Fallen Cyclops King: increased arcane resistance by 10%
-	** Sky Kingdom:
-	 * Sorcerer: cost from 41 to 40g
-	** Summoners:
-	 * Banisher: cost from 57 to 55g
-	 * Great Jinni: cost from 44 to 42g
-	 * Dimensional Gate: changed shallow water movement cost from 1 to 2; changed defense on unwalkable tiles from 50% to 40%
-	 * Water Avatar: XP from 91 to 82; the unit can now cure other friendly units of poison; added a new 7-3 cold ranged attack
-	** Tharis:
-	 * Great Witch: cost from 38 to 36g
-	 * Matriarch of Pain: cost from 55 to 51g; added the 'magic counter' weapon special to melee attacks
+   * Barbarians:
+     * Goblin Druid: changed alignment to neutral
+     * Goblin Shaman: changed alignment to neutral
+     * Goblin Kamikaze: decreased the kamikaze attack damage from 15-1 to 13-1
+   * Darkblood Alliance:
+     * Dreadnought: now regenerates +9 HP instead of 8
+     * Toad Mystic: now regenerates +9 HP instead of 8
+     * Twin Archer Toad: now regenerates +9 HP instead of 8
+   * Destroyers:
+     * Greater Cyclops Skeleton: increased arcane resistance by 10%
+     * Extinct Cyclops Mage: increased arcane resistance by 10%
+     * Fallen Cyclops King: increased arcane resistance by 10%
+   * Sky Kingdom:
+     * Sorcerer: cost from 41 to 40g
+   * Summoners:
+     * Banisher: cost from 57 to 55g
+     * Great Jinni: cost from 44 to 42g
+     * Dimensional Gate: changed shallow water movement cost from 1 to 2; changed defense on unwalkable tiles from 50% to 40%
+     * Water Avatar: XP from 91 to 82; the unit can now cure other friendly units of poison; added a new 7-3 cold ranged attack
+   * Tharis:
+     * Great Witch: cost from 38 to 36g
+     * Matriarch of Pain: cost from 55 to 51g; added the 'magic counter' weapon special to melee attacks
 
 ## Version 3.12
  ### Units
-	** Darkblood Alliance:
-	 * Black Salamander: cost from 35g to 33g
-	 * Green Salamander: cost from 35g to 33g
-	 * Blue Salamander: cost from 35g to 33g
-	 * Yellow Salamander: cost from 35g to 32g
-	 * Red Salamander: cost from 36g to 34g
-	 * Battle Toad: cost from 42g to 39g
-	 * Toad Archer: cost from 40g to 38g
-	 * Toad Shaman: cost from 44g to 41g
-	 * Corrupted Shaman XP from 110 to 95
-	 * Swamp Mage XP from 200 to 210
-	 * Forest Spirit: replaced the 'forest regeneration' ability with the 'nature regeneration' ability
-	** Destroyers:
-	 * Infernal Vortex: cost from 58g to 55g
-	 * Black Portal: cost from 58g to 56g
-	 * Harbinger: XP from 114 to 107
-	** Kharos:
-	 * Bishop Price: from 38g to 36g
-	 * Avenger: cost from 31g to 30g
-	 * Kharosian Legionnaire: Price from 49g to 45g
-	 * Kharosian Impaler: cost from 47g to 45g
-	** Runemasters:
-	 * Dwarvish Cadet: cost from 31g to 30g
-	 * Dwarvish Soldier the 'gun' attack now has 'hit-run +1' (not in RPG)
-	 * Dwarvish: Veteran: cost from 33g to 31g
-	 * Dwarvish Runic Warrior: cost from 55g to 53g
-	 * Technocrat: cost from 52g to 51g
-	 * Steamcopter XP from 94 to 90
-	 * Turboserker: added 'hit-run +2' to its ranged attack
-	** Sky Kingdom:
-	 * Shadow Mage: cost from 54g to 52g; added the 'Nocturnal Regeneration +3' ability
-	 * Warmage XP from 115 to 105
-	 * Sorcerer: mountains movement cost from 3 to 2
-	** Summoners:
-	 * Rhami'Kai: cost from 38g to 36g
-	 * Neutral Summoner: cost from 56g to 54g
-	 * Grand Summoner cost from 54g to 53g
-	 * Earth Avatar: cost from 35g to 33g; XP from 105 to 90; fixed incorrect pierce resistance (65->55)
-	 * Earth God: added a new melee attack (12-3) with the 'Shielded' weapon special; cost from 60g to 55g
-	** Tharis:
-	 * Dark Wizard: cost from 38g to 37g
-	 * Great Hydra: cost from 38g to 36g
-	 * Chaos Hydra: cost from 57g to 55g; added the 'Scavenger +2' ability
-	 * Swordsdancer: added 'hit-run +2' to his ranged attack
-	 * Dark Slayer: added the 'Bloodlust +3' ability (not in RPG)
-	 * Blademaster: added the 'Bloodlust +4' ability (not in RPG)
-	 * Dark Assassin: added the 'Bloodlust +3' ability (not in RPG)
-	 * Shadow Blade: added the 'Bloodlust +4' ability (not in RPG)
-	 * Dark Executioner: added the 'Nocturnal Regeneration +3'
-	 * Frontliner: added the 'Bloodlust +3' ability (not in RPG)
-	 * Crimsom Blade: added the 'Bloodlust +4' ability (not in RPG)
-	 * Dark General: added the 'Nocturnal Regeneration +3' ability
-	 * Dark Warlord: added the 'Nocturnal Regeneration +5' ability
+   * Darkblood Alliance:
+     * Black Salamander: cost from 35g to 33g
+     * Green Salamander: cost from 35g to 33g
+     * Blue Salamander: cost from 35g to 33g
+     * Yellow Salamander: cost from 35g to 32g
+     * Red Salamander: cost from 36g to 34g
+     * Battle Toad: cost from 42g to 39g
+     * Toad Archer: cost from 40g to 38g
+     * Toad Shaman: cost from 44g to 41g
+     * Corrupted Shaman XP from 110 to 95
+     * Swamp Mage XP from 200 to 210
+     * Forest Spirit: replaced the 'forest regeneration' ability with the 'nature regeneration' ability
+   * Destroyers:
+     * Infernal Vortex: cost from 58g to 55g
+     * Black Portal: cost from 58g to 56g
+     * Harbinger: XP from 114 to 107
+   * Kharos:
+     * Bishop Price: from 38g to 36g
+     * Avenger: cost from 31g to 30g
+     * Kharosian Legionnaire: Price from 49g to 45g
+     * Kharosian Impaler: cost from 47g to 45g
+   * Runemasters:
+     * Dwarvish Cadet: cost from 31g to 30g
+     * Dwarvish Soldier the 'gun' attack now has 'hit-run +1' (not in RPG)
+     * Dwarvish: Veteran: cost from 33g to 31g
+     * Dwarvish Runic Warrior: cost from 55g to 53g
+     * Technocrat: cost from 52g to 51g
+     * Steamcopter XP from 94 to 90
+     * Turboserker: added 'hit-run +2' to its ranged attack
+   * Sky Kingdom:
+     * Shadow Mage: cost from 54g to 52g; added the 'Nocturnal Regeneration +3' ability
+     * Warmage XP from 115 to 105
+     * Sorcerer: mountains movement cost from 3 to 2
+   * Summoners:
+     * Rhami'Kai: cost from 38g to 36g
+     * Neutral Summoner: cost from 56g to 54g
+     * Grand Summoner cost from 54g to 53g
+     * Earth Avatar: cost from 35g to 33g; XP from 105 to 90; fixed incorrect pierce resistance (65->55)
+     * Earth God: added a new melee attack (12-3) with the 'Shielded' weapon special; cost from 60g to 55g
+   * Tharis:
+     * Dark Wizard: cost from 38g to 37g
+     * Great Hydra: cost from 38g to 36g
+     * Chaos Hydra: cost from 57g to 55g; added the 'Scavenger +2' ability
+     * Swordsdancer: added 'hit-run +2' to his ranged attack
+     * Dark Slayer: added the 'Bloodlust +3' ability (not in RPG)
+     * Blademaster: added the 'Bloodlust +4' ability (not in RPG)
+     * Dark Assassin: added the 'Bloodlust +3' ability (not in RPG)
+     * Shadow Blade: added the 'Bloodlust +4' ability (not in RPG)
+     * Dark Executioner: added the 'Nocturnal Regeneration +3'
+     * Frontliner: added the 'Bloodlust +3' ability (not in RPG)
+     * Crimsom Blade: added the 'Bloodlust +4' ability (not in RPG)
+     * Dark General: added the 'Nocturnal Regeneration +3' ability
+     * Dark Warlord: added the 'Nocturnal Regeneration +5' ability
  ### Abilities
-	* replaced 'goblin/orcish/troll leader' abilities with a single 'racial leader' ability
-	* renamed the 'fiery glow' ability to 'illuminates (weak)'
-	* renamed the 'swamp ambush' ability to 'swamp lurk'
-	* changed the 'water' ability into 'water regeneration +6'
-	* changed the activated 'rune aura' ability name to 'rune aura (active)'
-	* removed the 'forest regeneration' ability
-	* made water and swamp regeneration susceptible to magic absorption
+   * replaced 'goblin/orcish/troll leader' abilities with a single 'racial leader' ability
+   * renamed the 'fiery glow' ability to 'illuminates (weak)'
+   * renamed the 'swamp ambush' ability to 'swamp lurk'
+   * changed the 'water' ability into 'water regeneration +6'
+   * changed the activated 'rune aura' ability name to 'rune aura (active)'
+   * removed the 'forest regeneration' ability
+   * made water and swamp regeneration susceptible to magic absorption
  ### Descriptions
-	* improved the 'voice of darkness' ability description
-	* improved the 'nature detox' ability description
-	* improved the 'heals undead' ability description
-	* improved the 'heals' ability description
-	* improved the 'fungal regeneration' ability description
-	* improved 'solar' and 'nocturnal regeneration' ability descriptions
+   * improved the 'voice of darkness' ability description
+   * improved the 'nature detox' ability description
+   * improved the 'heals undead' ability description
+   * improved the 'heals' ability description
+   * improved the 'fungal regeneration' ability description
+   * improved 'solar' and 'nocturnal regeneration' ability descriptions
  ### Code
-	* replaced multiple healing ability macros with one macro with {VALUE}
-	* replaced multiple regenerating ability macros with one macro with {VALUE}
-	* replaced custom water regeneration ability macros with one macro with {VALUE}
-	* replaced custom repair ability macros with one macro with {VALUE}
-	* the 'swamp regeneration' ability macro uses {VALUE} now
-	* the 'hit and run +2' ability in Drone.cfg uses a corresponding macro now
-	* moved the 'fiery glow' ability from Fire_Avatar.cfg and Fire_Elemental.cfg to abilities.cfg
-	* moved the 'water regeneration +4' ability to healing.cfg
-	* improved text formatting of various ability names
-	* added _REGENERATION suffix to all terrain-specific regeneration macros
+   * replaced multiple healing ability macros with one macro with {VALUE}
+   * replaced multiple regenerating ability macros with one macro with {VALUE}
+   * replaced custom water regeneration ability macros with one macro with {VALUE}
+   * replaced custom repair ability macros with one macro with {VALUE}
+   * the 'swamp regeneration' ability macro uses {VALUE} now
+   * the 'hit and run +2' ability in Drone.cfg uses a corresponding macro now
+   * moved the 'fiery glow' ability from Fire_Avatar.cfg and Fire_Elemental.cfg to abilities.cfg
+   * moved the 'water regeneration +4' ability to healing.cfg
+   * improved text formatting of various ability names
+   * added _REGENERATION suffix to all terrain-specific regeneration macros
  ### Translations
-	* updated the raw translation file
+   * updated the raw translation file
 
 ## Version 3.11.1
  ### Gameplay
-	* removed Bladefury from AoH and Masters recruit lists
-	* added Orcish Chieftain to the Masters recruit list
+   * removed Bladefury from AoH and Masters recruit lists
+   * added Orcish Chieftain to the Masters recruit list
  ### Units
-	** Kharos:
-	 * Kharosian Cataphract: movement from 7 to 8; AMLA XP from 150 to 126; disabled acquiring of the intelligent trait for recruitable Cataphracts; added the 'hit and run' weapon special to the ranged attack
-	 * Elemental Archer: changed the 'ice arrow' attack damage from 8-2 to 5-3
-	 * Mystical Archer: added the 'solar regeneration 0/3' ability
-	** Runemasters:
-	 * Pacificator: hitpoints from 88 to 85
-	** Sky Kingdom:
-	 * Terramancer: added a new melee pierce attack; the 'stones' attack now has the 'first strike' weapon special; changed the 'landmass' attack damage from 10-2 to 11-2
-	 * Master of Earth: added a new melee pierce attack; changed the number of strikes for the 'stones' attack from 8 to 9; changed the 'landmass' attack damage from 15-2 to 16-2
-	 * Aeromancer: added the hit and run +1 ability; added the 10% fire and cold resistance
-	 * Master of Air: added the hit and run +1 ability; added the 10% fire and cold resistance
-	 * Black Mage: XP from 86 to 90
-	 * Chronomancer: cold resistance from 25% to 30%
-	** Summoners:
-	 * Camel Master: melee damage from 11-3 to 10-3
-	 * Banisher: cost from 55g to 57g
-	** Tharis:
-	 * Chaos Hydra: cold resistance from 10% to 20%
-	 * Blade Dancer cave defense from 50% to 60%
-	 * Sword Dancer: added the 'nocturnal regeneration +3' ability; cave defense from 50% to 60%
-	 * Dark Wizard: XP from 100 to 88
-	 * Great Warlock: added the 'nocturnal regeneration +3' ability
-	 * Great Witch: XP from 110 to 100
-	 * Dark Assassin: XP from 94 to 88
-	 * Great Hunter: XP from 94 to 88	 
+   * Kharos:
+     * Kharosian Cataphract: movement from 7 to 8; AMLA XP from 150 to 126; disabled acquiring of the intelligent trait for recruitable Cataphracts; added the 'hit and run' weapon special to the ranged attack
+     * Elemental Archer: changed the 'ice arrow' attack damage from 8-2 to 5-3
+     * Mystical Archer: added the 'solar regeneration 0/3' ability
+   * Runemasters:
+     * Pacificator: hitpoints from 88 to 85
+   * Sky Kingdom:
+     * Terramancer: added a new melee pierce attack; the 'stones' attack now has the 'first strike' weapon special; changed the 'landmass' attack damage from 10-2 to 11-2
+     * Master of Earth: added a new melee pierce attack; changed the number of strikes for the 'stones' attack from 8 to 9; changed the 'landmass' attack damage from 15-2 to 16-2
+     * Aeromancer: added the hit and run +1 ability; added the 10% fire and cold resistance
+     * Master of Air: added the hit and run +1 ability; added the 10% fire and cold resistance
+     * Black Mage: XP from 86 to 90
+     * Chronomancer: cold resistance from 25% to 30%
+   * Summoners:
+     * Camel Master: melee damage from 11-3 to 10-3
+     * Banisher: cost from 55g to 57g
+   * Tharis:
+     * Chaos Hydra: cold resistance from 10% to 20%
+     * Blade Dancer cave defense from 50% to 60%
+     * Sword Dancer: added the 'nocturnal regeneration +3' ability; cave defense from 50% to 60%
+     * Dark Wizard: XP from 100 to 88
+     * Great Warlock: added the 'nocturnal regeneration +3' ability
+     * Great Witch: XP from 110 to 100
+     * Dark Assassin: XP from 94 to 88
+     * Great Hunter: XP from 94 to 88	 
  ### Abilities
-	* added the 'hit and run' weapon special
-	* rebalanced the 'chrono aura (active)' ability
-	* the 'pain absorption' ability no longer restores statuses
+   * added the 'hit and run' weapon special
+   * rebalanced the 'chrono aura (active)' ability
+   * the 'pain absorption' ability no longer restores statuses
  ### Graphics
-	* improved Mirrorshield sprites and attack icons
+   * improved Mirrorshield sprites and attack icons
  ### Code
-	* restored missing unit keys and values for Orcish Warbanner
+   * restored missing unit keys and values for Orcish Warbanner
  ### Translations
-	* updated the raw translation file
+   * updated the raw translation file
 
 ## Version 3.11
  ### Gameplay
-	* added 2 new units: Kharosian Cataphract and Kharosian Legionnaire (Kharos)
+   * added 2 new units: Kharosian Cataphract and Kharosian Legionnaire (Kharos)
  ### Units
-	** Destroyers:
-	 * Atokpi Charger: added magic-counter(offensive) to all melee attacks
-	** Kharos:
-	 * Kharosian Bulwark: cost from 51g to 48g
-	 * Kharosian Impaler: cost from 50g to 47g; fire resistance from 15% to 20%
-	 * Platinum Warrior: cost from 52g to 54g; melee pierce attack from 15-3 to 14-3
-	** Runemasters:
-	 * Dwarvish Rune Lord: added the Skilled weapon special to the 'runic sword' attack
-	** Sky Kingdom:
-	 * Mirrorshield: cost from 60g to 56g
-	 * Void Mage: experience from 150 to 214
-	** Summoners:
-	 * the 'hurricane' attack damage from 9-3 to 8-3
+   * Destroyers:
+     * Atokpi Charger: added magic-counter(offensive) to all melee attacks
+   * Kharos:
+     * Kharosian Bulwark: cost from 51g to 48g
+     * Kharosian Impaler: cost from 50g to 47g; fire resistance from 15% to 20%
+     * Platinum Warrior: cost from 52g to 54g; melee pierce attack from 15-3 to 14-3
+   * Runemasters:
+     * Dwarvish Rune Lord: added the Skilled weapon special to the 'runic sword' attack
+   * Sky Kingdom:
+     * Mirrorshield: cost from 60g to 56g
+     * Void Mage: experience from 150 to 214
+   * Summoners:
+     * the 'hurricane' attack damage from 9-3 to 8-3
  ### Abilities
-	* added passive effects to the 'chrono aura' ability
-	* rebalanced the 'chrono aura (active)' ability
+   * added passive effects to the 'chrono aura' ability
+   * rebalanced the 'chrono aura (active)' ability
  ### Code
-	* fixed missing advancement for Orcish Warbanner
-	* moved the 'shielded' ability/special to separate macros
+   * fixed missing advancement for Orcish Warbanner
+   * moved the 'shielded' ability/special to separate macros
  ### Translations
-	* updated the raw translation file
+   * updated the raw translation file
 
 ## Version 3.10
  ### Gameplay
-	* added 3 new units: Chronomancer (Sky Kingdom), Goblin Invader and Orcish Chieftain (Barbarians)
+   * added 3 new units: Chronomancer (Sky Kingdom), Goblin Invader and Orcish Chieftain (Barbarians)
  ### Units
-	** Barbarians:
-	 * Goblin Wizard: cost from 33g to 36g; ranged attack type changed from Arcane to Impact
-	** Darkblood Alliance:
-	 * Swamp Mage: Dammed Flame damage decreased from 30-1 to 24-1; Blade resistance to 0% (+10% buff)
-	 * Chosen of Marsh: Dammed Flame damage decrease from 40-1 to 32-1; Blade resistance to 0% (+10% buff)
-	 * Dreadnought: HP from 81 to 83
-	 * Toad Mystic: HP from 73 to 75
-	 * Twin Archer Toad: HP from 78 to 80
-	** Destroyers:
-	 * Atokpi Samurai: HP from 48 to 50; cold resistance from 10% to 20%
-	 * Atokpi General: HP from 48 to 50; cold resistance from 10% to 20%
-	 * Nightmare: cold resistance from -15% to -20%, arcane resistance from 5% to 0%
-	 * Mara: cold resistance from -10% to -15%, arcane resistance from 10% to 5%
-	 * Apocalypse: cold resistance from -5% to -10%, arcane resistance from 15% to 10%
-	 * Dark Apostle cold resistance from -5% to -10%, arcane resistance from 15% to 10%
-	 * Greater Cyclops Skeleton: arcane resistance from 0% to 10%
-	 * Extinct Cyclops Mage: arcane resistance from 10% to 15%
-	 * Fallen Cyclops King: arcane resistance from 10% to 15%
-	 * Harbinger: melee accuracy from Magical to Enchanted
-	 * Dark Portal: ranged attack accuracy from Magical to Magical(defense)
-	 * Infernal Vortex: ranged attack accuracy from Magical to Magical(defense)
-	** Kharos:
-	 * Avenger: blade/pierce/impact resistances from 15% to 30%, arcane resistance from 20% to 30%; removed Steadfast
-	 * Kharosian Impaler: melee attack got Magic-Counter
-	 * Inspired: cost from 48 to 50g; HP from 36 to 38; Bow got first-strike
-	** Runemasters:
-	 * Rune Artist: lightning attack accuracy changed to Magical(offensive) and Enchanted
-	 * Runemaster: lightning attack accuracy changed to Magical(offensive) and Enchanted
-	 * Dwarvish Runelord: gun attack accuracy changed to Precision(offensive) and Skilled
-	 * Runeadept: hammer accuracy changed from Skilled to Enchanted
-	 * Runesmith: hammer accuracy changed from Skilled to Enchanted
-	 * Pacificator: AMLA XP from 150 to 175
-	** Sky Kingdom:
-	 * Sculptor: movement from 6 to 5; entrapment spell accuracy from Precision to Magical; petrifying spell Magical replaced with Magical(offensive)
-	 * Architect: entrapment spell accuracy from Precision to Magical; petrifying spell Precision replaced with Precision(offensive)
-	 * Master Mage: lightning attack accuracy changed to Magical(offensive) and Enchanted
-	 * Master of Elements: lightning attack accuracy changed to Magical(offensive) and Enchanted
-	 * Master of Water: bubble attack accuracy changed to Magical(offensive) and Enchanted
-	 * Master of Earth: Stones attack got First-strike
-	 * Golem & War Golem: melee attacks now have Magic-counter(offensive)
-	 * Um: barrage damage from 3-12 to 3-11; AMLA XP from 150 to 175
-	** Summoners:
-	 * Great Jinni: Scimitar attack damage readjusted from 11-1 to 6-2
-	 * Wonderful Jinni: Scimitar attack damage readjusted from 15-1 to 8-2 +First-strike
-	 * Mystical Jinni: Scimitar attack damage readjusted from 19-1 to 10-2 +First-strike
-	 * Great Efreeti destruction attack accuracy changed from Magical to Magical(offensive)
-	 * Air God: eye of the storm attack accuracy changed to Magical(offensive) and Enchanted
-	** Tharis:
-	 * Matriarch of Emptiness: ranged accuracy from Magical to Enchanted
-	 * Matriarch of Darkness: Bloodgate accuracy changed to Precision(offensive) + Magical
+   * Barbarians:
+     * Goblin Wizard: cost from 33g to 36g; ranged attack type changed from Arcane to Impact
+   * Darkblood Alliance:
+     * Swamp Mage: Dammed Flame damage decreased from 30-1 to 24-1; Blade resistance to 0% (+10% buff)
+     * Chosen of Marsh: Dammed Flame damage decrease from 40-1 to 32-1; Blade resistance to 0% (+10% buff)
+     * Dreadnought: HP from 81 to 83
+     * Toad Mystic: HP from 73 to 75
+     * Twin Archer Toad: HP from 78 to 80
+   * Destroyers:
+     * Atokpi Samurai: HP from 48 to 50; cold resistance from 10% to 20%
+     * Atokpi General: HP from 48 to 50; cold resistance from 10% to 20%
+     * Nightmare: cold resistance from -15% to -20%, arcane resistance from 5% to 0%
+     * Mara: cold resistance from -10% to -15%, arcane resistance from 10% to 5%
+     * Apocalypse: cold resistance from -5% to -10%, arcane resistance from 15% to 10%
+     * Dark Apostle cold resistance from -5% to -10%, arcane resistance from 15% to 10%
+     * Greater Cyclops Skeleton: arcane resistance from 0% to 10%
+     * Extinct Cyclops Mage: arcane resistance from 10% to 15%
+     * Fallen Cyclops King: arcane resistance from 10% to 15%
+     * Harbinger: melee accuracy from Magical to Enchanted
+     * Dark Portal: ranged attack accuracy from Magical to Magical(defense)
+     * Infernal Vortex: ranged attack accuracy from Magical to Magical(defense)
+   * Kharos:
+     * Avenger: blade/pierce/impact resistances from 15% to 30%, arcane resistance from 20% to 30%; removed Steadfast
+     * Kharosian Impaler: melee attack got Magic-Counter
+     * Inspired: cost from 48 to 50g; HP from 36 to 38; Bow got first-strike
+   * Runemasters:
+     * Rune Artist: lightning attack accuracy changed to Magical(offensive) and Enchanted
+     * Runemaster: lightning attack accuracy changed to Magical(offensive) and Enchanted
+     * Dwarvish Runelord: gun attack accuracy changed to Precision(offensive) and Skilled
+     * Runeadept: hammer accuracy changed from Skilled to Enchanted
+     * Runesmith: hammer accuracy changed from Skilled to Enchanted
+     * Pacificator: AMLA XP from 150 to 175
+   * Sky Kingdom:
+     * Sculptor: movement from 6 to 5; entrapment spell accuracy from Precision to Magical; petrifying spell Magical replaced with Magical(offensive)
+     * Architect: entrapment spell accuracy from Precision to Magical; petrifying spell Precision replaced with Precision(offensive)
+     * Master Mage: lightning attack accuracy changed to Magical(offensive) and Enchanted
+     * Master of Elements: lightning attack accuracy changed to Magical(offensive) and Enchanted
+     * Master of Water: bubble attack accuracy changed to Magical(offensive) and Enchanted
+     * Master of Earth: Stones attack got First-strike
+     * Golem & War Golem: melee attacks now have Magic-counter(offensive)
+     * Um: barrage damage from 3-12 to 3-11; AMLA XP from 150 to 175
+   * Summoners:
+     * Great Jinni: Scimitar attack damage readjusted from 11-1 to 6-2
+     * Wonderful Jinni: Scimitar attack damage readjusted from 15-1 to 8-2 +First-strike
+     * Mystical Jinni: Scimitar attack damage readjusted from 19-1 to 10-2 +First-strike
+     * Great Efreeti destruction attack accuracy changed from Magical to Magical(offensive)
+     * Air God: eye of the storm attack accuracy changed to Magical(offensive) and Enchanted
+   * Tharis:
+     * Matriarch of Emptiness: ranged accuracy from Magical to Enchanted
+     * Matriarch of Darkness: Bloodgate accuracy changed to Precision(offensive) + Magical
  ### Abilities
-	* added the Chrono Aura ability
+   * added the Chrono Aura ability
  ### Translations
-	* updated the raw translation file
+   * updated the raw translation file
 
 ## Version 3.9.7
  ### Gameplay
-	* rebalanced lvl2 leaders: Punisher now starts with Slow and Weak traits, Atokpi Samurai now starts with Dexterous trait and Greater Cyclops now starts with Strong trait.
+   * rebalanced lvl2 leaders: Punisher now starts with Slow and Weak traits, Atokpi Samurai now starts with Dexterous trait and Greater Cyclops now starts with Strong trait.
  ### Units
-	** Destroyers:
-	 * Mara: HP from 32 to 35; melee accuracy from Magical to both Magical(offensive) and Enchanted
-	 * Apocalypse: HP from 38 to 40; cost from 52 to 54g
-	 * Dark Apostle: HP from 45 to 52; AMLA XP from 100 to 200; impact and fire resistances from 60% to 50%, arcane resistance from 20% to 15%
-	 * Bone Golem: XP from 100 to 90
-	 * Moloch: AMLA XP from 100 to 200
-	 * Abaddon: AMLA XP from 140 to 200
-	 * Titania: AMLA XP from 100 to 164
-	** Barbarians:
-	 * Troll Warlock: AMLA XP from 100 to 150
-	 * Goblin Raider: AMLA XP from 100 to 126; Poisoned Bolt damage from 10-3 to 11-3, Split fire damage from 8-2 to 9-2, Net damage from 5-3 to 6-3
-	 * Goblin Assassin: Bolas damage from 6-3 to 5-3
-	 * Goblin Veteran: XP from 100 to 90
-	 * Cyclops Lord: cost from 60 to 63g
-	** Darkblood Alliance
-	 * Saurian Assassin: AMLA XP from 100 to 126
-	 * Jungle Champion: AMLA XP from 100 to 126
-	 * Temple Guard: AMLA XP from 100 to 150
-	 * Battletoad: HP from 62 to 64 ; XP from 94 to 103
-	 * Toad Archer: HP from 58 to 61 ; XP from 85 to 93
-	 * Toad Shaman: HP from 58 to 61 ; XP from 100 to 110
-	 * Dreadnought: HP from 78 to 81
-	 * Twin Archer: Toad HP from 75 to 78
-	 * Toad Mystic: HP from 70 to 73
-	 * Salamander: fire resistance from -10% to 10%, cold resistance from 0% to -10%
-	 * Black Salamander: fire resistance from -10% to 10%, ranged damage lowered from 4-4 to 3-4
-	 * Blue Salamander: fire resistance from -10% to 10%, cold resistance from 10% to 0%
-	 * Green Salamander: fire resistance from -10% to 10%, cold resistance from 0% to -10%
-	 * Yellow Salamander: cold resistance from 0% to -10%; Kunai ranged attack now has the Bleeding weapon special
-	** Sky Kingdom:
-	 * Master of Elements: AMLA XP from 150 to 200
-	 * Mirrorshield: AMLA XP from 111 to 126
-	 * Sky Guardian: AMLA XP from 100 to 126
-	 * Hydromancer: icicles attack readjusted from 3-7 Magical to 3-8 Enchanted
-	 * Master of Water: icicles attack readjusted from 3-10 Magical to 4-9 Enchanted
-	 * Sculptor: entrapment spell damage from 5-3 to 4-3; petrifying spell now has the 'attack-only' special
-	 * Architect: Petrifying spell will now has the 'attack-only' special
-	 * Golem: HP from 42 to 43; XP from 60 to 54
-	** Summoners:
-	 * Camel Master: AMLA XP from 100 to 126
-	 * Water God: AMLA XP from 150 to 126
-	 * Air God: AMLA XP from 150 to 175
-	** Tharis
-	 * Dark Executioner: AMLA XP from 100 to 150
+   * Destroyers:
+     * Mara: HP from 32 to 35; melee accuracy from Magical to both Magical(offensive) and Enchanted
+     * Apocalypse: HP from 38 to 40; cost from 52 to 54g
+     * Dark Apostle: HP from 45 to 52; AMLA XP from 100 to 200; impact and fire resistances from 60% to 50%, arcane resistance from 20% to 15%
+     * Bone Golem: XP from 100 to 90
+     * Moloch: AMLA XP from 100 to 200
+     * Abaddon: AMLA XP from 140 to 200
+     * Titania: AMLA XP from 100 to 164
+   * Barbarians:
+     * Troll Warlock: AMLA XP from 100 to 150
+     * Goblin Raider: AMLA XP from 100 to 126; Poisoned Bolt damage from 10-3 to 11-3, Split fire damage from 8-2 to 9-2, Net damage from 5-3 to 6-3
+     * Goblin Assassin: Bolas damage from 6-3 to 5-3
+     * Goblin Veteran: XP from 100 to 90
+     * Cyclops Lord: cost from 60 to 63g
+   * Darkblood Alliance
+     * Saurian Assassin: AMLA XP from 100 to 126
+     * Jungle Champion: AMLA XP from 100 to 126
+     * Temple Guard: AMLA XP from 100 to 150
+     * Battletoad: HP from 62 to 64 ; XP from 94 to 103
+     * Toad Archer: HP from 58 to 61 ; XP from 85 to 93
+     * Toad Shaman: HP from 58 to 61 ; XP from 100 to 110
+     * Dreadnought: HP from 78 to 81
+     * Twin Archer: Toad HP from 75 to 78
+     * Toad Mystic: HP from 70 to 73
+     * Salamander: fire resistance from -10% to 10%, cold resistance from 0% to -10%
+     * Black Salamander: fire resistance from -10% to 10%, ranged damage lowered from 4-4 to 3-4
+     * Blue Salamander: fire resistance from -10% to 10%, cold resistance from 10% to 0%
+     * Green Salamander: fire resistance from -10% to 10%, cold resistance from 0% to -10%
+     * Yellow Salamander: cold resistance from 0% to -10%; Kunai ranged attack now has the Bleeding weapon special
+   * Sky Kingdom:
+     * Master of Elements: AMLA XP from 150 to 200
+     * Mirrorshield: AMLA XP from 111 to 126
+     * Sky Guardian: AMLA XP from 100 to 126
+     * Hydromancer: icicles attack readjusted from 3-7 Magical to 3-8 Enchanted
+     * Master of Water: icicles attack readjusted from 3-10 Magical to 4-9 Enchanted
+     * Sculptor: entrapment spell damage from 5-3 to 4-3; petrifying spell now has the 'attack-only' special
+     * Architect: Petrifying spell will now has the 'attack-only' special
+     * Golem: HP from 42 to 43; XP from 60 to 54
+   * Summoners:
+     * Camel Master: AMLA XP from 100 to 126
+     * Water God: AMLA XP from 150 to 126
+     * Air God: AMLA XP from 150 to 175
+   * Tharis
+     * Dark Executioner: AMLA XP from 100 to 150
 
 ## Version 3.9.6
  ### General
-	* added 2 new units: Goblin Wizard (Barbarians) and Chaotic Observer (Destroyers)
+   * added 2 new units: Goblin Wizard (Barbarians) and Chaotic Observer (Destroyers)
  ### Units
-	** Barbarians:
-	 * Goblin Shaman: fixed incorrect damage type for the melee attack (blade -> impact)
-	 * Goblin Druid: fixed incorrect damage type for the melee attack (blade -> impact)
-	** Destroyers:
-	 * Dark Portal: HP from 32 to 33; changed impact resistance from 35% to 50%
-	 * Infernal Vortex: changed impact resistance from 35% to 50%
-	 * Black Portal: changed impact resistance from 30% to 40%
-	 * Omen: reduced cost from 22g to 23g; changed impact resistance from -10% to -15%
-	 * Cyclops Skeleton: XP from 60 to 52
-	 * Greater Cyclops: XP from 120 to 110
-	 * Cyclops Necromancer: ranged damage from 17-1 to 16-1
-	 * Extinct Cyclops Mage: XP from 220 to 235
-	 * Atokpi: HP from 35 to 36; XP from 42 to 40; Blade resistance from 10% to 15%
-	 * Atokpi Samurai XP from 85 to 83
+   * Barbarians:
+     * Goblin Shaman: fixed incorrect damage type for the melee attack (blade -> impact)
+     * Goblin Druid: fixed incorrect damage type for the melee attack (blade -> impact)
+   * Destroyers:
+     * Dark Portal: HP from 32 to 33; changed impact resistance from 35% to 50%
+     * Infernal Vortex: changed impact resistance from 35% to 50%
+     * Black Portal: changed impact resistance from 30% to 40%
+     * Omen: reduced cost from 22g to 23g; changed impact resistance from -10% to -15%
+     * Cyclops Skeleton: XP from 60 to 52
+     * Greater Cyclops: XP from 120 to 110
+     * Cyclops Necromancer: ranged damage from 17-1 to 16-1
+     * Extinct Cyclops Mage: XP from 220 to 235
+     * Atokpi: HP from 35 to 36; XP from 42 to 40; Blade resistance from 10% to 15%
+     * Atokpi Samurai XP from 85 to 83
  ### Abilities
-	* added the Chaos Channeling ability
+   * added the Chaos Channeling ability
  ### Graphics
-	* added Sky Guardian portrait
+   * added Sky Guardian portrait
  ### Translations
-	* updated the raw translation file
-	* updated the Polish translation
+   * updated the raw translation file
+   * updated the Polish translation
 
 ## Version 3.9.5
  ### Units
-	** Barbarians:
-	 * Goblin Druid: can cure poison now
-	 * Orcish Warbanner: impact resistance from 0% to 10%
-	** Kharos:
-	 * Golden Warrior: hitpoints from 56 to 57; solar regeneration values increased from +2/+4 to +3/+5
-	 * Solar Master: solar regeneration values increased from +4/+8 to +5/+8
-	 * Sun Follower: solar regeneration values increased from +2/+5 to +3/+5
-	 * Kharos War Banner: impact resistance from 5% to 10%
-	 * Grand Kharosian Warbanner: impact resistance from 10% to 15%
-	 * Recruitment Officer: impact resistance from 10% to 20%
-	 * Striding Machine: fire resistance from -10% to -15%
-	 * Dwarvish Tank: fire resistance from -10% to -15%
-	** Sky Kingdom:
-	 * Master Mage: changed melee attack damage from 9-2 to 8-2; renamed the melee attack to "Magic Touch"
-	 * Master of Elements: renamed the melee attack to "Magic Touch"
-	** Summoners:
-	 * Water Avatar: impact resistance from 20% to 30%
-	 * Water God: impact resistance increase from 20% to 30%
-	** Tharis:
-	 * Raging Hydra: impact resistance from 10% to 20%
-	 * Chaos Hydra: impact resistance from 10% to 20%
+   * Barbarians:
+     * Goblin Druid: can cure poison now
+     * Orcish Warbanner: impact resistance from 0% to 10%
+   * Kharos:
+     * Golden Warrior: hitpoints from 56 to 57; solar regeneration values increased from +2/+4 to +3/+5
+     * Solar Master: solar regeneration values increased from +4/+8 to +5/+8
+     * Sun Follower: solar regeneration values increased from +2/+5 to +3/+5
+     * Kharos War Banner: impact resistance from 5% to 10%
+     * Grand Kharosian Warbanner: impact resistance from 10% to 15%
+     * Recruitment Officer: impact resistance from 10% to 20%
+     * Striding Machine: fire resistance from -10% to -15%
+     * Dwarvish Tank: fire resistance from -10% to -15%
+   * Sky Kingdom:
+     * Master Mage: changed melee attack damage from 9-2 to 8-2; renamed the melee attack to "Magic Touch"
+     * Master of Elements: renamed the melee attack to "Magic Touch"
+   * Summoners:
+     * Water Avatar: impact resistance from 20% to 30%
+     * Water God: impact resistance increase from 20% to 30%
+   * Tharis:
+     * Raging Hydra: impact resistance from 10% to 20%
+     * Chaos Hydra: impact resistance from 10% to 20%
  ### Graphics
-	* added Golden Warrior portrait
+   * added Golden Warrior portrait
  ### Code
-	* fixed missing #ifdef MULTIPLAYER in awe.cfg
+   * fixed missing #ifdef MULTIPLAYER in awe.cfg
  ### Translations
-	* updated the raw translation file
+   * updated the raw translation file
 
 ## Version 3.9.4
  ### Gameplay
-	* disabled the 'awe' ability in RPG mode
+   * disabled the 'awe' ability in RPG mode
  ### Units
-	** Darkblood Alliance:
-	 * Dreadnought (RPG): removed the 'skilled' weapon special from the 'spear throw' attack
-	 * Twin Archer Toad (RPG): changed the 'Split Fire' attack damage from 11-2 to 10-1
-	** Destroyers:
-	 * Cyclops Skeleton (and all advancements) (RPG): set fire/cold resistance to 20%, set arcane resistance to 0%
-	 * Omen (RPG): replaced the 'all-around' weapon special with 'triple strike'; replaced the 'no-counter' weapon special with 'dread'
-	 * Punisher (RPG): replaced the 'all-around' weapon special with 'triple strike'; replaced the 'no-counter' weapon special with 'dread'
-	 * Obliterator (RPG): replaced the 'all-around' weapon special with 'triple strike'; replaced the 'no-counter' weapon special with 'dread'; set resistances to match those of Punisher; replaced the 'skilled' weapon special with 'marksman' for the sword (blade) attack, replaced the 'precision' weapon special with 'skilled' for the sword (pierce) attack
-	 * Abaddon (RPG): replaced the 'all-around' weapon special with 'triple strike'; replaced the 'no-counter' weapon special with 'dread'; set resistances to match those of Punisher; replaced the 'skilled' weapon special with 'marksman' for the sword (blade) attack, replaced the 'precision' weapon special with 'skilled' for the sword (pierce) attack
-	** Kharos:
-	 * Kirios (RPG): changed the arcane resistance from 50% to 40%; changed the fire and cold resistances from 40% to 35%; changed the 'solar beam' attack damage from 17-2 to 15-1
-	 * Heavy Cavalry (RPG): added the 'dread' weapon special to the 'trample' attack
-	 * Elemental Archer (RPG): changed the 'fire arrow' attack damage from 12-2 to 10-2; changed the 'ice arrow' attack damage from 8-2 to 6-2
-	 * Mystical Archer (RPG): changed the 'fire arrow' attack damage from 12-3 to 10-3; changed the 'ice arrow' attack damage from 8-3 to 6-3; changed the 'holy arrow' attack damage from 16-2 to 11-2
-	 * Prophet of Light (RPG): replaced the 'magical' weapon special with 'magical offensive' for the 'blinding light' attack
-	 * Inspired (RPG): hitpoints from 36 to 48; added the 'magic counter' weapon special to the sword attack; added the 'magic counter' weapon special to the bow (pierce) attack
+   * Darkblood Alliance:
+     * Dreadnought (RPG): removed the 'skilled' weapon special from the 'spear throw' attack
+     * Twin Archer Toad (RPG): changed the 'Split Fire' attack damage from 11-2 to 10-1
+   * Destroyers:
+     * Cyclops Skeleton (and all advancements) (RPG): set fire/cold resistance to 20%, set arcane resistance to 0%
+     * Omen (RPG): replaced the 'all-around' weapon special with 'triple strike'; replaced the 'no-counter' weapon special with 'dread'
+     * Punisher (RPG): replaced the 'all-around' weapon special with 'triple strike'; replaced the 'no-counter' weapon special with 'dread'
+     * Obliterator (RPG): replaced the 'all-around' weapon special with 'triple strike'; replaced the 'no-counter' weapon special with 'dread'; set resistances to match those of Punisher; replaced the 'skilled' weapon special with 'marksman' for the sword (blade) attack, replaced the 'precision' weapon special with 'skilled' for the sword (pierce) attack
+     * Abaddon (RPG): replaced the 'all-around' weapon special with 'triple strike'; replaced the 'no-counter' weapon special with 'dread'; set resistances to match those of Punisher; replaced the 'skilled' weapon special with 'marksman' for the sword (blade) attack, replaced the 'precision' weapon special with 'skilled' for the sword (pierce) attack
+   * Kharos:
+     * Kirios (RPG): changed the arcane resistance from 50% to 40%; changed the fire and cold resistances from 40% to 35%; changed the 'solar beam' attack damage from 17-2 to 15-1
+     * Heavy Cavalry (RPG): added the 'dread' weapon special to the 'trample' attack
+     * Elemental Archer (RPG): changed the 'fire arrow' attack damage from 12-2 to 10-2; changed the 'ice arrow' attack damage from 8-2 to 6-2
+     * Mystical Archer (RPG): changed the 'fire arrow' attack damage from 12-3 to 10-3; changed the 'ice arrow' attack damage from 8-3 to 6-3; changed the 'holy arrow' attack damage from 16-2 to 11-2
+     * Prophet of Light (RPG): replaced the 'magical' weapon special with 'magical offensive' for the 'blinding light' attack
+     * Inspired (RPG): hitpoints from 36 to 48; added the 'magic counter' weapon special to the sword attack; added the 'magic counter' weapon special to the bow (pierce) attack
  ### Code
-	* added missing RPG check for some weapon specials
-	* fixed swapped contents of Saurian_Assassin_rpg.cfg and Jungle_Crossbowman_rpg.cfg
-	* fixed UNTLB_ errors for Jungle Crossbowman
+   * added missing RPG check for some weapon specials
+   * fixed swapped contents of Saurian_Assassin_rpg.cfg and Jungle_Crossbowman_rpg.cfg
+   * fixed UNTLB_ errors for Jungle Crossbowman
 
 ## Version 3.9.3
  ### Gameplay
-	* disabled the 'hard landing' and 'furious death' abilities in the RPG mode
+   * disabled the 'hard landing' and 'furious death' abilities in the RPG mode
  ### Units
-	** Barbarians:
-	 * Cyclops breaker (RPG): hitpoints from 58 to 62; changed the 'fist' (double-attack) attack damage from 6-4 to 3-3
-	 * Cyclops Goliath (RPG): replaced the precision weapon special with precision (offensive) for the 'gaze' attack
-	 * Cyclops Noble (RPG): changed the 'gaze (offensive)' attack damage from 17-1 to 14-1
-	 * Cyclops Lord (RPG): changed the 'gaze (offensive)' attack damage from 25-1 to 20-1
-	 * Gobling Shaman (RPG): added the magic counter weapon special to the staff attack; added magic hardening weapon special to all attacks
-	 * Barbarian Lord (RPG): changed the 'sword+axe' attack damage from 9-3 to 6-2
-	 * Barbarian King (RPG): changed the 'sword+axe' attack damage from 13-3 to 10-2
-	 * Troll Warlock (RPG): changed the 'fist' attack damage from 15-2 to 16-2, changed the 'blue flame' attack damage from 10-3 to 8-3
-	 * Troll Warbanner (RPG): added the magic hardening weapon special to all attacks
-	** Destroyers:
-	 * Apocalypse (RPG): changed the 'devour' attack damage from 22-1 to 17-1, the 'chaotic blast' attack damage from 9-2 to 7-2
-	 * Dark Apostle (RPG): changed the 'devour' attack damage from 36-1 to 21-1, the 'chaotic blast' damage from 13-2 to 9-2
-	 * Cyclops Necromancer (RPG): hitpoints from 40 to 44; added the regenerates ability; added the magic counter weapon special for melee attack, changed melee damage from 5-3 to 5-4
-	 * Greater Cyclops Skeleton (RPG): changed the 'gaze' attack damage from 25-1 to 22-1
-	 * Extinct Cyclops Mage (RPG): changed the 'gaze' attack damage from 38-1 to 29-1; changed the 'gaze (arcane)' attack damage from 13-3 to 10-4
-	 * Fallen Cyclops King (RPG): changed the 'gaze' attack damage from 56-1 to 37-1, changed the 'gaze (arcane)' attack damage from 14-4 to 11-5
-	 * Bone Giant (RPG): hitpoints from 71 to 83; set resistances to match those of Bone Golem
-	 * Moloch (RPG): hitpoints from 92 to 101; disabled the 'Split' ability; set resistances to match those of Bonge Giant
-	** Sky Kingdom:
-	 * Master of Fire: changed the 'flames' attack damage from 4-10 to 4-9
+   * Barbarians:
+     * Cyclops breaker (RPG): hitpoints from 58 to 62; changed the 'fist' (double-attack) attack damage from 6-4 to 3-3
+     * Cyclops Goliath (RPG): replaced the precision weapon special with precision (offensive) for the 'gaze' attack
+     * Cyclops Noble (RPG): changed the 'gaze (offensive)' attack damage from 17-1 to 14-1
+     * Cyclops Lord (RPG): changed the 'gaze (offensive)' attack damage from 25-1 to 20-1
+     * Gobling Shaman (RPG): added the magic counter weapon special to the staff attack; added magic hardening weapon special to all attacks
+     * Barbarian Lord (RPG): changed the 'sword+axe' attack damage from 9-3 to 6-2
+     * Barbarian King (RPG): changed the 'sword+axe' attack damage from 13-3 to 10-2
+     * Troll Warlock (RPG): changed the 'fist' attack damage from 15-2 to 16-2, changed the 'blue flame' attack damage from 10-3 to 8-3
+     * Troll Warbanner (RPG): added the magic hardening weapon special to all attacks
+   * Destroyers:
+     * Apocalypse (RPG): changed the 'devour' attack damage from 22-1 to 17-1, the 'chaotic blast' attack damage from 9-2 to 7-2
+     * Dark Apostle (RPG): changed the 'devour' attack damage from 36-1 to 21-1, the 'chaotic blast' damage from 13-2 to 9-2
+     * Cyclops Necromancer (RPG): hitpoints from 40 to 44; added the regenerates ability; added the magic counter weapon special for melee attack, changed melee damage from 5-3 to 5-4
+     * Greater Cyclops Skeleton (RPG): changed the 'gaze' attack damage from 25-1 to 22-1
+     * Extinct Cyclops Mage (RPG): changed the 'gaze' attack damage from 38-1 to 29-1; changed the 'gaze (arcane)' attack damage from 13-3 to 10-4
+     * Fallen Cyclops King (RPG): changed the 'gaze' attack damage from 56-1 to 37-1, changed the 'gaze (arcane)' attack damage from 14-4 to 11-5
+     * Bone Giant (RPG): hitpoints from 71 to 83; set resistances to match those of Bone Golem
+     * Moloch (RPG): hitpoints from 92 to 101; disabled the 'Split' ability; set resistances to match those of Bonge Giant
+   * Sky Kingdom:
+     * Master of Fire: changed the 'flames' attack damage from 4-10 to 4-9
  ### Abilities
-	* replaced the 'magic hardening' ability with a weapon special with the same name
-	* the 'magic hardening' reduces opponents' damage now, instead of buffing its owner's resistances
+   * replaced the 'magic hardening' ability with a weapon special with the same name
+   * the 'magic hardening' reduces opponents' damage now, instead of buffing its owner's resistances
  ### Code:
-	* replaced all occurrences of 'special=' with 'special_id='
+   * replaced all occurrences of 'special=' with 'special_id='
  ### Translations
-	* updated the raw translation file
+   * updated the raw translation file
     * updated the Polish translation
 
 ## Version 3.9.2
  ### Units
-	** Darkblood Alliance:
-	 * Temple Guard: added the 'first strike' and 'magic counter' weapon specials to the arcane melee attack; added the magic hardening ability
-	 * Chosen of Forest: added the magic counter weapon special to the melee attack
-	** Destroyers:
-	 * Atokpi Samurai: hitpoints from 47 to 48
-	 * Apocalypse (RPG): changed hitpoints from 38 to 44; set resistances to match those of Mara
-	 * Dark Apostle (RPG): changed hitpoints from 45 to 55; set resistances to match those of Mara
-	 * Harbiner (RPG): set cold resistance to 0%, set arcane resistance to -10%; changed the corrupted fire damage from 7-3 to 8-3; changed the melee magical special to magical (offensive); replaced marksman with precision (offensive) for the Chaotic Vortex attack, removed the immobilize special
-	 * Doom Bringer (RPG): set cold resistance to 0%, set arcane resistance to -10%; changed the corrupted fire damage from 10-3 to 11-3; changed the melee magical special to magical (offensive), increased damage from 6-4 to 7-4; replaced marksman with precision (offensive) for the Chaotic Vortex attack and changed damage from 21-1 to 19-1, removed the immobilize and precision (offensive) specials.
-	 * Atokpi Infantry: fire resistance from -10% to -20%, impact resistance from -10% to -15%
-	 * Atokpi Infantry (RPG): removed the precision (offensive) weapon special; changed movement from 6 to 5
-	 * Atokpi Charger (RPG): replaced the precision weapon special with skilled; changed movement from 7 to 6
-	 * Crimson Atokpi: fire resistance from -10% to -20%
-	 * Crimson Atokpi (RPG): replaced the precision weapon special with skilled; changed movement from 6 to 5
-	** Kharos:
-	 * Hoplite: cost from 32g to 35g
-	 * Kirios: cost from 75 to 83g
-	 * Kharosian Javelineer: fire resistance from -5% to +6%
-	** Runemasters:
-	 * Battlecopter (RPG): changed movement from 10 to 9; removed the first strike special from the ranged impact attack
-	 * Dwarvish Mobile Turret (RPG): decreased the shockwave attack damage from 10-2 to 8-1, removed the no-counter special; disabled the split fire attack; removed the triple strike special from the spread shot attack
-	 * Mobile Defensive Platform (RPG): decreased the shockwave attack damage from 9-3 to 8-2, removed the no-counter special; disabled the split fire attack; removed the triple strike special from the spread shot attack
-	 * Red Steam Ulfserker: added the magic counter weapon special to the melee attack
-	** Sky Kingdom:
-	 * Guru of Magic: added the magic counter weapon special to the melee attack
-	 * Hidden Face: added the magic counter (offensive) weapon special to the melee attack
-	 * Mystic Warrior: added the magic counter (offensive) weapon special to the melee attack
-	 * Sky Guardian: added the magic counter (offensive) weapon special to the melee attack
-	** Tharis:
-	 * Sword Dancer: added the magic counter weapon special to the melee attack
+   * Darkblood Alliance:
+     * Temple Guard: added the 'first strike' and 'magic counter' weapon specials to the arcane melee attack; added the magic hardening ability
+     * Chosen of Forest: added the magic counter weapon special to the melee attack
+   * Destroyers:
+     * Atokpi Samurai: hitpoints from 47 to 48
+     * Apocalypse (RPG): changed hitpoints from 38 to 44; set resistances to match those of Mara
+     * Dark Apostle (RPG): changed hitpoints from 45 to 55; set resistances to match those of Mara
+     * Harbiner (RPG): set cold resistance to 0%, set arcane resistance to -10%; changed the corrupted fire damage from 7-3 to 8-3; changed the melee magical special to magical (offensive); replaced marksman with precision (offensive) for the Chaotic Vortex attack, removed the immobilize special
+     * Doom Bringer (RPG): set cold resistance to 0%, set arcane resistance to -10%; changed the corrupted fire damage from 10-3 to 11-3; changed the melee magical special to magical (offensive), increased damage from 6-4 to 7-4; replaced marksman with precision (offensive) for the Chaotic Vortex attack and changed damage from 21-1 to 19-1, removed the immobilize and precision (offensive) specials.
+     * Atokpi Infantry: fire resistance from -10% to -20%, impact resistance from -10% to -15%
+     * Atokpi Infantry (RPG): removed the precision (offensive) weapon special; changed movement from 6 to 5
+     * Atokpi Charger (RPG): replaced the precision weapon special with skilled; changed movement from 7 to 6
+     * Crimson Atokpi: fire resistance from -10% to -20%
+     * Crimson Atokpi (RPG): replaced the precision weapon special with skilled; changed movement from 6 to 5
+   * Kharos:
+     * Hoplite: cost from 32g to 35g
+     * Kirios: cost from 75 to 83g
+     * Kharosian Javelineer: fire resistance from -5% to +6%
+   * Runemasters:
+     * Battlecopter (RPG): changed movement from 10 to 9; removed the first strike special from the ranged impact attack
+     * Dwarvish Mobile Turret (RPG): decreased the shockwave attack damage from 10-2 to 8-1, removed the no-counter special; disabled the split fire attack; removed the triple strike special from the spread shot attack
+     * Mobile Defensive Platform (RPG): decreased the shockwave attack damage from 9-3 to 8-2, removed the no-counter special; disabled the split fire attack; removed the triple strike special from the spread shot attack
+     * Red Steam Ulfserker: added the magic counter weapon special to the melee attack
+   * Sky Kingdom:
+     * Guru of Magic: added the magic counter weapon special to the melee attack
+     * Hidden Face: added the magic counter (offensive) weapon special to the melee attack
+     * Mystic Warrior: added the magic counter (offensive) weapon special to the melee attack
+     * Sky Guardian: added the magic counter (offensive) weapon special to the melee attack
+   * Tharis:
+     * Sword Dancer: added the magic counter weapon special to the melee attack
  ### Abilities
-	* added the 'magic hardening' ability
-	* added the 'magic counter' weapon special
-	* renamed the 'phase' weapon special to 'divine'
+   * added the 'magic hardening' ability
+   * added the 'magic counter' weapon special
+   * renamed the 'phase' weapon special to 'divine'
  ### Code
-	* added the first strike special disabler for RPG mode
-	* added missing textdomains to some files
+   * added the first strike special disabler for RPG mode
+   * added missing textdomains to some files
  ### Translations
-	* updated the raw translation file
+   * updated the raw translation file
     * updated the Polish translation
 
 ## Version 3.9.1
  ### Gameplay
-	* added a new unit: Temple Guard
+   * added a new unit: Temple Guard
  ### Abilities
-	* added a new weapon special: Phase
-	* the boodlust ability no longer cures poison
+   * added a new weapon special: Phase
+   * the boodlust ability no longer cures poison
  ### Units
-	** Darkblood Alliance:
-	 * Forest Spirit: disabled zoc
-	 * Swamp Spirit: disabled zoc
-	** Destroyers:
-	 * Doom Bringer: changed melee attack damage from 7-4 to 6-4
-	** Kharos:
-	 * Hoplite: hitpoints from 55 to 53; changed the shield attack damage from 17-1 to 16-1
-	 * Prophet of Light: changed the lightbeam attack damage from 10-3 to 11-3
-	** Runemasters:
-	 * Balloon: impact resistance from 20 to 10
-	 * Heavy Balloon: impact resistance from 20 to 10
-	 * Battlecopter: cost from 64 to 68
-	 * Mechanic: set impact resistance to 30
-	 * Technician: set impact resistance to 30
-	 * Constructor: set impact resistance to 30
-	 * Dwarvish Soldier: added the marksman weapon special to the gun attack
-	 * Flying Fortress: hitpoints from 82 to 80; changed the hard landing damage value from 13 to 11; changed the impact resistance from 20 to 10
-	 * Mechanical Dragon: changed the hard landing damage value from 11 to 9
-	 * Technologist: impact resistance from 10 to 20
-	 * Technocrat: impact resistance from 10 to 20
-	** Sky Kingdom:
-	 * Master Mage: set mountains movement cost to 2; changed the lightning attack damage from 34-1 to 33-1
-	 * Um: set village defense to 50%
-	 * War Mage: cost from 36 to 34
-	** Summoners:
-	 * Efreeti: fire resistance from 50 to 40
-	 * Great Efreeti: fire resistance from 50 to 40
+   * Darkblood Alliance:
+     * Forest Spirit: disabled zoc
+     * Swamp Spirit: disabled zoc
+   * Destroyers:
+     * Doom Bringer: changed melee attack damage from 7-4 to 6-4
+   * Kharos:
+     * Hoplite: hitpoints from 55 to 53; changed the shield attack damage from 17-1 to 16-1
+     * Prophet of Light: changed the lightbeam attack damage from 10-3 to 11-3
+   * Runemasters:
+     * Balloon: impact resistance from 20 to 10
+     * Heavy Balloon: impact resistance from 20 to 10
+     * Battlecopter: cost from 64 to 68
+     * Mechanic: set impact resistance to 30
+     * Technician: set impact resistance to 30
+     * Constructor: set impact resistance to 30
+     * Dwarvish Soldier: added the marksman weapon special to the gun attack
+     * Flying Fortress: hitpoints from 82 to 80; changed the hard landing damage value from 13 to 11; changed the impact resistance from 20 to 10
+     * Mechanical Dragon: changed the hard landing damage value from 11 to 9
+     * Technologist: impact resistance from 10 to 20
+     * Technocrat: impact resistance from 10 to 20
+   * Sky Kingdom:
+     * Master Mage: set mountains movement cost to 2; changed the lightning attack damage from 34-1 to 33-1
+     * Um: set village defense to 50%
+     * War Mage: cost from 36 to 34
+   * Summoners:
+     * Efreeti: fire resistance from 50 to 40
+     * Great Efreeti: fire resistance from 50 to 40
  ### Descriptions
-	* improved the deflect magic ability description
+   * improved the deflect magic ability description
  ### Code
-	* fixed missing {AMLA_DEFAULT} in Recruitment Officer
+   * fixed missing {AMLA_DEFAULT} in Recruitment Officer
  ### Translations
-	* updated the raw translation file
+   * updated the raw translation file
     * updated the Polish translation
 
 ## Version 3.9
  ### Gameplay
-	* added 12 new units: Bladefury, Chainlady, Frontliner, Crimson Blade, Pain Mistress, Matriarch of Pain, Terramancer, Master of Earth, Architect, Kharosian Bulwark, Forest Spirit, Swamp Spirit
+   * added 12 new units: Bladefury, Chainlady, Frontliner, Crimson Blade, Pain Mistress, Matriarch of Pain, Terramancer, Master of Earth, Architect, Kharosian Bulwark, Forest Spirit, Swamp Spirit
  ### Units
-	** Destroyers:
-	 * Doom Bringer: changed melee attack damage from 6-4 to 7-4
-	** Kharos:
-	 * Recruitment Officer: reduced Shielder's recruitment cost from 18 to 14; added an option to recruit White Warriors 
-	 * Kharosian Impaler: changed ranged attack damage from 14-2 to 16-2
-	** Runemasters:
-	 * Battlecopter: increased movement from 9 to 10; increased Shock Gun attack damage from 11-1 to 12-1; changed impact missile damage from 6-4 to 11-3
-	 * Parachutist: can now advance to Balloon
+   * Destroyers:
+     * Doom Bringer: changed melee attack damage from 6-4 to 7-4
+   * Kharos:
+     * Recruitment Officer: reduced Shielder's recruitment cost from 18 to 14; added an option to recruit White Warriors 
+     * Kharosian Impaler: changed ranged attack damage from 14-2 to 16-2
+   * Runemasters:
+     * Battlecopter: increased movement from 9 to 10; increased Shock Gun attack damage from 11-1 to 12-1; changed impact missile damage from 6-4 to 11-3
+     * Parachutist: can now advance to Balloon
  ### Abilities:
-	* added new ability: Statue Copy
-	* added new ability: Tenacity (unused)
-	* added new ability: Warrior Influence (unused)
-	* added new ability: Crimson Aura
-	* added new ability: Nature Regeneration +4
-	* added new ability: Forest Regeneration +4
-	* added new ability: Swamp Regeneration +8
-	* added new ability: Nature Detox
-	* added new ability: Kamikaze Heal
-	* added new weapon special: Bleed
-	* added new weapon special: Dread
-	* added new ability/weapon special: Shielded
-	* added new ability/weapon special: Pain Absorption	
+   * added new ability: Statue Copy
+   * added new ability: Tenacity (unused)
+   * added new ability: Warrior Influence (unused)
+   * added new ability: Crimson Aura
+   * added new ability: Nature Regeneration +4
+   * added new ability: Forest Regeneration +4
+   * added new ability: Swamp Regeneration +8
+   * added new ability: Nature Detox
+   * added new ability: Kamikaze Heal
+   * added new weapon special: Bleed
+   * added new weapon special: Dread
+   * added new ability/weapon special: Shielded
+   * added new ability/weapon special: Pain Absorption	
  ### Graphics
-	* improved Guru's landmass attack animation
+   * improved Guru's landmass attack animation
  ### Descriptions
-	* improved the Dauntless ability description
+   * improved the Dauntless ability description
  ### Code
-	* improved the check for units with [drains]; added a special check for pain absorption
-	* added [fire_event] for the "all around" weapon special
-	* updated missing unit ids in hide_help.cfg
-	* fixed a weapon special mentioned twice in DEFLECT_MAGIC_FILTER
-	* removed profile and small_profile keys in Mirrorshield.cfg
+   * improved the check for units with [drains]; added a special check for pain absorption
+   * added [fire_event] for the "all around" weapon special
+   * updated missing unit ids in hide_help.cfg
+   * fixed a weapon special mentioned twice in DEFLECT_MAGIC_FILTER
+   * removed profile and small_profile keys in Mirrorshield.cfg
  ### Translations
-	* updated the raw translation file
+   * updated the raw translation file
     * updated the Polish translation
 
 ## Version 3.8.3a
  ### Gameplay
-	* fixed veteran/fanatic AMLA issues
+   * fixed veteran/fanatic AMLA issues
  ### Units
-	** Kharos:
-	 * Kharosian Javelineer: removed the steadfast ability; set resistances to: 0% (blade, impact, cold), 20% pierce, 30% arcane
-	 * Kharosian Impaler: removed the steadfast ability; set resistances to: 0% (blade, impact, cold), 30% pierce, 40% arcane, 15% fire
-	** Sky Kingdom:
-	 * Mirrorshield: set resistances to: -10% blade, 0% impact, 0% pierce; the unit has 2 traits now
-	 * Sky Guardian: the unit has 2 traits now
+   * Kharos:
+     * Kharosian Javelineer: removed the steadfast ability; set resistances to: 0% (blade, impact, cold), 20% pierce, 30% arcane
+     * Kharosian Impaler: removed the steadfast ability; set resistances to: 0% (blade, impact, cold), 30% pierce, 40% arcane, 15% fire
+   * Sky Kingdom:
+     * Mirrorshield: set resistances to: -10% blade, 0% impact, 0% pierce; the unit has 2 traits now
+     * Sky Guardian: the unit has 2 traits now
 
 ## Version 3.8.3
  ### Gameplay
-	* added 5 new units: Battlecopter, Mirrorshield, Recruitment Officer, Kharosian Javelineer and Kharosian Impaler
+   * added 5 new units: Battlecopter, Mirrorshield, Recruitment Officer, Kharosian Javelineer and Kharosian Impaler
  ### Units
-	** Kharos:
-	 * Elemental Archer: fire resistance from 15% to 20%
+   * Kharos:
+     * Elemental Archer: fire resistance from 15% to 20%
  ### Abilities
-	* implemented a new ability: 'Recruit' (modified variant of the 'Summon' ability for Recruitment Officers)
-	* implemented a new ability: 'Deflect Magic' (for Mirrorshield)
+   * implemented a new ability: 'Recruit' (modified variant of the 'Summon' ability for Recruitment Officers)
+   * implemented a new ability: 'Deflect Magic' (for Mirrorshield)
  ### Descriptions
-	* added new descriptions for Steamcopter (IPS), Battlecopter (IPS), Mechanical Dragon (IPS + Lord-Knightmare), Fallen Cyclops King (Lord_bold), Black Portal (IPS), Recruitment Officer (Lord_bold), Kharosian Javelineer (IPS)
+   * added new descriptions for Steamcopter (IPS), Battlecopter (IPS), Mechanical Dragon (IPS + Lord-Knightmare), Fallen Cyclops King (Lord_bold), Black Portal (IPS), Recruitment Officer (Lord_bold), Kharosian Javelineer (IPS)
  ### Translations
-	* updated the raw translation file
+   * updated the raw translation file
     * updated the Polish translation	
 
 ## Version 3.8.2
  ### Gameplay
-	* added a new unit for Destroyers: Black Portal
+   * added a new unit for Destroyers: Black Portal
  ### Units
-	** Dark Blood Alliance:
-	 * Corrupted Shaman: fire resistance from 10% to 15%
-	 * Mystic: fire resistance from -10% to 0%
-	 * Jungle Champion: fire resistance from -10% to -5%
-	 * Saurian Assassin: fire resistance from -10% to -5%
-	 * Yellow Salamander: fire resistance from 15% to 20%
-	** Summoners:
-	 * Great Efreeti: hitpoints from 62 to 60; experience from 110 to 150; cost from 66g to 68g; Meteor Shower attack damage from 18-2 to 17-2
+   * Dark Blood Alliance:
+     * Corrupted Shaman: fire resistance from 10% to 15%
+     * Mystic: fire resistance from -10% to 0%
+     * Jungle Champion: fire resistance from -10% to -5%
+     * Saurian Assassin: fire resistance from -10% to -5%
+     * Yellow Salamander: fire resistance from 15% to 20%
+   * Summoners:
+     * Great Efreeti: hitpoints from 62 to 60; experience from 110 to 150; cost from 66g to 68g; Meteor Shower attack damage from 18-2 to 17-2
  ### Abilities
-	* added the scavenger ability
-	* added the "magical (defensive)" weapon special
+   * added the scavenger ability
+   * added the "magical (defensive)" weapon special
  ### Graphics
-	* improved the look of Infernal Vortex
-	* fixed the size of Dark Portal and Infernal Vortex unit icons on gui elements
+   * improved the look of Infernal Vortex
+   * fixed the size of Dark Portal and Infernal Vortex unit icons on gui elements
  ### Descriptions
-	* added new descriptions for Cyclops Necromancer and Greater Cyclops Skeleton (by Lord_bold)
+   * added new descriptions for Cyclops Necromancer and Greater Cyclops Skeleton (by Lord_bold)
  ### Code
-	* moved functions from main and EoMa_eras to era_macros.cfg
-	* removed macros as they are now in era_macros.cfg
+   * moved functions from main and EoMa_eras to era_macros.cfg
+   * removed macros as they are now in era_macros.cfg
  ### Translations
-	* updated the raw translation file
+   * updated the raw translation file
     * updated the Polish translation
 
 ## Version 3.8.1
  ### Abilities
-	* changed supercharge damage modifier from 2 to 1.5
-	* fixed the supercharge weapon special not giving kill experience
+   * changed supercharge damage modifier from 2 to 1.5
+   * fixed the supercharge weapon special not giving kill experience
  ### Descriptions
-	* added new descriptions for Bone Golem, Bone Giant and Moloch (by Lord_bold)
+   * added new descriptions for Bone Golem, Bone Giant and Moloch (by Lord_bold)
  ### Translations
-	* updated EoMa_translation_template.pot
+   * updated EoMa_translation_template.pot
 
 ## Version 3.8
  ### Gameplay
-	* added 3 new units for the Destroyers faction: Atokpi Infantry, Crimson Atokpi and Atkopi Charger
-	* removed Troll Warbanner and Goblin Druid from the list of available leaders in Age of Heroes era
+   * added 3 new units for the Destroyers faction: Atokpi Infantry, Crimson Atokpi and Atkopi Charger
+   * removed Troll Warbanner and Goblin Druid from the list of available leaders in Age of Heroes era
  ### Units
-	** Kharos:
-	 * Great Kharos Warbanner: changed the lightbeam attack weapon special from magical to magical (offensive), added the enchanted weapon special, reduced damage from 9-3 to 8-3
+   * Kharos:
+     * Great Kharos Warbanner: changed the lightbeam attack weapon special from magical to magical (offensive), added the enchanted weapon special, reduced damage from 9-3 to 8-3
  ### Abilities
-	* added the dauntless ability
-	* added the enchanted weapon special
-	* added the supercharge weapon special
+   * added the dauntless ability
+   * added the enchanted weapon special
+   * added the supercharge weapon special
  ### Graphics
-	* improved Doom Bringer's animations
-	* improved Mobile Turret and MDP animations
-	* new attack icons (machine gun, impact ammo and shockwave)
+   * improved Doom Bringer's animations
+   * improved Mobile Turret and MDP animations
+   * new attack icons (machine gun, impact ammo and shockwave)
  ### Code
-	* moved the bloodlust ability from Blood_Warrior.cfg to abilities.cfg
+   * moved the bloodlust ability from Blood_Warrior.cfg to abilities.cfg
  ### Descriptions
-	* added new descriptions for Atokpi Infantry and Crimson Atokpi (by IPS)
+   * added new descriptions for Atokpi Infantry and Crimson Atokpi (by IPS)
  ### Translations
-	* updated the raw translation file
+   * updated the raw translation file
     * updated the Polish translation
 
 ## Version 3.7.5
  ### Gameplay
-	* added new options for the sequence of traits\AMLAs
+   * added new options for the sequence of traits\AMLAs
  ### Units
-	** Barbarians:
-	 * Barbarian King: hitpoints from 82 to 87
-	** Runemasters:
-	 * Dwarvish Rune Lord: decreased thunderstick damage from 26 to 24
-	 * Runemaster: decreased runic hammer damage from 17-2 to 15-2
-	 * Technocrat: fixed incorrect damage type for plasma rifle
-	** Sky Kingdom:
-	 * Master of Elements: decreased mountains movement cost to 2
-	** Tharis:
-	 * Dark Wizard: cost from 39g to 38g
-	 * Great Warlock: can no longer summon in RPG mode
-	 * Master of Darkness: new attack: implosion 12-3 (ranged magical impact); can no longer summon in RPG mode
+   * Barbarians:
+     * Barbarian King: hitpoints from 82 to 87
+   * Runemasters:
+     * Dwarvish Rune Lord: decreased thunderstick damage from 26 to 24
+     * Runemaster: decreased runic hammer damage from 17-2 to 15-2
+     * Technocrat: fixed incorrect damage type for plasma rifle
+   * Sky Kingdom:
+     * Master of Elements: decreased mountains movement cost to 2
+   * Tharis:
+     * Dark Wizard: cost from 39g to 38g
+     * Great Warlock: can no longer summon in RPG mode
+     * Master of Darkness: new attack: implosion 12-3 (ranged magical impact); can no longer summon in RPG mode
  ### Translations
-	* updated the EoMa_translation_template
+   * updated the EoMa_translation_template
 
 ## Version 3.7.4
  ### Gameplay
-	* implemented a 'sequence of AMLAs' to selected units (veteran_trait->amla_default; survivor_trait->amla_default; veteran_trait->survivor_trait->amla_default)
-	* added a new trait: survivor (+7HP +20% XP)
-	* Darkblood Alliance can now recruit lvl1 Wyverns in Masters era
+   * implemented a 'sequence of AMLAs' to selected units (veteran_trait->amla_default; survivor_trait->amla_default; veteran_trait->survivor_trait->amla_default)
+   * added a new trait: survivor (+7HP +20% XP)
+   * Darkblood Alliance can now recruit lvl1 Wyverns in Masters era
  ### Units
-	** Dark Blood Alliance:
-	 * Black Salamander: blade resistance from -10% to 0%
-	 * Chaos Wyvern Rider: removed the drains weapon special from the fangs attack
-	 * Chosen of Forest: set cold resistance to 40%; set arcane resistance to 30%
-	 * Chosen of Marsh: set cold resistance to 30%
-	 * Corrupted Shaman: set cold resistance to 20%
-	 * Mystic: set cold resistance to 30%; set arcane resistance to 30%
-	 * Clan Leader: set cold resistance to 20%; set fire resistance to -10%
-	 * Swamp Mage: hitpoints from 46 to 48; cold resistance from 20% to 30%
-	** Destroyers:
-	 * Zombie Um: changed experience from 36 to 62
-	** Kharos:
-	 * Elemental Archer: changed fire resistance from 20% to 15%; cold resistance from 15% to 20%
-	 * Grand Kharosian Warbanner: hitpoints from 90 to 85; arcane resistance from 50% to 40%
-	** Runemasters:
-	 * Constructor: experience from 100 to 111
-	 * Dwarvish Cadet: thunderstick damage from 15 to 16
-	 * Dwarvish Cadet: experience from 88 to 126; thunderstick damage from 19 to 21
-	 * Steam Turboserker: experience from 100 to 126
-	 * Steamcopter: added the first strike weapon special to the bomb attack
-	** Sky Kingdom:
-	 * Cosmic Eye: changed reality warp's precision weapon special to precision (offensive), added lesser revenge
-	 * Master of Fire: cost from 60g to 62g; sand movement cost to 1; inferno damage from 32 to 29
-	** Tharis:
-	 * Storm Sphere: cost from 33g to 35g
+   * Dark Blood Alliance:
+     * Black Salamander: blade resistance from -10% to 0%
+     * Chaos Wyvern Rider: removed the drains weapon special from the fangs attack
+     * Chosen of Forest: set cold resistance to 40%; set arcane resistance to 30%
+     * Chosen of Marsh: set cold resistance to 30%
+     * Corrupted Shaman: set cold resistance to 20%
+     * Mystic: set cold resistance to 30%; set arcane resistance to 30%
+     * Clan Leader: set cold resistance to 20%; set fire resistance to -10%
+     * Swamp Mage: hitpoints from 46 to 48; cold resistance from 20% to 30%
+   * Destroyers:
+     * Zombie Um: changed experience from 36 to 62
+   * Kharos:
+     * Elemental Archer: changed fire resistance from 20% to 15%; cold resistance from 15% to 20%
+     * Grand Kharosian Warbanner: hitpoints from 90 to 85; arcane resistance from 50% to 40%
+   * Runemasters:
+     * Constructor: experience from 100 to 111
+     * Dwarvish Cadet: thunderstick damage from 15 to 16
+     * Dwarvish Cadet: experience from 88 to 126; thunderstick damage from 19 to 21
+     * Steam Turboserker: experience from 100 to 126
+     * Steamcopter: added the first strike weapon special to the bomb attack
+   * Sky Kingdom:
+     * Cosmic Eye: changed reality warp's precision weapon special to precision (offensive), added lesser revenge
+     * Master of Fire: cost from 60g to 62g; sand movement cost to 1; inferno damage from 32 to 29
+   * Tharis:
+     * Storm Sphere: cost from 33g to 35g
  ### Descriptions
-	* added new descriptions for Mara, Apocalypse, Dark Apostle, Harbinger, Doom Bringer (by Lord_bold)
+   * added new descriptions for Mara, Apocalypse, Dark Apostle, Harbinger, Doom Bringer (by Lord_bold)
 
 ## Version 3.7.3
  ### Gameplay
-	* added 2 new units for the Destroyers faction: Harbinger and Doom Bringer
+   * added 2 new units for the Destroyers faction: Harbinger and Doom Bringer
  ### Units
-	** Dark Blood Alliance:
-	 * Mystic: changed freezing spell damage from 4-4 to 5-4
-	** Sky Kingdom:
-	 * Cosmic Eye: experience from 100 to 111; cost from 44g to 45g; replaced melee attack precision weapon special with precision (offensive), added the magical weapon special
-	** Summoners:
-	 * Great Efreeti: reduced the destruction attack damage from 33-1 to 27-1, added 'attack-only' weapon special
+   * Dark Blood Alliance:
+     * Mystic: changed freezing spell damage from 4-4 to 5-4
+   * Sky Kingdom:
+     * Cosmic Eye: experience from 100 to 111; cost from 44g to 45g; replaced melee attack precision weapon special with precision (offensive), added the magical weapon special
+   * Summoners:
+     * Great Efreeti: reduced the destruction attack damage from 33-1 to 27-1, added 'attack-only' weapon special
  ### Descriptions
-	* added a description for Dwarvish Cadet
-	* added a description for Dwarvish Mobile Turret
-	* added a description for Technologist
+   * added a description for Dwarvish Cadet
+   * added a description for Dwarvish Mobile Turret
+   * added a description for Technologist
  ### Translations
     * updated the Polish translation
-	* updated the raw translation file
+   * updated the raw translation file
 
 ## Version 3.7.2
  ### Units
-	** Dark Blood Alliance:
-	 * Saurian Assassin: changed alignment to chaotic
-	** Destroyers:
-	 * Atokpi Samurai: cost from 31g to 29g
-	 * Greater Cyclops Skeleton: cost from 32g to 31g
-	 * Mara: cost from 35g to 34g
-	 * Pirania Monstruosa: cost from 28g to 27g
-	** Kharos:
-	 * Silver Warrior: cost from 33g to 32g
-	** Runemasters:
-	 * Dwarvish Cadet: fixed incorrect mountains defense values
-	 * Dwarvish Soldier: fixed incorrect mountains defense values
-	 * Steamcopter: fire resistance from -20% to -10%
-	 * Technologist: the shock grenade got 'magical (offensive)' weapon special
-	 * Technocrat: increased the shock grenade's damage from 11-2 to 12-2
-	** Sky Kingdom:
-	 * Battle Eye: replaced the 'precision' weapon special with 'magical' for the melee attack
-	 * Golden Mage: impact resistance from 15% to 25%
-	** Summoners:
-	 * Dimensional Gate II: cost from 21g to 27g
-	 * Water Avatar: cost from 32g to 31g
-	** Tharis:
-	 * Dark Assassin: added the first strike weapon special for the 6-2 melee attack
-	 * Shadowblade: added the first strike weapon special for the 10-2 melee attack
-	 * Great Warlock: added the 'Summon Dark Observer' ability (cost 18g)
-	 * Master of Darkness: added the 'Summon Dark Observer' ability (cost 16g)
-	 * Matriarch of Darkness: hitpoints from 53 to 55; cost from 60g to 58g; added a new melee attack: 'frozen spear' (10-2 cold)
+   * Dark Blood Alliance:
+     * Saurian Assassin: changed alignment to chaotic
+   * Destroyers:
+     * Atokpi Samurai: cost from 31g to 29g
+     * Greater Cyclops Skeleton: cost from 32g to 31g
+     * Mara: cost from 35g to 34g
+     * Pirania Monstruosa: cost from 28g to 27g
+   * Kharos:
+     * Silver Warrior: cost from 33g to 32g
+   * Runemasters:
+     * Dwarvish Cadet: fixed incorrect mountains defense values
+     * Dwarvish Soldier: fixed incorrect mountains defense values
+     * Steamcopter: fire resistance from -20% to -10%
+     * Technologist: the shock grenade got 'magical (offensive)' weapon special
+     * Technocrat: increased the shock grenade's damage from 11-2 to 12-2
+   * Sky Kingdom:
+     * Battle Eye: replaced the 'precision' weapon special with 'magical' for the melee attack
+     * Golden Mage: impact resistance from 15% to 25%
+   * Summoners:
+     * Dimensional Gate II: cost from 21g to 27g
+     * Water Avatar: cost from 32g to 31g
+   * Tharis:
+     * Dark Assassin: added the first strike weapon special for the 6-2 melee attack
+     * Shadowblade: added the first strike weapon special for the 10-2 melee attack
+     * Great Warlock: added the 'Summon Dark Observer' ability (cost 18g)
+     * Master of Darkness: added the 'Summon Dark Observer' ability (cost 16g)
+     * Matriarch of Darkness: hitpoints from 53 to 55; cost from 60g to 58g; added a new melee attack: 'frozen spear' (10-2 cold)
  ### Code
-	* replaced deprecated code in the stun weapon special
-	* renamed EoMa_raw_translation_file.po to EoMa_translation_template.pot
+   * replaced deprecated code in the stun weapon special
+   * renamed EoMa_raw_translation_file.po to EoMa_translation_template.pot
  ### Translations
-	* updated the EoMa_translation_template.pot
-	* updated translators_readme.txt
+   * updated the EoMa_translation_template.pot
+   * updated translators_readme.txt
 
 ## Version 3.7.1a
  ### Units
-	** Runemasters:
-	 * Dwarvish Soldier: fixed incorrect unit level
-	 * Dwarvish Mobile Turret: fixed incorrect unit level
-	 * Mobile Defensive Platform: fixed incorrect unit level
+   * Runemasters:
+     * Dwarvish Soldier: fixed incorrect unit level
+     * Dwarvish Mobile Turret: fixed incorrect unit level
+     * Mobile Defensive Platform: fixed incorrect unit level
 
 ## Version 3.7.1
  ### Units
-	** Kharos:
-	 * Elemental Archer: fire resistance from 15% to 20%; arcane resistance from 20% to 30%
-	 * Mystical Archer: arcane resistance from 30% to 40%
-	** Runemasters:
-	 * Steamcopter: fixed incorrect number of strikes
-	 * Dwarvish Mobile Turret: fixed incorrect number of strikes
-	 * Mobile Defensive Platform: the split fire attack got the 'lesser revenge' weapon special (at least 60% chance in retaliation)
-	 * Dwarvish Cadet: added the 'concealment' ability
-	 * Dwarvish Soldier: added the 'concealment' ability
+   * Kharos:
+     * Elemental Archer: fire resistance from 15% to 20%; arcane resistance from 20% to 30%
+     * Mystical Archer: arcane resistance from 30% to 40%
+   * Runemasters:
+     * Steamcopter: fixed incorrect number of strikes
+     * Dwarvish Mobile Turret: fixed incorrect number of strikes
+     * Mobile Defensive Platform: the split fire attack got the 'lesser revenge' weapon special (at least 60% chance in retaliation)
+     * Dwarvish Cadet: added the 'concealment' ability
+     * Dwarvish Soldier: added the 'concealment' ability
  ### Translations
     * updated the Polish translation
-	* updated the raw translation file
+   * updated the raw translation file
 
 ## Version 3.7
  ### Gameplay
-	* added 6 new units for the Runemasters faction: Dwarvish Cadet, Dwarvish Soldier, Technologist, Technocrat, Dwarvish Mobile Turret, Mobile Defensive Platform
-	* lvl2 dwarves can now perform drone upgrades (previously only lvl3 dwarves were allowed to do this)
-	* Area of Effect attacks (all-around, cleave and triple strike) no longer work against berserkers (in this case AoE attacks harm only a single target)
+   * added 6 new units for the Runemasters faction: Dwarvish Cadet, Dwarvish Soldier, Technologist, Technocrat, Dwarvish Mobile Turret, Mobile Defensive Platform
+   * lvl2 dwarves can now perform drone upgrades (previously only lvl3 dwarves were allowed to do this)
+   * Area of Effect attacks (all-around, cleave and triple strike) no longer work against berserkers (in this case AoE attacks harm only a single target)
  ### Units
-	** Kharos:
-	 * Bishop: added a new ranged magical arcane 8-3 attack
-	 * Priestess of Light: added a new ranged magical arcane 10-3 attack
-	 * Heavy Cavalry Archer: renamed to Heavy Cavalry; hitpoints from 58 to 53; blade resistance from 10% to 20%, pierce resistance from 5% to 10%, impact resistance from 20% to 40%; changed the arrow attack damage from 11-2 to 9-2
-	** Runemasters:
-	 * added 6 new units: Dwarvish Cadet, Dwarvish Soldier, Technologist, Technocrat, Dwarvish Mobile Turret, Mobile Defensive Platform
-	** Sky Kingdom:
-	 * Cosmic Eye: impact resistance from 0% to -10%
-	** Summoners:
-	 * Carpet Master: fire resistance from 10% to 0%
-	** Tharis: 
-	 * Dark Wizard: cost from 42g to 39g
+   * Kharos:
+     * Bishop: added a new ranged magical arcane 8-3 attack
+     * Priestess of Light: added a new ranged magical arcane 10-3 attack
+     * Heavy Cavalry Archer: renamed to Heavy Cavalry; hitpoints from 58 to 53; blade resistance from 10% to 20%, pierce resistance from 5% to 10%, impact resistance from 20% to 40%; changed the arrow attack damage from 11-2 to 9-2
+   * Runemasters:
+     * added 6 new units: Dwarvish Cadet, Dwarvish Soldier, Technologist, Technocrat, Dwarvish Mobile Turret, Mobile Defensive Platform
+   * Sky Kingdom:
+     * Cosmic Eye: impact resistance from 0% to -10%
+   * Summoners:
+     * Carpet Master: fire resistance from 10% to 0%
+   * Tharis: 
+     * Dark Wizard: cost from 42g to 39g
  ### Abilities
-	* added the "stun" weapon special
-	* added the "repairs +4" ability
-	* added the "precision (offensive)" weapon special
+   * added the "stun" weapon special
+   * added the "repairs +4" ability
+   * added the "precision (offensive)" weapon special
  ### Translations
     * updated the Polish translation
-	* updated the raw translation file
+   * updated the raw translation file
 
 ## Version 3.6.2
  ### Gameplay
-	* fixed zombie advancements not working properly in some cases
-	* fixed the 'double attack/split fire' weapon special not working as intended
+   * fixed zombie advancements not working properly in some cases
+   * fixed the 'double attack/split fire' weapon special not working as intended
  ### Units
-	** Barbarians:
-	 * Roc Master: hitpoints from 50 to 47
-	** Darkblood Alliance:
-	 * Jungle Pikeman and advancements are now neutral
-	 * Jungle Blowgunner and advancements are now chaotic
-	 * Jungle Crossbowman: the second crossbow attack is now 6-4 instead of 8-3
-	 * Saurian Assassin: the second crossbow attack is now 7-5 skilled instead of 9x4 marksman (the skilled weapon special is disabled in rpg mode); cost from 44 to 45
-	** Destroyers:
-	 * Cyclops Necromancer: movement from 5 to 6; dagger damage from 8-2 to 5-3; 1st gaze attack damage from 20-1 to 17-1; 2nd gaze attack damage from 10-2 to 9-2
-	 * Piranha Monstruosa: cost from 31g to 28g
-	** Kharos:
-	 * Heavy Cavalry Archer: trample attack damage from 11-2 to 8-3
-	 * Cleric: fire resistance from 0% to 10%
-	 * Bishop's fire resistance from 0% to 15%
-	 * Prophet of Light fire resistance from 0% to 20%
-	** Runemasters:
-	 * Technician: fire resistance from 20% to 30%
-	 * Constructor: fire resistance from 30% to 40%
-	 * Rune Adept: fire resistance from 10% to 20%
-	 * Runesmith: fire resistance from 15% to 25%
-	 * Runeartist: fire resistance from 20% to 30%
-	 * Runemaster: fire resistance from 30% to 25%
-	 * Steamcopter: hitpoints from 48 to 50; melee attack damage from 8-1 to 9-1+marksman; experience from 110 to 94
-	 * Flying Fortress: 'hard landing' damage from 17 to 13
-	 * Mechanical Dragon: 'hard landing' damage from 14 to 11
-	** Sky Kingdom:
-	 * Hydromancer: cost from 35g to 38g
-	** Summoners:
-	 * Fire God: physical resistances from 30% to 20%
+   * Barbarians:
+     * Roc Master: hitpoints from 50 to 47
+   * Darkblood Alliance:
+     * Jungle Pikeman and advancements are now neutral
+     * Jungle Blowgunner and advancements are now chaotic
+     * Jungle Crossbowman: the second crossbow attack is now 6-4 instead of 8-3
+     * Saurian Assassin: the second crossbow attack is now 7-5 skilled instead of 9x4 marksman (the skilled weapon special is disabled in rpg mode); cost from 44 to 45
+   * Destroyers:
+     * Cyclops Necromancer: movement from 5 to 6; dagger damage from 8-2 to 5-3; 1st gaze attack damage from 20-1 to 17-1; 2nd gaze attack damage from 10-2 to 9-2
+     * Piranha Monstruosa: cost from 31g to 28g
+   * Kharos:
+     * Heavy Cavalry Archer: trample attack damage from 11-2 to 8-3
+     * Cleric: fire resistance from 0% to 10%
+     * Bishop's fire resistance from 0% to 15%
+     * Prophet of Light fire resistance from 0% to 20%
+   * Runemasters:
+     * Technician: fire resistance from 20% to 30%
+     * Constructor: fire resistance from 30% to 40%
+     * Rune Adept: fire resistance from 10% to 20%
+     * Runesmith: fire resistance from 15% to 25%
+     * Runeartist: fire resistance from 20% to 30%
+     * Runemaster: fire resistance from 30% to 25%
+     * Steamcopter: hitpoints from 48 to 50; melee attack damage from 8-1 to 9-1+marksman; experience from 110 to 94
+     * Flying Fortress: 'hard landing' damage from 17 to 13
+     * Mechanical Dragon: 'hard landing' damage from 14 to 11
+   * Sky Kingdom:
+     * Hydromancer: cost from 35g to 38g
+   * Summoners:
+     * Fire God: physical resistances from 30% to 20%
  ### Descriptions
-	* improved the 'double attack/split fire' weapon special description
+   * improved the 'double attack/split fire' weapon special description
  ### Translations
     * updated the Polish translation
-	* updated the raw translation file
+   * updated the raw translation file
 
 ## Version 3.6.1
  ### Gameplay
-	* lvl2 units who cannot advance to lvl3 (because they lack that option) receive special veteran/fanatic traits together with AMLA
-	* the following leaders in the Masters era are no longer resilient: Atokpi Master, Fallen Cyclops King, Abaddon
-	* Carpet Riders are no longer available in the Masters Era
-	* Mystical Jinn are no longer available as leaders in the Masters Era
-	* Dwarvish Baloon is now available for recruitment in the Masters Era
+   * lvl2 units who cannot advance to lvl3 (because they lack that option) receive special veteran/fanatic traits together with AMLA
+   * the following leaders in the Masters era are no longer resilient: Atokpi Master, Fallen Cyclops King, Abaddon
+   * Carpet Riders are no longer available in the Masters Era
+   * Mystical Jinn are no longer available as leaders in the Masters Era
+   * Dwarvish Baloon is now available for recruitment in the Masters Era
  ### Units
-	** Darkblood Alliance:
-	 * all Toads: village defense to 40%
-	 * all Salamanders: village defense to 60%
-	 * Black Salamander: the melee attack got the 'first strike' weapon special
-	 * Great Wyvern: decreased the scream attack damage from 7-2 to 6-2
-	 * Chaos Wyvern: decreased the scream attack damage from 9-2 to 8-2
-	 * Chaos Wyvern Rider: decreased the scream attack damage from 10-2 to 8-2
-	** Destroyers:
-	 * Atokpi Samurai: cost from 32g to 31g
-	 * Atokpi General: cost from 50g to 52g
-	 * Bone Golem: cost from 30g to 29g
-	 * Bone Giant: cost from 34g to 48g
-	 * Devourer: cost from 43g to 47g
-	 * Legendary Cyclops: renamed to Greater Cyclops Skeleton; cost from 33g to 32g
-	 * Extinct Cyclops Mage: cost from 55g to 58g
-	 * Punisher: cost from 43g to 44g
-	 * Obliterator: cost from 65g to 67g
-	 * Piranha Monstruosa: cost from 34g to 31g
-	 * Titania: cost from 63g to 65g
-	** Runemasters
-	 * Mechanical Dragon: cost from 56g to 60g; fire resistance from 10% to 20%; changed the fangs attack damage type from blade to pierce, added the marksman weapon special; added the second 8x3 melee attack with blade damage type and the marksman weapon special
-	 * Rune Adept: ice runes damage increased from 7x2 to 8x2
-	 * Runesmith: ice runes damage increased from 10x2 to 12x2
-	 * Rune Artist: ice runes damage increased from 15x2 to 16x2
-	** Summoners
-	 * Air Elemental: changed regenerates +6 to +4
-	 * Carpet Master: decreased movement points from 9 to 8
-	 * Earth Elemental: village defense from 60% to 50%
-	 * Earth Avatar: village defense from 60% to 50%
-	 * Earth God: village defense from 60% to 50%
-	 * Fire God: changed hitpoints from 71 to 72; changed the ranged attack damage from 11x2 to 7x3
+   * Darkblood Alliance:
+     * all Toads: village defense to 40%
+     * all Salamanders: village defense to 60%
+     * Black Salamander: the melee attack got the 'first strike' weapon special
+     * Great Wyvern: decreased the scream attack damage from 7-2 to 6-2
+     * Chaos Wyvern: decreased the scream attack damage from 9-2 to 8-2
+     * Chaos Wyvern Rider: decreased the scream attack damage from 10-2 to 8-2
+   * Destroyers:
+     * Atokpi Samurai: cost from 32g to 31g
+     * Atokpi General: cost from 50g to 52g
+     * Bone Golem: cost from 30g to 29g
+     * Bone Giant: cost from 34g to 48g
+     * Devourer: cost from 43g to 47g
+     * Legendary Cyclops: renamed to Greater Cyclops Skeleton; cost from 33g to 32g
+     * Extinct Cyclops Mage: cost from 55g to 58g
+     * Punisher: cost from 43g to 44g
+     * Obliterator: cost from 65g to 67g
+     * Piranha Monstruosa: cost from 34g to 31g
+     * Titania: cost from 63g to 65g
+   * Runemasters
+     * Mechanical Dragon: cost from 56g to 60g; fire resistance from 10% to 20%; changed the fangs attack damage type from blade to pierce, added the marksman weapon special; added the second 8x3 melee attack with blade damage type and the marksman weapon special
+     * Rune Adept: ice runes damage increased from 7x2 to 8x2
+     * Runesmith: ice runes damage increased from 10x2 to 12x2
+     * Rune Artist: ice runes damage increased from 15x2 to 16x2
+   * Summoners
+     * Air Elemental: changed regenerates +6 to +4
+     * Carpet Master: decreased movement points from 9 to 8
+     * Earth Elemental: village defense from 60% to 50%
+     * Earth Avatar: village defense from 60% to 50%
+     * Earth God: village defense from 60% to 50%
+     * Fire God: changed hitpoints from 71 to 72; changed the ranged attack damage from 11x2 to 7x3
  ### Translations
     * updated the Polish translation
-	* updated the raw translation file
+   * updated the raw translation file
 
 ## Version 3.6
  ### Gameplay
-	* fixed a bug where units summoned in Zombie Challenge would automatically level up
-	* renamed the 'Masters and Slaves' era to 'Masters' era
-	* Solar Master is no longer available as a leader choice in the 'Masters' era
-	* new Masters era exclusive traits: heroic and elite - they are automatically applied to certain units to make things more balanced
+   * fixed a bug where units summoned in Zombie Challenge would automatically level up
+   * renamed the 'Masters and Slaves' era to 'Masters' era
+   * Solar Master is no longer available as a leader choice in the 'Masters' era
+   * new Masters era exclusive traits: heroic and elite - they are automatically applied to certain units to make things more balanced
  ### Units
-	** Kharos:
-	 * Avenger: cost from 32g to 31g
-	 * Hoplite: cost from 34g to 32g
-	 * Bishop: cost from 40g to 38g
-	 * Heavy Cavalry Archer: cost from 34g to 32g
-	 * Mistress of Light: cost from 68g to 63g
-	** Runemasters:
-	 * Dwarvish Cannoneer: cost from 30g to 32g
-	 * Flying Fortress: movement from 7 to 6; cost from 56 to 62; the cannon attack no longer has the 'first strike' weapon special; the machine gun attack damage from 16 to 15
-	** Sky Kingdom:
-	 * Master of Air: can now summon Air Avatars for 42g
-	 * Master of Fire: can now summon Fire Avatars for 42g; Fire Elemental summon cost from 12g to 17g
-	 * Master of Water: can now summon Water Avatars for 44g; Water Elemental summon cost from 12g to 14g
-	** Tharis
-	 * Dark Observer: experience from 43 to 49
-	 * Storm Sphere: cost from 34g to 33g
-	 * Master of Darnkess: the scythe attack got the 'first strike' weapon special
+   * Kharos:
+     * Avenger: cost from 32g to 31g
+     * Hoplite: cost from 34g to 32g
+     * Bishop: cost from 40g to 38g
+     * Heavy Cavalry Archer: cost from 34g to 32g
+     * Mistress of Light: cost from 68g to 63g
+   * Runemasters:
+     * Dwarvish Cannoneer: cost from 30g to 32g
+     * Flying Fortress: movement from 7 to 6; cost from 56 to 62; the cannon attack no longer has the 'first strike' weapon special; the machine gun attack damage from 16 to 15
+   * Sky Kingdom:
+     * Master of Air: can now summon Air Avatars for 42g
+     * Master of Fire: can now summon Fire Avatars for 42g; Fire Elemental summon cost from 12g to 17g
+     * Master of Water: can now summon Water Avatars for 44g; Water Elemental summon cost from 12g to 14g
+   * Tharis
+     * Dark Observer: experience from 43 to 49
+     * Storm Sphere: cost from 34g to 33g
+     * Master of Darnkess: the scythe attack got the 'first strike' weapon special
  ### Abilities
-	* the Destroyers' plague weapon special no longer works on units standing in villages
+   * the Destroyers' plague weapon special no longer works on units standing in villages
  ### Descriptions
-	* improved the Banisher description
-	* improved faction descriptions
+   * improved the Banisher description
+   * improved faction descriptions
  ### Graphics
-	* fixed visual glitches caused by the soul catcher ability
-	* unused attack icons are now used
+   * fixed visual glitches caused by the soul catcher ability
+   * unused attack icons are now used
  ### Code
-	* renamed unit files to match their names
-	* added a missing space to the 'hit and run' floating text
-	* improved the summon menu option text for Guru of Magic
-	* the 'construct drone' and drone upgrades work 'on unit placed' events too
-	* implemented lua check for the Masters era
-	* dropped support for older BfW versions
-	* project-wide code cleanup
+   * renamed unit files to match their names
+   * added a missing space to the 'hit and run' floating text
+   * improved the summon menu option text for Guru of Magic
+   * the 'construct drone' and drone upgrades work 'on unit placed' events too
+   * implemented lua check for the Masters era
+   * dropped support for older BfW versions
+   * project-wide code cleanup
  ### Translations
     * updated the Polish translation
-	* updated the raw translation file
+   * updated the raw translation file
 
 ## Version 3.5.2a
  ### Abilities
-	* fixed a bug where the banishment ability granted combat xp to a newly created Dimensional Gate
+   * fixed a bug where the banishment ability granted combat xp to a newly created Dimensional Gate
 
 ## Version 3.5.2
  ### Units
-	** Darkblood Alliance:
-	 * Saurian Pikeman: renamed to Jungle Pikeman
-	 * Saurian Champion: renamed to Jungle Champion
-	 * Saurian Blowgunner: renamed to Jungle Blowgunner
-	 * Saurian Crossbowman: renamed to Jungle Crossbowman
-	** Kharos:
-	 * Kirios: increased damage for all attacks by 1
-	 * Master of Sun: increased damage for melee attacks by 1; decreased cost from 90 to 80
+   * Darkblood Alliance:
+     * Saurian Pikeman: renamed to Jungle Pikeman
+     * Saurian Champion: renamed to Jungle Champion
+     * Saurian Blowgunner: renamed to Jungle Blowgunner
+     * Saurian Crossbowman: renamed to Jungle Crossbowman
+   * Kharos:
+     * Kirios: increased damage for all attacks by 1
+     * Master of Sun: increased damage for melee attacks by 1; decreased cost from 90 to 80
  ### Abilities
-	* fixed the soul catcher ability - now it works only on living and magical units
-	* improved the soul catcher ability - now it is no longer possible to transform a gate into a walking unit on an unwalkable terrain
-	* fixed the summon undead ability so that it no longer takes units in recall lists into account
-	* units summoned via the summon undead ability now have 0 moves and cannot attack (just like freshly recruited units)
-	* the split ability no longer spawns damaged units
-	* the parachute ability no longer spawns damaged Parachutists
-	* fixed the bone collector ability not working	
+   * fixed the soul catcher ability - now it works only on living and magical units
+   * improved the soul catcher ability - now it is no longer possible to transform a gate into a walking unit on an unwalkable terrain
+   * fixed the summon undead ability so that it no longer takes units in recall lists into account
+   * units summoned via the summon undead ability now have 0 moves and cannot attack (just like freshly recruited units)
+   * the split ability no longer spawns damaged units
+   * the parachute ability no longer spawns damaged Parachutists
+   * fixed the bone collector ability not working	
  ### Gameplay
-	* removed Perfect Drone from recruits' lists in Masters and Slaves mode
+   * removed Perfect Drone from recruits' lists in Masters and Slaves mode
  ### Descriptions
-	* improved descriptions/fixed typos: Cyclops Breaker, Goblin Shaman, Orcish King, Troll Warlock, Green Salamander, Cleric, Bishop, Sun Follower, Solar Master, Dimensional Gate II, Rhami'kai, Heavy Summoner, Black Orb, Master of Darkness
-	* removed descriptions of Saurian Assassin and Shadowblade
-	* improved descriptions of the swallow weapon special and the furious death ability
+   * improved descriptions/fixed typos: Cyclops Breaker, Goblin Shaman, Orcish King, Troll Warlock, Green Salamander, Cleric, Bishop, Sun Follower, Solar Master, Dimensional Gate II, Rhami'kai, Heavy Summoner, Black Orb, Master of Darkness
+   * removed descriptions of Saurian Assassin and Shadowblade
+   * improved descriptions of the swallow weapon special and the furious death ability
  ### Code
-	* fixed incorrect unit id in one of summons options for Cyclops Fallen King
+   * fixed incorrect unit id in one of summons options for Cyclops Fallen King
  ### Translations
-	* updated the raw translation file
+   * updated the raw translation file
 
 ## Version 3.5.1a
  ### Code
-	* add #ifdef MULTIPLAYER check for the cleave weapon special to prevent lua errors in TLU
+   * add #ifdef MULTIPLAYER check for the cleave weapon special to prevent lua errors in TLU
 
 ## Version 3.5.1
  ### Units
-	** Barbarians:
-	 * Troll Warbanner: melee attack has 'first strike' special now; added +1 strike for the ranged attack
-	** Sky Kingdom:
-	 * Battle Eye: the unit is now recruitable in the default gampeplay mode
-	 * Battlemage: reduced experience from 54 to 52; increased impact resistance by 10%
-	 * Elementalist: changed mountains movement costs from 3 to 2; added a new ranged pierce attack
-	 * Guru: increased secret resistance to 15%; changed cave defense to 40%; changed fungus defense to 40%; change cave movement cost to 2; change fungus movements cost to 2; the 'mystic touch' melee attack deals secret damage type, damage decreased from 11 to 9 (does not apply to the rpg variant)
-	 * Hydromancer: decreased impact resistance to 0
-	 * Master of Water: decreased impact resistance to 0, decreased the amount of regenerationton to +4 instead of +8
-	 * Mastermage: increased arcane resistance from 20% to 30%
-	 * Sorcerer: fire and cold resistances from 15% to 20%, increased arcane resistance from 20% to 30%
-	 * Subversive Mage: melee damage from 7-1 to 8-1
-	 * War Mage: impact resistance from 15% to 20%
-	** Summoners:
-	 * Air Elemental: decreased arcane resistance from 65% to 60%
-	 * Air Avatar: decreased arcane resistance from 65% to 60%
-	 * Air Avatar: decreased arcane resistance from 65% to 60%
-	 * Dimensional Gate: decreased arcane resistance from 40% to 30%
-	** Tharis: 
-	 * Bladedancer: increased experience from 42 to 46
-	 * Shadowblade: changed the second 'metal claws' melee attack damage from 9-3 to 8-4
-	 * Hydra: decreased experience from 58 to 54
+   * Barbarians:
+     * Troll Warbanner: melee attack has 'first strike' special now; added +1 strike for the ranged attack
+   * Sky Kingdom:
+     * Battle Eye: the unit is now recruitable in the default gampeplay mode
+     * Battlemage: reduced experience from 54 to 52; increased impact resistance by 10%
+     * Elementalist: changed mountains movement costs from 3 to 2; added a new ranged pierce attack
+     * Guru: increased secret resistance to 15%; changed cave defense to 40%; changed fungus defense to 40%; change cave movement cost to 2; change fungus movements cost to 2; the 'mystic touch' melee attack deals secret damage type, damage decreased from 11 to 9 (does not apply to the rpg variant)
+     * Hydromancer: decreased impact resistance to 0
+     * Master of Water: decreased impact resistance to 0, decreased the amount of regenerationton to +4 instead of +8
+     * Mastermage: increased arcane resistance from 20% to 30%
+     * Sorcerer: fire and cold resistances from 15% to 20%, increased arcane resistance from 20% to 30%
+     * Subversive Mage: melee damage from 7-1 to 8-1
+     * War Mage: impact resistance from 15% to 20%
+   * Summoners:
+     * Air Elemental: decreased arcane resistance from 65% to 60%
+     * Air Avatar: decreased arcane resistance from 65% to 60%
+     * Air Avatar: decreased arcane resistance from 65% to 60%
+     * Dimensional Gate: decreased arcane resistance from 40% to 30%
+   * Tharis: 
+     * Bladedancer: increased experience from 42 to 46
+     * Shadowblade: changed the second 'metal claws' melee attack damage from 9-3 to 8-4
+     * Hydra: decreased experience from 58 to 54
 
 ## Version 3.5
  ### Gameplay
-	* added special rpg variations of 130 units with altered stats
+   * added special rpg variations of 130 units with altered stats
  ### Units
-	** Barbarians:
-	 * Goblin Archer: movement from 5 to 6; cost from 15g to 14g
-	 * Roc Rider: arcane resistance from 10% to 0%; pierce resistance from 0 to -10%
-	** Darkblood Alliance:
-	 * Chosen of Forest: cave defense 50%
-	 * Chosen of Marsh: cave defense 60%
-	 * Clan Leader: cave defense 50%
-	 * Corrupted Shaman: cave defense 60%
-	 * Swamp Mage: cave defense 60%
-	 * Jungle Guardian: cave defense 50%
-	 * Mystic: cave defense 50%
-	 * Saurian Assassin: cave defense 50%
-	 * Saurian Champion: cave defense 50%
-	 * Saurian Crossbowman: cave defense 50%
-	 * Saurian Pikeman: cave defense 50%
-	 * Saurian Blowgunner: cave defense 50%
-	 * Shamanistic Adept: cave defense 50%
-	 * Salamander: cold resistance from -10% to 0%; cave defense 60%; fungus defense 50%
-	 * Black Salamander: cold resistance from -10% to 0%; cave defense 60%; fungus defense 60%
-	 * Green Salamander: cold resistance from -10% to 0%; fungus defense 50%
-	 * Yellow Salamander: cold resistance from -10% to 0%; cave defense 60%; fungus defense 50%
-	 * Toad + advancements: now have only 1 trait
-	 * Battle Toad: cost from 40 to 42
-	 * Toad Archer: cost from 38 to 40
-	 * Toad Shaman: cost from 42 to 44
-	** Destroyers:
-	 * Nightmare: cost from 19g to 18g; replaced 'magical' with 'magical (offensive) weapon special for the 'touch' attack; changed 'chaotic blast' damage from 4 to 5
-	** Runemasters:
-	 * Heavy Baloon: cost from 32g to 35g
-	 * Steam Berserker: cost from 46g to 42g
-	 * Striding Machine: 'trample' attack damage from 9 to 8
-	** Sky Kingdom:
-	 * Subversive Mage: cold resistance from 10% to 15%; pierce resistance to 0%; swamp movement cost to 2; swamp defense to 40%
-	 * Black Mage: cold resistance from 15% to 10%; pierce resistance from -10% to 0%; swamp movement cost to 2; swamp defense 40%
-	 * Sculptor: cold resistance from 10% to 20%; pierce resistance to 0%
-	 * Void Mage: cold resistance from 20% to 25%; pierce resistance to 0%
-	 * Elementalist: fire resistance from 6% to 8%; cold resitance from 6% to 8%; frozen movement cost 2; sand defense 40%; shallow water defense 40%; frozen defense 30%
-	 * Pyromancer: sand defense 40%; sand movement cost to 1; mountains movement cost to 2
-	 * Master of Fire: sand defense 40%; sand movement cost to 1; mountains movement cost to 2
-	 * Hydromancer: swamp defense 40%; sand defense 40%; shallow water defense 40%; frozen defense 30; frozen movement cost to 2; swamp movement cost to 2; mountains movement cost to 2; cold and fire resistances from 6% to 8%
-	 * Golem: impact resistance from -20% to -15%
-	 * Hidden Face + advancements: number of traits increased to 2
-	 * Hidden Face: experience from 42 to 38; impact resistance from -20% to -10%
-	 * Mystic Warrior: impact resistance from -20% to -10%; experience from 110 to 114
-	 * Mu: impact resistance from 0% to 10%
-	** Summoners:
-	 * Air Elemental: 'hurricane' attack damage from 9 to 8
-	 * Camel Rider: experience from 52 to 42; frozen movement cost to 3; pierce resistance from -10% to 0%
-	 * Camel Master: frozen movement cost to 3; pierce resistance from -10% to 0%
-	 * Carpet Rider: removed the dextrous trait from the traits pool
-	 * Carpet Master: removed the dextrous trait from the traits pool
-	 * Fire Elemental: forest defense 40%
-	 * Fire Avatar: forest defense 40%
-	 * Rhami: experience from 52 to 48
-	 * Rhami'datu: experience from 110 to 114
-	 * Rhami'kai: experience from 110 to 114
-	 * Novice Summoner: 'scroll' damage from 12 to 11
-	 * Water Elemental: cost from 16g to 15g
-	** Tharis:
-	 * Blade Dancer: movement from 6 to 5; impact resistance from -10% to -20%; 'chakram' damage from 4 to 5 + 'marksman' weapon special
-	 * Sword Dancer: movement from 6 to 5; impact resistance from -10% to -20%; cost from 36 to 38
-	 * Dark Slayer: hitpoints from 42 to 44
-	 * Storm Sphere: cost from 26 to 34	 
+   * Barbarians:
+     * Goblin Archer: movement from 5 to 6; cost from 15g to 14g
+     * Roc Rider: arcane resistance from 10% to 0%; pierce resistance from 0 to -10%
+   * Darkblood Alliance:
+     * Chosen of Forest: cave defense 50%
+     * Chosen of Marsh: cave defense 60%
+     * Clan Leader: cave defense 50%
+     * Corrupted Shaman: cave defense 60%
+     * Swamp Mage: cave defense 60%
+     * Jungle Guardian: cave defense 50%
+     * Mystic: cave defense 50%
+     * Saurian Assassin: cave defense 50%
+     * Saurian Champion: cave defense 50%
+     * Saurian Crossbowman: cave defense 50%
+     * Saurian Pikeman: cave defense 50%
+     * Saurian Blowgunner: cave defense 50%
+     * Shamanistic Adept: cave defense 50%
+     * Salamander: cold resistance from -10% to 0%; cave defense 60%; fungus defense 50%
+     * Black Salamander: cold resistance from -10% to 0%; cave defense 60%; fungus defense 60%
+     * Green Salamander: cold resistance from -10% to 0%; fungus defense 50%
+     * Yellow Salamander: cold resistance from -10% to 0%; cave defense 60%; fungus defense 50%
+     * Toad + advancements: now have only 1 trait
+     * Battle Toad: cost from 40 to 42
+     * Toad Archer: cost from 38 to 40
+     * Toad Shaman: cost from 42 to 44
+   * Destroyers:
+     * Nightmare: cost from 19g to 18g; replaced 'magical' with 'magical (offensive) weapon special for the 'touch' attack; changed 'chaotic blast' damage from 4 to 5
+   * Runemasters:
+     * Heavy Baloon: cost from 32g to 35g
+     * Steam Berserker: cost from 46g to 42g
+     * Striding Machine: 'trample' attack damage from 9 to 8
+   * Sky Kingdom:
+     * Subversive Mage: cold resistance from 10% to 15%; pierce resistance to 0%; swamp movement cost to 2; swamp defense to 40%
+     * Black Mage: cold resistance from 15% to 10%; pierce resistance from -10% to 0%; swamp movement cost to 2; swamp defense 40%
+     * Sculptor: cold resistance from 10% to 20%; pierce resistance to 0%
+     * Void Mage: cold resistance from 20% to 25%; pierce resistance to 0%
+     * Elementalist: fire resistance from 6% to 8%; cold resitance from 6% to 8%; frozen movement cost 2; sand defense 40%; shallow water defense 40%; frozen defense 30%
+     * Pyromancer: sand defense 40%; sand movement cost to 1; mountains movement cost to 2
+     * Master of Fire: sand defense 40%; sand movement cost to 1; mountains movement cost to 2
+     * Hydromancer: swamp defense 40%; sand defense 40%; shallow water defense 40%; frozen defense 30; frozen movement cost to 2; swamp movement cost to 2; mountains movement cost to 2; cold and fire resistances from 6% to 8%
+     * Golem: impact resistance from -20% to -15%
+     * Hidden Face + advancements: number of traits increased to 2
+     * Hidden Face: experience from 42 to 38; impact resistance from -20% to -10%
+     * Mystic Warrior: impact resistance from -20% to -10%; experience from 110 to 114
+     * Mu: impact resistance from 0% to 10%
+   * Summoners:
+     * Air Elemental: 'hurricane' attack damage from 9 to 8
+     * Camel Rider: experience from 52 to 42; frozen movement cost to 3; pierce resistance from -10% to 0%
+     * Camel Master: frozen movement cost to 3; pierce resistance from -10% to 0%
+     * Carpet Rider: removed the dextrous trait from the traits pool
+     * Carpet Master: removed the dextrous trait from the traits pool
+     * Fire Elemental: forest defense 40%
+     * Fire Avatar: forest defense 40%
+     * Rhami: experience from 52 to 48
+     * Rhami'datu: experience from 110 to 114
+     * Rhami'kai: experience from 110 to 114
+     * Novice Summoner: 'scroll' damage from 12 to 11
+     * Water Elemental: cost from 16g to 15g
+   * Tharis:
+     * Blade Dancer: movement from 6 to 5; impact resistance from -10% to -20%; 'chakram' damage from 4 to 5 + 'marksman' weapon special
+     * Sword Dancer: movement from 6 to 5; impact resistance from -10% to -20%; cost from 36 to 38
+     * Dark Slayer: hitpoints from 42 to 44
+     * Storm Sphere: cost from 26 to 34	 
  ### Abilities
-	* added new "magical (offensive)" weapon special
+   * added new "magical (offensive)" weapon special
  ### Code
-	* remove the random_leader= key
-	* changed order of attacks for Steamcopter so the melee attack is on top
-	* fixed a typo in Sculptor's petrifying spell
+   * remove the random_leader= key
+   * changed order of attacks for Steamcopter so the melee attack is on top
+   * fixed a typo in Sculptor's petrifying spell
  ### Descriptions
-	* removed a note about secret resistance for Guru
+   * removed a note about secret resistance for Guru
  ### Translations
-	* updated the raw translation file
+   * updated the raw translation file
     * updated the Polish translation
 
 ## Version 3.4 Beta 5
  ### Units
-	** Barbarians:
-	 * Troll Sorcerer: -10% arcane resistance; increased cost by 1g from 19 to 20g
-	 * Roc Rider: decreased movement points from 9 to 8
-	 * Roc Rider: decreased movement points from 10 to 9
-	** Sky Kingdom:
-	 * Subversive Mage: increased movement points from 5 to 6 
-	 * Black Mage: increased movement points from 5 to 6 
-	 * Sculptor: increased movement points from 5 to 6 
-	 * Void Mage: increased movement points from 5 to 6 
+   * Barbarians:
+     * Troll Sorcerer: -10% arcane resistance; increased cost by 1g from 19 to 20g
+     * Roc Rider: decreased movement points from 9 to 8
+     * Roc Rider: decreased movement points from 10 to 9
+   * Sky Kingdom:
+     * Subversive Mage: increased movement points from 5 to 6 
+     * Black Mage: increased movement points from 5 to 6 
+     * Sculptor: increased movement points from 5 to 6 
+     * Void Mage: increased movement points from 5 to 6 
  ### Abilities
-	* improved the 'activate drone' ability description
+   * improved the 'activate drone' ability description
  ### Code
-	* fixed a bug in expfreeze resulting in hp restoration
-	* expfreeze uses most up-to-date value of unit experience
+   * fixed a bug in expfreeze resulting in hp restoration
+   * expfreeze uses most up-to-date value of unit experience
 
 ## Version 3.4 Beta 4
  ### Graphics
-	*flying units no longer cast shadows on chasm or lava tiles
+   *flying units no longer cast shadows on chasm or lava tiles
  ### Code
-	* fixed the "levelling loop" bug for aoe weapon specials utilizing "experience freeze" mechanics
-	* simplified animation code for Piranhas
-	* enabled lua for campaigns
+   * fixed the "levelling loop" bug for aoe weapon specials utilizing "experience freeze" mechanics
+   * simplified animation code for Piranhas
+   * enabled lua for campaigns
 
 ## Version 3.4 Beta 3
  ### Units
-	** Runemasters:
-	 * Red Ulfserker: renamed to 'Red Steam Ulfserker'
+   * Runemasters:
+     * Red Ulfserker: renamed to 'Red Steam Ulfserker'
  ### Code
-	* replaced placement=map_overwrite with placement,overwrite=map,yes
-	* added[allow_undo] to eoma_summon_select_event, constructor events, drone upgrade events and soul catcher events
-	* removed an invalid underscore in the triple strike weapon special causing pango markup warnings
+   * replaced placement=map_overwrite with placement,overwrite=map,yes
+   * added[allow_undo] to eoma_summon_select_event, constructor events, drone upgrade events and soul catcher events
+   * removed an invalid underscore in the triple strike weapon special causing pango markup warnings
  ### Translations
-	* updated the raw translation file
+   * updated the raw translation file
 
 ## Version 3.4 Beta 2
  ### Code
-	* replaced {FOREACH} with the [foreach] tag
-	* replaced {MISSILE_FRAME_FIREBALL} with {MISSILE_FRAME_FIREBALL_XY}
-	* check the rpg condition only in multiplayer
+   * replaced {FOREACH} with the [foreach] tag
+   * replaced {MISSILE_FRAME_FIREBALL} with {MISSILE_FRAME_FIREBALL_XY}
+   * check the rpg condition only in multiplayer
  ### Translations
-	* updated the raw translation file
+   * updated the raw translation file
 
 ## Version 3.4 Beta 1
  ### Units
-	** Barbarians:
-	 * Cyclops Breaker: changed main fist attack from 7-4 to 5-5 and decreased growing fury value from 4 to 3
-	** Sky Kingdom:
-	 * Black Mage: the entrapement spell has magical instead of skilled weapon special
-	 * Master of Fire: hitpoints from 55 to 58
-	 * Master of Water: hitpooints from 58 to 55
-	**Tharis:
-	 * Dark Slayer: hitpoints from 40 to 42
+   * Barbarians:
+     * Cyclops Breaker: changed main fist attack from 7-4 to 5-5 and decreased growing fury value from 4 to 3
+   * Sky Kingdom:
+     * Black Mage: the entrapement spell has magical instead of skilled weapon special
+     * Master of Fire: hitpoints from 55 to 58
+     * Master of Water: hitpooints from 58 to 55
+   *Tharis:
+     * Dark Slayer: hitpoints from 40 to 42
  ### Abiltiies
-	* disabled some abilities and weapon specials in rpg mode (summon, summon undead, bone collector, sculpt)
-	* limited growing fury damage boost to 3 first strikes
-	* furious death and hard landing abilities no longer kill adjacent units when hp < 0
+   * disabled some abilities and weapon specials in rpg mode (summon, summon undead, bone collector, sculpt)
+   * limited growing fury damage boost to 3 first strikes
+   * furious death and hard landing abilities no longer kill adjacent units when hp < 0
  ### Gameplay
-	* removed some units from leaders' lists (Blood Warrior, lvl2 Toads, Dwarvish Tank, Pacificator, Dark Assassin)
-	* some lvl2 leaders are now nerfed in Multiplayer by applying the "weak" trait (Rhami'datu, Rhami'kai, Dharma'rhami, Ho'rhami, Great Jinni, Wonderful Jinni, Efreeti, Great Efreeti); additionaly Efreeti's max movement as leader is decreased by 1
+   * removed some units from leaders' lists (Blood Warrior, lvl2 Toads, Dwarvish Tank, Pacificator, Dark Assassin)
+   * some lvl2 leaders are now nerfed in Multiplayer by applying the "weak" trait (Rhami'datu, Rhami'kai, Dharma'rhami, Ho'rhami, Great Jinni, Wonderful Jinni, Efreeti, Great Efreeti); additionaly Efreeti's max movement as leader is decreased by 1
  ### Code
-	* enabled lua support; implemented rpg check
+   * enabled lua support; implemented rpg check
     * fixed terrain type animation filter for Cold Matriarch
-	* removed get_hit_sound= key - replaced it with {DEFENSE_ANIM} macro where possible
-	* fixed invalid pango markup in the Zombies Challenge scenario
-	* restored {SOUND_LIST:GOBLIN_DIE} for the Goblin Shaman line
-	* removed all occurrences of {SPECIAL_NOTES} macros; deleted special-notes.cfg
-	* replaced the deprecated special= weapon filter with special_id= and special_type= keys
-	* replaced placement=map_passable with placement=map passable=yes
-	* fix zombie events not being registered properly (workaround)
-	* reworked the no counter-attack weapon special to use [disable] instead of [chance_to_hit]
-	* add some missing variation ids; add the "Fallen" prefix to all undead variation names
-	* added space in mixedfighter in Wyvern.cfg
+   * removed get_hit_sound= key - replaced it with {DEFENSE_ANIM} macro where possible
+   * fixed invalid pango markup in the Zombies Challenge scenario
+   * restored {SOUND_LIST:GOBLIN_DIE} for the Goblin Shaman line
+   * removed all occurrences of {SPECIAL_NOTES} macros; deleted special-notes.cfg
+   * replaced the deprecated special= weapon filter with special_id= and special_type= keys
+   * replaced placement=map_passable with placement=map passable=yes
+   * fix zombie events not being registered properly (workaround)
+   * reworked the no counter-attack weapon special to use [disable] instead of [chance_to_hit]
+   * add some missing variation ids; add the "Fallen" prefix to all undead variation names
+   * added space in mixedfighter in Wyvern.cfg
  ### Translations
-	* updated the raw translation file
+   * updated the raw translation file
     * updated the Polish translation
     * updated the Chinese translation
 
 ## Version 3.3
  ### Units
-	** Barbarians:
-	 * Cyclops: XP from 48 to 52, price from 20g to 21g
-	 * Cyclops Warmonger: matched pierce resistance with its lv2, Health from 84 to 80, Pierce resistance from 5% to 15%
-	 * Cyclops Goliath: Health from 105 to 101, Pierce resistance from 6% to 15%
-	 * Cyclops Noble: Gaze 16-1 to 17-1, added the Attack-only special, NEW ATTACK: Gaze 12-1 fire + the skilled special, XP from 90 to 100
-	 * Cyclops Lord: Health from 80 to 77, Gaze 25-1 +Precision having as well +Attack-only Special, NEW ATTACK: gaze 19-1 fire +Skilled, Cold resistance from 10% to 0%
-	 * Gobling Shaman: Fire/Cold resistances from 0% to 10%, added a new ability: regenerates(+2), Price from 18g to 17g, replaced heals+2 with heals+5
-	 * Gobling Druid: Fire/Cold resistances from 0% to 10%
-	 * Roc Rider: XP from 40 to 46
-	 * Roc Master: Bow damage from 8-2 to 7-2
-	** Dark Blood Alliance:
-	 *Shamanistic Adept: XP from 45 to 49
-	 *Toad Rider: Cold resistance from 20% to 10%, Hills/Mountains defense from 50% to 40%, Swamp defense from 50% to 40%, Fungus movement cost from 1 to 2, XP from 46 to 52
-	 *Battle Toad: Blade resistance from 30% to 20%, Cold resistance from 20% to 10%, Hills/Mountains defense from 50% to 40%, Swamp defense from 50% to 40%, Fungus movement cost from 1 to 2
-	 *Dreadnought: Health from 80 to 78, Tongue damage from 10-2 to 9-2, Spear throw damage from 10-2 to 9-2, Cold resistance from 20% to 10%, Hills/Mountains defense from 50% to 40%, Swamp defense from 50% to 40%, Fungus movement cost from 1 to 2
-	 *Toad Arhcer: Cold resistance from 20% to 10%, Hills/Mountains defense from 50% to 40%, Swamp defense from 50% to 40%, Fungus movement cost from 1 to 2
-	 *Twin Toad Archer: Cold resistance from 20% to 10%, Hills/Mountains defense from 50% to 40%, Swamp defense from 50% to 40%, Fungus movement cost from 1 to 2
-	 *Toad Shaman: Fire/Arcane resistance from 10% to 0%, Cold resistance from 30% to 20%, Hills/Mountains defense from 50% to 40%, Swamp defense from 50% to 40%, Fungus movement cost from 1 to 2
-	 *Toad Mystic: Arcane resistance from 25% to 15%, Cold resistance from 40% to 30%, Fire resistance from 20% to 10%, Mountains defense from 50% to 40%, Swamp defense from 50% to 40%, Fungus movement cost from 1 to 2
-	 *Wyvern: Fire resistance from 10% to 0%
-	 *Great Wyvern: Health from 64 to 60, Fire resistance from 10% to 0%, XP from 110 to 120
-	 *Chaos Wyvern: Health from 85 to 80, Fire resistance from 20% to 10%
-	 *Wyvern Rider: Health from 47 to 49, Fire resistance from 10% to 0%
-	 *Wyvern Knight: Health from 56 to 57, Fire resistance from 10% to 0%, XP from 100 to 115
-	 *Chaos Wyvern Knight: Fire resistance from 20% to 10%
-	** Destroyers:
-	 *Atokpi General: Health from 59 to 67, awe 2 to awe 1, Fire/Arcane resistances from -10% to -5%, Impact resistance from 0% to 6%
-	 *Atokpi Master / Dark Atokpi: Health from 73 to 85, awe 3 to awe 2, Fire/Arcane resistances from -10% to 0%
-	 *Bone Giant: removed the awe 1 ability
-	 *Moloch: Awe 2 to Awe 1, Impact resistance from 20% to 25%,
-	 *Cyclops Necromancer: decreased the total number of summoned zombies from 6 to 4 per cyclops necromancer
-	 *Dark Portal / Infernal Vortex: Blade/Pierce/Impact resistances from 40% to 35%, Fire resistance from 50% to 40%, Cold resistance from 30% to 25%, Cave/Musrhoom grove defense from 50% to 40%, Dark Portal's aura (ranged) damage from 9-1 to 8-1, Dark Portal's regenerate value to +5, Infernal Vortex's, damage-aura from 16 to 14
-	 *Punisher: Sword damage from 14-2 to 13-2,
-	 *Obliterator: Health from 53 to 55, Attack (defense version) damage from 13-3 to 12-3, Sword damage from 17-2 to 16-2, Chaotic Blast damage from 6-2 to 7-2, added the skilled special, Cold resistance from 30% to 25%, Fire resistance from 20% to 15%
-	 *Abbadon: Health from 64 to 67, Attack (defense version) damage from 16-3 to 15-3, Sword damage from 23-2 to 21-2, Cold resistance from 40% to 30%, Fire resistance from 30% to 20%, Chaotic Blast damage from 10-2 to 11-2, added the skilled special
-	 *Titania: Health from 58 to 63, Awe 3 to Awe 2, Arcane/Blade/Fire resistances from -10% to 0%, Pierce resistance from 10% to 20%, Impact resistance from 0% to 10%
-	** Kharos:
-	 *Calvary Archer: Price from 19g to 18g
-	 *Hoplite: Spear (ranged) damage adjustment from 10-1 to 8-1
-	 *Avenger: Spear (ranged) damage from 11-1 to 9-1
-	 *Child of Light: Health from 37 to 39, Removed the leadership ability, Movement from 7 to 6, XP from 160 to 145
-	 *Sister of Light: Price from 18g to 17g
-	 *Mistress of Light: Health from 55 to 57, Removed the Leadership ability, Movement from 8 to 7
-	 *Fanatic: Health from 42 to 45, Aligment from Lawful to Neutral, Removed the skirmisher ability, Price from 37g to 34g
-	 *Sun Follower: Price from 28g to 27g
-	** Runemasters:
-	 *Striding Machine: Arcane resistance from 30% to 20%
-	 *Dwarvish Tank: Health from 67 to 63, Arcane resistance from 30% to 20%
-	 *Pacificator: Arcane resistance from 40% to 30%, Cold resistance from 30% to 20%, Fire resistance from 20% to 10%
-	 *Drone: Arcane resistance from 30% to 20%
-	 *Balloon: Arcane resistance from 20% to 10%
-	** Sky Kingdom:
-	 *Elementalist: Fire/Cold resistances from 0% to 6%
-	 *Hidden Face: XP from 46 to 42
-	 *Mu: Missile damage from 7-1 to 6-1
-	 *Black Mage: Cold resistance from 10% to 15%
-	 * Hydromancer / Water Master movement from 6 to 5
-	 * Pyromancer / Fire Master movement from 5 to 6
-	 *Um: Um strike from 18-1 +Precision to 15-1 +Magical
-	** Summoners:
-	 *Air Elemental: Arcane resistance from 70% to 65%, Pierce resistance from 55% to 50%, XP from 35 to 40
-	 *Air Avatar: Regenerates+8 to Regenerates+6, Arcane resistance from 70% to 65%, Pierce resistance from 60% to 55%, XP from 100 to 104
-	 *Air God: Regenerates from +8 to +6, Arcane resistance from 70% to 65%, Blade/Impact resistances from 50% to 45%
-	 *Fire Elemental: XP from 35 to 42, Price from 17g to 18g, Shallow Water defense from 50% to 20%
-	 *Fire Avatar: Swallow/Deep Water movement cost from 1 to 2, Deep water defense from 50% to 40%, XP from 90 to 100
-	 *Summoner: Fire/Cold resistances from 6% to 8%
-	 *Water Elemental / Water Avatar: Cold resistance from 30% to 40%
-	 *Water God: Cold resistance from 40% to 45%
-	** Tharis:
-	 *Dark Warrior:, XP from 45 to 42
-	 *Dark Slayer: Health from 40 to 43, XP from 90 to 85
-	 *Disciple: Cold resistance from 20% to 25%
-	 *Blademaster: Health from 52 to 54
-	 *Dark Assasin / Great Hunter: XP from 100 to 94
-	 *Witch: Health from 29 to 30, XP from 48 to 44
-	 *Great Witch: XP from 120 to 110
-	 *Matriarch of Frost: AMLA XP from 300 to 150
+   * Barbarians:
+     * Cyclops: XP from 48 to 52, price from 20g to 21g
+     * Cyclops Warmonger: matched pierce resistance with its lv2, Health from 84 to 80, Pierce resistance from 5% to 15%
+     * Cyclops Goliath: Health from 105 to 101, Pierce resistance from 6% to 15%
+     * Cyclops Noble: Gaze 16-1 to 17-1, added the Attack-only special, NEW ATTACK: Gaze 12-1 fire + the skilled special, XP from 90 to 100
+     * Cyclops Lord: Health from 80 to 77, Gaze 25-1 +Precision having as well +Attack-only Special, NEW ATTACK: gaze 19-1 fire +Skilled, Cold resistance from 10% to 0%
+     * Gobling Shaman: Fire/Cold resistances from 0% to 10%, added a new ability: regenerates(+2), Price from 18g to 17g, replaced heals+2 with heals+5
+     * Gobling Druid: Fire/Cold resistances from 0% to 10%
+     * Roc Rider: XP from 40 to 46
+     * Roc Master: Bow damage from 8-2 to 7-2
+   * Dark Blood Alliance:
+     * Shamanistic Adept: XP from 45 to 49
+     * Toad Rider: Cold resistance from 20% to 10%, Hills/Mountains defense from 50% to 40%, Swamp defense from 50% to 40%, Fungus movement cost from 1 to 2, XP from 46 to 52
+     * Battle Toad: Blade resistance from 30% to 20%, Cold resistance from 20% to 10%, Hills/Mountains defense from 50% to 40%, Swamp defense from 50% to 40%, Fungus movement cost from 1 to 2
+     * Dreadnought: Health from 80 to 78, Tongue damage from 10-2 to 9-2, Spear throw damage from 10-2 to 9-2, Cold resistance from 20% to 10%, Hills/Mountains defense from 50% to 40%, Swamp defense from 50% to 40%, Fungus movement cost from 1 to 2
+     * Toad Arhcer: Cold resistance from 20% to 10%, Hills/Mountains defense from 50% to 40%, Swamp defense from 50% to 40%, Fungus movement cost from 1 to 2
+     * Twin Toad Archer: Cold resistance from 20% to 10%, Hills/Mountains defense from 50% to 40%, Swamp defense from 50% to 40%, Fungus movement cost from 1 to 2
+     * Toad Shaman: Fire/Arcane resistance from 10% to 0%, Cold resistance from 30% to 20%, Hills/Mountains defense from 50% to 40%, Swamp defense from 50% to 40%, Fungus movement cost from 1 to 2
+     * Toad Mystic: Arcane resistance from 25% to 15%, Cold resistance from 40% to 30%, Fire resistance from 20% to 10%, Mountains defense from 50% to 40%, Swamp defense from 50% to 40%, Fungus movement cost from 1 to 2
+     * Wyvern: Fire resistance from 10% to 0%
+     * Great Wyvern: Health from 64 to 60, Fire resistance from 10% to 0%, XP from 110 to 120
+     * Chaos Wyvern: Health from 85 to 80, Fire resistance from 20% to 10%
+     * Wyvern Rider: Health from 47 to 49, Fire resistance from 10% to 0%
+     * Wyvern Knight: Health from 56 to 57, Fire resistance from 10% to 0%, XP from 100 to 115
+     * Chaos Wyvern Knight: Fire resistance from 20% to 10%
+   * Destroyers:
+     * Atokpi General: Health from 59 to 67, awe 2 to awe 1, Fire/Arcane resistances from -10% to -5%, Impact resistance from 0% to 6%
+     * Atokpi Master / Dark Atokpi: Health from 73 to 85, awe 3 to awe 2, Fire/Arcane resistances from -10% to 0%
+     * Bone Giant: removed the awe 1 ability
+     * Moloch: Awe 2 to Awe 1, Impact resistance from 20% to 25%,
+     * Cyclops Necromancer: decreased the total number of summoned zombies from 6 to 4 per cyclops necromancer
+     * Dark Portal / Infernal Vortex: Blade/Pierce/Impact resistances from 40% to 35%, Fire resistance from 50% to 40%, Cold resistance from 30% to 25%, Cave/Musrhoom grove defense from 50% to 40%, Dark Portal's aura (ranged) damage from 9-1 to 8-1, Dark Portal's regenerate value to +5, Infernal Vortex's, damage-aura from 16 to 14
+     * Punisher: Sword damage from 14-2 to 13-2,
+     * Obliterator: Health from 53 to 55, Attack (defense version) damage from 13-3 to 12-3, Sword damage from 17-2 to 16-2, Chaotic Blast damage from 6-2 to 7-2, added the skilled special, Cold resistance from 30% to 25%, Fire resistance from 20% to 15%
+     * Abbadon: Health from 64 to 67, Attack (defense version) damage from 16-3 to 15-3, Sword damage from 23-2 to 21-2, Cold resistance from 40% to 30%, Fire resistance from 30% to 20%, Chaotic Blast damage from 10-2 to 11-2, added the skilled special
+     * Titania: Health from 58 to 63, Awe 3 to Awe 2, Arcane/Blade/Fire resistances from -10% to 0%, Pierce resistance from 10% to 20%, Impact resistance from 0% to 10%
+   * Kharos:
+     * Calvary Archer: Price from 19g to 18g
+     * Hoplite: Spear (ranged) damage adjustment from 10-1 to 8-1
+     * Avenger: Spear (ranged) damage from 11-1 to 9-1
+     * Child of Light: Health from 37 to 39, Removed the leadership ability, Movement from 7 to 6, XP from 160 to 145
+     * Sister of Light: Price from 18g to 17g
+     * Mistress of Light: Health from 55 to 57, Removed the Leadership ability, Movement from 8 to 7
+     * Fanatic: Health from 42 to 45, Aligment from Lawful to Neutral, Removed the skirmisher ability, Price from 37g to 34g
+     * Sun Follower: Price from 28g to 27g
+   * Runemasters:
+     * Striding Machine: Arcane resistance from 30% to 20%
+     * Dwarvish Tank: Health from 67 to 63, Arcane resistance from 30% to 20%
+     * Pacificator: Arcane resistance from 40% to 30%, Cold resistance from 30% to 20%, Fire resistance from 20% to 10%
+     * Drone: Arcane resistance from 30% to 20%
+     * Balloon: Arcane resistance from 20% to 10%
+   * Sky Kingdom:
+     * Elementalist: Fire/Cold resistances from 0% to 6%
+     * Hidden Face: XP from 46 to 42
+     * Mu: Missile damage from 7-1 to 6-1
+     * Black Mage: Cold resistance from 10% to 15%
+     * Hydromancer / Water Master movement from 6 to 5
+     * Pyromancer / Fire Master movement from 5 to 6
+     * Um: Um strike from 18-1 +Precision to 15-1 +Magical
+   * Summoners:
+     * Air Elemental: Arcane resistance from 70% to 65%, Pierce resistance from 55% to 50%, XP from 35 to 40
+     * Air Avatar: Regenerates+8 to Regenerates+6, Arcane resistance from 70% to 65%, Pierce resistance from 60% to 55%, XP from 100 to 104
+     * Air God: Regenerates from +8 to +6, Arcane resistance from 70% to 65%, Blade/Impact resistances from 50% to 45%
+     * Fire Elemental: XP from 35 to 42, Price from 17g to 18g, Shallow Water defense from 50% to 20%
+     * Fire Avatar: Swallow/Deep Water movement cost from 1 to 2, Deep water defense from 50% to 40%, XP from 90 to 100
+     * Summoner: Fire/Cold resistances from 6% to 8%
+     * Water Elemental / Water Avatar: Cold resistance from 30% to 40%
+     * Water God: Cold resistance from 40% to 45%
+   * Tharis:
+     * Dark Warrior:, XP from 45 to 42
+     * Dark Slayer: Health from 40 to 43, XP from 90 to 85
+     * Disciple: Cold resistance from 20% to 25%
+     * Blademaster: Health from 52 to 54
+     * Dark Assasin / Great Hunter: XP from 100 to 94
+     * Witch: Health from 29 to 30, XP from 48 to 44
+     * Great Witch: XP from 120 to 110
+     * Matriarch of Frost: AMLA XP from 300 to 150
  ### Graphics
-    * portraits for lvl1 Destroyers
+   * portraits for lvl1 Destroyers
  ### Descriptions
-	* fixed the Mage of Water description
-	* fixed the Rhami description
-	* removed the regeneration special note from the Water Elemental description
-	* removed the Goblin Warrior's description (a duplicate of Goblin Runt's)
-	* fixed some typos
+   * fixed the Mage of Water description
+   * fixed the Rhami description
+   * removed the regeneration special note from the Water Elemental description
+   * removed the Goblin Warrior's description (a duplicate of Goblin Runt's)
+   * fixed some typos
 ### Code
-	* improved the furious death ability description format
+   * improved the furious death ability description format
 
 ## Version 3.2.1
  ### Units
-	* Darkblood Alliance:
-	 * changed wyvern impact resistance from 100% to 0%
-	* Summoners:
-	 * fixed Dimensional Gates earning xp from AoE attacks
+   * Darkblood Alliance:
+     * changed wyvern impact resistance from 100% to 0%
+   * Summoners:
+     * fixed Dimensional Gates earning xp from AoE attacks
  ### Code
-	* removed mountainfoot unwalkable/impassable values (used inheritance instead)
-	* replaced movecost 100 with UNREACHABLE (99)
-	* require EoMa installation to join Zombies Challenge
-	* added fake _info.cfg
-	* fixed summon ability not working in some cases
-	* fixed some animation issues
-	* fixed aoe filters criteria (now they should not affect petrified units)
-	* fixed the order of attack specials
-	* fixed some triple strike issues (fixed draining hp from incorrect targets; prevented status restoration on drain; fixed enemy hp issues on attack end)
-	* remove unwanted newlines
-	* implemented changes required for wmlxgettext
-	* replaced MENU_IMG_TXT with image and label keys
-	* removed {SOUND_POISON}
-	* use unit_placed as runeaura setup trigger
+   * removed mountainfoot unwalkable/impassable values (used inheritance instead)
+   * replaced movecost 100 with UNREACHABLE (99)
+   * require EoMa installation to join Zombies Challenge
+   * added fake _info.cfg
+   * fixed summon ability not working in some cases
+   * fixed some animation issues
+   * fixed aoe filters criteria (now they should not affect petrified units)
+   * fixed the order of attack specials
+   * fixed some triple strike issues (fixed draining hp from incorrect targets; prevented status restoration on drain; fixed enemy hp issues on attack end)
+   * remove unwanted newlines
+   * implemented changes required for wmlxgettext
+   * replaced MENU_IMG_TXT with image and label keys
+   * removed {SOUND_POISON}
+   * use unit_placed as runeaura setup trigger
  ### Descriptions
-	* fixed the Hydra description
-	* removed unused special notes from descriptions
+   * fixed the Hydra description
+   * removed unused special notes from descriptions
  ### Translations
-	* updated the raw translation file
+   * updated the raw translation file
     * updated the Polish translation
 
 ## Version 3.2
  ### Units
-    * Barbarians:
-	 * Cyclops: blade res. from 20% to 10%; pierce res. from 20% to 5%; impact res. from 0% to 10%
-	 * Cyclops Breaker: blade res. from 20% to 10%; pierce res. from 20% to 5%; impact res. from 10% to 15%
-	 * Cyclops Brute: blade res. from 20% to 10%; pierce res. from 20% to 5%; impact res. from 10% to 15%
-	 * Raging Cyclops: renamed to Cyclops Warmonger; blade res. from 20% to 10%; pierce res. from 20% to 5%; impact res. from 10% to 20%
-	 * Cyclops Goliath: blade res. from 20% to 15%; pierce res. from 20% to 6%; impact res. from 15% to 25%
-	 * Goblin Hunter: increased defense by 10% on many terrain types; nerfed blade/pierce/impact resistances from 0% to -10%, and reduced hp from 31 to 29 (to compensate for the terrain defense buff)
-	 * Goblin Assassin: increased defense by 10% on many terrain types; nerfed blade/pierce/impact resistances from 0% to -10%, and reduced hp from 42 to 40 (to compensate for the terrain defense buff)
-	* Darkblood Alliance:
-	 * Saurian Shooter: renamed to Saurian Blowgunner
-	 * Toad Shaman: nerfed pierce resistance to -20%
-	 * Mystical Toad: renamed to Toad Mystic; nerfed pierce resistance to -20%; nerfed fire resistance to 20%
-	 * Wyvern and Great Wyvern: 10% fire resistance
-	 * Chaos Wyvern: 20% fire resistance
-	 * Wyverns in general: changed impact resistance from -20% to 0%, but pierce from 0% to -20% 
+   * Barbarians:
+     * Cyclops: blade res. from 20% to 10%; pierce res. from 20% to 5%; impact res. from 0% to 10%
+     * Cyclops Breaker: blade res. from 20% to 10%; pierce res. from 20% to 5%; impact res. from 10% to 15%
+     * Cyclops Brute: blade res. from 20% to 10%; pierce res. from 20% to 5%; impact res. from 10% to 15%
+     * Raging Cyclops: renamed to Cyclops Warmonger; blade res. from 20% to 10%; pierce res. from 20% to 5%; impact res. from 10% to 20%
+     * Cyclops Goliath: blade res. from 20% to 15%; pierce res. from 20% to 6%; impact res. from 15% to 25%
+     * Goblin Hunter: increased defense by 10% on many terrain types; nerfed blade/pierce/impact resistances from 0% to -10%, and reduced hp from 31 to 29 (to compensate for the terrain defense buff)
+     * Goblin Assassin: increased defense by 10% on many terrain types; nerfed blade/pierce/impact resistances from 0% to -10%, and reduced hp from 42 to 40 (to compensate for the terrain defense buff)
+   * Darkblood Alliance:
+     * Saurian Shooter: renamed to Saurian Blowgunner
+     * Toad Shaman: nerfed pierce resistance to -20%
+     * Mystical Toad: renamed to Toad Mystic; nerfed pierce resistance to -20%; nerfed fire resistance to 20%
+     * Wyvern and Great Wyvern: 10% fire resistance
+     * Chaos Wyvern: 20% fire resistance
+     * Wyverns in general: changed impact resistance from -20% to 0%, but pierce from 0% to -20% 
     * Destroyers:
-	 * added a new unit: Cyclops Necromancer (he's an alternative advancement for Cyclops Skeleton, summoning a free lvl0 zombie unit next to self each turn)
-	 * Fallen Cyclops King: can now summon lvl1 Destroyers for a price
-	 * Dark Portal: nerfed cold resistance from 40% to 30% (to make the unit counter-able with runeadept/shamistic adept line units, as those factions don't have arcane damage), but buffed arcane resistance from 10% to 15% (to make the unit a bit less frail vs Kharos)
-	 * Infernal Vortex: nerfed cold resistance from 40% to 30% (to make the unit counter-able with runeadept/shamistic adept line units, as those factions don't have arcane damage), but buffed arcane resistance from 10% to 15% (to make the unit a bit less frail vs Kharos)
-	 * Zombie Goblin Kamikaze: fixed the goblin kamikaze's ability not working
-	* Kharos:
-	 * Adept of Light: renamed to Cleric
-	 * Cleric: renamed to Bishop
-	 * Massive Kharos War Banner: renamed to Grand Kharosian Warbanner
-	 * Protector: renamed to Hoplite
-	 * Prophet of Light: nerfed arcane resistance from 80% to 60%, but buffed fire/cold resistances from 0% to 10%
-	 * Solar Guardian: buffed impact resistance from 0% to 10%
-	 * Kirios: nerfed arcane resistance from 90% to 80%, nerfed fire/cold resistances from 70% to 60%, buffed impact resistance from 10% to 15% (as a compensation), reduced price from 85 gold to 75
-	* Runemasters:
-	 * Tanks: renamed 'mini-cannons' to 'machine gun'; renamed 'explosive ammo' to 'cannons'
-	* Sky Kingdom:
-	 * Guru: renamed to Guru of Magic
-	 * Mage of Air: renamed to Aeromancer
-	 * Mage of Fire: renamed to Pyromancer
-	 * Mage of Water: renamed to Hydromancer
-	* Tharis:
+     * added a new unit: Cyclops Necromancer (he's an alternative advancement for Cyclops Skeleton, summoning a free lvl0 zombie unit next to self each turn)
+     * Fallen Cyclops King: can now summon lvl1 Destroyers for a price
+     * Dark Portal: nerfed cold resistance from 40% to 30% (to make the unit counter-able with runeadept/shamistic adept line units, as those factions don't have arcane damage), but buffed arcane resistance from 10% to 15% (to make the unit a bit less frail vs Kharos)
+     * Infernal Vortex: nerfed cold resistance from 40% to 30% (to make the unit counter-able with runeadept/shamistic adept line units, as those factions don't have arcane damage), but buffed arcane resistance from 10% to 15% (to make the unit a bit less frail vs Kharos)
+     * Zombie Goblin Kamikaze: fixed the goblin kamikaze's ability not working
+   * Kharos:
+     * Adept of Light: renamed to Cleric
+     * Cleric: renamed to Bishop
+     * Massive Kharos War Banner: renamed to Grand Kharosian Warbanner
+     * Protector: renamed to Hoplite
+     * Prophet of Light: nerfed arcane resistance from 80% to 60%, but buffed fire/cold resistances from 0% to 10%
+     * Solar Guardian: buffed impact resistance from 0% to 10%
+     * Kirios: nerfed arcane resistance from 90% to 80%, nerfed fire/cold resistances from 70% to 60%, buffed impact resistance from 10% to 15% (as a compensation), reduced price from 85 gold to 75
+   * Runemasters:
+     * Tanks: renamed 'mini-cannons' to 'machine gun'; renamed 'explosive ammo' to 'cannons'
+   * Sky Kingdom:
+     * Guru: renamed to Guru of Magic
+     * Mage of Air: renamed to Aeromancer
+     * Mage of Fire: renamed to Pyromancer
+     * Mage of Water: renamed to Hydromancer
+   * Tharis:
      * Raging Hydra: renamed to Great Hydra
-	 * Storm Sphere: removed the energy boost ability, but added a new ranged attack called life drain (9-2 cold, magical and drain), as well as buffed impact resistance from 0% to 10%
-	 * Matriarch of Darkness: buffed most resistances so they're as high as Great Witch's, but nerfed melee from 9-3 to 8-3
-	 * Bladedancer: buffed impact resistance from -20% to -10%; buffed cold resistance from 0% to 20%; nerfed arcane resistance from 20% to 0%
-	 * Sworddancer: buffed impact resistance from -20% to -10%; buffed cold resistance from 0% to 20%; nerfed arcane resistance from 20% to 0%
-	 * Dark Commander: nerfed cold resistance from 20% to 10%, and fire resistances from 10% to 20% (to add a bit more uniqueness to the unit)
-	 * Dark General: nerfed cold resistance from 20% to 10%, and fire resistances from 10% to 20% (to add a bit more uniqueness to the unit)
-	 * Dark Warlord: changed fire resistance from 10% to 20%
-	 * Great Warlock: changed blade resistance from 20% to 10%
-	 * Master of Darkness: blade res. from 35% to 30%, pierce res. from 35% to 30%
+     * Storm Sphere: removed the energy boost ability, but added a new ranged attack called life drain (9-2 cold, magical and drain), as well as buffed impact resistance from 0% to 10%
+     * Matriarch of Darkness: buffed most resistances so they're as high as Great Witch's, but nerfed melee from 9-3 to 8-3
+     * Bladedancer: buffed impact resistance from -20% to -10%; buffed cold resistance from 0% to 20%; nerfed arcane resistance from 20% to 0%
+     * Sworddancer: buffed impact resistance from -20% to -10%; buffed cold resistance from 0% to 20%; nerfed arcane resistance from 20% to 0%
+     * Dark Commander: nerfed cold resistance from 20% to 10%, and fire resistances from 10% to 20% (to add a bit more uniqueness to the unit)
+     * Dark General: nerfed cold resistance from 20% to 10%, and fire resistances from 10% to 20% (to add a bit more uniqueness to the unit)
+     * Dark Warlord: changed fire resistance from 10% to 20%
+     * Great Warlock: changed blade resistance from 20% to 10%
+     * Master of Darkness: blade res. from 35% to 30%, pierce res. from 35% to 30%
  ### Abilities
-    * Dark Aura: now it behaves like illuminates, but for chaotic units
-    * Magic Absorber ability: now the ability only buffs resistances by 70%, instead of 99%
-    * Banishment: made banishment values linear
-	* improved the cleave special (now nearby allies can no longer killed by the cleave damage (their health can't go below 1, like with poison). Also fixed cleave not checking whether the hit units are petrified or not)
-	* improved the all-around special (friendly units can no longer be killed with the aoe damage (the special doesn't reduce the hp below 1, like poison). also added a petrification check)
-	* improved beam special (like other aoe abilities, it no longer kills friendly units hit by the aoe damage)
-	* improved the area of effect special (like others, it now can't kill friendly units)
+   * Dark Aura: now it behaves like illuminates, but for chaotic units
+   * Magic Absorber ability: now the ability only buffs resistances by 70%, instead of 99%
+   * Banishment: made banishment values linear
+   * improved the cleave special (now nearby allies can no longer killed by the cleave damage (their health can't go below 1, like with poison). Also fixed cleave not checking whether the hit units are petrified or not)
+   * improved the all-around special (friendly units can no longer be killed with the aoe damage (the special doesn't reduce the hp below 1, like poison). also added a petrification check)
+   * improved beam special (like other aoe abilities, it no longer kills friendly units hit by the aoe damage)
+   * improved the area of effect special (like others, it now can't kill friendly units)
  ### Graphics
-    * improved Dharma'rhami tackle animation
-	* improved Bone Golem line headbutt animation
-	* improved wonderful and mystical jinn's melee animations
-	* improved the battle toad/dreadnought spear animations
-	* improved the wyvern rider line spear animations
-	* new scream animation for Wyverns and Piryflies lines
-	* fixed great witch's curse animation timing
-	* changed runeaura ability image/portrait
+   * improved Dharma'rhami tackle animation
+   * improved Bone Golem line headbutt animation
+   * improved wonderful and mystical jinn's melee animations
+   * improved the battle toad/dreadnought spear animations
+   * improved the wyvern rider line spear animations
+   * new scream animation for Wyverns and Piryflies lines
+   * fixed great witch's curse animation timing
+   * changed runeaura ability image/portrait
  ### Descriptions
-    * added Roc Master description
-    * added Chosen of Forest description
-    * added Mystic description
-    * added Cleric description
-    * added Dwarvish Tank description
-    * added Cyclops Breaker description
-    * added Goblin Hunter description
-    * various description improvements
-	* fixed misleading special notes
+   * added Roc Master description
+   * added Chosen of Forest description
+   * added Mystic description
+   * added Cleric description
+   * added Dwarvish Tank description
+   * added Cyclops Breaker description
+   * added Goblin Hunter description
+   * various description improvements
+   * fixed misleading special notes
  ### Code
-    * added hit/die sounds to kharos warbanner line
-    * renamed all instances of {MAGENTA_IS_THE_TEAM_COLOR}
-	* added eoma_ prefix to all races
-	* replaced eomaprecision with eoma_precision
-	* fixed incorrect add-on prefix
-	* fixed incorrect faction id suffixes
-	* fixed some trait issues
-	* fixed typos
-	* replaced defense_weight=0 with  *disable:
-	* removed duplicated tags
-	* fixed drone advancement issues
-	* fixed double macro definitions
-	* changed hide_help.cfg loading order
-	* improved the awake ability code
+   * added hit/die sounds to kharos warbanner line
+   * renamed all instances of {MAGENTA_IS_THE_TEAM_COLOR}
+   * added eoma_ prefix to all races
+   * replaced eomaprecision with eoma_precision
+   * fixed incorrect add-on prefix
+   * fixed incorrect faction id suffixes
+   * fixed some trait issues
+   * fixed typos
+   * replaced defense_weight=0 with  *disable:
+   * removed duplicated tags
+   * fixed drone advancement issues
+   * fixed double macro definitions
+   * changed hide_help.cfg loading order
+   * improved the awake ability code
  ### Translations
-    * updated the Spanish translation
+   * updated the Spanish translation
 
 ## Version 3.1.2
  ### Code
@@ -1376,9 +1376,9 @@ Era of Magic - ChangeLog
 
 ## Version 3.1.1
  ### Units
-    * Kharos:
-	 * Brown Warrior: renamed to Bronze Warrior
-	* Summoners:
+   * Kharos:
+     * Brown Warrior: renamed to Bronze Warrior
+   * Summoners:
      * Jinn -> Jinni correction
      * Efreet -> Efreeti correction
  ### Abilities
@@ -2931,15 +2931,15 @@ Era of Magic - ChangeLog
 
  ### Abilities and Weapon Specials
    * New abilities: Area Attack and Lord of Fungus
-    * Rewritten/Fixed abilities:
-            - No Counter-Attack: doesn't work on units with the Berserker ability (finally!)
-            - Growing Fury: fixed the issue with setting unit's damage to constant value resulting in loss of damage upgrades
-            - Beam: fixed issue with damage calculation to a second target; the ability grants experience points after a successful kill
-            - Cleave: fixed issue with damage calculation; the ability grants experience points after a successful kill; removed old definitions
-            - Awake: fixed issue with unstoring units without presence of Inspired; simplified the code; updated description
-    * Removed abilities:
-            - Grenade
-    * Made it so that rune aura's activation code does not affect all Runemasters on the map
+   * Rewritten/Fixed abilities:
+     * No Counter-Attack: doesn't work on units with the Berserker ability (finally!)
+     * Growing Fury: fixed the issue with setting unit's damage to constant value resulting in loss of damage upgrades
+     * Beam: fixed issue with damage calculation to a second target; the ability grants experience points after a successful kill
+     * Cleave: fixed issue with damage calculation; the ability grants experience points after a successful kill; removed old definitions
+     * Awake: fixed issue with unstoring units without presence of Inspired; simplified the code; updated description
+   * Removed abilities:
+     * Grenade
+   * Made it so that rune aura's activation code does not affect all Runemasters on the map
 
  ### Other
    * Updated the credits
