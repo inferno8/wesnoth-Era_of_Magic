@@ -1,6 +1,60 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 4.0
+ ### Gameplay
+   * added experimental 24fps standing animations to most lvl0 and lvl1 units (+ some lvl2s) and to almost all units from the Barbarians faction
+   * added 5 new units: Lava Salamander, Desert Salamander, Swamp Salamander, Salamander Marine, Shadow Salamander
+ ### Units
+   * Barbarians:
+     * Cyclops Goliath: decreased the 'furious death' damage from 21 to 14; decreased the 'cleave' damage multiplier from 0.66 to 0.5
+     * Cyclops Warmonger: decreased the 'furious death' damage from 15 to 10; decreased the 'cleave' damage multiplier from 0.5 to 0.4
+     * Goblin Invader: XP from 110 to 126
+     * Roc Master: set impact resistance to -10%
+     * Barbarian King: added the growing fury +1 weapon special to the 'sword' attack
+     * Barbarian Lord: XP from 190 to 175
+   * Dark Blood Alliance:
+     * Temple Guard: set village defense to 60%; added the skilled weapon special to the 'sacred spear' attack
+     * all lvl2 Salamanders: XP from 100 to 110
+   * Destroyers:
+     * Bone Beast line: added the Scavenger ability
+     * Infernal Vortex: hitpoints from 48 to 50; changed the regeneration value from +8 to +9; changed the 'aura' attack damage from 18 to 17
+     * Atokpi Charger: added the skilled weapon special to the 'charge' attack
+     * Crimson Atokpi (RPG): ranged attack damage changed to 10
+     * Harbinger: arcane resistance from -10% to -20%
+     * Doom Bringer: arcane resistance from -10% to -20%
+   * Kharos:
+     * Inspired: set frozen defense to 40%; set frozen movement cost to 2
+     * Kharosian Impaler: set frozen defense to 30%, set sand defense to 40%; set mountains movement cost to 2
+     * Kirios: hitpoints from 88 to 90; arcane resistance from 90% to 85%, fire resistance from 70% to 65%, cold resistance from 70% to 65%
+     * Solar Master: added the skilled weapon special to all melee attacks
+   * Runemasters:
+     * Perfect Drone: level from 2 to 3; XP from 50 to 150
+   * Sky Kingdom:
+     * Shadow Mage: set deep water movement cost to 3; set deep water defense to 30%; changed 'cursed knives' attack damage from 7-3 to 8-3
+     * Master of Earth: changed the nature regeneration value from +8 to +10
+     * Master of Earth: changed the nature regeneration value from +5 to +6
+ ### Graphics
+   * added 24fps standing animations to 88 units
+   * changed the look of Cyclops Warmonger
+   * minor sprite improvements and cleanup
+ ### Abilities
+   * new ability: kill and run
+   * new weapon specials: Collector, Greater Marksman
+   * replaced the Bone Collector ability with the Collector special
+   * made the divine weapon special work against monsters as well
+   * made the Bloodlust and Collector abilities work only on offense
+ ### Descriptions
+   * added descriptions for Lava Salamander, Desert Salamander, Salamander Marine, Shadow Salamander Swamp Salamander, Fire Swordman, Heavy Cavalry, Inspired and Kharosian Impaler
+ ### Code
+   * added EOMA prefix to RECRUIT_MENU_ITEM
+   * fixed a lua error in the stun weapon special
+   * changed all occurrences of coastal_reef to reef in [defense]
+   * various code improvements to satisfy wmllint
+   * fixed missing textdomains
+ ### Translations
+   * updated the translation template file
+
 ## Version 3.12.2
  ### Units
    * Barbarians:
@@ -184,7 +238,7 @@ Era of Magic - ChangeLog
      * Great Warlock: added the 'nocturnal regeneration +3' ability
      * Great Witch: XP from 110 to 100
      * Dark Assassin: XP from 94 to 88
-     * Great Hunter: XP from 94 to 88	 
+     * Great Hunter: XP from 94 to 88     
  ### Abilities
    * added the 'hit and run' weapon special
    * rebalanced the 'chrono aura (active)' ability
@@ -555,7 +609,7 @@ Era of Magic - ChangeLog
    * added new weapon special: Bleed
    * added new weapon special: Dread
    * added new ability/weapon special: Shielded
-   * added new ability/weapon special: Pain Absorption	
+   * added new ability/weapon special: Pain Absorption    
  ### Graphics
    * improved Guru's landmass attack animation
  ### Descriptions
@@ -594,7 +648,7 @@ Era of Magic - ChangeLog
    * added new descriptions for Steamcopter (IPS), Battlecopter (IPS), Mechanical Dragon (IPS + Lord-Knightmare), Fallen Cyclops King (Lord_bold), Black Portal (IPS), Recruitment Officer (Lord_bold), Kharosian Javelineer (IPS)
  ### Translations
    * updated the raw translation file
-    * updated the Polish translation	
+    * updated the Polish translation    
 
 ## Version 3.8.2
  ### Gameplay
@@ -958,7 +1012,7 @@ Era of Magic - ChangeLog
    * units summoned via the summon undead ability now have 0 moves and cannot attack (just like freshly recruited units)
    * the split ability no longer spawns damaged units
    * the parachute ability no longer spawns damaged Parachutists
-   * fixed the bone collector ability not working	
+   * fixed the bone collector ability not working    
  ### Gameplay
    * removed Perfect Drone from recruits' lists in Masters and Slaves mode
  ### Descriptions
@@ -1065,7 +1119,7 @@ Era of Magic - ChangeLog
      * Blade Dancer: movement from 6 to 5; impact resistance from -10% to -20%; 'chakram' damage from 4 to 5 + 'marksman' weapon special
      * Sword Dancer: movement from 6 to 5; impact resistance from -10% to -20%; cost from 36 to 38
      * Dark Slayer: hitpoints from 42 to 44
-     * Storm Sphere: cost from 26 to 34	 
+     * Storm Sphere: cost from 26 to 34     
  ### Abilities
    * added new "magical (offensive)" weapon special
  ### Code
@@ -1815,7 +1869,7 @@ Era of Magic - ChangeLog
    * added a new fangs icon to Mechanical Dragon
    * added a tackle icon for Dharma'rhami
    * added a new ranged icon for the magical eye line, and renamed their ranged attack from 'eye' to 'beam'
-   * improved witch fire icon	
+   * improved witch fire icon    
    * changed the blades icon of Battle Eye/Cosmic Eye to chakram.png, and renamed the attack to 'blade ring'
    * adjusted Battle Eye's melee animation, so that it matches Cosmic Eye's
    * added a reality warp icon for Cosmic Eye
@@ -1895,7 +1949,7 @@ Era of Magic - ChangeLog
    * Double Ranged Toad: cost 60 (+6)
    * Nightmare line: changed resistances: lvl1: 10% arcane, -10% cold, lvl2: 10% arcane, -10% cold, lvl3: 15% arcane,-5% cold, lvl4: 20% arcane, -5% cold
    * Fire Elemental: replaced Illuminates ability with Fiery Glow
-   * Fire Avatar: replaced Illuminates ability with Fiery Glow	
+   * Fire Avatar: replaced Illuminates ability with Fiery Glow    
  ### Graphics
    * fixed wrong portrait path for Mystic and Chaos Rider
  ### Abilities
@@ -1960,7 +2014,7 @@ Era of Magic - ChangeLog
  ### Units
    * salamanders have 10% arcane resistance, -10% fire/cold resistances (0% cold resistance for Blue Salamander), and 20% pierce resistance
    * renamed Master of Sun's light focusing attack to missile
-	
+    
  ### Factions
    * fixed wrong unit id for Runemasters in rpg mode
 
@@ -1981,18 +2035,18 @@ Era of Magic - ChangeLog
      * renamed the 'runes' attack (Runeadept line) to 'fire runes'
      * renamed 'Runeadept' to 'Rune Adept'
    * Destroyers
-     * changed Abaddon's awe 4 to awe 3, and added regenerates +4 to him	
+     * changed Abaddon's awe 4 to awe 3, and added regenerates +4 to him    
    * Barbarians
      * made barbarian berserkers have 0% physical resistances
    * Sky Kingdom
      * Golem now has -10% impact resistance (instead of -20%)
-     * Golem Boss has 50% pierce resistance and 0% impact resistance, but has 30% fire resistance, and 50% cold/arcane resistance	
-     * added a 'smash' attack to the line (11-2 impact melee for lvl1, 15-2 for lvl2, no specials)	
+     * Golem Boss has 50% pierce resistance and 0% impact resistance, but has 30% fire resistance, and 50% cold/arcane resistance    
+     * added a 'smash' attack to the line (11-2 impact melee for lvl1, 15-2 for lvl2, no specials)    
    * Tharis
      * fixed Great Warlock not being able to move over unwalkable terrain, and fixed him have 0% resistance on deep water, and made him have 70% defense on terrain he can float on
      * fixed Master of Darkness having 20% impact resistance, instead of 35%
      * increased exp required for Great Warlock to advance to 216 (from 210)
-		
+        
  ### Graphics
    * improved the destroyer death animation macro
    * added an attack icon for the melee attacks of the golem line 
@@ -2031,10 +2085,10 @@ Era of Magic - ChangeLog
      * Massive Kharos Warbanner: cost to 67 (+3)
    * Runemasters:
      * Drone: changed various amlas:
-		   * max experience rised to 33% instead of 20%
-		   * defensive module grants also +2 hp
-		   * +5 hp amla changed to +8hp
-		   * added another +4hp amla after choosing +8hp boost
+           * max experience rised to 33% instead of 20%
+           * defensive module grants also +2 hp
+           * +5 hp amla changed to +8hp
+           * added another +4hp amla after choosing +8hp boost
      * Red Ulfserker: hitpoints to 45 (+3); cost to 36 (-2); pierce resistance to 55%, fire to 10%, cold to 10%; replaced regenerates +8 with regenerates +4; changed terrain defense; removed charge special
      * Steam Berserker: cost to 46 (+8)
      * Steam Ulfserker: movement cost in caves to 1
@@ -2305,7 +2359,7 @@ Era of Magic - ChangeLog
    * added devour animation for Apocalypse and Dark Apostle
    * added leading animation for Dark Apostle
    * added meteor shower icon
-	
+    
  ### Abilities
    * fixed aoe-related bug resulting in reviving some of the units as well as not giving experience to the attacker
    * added 66% damage variant of the cleave ability
@@ -2374,7 +2428,7 @@ Era of Magic - ChangeLog
    * improved Protector's description
    * improved Slicer's description
    * improved triple strike special's description
-	
+    
  ### Code
    * rewrote the banish special ability
    * Dharma'rhami uses fist.ogg sound instead of mace.ogg for her tackle attack
@@ -2516,7 +2570,7 @@ Era of Magic - ChangeLog
    * Hydra has drains on bite
    * Raging Hydra's bite 4-8, and headbutt 11-3
    * Chaos Hydra's bite 6-8, and headbutt 16-3
-	
+    
  ### Graphics:
    * new death animations for Omen/Nightmare line
    * improved Carpet Rider/Carpet Master's ranged animations
@@ -2528,7 +2582,7 @@ Era of Magic - ChangeLog
    * added coded animation for Roc Master's ranged attack
    * added movement animation for Rocs and Wyvern Riders
    * all Wyverns fly when above water/chasms/etc, same goes for Great Warlock
-	
+    
 * Abilities:
    * banish special works on kill too
    * banish special does not kill enemy units as it did in some cases
@@ -2537,7 +2591,7 @@ Era of Magic - ChangeLog
    * fixed triple strike weapon special not working
    * triple strike special is compatible with drain now
    * triple strike special works on both offense and defense
-	
+    
 * Descriptions:
    * improved Tharis Witch description
    * improved Disciple description
@@ -2548,7 +2602,7 @@ Era of Magic - ChangeLog
 * Code:
    * removed wrong Rhami levelout animation
    * applied TC macro on Hydra line.
-	
+    
 * Maps:
    * added some extra options to the Zombies Challenge scenario (now it is fully customable)
    * made the side 1's  *side: tag have 'hidden=yes'
@@ -2767,7 +2821,7 @@ Era of Magic - ChangeLog
      * Dark Assassin: hitpoints to 36; changed movepoints to 7; changed ranged damage to 7-3; added hit and run 3 ability
      * Dark Warrior: hitpoints from 28 to 30, experience points to 45 (-15)
      * Dark Slayer: hitpoints to 40; changed melee damage to 5-5; added skirmisher ability
-     * Blademaster: changed melee damage to 7-5; added skirmisher ability		
+     * Blademaster: changed melee damage to 7-5; added skirmisher ability        
      * Disciple: hitpoints from 24 to 27, experience points to 46 (-4); added melee attack; cost to 17g; able to get the strong trait
      * Dark Wizard: changed melee damage to 6-2, changed ranged damage to 11-3; changed cold resistance to 30%
      * Great Warlock: copied defenses/resistance/movement costs from Master of Darkness; changed cold resistance to 40%, blade to 20%, pierce/impact to 20%
@@ -2807,7 +2861,7 @@ Era of Magic - ChangeLog
    * Renamed 'Deadzone' to 'Magic Absorber'; from now on it negates all healing magic; made it work on enemies as well.
    * Removed 'Fire' ability.
    * Prevented all area weapons from harming petrified units
-	
+    
  ### Factions:
    * Renamed al-Kamija to Summoners
    * Changed faction order - The Darkblood Alliance is above Runemasters
@@ -2815,7 +2869,7 @@ Era of Magic - ChangeLog
    * Renamed "EoMa Heores" to "Era of Magic (Extended)"
    * Renamed "EoMa Masters & Slaves" to "Era of Magic (lvl3 leaders)"
    * Dropped support for Default+EoMa configurations
-	
+    
  ### Graphics
    * Complete art overhaul: improved unit sprites and visuals
    * Added experimental faction icons in the 'Faction selection screen'
@@ -2839,24 +2893,24 @@ Era of Magic - ChangeLog
    * Categorized abilities and put them into separate files
    * Applied EOMA signature to all abilities and weapon specials
    * Removed unused code
-	
+    
  ### Translation
    * New translation: Spanish
 
  ### Misc
    * Changed internal era structure
-	
-	
+    
+    
 ## Version 1.1.1
 
  ### Translation
    * Updated translation: Polish
-	
+    
  ### Units
    * Increased Hydra's fire vulnerability (110% instead of 90%)
    * Increased Disciple's cost (16g instead of 14g)
    * Increased Dark Warriors's cost (16g instead of 15g) and decreased his hitpoints (28 instead of 32)
-	
+    
  ### Misc
    * Added the  *feedback: tag in the .pbl file
 
