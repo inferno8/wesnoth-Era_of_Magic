@@ -52,6 +52,7 @@ Lord_bold (Destroyers)
 Lord-Knightmare (various)
 Slug (Barbarians)
 sur.nhm (Dark Blood Alliance)
+Tarcil (Kharos)
 
 SOUNDS FX
 inferno8
