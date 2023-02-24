@@ -1,19 +1,20 @@
 If you want to translate the add-on, follow these instructions:
 
-1. Download Poedit (this is a free editor for translating apps)
+1. Download Poedit
 https://poedit.net/download
 
-2. Open EoMa_translation_template.pot (usually located in add-ons/Era_of_Magic/translations/
+2. Go to the following link:
+https://github.com/inferno8/wesnoth-Era_of_Magic/tree/master/translations/wesnoth-Era_of_Magic
 
-3. Click the "Create new translation button"
+3. Find a .po file with your language and download it, then proceed to 4. If your language does not appear on the list, see 3a:
 
-4. Choose your language
+    3a. Open TLU_translation_template.pot (usually located in Era_of_Magic/translations/
 
-4. Start translating
+    3b. Set your translation language.
 
-5. When finished, export .mo file and share it on the forums in this topic:
-https://forums.wesnoth.org/viewtopic.php?f=19&t=20039
+4. Start translating.
 
-so I can release it officially.
+5. When finished, share the .po file on the forums here: https://forums.wesnoth.org/viewtopic.php?t=20039
+or create a Pull Request if you are familiar with GitHub.
 
 All translators will be mentioned in the add-on's credits.
