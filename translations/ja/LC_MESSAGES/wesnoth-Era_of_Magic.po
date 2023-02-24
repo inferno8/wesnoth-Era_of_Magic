@@ -1,0 +1,1467 @@
+msgid   ""
+msgstr  "Project-Id-Version: wescamp-i 18n\n"
+        "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+        "POT-Creation-Date: 2011-04-15 13:29-0400\n"
+        "PO-Revision-Date: 2010-12-05 13:58+0900\n"
+        "Last-Translator: IWAI, Masaharu <iwaim.sub@gmail.com>\n"
+        "Language-Team: <wesnoth-ja-translate@lists.sourceforge.jp>\n"
+        "Language: Japanese\n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=UTF-8\n"
+        "Content-Transfer-Encoding: 8bit\n"
+        "Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid   "\n"
+        "\n"
+        "Special Notes:"
+msgstr  "\n"
+        "\n"
+        "特記事項:"
+
+msgid   " mountain ambush"
+msgstr  "伏兵（山）"
+
+msgid   " this unit can create other units in the near free spaces, but not "
+        "in villages."
+msgstr  " このユニットは自身の近くの 村以外の空いている場所に別のユニットを創"
+        "り出すことができます。"
+
+msgid   "+$this_unit.level exp"
+msgstr  "経験値 $this_unit.level 獲得"
+
+msgid   "."
+msgstr  "."
+
+msgid   ".\n"
+        "\n"
+        "Special Notes:"
+msgstr  ".\n"
+        "\n"
+        "特記事項:"
+
+msgid   ".\n"
+        "Special Notes:"
+msgstr  ".\n"
+        "特記事項:"
+
+msgid   "4"
+msgstr  "4"
+
+msgid   "Abyss Mage"
+msgstr  "深淵の魔術師"
+
+msgid   "Air Avatar"
+msgstr  "風の化身"
+
+msgid   "Air God"
+msgstr  "風の神"
+
+msgid   "Alib,Kalib,Balib,Safay,Jaffar,Semir,Celal,Fatih,Ferhan,Mustafa,"
+        "Mehmet,Melih,Ali,Adem,Ahmet,Altan,Ismet,Ibrahim,Hakan,Kemal,Kenan,"
+        "Rafet,Tahir,Yasar,Yasin,Yusuf,Ahmed,Najib,Samir,Hassan,Hisham,Karim,"
+        "Saif,Rahul,Rohan,Rohit,Nikhil,Shahrukh,Krishi"
+msgstr  "Alib,Kalib,Balib,Safay,Jaffar,Semir,Celal,Fatih,Ferhan,Mustafa,"
+        "Mehmet,Melih,Ali,Adem,Ahmet,Altan,Ismet,Ibrahim,Hakan,Kemal,Kenan,"
+        "Rafet,Tahir,Yasar,Yasin,Yusuf,Ahmed,Najib,Samir,Hassan,Hisham,Karim,"
+        "Saif,Rahul,Rohan,Rohit,Nikhil,Shahrukh,Krishi"
+
+msgid   "Ancient Cyclops"
+msgstr  "古代のサイクロプス"
+
+msgid   "Balloon"
+msgstr  "気球"
+
+msgid   "Banisher"
+msgstr  "魔力追放使い"
+
+msgid   "Barbarian"
+msgstr  "バーバリアン"
+
+msgid   "Barbarian Berserker"
+msgstr  "バーバリアンの狂戦士"
+
+msgid   "Barbarian King"
+msgstr  "バーバリアンの王"
+
+msgid   "Barbarian Lord"
+msgstr  "バーバリアンの貴族"
+
+msgid   "Barbarians"
+msgstr  "バーバリアン"
+
+msgid   "Battle Toad"
+msgstr  "戦闘型カエル"
+
+msgid   "Battlemage"
+msgstr  "戦いの魔術師"
+
+msgid   "Black Mage"
+msgstr  "黒の魔術師"
+
+msgid   "Black Salamander"
+msgstr  "ブラックサラマンダー"
+
+msgid   "Bladedancer"
+msgstr  "ブレードダンサー"
+
+msgid   "Blademaster"
+msgstr  "ブレードマスター"
+
+msgid   "Blood Warrior"
+msgstr  "血糊の闘士"
+
+msgid   "Blue Salamander"
+msgstr  "ブルーサラマンダー"
+
+msgid   "Brown Warrior"
+msgstr  "茶の闘士"
+
+msgid   "Camel Rider"
+msgstr  "ラクダの乗り手"
+
+msgid   "Carpet Master"
+msgstr  "カーペットの主人"
+
+msgid   "Carpet Rider"
+msgstr  "カーペット乗り"
+
+msgid   "Cavalry Archer"
+msgstr  "騎馬の弓兵"
+
+msgid   "Cave Ambush:\n"
+        "This unit can hide in cave, and remain undetected by its enemies.\n"
+        "\n"
+        "Enemy units cannot see this unit while it is in cave, except if they "
+        "have units next to it. Any enemy unit that first discovers this unit "
+        "immediately loses all its remaining movement."
+msgstr  "伏兵（洞窟）:\n"
+        "このユニットは洞窟に隠れることができます。そのため、洞窟にいれば敵に"
+        "見つかることはありません。\n"
+        "\n"
+        "このユニットが洞窟にいるときは、敵のユニットはこのユニットの隣にいる"
+        "場合以外は、このユニットを見つけることはできません。このユニットを初"
+        "めて見つけた敵ユニットは、それ以上移動することはできません。"
+
+msgid   "Chaos Hydra"
+msgstr  "カオスヒドラ"
+
+msgid   "Chaos Rider"
+msgstr  "カオスワイバーンの乗り手"
+
+msgid   "Chaos Wyvern"
+msgstr  "カオスワイバーン"
+
+msgid   "Chosen of Forest"
+msgstr  "森林の選民"
+
+msgid   "Circle of Resistance:\n"
+        "This unit and all adjacent friendly units receive a +20% bonus to "
+        "fire, cold and arcane resistance."
+msgstr  "抵抗の魔法陣:\n"
+        "このユニットと全ての友好的なユニットは、火炎と冷気、秘術に対して "
+        "+20% の抵抗力を獲得します。"
+
+msgid   "Clan Leader"
+msgstr  "一族の指導者"
+
+msgid   "Cleave: A unit with this ability can hurt units that are adjacent to "
+        "the attacker and the defender at the same time."
+msgstr  "開裂:\n"
+        "この攻撃は、攻撃側ユニットと防御側ユニットに隣接しているユニットにも"
+        "ダメージを与えます。"
+
+msgid   "Cold Aura:\n"
+        "Adjacent units receive a 50% bonus to fire resistance and a -25% "
+        "bonus to cold resistance. All cold spells are very powerful here."
+msgstr  "冷気のオーラ:\n"
+        "隣接したユニットは +50% の火炎への耐性と冷気への -25% の耐性を受けま"
+        "す。全ての冷気魔法はこの空間では非常に強力となります。"
+
+msgid   "Cold Matriarch"
+msgstr  "氷の女支配者"
+
+msgid   "Cold Matriarch creates cold aura which makes all cold spells very "
+        "powerful (up to 25%) and makes fire spells, very weak."
+msgstr  "氷の女支配者は冷気のオーラをまといます。そのため、冷気の魔法はとても"
+        "強力（+25%）なります。また、火炎の魔法はとても弱くなります。"
+
+msgid   "Commander"
+msgstr  "司令官"
+
+msgid   "Corrupted Shaman"
+msgstr  "堕落した呪術師"
+
+msgid   "Crossbowman"
+msgstr  "トカゲのクロスボウ兵"
+
+msgid   "Cyclops"
+msgstr  "サイクロプス"
+
+msgid   "Cyclops Breaker"
+msgstr  "サイクロプスの破壊者"
+
+msgid   "Cyclops Destroyer"
+msgstr  "サイクロプスデストロイヤー"
+
+msgid   "Dark Assassin"
+msgstr  "闇の暗殺者"
+
+msgid   "Dark Blood Alliance"
+msgstr  "どす黒い血の同盟"
+
+msgid   "Dark Hunter"
+msgstr  "闇の狩人"
+
+msgid   "Dark Slayer"
+msgstr  "闇の殺戮者"
+
+msgid   "Dark Warrior"
+msgstr  "闇の闘士"
+
+msgid   "Dark Witch"
+msgstr  "闇の魔女"
+
+msgid   "Dark Wizard"
+msgstr  "闇の魔術師"
+
+msgid   "Dark aura makes all enemy units fight worse (-25% for attack)."
+msgstr  "闇のオーラは全ての敵ユニットを弱体化（攻撃が -25%）させます。"
+
+msgid   "Deadly Eye"
+msgstr  "致死の目"
+
+msgid   "Deadzone:\n"
+        "Adjacent friendly units receive a 99% bonus to fire,cold and arcane "
+        "resistance"
+msgstr  "死角:\n"
+        "隣接した友好軍のユニットは、火炎と冷気、秘術に対して 99% の抵抗力を得"
+        "ます。"
+
+msgid   "Defender:\n"
+        "Adjacent friendly units receive a +20% bonus to all resistances (up "
+        "to a maximum of 40%)."
+msgstr  "擁護:\n"
+        "隣接する友好的なユニットは、全ての攻撃型に対する抵抗力が +20% 向上 "
+        "(最大 40%) します。"
+
+msgid   "Dimensional Gate 2"
+msgstr  "次元の扉 2"
+
+msgid   "Disciple"
+msgstr  "見習い"
+
+msgid   "Dispeller"
+msgstr  "解呪使い"
+
+msgid   "Double Ranged Toad"
+msgstr  "強化投射型カエル"
+
+msgid   "Double attack!"
+msgstr  "2回攻撃！"
+
+msgid   "Double attack:\n"
+        "This unit can attack 2 enemies in one turn, but cannot move from a "
+        "hex, where first enemy was attacked."
+msgstr  "2回攻撃:\n"
+        "このユニットは1ターンに2対の敵を攻撃することができます。ただし、その"
+        "ときに移動することはできません。最初に攻撃した敵を更に攻撃することも"
+        "できます。"
+
+msgid   "Dread Bat"
+msgstr  "恐怖コウモリ"
+
+msgid   "Dreadnaught"
+msgstr  "恐れ知らず"
+
+msgid   "Dwarvish Heavy Warrior"
+msgstr  "ドワーフの熟練闘士"
+
+msgid   "Dwarvish Rune Lord"
+msgstr  "ドワーフのルーン貴族"
+
+msgid   "Dwarvish Rune Warrior"
+msgstr  "ドワーフのルーン闘士"
+
+msgid   "Dwarvish Tank"
+msgstr  "ドワーフの戦車"
+
+msgid   "Dwarvish Warrior"
+msgstr  "ドワーフの闘士"
+
+msgid   "Earth Avatar"
+msgstr  "土の化身"
+
+msgid   "Earth God"
+msgstr  "土の神"
+
+msgid   "Elemental Archer"
+msgstr  "精霊の弓兵"
+
+msgid   "Elementalist"
+msgstr  "精霊使い"
+
+msgid   "Era of Magic"
+msgstr  "魔法の時代"
+
+msgid   "Era of Magic RPG"
+msgstr  "魔法の時代 RPG"
+
+msgid   "Evasion:\n"
+        "When this attack is used offensively, this unit takes one third less "
+        "damage in retaliation."
+msgstr  "忌避:\n"
+        "攻撃時にこの攻撃を選ぶと、このユニットは反撃のダメージを 1/3 に減少す"
+        "ることができます。"
+
+msgid   "FLEE!"
+msgstr  "再移動！"
+
+msgid   "FURY!"
+msgstr  "激怒！"
+
+msgid   "Fanatic"
+msgstr  "狂信者"
+
+msgid   "Fire Avatar"
+msgstr  "火の化身"
+
+msgid   "Fire Cyclops"
+msgstr  "火のサイクロプス"
+
+msgid   "Fire God"
+msgstr  "火の神"
+
+msgid   "Flying Fortress"
+msgstr  "空飛ぶ要塞"
+
+msgid   "Furious Death: When this unit dies, it flies into a fury. The unit "
+        "with this ability atacks all adjecent units and then it finally dies."
+msgstr  "死に際の激怒:\n"
+        "このユニットが死んだとき、怒りが蔓延します。このユニットに隣接する全"
+        "てのユニットはその時死に至ります。（訳注: バージョン0.10.2をBfW 1.8.5"
+        "で試したときは全ての隣接ユニットにダメージを与えるだけでした）"
+
+msgid   "Fury:\n"
+        "This unit can attack another after killing an enemy."
+msgstr  "激怒:\n"
+        "このユニットは敵を殺した後、別の敵を攻撃することができます。"
+
+msgid   "General"
+msgstr  "将軍"
+
+msgid   "Goblin Archer"
+msgstr  "ゴブリンの射手"
+
+msgid   "Goblin Assassin"
+msgstr  "ゴブリンの暗殺者"
+
+msgid   "Goblin Hunter"
+msgstr  "ゴブリンの狩人"
+
+msgid   "Goblin Kamikaze"
+msgstr  "ゴブリンの特攻隊"
+
+msgid   "Goblin Rouser"
+msgstr  "最強ゴブリン"
+
+msgid   "Goblin Runt"
+msgstr  "小ゴブリン"
+
+msgid   "Goblin Sniper"
+msgstr  "ゴブリンの狙撃手"
+
+msgid   "Goblin Warbanner"
+msgstr  "ゴブリンの戦旗"
+
+msgid   "Goblin Warrior"
+msgstr  "ゴブリンの闘士"
+
+msgid   "Golden Mage"
+msgstr  "金の魔術師"
+
+msgid   "Golden Warrior"
+msgstr  "金の闘士"
+
+msgid   "Golem"
+msgstr  "ゴーレム"
+
+msgid   "Golem Boss"
+msgstr  "ゴーレム ボス"
+
+msgid   "Grand Summoner"
+msgstr  "大召喚士"
+
+msgid   "Great Efreeti"
+msgstr  "グレートイフリート"
+
+msgid   "Great Hunter"
+msgstr  "大狩人"
+
+msgid   "Great Jinn"
+msgstr  "グレートジン"
+
+msgid   "Great Pikeman"
+msgstr  "トカゲの熟練槍兵"
+
+msgid   "Great Warlock"
+msgstr  "大魔道士"
+
+msgid   "Great Wyvern"
+msgstr  "グレートワイバーン"
+
+msgid   "Green Salamander"
+msgstr  "グリーンサラマンダー"
+
+msgid   "Grenade: When this attack is used, all units adjecent to a target "
+        "get damage. Does not work on defense."
+msgstr  "グレネード: 攻撃時にこの攻撃が使われるとき、全ての隣接ユニットはダ"
+        "メージを受けます。防御時には発生しません。"
+
+msgid   "Guru"
+msgstr  "導師"
+
+msgid   "Hard landing"
+msgstr  "墜落"
+
+msgid   "Hard landing: When this large unit is destroyed, it falls on a "
+        "ground dealing damage to all adjecent units. "
+msgstr  "墜落: この大きなユニットが破壊されてしまったとき、地面に墜落して全て"
+        "の隣接ユニットに損傷を与えます。"
+
+msgid   "Heals +12:\n"
+        "Allows the unit to heal adjacent friendly units at the beginning of "
+        "each turn.\n"
+        "\n"
+        "A unit cared for by this healer may heal up to 12 HP per turn.\n"
+        "A curer can cure a unit of poison, although that unit will receive "
+        "no additional healing on the turn it is cured of the poison."
+msgstr  "回復 +12:\n"
+        "このユニットは隣接した友好的なユニットをターン開始時に回復させま"
+        "す。\n"
+        "\n"
+        "このユニットに治療されるユニットは 1 ターンに最大でHPが 12 回復しま"
+        "す。また、毒を受けたユニットを治療することができます。ただし、毒から"
+        "治療されたそのターン内には、さらなる回復は受けられません。"
+
+msgid   "Heals +2:\n"
+        "Allows the unit to heal adjacent friendly units at the beginning of "
+        "each turn.\n"
+        "\n"
+        "A unit cared for by this healer may heal up to 2 HP per turn."
+msgstr  "回復 +2:\n"
+        "このユニットは隣接した友好的なユニットをターン開始時に回復させま"
+        "す。\n"
+        "\n"
+        "このユニットに治療されるユニットは 1 ターンに最大でHPが 2 回復しま"
+        "す。"
+
+msgid   "Heavy Balloon"
+msgstr  "大気球"
+
+msgid   "Heavy Camel Rider"
+msgstr  "ラクダの重騎兵"
+
+msgid   "Heavy Cavalry Archer"
+msgstr  "騎馬の重弓兵"
+
+msgid   "Heavy Summoner"
+msgstr  "肉体派召喚士"
+
+msgid   "Help"
+msgstr  "ヘルプ"
+
+msgid   "Hidden Face"
+msgstr  "覆面"
+
+msgid   "Hidden faces are warriors who specialize in close combat, fast "
+        "strikes, and dodging."
+msgstr  "覆面は、近接戦闘や速攻、回避能力を得意とする戦士です。"
+
+msgid   "Hit and Run:\n"
+        "This unit gains 3 moves back after attacking, but cannot attack "
+        "again."
+msgstr  "ヒットエンドラン:\n"
+        "このユニットは攻撃した後に移動力を 3 得ます。再度攻撃することはできま"
+        "せん。"
+
+msgid   "Hydra"
+msgstr  "ヒドラ"
+
+msgid   "If the Dark Blood Tribe is known for something, it's their "
+        "shamanistic magic. Those saurians who choose to learn it are usually "
+        "frail of body and unfit to do battle physically. However, their "
+        "control of water magicks is invaluable in battle, both to heal their "
+        "allies, and to hurl balls of ice at their foes."
+msgstr  "どす黒い血の一族が何で知られているのかといえば、それは呪術師の魔法で"
+        "す。これを学ぼうと考えたトカゲは、大抵の場合、その体は貧弱で肉体的な"
+        "戦闘には不向きです。しかしながら、水の魔法を操る彼らは戦闘では大変有"
+        "益です。同胞の傷を癒したり、敵対する者に氷の球を投げつけたりします。"
+
+msgid   "Inspire:\n"
+        "This unit can inspire friendly units that are next to it, making "
+        "them fight better.\n"
+        "\n"
+        "Adjacent friendly level 0 units will do 25% more damage in battle.\n"
+        "Adjacent friendly level 1 units will do 10% more damage in battle."
+msgstr  "奮起:\n"
+        "このユニットは、隣接する友好的なユニットをより良く戦うように奮起させ"
+        "ることができます。\n"
+        "\n"
+        "隣接している友好的なレベル 0 のユニットは、戦闘で与えるダメージが "
+        "25% 上昇します。\n"
+        "隣接している友好的なレベル 1 のユニットは、戦闘で与えるダメージが "
+        "10% 上昇します。"
+
+msgid   "Jinn"
+msgstr  "ジン"
+
+msgid   "Kamikaze: this unit always hits a target when attacking, but it dies "
+        "instantly."
+msgstr  "カミカゼ: このユニットが攻撃するとき、必ず命中します。しかし、直ちに"
+        "死んでしまいます。"
+
+msgid   "Kharos War Banner"
+msgstr  "Kharos の戦旗"
+
+msgid   "Made of Fire:\n"
+        "This unit is made of fire. If it stands in lava, it will recive 6 hp."
+msgstr  "火より生まれしもの:\n"
+        "このユニットは火から作られました。そのため、溶岩の中ではヒットポイン"
+        "トが 6 回復します。"
+
+msgid   "Made of Water:\n"
+        "This unit is made of water. As a result, if it is standing in water, "
+        "it will receive 6 hp."
+msgstr  "水より生まれしもの:\n"
+        "このユニットは水から作られました。そのため、水の中ではヒットポイント"
+        "が 6 回復します。"
+
+msgid   "Mage of air"
+msgstr  "風の魔術師"
+
+msgid   "Mage of fire"
+msgstr  "火の魔術師"
+
+msgid   "Mage of water"
+msgstr  "水の魔術師"
+
+msgid   "Magical Eye"
+msgstr  "魔法の目"
+
+msgid   "Master of Air"
+msgstr  "風の支配者"
+
+msgid   "Master of Darkness"
+msgstr  "闇の支配者"
+
+msgid   "Master of Elements"
+msgstr  "精霊の支配者"
+
+msgid   "Master of Fire"
+msgstr  "火の支配者"
+
+msgid   "Master of Sun"
+msgstr  "太陽の支配者"
+
+msgid   "Master of War"
+msgstr  "戦の支配者"
+
+msgid   "Master of Water"
+msgstr  "水の支配者"
+
+msgid   "Mastermage"
+msgstr  "魔術の達人"
+
+msgid   "Matriarch of Darkness"
+msgstr  "闇の女主人"
+
+msgid   "Matriarch of Emptiness"
+msgstr  "空虚の女支配者"
+
+msgid   "Mechanic"
+msgstr  "整備士"
+
+msgid   "Mechanical Dragon"
+msgstr  "機械竜"
+
+msgid   "Mighty Cyclops"
+msgstr  "強力なサイクロプス"
+
+msgid   "Mountain Ambush:\n"
+        "This unit can hide in mountains and hills, and remain undetected by "
+        "its enemies.\n"
+        "\n"
+        "Enemy units cannot see this unit while it is in mountains or hills, "
+        "except if they have units next to it. Any enemy unit that first "
+        "discovers this unit immediately loses all its remaining movement."
+msgstr  "伏兵（山）:\n"
+        "このユニットは山や丘に隠れることができます。そのため、山や丘にいれば"
+        "敵に見つかることはありません。\n"
+        "\n"
+        "このユニットが山や丘にいるときは、敵のユニットはこのユニットの隣にい"
+        "る場合以外は、このユニットを見つけることはできません。このユニットを"
+        "初めて見つけた敵ユニットは、それ以上移動することはできません。"
+
+msgid   "Mu"
+msgstr  "ム"
+
+msgid   "Mystic"
+msgstr  "神秘なる者"
+
+msgid   "Mystic Warrior"
+msgstr  "神秘の戦士"
+
+msgid   "Mystic warriors use special staffs to perform both their ranged and "
+        "melee attacks."
+msgstr  "神秘の戦士は、格闘攻撃と投射攻撃の両方に特殊な杖を使います。"
+
+msgid   "Mystical Jinn"
+msgstr  "ミスティカルジン"
+
+msgid   "Mystical Toad"
+msgstr  "神秘的なカエル"
+
+msgid   "Neutral Summoner"
+msgstr  "中立召喚士"
+
+msgid   "No"
+msgstr  "いいえ"
+
+msgid   "Novice Summoner"
+msgstr  "召喚士見習い"
+
+msgid   "Orcish Warbanner"
+msgstr  "オークの戦旗"
+
+msgid   "Orcish Warrior"
+msgstr  "オークの闘士"
+
+msgid   "Parachute: The pilot of this machine is equipped with parachute and "
+        "he can survive a destruction of his vehicle."
+msgstr  "落下傘: この機械の操縦士は落下傘を備えています。そのため、乗り物が破"
+        "壊されてしまったとしても脱出することが可能です。"
+
+msgid   "Parachutist"
+msgstr  "落下傘兵"
+
+msgid   "Platinum Warrior"
+msgstr  "白金の闘士"
+
+msgid   "Promoted to the Second Degree, summoners are proficient enough to "
+        "perform minor summonings, using their own bodies as the medium. With "
+        "a magical circle traced in their hands, they can let loose magical "
+        "arrows that strike foes with surefire aim. Summoners, armed with "
+        "hammers and scimitars, are trained in slaying enemies in both close "
+        "quarters and afar.\n"
+        "\n"
+        "Special Notes: Precison: Ranged attack of this unit always has a 80% "
+        "chance to hit."
+msgstr  "第2段階に進んだ召喚士は、媒体として自らの体を用いて僅かな召喚術を行え"
+        "るようになります。その手に魔法の円盤を携えた彼らは、目標とした敵を確"
+        "実に打ち抜く魔法の矢を放つことができます。また、ハンマーとシミターで"
+        "武装した召喚士は、近くの敵でも遠くにいる敵でも殺せるような訓練を受け"
+        "ています。\n"
+        "\n"
+        "特記事項: 精度: このユニットの投射攻撃は常に 80% の確率で命中します。"
+
+msgid   "Protector"
+msgstr  "保護兵"
+
+msgid   "Protector holds a large towershield. He uses it to protect all "
+        "adjacent units. Their resistance increases."
+msgstr  "保護兵は大きなタワーシールドを持っています。彼はそれを使って全ての隣"
+        "接ユニットを守ります。保護されたユニットは抵抗力が向上します。"
+
+msgid   "Raging Cyclops"
+msgstr  "怒り狂うサイクロプス"
+
+msgid   "Raging Hydra"
+msgstr  "怒り狂うヒドラ"
+
+msgid   "Ranged Toad"
+msgstr  "投射型カエル"
+
+msgid   "Red Ulfserker"
+msgstr  "赤い蒸気式狼戦士"
+
+msgid   "Regenerates +4:\n"
+        "At the begining of each turn this unit heals +4 hp. If it is "
+        "poisoned, it will remove it instead of healing."
+msgstr  "再生 +4:\n"
+        "このユニットはターンのはじめにヒットポイントが 4 回復します。毒に冒さ"
+        "れているときは回復の代わりに解毒されます。"
+
+msgid   "Repairs +5:\n"
+        "Allows the unit to repair adjacent friendly mechanical units at the "
+        "beginning of each turn.\n"
+        "\n"
+        "A unit cared for by this healer may heal up to 5 HP per turn."
+msgstr  "修理 +5:\n"
+        "このユニットはターン開始時に隣接した友好的な機械ユニットを修理するこ"
+        "とができます。\n"
+        "\n"
+        "このユニットは毎ターン 5 HP 回復させることができます。"
+
+msgid   "Repairs +8:\n"
+        "Allows the unit to repair adjacent friendly mechanical units at the "
+        "beginning of each turn.\n"
+        "\n"
+        "A unit cared for by this healer may heal up to 8 HP per turn."
+msgstr  "修理 +8:\n"
+        "このユニットはターン開始時に隣接した友好的な機械ユニットを修理するこ"
+        "とができます。\n"
+        "\n"
+        "このユニットは毎ターン 5 HP 回復させることができます。"
+
+msgid   "Revenger"
+msgstr  "復讐兵"
+
+msgid   "Roc Master"
+msgstr  "ロックの支配者"
+
+msgid   "Roc Rider"
+msgstr  "ロックの乗り手"
+
+msgid   "Rune Artist"
+msgstr  "ルーンアーティスト"
+
+msgid   "Runeadept"
+msgstr  "ルーン使い"
+
+msgid   "Runemaster"
+msgstr  "ルーンマスター"
+
+msgid   "Runemasters"
+msgstr  "ルーンマスター"
+
+msgid   "Runesmith"
+msgstr  "ルーンスミス"
+
+msgid   "Salamander"
+msgstr  "サラマンダー"
+
+msgid   "Saurian Pikeman"
+msgstr  "トカゲの槍兵"
+
+msgid   "Shadowmage"
+msgstr  "影の魔術師"
+
+msgid   "Shamanistic Adept"
+msgstr  "熟練呪術師"
+
+msgid   "Shamanistic Toad"
+msgstr  "呪術的なカエル"
+
+msgid   "Shielder"
+msgstr  "盾使い"
+
+msgid   "Shooter"
+msgstr  "トカゲの射手"
+
+msgid   "Silver Warrior"
+msgstr  "銀の闘士"
+
+msgid   "Sky Kingdom"
+msgstr  "空の王国"
+
+msgid   "Slicer"
+msgstr  "切りつける者"
+
+msgid   "Some of the Dark Blood Shamans get corrupted. By who, or what, "
+        "nobody knows, but it makes them exchange their Water Magic for that "
+        "of its polar opposite - Fire. They lose their healing abilities, but "
+        "they don't seem to care, as they say that Fire is inherently "
+        "supirior to Water.\n"
+        "Whatever corrupts them changes their personalities, too, making them "
+        "selfish and cruel. As a result, they are shunned from their tribes, "
+        "which exile them to the heart of the Great Bog. Forced to wander the "
+        "Bog for years, they usually make their way out and hire themselves "
+        "to some of the morally bankrupt Tribes."
+msgstr  "どす黒い血の一族の呪術師の中には、堕落する者もいます。誰によって、あ"
+        "るいは何によってなのかは全く知られていませんが、水の魔力と対極にある"
+        "力、すなわち火の魔力を手に入れます。彼らは治癒の力は失ってしまいます"
+        "が、火は本質的に水に優っていると主張して気に留めているようすもありま"
+        "せん。そして、利己的で残酷な人格に豹変してしまいます。その結果、彼ら"
+        "は一族から敬遠され、Great Bogの中心部に追放されます。何年も湿原を彷徨"
+        "うことを強要された彼らは、大抵は解決策を見つけ出し、道徳観の崩壊した"
+        "部族に雇用される者もいます。"
+
+msgid   "Sorcerer"
+msgstr  "ソーサラー"
+
+msgid   "Steam Berserker"
+msgstr  "蒸気式狂戦士"
+
+msgid   "Steam Ulfserker"
+msgstr  "蒸気式狼戦士"
+
+msgid   "Steamcopter"
+msgstr  "蒸気式ヘリコプター"
+
+msgid   "Striding Machine"
+msgstr  "歩行器"
+
+msgid   "Subversive mage"
+msgstr  "破壊の魔術師"
+
+msgid   "Summon Help"
+msgstr  "召喚についてのヘルプ"
+
+msgid   "Summon Roc:\n"
+        "this unit can summon new units near him, but not in villages."
+msgstr  "ロックの召喚:\n"
+        "このユニットは自身の近くの 村以外の空いている場所に別のユニットを召喚"
+        "することができます。"
+
+msgid   "Summon:\n"
+        "this unit can summon new units near him, but not in villages."
+msgstr  "召喚:\n"
+        "このユニットは、自身の近くに新しいユニットを召喚することができます。"
+        "ただし、村には召喚できません。"
+
+msgid   "Summoner"
+msgstr  "召喚士"
+
+msgid   "Summons master"
+msgstr  "召喚術を極めし者"
+
+msgid   "Sun Follower"
+msgstr  "太陽の信奉者"
+
+msgid   "Sun Guardian"
+msgstr  "太陽の守護者"
+
+msgid   "Swallow +4"
+msgstr  "飲み込む +4"
+
+msgid   "Swallow +4:\n"
+        "This unit gains 4 hitpoints added to its current health whenever it "
+        "kills a living unit."
+msgstr  "飲み込む +4:\n"
+        "このユニットが生命をもつユニットを殺したとき、ヒットポイントが 4回復"
+        "します。"
+
+msgid   "Swamp Ambush:\n"
+        "This unit can hide in swamp, and remain undetected by its enemies.\n"
+        "\n"
+        "Enemy units cannot see this unit while it is in swamp, except if "
+        "they have units next to it. Any enemy unit that first discovers this "
+        "unit immediately loses all its remaining movement."
+msgstr  "伏兵（沼地）:\n"
+        "このユニットは沼地に隠れることができます。そのため、沼地にいれば敵に"
+        "見つかることはありません。\n"
+        "\n"
+        "このユニットが沼地にいるときは、敵のユニットはこのユニットの隣にいる"
+        "場合以外は、このユニットを見つけることはできません。このユニットを初"
+        "めて見つけた敵ユニットは、それ以上移動することはできません。"
+
+msgid   "Swamp Mage"
+msgstr  "沼地の魔術師"
+
+msgid   "Sworddancer"
+msgstr  "ソードダンサー"
+
+msgid   "Technician"
+msgstr  "技術士"
+
+msgid   "The Revenger is a heavy tactical defense unit. His retalitation "
+        "strikes are always successful."
+msgstr  "復讐兵は、防御戦術に重要なユニットです。その反撃は常に成功します。"
+
+msgid   "Toad"
+msgstr  "カエル"
+
+msgid   "Troll Fire Wizard"
+msgstr  "トロルの火の魔術師"
+
+msgid   "Troll Sorcerer"
+msgstr  "トロルの魔術師"
+
+msgid   "Troll Warbanner"
+msgstr  "トロルの戦旗"
+
+msgid   "Um"
+msgstr  "ウム"
+
+msgid   "War Banner"
+msgstr  "戦旗"
+
+msgid   "War Mage"
+msgstr  "戦争の魔術師"
+
+msgid   "Water Avatar"
+msgstr  "水の化身"
+
+msgid   "Water God"
+msgstr  "水の神"
+
+msgid   "White Warrior"
+msgstr  "白の闘士"
+
+msgid   "Witch"
+msgstr  "魔女"
+
+msgid   "Wonderful Jinn"
+msgstr  "ワンダフルジン"
+
+msgid   "Wyvern"
+msgstr  "ワイバーン"
+
+msgid   "Wyvern Rider"
+msgstr  "ワイバーンの乗り手"
+
+msgid   "Wyvern Tamer"
+msgstr  "ワイバーンの調教師"
+
+msgid   "Yes"
+msgstr  "はい"
+
+msgid   "aimed shot"
+msgstr  "狙い撃ち"
+
+msgid   "always hits"
+msgstr  "必中"
+
+msgid   "always hits:\n"
+        "This attack always has a 100% chance to hit"
+msgstr  "必中:\n"
+        "この攻撃は常に 100% の確率で命中します。"
+
+msgid   "arrow"
+msgstr  "矢"
+
+msgid   "awe"
+msgstr  "畏怖"
+
+msgid   "banish"
+msgstr  "追放"
+
+msgid   "banish:\n"
+        "If a Banisher hits an enemy magical unit, the enemy will turn into a "
+        "DG 'Dimensional Gate', (this happens only if the target is exactly "
+        "one level below the banisher). If the enemy is at least two levels "
+        "below your banisher, it'll get completly destroyed. Any other enemy "
+        "won't be affected."
+msgstr  "追放:\n"
+        "追放が魔法生物に命中すれば、敵は DG（次元の扉）に戻ってしまいます（こ"
+        "れは、対象のレベルが追放を使うユニットのレベルよりも 1つだけ低いとき"
+        "にのみ起こります）。もし、敵のレベルが 2レベル以上低いときには、完全"
+        "に破壊することができるでしょう。他の敵にはいかなる効果も与えません。"
+
+msgid   "banishment"
+msgstr  "追放"
+
+msgid   "banner"
+msgstr  "旗"
+
+msgid   "bite"
+msgstr  "噛みつき"
+
+msgid   "blades"
+msgstr  "刃"
+
+msgid   "blood gate"
+msgstr  "血糊の扉"
+
+msgid   "bolas"
+msgstr  "ボーラ"
+
+msgid   "bombs"
+msgstr  "爆弾"
+
+msgid   "bow bash"
+msgstr  "弓での打撃"
+
+msgid   "bubble"
+msgstr  "水泡"
+
+msgid   "burner"
+msgstr  "バーナー"
+
+msgid   "burning fist"
+msgstr  "燃え盛る拳"
+
+msgid   "cannon"
+msgstr  "カノン"
+
+msgid   "cave ambush"
+msgstr  "伏兵（洞窟）"
+
+msgid   "chakram"
+msgstr  "チャクラム"
+
+msgid   "charge"
+msgstr  "突進"
+
+msgid   "circle of balance"
+msgstr  "調和の魔法陣"
+
+msgid   "circle of banishment"
+msgstr  "追放の魔法陣"
+
+msgid   "circle of banishment:\n"
+        "This unit can affect enemy magical units that are next to it, making "
+        "them fight worse.\n"
+        "\n"
+        "Adjacent enemy magical units of lower level will do less damage in "
+        "battle. When a unit adjacent to, of the same level, or a lower level "
+        "than, and is an enemy of the unit with Circle of Banishment engages "
+        "in combat, its attacks do less damage (-40% lvl0, -30% lvl1, -15% "
+        "lvl2, -10% lvl3)."
+msgstr  "追放の魔法陣:\n"
+        "このユニットは、隣接する魔法生物ユニットを弱体化させることができま"
+        "す。\n"
+        "\n"
+        "レベルが低い隣接する敵の魔法生物ユニットは、戦闘で与えるダメージが低"
+        "下します。このユニットと同じレベルかより低いレベルのとき、追放の魔法"
+        "陣の影響範囲にいる敵の魔法生物ユニットは戦闘で与えるダメージが低下 "
+        "(-40% lvl0, -30% lvl1, -15% lvl2, -10% lvl3) してしまいます。"
+
+msgid   "circle of destruction"
+msgstr  "破壊の魔法陣"
+
+msgid   "circle of resistance"
+msgstr  "抵抗の魔法陣"
+
+msgid   "claws"
+msgstr  "かぎ爪"
+
+msgid   "cleave"
+msgstr  "開裂"
+
+msgid   "cold aura"
+msgstr  "冷気のオーラ"
+
+msgid   "concentrated fire"
+msgstr  "集中砲火"
+
+msgid   "crossbow x2"
+msgstr  "クロスボウ x2"
+
+msgid   "cup of fire"
+msgstr  "炎の杯"
+
+msgid   "cursed knifes"
+msgstr  "呪いの小刀"
+
+msgid   "daggers"
+msgstr  "ダガー"
+
+msgid   "damned flame"
+msgstr  "忌まわしい火炎"
+
+msgid   "dark aura"
+msgstr  "闇のオーラ"
+
+msgid   "dark ball"
+msgstr  "闇の魔力球"
+
+msgid   "dark spark"
+msgstr  "闇の火花"
+
+msgid   "dart"
+msgstr  "ダーツ"
+
+msgid   "deadzone"
+msgstr  "死角"
+
+msgid   "defender"
+msgstr  "擁護"
+
+msgid   "destruction"
+msgstr  "破壊"
+
+msgid   "devine spear"
+msgstr  "神の槍"
+
+msgid   "dimensional vortex"
+msgstr  "次元の渦"
+
+msgid   "double attack"
+msgstr  "2回攻撃"
+
+msgid   "double devine spear"
+msgstr  "神の槍 x2"
+
+msgid   "double divine spear"
+msgstr  "神の槍 x2"
+
+msgid   "evasion"
+msgstr  "忌避"
+
+msgid   "exlosive ammo"
+msgstr  "火炎弾"
+
+msgid   "explosion"
+msgstr  "爆発"
+
+msgid   "explosive ammo"
+msgstr  "火炎弾"
+
+msgid   "eye"
+msgstr  "視線"
+
+msgid   "eye of the storm"
+msgstr  "嵐の目"
+
+msgid   "fangs"
+msgstr  "牙"
+
+msgid   "female^magical"
+msgstr  "魔法生物"
+
+msgid   "fire"
+msgstr  "火"
+
+msgid   "fire arrow"
+msgstr  "火の矢"
+
+msgid   "fire blast"
+msgstr  "炎の爆発"
+
+msgid   "fireball"
+msgstr  "火の玉"
+
+msgid   "fist"
+msgstr  "拳"
+
+msgid   "flame"
+msgstr  "火炎"
+
+msgid   "flame blast"
+msgstr  "炎の爆発"
+
+msgid   "flames"
+msgstr  "火炎"
+
+msgid   "frozen fist"
+msgstr  "氷の拳"
+
+msgid   "frozen gate"
+msgstr  "氷結の扉"
+
+msgid   "gaze"
+msgstr  "凝視"
+
+msgid   "grenade"
+msgstr  "グレネード"
+
+msgid   "gun"
+msgstr  "銃"
+
+msgid   "hammer"
+msgstr  "ハンマー"
+
+msgid   "hatchet"
+msgstr  "手斧"
+
+msgid   "headbutt"
+msgstr  "頭突き"
+
+msgid   "hurricane"
+msgstr  "ハリケーン"
+
+msgid   "ice arrow"
+msgstr  "氷の矢"
+
+msgid   "ice strike"
+msgstr  "氷塊"
+
+msgid   "iceball"
+msgstr  "氷球"
+
+msgid   "icecles"
+msgstr  "氷弾"
+
+msgid   "implosion"
+msgstr  "爆縮"
+
+msgid   "incantation of power"
+msgstr  "力ある呪文"
+
+msgid   "inferno"
+msgstr  "猛火"
+
+msgid   "inspire"
+msgstr  "奮起"
+
+msgid   "kamikaze"
+msgstr  "カミカゼ"
+
+msgid   "key"
+msgstr  "スパナ"
+
+msgid   "knives"
+msgstr  "ナイフ"
+
+msgid   "landmass"
+msgstr  "陸塊"
+
+msgid   "lavahome"
+msgstr  "溶岩に住むもの"
+
+msgid   "lavahome:\n"
+        "This unit is made of fire. If it stands in lava, it will recive 6 hp."
+msgstr  "溶岩に住むもの:\n"
+        "このユニットは火から作られました。そのため、溶岩の中ではヒットポイン"
+        "トが 6 回復します。"
+
+msgid   "light touch"
+msgstr  "光の接触"
+
+msgid   "lightning"
+msgstr  "雷"
+
+msgid   "lightning bolt"
+msgstr  "雷撃"
+
+msgid   "lightstorm"
+msgstr  "光の嵐"
+
+msgid   "machine gun"
+msgstr  "マシンガン"
+
+msgid   "magic"
+msgstr  "マジック"
+
+msgid   "magic arrow"
+msgstr  "魔法の矢"
+
+msgid   "magic arrow II"
+msgstr  "魔法の矢 II"
+
+msgid   "magic missile"
+msgstr  "マジカルミサイル"
+
+msgid   "magical"
+msgstr  "魔法生物"
+
+msgid   "magical dagger"
+msgstr  "マジカルダガー"
+
+msgid   "magical powder"
+msgstr  "魔法の粉"
+
+msgid   "magical scimitar"
+msgstr  "マジカルシミター"
+
+msgid   "matriarch-fire"
+msgstr  "女支配者の冷気"
+
+msgid   "megacircle"
+msgstr  "大魔法陣"
+
+msgid   "megacircle:\n"
+        "This unit owns powerful magic circle which affects all units inside. "
+        "All friendly units fight better (+125%, +100%, +75%, +50%, +25% - "
+        "lvl 0, 1, 2, 3, 4) and regenerate themselves."
+msgstr  "大魔法陣:\n"
+        "このユニットは、中にいる全てのユニットに影響を与える強力な魔法陣を"
+        "持っています。全ての友好的なユニットは効果的に戦う  (+125%, +100%, "
+        "+75%, +50%, +25% - lvl 0, 1, 2, 3, 4) ことができるようになり、抵抗力"
+        "も向上します。"
+
+msgid   "missile"
+msgstr  "誘導弾"
+
+msgid   "mountain ambush"
+msgstr  "伏兵（山）"
+
+msgid   "mu"
+msgstr  "厶"
+
+msgid   "net"
+msgstr  "網"
+
+msgid   "no counter-attack"
+msgstr  "反撃封じ"
+
+msgid   "no counter-attack:\n"
+        "The opponent has always a 0% chance to hit, when this unit is "
+        "attacking."
+msgstr  "反撃封じ:\n"
+        "このユニットが攻撃したとき、対象は反撃することができません。"
+
+msgid   "paw"
+msgstr  "足"
+
+msgid   "piercing ammo"
+msgstr  "徹甲弾"
+
+msgid   "poisoned arrow"
+msgstr  "毒矢"
+
+msgid   "precision"
+msgstr  "精度"
+
+msgid   "precision:\n"
+        "This attack always has a 80% chance to hit"
+msgstr  "精度:\n"
+        "この攻撃は常に 80% の確率で命中します。"
+
+msgid   "race+plural^Magical"
+msgstr  "魔法生物"
+
+msgid   "race^Magical"
+msgstr  "魔法生物"
+
+msgid   "ray of light"
+msgstr  "光線"
+
+msgid   "regenerates +4"
+msgstr  "再生 +4"
+
+msgid   "revenge"
+msgstr  "報復"
+
+msgid   "revenge:\n"
+        "The unit has always a 100% chance to hit, during retalitation."
+msgstr  "報復:\n"
+        "このユニットの反撃は常に 100% の確率で命中します。"
+
+msgid   "runes"
+msgstr  "ルーン"
+
+msgid   "runic sword"
+msgstr  "ルーンソード"
+
+msgid   "saw"
+msgstr  "ノコギリ"
+
+msgid   "scimitar"
+msgstr  "シミター"
+
+msgid   "scimitar throw"
+msgstr  "シミター投げ"
+
+msgid   "scream"
+msgstr  "叫び"
+
+msgid   "screwdriver"
+msgstr  "ねじ回し"
+
+msgid   "scroll"
+msgstr  "巻物"
+
+msgid   "scythe"
+msgstr  "大鎌"
+
+msgid   "secret hit"
+msgstr  "秘伝の一撃"
+
+msgid   "shadow wave"
+msgstr  "闇の波動"
+
+msgid   "shield"
+msgstr  "盾"
+
+msgid   "short circuit"
+msgstr  "短絡"
+
+msgid   "short-circuit"
+msgstr  "短絡"
+
+msgid   "small lightning"
+msgstr  "小さな稲妻"
+
+msgid   "small thunder"
+msgstr  "小さな稲妻"
+
+msgid   "sparks"
+msgstr  "火花"
+
+msgid   "spear"
+msgstr  "槍"
+
+msgid   "spear throw"
+msgstr  "投げ槍"
+
+msgid   "staff"
+msgstr  "杖"
+
+msgid   "swamp ambush"
+msgstr  "伏兵（沼地）"
+
+msgid   "sword"
+msgstr  "剣"
+
+msgid   "sword+axe"
+msgstr  "剣+斧"
+
+msgid   "sworddance"
+msgstr  "剣の舞"
+
+msgid   "swords"
+msgstr  "剣"
+
+msgid   "tackle"
+msgstr  "体当たり"
+
+msgid   "thunder"
+msgstr  "稲妻"
+
+msgid   "tongue"
+msgstr  "舌"
+
+msgid   "touch"
+msgstr  "接触"
+
+msgid   "touch of magic"
+msgstr  "魔力の接触"
+
+msgid   "trample"
+msgstr  "踏みつけ"
+
+msgid   "tree"
+msgstr  "木"
+
+msgid   "tree thrown"
+msgstr  "木を投げる"
+
+msgid   "ultra circle"
+msgstr  "ウルトラサークル"
+
+msgid   "ultracures"
+msgstr  "超回復"
+
+msgid   "um"
+msgstr  "ウム"
+
+msgid   "water"
+msgstr  "水"
+
+msgid   "water Ambush:\n"
+        "This unit can hide in water, and remain undetected by its enemies.\n"
+        "\n"
+        "Enemy units cannot see this unit while it is in water, except if "
+        "they have units next to it. Any enemy unit that first discovers this "
+        "unit immediately loses all its remaining movement."
+msgstr  "伏兵（水）:\n"
+        "このユニットは水に隠れることができます。そのため、水の中にいれば敵に"
+        "見つかることはありません。\n"
+        "\n"
+        "このユニットが水の中にいるときは、敵のユニットはこのユニットの隣にい"
+        "る場合以外は、このユニットを見つけることはできません。このユニットを"
+        "初めて見つけた敵ユニットは、それ以上移動することはできません。"
+
+msgid   "water ambush"
+msgstr  "伏兵（水）"
+
+msgid   "water blast"
+msgstr  "水の爆発"
+
+msgid   "waterhome"
+msgstr  "水に住むもの"
+
+msgid   "waterhome:\n"
+        "This unit is made of water. If it stands in water, it will receive 6 "
+        "hp."
+msgstr  "水に住むもの:\n"
+        "このユニットは水から作られました。そのため、水の中ではヒットポイント"
+        "が 6 回復します。"
+
+msgid   "witch-fire"
+msgstr  "魔女の炎"
+
+msgid   "wrist blade"
+msgstr  "リストブレード"

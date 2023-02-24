@@ -1,0 +1,2152 @@
+msgid   ""
+msgstr  "Project-Id-Version: wescamp-i 18n\n"
+        "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+        "POT-Creation-Date: 2011-09-05 21:10-0400\n"
+        "PO-Revision-Date: 2011-11-08 23:42-0500\n"
+        "Last-Translator: Fardeil <fardeil@mail.ru>\n"
+        "Language-Team: none\n"
+        "Language: ru\n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=UTF-8\n"
+        "Content-Transfer-Encoding: 8bit\n"
+        "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 "
+        "&& n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid   " This unit returns to life if it is killed while it has more than "
+        "one hit point."
+msgstr  "Если такой боец убит, он возвращется к жизни, если у него было "
+        "больше 1 ЗД."
+
+msgid   " mountain ambush"
+msgstr  "засада в горах"
+
+msgid   " this unit can create other units in the near free spaces, but not "
+        "in villages."
+msgstr  "такой боец может создавать воинов рядом с собой, но не в деревне."
+
+msgid   "4"
+msgstr  "4"
+
+msgid   "Activate Aura (24g)"
+msgstr  "Активировать ауру (24з)"
+
+msgid   "Activate aura? (cost: 24g)"
+msgstr  "Активировать ауру? (стоимость: 24з)"
+
+msgid   "After some time, experienced Fire Magi transcend their mortal "
+        "bodies, becoming creatures of pure flame. Their control of fire is "
+        "legendary, and their wrath is terrible to behold."
+msgstr  "По прохождению некоторого времени опытные огненные маги начинают "
+        "превосходить возможноси смертных тел, становясь существами из "
+        "чистого пламени. Их контроль над огнем легендарен, а гнев страшен."
+
+msgid   "Air Avatar"
+msgstr  "Аватар воздуха"
+
+msgid   "Air Elemental"
+msgstr  "Элементаль воздуха"
+
+msgid   "Air God"
+msgstr  "Бог Воздуха"
+
+msgid   "Air Magi are quite fast and rather dangerous, being able to shoot "
+        "lightning at their enemies, but are rather frail due to their lack "
+        "of armor. Arrows are the exception to that rule, as the Magi create "
+        "winds around them which batter those out of their paths."
+msgstr  "Воздушные маги достаточно быстры и довольно опасны, пускают молнии в "
+        "своих врагов, но довольно хлипки от недостатка брони. Исключениям "
+        "являются стрелы, так как маги создают вокруг себя защиту из ветров, "
+        "кторая уводит стрелы с траектории."
+
+msgid   "Alib,Kalib,Balib,Safay,Jaffar,Semir,Celal,Fatih,Ferhan,Mustafa,"
+        "Mehmet,Melih,Ali,Adem,Ahmet,Altan,Ismet,Ibrahim,Hakan,Kemal,Kenan,"
+        "Rafet,Tahir,Yasar,Yasin,Yusuf,Ahmed,Najib,Samir,Hassan,Hisham,Karim,"
+        "Saif,Rahul,Rohan,Rohit,Nikhil,Shahrukh,Krishi"
+msgstr  "Алиб,Калиб,Билб,Сэфэй,Джаффар,Семир,Селал,Фатих,Феран,Мустафа,Мехмет,"
+        "Мелих,Али,Адем,Ахмет,Альтан,Исмет,Ибрагим,Хакан,Кемаль,Кенан,Рафет,"
+        "Тахир,Ясар,Ясин,Юсуф,Ахмед,Наджиб,Самир,Хассан,Хишам,Карим,Саиф,"
+        "Рауль,Роан,Роит,Никил,Шарух,Криши"
+
+msgid   "Ancient Cyclops"
+msgstr  "Древний циклоп"
+
+msgid   "Awaken:\n"
+        "If a friendly adjacent unit with more than one hitpoint at the "
+        "beginning of the battle dies, it is resurrected, gets +6 experience "
+        "and remains in battle with one hitpoint. If it dies again (having "
+        "one hitpoint), it will be killed for sure."
+msgstr  "Воскрешение:\n"
+        "Если погибает соседний боец, его воскрешают, и он остается на поле "
+        "боя с одним ОЗ и получает 6 опыта. Если он умрет снова (с одним ОЗ), "
+        "то умрет окончательно."
+
+msgid   "Awe:\n"
+        "This unit can frighten enemy units that are next to it, making them "
+        "fight worse.\n"
+        "\n"
+        "Adjacent enemy units of lower level will do less damage in battle. "
+        "When a unit adjacent to, of the same level, or a lower level than, "
+        "and is an enemy of the unit with Awe engages in combat, its attacks "
+        "do 15% less damage times the difference in their levels + 15%."
+msgstr  "Трепет:\n"
+        "Такой боец может напугать противников на соседних клетках, что "
+        "ухудшает их боевые характеристики.\n"
+        "\n"
+        "Соседние вражеские бойцы более низких уровней будут наносить меньше "
+        "повреждений в бою (-15% ур. 3; -30% ур. 2; -45% ур. 1; -60% ур. 0)"
+
+msgid   "Awe:\n"
+        "This unit can frighten enemy units that are next to it, making them "
+        "fight worse.\n"
+        "\n"
+        "Adjacent enemy units of lower level will do less damage in battle. "
+        "When a unit adjacent to, of the same level, or a lower level than, "
+        "and is an enemy of the unit with awe engages in combat, its attacks "
+        "do 15% less damage times the difference in their levels + 15%."
+msgstr  "Трепет:\n"
+        "Такой боец может напугать противников на соседних клетках, что "
+        "ухудшает их боевые характеристики.\n"
+        "\n"
+        "Соседние вражеские бойцы более низких уровней будут наносить меньше "
+        "повреждений в бою (-15% ур. 3; -30% ур. 2; -45% ур. 1; -60% ур. 0)"
+
+msgid   "Balloon"
+msgstr  "Воздушный шар"
+
+msgid   "Banish:\n"
+        "If a Banisher hits an enemy magical unit, the enemy will turn into a "
+        "DG ‘Dimensional Gate’, (this happens only if the target is exactly "
+        "one level below the banisher). If the enemy is at least two levels "
+        "below your banisher, it’ll get completely destroyed. Any other enemy "
+        "won’t be affected."
+msgstr  "Изгнание:\n"
+        "Если Изгонябщий попадает по магическому существу, которое на уровень "
+        "меньше его, то оно превратится во 'Врата Измерений'. Если магическое "
+        "существо на два и более уровней меньше уровня Изгоняющего, то оно "
+        "будет полностью уничтожено. На других бойцов атака не подействует."
+
+msgid   "Banisher"
+msgstr  "Изгоняющий"
+
+msgid   "Barbarian"
+msgstr  "Варвар"
+
+msgid   "Barbarian Berserker"
+msgstr  "Берсерк"
+
+msgid   "Barbarian King"
+msgstr  "Король варваров"
+
+msgid   "Barbarian Lord"
+msgstr  "Лорд варваров"
+
+msgid   "Barbarians"
+msgstr  "Варвары"
+
+msgid   "Battle Toad"
+msgstr  "Боевая жаба"
+
+msgid   "Battlefrenzy:\n"
+        "When this attack is used, this units gets an extra strike and "
+        "additional damage (+2) after each successful hit. Does not work on "
+        "defense."
+msgstr  "Жажда крови:\n"
+        "Когда используется эта атака, боец получает дополнительный удар "
+        "после каждого удачного попадания."
+
+msgid   "Battlemage"
+msgstr  "Маг-воин"
+
+msgid   "Beam:\n"
+        "When this attack is used, the attacker can hurt a unit behind his "
+        "primary target."
+msgstr  "Луч:\n"
+        "такая атака поражает не только цель, но и еще одного бойца, стоящего "
+        "за ней."
+
+msgid   "Belonging to a race already small in statue Goblin runts are born "
+        "smaller and weaker then most. Indeed it is a wonder that such tiny "
+        "creatures can fight at all, armed as they are with any piece of "
+        "pointy scrap metal found lying around. Their superiors use them for "
+        "cannon fodder, hurling them into impossible situations with often "
+        "surprising results."
+msgstr  "Гоблины-коротышки рождаются слабыми и мелкими даже по меркам своей "
+        "расы. Действительно, это чудо, что такие маленькие существа, "
+        "вооруженные первой попавшейся под руку острой железкой, вообще могут "
+        "сражаться. Вожаки используют их в виде пушечного мяса, бросая их в "
+        "безнадежные ситуации. Однако, часто это приносит неожиданные "
+        "результаты."
+
+msgid   "Black Mage"
+msgstr  "Черный маг"
+
+msgid   "Black Salamander"
+msgstr  "Черная саламандра"
+
+msgid   "Bladedancer"
+msgstr  "Танцующий с клинками"
+
+msgid   "Blademaster"
+msgstr  "Мастер клинка"
+
+msgid   "Blood Warrior"
+msgstr  "Воин Крови"
+
+msgid   "Bloodlust: When this attack is used, this units gets an extra strike "
+        "after each successful hit."
+msgstr  "Жажда крови: Когда используется эта атака, боец получает "
+        "дополнительный удар после каждого удачного попадания."
+
+msgid   "Blue Salamander"
+msgstr  "Голубая саламандра"
+
+msgid   "Brown Warrior"
+msgstr  "Коричневый воин"
+
+msgid   "Camel Rider"
+msgstr  "Верблюжий наездник"
+
+msgid   "Capable of more than ample speeds, they can cover virtually any "
+        "terrain with ease, and with a firebomb carrying dwarf in tow, have "
+        "the potential to become a major nuisance in the heat of combat. "
+        "Indeed, they are risky foes to attack, and only by turning their "
+        "weapons against them can one remotely hold any certainty to "
+        "disposing of them."
+msgstr  "Способные развивать большую скорость они с легкостью могут покрывать "
+        "любое расстояние, а у находящегося в корзине гнома, вооруженного "
+        "бомбами, есть возможность стать главной проблемой в битве. "
+        "Действительно, их довольно рискованно атаковать. Только повернув "
+        "против них их собственное оружие, у кого-либо будет хоть какой-то "
+        "шанс уничтожить воздушные шары."
+
+msgid   "Cavalry Archer"
+msgstr  "Конный лучник"
+
+msgid   "Cave Ambush:\n"
+        "This unit can hide in cave, and remain undetected by its enemies.\n"
+        "\n"
+        "Enemy units cannot see this unit while it is in cave, except if they "
+        "have units next to it. Any enemy unit that first discovers this unit "
+        "immediately loses all its remaining movement."
+msgstr  "Засада в пещере:\n"
+        "Такой боец может скрыться в пещерах и быть невидимым для "
+        "противника.\n"
+        "\n"
+        "Вражеские бойцы могут увидеть его в пещере, только стоя рядом. "
+        "Вражеский боец, первым обнаруживший его, немедленно теряет все "
+        "оставшиеся ходы."
+
+msgid   "Chaos Hydra"
+msgstr  "Гидра Хаоса"
+
+msgid   "Chaos Rider"
+msgstr  "Наездник Хаоса"
+
+msgid   "Chaos Wyvern"
+msgstr  "Виверна Хаоса"
+
+msgid   "Chosen of Forest"
+msgstr  "Избранный Леса"
+
+msgid   "Circle of Resistance:\n"
+        "This unit and all adjacent friendly units receive a +20% bonus to "
+        "fire, cold, and arcane resistances."
+msgstr  "Круг Сопротивления:\n"
+        "Такой боец и все соседние дружественные войска получают +20% к "
+        "сопротивлениям огню, холоду и мистическому урону."
+
+msgid   "Circle of Susceptibility:\n"
+        "All adjacent enemy units receive a -20% to fire, cold, and arcane "
+        "resistances."
+msgstr  "Круг Уязвимости:\n"
+        "Все соседние вражеские войска получают -20% к сопротивлениям огню, "
+        "холоду и мистическому урону."
+
+msgid   "Clan Leader"
+msgstr  "Глава клана"
+
+msgid   "Cleave: A unit with this ability can hurt units that are adjacent to "
+        "the attacker and the defender at the same time."
+msgstr  "Сметает: такой боец может повредить так же повредить бойцов стоящих "
+        "на клетках соседних с ним и с защищаюмся"
+
+msgid   "Cold Aura:\n"
+        "Area around this unit provides a 50% bonus to fire resistance and a "
+        "−25% bonus to cold resistance."
+msgstr  "Аура холода:\n"
+        "Соседние бойцы получают +50% к сопротивлению огню и -25% к "
+        "сопротивлению холоду. В этой ауре усиливаются все заклинания холода."
+
+msgid   "Cold Matriarch"
+msgstr  "Мать Холода"
+
+msgid   "Cold Matriarch creates cold aura which makes all cold spells very "
+        "powerful (up to 25%) and makes fire spells, very weak."
+msgstr  "Мать Холода создает вокруг себя морозную зону, которая усиливает все "
+        "ледяные заклинания (до 25%) и ослабляет огненные."
+
+msgid   "Commander"
+msgstr  "Командир"
+
+msgid   "Corrupted Shaman"
+msgstr  "Порченый шаман"
+
+msgid   "Crossbowman"
+msgstr  "Арбалетчик"
+
+msgid   "Cumbersome and lacking fine intellect, the Cyclops race had been "
+        "driven near to extinction before becoming a part of the barbarian "
+        "horde. Two centuries later and these lumbering beasts have "
+        "flourished, growing in both strength and number. Some say that it "
+        "was a strange magic which bound the cyclopes to their new allegiance "
+        "and is perhaps a reason for their increased power. One thing about "
+        "these beasts is a certainty: when facing one in combat it is best "
+        "not to get hit."
+msgstr  "Громоздкие и обделенные интеллектом Циклопы вымbрали пока не стали "
+        "частью варварской орды. Уже всего через два века эти монстры "
+        "процветали, стали сильнее и многочисленнее. Некоторые говорят, что к "
+        "новому союзу Циклопв привязывала какая-то маги, и, возможно, она и "
+        "послужила причиной роста их силы. Одно известно точно— когда "
+        "сражаешься с ними лицом к лицу, лучше не попадать под удар."
+
+msgid   "Cyclops"
+msgstr  "Циклоп"
+
+msgid   "Cyclops Breaker"
+msgstr  "Разрушитель"
+
+msgid   "Cyclops Destroyer"
+msgstr  "Уничтожитель"
+
+msgid   "Dark Assassin"
+msgstr  "Темный убийца"
+
+msgid   "Dark Blood Alliance"
+msgstr  "Союз Темной Крови"
+
+msgid   "Dark Hunter"
+msgstr  "Темный охотник"
+
+msgid   "Dark Slayer"
+msgstr  "Темный Губитель"
+
+msgid   "Dark Warrior"
+msgstr  "Темный воин"
+
+msgid   "Dark Witch"
+msgstr  "Темная ведьма"
+
+msgid   "Dark Wizard"
+msgstr  "Темный маг"
+
+msgid   "Dark Wizard is equipped whit special staff, which reinforces his "
+        "spellpower. He can make a lot of damage but his mana ends quicly. "
+        "That’s why he performs only two attacks."
+msgstr  "Темный маг вооружен специальным посохом, который усиливает "
+        "заклинания. Он может нанести много урона, но у него быстро "
+        "заканчивается мана. Поэтому он может произвести только две атаки."
+
+msgid   "Deadly Eye"
+msgstr  "Смертельный Глаз"
+
+msgid   "Deadly Eyes are Magical Eyes that have somehow evolved. They can now "
+        "solidify their auras, and use them like a fan of knives."
+msgstr  "Смертельные глаза— это каким-то образом эволюционировавшие "
+        "Магические Глаза. Теперь они могут материализовывать свою ауру и "
+        "использовать ее в виде лезвий."
+
+msgid   "Deadzone:\n"
+        "Adjacent friendly units receive a 99% bonus to fire, cold, and "
+        "arcane resistances."
+msgstr  "Зоня смерти:\n"
+        "Соседние дружественные бойцы получают 99% бонус к сопротивлениям "
+        "огню, холоду и мистиическому урону."
+
+msgid   "Default + Khalifate + Magic"
+msgstr  "По умолчанию+Халифат+Магия"
+
+msgid   "Default + Magic"
+msgstr  "По умолчанию+Магия"
+
+msgid   "Defender:\n"
+        "Adjacent friendly units receive a +20% bonus to all resistances (up "
+        "to a maximum of 40%)."
+msgstr  "Защитник:\n"
+        "Соседние дружественные бойцы получают +20% ко всем сопротивлениям "
+        "(до максимума в 40%)"
+
+msgid   "Dharma’rhami"
+msgstr  "Дарма'рами"
+
+msgid   "Dimensional Gate"
+msgstr  "Врата измерений"
+
+msgid   "Dimensional Gate 2"
+msgstr  "Врата измерений II"
+
+msgid   "Disciple"
+msgstr  "Адепт"
+
+msgid   "Dispeller"
+msgstr  "Рассеиватель"
+
+msgid   "Double Ranged Toad"
+msgstr  "Жаба с двумя стрелками"
+
+msgid   "Dreadnaught"
+msgstr  "Дредноут"
+
+msgid   "Dwarvish Heavy Warrior"
+msgstr  "Тяжелый пехотинец"
+
+msgid   "Dwarvish Rune Lord"
+msgstr  "Рунный Лорд"
+
+msgid   "Dwarvish Rune Warrior"
+msgstr  "Рунный воин"
+
+msgid   "Dwarvish Tank"
+msgstr  "Танк"
+
+msgid   "Dwarvish Warrior"
+msgstr  "Воин"
+
+msgid   "Earth Avatar"
+msgstr  "Аватар земли"
+
+msgid   "Earth Elemental"
+msgstr  "Элементаль земли"
+
+msgid   "Earth God"
+msgstr  "Бог Земли"
+
+msgid   "Efreet"
+msgstr  "Ифрит"
+
+msgid   "Elemental Archer"
+msgstr  "Элементальный лучник"
+
+msgid   "Elementalist"
+msgstr  "Элементалист"
+
+msgid   "Elementalists who choose the path of Fire become quite powerful, and "
+        "quickly, but are rather slow, for their Art takes a toll on their "
+        "bodies."
+msgstr  "Элементалисты, избравшие путь Огная, быстро становятся довольно "
+        "могущественными, но и медленными, так как это Исскуство требует "
+        "некоторых жертв от их тел."
+
+msgid   "Era of Magic"
+msgstr  "Эра Магии"
+
+msgid   "Era of Magic RPG"
+msgstr  "Эра Магии РПГ"
+
+msgid   "Error"
+msgstr  "Ошибка"
+
+msgid   "Evasion:\n"
+        "When this attack is used offensively, this unit takes one third less "
+        "damage in retaliation."
+msgstr  "Уклонение:\n"
+        "Когда эта атака используется в нападении, боец получает в ответ "
+        "только треть урона."
+
+msgid   "Experienced in battle witch becomes shadow witch. Now she is more "
+        "dangerous and she can perform ranged attack 5 times."
+msgstr  "Закаленные в битвах ведьмы еще больше углубляются в тень. Теперь они "
+        "еще более опасны и могут использовать дальнюю атаку пять раз."
+
+msgid   "FURY!"
+msgstr  "ЯРОСТЬ!"
+
+msgid   "Fanatic"
+msgstr  "Фанатик"
+
+msgid   "Fire Avatar"
+msgstr  "Аватар огня"
+
+msgid   "Fire Cyclops"
+msgstr  "Огненный циклоп"
+
+msgid   "Fire Elemental"
+msgstr  "Элементаль огня"
+
+msgid   "Fire God"
+msgstr  "Бог Огня"
+
+msgid   "Flying Fortress"
+msgstr  "Летающая крепость"
+
+msgid   "Flying Fortresses symbolize the height of dwarfish ingenuity. Looked "
+        "upon as an airborne tank, a Flying Fortress employs a trio of "
+        "immense rotor blades to support their flight, with the giant balloon "
+        "retreating into a secondary support. As well as enabling the crew to "
+        "equip themselves with larger and more powerful weapons, it has also "
+        "nullified the great weaknesses previous models had against fire.\n"
+        "\n"
+        "These intimidating monsters are capable of dominating the skies, "
+        "unleashing their wrath upon those unfortunate enough to cross their "
+        "path. If the twin powered heavy cannon fire does not spell their "
+        "doom, then the chattering of the machine guns and the pounding of "
+        "explosives will. Over the centuries, they have accrued a fearsome "
+        "reputation, and are rightly feared by all but the strongest foe."
+msgstr  "Летающие крепости— пик изобретательства гномов. Классифицицируемая "
+        "как воздушный танк, Крепость использует для полета три огромных "
+        "винта, а гигантский шар выполняет роль поддержки. Кроме того, что "
+        "Воздушная крепость позволяет команде использовать более мощное "
+        "вооружение, она еще и лишилась основного недостатка прошлых моделей— "
+        "уязвимости к огню.\n"
+        "\n"
+        "Эти угрожающие монстры доминируют в небесах, выпуская свой гнев на "
+        "всех тех несчастных, что посмели пересечь их путь. Если уж тяжелые "
+        "двойные пушки не приговорят их, тогда очередь из пулемета или "
+        "взрывчатка завершат начатое. За века Воздушные крепости приобрели "
+        "устрашающую репутацию, и их по праву боятся все кроме самых сильных "
+        "воинов."
+
+msgid   "From the marshy lands of the Great Bog hail the bloodthirsty "
+        "Wyverns. These majestic beasts of prey, which are said to be the "
+        "offspring of the great Dragons of old, are captured by the Dark "
+        "Blood saurians, which use them as shock troopers of sorts. They are "
+        "subjected to torture by fire, making them even more crazed and "
+        "bloodthirsty than Nature intended, and released upon the Tribe’s "
+        "multiple enemies."
+msgstr  "Из Великой Топи стаями вылетают кровожадные Виверны. Ящеры Темной "
+        "Крови ловят этих величественных хищных зверей, которые, говорят, "
+        "являются потомками древних Драконов, и используют их в качестве "
+        "ударных отрядов. Их подвергают пыткам огнем, что делает их еще более "
+        "свирепыми и кровожадными, чем задумано природой, и выпускают на "
+        "многочисленных врагов Племени."
+
+msgid   "Furious Death:\n"
+        "Moments before this unit's death, it flies into a fury. The unit "
+        "with this ability attacks all adjacent units and then it finally "
+        "dies."
+msgstr  "Яростная смерть:\n"
+        "Когда такой боец погибает, он впадает в ярость. Перед смертью он "
+        "повреждает всех соседних бойцов."
+
+msgid   "Fury:\n"
+        "This unit can attack another unit after killing an enemy."
+msgstr  "Ярость:\n"
+        "После убийсва одного противника такой боец может атаковать другого."
+
+msgid   "General"
+msgstr  "Генерал"
+
+msgid   "Goblin Archer"
+msgstr  "Лучник"
+
+msgid   "Goblin Assassin"
+msgstr  "Убийца"
+
+msgid   "Goblin Hunter"
+msgstr  "Охотник"
+
+msgid   "Goblin Kamikaze"
+msgstr  "Камикадзе"
+
+msgid   "Goblin Rouser"
+msgstr  "Буян"
+
+msgid   "Goblin Runt"
+msgstr  "Гоблин-коротышка"
+
+msgid   "Goblin Sniper"
+msgstr  "Снайпер"
+
+msgid   "Goblin Warbanner"
+msgstr  "Гоблин-знаменосец"
+
+msgid   "Goblin Warrior"
+msgstr  "Копейщик"
+
+msgid   "Goblin leader:\n"
+        "This unit can lead our own Goblins that are next to it, making them "
+        "fight better.\n"
+        "\n"
+        "Adjacent own Goblins will do more damage in battle (20% more)."
+msgstr  "Вожак гоблинов:\n"
+        "Такой боец ведет в бой дружественных гоблинов, улучшает их боевые "
+        "характеристики.\n"
+        "\n"
+        "Свои соседние гоблины наносят в бою больше (на 20%) урона."
+
+msgid   "Golden Mage"
+msgstr  "Золотой маг"
+
+msgid   "Golden Warrior"
+msgstr  "Золотой воин"
+
+msgid   "Golem"
+msgstr  "Голем"
+
+msgid   "Golem Boss"
+msgstr  "Главный голем"
+
+msgid   "Grand Summoner"
+msgstr  "Высший призыватель"
+
+msgid   "Great Efreeti"
+msgstr  "Высший ифрит"
+
+msgid   "Great Hunter"
+msgstr  "Великий охотник"
+
+msgid   "Great Hunter can slow enemies by throwing nets."
+msgstr  "Великий охотник может замедлить противников сетью"
+
+msgid   "Great Jinn"
+msgstr  "Великий джинн"
+
+msgid   "Great Pikeman"
+msgstr  "Элитный пикинер"
+
+msgid   "Great Warlock"
+msgstr  "Великий колдун"
+
+msgid   "Great Wyvern"
+msgstr  "Великая виверна"
+
+msgid   "Green Salamander"
+msgstr  "Зеленая саламандра"
+
+msgid   "Grenade:\n"
+        "When this attack is used, all units adjacent to a target get damage. "
+        "Does not work on defense."
+msgstr  "Граната:\n"
+        "Когда используется эта атака, урон получает не только цель, но и все "
+        "соседние к ней бойцы. Не используется при защите."
+
+msgid   "Growing fury: When this attack is used, this units damage increases "
+        "after each successful hit (+4)."
+msgstr  "Растущая ярость: Когда используется такая атака, урон, наносимый "
+        "боцом, увеличивается после каждого удачного попадания (+4)"
+
+msgid   "Guru"
+msgstr  "Гуру"
+
+msgid   "Hard landing:\n"
+        "When this large unit is destroyed, it falls on a ground dealing "
+        "damage to all adjacent units. "
+msgstr  "Грубая посадка:\n"
+        "Когда уничтожают такого большого бойца, он падает на землю и наносит "
+        "урон всем соседним бойцам."
+
+msgid   "Heals +12:\n"
+        "Allows the unit to heal adjacent friendly units at the beginning of "
+        "each turn.\n"
+        "\n"
+        "A unit cared for by this healer may heal up to 12 HP per turn.\n"
+        "A curer can cure a unit of poison, although that unit will receive "
+        "no additional healing on the turn it is cured of the poison."
+msgstr  "Лечит +12:\n"
+        "Позволяет бойцу лечить соседних дружественных воинов в начале "
+        "каждого хода.\n"
+        "\n"
+        "Воин вылеченный таким бойцом может восстановить до 12 ОЗ в ход.\n"
+        "Целитель может излечить воина от яда, но это воин не получит "
+        "дополнительного лечения в ходу, на котором был вылечен яд."
+
+msgid   "Heals +2:\n"
+        "Allows the unit to heal adjacent friendly units at the beginning of "
+        "each turn.\n"
+        "\n"
+        "A unit cared for by this healer may heal up to 2 HP per turn."
+msgstr  "Лечит +2:\n"
+        "Позволяет такому бойцу лечить соседних дружественных воинов в начале "
+        "каждого хода.\n"
+        "\n"
+        "Воин вылеченный этим бойцом может вылечить до 2 ОЗ в ход."
+
+msgid   "Heavy Balloon"
+msgstr  "Тяжелый воздушный шар"
+
+msgid   "Heavy Camel Rider"
+msgstr  "Тяжелый наездник на верблюде"
+
+msgid   "Heavy Cavalry Archer"
+msgstr  "Тяжелый конный лучник"
+
+msgid   "Heavy Summoner"
+msgstr  "Тяжелый призыватель"
+
+msgid   "Help"
+msgstr  "Помощь"
+
+msgid   "Heroes + Magic"
+msgstr  "Герои+Магия"
+
+msgid   "Hidden Face"
+msgstr  "Безликий"
+
+msgid   "Hidden faces are warriors who specialize in close combat, fast "
+        "strikes, and dodging."
+msgstr  "Безликие— это воины специализирующиеся на ближнем бое, быстрых "
+        "ударах и уклонении."
+
+msgid   "Hit and Run:\n"
+        "This unit gains 3 moves back after attacking, but cannot attack "
+        "again."
+msgstr  "Ударил-убежал:\n"
+        "После атаки такой боец приобретает обратно три очка движения, но не "
+        "может снова атаковать."
+
+msgid   "Ho’rhami"
+msgstr  "Хо'рами"
+
+msgid   "Hydra"
+msgstr  "Гидра"
+
+msgid   "I have insufficient materials. I am unable to summon."
+msgstr  "У меня не хватает ресурсов. Призыв невозможен."
+
+msgid   "If the Dark Blood Tribe is known for something, it’s their "
+        "shamanistic magic. Those saurians who choose to learn it are usually "
+        "frail of body and unfit to do battle physically. However, their "
+        "control of water magicks is invaluable in battle, both to heal their "
+        "allies, and to hurl balls of ice at their foes."
+msgstr  "Если Племя Темной Крови и славится чем-то, то это их шаманская "
+        "магия. Те ящеры, которые выбирают путь шамана, довольно хрупки телом "
+        "и мало подходят для физического боя. Однако их мастерство в магии "
+        "воды неоценимо в битве. Они используют магию как для лечения "
+        "соратников, так и для обстрела противника ледяными глыбами."
+
+msgid   "In the middle of the Jungle of Life lies the Great Bog, dark and "
+        "marshy. It is said that many a creature make their homes there.\n"
+        "\n"
+        "The saurians of the Dark Blood tribe are known to capture and tame "
+        "the Bog’s giant Toads, riding their backs and using them as war "
+        "elephants of sorts; it is known that they use special lures to make "
+        "the Toads strike enemies with their long, sticky tongues."
+msgstr  "Посреди Джунглей Жизни лежит Великая Топь, темная и болотистая. "
+        "Говоят, что она служит домом для многих существ.\n"
+        "Ящеры племени Темная Кровь ловят и приручают гигантских жаб Топи и "
+        "используют их в виде боевых слонов. Известно, что они используют "
+        "специальные уловки, чтобы жабы поражали противника своими длинными, "
+        "липкими языками. "
+
+msgid   "Inspire:\n"
+        "This unit can inspire friendly units that are next to it, making "
+        "them fight better.\n"
+        "\n"
+        "Adjacent friendly level 0 units will do 25% more damage in battle.\n"
+        "Adjacent friendly level 1 units will do 10% more damage in battle."
+msgstr  "Вдохновение:\n"
+        "Такой боец может вдохвлять соседние дружественные войска, улучшая "
+        "боевые характеристики.\n"
+        "\n"
+        "Соседние бойцы 0 уровня будут наносить в битве на 25% больше урона.\n"
+        "Соседние бойцы 1 уровня будут наносить в битве на 10% больше урона."
+
+msgid   "Inspire:\n"
+        "This unit can inspire friendly units that are next to it, making "
+        "them fight better.\n"
+        "\n"
+        "Adjacent friendly level 0 units will do 25% more damage in battle.\n"
+        "Adjacent friendly level 1 units will do 25% more damage in battle.\n"
+        "Adjacent friendly level 2 units will do 10% more damage in battle."
+msgstr  "Вдохновение:\n"
+        "Такой боец может вдохвлять соседние дружественные войска, улучшая "
+        "боевые характеристики.\n"
+        "\n"
+        "Соседние бойцы 0 уровня будут наносить в битве на 25% больше урона.\n"
+        "Соседние бойцы 1 уровня будут наносить в битве на 25% больше урона.\n"
+        "Соседние бойцы 2 уровня будут наносить в битве на 10% больше урона."
+
+msgid   "Jinn"
+msgstr  "Джинн"
+
+msgid   "Kamikaze:\n"
+        "This unit always hits a target when attacking, but it dies instantly."
+msgstr  "Камикадзе:\n"
+        "Такой боец всегда попадает по врагу, но сразу после этого умирает."
+
+msgid   "Kharos"
+msgstr  "Карос"
+
+msgid   "Kharos War Banner"
+msgstr  "Боевое знамя Кароса"
+
+msgid   "Kirios"
+msgstr  "Кириос"
+
+msgid   "Made of Fire:\n"
+        "This unit is made of fire. If it stands in lava, it will receive 6 "
+        "hp."
+msgstr  "Огненный:\n"
+        "Этот боец состоит из огня. Таким образом, находясь в лаве, он "
+        "получает 6 хитов за ход."
+
+msgid   "Made of Water:\n"
+        "This unit is made of water. As a result, if it is standing in water, "
+        "it will receive 6 hp."
+msgstr  "Водный:\n"
+        "Этот боец состоит из воды. Таким образом, находясь в воде, он "
+        "получает 6 хитов за ход."
+
+msgid   "Mage of Air"
+msgstr  "Маг воздуха"
+
+msgid   "Mage of Fire"
+msgstr  "Маг огня"
+
+msgid   "Mage of Water"
+msgstr  "Маг воды"
+
+msgid   "Magical Eye"
+msgstr  "Магический глаз"
+
+msgid   "Magical Eyes are a breed of constructs Enlightened Magi often "
+        "animate. These Eyes are surrounded by a gold aura, focusing its "
+        "powers through their gaze, and usually ‘seeing’ and therefore "
+        "hitting their enemies often."
+msgstr  "Магические Глаза— это вид механизмов, которых часто оживляют "
+        "Просвещенные. Эти Глаза окружены золотой аурой, они фокусируют свою "
+        "силу взглядом и обычно \"видят\" и тогда атакуют."
+
+msgid   "Master of Air"
+msgstr  "Повелитель воздуха"
+
+msgid   "Master of Darkness"
+msgstr  "Хозяин Тьмы"
+
+msgid   "Master of Elements"
+msgstr  "Повелитель элементов"
+
+msgid   "Master of Fire"
+msgstr  "Повелитель огня"
+
+msgid   "Master of Sun"
+msgstr  "Магистр Солнца"
+
+msgid   "Master of War"
+msgstr  "Маршал"
+
+msgid   "Master of Water"
+msgstr  "Повелитель воды"
+
+msgid   "Mastermage"
+msgstr  "Мастер Магии"
+
+msgid   "Masters of Water are powerful healers, and lords of their element. "
+        "Their control is so great that they are able to regenerate "
+        "themselves. They also slow their foes."
+msgstr  "Поыелители воды могущественные целители и хозяева в своей стихии. Их "
+        "контроль над водой столь силен, что они могут даже регенерировать. "
+        "Так же они могут замедлять врагов."
+
+msgid   "Matriarch of Darkness"
+msgstr  "Мать Тьмы"
+
+msgid   "Matriarch of Emptiness"
+msgstr  "Мать Пустоты"
+
+msgid   "Mechanic"
+msgstr  "Механик"
+
+msgid   "Mechanical Dragon"
+msgstr  "Механический дракон"
+
+msgid   "Mighty Cyclops"
+msgstr  "Могучий циклоп"
+
+msgid   "Mountain Ambush:\n"
+        "This unit can hide in mountains and hills, and remain undetected by "
+        "its enemies.\n"
+        "\n"
+        "Enemy units cannot see this unit while it is in mountains or hills, "
+        "except if they have units next to it. Any enemy unit that first "
+        "discovers this unit immediately loses all its remaining movement."
+msgstr  "Засада в горах:\n"
+        "Такой боец может скрыться в горах и холмах и быть невидимым для "
+        "противника.\n"
+        "\n"
+        "Вражеские бойцы могут увидеть его в горах или холмах, только стоя "
+        "рядом. Вражеский боец, первым обнаруживший его, немедленно теряет "
+        "все оставшиеся ходы."
+
+msgid   "Mu"
+msgstr  "Мю"
+
+msgid   "Mu is a creature with unknown origin. It is the cheapest unit in the "
+        "era, but not the weakest. A large group of these units can be "
+        "dangerous."
+msgstr  "Мю это существо неизвестного происхожения. Самый дешевый боец в эре, "
+        "но не самый слабый. Большая группа таких бойцов может быть опасной."
+
+msgid   "Mystic"
+msgstr  "Мистик"
+
+msgid   "Mystic Warrior"
+msgstr  "Мистический воин"
+
+msgid   "Mystic warriors use special staffs to perform both their ranged and "
+        "melee attacks."
+msgstr  "Мистические воины используют специальные посохи для ближних и "
+        "дальних атак."
+
+msgid   "Mystical Jinn"
+msgstr  "Мистический джинн"
+
+msgid   "Mystical Toad"
+msgstr  "Жаба с мистиком"
+
+msgid   "Neutral Summoner"
+msgstr  "Нейтральный призыватель"
+
+msgid   "Novice Summoner"
+msgstr  "Послушник"
+
+msgid   "Orcish Warbanner"
+msgstr  "Орк-знаменосец"
+
+msgid   "Orcish Warrior"
+msgstr  "Воин"
+
+msgid   "Orcish leader:\n"
+        "This unit can lead our own Orcs that are next to it, making them "
+        "fight better.\n"
+        "\n"
+        "Adjacent own Orcs will do more damage in battle (20% more)."
+msgstr  "Вожак орков:\n"
+        "Такой боец ведет в бой дружественных орков, улучшает их боевые "
+        "характеристики.\n"
+        "\n"
+        "Свои соседние орки наносят в бою больше (на 20%) урона."
+
+msgid   "Pacificator"
+msgstr  "Миротворец"
+
+msgid   "Parachute:\n"
+        "The pilot of this machine is equipped with parachute and he can "
+        "survive a destruction of his vehicle."
+msgstr  "Парашют:\n"
+        "У пилота этой машины есть парашют, и он может пережить крушение."
+
+msgid   "Parachutist"
+msgstr  "Парашютист"
+
+msgid   "Platinum Warrior"
+msgstr  "Платиновый воин"
+
+msgid   "Promoted to the Second Degree, summoners are proficient enough to "
+        "perform minor summonings, using their own bodies as the medium. With "
+        "a magical circle traced in their hands, they can let loose magical "
+        "arrows that strike foes with surefire aim. Summoners, armed with "
+        "hammers and scimitars, are trained in slaying enemies in both close "
+        "quarters and afar.\n"
+        "\n"
+        "Special Notes: Precision: Ranged attack of this unit always has a "
+        "80% chance to hit."
+msgstr  "Перешедшие на Вторую Ступень призыватели уже достаточно умелы, чтобы "
+        "совершать меньшие призывы, использую в качестве медиума свое тело. "
+        "Вычерченные на руках магические круги позволяют им точно выпускать "
+        "во врагов волшебные стрелы. Вооруженные молотами и ятаганми "
+        "призыватели обучены убивать своих врагов как вдали, так и вблизи.\n"
+        "\n"
+        "Специальное: дальняя атака этого бойца имеет очень большой шанс "
+        "поразить цель (80%)."
+
+msgid   "Protector"
+msgstr  "Защитник"
+
+msgid   "Pupils of the summoning world are first taught the inscriptions and "
+        "symbols fundamental to their craft. Lacking the experience that "
+        "comes with age and combat, novices are unable to apply these arts "
+        "without the aid of mediums, such as scrolls of parchment for fiery "
+        "evocations. Summoning is an exact art, however, and even the most "
+        "elementary spells will hit with certainty.\n"
+        "\n"
+        "Unlike the magi of other societies, novice summoners are by no means "
+        "frail, and are proficient with both scimitars and their bare hands "
+        "in combat.\n"
+        "\n"
+        "Special Notes: Precision: The ranged attack of this unit always has "
+        "an 80% chance to hit."
+msgstr  "Учеников в деле призывателей сначала обучают основным формулам и "
+        "символам этого мастерства. Из-за нехватки опыта, что приходит со "
+        "временем и стычкаи, послушники могут использовать это искусство "
+        "только с помощью медиумов, к примеру, таких как свитки призыва "
+        "пламени. Однако призыв— точная наука, и даже самые слабые заклинания "
+        "обязательно попадут в цель.\n"
+        "\n"
+        "В отличие от магов других сообществ, послушники ни в коем случае не "
+        "тщедушны и умело сражаются как ятаганами, так и голыми руками.\n"
+        "\n"
+        "Специальное: дальняя атака этого бойца имеет очень большой шанс "
+        "поразить цель."
+
+msgid   "Raging Cyclops"
+msgstr  "Яростный циклоп"
+
+msgid   "Raging Hydra"
+msgstr  "Яростная гидра"
+
+msgid   "Random Default"
+msgstr  "Случайная по умолчанию"
+
+msgid   "Ranged Toad"
+msgstr  "Жаба со стрелком"
+
+msgid   "Red Ulfserker"
+msgstr  "Красный ульфсерк"
+
+msgid   "Regenerates +4:\n"
+        "At the beginning of each turn this unit heals +4 hp. If it is "
+        "poisoned, it will remove it instead of healing."
+msgstr  "Регенерация +4:\n"
+        "Этот боец излечивает 4 ЗД. Если он отравлен, он вместо лечения "
+        "избавляется от яда."
+
+msgid   "Repairs +5:\n"
+        "Allows the unit to repair adjacent friendly mechanical units at the "
+        "beginning of each turn.\n"
+        "\n"
+        "A unit cared for by this healer may heal up to 5 HP per turn."
+msgstr  "Чинит +5:\n"
+        "Позволяет бойцу в начале каждого хода чинить соседние механизмы.\n"
+        "\n"
+        "Отремонтированному механихму возвращается до 5 ЗД за ход."
+
+msgid   "Repairs +8:\n"
+        "Allows the unit to repair adjacent friendly mechanical units at the "
+        "beginning of each turn.\n"
+        "\n"
+        "A unit cared for by this healer may heal up to 8 HP per turn."
+msgstr  "Чинит +8:\n"
+        "Позволяет бойцу в начале каждого хода чинить соседние механизмы.\n"
+        "\n"
+        "Отремонтированному механихму возвращается до 8 ЗД за ход."
+
+msgid   "Revenger"
+msgstr  "Мститель"
+
+msgid   "Rhami"
+msgstr  "Рами"
+
+msgid   "Rhamis are a race of limber and swift creatures residing in the "
+        "Abyss. Four-armed and, like jinns, blessed with the gift of "
+        "intelligence, Rhamis carry out their work as the precise strike "
+        "force of the summoners. Due to some foreign magical affinity, Rhamis "
+        "regenerate their bodies promptly after becoming wounded. They are "
+        "armed with a blade in each hand, casting blows and slashes with "
+        "astonishing inhuman speed. Through their four blades and spryness, a "
+        "Rhami can dive into combat and strike before their foes can react. "
+        "Rhamis are fiercely loyal and search to enact revenge upon their "
+        "fallen comrades."
+msgstr  "Рами— раса гибких и быстрых существ, проживающих в Первозданном "
+        "Хаосе. Четырехрукие и, как и джинны, наделенные даром мышления, Рами "
+        "выступают в роли ударной силы призывателей. Благодаря какому-то "
+        "неизвестному свойству, Рами могут быстро залечивать полученные раны. "
+        "Вооруженные мечем в каждой руке, они наносят удары с поразительной, "
+        "нечеловеческой скоростью. Из-за своих четырех мечей и энергичности, "
+        "Рами может начать схватку и ударить до того как среагирует "
+        "противник. Рами очень преданны и "
+
+msgid   "Rhami’datu"
+msgstr  "Рами'дату"
+
+msgid   "Rhami’kai"
+msgstr  "Рами'кай"
+
+msgid   "Rhami’kais trade in their four scimitars for a single weapon: the "
+        "spear. With this, Rhami’kais attain more power and precision with "
+        "their attacks but at the loss of speed. RhamiKais, charismatic and "
+        "as sentient as humans, lead others into combat, organizing attacks "
+        "with timing and skill. Rhami’kais also can launch magical attacks "
+        "through their eyes that drain the strength and life of opponents "
+        "into their own."
+msgstr  "Рами'кай обменивают свои четыре скимитара на единственное оружие: "
+        "копьё. В связи с этим атаки Рами'кай становятся мощнее и точнее, но "
+        "теряют в скорости. Рами'кай, харизматичные и такие же разумные, как "
+        "люди, ведут остальных в битву, умело организовывая атаки. Так же "
+        "Рами'кай могут взглядом высасывать силы и жизнь из противника."
+
+msgid   "Roc Master"
+msgstr  "Хозяин Рух"
+
+msgid   "Roc Rider"
+msgstr  "Наездник Рух"
+
+msgid   "Rune Artist"
+msgstr  "Рунный мастер"
+
+msgid   "Rune Aura:\n"
+        "Adjacent friendly units on hexes: s, ne, nw receive a 99% bonus to "
+        "fire, cold and arcane resistance. Other units receive a −99% bonus "
+        "to fire, cold and arcane resistance."
+msgstr  "Рунная аура:\n"
+        "Когда используют эту способность, все Мастера Рун создают вокруг "
+        "себя специальные ауры. Соседние дружественные бойцы, стоящие на "
+        "клетках: ю, сз, св— получают 99% бонус к сопротивлениям к огню, "
+        "холоду и мистическому урону. У всех остальных отнимается 99% от тех "
+        "же сопротивлений. Преобразование длится один ход. Преобразованный "
+        "боец не может атаковать."
+
+msgid   "Rune Aura:\n"
+        "When this ability is activated, all Rune Masters create special "
+        "auras. Adjacent units on hexes: s, ne, nw receive a 99% bonus to "
+        "fire, cold and arcane resistance. Other units receive a −99% bonus "
+        "to fire, cold and arcane resistance. The transformation lasts for "
+        "one turn. Transformed unit cannot attack."
+msgstr  "Рунная аура:\n"
+        "Когда используют эту способность, все Мастера Рун создают вокруг "
+        "себя специальные ауры. Соседние дружественные бойцы, стоящие на "
+        "клетках: ю, сз, св— получают 99% бонус к сопротивлениям к огню, "
+        "холоду и мистическому урону. У всех остальных отнимается 99% от тех "
+        "же сопротивлений. Преобразование длится один ход. Преобразованный "
+        "боец не может атаковать."
+
+msgid   "Runeadept"
+msgstr  "Рунный адепт"
+
+msgid   "Runemaster"
+msgstr  "Мастер Рун"
+
+msgid   "Runemasters"
+msgstr  "Мастера рун"
+
+msgid   "Runesmith"
+msgstr  "Рунный кузнец"
+
+msgid   "Salamander"
+msgstr  "Саламандр"
+
+msgid   "Saurian Pikeman"
+msgstr  "Пикинер"
+
+msgid   "Savage and warlike Orcs form the back bone of the Barbarian hordes.\n"
+        "\n"
+        "Orc society is ill-suited to large-scale warfare, which leaves their "
+        "small tribes at prey to the more organized might of the world’s "
+        "various armies. However in the last two centuries something has "
+        "changed. Orcs now fight with Cyclops, Trolls, Rocs and goblins side "
+        "by side whether it be in brutal hunting packs or full blown armies. "
+        "The origins of this change are unknown but one thing is sure, when "
+        "the barbarian hordes come screaming for your blood the Orcs will be "
+        "leading the charge."
+msgstr  "Дикие и воинственные орки это костяк Варварских орд.\n"
+        "\n"
+        "Устройство общества орков плохо подходит для ведения "
+        "крупномасштабных войн, из-за чего меньшие племена становятся легкой "
+        "добычей для более организованной мощи разных армий мира. Однако, за "
+        "последние два века что-то изменилось. Теперь орки бьются бок-о-бок с "
+        "циклопами, троллями, рух и гоблинами будь то просто охотничьи отряды "
+        "или полноценные армии. Причины этих перемен неизвестны, но в одном "
+        "можете быть уверены, когда алчущие крови варварские племена придут в "
+        "ваши земли, орки будут во главе атаки."
+
+msgid   "Shadowmage"
+msgstr  "Тень"
+
+msgid   "Shamanistic Adept"
+msgstr  "Адепт шаманства"
+
+msgid   "Shamanistic Toad"
+msgstr  "Жаба с шаманом"
+
+msgid   "Shielder"
+msgstr  "Щитоносец"
+
+msgid   "Shooter"
+msgstr  "Стрелок"
+
+msgid   "Silver Warrior"
+msgstr  "Серебряный воин"
+
+msgid   "Sky Kingdom"
+msgstr  "Небесное королевство"
+
+msgid   "Slicer"
+msgstr  "Рубака"
+
+msgid   "Sorcerer"
+msgstr  "Колдун"
+
+msgid   "Standard-bearers are an oddity amongst goblins. A goblin who has "
+        "survived enough battles to be considered a veteran is rare enough, "
+        "and it is rarer still for the other goblins to recognize and respect "
+        "his veteran status. Nonetheless, a rouser’s frenzied goading "
+        "effectively steels the younger at arms to fight harder and longer "
+        "before they die."
+msgstr  "Знаменосцы— довольно старнное явление среди гоблинов. Так же "
+        "довольно редки случаи, когда гоблины переживают достаточное "
+        "количество битв, чтобы считаться ветеранами. Однако еще реже другие "
+        "гоблины признают и уважают их ветеранский статус. Как бы там ни "
+        "было, яростные выкрики буянов заставляют новобранцев сражаться "
+        "жестче и дольше перед своей смертью."
+
+msgid   "Steam Berserker"
+msgstr  "Паровой берсерк"
+
+msgid   "Steam Ulfserker"
+msgstr  "Паровой ульфсерк"
+
+msgid   "Steamcopter"
+msgstr  "Паролет"
+
+msgid   "Striding Machine"
+msgstr  "Шагоход"
+
+msgid   "Subversive Mage"
+msgstr  "Губитель"
+
+msgid   "Summon Air Elemental (16g)"
+msgstr  "Призвать элементаля воздуха (16з)"
+
+msgid   "Summon Air Elemental (8g)"
+msgstr  "Призвать элементаля воздуха (8з)"
+
+msgid   "Summon Earth Elemental (8g)"
+msgstr  "Призвать элементаля земли (8з)"
+
+msgid   "Summon Fire Elemental (12g)"
+msgstr  "Призвать элементаля огня (12з)"
+
+msgid   "Summon Fire Elemental (15g)"
+msgstr  "Призвать элементаля огня (15з)"
+
+msgid   "Summon Fire Elemental (7g)"
+msgstr  "Призвать элементаля огня (7з)"
+
+msgid   "Summon Golem (16g)"
+msgstr  "Призвать голема (16з)"
+
+msgid   "Summon Help"
+msgstr  "Призвать подмогу"
+
+msgid   "Summon Jinn (14g)"
+msgstr  "Призвать джинна (14з)"
+
+msgid   "Summon Rhami (12g)"
+msgstr  "Призвать рами (12з)"
+
+msgid   "Summon Roc Rider (22g)"
+msgstr  "Призвать наездника рух (22з)"
+
+msgid   "Summon Roc:\n"
+        "this unit can summon new units near him, but not in villages."
+msgstr  "Призыв Рух:\n"
+        "Такой боец может призвать новых воинов на пустые соседние клетки за "
+        "исключением деревень."
+
+msgid   "Summon Water Elemental (12g)"
+msgstr  "Призвать элементаля воды (12з)"
+
+msgid   "Summon Water Elemental (16g)"
+msgstr  "Призвать элементаля воды (16з)"
+
+msgid   "Summon Water Elemental (7g)"
+msgstr  "Призвать элементаля воды (7з)"
+
+msgid   "Summon:\n"
+        "this unit can summon new units near him, but not in villages."
+msgstr  "Призыв:\n"
+        "Такой боец может призвать новых воинов на пустые соседние клетки за "
+        "исключением деревень."
+
+msgid   "Summoner"
+msgstr  "Призыватель"
+
+msgid   "Summoners, scholars and warriors alike will eventually reach the "
+        "Second Degree provided enough talent and cunning. The Third Degree, "
+        "however, does not come easily to non-geniuses of the arts. ‘Grand "
+        "summoners’, as they are called by their peers, value both war and "
+        "wisdom equally in earning their precious knowledge of summoning "
+        "elementals from the Abyss. Respected and feared, grand summoners "
+        "eliminate foes with absolute certainty in the wake of their circles "
+        "of destruction.\n"
+        "\n"
+        "Special Notes: Circle: The ranged attack of this unit always has a "
+        "100% chance to hit."
+msgstr  "В конце концов при должных талантах и умении призыватели: и ученые, "
+        "и воители— достигнут Второй Ступени. Однако Третья Ступень дается "
+        "далеко не каждому. 'Высшие призыватели', как их называют, одинаково "
+        "ценят боевые навыки и мудрость в получении ценного знания о призыве "
+        "элементалей из Первозданного Хаоса. Высие пизыватели абсолютно точно "
+        "поражают врагов, пробуждая круги разрушения.\n"
+        "\n"
+        "Специальное: дальняя атака этого бойца имеет 100% шанс попасть."
+
+msgid   "Summons master"
+msgstr  "Мастер призыва"
+
+msgid   "Sun Follower"
+msgstr  "Последователь Солнца"
+
+msgid   "Sun Guardian"
+msgstr  "Защитник Солнца"
+
+msgid   "Swallow +4:\n"
+        "This unit gains 4 hitpoints added to its current health whenever it "
+        "kills a living unit."
+msgstr  "поглощает +4:\n"
+        "за каждое убийство живого существа к текущему здоровью бойца "
+        "прибавляется 4 ЗД."
+
+msgid   "Swamp Ambush:\n"
+        "This unit can hide in swamp, and remain undetected by its enemies.\n"
+        "\n"
+        "Enemy units cannot see this unit while it is in swamp, except if "
+        "they have units next to it. Any enemy unit that first discovers this "
+        "unit immediately loses all its remaining movement."
+msgstr  "Засада в болоте:\n"
+        "Такой боец может скрыться в болоте и быть невидимым для противника.\n"
+        "\n"
+        "Вражеские бойцы могут увидеть его в болоте, только стоя рядом. "
+        "Вражеский боец, первым обнаруживший его, немедленно теряет все "
+        "оставшиеся ходы."
+
+msgid   "Swamp Mage"
+msgstr  "Болотный маг"
+
+msgid   "Sworddancer"
+msgstr  "Танцующий с мечами"
+
+msgid   "Technician"
+msgstr  "Техник"
+
+msgid   "Tharis"
+msgstr  "Тарис"
+
+msgid   "The Rocs of Thornspire Mountain had long grown fat off the flesh of "
+        "the goblins who lived below. It took one particularly mad and "
+        "foolhardy goblin to change the fate of his people when he set out to "
+        "tame the beasts. After several narrow escapes the goblin managed to "
+        "steal an egg from the great birds and rose it under his care. Less "
+        "then three months later when the Rocs attacked they were surprised "
+        "to hear a piercing cry from above and even more surprised when they "
+        "were ripped to shreds by one of their own. To this day the goblins "
+        "ride tamed Rocs into battle, their battle cries the only warning of "
+        "impending doom."
+msgstr  "Рух Тернистого Шпиля давно уже разжирели от мяса гоблинов, живших у "
+        "подножия. Всего один особенно сумасшедший и безрассудный гоблин "
+        "изменил судьбу своего народа, когда отправился приручать чудищ. "
+        "Несколько раз он едва ускользал от их когтей, но в конце концов смог "
+        "украсть яйцо и вырастить птенца. Через почти три месяца атакующие "
+        "Рух были очень удивлены, услышав пронзительные крики с небес, и еще "
+        "более они удивились, когда были разбиты в клочья своими сородичами. "
+        "До сих пор гоблины отправляются в битву на прирученных Рух, их "
+        "боевые крики— единственное предупреждение о неизбежном роке."
+
+msgid   "The Trolls within the Barbarian horde do not practice magic as it is "
+        "known to most races of the world although it easily could be "
+        "confused for such. Rather the rough skin of these mysterious "
+        "creatures when brought into rapid contact with itself can spark, "
+        "igniting any flammable materials around them. Thus with a snap of "
+        "the fingers trolls can ignite the small bundles of straw held within "
+        "their palms before flinging them at the enemy. Such is the "
+        "preternatural aim of the Troll Sorcerers that no matter where the "
+        "target is hiding they will unerringly seek it out."
+msgstr  "Как известно, тролли в племенах Варваров, хоть их действия можно с "
+        "легкостью принять за ворожбу, магией не владеют. На самом деле "
+        "просто их твердая кожа при трении можеть выдать искру, которая "
+        "поджигает горючие материалы. Таким образом щелчком пальцев тролли "
+        "могут зажигать пучки соломы, а затем метать их в противников. А "
+        "точность троллей-колдунов такова, что они безошибочно попадают в "
+        "цель, где бы она ни находилась."
+
+msgid   "These Magi are renowned for their speed and for their ability to "
+        "create powerful winds. In battle, they conjure deadly storms of "
+        "unspeakable power."
+msgstr  "Эти маги известны за свою скорость и способность создавать могучие "
+        "ветры. В битве они призывают смертельные штормы невообразимой силы."
+
+msgid   "This amazing monster is reinforced by black magic. It always brings "
+        "death."
+msgstr  "Это великолепное существо усилено черной магией. Оно всегда приносит "
+        "смерть."
+
+msgid   "This unit is less effective than white mage but it can perform more "
+        "magical attacks. The Cleric heals and leads other units."
+msgstr  "Этот боец менее эффективен, чем белый маг, но он может произвести "
+        "больше магических атак. Священник лечит и руководит другими бойцами."
+
+msgid   "To summon a unit right-click on adjacent hexes near a selected "
+        "summoner.\n"
+        "\n"
+        "You need all movement points (and remaining attacks) to summon one "
+        "creature. You are unable to summon from castles or keeps. A new unit "
+        "can’t be summoned on water.\n"
+        "Every summoning adds +4 to current experience.\n"
+        "\n"
+        "If there are 2 or more summoners, a new unit will be summoned by the "
+        "last selected unit able to summon."
+msgstr  "Чтобы призвать бойца щелкните правой кнопкой мыши на клетке соседней "
+        "с призывающим. \n"
+        "\n"
+        "Чтобы призвать существо, вам понадобятся все ходы (и оставшиеся "
+        "атаки). Нельзя призывать из замков или крепостей. Так же невозможно "
+        "призывать существ на клетки с водой.\n"
+        "Каждый призыв добавляет 4 опыта призывающему.\n"
+        "\n"
+        "Если призывателей двое или больше, новый боец будет призван у "
+        "последнего выбранного призывателя."
+
+msgid   "Toad"
+msgstr  "Жаба"
+
+msgid   "Troll Fire Wizard"
+msgstr  "Маг огня"
+
+msgid   "Troll Sorcerer"
+msgstr  "Колдун"
+
+msgid   "Troll Warbanner"
+msgstr  "Тролль-знаменосец"
+
+msgid   "Troll leader:\n"
+        "This unit can lead our own Trolls that are next to it, making them "
+        "fight better (+20%)."
+msgstr  "Вожак орков:\n"
+        "Такой боец ведет в бой дружественных орков, улучшает их боевые "
+        "характеристики.\n"
+        "\n"
+        "Свои соседние орки наносят в бою больше (на 20%) урона."
+
+msgid   "Troll shamans are the mystical leaders of the trolls. Though not as "
+        "strong or tough as other trolls, their true power lies in their fire "
+        "magic, which they use to blast enemies with gouts of fire."
+msgstr  "Шаманы— это духовные лидеры троллей. Они и не так сильны, как "
+        "остальные их сородичи, однако, настоящая мощь шаманов лежит в "
+        "огненной магии, которую они используют, чтобы сжигать противников "
+        "сгустками огня."
+
+msgid   "Um"
+msgstr  "Ум"
+
+msgid   "Ums (<italic>text='um'</italic> in single) are the Enlightened "
+        "Kingdom's top secret weapon. These powerful magical creatures are a "
+        "result of long, hard studies and experiments."
+msgstr  "Умы ('ум' в единственном числе) это сверхсекретное оружие Небесного "
+        "королевства. Эти могущественные магические существа— результат "
+        "долгих, сложных исследований и экспериментов."
+
+msgid   "Void Mage"
+msgstr  "Маг Пустоты"
+
+msgid   "War Banner"
+msgstr  "Боевое знамя"
+
+msgid   "War Mage"
+msgstr  "Боевой маг"
+
+msgid   "Water Avatar"
+msgstr  "Аватар воды"
+
+msgid   "Water Elemental"
+msgstr  "Элементаль воды"
+
+msgid   "Water God"
+msgstr  "Бог Воды"
+
+msgid   "Water Magi use their power to heal, not to destroy. In battle, they "
+        "use their control of the water inside their enemies’ bodies to slow "
+        "them, and conjure shards of ice with deadly accuracy."
+msgstr  "Маги воды используют свою силу не для боя, но для лечения. В битве "
+        "они используют свои способности, чтобы контролировать воду внутри "
+        "врагов, тем самым замедляя их, и заклинать смертельно точные осколки "
+        "льда."
+
+msgid   "White Warrior"
+msgstr  "Белый воин"
+
+msgid   "Witch"
+msgstr  "Ведьма"
+
+msgid   "Witches are servants of darkness. They use special magic attack "
+        "called witch-fire. It is cheap spell and drains energy from an "
+        "enemy. In close range witches use their spears."
+msgstr  "Ведьмы— слуги тьмы. Они используют специальную магическую атаку, "
+        "названную ведьминым огнем. Это дешевое заклинание, которое "
+        "высасывает из врагов энергию. В ближнем бою ведьмы пользуются "
+        "копьями."
+
+msgid   "Wonderful Jinn"
+msgstr  "Чудесный джинн"
+
+msgid   "Wyvern"
+msgstr  "Виверна"
+
+msgid   "Wyvern Rider"
+msgstr  "Наездник виверн"
+
+msgid   "Wyvern Tamer"
+msgstr  "Укротитель виверн"
+
+msgid   "You don’t have enough gold to activate the rune aura!"
+msgstr  "У вас недостаточно золота, чтобы активировать ауру!"
+
+msgid   "You will die in a twinkling of an eye."
+msgstr  "Ты умрешь в мгновение ока."
+
+msgid   "aimed shot"
+msgstr  "точный выстрел"
+
+msgid   "al-Kamija"
+msgstr  "аль-Камиджа"
+
+msgid   "always hits"
+msgstr  "всегда попадает"
+
+msgid   "always hits:\n"
+        "This attack always has a 100% chance to hit"
+msgstr  "Всегда попадает:\n"
+        "Такая атака попадает с вероятностью 100%"
+
+msgid   "arrow"
+msgstr  "стрела"
+
+msgid   "awaken"
+msgstr  "воскрешение"
+
+msgid   "awe"
+msgstr  "трепет"
+
+msgid   "awoken"
+msgstr  "воскрешенный"
+
+msgid   "banish"
+msgstr  "изгнание"
+
+msgid   "banish:\n"
+        "If a Banisher hits an enemy magical unit, the enemy will turn into a "
+        "DG ‘Dimensional Gate’, (this happens only if the target is exactly "
+        "one level below the banisher). If the enemy is at least two levels "
+        "below your banisher, it’ll get completely destroyed. Any other enemy "
+        "won’t be affected."
+msgstr  "Изгнание:\n"
+        "Если Изгонябщий попадает по магическому существу, которое на уровень "
+        "меньше его, то оно превратится во 'Врата Измерений'. Если магическое "
+        "существо на два и более уровней меньше уровня Изгоняющего, то оно "
+        "будет полностью уничтожено. На других бойцов атака не подействует."
+
+msgid   "banishment"
+msgstr  "изгнание"
+
+msgid   "banner"
+msgstr  "знамя"
+
+msgid   "beam"
+msgstr  "луч"
+
+msgid   "bite"
+msgstr  "укус"
+
+msgid   "blades"
+msgstr  "клинки"
+
+msgid   "blinding light"
+msgstr  "ослепительный свет"
+
+msgid   "blood gate"
+msgstr  "врата крови"
+
+msgid   "bloodlust"
+msgstr  "жажда крови"
+
+msgid   "blue flame"
+msgstr  "голубой огонь"
+
+msgid   "bolas"
+msgstr  "болас"
+
+msgid   "bombs"
+msgstr  "бомбы"
+
+msgid   "bow bash"
+msgstr  "удар луком"
+
+msgid   "bubble"
+msgstr  "пузырь"
+
+msgid   "burner"
+msgstr  "газовый резак"
+
+msgid   "burning fist"
+msgstr  "огненный кулак"
+
+msgid   "cannon"
+msgstr  "пушка"
+
+msgid   "cave ambush"
+msgstr  "засада в пещере"
+
+msgid   "chakram"
+msgstr  "чакра"
+
+msgid   "charge"
+msgstr  "бросок"
+
+msgid   "circle of balance"
+msgstr  "крук равновесия"
+
+msgid   "circle of banishment"
+msgstr  "круг изгнания"
+
+msgid   "circle of banishment:\n"
+        "This unit can affect enemy magical units that are next to it, making "
+        "them fight worse.\n"
+        "\n"
+        "Adjacent enemy magical units of lower level will do less damage in "
+        "battle. When a unit adjacent to, of the same level, or a lower level "
+        "than, and is an enemy of the unit with Circle of Banishment engages "
+        "in combat, its attacks do less damage (−40% lvl0, −30% lvl1, −15% "
+        "lvl2, −10% lvl3)."
+msgstr  "Круг изгнания:\n"
+        "Такой боец негативно влияет на боевые способности соседних "
+        "магических бойцов.\n"
+        "\n"
+        "Соседние вражеские магические бойцы меньших уровней будут наносить "
+        "меньше урона (-40% ур. 0, -30% ур. 1, -20% ур. 2, -10% ур. 3)"
+
+msgid   "circle of destruction"
+msgstr  "круг разрушения"
+
+msgid   "circle of resistance"
+msgstr  "круг сопротивления"
+
+msgid   "circle of susceptibility"
+msgstr  "круг уязвимости"
+
+msgid   "cleave"
+msgstr  "сметает"
+
+msgid   "cold aura"
+msgstr  "аура холода"
+
+msgid   "concentrated fire"
+msgstr  "заградительный огонь"
+
+msgid   "crossbow ×2"
+msgstr  "двойной арбалет"
+
+msgid   "cup of fire"
+msgstr  "чаша огня"
+
+msgid   "cursed knifes"
+msgstr  "проклятые кинжалы"
+
+msgid   "daggers"
+msgstr  "кинжалы"
+
+msgid   "damned flame"
+msgstr  "проклятый огонь"
+
+msgid   "dark aura"
+msgstr  "аура Тьмы"
+
+msgid   "dark ball"
+msgstr  "шир тьмы"
+
+msgid   "dark spark"
+msgstr  "сполох тьмы"
+
+msgid   "dart"
+msgstr  "дротик"
+
+msgid   "deadzone"
+msgstr  "зона смерти"
+
+msgid   "defender"
+msgstr  "защитник"
+
+msgid   "destruction"
+msgstr  "разрушение"
+
+msgid   "dimensional vortex"
+msgstr  "пространственная воронка"
+
+msgid   "divine spear"
+msgstr  "божественное копьё"
+
+msgid   "double attack"
+msgstr  "двойная атака"
+
+msgid   "double attack:\n"
+        "This unit can attack two enemies in one turn with this attack."
+msgstr  "Двойная атака:\n"
+        "Такой боец может атаковать двоих противников за ход, но не может "
+        "двинуться с клетки, откуда начал первую атаку."
+
+msgid   "double attack:\n"
+        "This unit can attack two enemies in one turn, but cannot move from a "
+        "hex, where the first enemy was attacked."
+msgstr  "Двойная атака:\n"
+        "Такой боец может атаковать двоих противников за ход, но не может "
+        "двинуться с клетки, откуда начал первую атаку."
+
+msgid   "double divine spear"
+msgstr  "двойное божественное копьё"
+
+msgid   "energy draining"
+msgstr  "высасывание энергии"
+
+msgid   "evasion"
+msgstr  "уклонение"
+
+msgid   "evasion:\n"
+        "When this attack is used offensively, this unit takes one third less "
+        "damage in retaliation."
+msgstr  "Уклонение:\n"
+        "Когда эта атака используется в нападении, боец получает в ответ "
+        "только треть урона."
+
+msgid   "explosion"
+msgstr  "взрыв"
+
+msgid   "explosive ammo"
+msgstr  "фугасные боеприпасы"
+
+msgid   "eye"
+msgstr  "глаз"
+
+msgid   "eye of the storm"
+msgstr  "око бури"
+
+msgid   "female^Adept of Light"
+msgstr  "Послушница Света"
+
+msgid   "female^Child of Light"
+msgstr  "Дитя Света"
+
+msgid   "female^Cleric"
+msgstr  "Священница"
+
+msgid   "female^Inspired"
+msgstr  "Вдохновленная"
+
+msgid   "female^Mistress of Light"
+msgstr  "Госпожа Света"
+
+msgid   "female^Prophet of Light"
+msgstr  "Пророк Света"
+
+msgid   "female^Sister of Light"
+msgstr  "Сестра Света"
+
+msgid   "female^awoken"
+msgstr  "воскрешенная"
+
+msgid   "female^magical"
+msgstr  "магическая"
+
+msgid   "fire"
+msgstr  "огненный"
+
+msgid   "fire arrow"
+msgstr  "огненная стрела"
+
+msgid   "fire blast"
+msgstr  "взрыв огня"
+
+msgid   "flame"
+msgstr  "огонь"
+
+msgid   "flame blast"
+msgstr  "взрыв огня"
+
+msgid   "flames"
+msgstr  "пламя"
+
+msgid   "frozen fist"
+msgstr  "ледяной кулак"
+
+msgid   "frozen gate"
+msgstr  "врата холода"
+
+msgid   "furious death"
+msgstr  "яростная смерть"
+
+msgid   "fury"
+msgstr  "ярость"
+
+msgid   "fusion"
+msgstr  "расплавление"
+
+msgid   "gaze"
+msgstr  "взгляд"
+
+msgid   "goblin leader"
+msgstr  "вожак гоблинов"
+
+msgid   "grenade"
+msgstr  "гарната"
+
+msgid   "growing fury"
+msgstr  "растущая ярость"
+
+msgid   "gun"
+msgstr  "ружъе"
+
+msgid   "hard landing"
+msgstr  "грубая посадка"
+
+msgid   "headbutt"
+msgstr  "удар головой"
+
+msgid   "heals +2"
+msgstr  "лечит +2"
+
+msgid   "hit"
+msgstr  "удар"
+
+msgid   "hit and run"
+msgstr  "ударил-убежал"
+
+msgid   "hurricane"
+msgstr  "буря"
+
+msgid   "ice arrow"
+msgstr  "ледяная стрела"
+
+msgid   "ice strike"
+msgstr  "удар льда"
+
+msgid   "iceball"
+msgstr  "шар льда"
+
+msgid   "icicles"
+msgstr  "льдинки"
+
+msgid   "implosion"
+msgstr  "внутренний взрыв"
+
+msgid   "incantation of power"
+msgstr  "слово силы"
+
+msgid   "inferno"
+msgstr  "ад"
+
+msgid   "inspire"
+msgstr  "вдохновение"
+
+msgid   "kamikaze"
+msgstr  "камикадзе"
+
+msgid   "key"
+msgstr  "ключ"
+
+msgid   "knives"
+msgstr  "ножи"
+
+msgid   "lavahome"
+msgstr  "лавовый"
+
+msgid   "lavahome:\n"
+        "This unit is made of fire. If it stands in lava, it will receive 6 "
+        "hp."
+msgstr  "Лавовый:\n"
+        "Этот боец состоит из огня. Таким образом, находясь в лаве, он "
+        "получает 6 хитов за ход."
+
+msgid   "light focusing"
+msgstr  "фокусировка света"
+
+msgid   "light touch"
+msgstr  "прикосновение света"
+
+msgid   "lightning"
+msgstr  "молния"
+
+msgid   "lightning bolt"
+msgstr  "удар молнией"
+
+msgid   "lightstorm"
+msgstr  "буря света"
+
+msgid   "machine gun"
+msgstr  "пулемет"
+
+msgid   "magic"
+msgstr  "магия"
+
+msgid   "magic arrow"
+msgstr  "магическая стрела"
+
+msgid   "magic arrow II"
+msgstr  "волшебная стрела II"
+
+msgid   "magic missile"
+msgstr  "магический снаряд"
+
+msgid   "magical"
+msgstr  "магический"
+
+msgid   "magical dagger"
+msgstr  "волшебный кинжал"
+
+msgid   "magical powder"
+msgstr  "волшебный порошок"
+
+msgid   "magical scimitar"
+msgstr  "волшебный ятаган"
+
+msgid   "missile"
+msgstr  "снаряд"
+
+msgid   "mountain ambush"
+msgstr  "засада в горах"
+
+msgid   "mu"
+msgstr  "мю"
+
+msgid   "no counter-attack"
+msgstr  "безответный"
+
+msgid   "no counter-attack:\n"
+        "The opponent has always a 0% chance to hit, when this unit is "
+        "attacking."
+msgstr  "Безответный:\n"
+        "Когда такой боец атакует, противник имеет 0% шанс попасть по нему."
+
+msgid   "orcish leader"
+msgstr  "вожак орков"
+
+msgid   "parachute"
+msgstr  "парашют"
+
+msgid   "paw"
+msgstr  "лапа"
+
+msgid   "piercing ammo"
+msgstr  "проникающие боеприпасы"
+
+msgid   "poisoned arrow"
+msgstr  "отравленные стрелы"
+
+msgid   "precision"
+msgstr  "точность"
+
+msgid   "precision:\n"
+        "This attack always has a 80% chance to hit"
+msgstr  "Точность:\n"
+        "Такая атака всегда попадает с вероятностью 80%."
+
+msgid   "race+female^Cyclops"
+msgstr  "Циклоп"
+
+msgid   "race+female^Magical"
+msgstr  "Магическая"
+
+msgid   "race+female^Roc"
+msgstr  "Рух"
+
+msgid   "race+female^Salamander"
+msgstr  "Саламандра"
+
+msgid   "race+female^Tharis"
+msgstr  "Тарис"
+
+msgid   "race+plural^Magical"
+msgstr  "магические"
+
+msgid   "race+plural^Tharis"
+msgstr  "Тарис"
+
+msgid   "race^Cyclopes"
+msgstr  "Циклопы"
+
+msgid   "race^Cyclops"
+msgstr  "Циклоп"
+
+msgid   "race^Magical"
+msgstr  "магический"
+
+msgid   "race^Roc"
+msgstr  "Рух"
+
+msgid   "race^Salamander"
+msgstr  "Саламандра"
+
+msgid   "race^Salamanders"
+msgstr  "Саламандры"
+
+msgid   "race^Tharis"
+msgstr  "Тарис"
+
+msgid   "range^kamikaze"
+msgstr  "камикадзе"
+
+msgid   "ray of light"
+msgstr  "луч света"
+
+msgid   "regenerates +4"
+msgstr  "регенерация +4"
+
+msgid   "repairs +5"
+msgstr  "чинит +5"
+
+msgid   "repairs +8"
+msgstr  "чинит +8"
+
+msgid   "revenge"
+msgstr  "месть"
+
+msgid   "revenge:\n"
+        "The unit has 100% hitting chance during retalitation."
+msgstr  "Месть:\n"
+        "Такая атака в защите попадает с вероятностью 100%"
+
+msgid   "rune aura"
+msgstr  "рунная аура"
+
+msgid   "runes"
+msgstr  "руны"
+
+msgid   "runic sword"
+msgstr  "рунический меч"
+
+msgid   "saw"
+msgstr  "пила"
+
+msgid   "scimitar"
+msgstr  "ятаган"
+
+msgid   "scimitar throw"
+msgstr  "бросок ятагана"
+
+msgid   "scream"
+msgstr  "крик"
+
+msgid   "screwdriver"
+msgstr  "отвертка"
+
+msgid   "scroll"
+msgstr  "свиток"
+
+msgid   "scythe"
+msgstr  "коса"
+
+msgid   "second target"
+msgstr  "Вторая цель!"
+
+msgid   "secret hit"
+msgstr  "скрытый удар"
+
+msgid   "shield"
+msgstr  "щит"
+
+msgid   "small lightning"
+msgstr  "молния"
+
+msgid   "small thunder"
+msgstr  "малая гроза"
+
+msgid   "solar beam"
+msgstr  "солнечный луч"
+
+msgid   "sparks"
+msgstr  "искры"
+
+msgid   "spear throw"
+msgstr  "бросок копьём"
+
+msgid   "split fire:\n"
+        "This unit can attack two enemies in one turn with this attack."
+msgstr  "Двойная атака:\n"
+        "Такой боец может атаковать двоих противников за ход, но не может "
+        "двинуться с клетки, откуда начал первую атаку."
+
+msgid   "summon"
+msgstr  "призыв"
+
+msgid   "summon roc"
+msgstr  "призыв Рух"
+
+msgid   "swallow +4"
+msgstr  "поглощает +4"
+
+msgid   "swamp ambush"
+msgstr  "засада в болоте"
+
+msgid   "sword+axe"
+msgstr  "меч и топор"
+
+msgid   "sworddance"
+msgstr  "танец мечей"
+
+msgid   "swords"
+msgstr  "мечи"
+
+msgid   "thunder"
+msgstr  "гром"
+
+msgid   "tongue"
+msgstr  "язык"
+
+msgid   "touch"
+msgstr  "касание"
+
+msgid   "touch of magic"
+msgstr  "касание магии"
+
+msgid   "trample"
+msgstr  "топот"
+
+msgid   "tree"
+msgstr  "дерево"
+
+msgid   "tree thrown"
+msgstr  "бросок деревом"
+
+msgid   "troll leader"
+msgstr  "вожак троллей"
+
+msgid   "ultra circle"
+msgstr  "ультра круг"
+
+msgid   "ultracures"
+msgstr  "ультралечение"
+
+msgid   "ultraspeed"
+msgstr  "сверхскорость"
+
+msgid   "um"
+msgstr  "ум"
+
+msgid   "water"
+msgstr  "водный"
+
+msgid   "water ambush"
+msgstr  "засада в воде"
+
+msgid   "water ambush:\n"
+        "This unit can hide in water, and remain undetected by its enemies.\n"
+        "\n"
+        "Enemy units cannot see this unit while it is in water, except if "
+        "they have units next to it. Any enemy unit that first discovers this "
+        "unit immediately loses all its remaining movement."
+msgstr  "Засада в воде:\n"
+        "Такой боец может скрыться в воде и быть невидимым для противника.\n"
+        "\n"
+        "Вражеские бойцы могут увидеть его в воде, только стоя рядом. "
+        "Вражеский боец, первым обнаруживший его, немедленно теряет все "
+        "оставшиеся ходы."
+
+msgid   "water blast"
+msgstr  "удар воды"
+
+msgid   "waterhome"
+msgstr  "водный"
+
+msgid   "waterhome:\n"
+        "This unit is made of water. If it stands in water, it will receive 6 "
+        "hp."
+msgstr  "Водный:\n"
+        "Этот боец состоит из воды. Таким образом, находясь в воде, он "
+        "получает 6 хитов за ход."
+
+msgid   "white sword"
+msgstr  "белый меч"
+
+msgid   "witch-fire"
+msgstr  "ведьмин огонь"
+
+msgid   "wrist blade"
+msgstr  "наручные лезвия"
+
+msgid   "yellow flame"
+msgstr  "желтый огонь"

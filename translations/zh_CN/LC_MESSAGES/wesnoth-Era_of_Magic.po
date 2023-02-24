@@ -1,0 +1,1560 @@
+msgid   ""
+msgstr  "Project-Id-Version: \n"
+        "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
+        "PO-Revision-Date: 2021-01-22 02:23-0500\n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=UTF-8\n"
+        "Content-Transfer-Encoding: 8bit\n"
+        "Plural-Forms: nplurals=1; plural=0;\n"
+        "Last-Translator: \n"
+        "Language-Team: \n"
+        "Language: zh\n"
+        "X-Generator: Poedit 2.4.2\n"
+
+msgid   "+1 max hp"
+msgstr  "+1 最大生命值"
+
+msgid   "+3 exp"
+msgstr  "+3 经验值"
+
+msgid   "+4 max hp"
+msgstr  "+4 最大生命值"
+
+msgid   "+5 max hp"
+msgstr  "+5 最大生命值"
+
+msgid   "+8 max hp"
+msgstr  "+8 最大生命值"
+
+msgid   "Abaddon"
+msgstr  "亚巴顿"
+
+msgid   "Aeromancer"
+msgstr  "御气师"
+
+msgid   "Air Avatar"
+msgstr  "大气化身"
+
+msgid   "Air Elemental"
+msgstr  "气元素"
+
+msgid   "Air God"
+msgstr  "大气之神"
+
+msgid   "Apocalypse"
+msgstr  "天启"
+
+msgid   "Atokpi"
+msgstr  "阿托卡匹"
+
+msgid   "Atokpi General"
+msgstr  "阿托卡匹将军"
+
+msgid   "Atokpi Master"
+msgstr  "阿托卡匹大师"
+
+msgid   "Atokpi Samurai"
+msgstr  "阿托卡匹武士"
+
+msgid   "Avenger"
+msgstr  "复仇者"
+
+msgid   "Balloon"
+msgstr  "气球"
+
+msgid   "Banisher"
+msgstr  "放逐者"
+
+msgid   "Barbarian"
+msgstr  "野蛮人"
+
+msgid   "Barbarian Berserker"
+msgstr  "蛮族狂战士"
+
+msgid   "Barbarian King"
+msgstr  "蛮族之王"
+
+msgid   "Barbarian Lord"
+msgstr  "蛮族领主"
+
+msgid   "Barbarians"
+msgstr  "野蛮人"
+
+msgid   "Battle Eye"
+msgstr  "战争之眼"
+
+msgid   "Battle Mage"
+msgstr  "战斗法师"
+
+msgid   "Battle Toad"
+msgstr  "战斗蟾蜍"
+
+msgid   "Black Mage"
+msgstr  "黑魔法师"
+
+msgid   "Black Orb"
+msgstr  "黑暗宝珠"
+
+msgid   "Black Salamander"
+msgstr  "黑色沙罗曼蛇"
+
+msgid   "Blade Dancer"
+msgstr  "剑舞者"
+
+msgid   "Blademaster"
+msgstr  "剑术大师"
+
+msgid   "Blood Warrior"
+msgstr  "狂血战士"
+
+msgid   "Blue Salamander"
+msgstr  "蓝色沙罗曼蛇"
+
+msgid   "Bone Beast"
+msgstr  "骨兽"
+
+msgid   "Bone Giant"
+msgstr  "骨巨人"
+
+msgid   "Bone Golem"
+msgstr  "骨傀儡"
+
+msgid   "Bronze Warrior"
+msgstr  "青铜武士"
+
+msgid   "Build Drone"
+msgstr  "部署无人机"
+
+msgid   "Camel Master"
+msgstr  "骆驼大师"
+
+msgid   "Camel Rider"
+msgstr  "骆驼骑手"
+
+msgid   "Carpet Master"
+msgstr  "飞毯大师"
+
+msgid   "Carpet Rider"
+msgstr  "飞毯骑手"
+
+msgid   "Cavalry Archer"
+msgstr  "商队弓箭手"
+
+msgid   "Chaos Hydra"
+msgstr  "混乱九头蛇"
+
+msgid   "Chaos Wyvern"
+msgstr  "混沌双足飞龙"
+
+msgid   "Chaos Wyvern Rider"
+msgstr  "混沌双足飞龙骑手"
+
+msgid   "Chosen of Forest"
+msgstr  "丛林选民"
+
+msgid   "Chosen of Marsh"
+msgstr  "沼泽选民"
+
+msgid   "Clan Leader"
+msgstr  "部落领袖"
+
+msgid   "Constructor"
+msgstr  "构造师"
+
+msgid   "Corrupted Shaman"
+msgstr  "腐化萨满祭司"
+
+msgid   "Cosmic Eye"
+msgstr  "全视之眼"
+
+msgid   "Cyclops"
+msgstr  "独眼巨人"
+
+msgid   "Cyclops Breaker"
+msgstr  "独眼巨人粉碎者"
+
+msgid   "Cyclops Brute"
+msgstr  "独眼巨人蛮力战士"
+
+msgid   "Cyclops Goliath"
+msgstr  "歌利亚"
+
+msgid   "Cyclops Lord"
+msgstr  "独眼巨人领主"
+
+msgid   "Cyclops Necromancer"
+msgstr  "独眼巨人死灵法师"
+
+msgid   "Cyclops Noble"
+msgstr  "独眼巨人贵族"
+
+msgid   "Cyclops Skeleton"
+msgstr  "独眼巨人骷髅"
+
+msgid   "Cyclops Warmonger"
+msgstr  "独眼巨人战争贩子"
+
+msgid   "Dark Apostle"
+msgstr  "暗黑使徒"
+
+msgid   "Dark Assassin"
+msgstr  "暗黑杀手"
+
+msgid   "Dark Atokpi"
+msgstr  "暗黑阿托卡匹"
+
+msgid   "Dark Blood Alliance"
+msgstr  "暗血同盟"
+
+msgid   "Dark Commander"
+msgstr  "暗黑指挥官"
+
+msgid   "Dark Executioner"
+msgstr  "暗黑处决者"
+
+msgid   "Dark General"
+msgstr  "暗黑将军"
+
+msgid   "Dark Hunter"
+msgstr  "暗黑猎人"
+
+msgid   "Dark Observer"
+msgstr  "黑暗观察者"
+
+msgid   "Dark Portal"
+msgstr  "暗黑传送门"
+
+msgid   "Dark Slayer"
+msgstr  "暗黑屠戮者"
+
+msgid   "Dark Warlord"
+msgstr  "幽暗领主"
+
+msgid   "Dark Warrior"
+msgstr  "暗黑武士"
+
+msgid   "Dark Wizard"
+msgstr  "暗黑巫师"
+
+msgid   "Destroyers"
+msgstr  "毁灭者"
+
+msgid   "Devourer"
+msgstr  "吞噬者"
+
+msgid   "Dharma’rhami"
+msgstr  "罗刹"
+
+msgid   "Dimensional Gate"
+msgstr  "次元门"
+
+msgid   "Dimensional Gate II"
+msgstr  "次元门II"
+
+msgid   "Disciple"
+msgstr  "学徒"
+
+msgid   "Dispeller"
+msgstr  "驱散者"
+
+msgid   "Dreadnought"
+msgstr  "巨蟾"
+
+msgid   "Drone"
+msgstr  "无人机"
+
+msgid   "Dwarvish Cannoneer"
+msgstr  "矮人炮手"
+
+msgid   "Dwarvish Gunner"
+msgstr  "矮人枪手"
+
+msgid   "Dwarvish Rune Lord"
+msgstr  "矮人符文领主"
+
+msgid   "Dwarvish Runic Warrior"
+msgstr  "矮人符文武士"
+
+msgid   "Dwarvish Tank"
+msgstr  "矮人坦克"
+
+msgid   "Dwarvish Veteran"
+msgstr  "矮人老兵"
+
+msgid   "Dwarvish Warrior"
+msgstr  "矮人武士"
+
+msgid   "Earth Avatar"
+msgstr  "大地化身"
+
+msgid   "Earth Elemental"
+msgstr  "土元素"
+
+msgid   "Earth God"
+msgstr  "大地之神"
+
+msgid   "Efreeti"
+msgstr  "火怪"
+
+msgid   "Elemental Archer"
+msgstr  "元素弓箭手"
+
+msgid   "Elementalist"
+msgstr  "元素师"
+
+msgid   "Elite Camel Rider"
+msgstr  "精英骆驼骑手"
+
+msgid   "Era of Magic"
+msgstr  "魔法时代"
+
+msgid   "Era of Magic (Age of Heroes)"
+msgstr  "魔法时代（英雄）"
+
+msgid   "Era of Magic (Masters &amp; Slaves)"
+msgstr  "魔法时代（奴役）"
+
+msgid   "Era of Magic (RPG)"
+msgstr  "魔法时代（RPG）"
+
+msgid   "Error"
+msgstr  "错误"
+
+msgid   "Extinct Cyclops Mage"
+msgstr  "绝种独眼巨人法师"
+
+msgid   "FURY!"
+msgstr  "狂暴！"
+
+msgid   "Fallen Cyclops King"
+msgstr  "堕落独眼王"
+
+msgid   "Fanatic"
+msgstr  "狂热者"
+
+msgid   "Fire Avatar"
+msgstr  "火焰化身"
+
+msgid   "Fire Elemental"
+msgstr  "火元素"
+
+msgid   "Fire God"
+msgstr  "火焰之神"
+
+msgid   "Fire Swordsman"
+msgstr  "火焰剑士"
+
+msgid   "Flying Drone"
+msgstr  "飞行无人机"
+
+msgid   "Flying Fortress"
+msgstr  "飞行要塞"
+
+msgid   "Goblin Archer"
+msgstr  "地精弓箭手"
+
+msgid   "Goblin Assassin"
+msgstr  "地精杀手"
+
+msgid   "Goblin Druid"
+msgstr  "地精德鲁伊"
+
+msgid   "Goblin Hunter"
+msgstr  "地精猎人"
+
+msgid   "Goblin Kamikaze"
+msgstr  "地精自爆兵"
+
+msgid   "Goblin Raider"
+msgstr  "地精掠夺者"
+
+msgid   "Goblin Runt"
+msgstr  "矮地精"
+
+msgid   "Goblin Shaman"
+msgstr  "地精萨满"
+
+msgid   "Goblin Sniper"
+msgstr  "地精狙击兵"
+
+msgid   "Goblin Veteran"
+msgstr  "地精老兵"
+
+msgid   "Goblin Warbanner"
+msgstr  "地精旗手"
+
+msgid   "Goblin Warrior"
+msgstr  "地精武士"
+
+msgid   "Golden Mage"
+msgstr  "金色法师"
+
+msgid   "Golden Warrior"
+msgstr  "金色武士"
+
+msgid   "Golem"
+msgstr  "傀儡"
+
+msgid   "Grand Kharosian Warbanner"
+msgstr  "高阶卡洛斯旗手"
+
+msgid   "Grand Summoner"
+msgstr  "大召唤师"
+
+msgid   "Great Efreeti"
+msgstr  "火怪苏丹"
+
+msgid   "Great Hunter"
+msgstr  "高级暗黑猎人"
+
+msgid   "Great Hydra"
+msgstr  "巨型九头蛇"
+
+msgid   "Great Jinni"
+msgstr  "高阶灯神"
+
+msgid   "Great Warlock"
+msgstr  "暗黑术士"
+
+msgid   "Great Witch"
+msgstr  "高等女巫"
+
+msgid   "Great Wyvern"
+msgstr  "巨型双足飞龙"
+
+msgid   "Green Salamander"
+msgstr  "绿色沙罗曼蛇"
+
+msgid   "Guru of Magic"
+msgstr  "贤者"
+
+msgid   "Heavy Balloon"
+msgstr  "重型气球"
+
+msgid   "Heavy Cavalry Archer"
+msgstr  "重装商队弓箭手"
+
+msgid   "Heavy Summoner"
+msgstr  "重装召唤师"
+
+msgid   "Help"
+msgstr  "说明"
+
+msgid   "Hidden Face"
+msgstr  "无面者"
+
+msgid   "Hoplite"
+msgstr  "重装步兵"
+
+msgid   "Ho’rhami"
+msgstr  "修罗"
+
+msgid   "Hydra"
+msgstr  "九头蛇"
+
+msgid   "Hydromancer"
+msgstr  "御水师"
+
+msgid   "Infernal Vortex"
+msgstr  "地狱旋涡"
+
+msgid   "Jinni"
+msgstr  "灯神"
+
+msgid   "Jungle Guardian"
+msgstr  "丛林守卫"
+
+msgid   "Kharos"
+msgstr  "卡洛斯"
+
+msgid   "Kharos War Banner"
+msgstr  "卡洛斯旗手"
+
+msgid   "Kirios"
+msgstr  "光辉神眷武士"
+
+msgid   "Legendary Cyclops"
+msgstr  "传奇独眼巨人"
+
+msgid   "Magical Eye"
+msgstr  "魔法之眼"
+
+msgid   "Mara"
+msgstr  "马拉"
+
+msgid   "Master Mage"
+msgstr  "魔法大师"
+
+msgid   "Master of Air"
+msgstr  "空气大师"
+
+msgid   "Master of Darkness"
+msgstr  "暗黑大师"
+
+msgid   "Master of Elements"
+msgstr  "元素大师"
+
+msgid   "Master of Fire"
+msgstr  "火焰大师"
+
+msgid   "Master of Water"
+msgstr  "流水大师"
+
+msgid   "Matriarch of Darkness"
+msgstr  "黑暗女族长"
+
+msgid   "Matriarch of Emptiness"
+msgstr  "虚空女族长"
+
+msgid   "Matriarch of Frost"
+msgstr  "霜寒族长"
+
+msgid   "Mechanic"
+msgstr  "机械师"
+
+msgid   "Moloch"
+msgstr  "摩洛克"
+
+msgid   "Mystic"
+msgstr  "神秘先知"
+
+msgid   "Mystic Warrior"
+msgstr  "神秘武士"
+
+msgid   "Mystical Archer"
+msgstr  "秘法弓箭手"
+
+msgid   "Mystical Jinni"
+msgstr  "秘法灯神"
+
+msgid   "Neutral Summoner"
+msgstr  "和谐召唤师"
+
+msgid   "Nightmare"
+msgstr  "梦魇"
+
+msgid   "Novice Summoner"
+msgstr  "学徒召唤师"
+
+msgid   "Obliterator"
+msgstr  "湮没者"
+
+msgid   "Omen"
+msgstr  "预兆"
+
+msgid   "Orcish Warbanner"
+msgstr  "兽人旗手"
+
+msgid   "Orcish Warrior"
+msgstr  "兽人武士"
+
+msgid   "Pacificator"
+msgstr  "仲裁者"
+
+msgid   "Parachutist"
+msgstr  "伞兵"
+
+msgid   "Perfect Drone"
+msgstr  "完美无人机"
+
+msgid   "Pirafly"
+msgstr  "皮拉飞鱼怪"
+
+msgid   "Pirania Monstruosa"
+msgstr  "皮拉尼亚恐怪"
+
+msgid   "Platinum Warrior"
+msgstr  "白金武士"
+
+msgid   "Punisher"
+msgstr  "惩罚者"
+
+msgid   "Pyromancer"
+msgstr  "御火师"
+
+msgid   "Red Salamander"
+msgstr  "红色沙罗曼蛇"
+
+msgid   "Red Ulfserker"
+msgstr  "红色狂战士"
+
+msgid   "Rhami"
+msgstr  "拉米"
+
+msgid   "Rhami’datu"
+msgstr  "拉米达图"
+
+msgid   "Rhami’kai"
+msgstr  "拉米凯"
+
+msgid   "Roc Master"
+msgstr  "巨鹰大师"
+
+msgid   "Roc Rider"
+msgstr  "巨鹰骑手"
+
+msgid   "Rune Adept"
+msgstr  "符文学徒"
+
+msgid   "Rune Artist"
+msgstr  "符文工艺师"
+
+msgid   "Runemaster"
+msgstr  "符文大师"
+
+msgid   "Runemasters"
+msgstr  "符文大师"
+
+msgid   "Runesmith"
+msgstr  "符文铁匠"
+
+msgid   "Salamander"
+msgstr  "沙罗曼蛇"
+
+msgid   "Saurian Assassin"
+msgstr  "蜥蜴人杀手"
+
+msgid   "Saurian Blowgunner"
+msgstr  "蜥蜴人弹枪手"
+
+msgid   "Saurian Champion"
+msgstr  "蜥蜴人冠军"
+
+msgid   "Saurian Crossbowman"
+msgstr  "蜥蜴人十字弓手"
+
+msgid   "Saurian Pikeman"
+msgstr  "蜥蜴人矛兵"
+
+msgid   "Sculptor"
+msgstr  "雕刻家"
+
+msgid   "Shadow Mage"
+msgstr  "影法师"
+
+msgid   "Shadowblade"
+msgstr  "影刃"
+
+msgid   "Shamanistic Adept"
+msgstr  "萨满学徒"
+
+msgid   "Shielder"
+msgstr  "守护者"
+
+msgid   "Silver Warrior"
+msgstr  "银色武士"
+
+msgid   "Sky Guardian"
+msgstr  "天空守卫"
+
+msgid   "Sky Kingdom"
+msgstr  "天空王国"
+
+msgid   "Slicer"
+msgstr  "处决者"
+
+msgid   "Solar Guardian"
+msgstr  "光辉守卫"
+
+msgid   "Solar Master"
+msgstr  "阳炎大师"
+
+msgid   "Sorcerer"
+msgstr  "术士"
+
+msgid   "Steam Berserker"
+msgstr  "蒸汽狂暴者"
+
+msgid   "Steam Turboserker"
+msgstr  "涡轮狂暴者"
+
+msgid   "Steam Ulfserker"
+msgstr  "蒸汽狂战士"
+
+msgid   "Steamcopter"
+msgstr  "蒸汽直升机"
+
+msgid   "Storm Sphere"
+msgstr  "风暴之球"
+
+msgid   "Striding Machine"
+msgstr  "步行机"
+
+msgid   "Subversive Mage"
+msgstr  "叛逆法师"
+
+msgid   "Summon Air Elemental"
+msgstr  "召唤气元素"
+
+msgid   "Summon Atokpi"
+msgstr  "召唤阿托卡匹"
+
+msgid   "Summon Bone Beast"
+msgstr  "召唤骨兽"
+
+msgid   "Summon Earth Elemental"
+msgstr  "召唤土元素"
+
+msgid   "Summon Fire Elemental"
+msgstr  "召唤火元素"
+
+msgid   "Summon Golem (16 Gold)"
+msgstr  "召唤傀儡（16金）"
+
+msgid   "Summon Jinn"
+msgstr  "召唤灯神"
+
+msgid   "Summon Nightmare"
+msgstr  "召唤梦魇"
+
+msgid   "Summon Pirafly"
+msgstr  "召唤皮拉飞鱼怪"
+
+msgid   "Summon Rhami"
+msgstr  "召唤拉米"
+
+msgid   "Summon Roc Rider"
+msgstr  "召唤巨鹰骑手"
+
+msgid   "Summon Water Elemental"
+msgstr  "召唤水元素"
+
+msgid   "Summoner"
+msgstr  "召唤师"
+
+msgid   "Summoners"
+msgstr  "召唤师"
+
+msgid   "Summoning Help"
+msgstr  "召唤说明"
+
+msgid   "Summons Master"
+msgstr  "召唤师首领"
+
+msgid   "Sun Follower"
+msgstr  "光辉从者"
+
+msgid   "Swamp Mage"
+msgstr  "沼泽法师"
+
+msgid   "Sword Dancer"
+msgstr  "剑舞者"
+
+msgid   "Technician"
+msgstr  "技师"
+
+msgid   "Tharis"
+msgstr  "塔瑞斯"
+
+msgid   "This unit gains 5 hitpoints added to its current health whenever it "
+        "kills a living unit."
+msgstr  "在杀死一个有生命的敌人后获得5点生命值。"
+
+msgid   "This unit summons a lvl0 zombie of random variation next to self at "
+        "the start of each turn. Only 4 total summoned zombies per unit with "
+        "this ability can be present on the battlefield at once."
+msgstr  "回合开始时在身边召唤一个随机类型的行尸（最多4个）。"
+
+msgid   "Titania"
+msgstr  "泰坦巨怪"
+
+msgid   "Toad Archer"
+msgstr  "蟾蜍骑弓手"
+
+msgid   "Toad Mystic"
+msgstr  "神秘蟾蜍"
+
+msgid   "Toad Rider"
+msgstr  "蟾蜍骑手"
+
+msgid   "Toad Shaman"
+msgstr  "蟾蜍萨满"
+
+msgid   "Troll Fire Wizard"
+msgstr  "巨魔火焰巫师"
+
+msgid   "Troll Sorcerer"
+msgstr  "巨魔施法者"
+
+msgid   "Troll Warbanner"
+msgstr  "巨魔旗手"
+
+msgid   "Troll Warlock"
+msgstr  "巨魔术士"
+
+msgid   "Twin Archer Toad"
+msgstr  "双弓蟾蜍骑手"
+
+msgid   "Void Mage"
+msgstr  "虚空法师"
+
+msgid   "War Golem"
+msgstr  "战争傀儡"
+
+msgid   "War Mage"
+msgstr  "战法师"
+
+msgid   "Water Avatar"
+msgstr  "流水化身"
+
+msgid   "Water Elemental"
+msgstr  "水元素"
+
+msgid   "Water God"
+msgstr  "流水之神"
+
+msgid   "White Warrior"
+msgstr  "白色武士"
+
+msgid   "Witch"
+msgstr  "女巫"
+
+msgid   "Wonderful Jinni"
+msgstr  "智慧灯神"
+
+msgid   "Wyvern"
+msgstr  "双足飞龙"
+
+msgid   "Wyvern Knight"
+msgstr  "双足飞龙骑士"
+
+msgid   "Wyvern Rider"
+msgstr  "双足飞龙骑手"
+
+msgid   "Yellow Salamander"
+msgstr  "黄色沙罗曼蛇"
+
+msgid   "abyssal wind"
+msgstr  "深渊之风"
+
+msgid   "activate drone"
+msgstr  "启动无人机"
+
+msgid   "alter ego"
+msgstr  "自我转换"
+
+msgid   "anti-magic"
+msgstr  "反魔法"
+
+msgid   "anti-shield"
+msgstr  "反护盾"
+
+msgid   "area attack"
+msgstr  "范围攻击"
+
+msgid   "area effect"
+msgstr  "范围效果"
+
+msgid   "arrow"
+msgstr  "箭"
+
+msgid   "attack module (+1 melee strike/damage)"
+msgstr  "进攻模块（+1近战攻击次数/伤害）"
+
+msgid   "attack only"
+msgstr  "防御禁用"
+
+msgid   "aura"
+msgstr  "光环"
+
+msgid   "banishment"
+msgstr  "放逐"
+
+msgid   "banner"
+msgstr  "战旗"
+
+msgid   "beam"
+msgstr  "激光"
+
+msgid   "bite"
+msgstr  "咬"
+
+msgid   "blade"
+msgstr  "剑刃"
+
+msgid   "blade ring"
+msgstr  "刃环"
+
+msgid   "blades"
+msgstr  "刀刃"
+
+msgid   "blinding light"
+msgstr  "致盲之光"
+
+msgid   "blood gate"
+msgstr  "鲜血之门"
+
+msgid   "bloodlust +5"
+msgstr  "嗜血 +5"
+
+msgid   "blowgun"
+msgstr  "气枪"
+
+msgid   "blue flame"
+msgstr  "蓝焰"
+
+msgid   "bolas"
+msgstr  "流星锤"
+
+msgid   "bomb"
+msgstr  "炸弹"
+
+msgid   "bombs"
+msgstr  "炸弹"
+
+msgid   "bone collector"
+msgstr  "收集骨头"
+
+msgid   "bubble"
+msgstr  "泡泡"
+
+msgid   "burner"
+msgstr  "灼烧者"
+
+msgid   "burning fist"
+msgstr  "火焰拳"
+
+msgid   "cannon"
+msgstr  "加农炮"
+
+msgid   "cannons"
+msgstr  "加农炮"
+
+msgid   "chakram"
+msgstr  "环刃"
+
+msgid   "chaotic blast"
+msgstr  "混沌爆发"
+
+msgid   "charge"
+msgstr  "冲锋"
+
+msgid   "chill tempest"
+msgstr  "冻结暴雨"
+
+msgid   "circle of balance"
+msgstr  "平衡之环"
+
+msgid   "circle of destruction"
+msgstr  "毁灭之环"
+
+msgid   "cleave"
+msgstr  "横切"
+
+msgid   "cleave 50%"
+msgstr  "顺劈 50%"
+
+msgid   "concentrated fire"
+msgstr  "集中射击"
+
+msgid   "cup of fire"
+msgstr  "火焰之杯"
+
+msgid   "cursed dagger"
+msgstr  "诅咒匕首"
+
+msgid   "cursed knives"
+msgstr  "诅咒小刀"
+
+msgid   "daggers"
+msgstr  "匕首"
+
+msgid   "damage aura"
+msgstr  "伤害光环"
+
+msgid   "damage rune"
+msgstr  "伤害符文"
+
+msgid   "damned flame"
+msgstr  "诅咒之焰"
+
+msgid   "dark ball"
+msgstr  "黑暗球"
+
+msgid   "dark lightning"
+msgstr  "暗黑闪电"
+
+msgid   "dark spark"
+msgstr  "黑暗火花"
+
+msgid   "dazzle"
+msgstr  "眩晕"
+
+msgid   "defend-only"
+msgstr  "攻击禁用"
+
+msgid   "destruction"
+msgstr  "毁灭"
+
+msgid   "devour"
+msgstr  "吞食"
+
+msgid   "dimensional vortex"
+msgstr  "次元涡流"
+
+msgid   "divine spear"
+msgstr  "神圣之矛"
+
+msgid   "double attack"
+msgstr  "双重攻击"
+
+msgid   "double divine spear"
+msgstr  "双重圣矛"
+
+msgid   "dragon breath"
+msgstr  "龙息"
+
+msgid   "enchanted arrow"
+msgstr  "附魔箭"
+
+msgid   "entrapment spell"
+msgstr  "陷阱法术"
+
+msgid   "explosion"
+msgstr  "爆炸"
+
+msgid   "eye of the storm"
+msgstr  "风暴之眼"
+
+msgid   "female^Bishop"
+msgstr  "教士"
+
+msgid   "female^Child of Light"
+msgstr  "光明之子"
+
+msgid   "female^Cleric"
+msgstr  "牧师"
+
+msgid   "female^Inspired"
+msgstr  "神启者"
+
+msgid   "female^Mistress of Light"
+msgstr  "光辉天女"
+
+msgid   "female^Prophet of Light"
+msgstr  "光明先知"
+
+msgid   "female^Sister of Light"
+msgstr  "光明姐妹"
+
+msgid   "female^fiery glow"
+msgstr  "炽热"
+
+msgid   "female^heals +12"
+msgstr  "治愈 +12"
+
+msgid   "female^heals +5"
+msgstr  "治愈 +5"
+
+msgid   "female^magical"
+msgstr  "魔法造物"
+
+msgid   "female^regenerates +12"
+msgstr  "再生 +12"
+
+msgid   "fiery glow"
+msgstr  "炽热"
+
+msgid   "fire arrow"
+msgstr  "火箭"
+
+msgid   "fire blast"
+msgstr  "火焰爆发"
+
+msgid   "fire breath"
+msgstr  "火焰吐息"
+
+msgid   "fire runes"
+msgstr  "火焰符文"
+
+msgid   "fire touch"
+msgstr  "火焰之触"
+
+msgid   "fire wave"
+msgstr  "火焰波"
+
+msgid   "flame blast"
+msgstr  "火焰爆发"
+
+msgid   "flames"
+msgstr  "火焰"
+
+msgid   "flamethrower"
+msgstr  "火焰投掷"
+
+msgid   "freezing spell"
+msgstr  "冰冻魔法"
+
+msgid   "freezing touch"
+msgstr  "冻结之触"
+
+msgid   "frozen fist"
+msgstr  "冰冻拳"
+
+msgid   "frozen gate"
+msgstr  "冰冻之门"
+
+msgid   "fungal regeneration"
+msgstr  "真菌再生"
+
+msgid   "furious death"
+msgstr  "死亡狂怒"
+
+msgid   "fury"
+msgstr  "狂暴"
+
+msgid   "fusion"
+msgstr  "聚变"
+
+msgid   "gaze"
+msgstr  "凝视"
+
+msgid   "goblin leader"
+msgstr  "领导地精"
+
+msgid   "gold:"
+msgstr  "黄金："
+
+msgid   "growing fury"
+msgstr  "愈战愈勇"
+
+msgid   "gun"
+msgstr  "枪"
+
+msgid   "gun bash"
+msgstr  "枪击"
+
+msgid   "hard landing"
+msgstr  "空难"
+
+msgid   "head"
+msgstr  "头"
+
+msgid   "headbutt"
+msgstr  "撞击"
+
+msgid   "heal undead "
+msgstr  "治愈亡灵 "
+
+msgid   "heals +12"
+msgstr  "治愈 +12"
+
+msgid   "heals +2"
+msgstr  "治愈 +2"
+
+msgid   "heals +5"
+msgstr  "治愈 +5"
+
+msgid   "hit"
+msgstr  "打"
+
+msgid   "hit and run"
+msgstr  "牵制"
+
+msgid   "holy arrow"
+msgstr  "神圣之箭"
+
+msgid   "hurricane"
+msgstr  "台风"
+
+msgid   "ice arrow"
+msgstr  "冰箭"
+
+msgid   "ice runes"
+msgstr  "寒冰符文"
+
+msgid   "ice strike"
+msgstr  "碎冰击"
+
+msgid   "iceball"
+msgstr  "冰球"
+
+msgid   "icicles"
+msgstr  "冰柱"
+
+msgid   "immobilization"
+msgstr  "定身"
+
+msgid   "immobilize"
+msgstr  "定身"
+
+msgid   "implosion"
+msgstr  "内爆"
+
+msgid   "improved kamikaze"
+msgstr  "改善型自爆"
+
+msgid   "incantation of power"
+msgstr  "力量之咒"
+
+msgid   "infernal flame"
+msgstr  "地狱烈焰"
+
+msgid   "inspires 1"
+msgstr  "鼓舞 1"
+
+msgid   "inspires 2"
+msgstr  "鼓舞 2"
+
+msgid   "irritant powder"
+msgstr  "催泪粉尘"
+
+msgid   "kamikaze"
+msgstr  "自爆"
+
+msgid   "katana"
+msgstr  "武士刀"
+
+msgid   "knives"
+msgstr  "小刀"
+
+msgid   "kunai"
+msgstr  "苦无"
+
+msgid   "landmass"
+msgstr  "大地之力"
+
+msgid   "legs"
+msgstr  "腿"
+
+msgid   "lesser damage aura"
+msgstr  "次级伤害光环"
+
+msgid   "life drain"
+msgstr  "生命吸取"
+
+msgid   "light touch"
+msgstr  "光之触"
+
+msgid   "lightning"
+msgstr  "闪电"
+
+msgid   "lightning bolt"
+msgstr  "闪电弹"
+
+msgid   "lightstorm"
+msgstr  "闪电风暴"
+
+msgid   "low upkeep"
+msgstr  "低维护费"
+
+msgid   "machine gun"
+msgstr  "机关枪"
+
+msgid   "magic"
+msgstr  "魔法"
+
+msgid   "magic arrow"
+msgstr  "魔法箭"
+
+msgid   "magic barrage"
+msgstr  "魔法弹幕"
+
+msgid   "magic missile"
+msgstr  "魔法飞弹"
+
+msgid   "magical"
+msgstr  "魔法造物"
+
+msgid   "magical dagger"
+msgstr  "魔法匕首"
+
+msgid   "magical hammer"
+msgstr  "魔法锤"
+
+msgid   "magical powder"
+msgstr  "魔法粉尘"
+
+msgid   "magical scimitar"
+msgstr  "魔法弯刀"
+
+msgid   "metal claws"
+msgstr  "金属爪"
+
+msgid   "meteor shower"
+msgstr  "陨石雨"
+
+msgid   "missile"
+msgstr  "导弹"
+
+msgid   "movepoints"
+msgstr  "移动点数"
+
+msgid   "nocturnal regeneration"
+msgstr  "暗夜再生"
+
+msgid   "orcish leader"
+msgstr  "领导兽人"
+
+msgid   "parachute"
+msgstr  "跳伞"
+
+msgid   "paw"
+msgstr  "爪"
+
+msgid   "petrifyng spell"
+msgstr  "石化魔法"
+
+msgid   "pike"
+msgstr  "叉"
+
+msgid   "point blank"
+msgstr  "直射"
+
+msgid   "poisoned arrow"
+msgstr  "毒箭"
+
+msgid   "poisoned bolt"
+msgstr  "毒弹"
+
+msgid   "poisonous aura"
+msgstr  "剧毒光环"
+
+msgid   "race+female^Cyclops"
+msgstr  "独眼巨人"
+
+msgid   "race+female^Magical"
+msgstr  "魔法造物"
+
+msgid   "race+female^Roc"
+msgstr  "巨鹰"
+
+msgid   "race+female^Salamander"
+msgstr  "沙罗曼蛇"
+
+msgid   "race+female^Tharis"
+msgstr  "塔瑞斯"
+
+msgid   "race+plural^Magical"
+msgstr  "魔法造物"
+
+msgid   "race+plural^Tharis"
+msgstr  "塔瑞斯"
+
+msgid   "race^Cyclopes"
+msgstr  "独眼巨人"
+
+msgid   "race^Cyclops"
+msgstr  "独眼巨人"
+
+msgid   "race^Magical"
+msgstr  "魔法造物"
+
+msgid   "race^Roc"
+msgstr  "巨鹰"
+
+msgid   "race^Rocs"
+msgstr  "巨鹰"
+
+msgid   "race^Salamander"
+msgstr  "沙罗曼蛇"
+
+msgid   "race^Salamanders"
+msgstr  "沙罗曼蛇"
+
+msgid   "race^Tharis"
+msgstr  "塔瑞斯"
+
+msgid   "random area effect"
+msgstr  "随机范围效果"
+
+msgid   "range^kamikaze"
+msgstr  "自爆"
+
+msgid   "rapid fire"
+msgstr  "快速射击"
+
+msgid   "ray of light"
+msgstr  "光辉射线"
+
+msgid   "reality warp"
+msgstr  "现实扭曲"
+
+msgid   "regenerates +12"
+msgstr  "再生 +12"
+
+msgid   "regenerates +6"
+msgstr  "再生 +6"
+
+msgid   "repairs +6"
+msgstr  "修理 +6"
+
+msgid   "repairs +8"
+msgstr  "修理 +8"
+
+msgid   "runic hammer"
+msgstr  "符文锤"
+
+msgid   "runic lightning"
+msgstr  "符文闪光"
+
+msgid   "runic sword"
+msgstr  "符文剑"
+
+msgid   "saw"
+msgstr  "锯"
+
+msgid   "scimitar"
+msgstr  "弯刀"
+
+msgid   "scimitar throw"
+msgstr  "投掷弯刀"
+
+msgid   "scream"
+msgstr  "尖叫"
+
+msgid   "screwdriver"
+msgstr  "螺丝刀"
+
+msgid   "scroll"
+msgstr  "卷轴"
+
+msgid   "scroll spell"
+msgstr  "卷轴魔法"
+
+msgid   "sculpts"
+msgstr  "雕刻"
+
+msgid   "scythe"
+msgstr  "巨镰"
+
+msgid   "second target"
+msgstr  "第二目标"
+
+msgid   "secret"
+msgstr  "奥秘"
+
+msgid   "secret hit"
+msgstr  "奥秘攻击"
+
+msgid   "shield"
+msgstr  "盾"
+
+msgid   "small lightning"
+msgstr  "小型闪电"
+
+msgid   "smash"
+msgstr  "打碎"
+
+msgid   "solar beam"
+msgstr  "阳炎射线"
+
+msgid   "solar regeneration"
+msgstr  "日光再生"
+
+msgid   "soul catcher"
+msgstr  "吸魂"
+
+msgid   "spark"
+msgstr  "火花"
+
+msgid   "sparks"
+msgstr  "火花"
+
+msgid   "spear throw"
+msgstr  "投矛"
+
+msgid   "split"
+msgstr  "分裂"
+
+msgid   "split fire"
+msgstr  "分叉火力"
+
+msgid   "storm"
+msgstr  "风暴"
+
+msgid   "summon"
+msgstr  "召唤"
+
+msgid   "summon undead"
+msgstr  "召唤亡灵"
+
+msgid   "swallow"
+msgstr  "吞噬"
+
+msgid   "sword+axe"
+msgstr  "剑+斧"
+
+msgid   "sworddance"
+msgstr  "剑舞"
+
+msgid   "swords"
+msgstr  "剑"
+
+msgid   "tackle"
+msgstr  "阻截"
+
+msgid   "tail"
+msgstr  "尾"
+
+msgid   "tongue"
+msgstr  "舌"
+
+msgid   "touch"
+msgstr  "碰触"
+
+msgid   "touch of apocalypse"
+msgstr  "天启之触"
+
+msgid   "touch of armageddon"
+msgstr  "末日之触"
+
+msgid   "touch of doom"
+msgstr  "厄运之触"
+
+msgid   "trample"
+msgstr  "践踏"
+
+msgid   "tree"
+msgstr  "树干"
+
+msgid   "trident"
+msgstr  "三叉戟"
+
+msgid   "troll leader"
+msgstr  "领导巨魔"
+
+msgid   "ultra circle"
+msgstr  "终极环阵"
+
+msgid   "ultraspeed"
+msgstr  "极速"
+
+msgid   "um blast"
+msgstr  "爆破"
+
+msgid   "um strike"
+msgstr  "攻击"
+
+msgid   "upkeepless"
+msgstr  "无维护费"
+
+msgid   "voice of darkness"
+msgstr  "幽暗之声"
+
+msgid   "water"
+msgstr  "水生"
+
+msgid   "water blast"
+msgstr  "水爆发"
+
+msgid   "water regeneration +4"
+msgstr  "水中再生 +4"
+
+msgid   "white sword"
+msgstr  "白色短剑"
+
+msgid   "wind gust"
+msgstr  "风阵"
+
+msgid   "witch-fire"
+msgstr  "巫火"
+
+msgid   "wrench"
+msgstr  "扳手"
+
+msgid   "wrist blade"
+msgstr  "腕刃"
+
+msgid   "yellow flame"
+msgstr  "黄焰"

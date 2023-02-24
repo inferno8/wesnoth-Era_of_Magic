@@ -1,0 +1,2761 @@
+msgid   ""
+msgstr  "Project-Id-Version: wescamp-i 18n\n"
+        "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+        "POT-Creation-Date: 2011-04-15 12:59-0400\n"
+        "PO-Revision-Date: 2011-04-11 11:35+0100\n"
+        "Last-Translator: Kelemen Zoltan <kelemen_zoltan@freemail.hu>\n"
+        "Language-Team: none\n"
+        "Language: hu\n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=UTF-8\n"
+        "Content-Transfer-Encoding: 8bit\n"
+        "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid   "\n"
+        "\n"
+        "Special Notes:"
+msgstr  "\n"
+        "\n"
+        "Megjegyzés:"
+
+msgid   " mountain ambush"
+msgstr  "hegyi rajtaütés"
+
+msgid   " this unit can create other units in the near free spaces, but not "
+        "in villages."
+msgstr  " ez az egység megidézhet más egységeket egy szmszédos szabad mezőre, "
+        "ami nem falu. "
+
+msgid   "(no description available)"
+msgstr  "(nincs leírás)"
+
+msgid   "+$this_unit.level exp"
+msgstr  "+$this_unit.level TP"
+
+msgid   "."
+msgstr  "."
+
+msgid   ".\n"
+        "\n"
+        "Special Notes:"
+msgstr  ".\n"
+        "\n"
+        "Megjegyzés:"
+
+msgid   ".\n"
+        "Special Notes:"
+msgstr  ".\n"
+        "Megjegyzés:"
+
+msgid   "12"
+msgstr  "12"
+
+msgid   "4"
+msgstr  "4"
+
+msgid   "5"
+msgstr  "5"
+
+msgid   "6"
+msgstr  "6"
+
+msgid   "9"
+msgstr  "9"
+
+msgid   "Abyss Mage"
+msgstr  "Mélységi mágus"
+
+msgid   "Abyss Magi are masters of the fourth element. They cast powerful "
+        "darkness spells."
+msgstr  "A mélységi mágusok a negyedik elem mesterei. Hatalmas sötét mágikus "
+        "varázslatokat használnak."
+
+msgid   "Activate Aura (24g)"
+msgstr  "Aura aktiválása (24a)"
+
+msgid   "Activate aura? (cost: 24g)"
+msgstr  "Aktiválod az aurát? (költsége: 24a)"
+
+msgid   "After some time, experienced Fire Magi transcend their mortal "
+        "bodies, becoming creatures of pure flame. Their control of fire is "
+        "legendary, and their wrath is terrible to behold."
+msgstr  "Az idők múlásával a tűzmágusok átlényegítik halandó testüket, s "
+        "tisztán csak lángokból építik fel magukat. A tűz feletti uralmuk "
+        "legendás, haragjukban szörnyű pusztítást végeznek."
+
+msgid   "After some time, the spirit inside of the Golem starts to change its "
+        "visage, growing eyes of sort from which it can shoot missiles of "
+        "cold."
+msgstr  "Kis idő elteltével a gólem kőtestbe zárt szelleme elkezdte "
+        "átalakítani a testet, egyfajta szemet növesztett, amiből hideg "
+        "nyilakat lövellhet az ellenségeire."
+
+msgid   "Air Avatar"
+msgstr  "Szélvész"
+
+msgid   "Air Elemental"
+msgstr  "Szellőlény"
+
+msgid   "Air God"
+msgstr  "Viharisten"
+
+msgid   "Air Magi are quite fast and rather dangerous, being able to shoot "
+        "lightning at their enemies, but are rather frail due to their lack "
+        "of armor. Arrows are the exception to that rule, as the Magi create "
+        "winds around them which batter those out of their paths."
+msgstr  "A szélmágusok igen gyorsak és veszélyesek, villámokat lövellnek az "
+        "ellenségeikre, de fegyverzetük nem lévén könnyen sebezhetőek is. "
+        "Kivételt képeznek a nyilak, mivel a mágusok által felkavart szelek "
+        "eltérítik a rájuk kilőtt nyilakat."
+
+msgid   "Alib,Kalib,Balib,Safay,Jaffar,Semir,Celal,Fatih,Ferhan,Mustafa,"
+        "Mehmet,Melih,Ali,Adem,Ahmet,Altan,Ismet,Ibrahim,Hakan,Kemal,Kenan,"
+        "Rafet,Tahir,Yasar,Yasin,Yusuf,Ahmed,Najib,Samir,Hassan,Hisham,Karim,"
+        "Saif,Rahul,Rohan,Rohit,Nikhil,Shahrukh,Krishi"
+msgstr  "Alib,Kalib,Balib,Safay,Jaffar,Semir,Celal,Fatih,Ferhan,Mustafa,"
+        "Mehmet,Melih,Ali,Adem,Ahmet,Altan,Ismet,Ibrahim,Hakan,Kemal,Kenan,"
+        "Rafet,Tahir,Yasar,Yasin,Yusuf,Ahmed,Najib,Samir,Hassan,Hisham,Karim,"
+        "Saif,Rahul,Rohan,Rohit,Nikhil,Shahrukh,Krishi"
+
+msgid   "Ambush:\n"
+        "This unit can hide in forest, and remain undetected by its enemies.\n"
+        "\n"
+        "Enemy units cannot see this unit while it is in cave, except if they "
+        "have units next to it. Any enemy unit that first discovers this unit "
+        "immediately loses all its remaining movement."
+msgstr  "Rajtaütés:\n"
+        "Ez az egység elrejtőzhet az erdőben, s ezáltal ellenségei számára "
+        "láthatatlanná válik.\n"
+        "Az ellenséges egységek nem látják ezt az egységet, míg erdőben áll, "
+        "kivéve ha mellélépnek. Az első ellenséges egység, amely felderíti "
+        "ennek az egységnek a helyzetét, elveszti a mozgáspontjait."
+
+msgid   "Ambush:\n"
+        "This unit can hide in forest, and remain undetected by its enemies.\n"
+        "\n"
+        "Enemy units cannot see this unit while it is in mountains or hills, "
+        "except if they have units next to it. Any enemy unit that first "
+        "discovers this unit immediately loses all its remaining movement."
+msgstr  "Rajtaütés:\n"
+        "Ez az egység elrejtőzhet az erdőben, s ezáltal ellenségei számára "
+        "láthatatlanná válik.\n"
+        "\n"
+        "Az ellenséges egységek nem látják ezt az egységet, míg erdőben áll, "
+        "kivéve ha mellélépnek. Az első ellenséges egység, amely felderíti "
+        "ennek az egységnek a helyzetét, elveszti a mozgáspontjait."
+
+msgid   "Ambush:\n"
+        "This unit can hide in forest, and remain undetected by its enemies.\n"
+        "\n"
+        "Enemy units cannot see this unit while it is in swamp, except if "
+        "they have units next to it. Any enemy unit that first discovers this "
+        "unit immediately loses all its remaining movement."
+msgstr  "Rajtaütés:\n"
+        "Ez az egység a mocsárban képes elrejtőzni, s így ellenségei számára "
+        "láthatatlanná válik.\n"
+        "\n"
+        "Az ellenséges egységek nem látják ezt az egységet, míg mocsárban "
+        "áll, kivéve ha mellélépnek. Az első ellenséges egység, amely "
+        "felderíti ennek az egységnek a helyzetét, elveszti a mozgáspontjait."
+
+msgid   "Ambush:\n"
+        "This unit can hide in forest, and remain undetected by its enemies.\n"
+        "\n"
+        "Enemy units cannot see this unit while it is in water, except if "
+        "they have units next to it. Any enemy unit that first discovers this "
+        "unit immediately loses all its remaining movement."
+msgstr  "Rajtaütés:\n"
+        "Ez az egység a vízben képes elrejtőzni, s így ellenségei számára "
+        "láthatatlanná válik.\n"
+        "\n"
+        "Az ellenséges egységek nem látják ezt az egységet, míg vízben áll, "
+        "kivéve ha mellélépnek. Az első ellenséges egység, amely felderíti "
+        "ennek az egységnek a helyzetét, elveszti a mozgáspontjait."
+
+msgid   "Ancient Cyclops"
+msgstr  "Ősi küklopsz"
+
+msgid   "As a member of the homunculus light brigade, they are most widely "
+        "used as its military arm.\n"
+        "\n"
+        "Faced with the choice of sacrificing speed for strength, experienced "
+        "pilots have on board an additional machine gun, yet another piece of "
+        "futuristic gadgetry used to strike down their foes from afar. "
+        "Although inaccurate, the machine gun is possessed with a seemingly "
+        "unnatural speed, reaping death among the enemy ranks. As it draws "
+        "closer, and the advantage of long range fire is neutralised, a "
+        "gunman will switch to a more contemporary form of offense, sowing "
+        "seeds of destruction with explosives that are unleashed to "
+        "devastating effect."
+msgstr  "Mint a légierők tagjait, gyakran vetik be őket a különböző "
+        "hadjáratokban.\n"
+        "\n"
+        "A tapasztalt pilóták szembesülve azzal, hogy a sebesség érdekében a "
+        "páncélzatot csökkentették, egy gépfegyvert vettek magukhoz, egy "
+        "újabb furfangos eszközt, amivel a magasból lecsaphatnak "
+        "ellenségeikre. Habár nem kigazán pontosak ezek a fegyverek, "
+        "hihetetlenül gyorsak, s nagy pusztítást végeznek az ellenséges "
+        "tömegekben. A messziről leadott lövések okozta előny közelről nem "
+        "érvényesül, itt inkább a kosárból kidobott robbanó gránátok veszik "
+        "át a hóhérmunkát."
+
+msgid   "Awaken: if a friendly adjacent unit with more than one hitpoint at "
+        "the beginning of the battle dies, it is resurrected, gets +6 "
+        "experience and remains in battle with one hitpoint. If it dies again "
+        "(having one hitpoint), it will be killed for sure."
+msgstr  "Visszahívás: ha egy szomszédos baráti egység, amelynek 1-nél több ÉP-"
+        "je van, meghal, akkor az 1 ép-vel visszatér, 6 TP-t kap, s tovább "
+        "harcol. Ha újra meghal (1 ép-vel), akkor végleg eltávozik az élők "
+        "közül."
+
+msgid   "Awe:\n"
+        "This unit can frighten enemy units that are next to it, making them "
+        "fight worse.\n"
+        "\n"
+        "Adjacent enemy units of lower level will do less damage in battle. "
+        "When a unit adjacent to, of the same level, or a lower level than, "
+        "and is an enemy of the unit with Terror engages in combat, its "
+        "attacks do 15% less damage times the difference in their levels + "
+        "15%."
+msgstr  "Rémség:\n"
+        "Ez az egység megfélemlíti a szomszédos ellenséges egységet, s az "
+        "gyengébben harcol.\n"
+        "\n"
+        "A szomszédos alacsonyabb szintű egységek kisebb sebzést okoznak "
+        "csatában. Az ellenséges szomszédos egységek, beleértve az azonos "
+        "szintűt és az alacsonyabb szintűt, a szintjük különbsége szorozva "
+        "15% + 15%-kal kisebb sebzést okoznak, ha szembeszállnak ezzel az "
+        "egységgel."
+
+msgid   "Balloon"
+msgstr  "Léghajó"
+
+msgid   "Banish: this unit can effecively fight with magical units by turning "
+        "them into Dimensional Gates."
+msgstr  "Irtás: ez az egység hatékonyan képes fellépni a mágikus lények ellen "
+        "dimenziókapuvá alakítva őket."
+
+msgid   "Banisher"
+msgstr  "Szellemirtó"
+
+msgid   "Barbarian"
+msgstr  "Barbár"
+
+msgid   "Barbarian Berserker"
+msgstr  "Őrjöngő barbár"
+
+msgid   "Barbarian King"
+msgstr  "Barbár király"
+
+msgid   "Barbarian Lord"
+msgstr  "Barbár úr"
+
+msgid   "Barbarians"
+msgstr  "Barbárok"
+
+msgid   "Battle Magi use their magic powers in battle, preforming devastating "
+        "ranged attacks. They are, however, equiped only with daggers, and "
+        "aren't potent melee fighters."
+msgstr  "A csatamágusok mágikus erejüket a csaták alatt mutatják meg igazán, "
+        "pusztító távolsági támadásokkal operálnak. Közelharcban viszont "
+        "gyengék, mivel csak tőrrel vannak felfegyverkezve."
+
+msgid   "Battle Toad"
+msgstr  "Harcivarangy"
+
+msgid   "Battlefrenzy: This unit gets one extra strike and additional damage "
+        "(+2) with each hit during attack. Does not work on defense."
+msgstr  "Támadókedv: Amikor az egység ilyen támadást használ, egy plusz "
+        "csapást mér és minden sikeres találat után egyre nagyobb sebzést(+2) "
+        "okoz. Védekezésnél ez nem működik."
+
+msgid   "Battlefrenzy: When this attack is used, this units gets an extra "
+        "strike and additional damage (+2) after each successful hit. Does "
+        "not work on defence."
+msgstr  "Támadókedv: Amikor az egység ilyen támadást használ, egy plusz "
+        "csapást mér és minden sikeres találat után egyre nagyobb sebzést(+2) "
+        "okoz. Védekezésnél ez nem működik."
+
+msgid   "Battlemage"
+msgstr  "Harcimágus"
+
+msgid   "Beam:\n"
+        "When this attack is used, the attacker can hurt a unit behind his "
+        "primary target."
+msgstr  "Fénykéve:\n"
+        "Ha ezzel támadnak meg egy egységet, akkor a mögötte álló egység is "
+        "sebződik."
+
+msgid   "Belonging to a race already small in statue Goblin runts are born "
+        "smaller and weaker then most. Indeed it is a wonder that such tiny "
+        "creatures can fight at all, armed as they are with any piece of "
+        "pointy scrap metal found lying around. Their superiors use them for "
+        "cannon fodder, hurling them into impossible situations with often "
+        "surprising results."
+msgstr  "A nyápicok még az általában kistermetű koboldok közül is kitűnnek "
+        "törpeségükkel. Már az is csoda, hogy egy ilyen parányi lény harcba "
+        "bocsátkozik, s ráadásul még páncélt is viselnek, amit az "
+        "elhullajtott fémdarabkákból eszkábálnak maguknak. Feletteseik "
+        "ágyútöltelék gyanánt használják őket, képtelen helyzetekben is "
+        "bevetik őket nemegyszer meglepően eredményesen."
+
+msgid   "Black Mage"
+msgstr  "Fekete mágus"
+
+msgid   "Black Magi know the art of black magic well, and use it as "
+        "effectively as Dark Wizards."
+msgstr  "A fekete mágusok igen jól ismerik a feketemágiát, s legalább olyan "
+        "hatékonyan használják is azt, mint a sötét varázslók."
+
+msgid   "Black Salamander"
+msgstr  "Fekete szalamandra"
+
+msgid   "Bladedancer"
+msgstr  "Pengetáncos"
+
+msgid   "Blademaster"
+msgstr  "Pengeforgató"
+
+msgid   "Blessed with remarkable deftness with their fingers, these "
+        "Technicians refute all that demean their race as heavy handed, "
+        "drunkards, and if any liquor is to found on them, then it is only "
+        "within the strong spirits which they employ in continuous campaign "
+        "against rust.\n"
+        "\n"
+        "Despite their scarcity, they serve as important a role as the "
+        "standardised teams of Mechanics, and are capable of repairing all "
+        "but the most severe damage upon any mechanical unit. More "
+        "importantly, such is their proficiency in their line of work that "
+        "they have been able to spare time to dedicate on converting those "
+        "tools that they work with into deadly weapons that are more than a "
+        "match for any who attempt to harry them."
+msgstr  "Ezek a figyelemre méltó kézügyességgel technikusok alaposan "
+        "rácáfolnak a fajukról alkotott előítéletekre, miszerint durvakezű, "
+        "iszákos népség lennének. S ha néha érződik körülöttük egy kis "
+        "alkoholszag, az azokból az erős folyadékokból ered, amit a "
+        "rozsdásodás megakadályozására használnak gépeikben.\n"
+        "\n"
+        "Habár kevesen vannak, állandó helyük van a mechanikusok táborában, "
+        "mivel bármilyen eszköz bármilyen sérülését képesek megjavítani. Ami "
+        "még ennél is fontosabb, bármikor készen állnak a kezük ügyébe eső "
+        "eszközeikből halálos fegyvereket barkácsolni, ami több, mint "
+        "életveszélyes arra, aki háborgatni meri őket."
+
+msgid   "Blood Warrior"
+msgstr  "Véreskezű"
+
+msgid   "Bloodlust: This unit gets one extra strike with each hit during "
+        "attack. Does not work on defense."
+msgstr  "Vérszomj: Az egység minden találat után újabb csapáshoz jut. "
+        "Védekezés esetén nem történik semmi."
+
+msgid   "Bloodlust: When this attack is used, this units gets an extra strike "
+        "after each successful hit."
+msgstr  "Vérszomj: Amikor ez a támadástípust használja az egység, minden "
+        "találat után növekszik a csapásszáma."
+
+msgid   "Blue Salamander"
+msgstr  "Kék szalamandra"
+
+msgid   "Brown Warrior"
+msgstr  "Barna harcos"
+
+msgid   "Brown warriors are equipped with a very sharp sword and a mace."
+msgstr  "A barna harcosok nagyon éles karddal és buzogánnyal vannak "
+        "felfegyverezve."
+
+msgid   "Camel Rider"
+msgstr  "Tevegelő"
+
+msgid   "Capable of more than ample speeds, they can cover virtually any "
+        "terrain with ease, and with a firebomb carrying dwarf in tow, have "
+        "the potential to become a major nuisance in the heat of combat. "
+        "Indeed, they are risky foes to attack, and only by turning their "
+        "weapons against them can one remotely hold any certainty to "
+        "disposing of them."
+msgstr  "Több, mint elegendő gyorsasággal rendelkeznek, így könnyedén "
+        "mozognak bármilyen terep felett, s a kosárban szállított tűzbombával "
+        "a csata hevében döntő fölényre tehetnek szert. Valóban nehéz "
+        "támadást indítani ellenük, s csak saját fegyverüket fordítva ellenük "
+        "bízhat bárki abban, hogy elintézi őket."
+
+msgid   "Carpet Master"
+msgstr  "Szőnyegmester"
+
+msgid   "Carpet Rider"
+msgstr  "Repülőszőnyeges"
+
+msgid   "Cataclysmic by nature, efreets are jinns who have rejected most, if "
+        "not all, of their inner desires to learn. Efreets, for profound "
+        "reasons beyond the comprehension of their peers, search to cause "
+        "destruction in their conquests. To this, their magical bodies have "
+        "sunken into a crimson-reddish hue, tempering their magic with fire's "
+        "touch. In battles, efreets bask in razing and laying waste to "
+        "whatever their blazes can reach."
+msgstr  "Az ifritek zavaros természetű dzsinnek, akik elfojtották a legtöbb, "
+        "ha nem az összes, belső késztetésüket a tanulásra. Az ifritek, "
+        "feljebbvalóik teljes értetlenségére, a pusztítást részesítik "
+        "előnyben. Mágikus testük karmazsinvörös árnyalatot vett fel, s "
+        "mágikus erejük tüzes érintéssé alakult. Csatában az ifritek az "
+        "ellenség teljes megsemmisítésére törekednek, mindennek az "
+        "elpusztítására, amelyhez tüzes érintésükkel csak hozzáférnek."
+
+msgid   "Cavalry Archer"
+msgstr  "Lovas íjász"
+
+msgid   "Cave Ambush:\n"
+        "This unit can hide in cave, and remain undetected by its enemies.\n"
+        "\n"
+        "Enemy units cannot see this unit while it is in cave, except if they "
+        "have units next to it. Any enemy unit that first discovers this unit "
+        "immediately loses all its remaining movement."
+msgstr  "Barlangi rajtaütés:\n"
+        "Ez az egység képes elrejtőzni a barlangban, ezáltal ellenségei "
+        "számára láthatatlanná válik.\n"
+        "\n"
+        "Az ellenséges egységek nem látják ezt az egységet, míg barlangban "
+        "áll, kivéve ha mellélépnek. Az első ellenséges egység, amely "
+        "felderíti ennek az egységnek a helyzetét, elveszti a mozgáspontjait."
+
+msgid   "Chaos Hydra"
+msgstr  "Káosz hidra"
+
+msgid   "Chaos Rider"
+msgstr  "Káosz lovas"
+
+msgid   "Chaos Wyvern"
+msgstr  "Káosz sárkánykígyó"
+
+msgid   "Chosen of Forest"
+msgstr  "Erdei Kiválasztott"
+
+msgid   "Circle of Resistance:\n"
+        "This unit and all adjacent friendly units receive a +20% bonus to "
+        "fire, cold and arcane resistance."
+msgstr  "Ellenállási kör:\n"
+        "Ez az egység és a baráti egységek +20% ellenállással vérteződnek "
+        "fel  a tűz, a hideg és a földöntúli támadások ellen."
+
+msgid   "Clan Leader"
+msgstr  "Klánfőnök"
+
+msgid   "Cleave: A unit with this ability can hurt units that are adjacent to "
+        "the attacker and the defender at the same time."
+msgstr  "Osztott csapás: Az egység ezzel a képességgel nemcsak a megtámadott, "
+        "hanem a mindkettejükkel szomszédos egységet is támadja. "
+
+msgid   "Cold Aura:\n"
+        "Adjacent units receive a 50% bonus to fire resistance and a -25% "
+        "bonus to cold resistance. All cold spells are very powerful here."
+msgstr  "Hideg aura:\n"
+        "A szomszédos  egységek 50% ellenállást kapnak a tűztámadások ellen, "
+        "s 25%-kal csökken csökken a hideg támadások elleni védelmük. Minden "
+        "hideg varázslat nagyon hatásos ebben az aurában."
+
+msgid   "Cold Matriarch"
+msgstr  "Hidegség Ősanyja"
+
+msgid   "Cold Matriarch creates cold aura which makes all cold spells very "
+        "powerful (up to 25%) and makes fire spells, very weak."
+msgstr  "A Sötétség Ősanyja hideg aurát von maga köré, amely felerősíti a "
+        "hideg támadásokat (+25%) s nagyon legyengíti a tűzvarázslatokat."
+
+msgid   "Commander"
+msgstr  "Parancsnok"
+
+msgid   "Corrupted Shaman"
+msgstr  "Megrontott sámán"
+
+msgid   "Crossbowman"
+msgstr  "Számszeríjász"
+
+msgid   "Cumbersome and lacking fine intellect the Cyclop race had been "
+        "driven near to extinction before becoming a part of the barbarian "
+        "horde. Two centuries later and these lumbering beasts have "
+        "flourished, growing in both strength and number. Some say that it "
+        "was a strange magic which bound the Cyclops to their new allegiance "
+        "and is perhaps a reason for their increased power. One thing about "
+        "these beasts is a certainty, when facing one in combat it is best "
+        "not to get hit."
+msgstr  "Az ormótlan, szubintelligens küklopszok a kipusztulás szélére "
+        "jutottak, mielőtt a barbár hordák kebelébe kerültek. Két évszázad "
+        "alatt ezek a fanyűvő szörnyek egy új virágkort értek meg, számuk és "
+        "erejük is megnövekedett. Azt rebesgetik, hogy valamilyen különleges "
+        "mágia kapcsolja ezeket a küklopszokat az új szövetségeseikhez, s "
+        "talán ez okozza a megnövekedett erejüket is. Egyetlen dolog biztos "
+        "ezekkel a szörnyekkel kapcsolatban, ha csatában szembekerülsz "
+        "eggyel, erősen ajánlott elkerülni az ütéseiket. "
+
+msgid   "Cyclops"
+msgstr  "Küklopsz"
+
+msgid   "Cyclops Breaker"
+msgstr  "Romboló küklopsz"
+
+msgid   "Cyclops Destroyer"
+msgstr  "Pusztító küklopsz"
+
+msgid   "Dark Assassin"
+msgstr  "Sötét orgyilkos"
+
+msgid   "Dark Blood Alliance"
+msgstr  "Sötét Vér Szövetség"
+
+msgid   "Dark Hunter"
+msgstr  "Sötét vadász"
+
+msgid   "Dark Slayer"
+msgstr  "Sátáni vérengző"
+
+msgid   "Dark Warrior"
+msgstr  "Sötét harcos"
+
+msgid   "Dark Witch"
+msgstr  "Sötét boszorkány"
+
+msgid   "Dark Wizard"
+msgstr  "Sötét varázsló"
+
+msgid   "Dark Wizard is equipped whit special staff, which reinforces his "
+        "spellpower. He can make a lot of damage but his mana ends quicly. "
+        "That's why he performs only two attacks."
+msgstr  "A sötét varázslók különleges bottal fegyverkeztek fel, amely pótolja "
+        "az elhasznált varázsenergiájukat. Nagy sebzést okoznak, de "
+        "varázserejük gyorsan lecsökken. Körönként csak két ütésre képesek."
+
+msgid   "Dark aura makes all enemy units fight worse (-25% for attack)."
+msgstr  "A sötét aura az ellenséges támadások sebzését csökkenti (25%-kal)."
+
+msgid   "Deadly Eye"
+msgstr  "Sólyomszem"
+
+msgid   "Deadly Eyes are Magical Eyes that have somehow evolved. They can now "
+        "solidify their auras, and use them like a fan of knives."
+msgstr  "A sólyomszemek továbbfejlesztett mágikus szemek. Az aurájukat "
+        "megkeményítették, s egyfajta késes propellerként használják."
+
+msgid   "Deadzone:\n"
+        "Adjacent friendly units receive a 99% bonus to fire,cold and arcane "
+        "resistance"
+msgstr  "Holtsáv:\n"
+        "A szomszédos baráti egységek 99% ellenállást kapnak a tűz-, hideg és "
+        "földöntúli támadások ellen."
+
+msgid   "Default+Magic"
+msgstr  "Alapbeállítás+Mágia"
+
+msgid   "Defender:\n"
+        "Adjacent friendly units receive a +20% bonus to all resistances (up "
+        "to a maximum of 40%)."
+msgstr  "Védelmező:\n"
+        "A közeli baráti egységek +20% ellenállással vérteződnek fel "
+        "(legfeljebb 40%-ig)"
+
+msgid   "Dharma’rhami"
+msgstr  "Dharma’rhami"
+
+msgid   "Dimensional Gate"
+msgstr  "Dimenziókapu"
+
+msgid   "Dimensional Gate 2"
+msgstr  "Dimenziókapu 2"
+
+msgid   "Disciple"
+msgstr  "Tanítvány"
+
+msgid   "Dispeller"
+msgstr  "Démonűző"
+
+msgid   "Double Ranged Toad"
+msgstr  "Köpködő varangy"
+
+msgid   "Double attack!"
+msgstr  "Kétszeri támadás"
+
+msgid   "Double attack:\n"
+        "This unit can attack 2 enemies in one turn, but cannot move from a "
+        "hex, where first enemy was attacked."
+msgstr  "Kettős támadás:\n"
+        "Ez az egység két ellenséges egységet támadhat, bár nem mozdulhat el "
+        "a helyéről, ahonnan az első ellenséget megtámadta."
+
+msgid   "Dread Bat"
+msgstr  "Rettenetes denevér"
+
+msgid   "Dread Bats are fast and can drain the blood of those they attack, "
+        "thereby healing themselves, even to the point where they become "
+        "stronger than they began the battle. Bloated with blood they have "
+        "grown to a huge size and can feast on bigger and bigger victims."
+msgstr  "A rettenetes denevérek gyorsak, s megtámadott ellenségeik vérét "
+        "szíva, azokat gyengítve gyógyítják magukat, s akár erősebbé is "
+        "válhatnak, mint a támadás előtt. Vérrel teleszíva magukat igen nagy "
+        "méretűre nőnek, s egyre nagyobb áldozatra vadásznak."
+
+msgid   "Dreadnaught"
+msgstr  "Behemót"
+
+msgid   "Dwarvish Heavy Warrior"
+msgstr  "Törp nehéz harcos"
+
+msgid   "Dwarvish Rune Lord"
+msgstr  "Törp rúnaúr"
+
+msgid   "Dwarvish Rune Warrior"
+msgstr  "Törp rúnaharcos"
+
+msgid   "Dwarvish Tank"
+msgstr  "Törp tank"
+
+msgid   "Dwarvish Warrior"
+msgstr  "Törp harcos"
+
+msgid   "Earth Avatar"
+msgstr  "Földgólem"
+
+msgid   "Earth Elemental"
+msgstr  "Földlény"
+
+msgid   "Earth God"
+msgstr  "Földisten"
+
+msgid   "Efreet"
+msgstr  "Ifrit"
+
+msgid   "Elemental Archer"
+msgstr  "Elemi íjász"
+
+msgid   "Elementalist"
+msgstr  "Elemvarázsló"
+
+msgid   "Elementalists aren't as good in battle like other Enlightened Ones, "
+        "but are relatively fast and become quite powerful quickly, choosing "
+        "one of the Elemental Paths."
+msgstr  "Az elemvarázslók nem olyan jók a harcban, mint más "
+        "Megvilágosodottak, de viszonylag gyorsak és gyorsan fejlődnek, "
+        "miután kiválasztották a számukra megfelelő Elemi Utat."
+
+msgid   "Elementalists who choose the path of Fire become quite powerful, and "
+        "quickly, but are rather slow, for their Art takes a toll on their "
+        "bodies."
+msgstr  "Az elemvarázslók, akik a tűz útját választják, igen gyorsan "
+        "hatalmassá válnak, de lelassulnak, mivel művészetük felemészti testi "
+        "erejüket."
+
+msgid   "Era of Magic"
+msgstr  "Mágia kora"
+
+msgid   "Era of Magic Masters"
+msgstr  "Mágia kora mesteri szint"
+
+msgid   "Era of Magic RPG"
+msgstr  "Mágia kora SZJ"
+
+msgid   "Error"
+msgstr  "Hiba"
+
+msgid   "Evasion:\n"
+        "When this attack is used offensively, this unit takes one third less "
+        "damage in retaliation."
+msgstr  "Gyengítés:\n"
+        "Amikor ilyen támadással támad az egység, az ellentámadás "
+        "egyharmaddal kisebb sebzést okoz a normálnál."
+
+msgid   "Every dark dispile dreams about being a great warlock. But for now "
+        "they must surive. They have very powerful magic but they can't "
+        "perform melee attacks."
+msgstr  "Minden sötét tanítvány arról álmodik, hogy nagy táltos lesz belőle. "
+        "De azt meg is kell élniük. Nagyon erős mágával rendelkeznek, de "
+        "közelharcba nem bocsátkoznak."
+
+msgid   "Experienced in battle witch becomes shadow witch. Now she is more "
+        "dangerous and she can perform ranged attack 5 times."
+msgstr  "A harcban edzett boszorkányok árnyboszorkánnyá válnak. Így sokkal "
+        "veszélyesebbek, s ötszöri távoli támadással bírnak."
+
+msgid   "Extremely fast, dangerous and powerful. The Golden warrior can focus "
+        "the sun rays, completely burning an enemy."
+msgstr  "Elképesztően gyors, veszélyes és hatalmas. Az aranyharcos képes a "
+        "napsugarakat koncentrálni, s elégetni az ellenséget."
+
+msgid   "FLEE!"
+msgstr  "FUTÁS!"
+
+msgid   "FURY!"
+msgstr  "ŐRÜLET!"
+
+msgid   "Fanatic"
+msgstr  "Fanatikus"
+
+msgid   "Fire Avatar"
+msgstr  "Tűzgólem"
+
+msgid   "Fire Cyclops"
+msgstr  "Tűzküklopsz"
+
+msgid   "Fire Elemental"
+msgstr  "Tűzlény"
+
+msgid   "Fire God"
+msgstr  "Tűzisten"
+
+msgid   "Fire is a dangerous manifestation of nature's destruction. While "
+        "adept users of magic can craft fire from nothing but thin air, there "
+        "is nothing more terrible than an actual materialization of living "
+        "flame and fury. Its fiery form visible in pitch darkness, the fire "
+        "elemental is but an entity of arcane magic summoned from the Abyss, "
+        "almost always brought out for intent of war. From the moment the "
+        "elemental is brought into this world, it burns bright with "
+        "mindlessness and follows the orders of its summoner until its very "
+        "extinguishing."
+msgstr  "A tűz a természet pusztító erejének veszélyes megjelenése. A "
+        "gyakorlott mágiahasználók a levegőből is képesek tüzet csiholni, "
+        "nincs is szörnyűbb annál, mint amikor a harag ezen élő formái "
+        "megtestesülnek. Ez a tüzes alak a legsötétebb éjben is látható, a "
+        "tűzlény a Mélység földöntúli mágikus erejéből idéződik meg, s "
+        "majdnem mindig hadi célra. Attól a pillanattól kezdve, hogy a lény "
+        "evilágra születik, esztelenül feléget mindent, ami az útjába kerül, "
+        "s amit a megidézője parancsol, egészen addig, míg véglegesen ki nem "
+        "húny. "
+
+msgid   "Flying Fortress"
+msgstr  "Repülő erőd"
+
+msgid   "Flying Fortresses symbolise the height of dwarfish ingenuity. Looked "
+        "upon as an airborne tank, a Flying Fortress employs a trio of "
+        "immense rotor blades to support their flight, with the giant balloon "
+        "retreating into a secondary support. As well as enabling the crew to "
+        "equip themselves with larger and more powerful weapons, it has also "
+        "nullified the great weaknesses previous models had against fire.\n"
+        "\n"
+        "These intimidating monsters are capable of dominating the skies, "
+        "unleashing their wrath upon those unfortunate enough to cross their "
+        "path. If the twin powered heavy cannon fire does not spell their "
+        "doom, then the chattering of the machine guns and the pounding of "
+        "explosives will. Over the centuries, they have accrued a fearsome "
+        "reputation, and are rightly feared by all but the strongest foe."
+msgstr  "A repülő erődök képviselik a törp leleményesség csúcsát. Kinézetre "
+        "egy repülő tankhoz hasonlítanak, repülésüket három légcsavar "
+        "biztosítja, ehhez társul a felszállást biztosító ballon. A legénység "
+        "nagyerejű fegyverekkel van felszerelve, s kijavították a korábbi "
+        "modellek gyengeségeit is.\n"
+        "\n"
+        "Ezek a félelmetes szörnyetegek uralják az eget, s gátlástalanul "
+        "kiélik dühüket azokon a szerencsétleneken, akik keresztezik az "
+        "útjukat. Ha a duplacsövű ágyúk tüze véletlenül nem intézné el őket, "
+        "a kattodó gépfegyverek vagy a kidobott aknák biztosan végeznek "
+        "velük. A századok során babonás tisztelet alakult ki irányukban, s "
+        "még a legerősebb ellenségek is félik őket."
+
+msgid   "From the marshy lands of the Great Bog hail the bloodthirsty "
+        "Wyvrens. These majestic beasts of prey, which are said to be the "
+        "offspring of the great Dragons of old, are captured by the Dark "
+        "Blood saurians, which use them as shock troopers of sorts. They are "
+        "subjected to torture by fire, making them even more crazed and "
+        "bloodthirsty than Nature intended, and released upon the Tribe's "
+        "mulitple enemies."
+msgstr  "A mocsaras területekről származnak a vérszomjas sárkánykígyók is. "
+        "Ezeket a fenséges ragadozókat, amelyek állítólag a régi sárkányok "
+        "leszármazottai, a Sötétvérűek foglyul ejtik, s egyfajta "
+        "rohamcsapatként alkalmazzák őket. Tűzzel kínozzák őket, hogy "
+        "természetadta őrültségüket és vérszomjukat fokozzák, amelyet számos "
+        "ellenség volt kénytelen megtapasztalni."
+
+msgid   "Furious Death: When this unit dies, it flies into a fury. The unit "
+        "with this ability atacks all adjecent units and then it finally dies."
+msgstr  "Tomboló halál: Amikor ez az egység meghal, tombolni kezd. Utolsó "
+        "erejével megtámad minden szomszédos egységet, mielőtt végleg kimúlna."
+
+msgid   "Fury:\n"
+        "This unit can attack another after killing an enemy."
+msgstr  "Őrjöngés:\n"
+        "Ez az egység újra támadhat egy ellenséges egység megölése után."
+
+msgid   "General"
+msgstr  "Tábornok"
+
+msgid   "Goblin Archer"
+msgstr  "Kobold íjász"
+
+msgid   "Goblin Assassin"
+msgstr  "Kobold bérgyilkos"
+
+msgid   "Goblin Hunter"
+msgstr  "Kobold vadász"
+
+msgid   "Goblin Kamikaze"
+msgstr  "Kobold kamikázé"
+
+msgid   "Goblin Rouser"
+msgstr  "Kobold felbujtó"
+
+msgid   "Goblin Runt"
+msgstr  "Nyápic kobold"
+
+msgid   "Goblin Sniper"
+msgstr  "Kobold mesterlövész"
+
+msgid   "Goblin Warbanner"
+msgstr  "Kobold zászlótartó"
+
+msgid   "Goblin Warrior"
+msgstr  "Kobold harcos"
+
+msgid   "Goblin leader:\n"
+        "This unit can lead our own Goblins that are next to it, making them "
+        "fight better.\n"
+        "\n"
+        "Adjacent own Goblins will do more damage in battle (20% more)."
+msgstr  "Kobold vezér:\n"
+        "Ez az egység vezeti a szomszédos baráti koboldokat, jobb harcosokká "
+        "téve őket.\n"
+        "\n"
+        "A szomszédos baráti koboldok nagyobb sebzést okoznak a csatában (20%-"
+        "kal)."
+
+msgid   "Golden Mage"
+msgstr  "Arany mágus"
+
+msgid   "Golden Magi are equally skilled with swords and magic. They wear "
+        "beautiful golden armor, after which they're named, and use "
+        "greatswords. They are known to emerge victorious from the harshest "
+        "conflicts."
+msgstr  "Az aranymágusok egyaránt képzettek harcban és kardvívásban. Gyönyörű "
+        "arany vértjük van, amiről a nevüket is kapták, s pallossal "
+        "harcolnak. Köztudott róluk, hogy a legkeményebb ütközetekből is "
+        "győztesen kerülnek ki."
+
+msgid   "Golden Warrior"
+msgstr  "Arany harcos"
+
+msgid   "Golem"
+msgstr  "Gólem"
+
+msgid   "Golem Boss"
+msgstr  "Gólem főnök"
+
+msgid   "Golems are spirits from the Abyss, bound in corporal bodies made of "
+        "stone by Enlightened Magi. Their favored method of war is to charge, "
+        "ramming their enemies with their stout bodies."
+msgstr  "A gólemek a Mélység szellemei, akiket a Megvilágosodott mágusok egy "
+        "kőtesthez kapcsoltak. Előszeretettel rohamozzák meg ellenségeiket, "
+        "hogy testük súlyával zúzzák őket össze."
+
+msgid   "Grand Summoner"
+msgstr  "Nagy varázsló"
+
+msgid   "Great Efreeti"
+msgstr  "Nagy ifrit"
+
+msgid   "Great Hunter"
+msgstr  "Nagy vadász"
+
+msgid   "Great Hunter can slow enemies by throwing nets."
+msgstr  "A nagy vadászok lelassítják ellenségeiket a rájuk vetett hálóval."
+
+msgid   "Great Jinn"
+msgstr  "Nagy dzsinn"
+
+msgid   "Great Pikeman"
+msgstr  "Nagy pikás"
+
+msgid   "Great Warlock"
+msgstr  "Nagy sámán"
+
+msgid   "Great Warlock knows black magic well. He learned a secret of "
+        "levitation so he can move for a long distance. He is equipped with "
+        "scythe and he uses very powerful magic spells."
+msgstr  "A nagy táltos kiváló a feketemágiában. Megtanulta a lebegés "
+        "képességét, így messze távolságokra jut el rövid idő alatt. Kaszával "
+        "van felfegyverkezve, és erős varázslatokat használ."
+
+msgid   "Great Wyvern"
+msgstr  "Nagy sárkánykígyó"
+
+msgid   "Green Salamander"
+msgstr  "Zöld szalamandra"
+
+msgid   "Grenade: When this attack is used, all units adjecent to a target "
+        "get damage. Does not work on defense."
+msgstr  "Gránát: Amikor ezt a támadást használják, minden szomszédos egység "
+        "sebződik. Védekezés közben nem használható."
+
+msgid   "Growing fury: When this attack is used, this units damage increases "
+        "after each successful hit (+4)."
+msgstr  "Növekvő őrjöngés: Ennél a támadástípusnál minden találat után nő az "
+        "okozott sebzés nagysága (+4)."
+
+msgid   "Guru"
+msgstr  "Mester"
+
+msgid   "Hard landing"
+msgstr  "Megsemmisítő vég"
+
+msgid   "Hard landing: When this large unit is destroyed, it falls on a "
+        "ground dealing damage to all adjecent units. "
+msgstr  "Megsemmisítő vég: Amikor ez az egység meghal, a szomszédos "
+        "egységeknek is sebzést okoz."
+
+msgid   "He is the synonym of the darkness. His spellpower is the highest in "
+        "the era. When he is moving, he turns himself into bats. When night "
+        "begins, Master of Dakness is the most powerful unit in the game "
+        "during night."
+msgstr  "Ő testesíti meg a sötétséget. Varázsereje a korszakban a legnagyobb. "
+        "Amikor mozog, denevérformát ölt. Az éj leszálltával a Sötétség "
+        "Mestere válik a leghatalmasabb éjszakai egységgé."
+
+msgid   "He wears a good armor and is very dangerous because of his skills."
+msgstr  "Kitűnő vértje van, s képességei miatt nagyon veszélyes."
+
+msgid   "Heals +12:\n"
+        "Allows the unit to heal adjacent friendly units at the beginning of "
+        "each turn.\n"
+        "\n"
+        "A unit cared for by this healer may heal up to 12 HP per turn.\n"
+        "A curer can cure a unit of poison, although that unit will receive "
+        "no additional healing on the turn it is cured of the poison."
+msgstr  "Gyógyítás +12:\n"
+        "A közeli egységeket minden kör elején meggyógyítja.\n"
+        "\n"
+        "A meggyógyított egység legfeljebb 12 ÉP-t gyógyul körönként.\n"
+        "Az egység képes kikúrálni a mérgezésből is, ekkor viszont nem "
+        "gyógyul a páciens."
+
+msgid   "Heals +2:\n"
+        "Allows the unit to heal adjacent friendly units at the beginning of "
+        "each turn.\n"
+        "\n"
+        "A unit cared for by this healer may heal up to 2 HP per turn."
+msgstr  "Gyógyítás +2:\n"
+        "Minden kör elején gyógyít a szomszédos baráti egységen.\n"
+        "\n"
+        "A gyógyított egység legfeljebb 2 ÉP-t gyógyul körönként a "
+        "beavatkozás hatására."
+
+msgid   "Heavy Balloon"
+msgstr  "Nehéz ballon"
+
+msgid   "Heavy Camel Rider"
+msgstr  "Nehéz tevegelő"
+
+msgid   "Heavy Cavalry Archer"
+msgstr  "Páncélos lovas íjász"
+
+msgid   "Heavy Summoner"
+msgstr  "Tudós varázsló"
+
+msgid   "Help"
+msgstr  "Súgó"
+
+msgid   "Heroes+Magic"
+msgstr  "Hősök+Mágia"
+
+msgid   "Hidden Face"
+msgstr  "Álarcos"
+
+msgid   "Hidden faces are warriors who specialize in close combat, fast "
+        "strikes, and dodging."
+msgstr  "Az álarcosok a közelharcra specializálódtak, cselekkel, gyors "
+        "ütésekkel operálnak."
+
+msgid   "Hit and Run:\n"
+        "This unit gains 3 moves back after attacking, but cannot attack "
+        "again."
+msgstr  "Üss és fuss:\n"
+        "Ez az egység támadás után még rendelkezik 3 mozgásponttal, de "
+        "támadását már nem ismételheti meg."
+
+msgid   "Ho’rhami"
+msgstr  "Ho’rhami"
+
+msgid   "Hydra"
+msgstr  "Hidra"
+
+msgid   "Hydra's strike: This ability allows an owner to do damage to 2 "
+        "hostile units standing near a target."
+msgstr  "Hidraütés: Az ezzel a képességgel felruházott egység két szomszédos "
+        "mezőn álló ellenséges egységet tud megsebezni egy körben. "
+
+msgid   "I have insufficient materials. I am unable to summon."
+msgstr  "Nincs elégséges forrásom. Nem tudok idézni."
+
+msgid   "If the Dark Blood Tribe is known for something, it's their "
+        "shamanistic magic. Those saurians who choose to learn it are usually "
+        "frail of body and unfit to do battle physically. However, their "
+        "control of water magicks is invaluable in battle, both to heal their "
+        "allies, and to hurl balls of ice at their foes."
+msgstr  "Ha a Sötétvérű törzs valamiről ismert, az a sámáni mágiájuk. Azok a "
+        "gyíkok, akik ezt művelik, általában törékeny termetűek, s "
+        "alkalmatlanopk a fizikai harcra. Ezzel szemben a vízmágiájuk "
+        "megfizethetetlen a csatában, akár a szövetségeseket gyógyítják, akár "
+        "jéggolyókkal bombázzák az ellenséget."
+
+msgid   "In the middle of the Jungle of Life lies the Great Bog, dark and "
+        "marshy. It is said that many a creature make their homes there.\n"
+        "The saurians of the Dark Blood tribe are known to capture and tame "
+        "the Bog's giant Toads, riding their backs and using them as war "
+        "elephants of sorts; it is known that they use special lures to make "
+        "the Toads strike enemies with their long, sticky tongues."
+msgstr  "Az Élet Dzsungelének közepén fekszik a sötét és mocsaras Nagy Láp. "
+        "Azt mondják, hogy sok lénynek az otthona.\n"
+        "A Sötétvérű törzs gyíkjai arról ismertek, hogy óriási varangyokat "
+        "fognak el és szelidítenek meg, meglovagolják őket és egyfajta harci "
+        "elefántként használják őket; köztudottan speciális hinózist "
+        "alkalmaznak, hogy a varangyaik hosszú és ragadós nyelvükkel "
+        "csépeljék az ellenséget."
+
+msgid   "Inspire:\n"
+        "This unit can inspire friendly units that are next to it, making "
+        "them fight better.\n"
+        "\n"
+        "Adjacent friendly level 0 units will do 25% more damage in battle.\n"
+        "Adjacent friendly level 1 units will do 10% more damage in battle."
+msgstr  "Ösztönzés:\n"
+        "Ez az egység jobb harcra képes motiválni a mellette álló baráti "
+        "egységeket.\n"
+        "\n"
+        "A 0-s szintű baráti egységek 25%-kal nagyobbat sebeznek a harcban.\n"
+        "Az 1-s szintű baráti egységek 10%-kal nagyobbat sebeznek a harcban."
+
+msgid   "Inspire:\n"
+        "This unit can inspire friendly units that are next to it, making "
+        "them fight better.\n"
+        "\n"
+        "Adjacent friendly level 0 units will do 25% more damage in battle.\n"
+        "Adjacent friendly level 1 units will do 25% more damage in battle.\n"
+        "Adjacent friendly level 2 units will do 10% more damage in battle."
+msgstr  "Ösztönzés:\n"
+        "Ez az egység jobb harcra képes motiválni a mellette álló baráti "
+        "egységeket.\n"
+        "\n"
+        "A 0-s szintű baráti egységek 25%-kal nagyobbat sebeznek a harcban.\n"
+        "Az 1-s szintű baráti egységek 25%-kal nagyobbat sebeznek a harcban.\n"
+        "A 2-s szintű baráti egységek 10%-kal nagyobbat sebeznek a harcban."
+
+msgid   "Jinn"
+msgstr  "Dzsinn"
+
+msgid   "Kamikaze: this unit always hits a target when attacking, but it dies "
+        "instantly."
+msgstr  "Kamikaze: ez az egység mindig talál, de egyúttal maga is megsemmisül."
+
+msgid   "Kharos"
+msgstr  "Kharos"
+
+msgid   "Kharos War Banner"
+msgstr  "Kharos zászlótartó"
+
+msgid   "Kharosans use war banners to increase morale of all near troops. The "
+        "War Banner shows gold sun - emblem of the Kharos nation. Two people "
+        "protect the banner - one Cleric and soldier, who holds the banner. "
+        "The Cleric creates a special aura, which decreases power of "
+        "destructive spells casted on it."
+msgstr  "A Kharosiak hadizászlói ösztönzőleg hatnak a körülöttük lévő "
+        "egységekre. A zászlókon arany nap van - a kharos nép szimbóluma. Két "
+        "ember szolgál a zászló védelmére - egy pap és egy harcos, aki tartja "
+        "a zászlót. A pap speciális aurát kreál, amely megvédi őt a pusztító "
+        "mágikus támadásoktól."
+
+msgid   "Kirios"
+msgstr  "Kirios"
+
+msgid   "Made of Fire:\n"
+        "This unit is made of fire. If it stands in lava, it will recive 6 hp."
+msgstr  "Tűzlény:\n"
+        "Ez az egység tűzből áll. Ha lávaterepen áll, 6 ÉP-t gyógyul."
+
+msgid   "Made of Water:\n"
+        "This unit is made of water. As a result, if it is standing in water, "
+        "it will receive 6 hp."
+msgstr  "Vízlény:\n"
+        "Ez az egység vízből áll. Emiatt vízi terepen 6 ÉP-t gyógyul."
+
+msgid   "Mage of air"
+msgstr  "Szélmágus"
+
+msgid   "Mage of fire"
+msgstr  "Tűzmágus"
+
+msgid   "Mage of water"
+msgstr  "Vízmágus"
+
+msgid   "Magical Eye"
+msgstr  "Mágikus szem"
+
+msgid   "Magical Eyes are a breed of constructs Enlightened Magi often "
+        "animate. These Eyes are surrounded by a gold aura, focusing its "
+        "powers through their gaze, and usually 'seeing' and therefore "
+        "hitting their enemies often."
+msgstr  "A mágikus szemek a leggyakoribb, a megvilágosodott mágusok által "
+        "használt eszközök közül. Aranyló aura veszi őket körül, ennek "
+        "energiáját használva igézik meg ellenségeiket, ezáltal különösen "
+        "gyakran találják is el őket."
+
+msgid   "Master of Air"
+msgstr  "Szélmester"
+
+msgid   "Master of Darkness"
+msgstr  "Sötétség Mestere"
+
+msgid   "Master of Elements"
+msgstr  "Elemek mestere"
+
+msgid   "Master of Fire"
+msgstr  "Tűzmester"
+
+msgid   "Master of Sun"
+msgstr  "Napmester"
+
+msgid   "Master of Sun attacks in a twinkle of an eye, so enemy can't "
+        "succesfully defend himself. This amazing unit releases huge amounts "
+        "of sun energy in one point. This ability allows him to focus the sun "
+        "rays 6 times on a target."
+msgstr  "A napmester egy szempillantás alatt támad, így az ellenség képtelen "
+        "védekezni ellene. Ez a csodálatos egység nagy mennyiségű napenergiát "
+        "képes egy pontra összpontosítani. Ez a képesség egy támadás alatt "
+        "hatszori csapásra teszi alkalmassá az egységet."
+
+msgid   "Master of War"
+msgstr  "Háború Mestere"
+
+msgid   "Master of Water"
+msgstr  "Vízmester"
+
+msgid   "Mastermage"
+msgstr  "Mestermágus"
+
+msgid   "Mastermage knows all kinds of magic, so he can perform a lot of "
+        "different attacks. When Mastermage is under attack, he creates an "
+        "energy shield, which absorbs damage."
+msgstr  "A mestermágus minden varázslatot ismer, számos támadást képes "
+        "alkalmazni. Ha támadás éri, energiapajzsot generál, ami erősen "
+        "legyengíti a fizikai támadások erejét."
+
+msgid   "Masters of Water are powerful healers, and lords of their element. "
+        "Their control is so great that they are able to regenerate "
+        "themselves. They also slow their foes."
+msgstr  "A vízmesterek nagyerejű gyógyítók, s biztosan uralják elemüket. "
+        "Olyan hatalmuk van, hogy saját testüket is képesek regenerálni. "
+        "ezenkívül lelassítják ellenségeiket."
+
+msgid   "Matriarch of Darkness"
+msgstr  "Sötétség Ősanyja"
+
+msgid   "Matriarch of Emptiness"
+msgstr  "Üresség Ősanyja"
+
+msgid   "Matriarch of emtiness owns powerful orb, which drains all magical "
+        "energy from air. That means all spells do minimal damage."
+msgstr  "Az Üresség Ősanyjának van egy mágikus gömbje, amely magába szív "
+        "minden mágikus erőt a levegőből, ezért a mágikus támadások alig "
+        "ejtenek rajta némi karcolást."
+
+msgid   "Mechanic"
+msgstr  "Mechanikus"
+
+msgid   "Mechanical Dragon"
+msgstr  "Mechanikus sárkány"
+
+msgid   "Mighty Cyclops"
+msgstr  "Brutális küklopsz"
+
+msgid   "Mistress of Light is an extremely powerful healer. All friendly "
+        "units near her recive 12hp. She flies and illuminates.\n"
+        "\n"
+        "Special Notes: Ultracures: A unit cared for by this healer may heal "
+        "up to 12 HP per turn."
+msgstr  "A fénylő hölgy igen hatalmas gyógyító erővel bír. Minden baráti "
+        "egységet, amely mellette áll 12 ép-vel gyógyít. Tud repülni, s "
+        "megvilágítja környezetét.\n"
+        "\n"
+        "Megjegyzés: Szupergyógyítás: Az egység, amelyet ez a hatás ér, "
+        "legfeljebb 12 ép-t gyógyul körönként. "
+
+msgid   "Mountain Ambush:\n"
+        "This unit can hide in mountains and hills, and remain undetected by "
+        "its enemies.\n"
+        "\n"
+        "Enemy units cannot see this unit while it is in mountains or hills, "
+        "except if they have units next to it. Any enemy unit that first "
+        "discovers this unit immediately loses all its remaining movement."
+msgstr  "Hegyi rajtaütés:\n"
+        "Ez az egység képes elrejtőzni a hegyi és dombsági terepen, ezáltal "
+        "ellenfelei számára láthatatlanná válik.\n"
+        "\n"
+        "Az ellenséges egységek nem látják ezt az egységet, míg hegyen vagy "
+        "dombon áll, kivéve ha mellélépnek. Az első ellenséges egység, amely "
+        "felderíti ennek az egységnek a helyzetét, elveszti a mozgáspontjait."
+
+msgid   "Mu"
+msgstr  "Mu"
+
+msgid   "Mu is a creature with unknown origin. It is the cheapest unit in the "
+        "era, but not the weakest. A large group of these units can be "
+        "dangerous."
+msgstr  "A muk ismeretlen eredetű teremtmények. A korszak legolcsóbb, de nem "
+        "a leggyengébb egységei. Nagy tömegben veszélyessé válhatnak."
+
+msgid   "Mystic"
+msgstr  "Misztikus"
+
+msgid   "Mystic Warrior"
+msgstr  "Misztikus harcos"
+
+msgid   "Mystic warriors use special staffs to perform both their ranged and "
+        "melee attacks."
+msgstr  "A misztikus harcosok különleges botokat használnak közelharcban és "
+        "távolsági harcban is."
+
+msgid   "Mystical Jinn"
+msgstr  "Misztikus dzsinn"
+
+msgid   "Mystical Toad"
+msgstr  "Misztikus varangy"
+
+msgid   "Neutral Summoner"
+msgstr  "Semleges varázsló"
+
+msgid   "No"
+msgstr  "Nem"
+
+msgid   "Novice Summoner"
+msgstr  "Varázslótanonc"
+
+msgid   "Orcish Warbanner"
+msgstr  "Ork zászlótartó"
+
+msgid   "Orcish Warrior"
+msgstr  "Ork harcos"
+
+msgid   "Orcish leader:\n"
+        "This unit can lead our own Orcs that are next to it, making them "
+        "fight better.\n"
+        "\n"
+        "Adjacent own Orcs will do more damage in battle (20% more)."
+msgstr  "Ork vezér:\n"
+        "Ez az egység a mellette álló saját oldali orkokat jobb támadásra "
+        "sarkallja.\n"
+        "\n"
+        "A szomszédos mezőn álló saját oldali ork többet sebez csatában (20%-"
+        "kal)."
+
+msgid   "Pacificator"
+msgstr  "Békéltető"
+
+msgid   "Parachute: The pilot of this machine is equipped with parachute and "
+        "he can survive a destruction of his vehicle."
+msgstr  "Ejtőernyős: Ennek a masinának a pilótája fel van szerelve "
+        "ejtőernyővel, így túlélheti járművének megsemmisülését."
+
+msgid   "Parachutist"
+msgstr  "Ejtőernyős"
+
+msgid   "Platinum Warrior"
+msgstr  "Platinaharcos"
+
+msgid   "Platinum warriors are equipped with a very sharp sword, silver spear "
+        "and mace."
+msgstr  "A platinaharcosok nagyon éles karddal, ezüstpajzzsal és buzogánnyal "
+        "vannak felfegyverezve."
+
+msgid   "Promoted to the Second Degree, summoners are proficient enough to "
+        "perform minor summonings, using their own bodies as the medium. With "
+        "a magical circle traced in their hands, they can let loose magical "
+        "arrows that strike foes with surefire aim. Summoners, armed with "
+        "hammers and scimitars, are trained in slaying enemies in both close "
+        "quarters and afar.\n"
+        "\n"
+        "Special Notes: Precison: Ranged attack of this unit always has a 80% "
+        "chance to hit."
+msgstr  "Kettes fokozatot elérve a varázslók már elég gyakorlottak ahhoz, "
+        "hogy kisebb lényeket idézzenek meg, saját testüket használva "
+        "közvetítő közegként. A mágikus körüket használva mágikus nyilat "
+        "lövellhetnek az ellenségre a biztos találat tudatával. A varázslók, "
+        "pöröllyel és handzsárral felfegyverkezve, közeli és távoli "
+        "ellenségeket egyaránt megsemmisíthetnek.\n"
+        "\n"
+        "Megjegyzés: Precizitás: Az egység távoli támadása 80% "
+        "valószínűséggel talál."
+
+msgid   "Protector"
+msgstr  "Védelmező"
+
+msgid   "Protector holds a large towershield. He uses it to protect all "
+        "adjacent units. Their resistance increases."
+msgstr  "A védelmezők hatalmas pajzsokat hordoznak. Ezzel védik a szomszédos "
+        "egységeket. Az ellenállásuk is megnő."
+
+msgid   "Raging Cyclops"
+msgstr  "Őrjöngő küklopsz"
+
+msgid   "Raging Hydra"
+msgstr  "Őrjöngő hidra"
+
+msgid   "Random Default"
+msgstr  "Véletlen alapbeállítás"
+
+msgid   "Ranged Toad"
+msgstr  "Messzeköpő varangy"
+
+msgid   "Red Ulfserker"
+msgstr  "Vörös dühöngő"
+
+msgid   "Regenerates +4:\n"
+        "At the begining of each turn this unit heals +4 hp. If it is "
+        "poisoned, it will remove it instead of healing."
+msgstr  "felfrissülés +4:\n"
+        "Minden kör elején az egység 4 ép-t gyógyul. Ha mérgezett, akkor "
+        "gyógyulás helyett kikúrálódik a mérgezésből."
+
+msgid   "Repairs +5:\n"
+        "Allows the unit to repair adjacent friendly mechanical units at the "
+        "beginning of each turn.\n"
+        "\n"
+        "A unit cared for by this healer may heal up to 5 HP per turn."
+msgstr  "Javítás +5:\n"
+        "Az egység képes a mellette lévő baráti mechanikus egység "
+        "javítására.\n"
+        "\n"
+        "A javított egység életereje legfeljebb 5 ÉP-vel nő körönként."
+
+msgid   "Repairs +8:\n"
+        "Allows the unit to repair adjacent friendly mechanical units at the "
+        "beginning of each turn.\n"
+        "\n"
+        "A unit cared for by this healer may heal up to 8 HP per turn."
+msgstr  "Javítás +8:\n"
+        "Az egység képes a mellette lévő baráti mechanikus egység "
+        "javítására.\n"
+        "\n"
+        "A javított egység életereje legfeljebb 8 ÉP-vel nő körönként."
+
+msgid   "Revenger"
+msgstr  "Bosszúálló"
+
+msgid   "Rhami"
+msgstr  "Rhami"
+
+msgid   "Rhami'kais trade in their four scimitars for a single weapon: the "
+        "spear. With this, Rhami'kais attain more power and precision with "
+        "their attacks but at the loss of speed. RhamiKais, charismatic and "
+        "as sentient as humans, lead others into combat, organizing attacks "
+        "with timing and skill. Rhami'kais also can launch magical attacks "
+        "through their eyes that drain the strength and life of opponents "
+        "into their own."
+msgstr  "A rhami'kaik a handzsárjaikat egyetlen dárdára cserélték. Ennek "
+        "következtében nagyobb erővel és pontosabb támadással avatkozhatnak a "
+        "küzdelembe, viszont elveszítették gyorsaságukat. A rhami'kaik "
+        "fenségesek és érzékenyek, mint az emberek, született hadvezérek, "
+        "akik jól időzített támadásokat vezetnek. A rhami'kaik szemükből "
+        "mágikus sugarat lövellnek ellenségeikre, és elszívják annak "
+        "életerejét, hogy azzal is növeljék a sajátjukat. "
+
+msgid   "Rhami’datu"
+msgstr  "Rhami’datu"
+
+msgid   "Rhami’kai"
+msgstr  "Rhami’kai"
+
+msgid   "Roc Master"
+msgstr  "Rokhajcsár"
+
+msgid   "Roc Rider"
+msgstr  "Roklovas"
+
+msgid   "Rune Artist"
+msgstr  "Rúnaművész"
+
+msgid   "Rune Aura:\n"
+        "Adjacent friendly units on hexes: s, ne, nw receive a 99% bonus to "
+        "fire, cold and arcane resistance. Other units receive a -99% bonus "
+        "to fire, cold and arcane resistance."
+msgstr  "Rúnaaura:\n"
+        "A szomszédos baráti egységek ellenállása +99%-kal nő a tűz-, a hideg "
+        "és a földöntúli támadások ellen. A többi egység ellenállása 99%-kal "
+        "csökken ugyanezen támadások ellen."
+
+msgid   "Rune Aura:\n"
+        "When this ability is activated, all Rune Masters create special "
+        "auras. Adjacent friendly units on hexes: s, ne, nw receive a 99% "
+        "bonus to fire, cold and arcane resistance. Other units receive a "
+        "-99% bonus to fire, cold and arcane resistance. The transformation "
+        "lasts for one turn. Transformated unit cannot attack."
+msgstr  "Rúnaaura:\n"
+        "Amikor aktiválják ezt a képességet, a rúnamesterek egy speciális "
+        "aurát kreálnak."
+
+msgid   "Runeadept"
+msgstr  "Rúnatanítvány"
+
+msgid   "Runemaster"
+msgstr  "Rúnamester"
+
+msgid   "Runemasters"
+msgstr  "Rúnamesterek"
+
+msgid   "Runesmith"
+msgstr  "Rúnakovács"
+
+msgid   "Salamander"
+msgstr  "Szalamandra"
+
+msgid   "Saurian Pikeman"
+msgstr  "Gyík pikás "
+
+msgid   "Saurians are very small of frame, and though they are somewhat frail "
+        "because of this, they are very, very agile. In combat, their size "
+        "allows them to dart past defenses that would hold any grown man at "
+        "bay, making them a tricky foe to deal with.\n"
+        "\n"
+        "Spears are their preferred weapon, as their powerful hind legs can "
+        "drive a spear with enough force to do considerable damage, either in "
+        "hand or thrown."
+msgstr  "Habár kistermetűek a gyíkok, s emiatt törékenynek is tűnnek, nagyon "
+        "fürgék. Csatában a méretük miatt gyorsan a védők háta mögé "
+        "kerülhetnek, s ezzel sakkban tarthatják a nagytermetű embereket is; "
+        "kellő tisztelettel kell kezelni ezeket a trükkös ellenségeket.\n"
+        "\n"
+        "A dárdák a kedvenc fegyvereik, amelyet izmos hátsó lábaikra "
+        "támaszkodva kellő erővel tudnak harcba vetni, akár szúrnak vele, "
+        "akár elhajítják."
+
+msgid   "Savage and warlike Orcs form the back bone of the Barbarian hordes.\n"
+        "\n"
+        "Orc society is ill-suited to large-scale warfare, which leaves their "
+        "small tribes at prey to the more organised might of the world's "
+        "various armies. However in the last two centuries something has "
+        "changed. Orcs now fight with Cyclops, Trolls, Rocs and goblins side "
+        "by side whether it be in brutal hunting packs or full blown armies. "
+        "The origins of this change are unknown but one thing is sure, when "
+        "the barbarian hordes come screaming for your blood the Orcs will be "
+        "leading the charge."
+msgstr  "A kegyetlen és harcimádó orkok alkotják a barbár hordák gerincét.\n"
+        "\n"
+        "Az ork társadalomra súlyos csapást mértek a kiterjedt, nagyszabású "
+        "háborúk, mivel a kisebb törzsek hamar elvéreztek a jólszervezett "
+        "különböző eredetű seregekkel szemben. Az utóbbi két évszázad során "
+        "azonban valami megváltozott. Az orkokkal vállvetve napjainkban "
+        "küklopszok, trollok, rokmadarak és koboldok is harcolnak úgy az "
+        "egyszerű portyákon, mint az óriási sereggel bonyolított "
+        "hadjáratokon. Hogy mi okozta ezt a változást, senki sem tudja, de az "
+        "eredményt mindenki láthatja, amikor vad csatakiáltásokkal vérszomjas "
+        "orkok állnak a rohamozó csapatok élén. "
+
+msgid   "Scarce even in the Abyss, water gods have frozen into the shape of "
+        "glacial serpents. Despite their rigid appearance, these beasts of "
+        "water dart across the land with startling grace and flexibility. "
+        "Water gods are considered miracles of life by Summoners, the magical "
+        "water within them allowing them to remedy the wounds of allies by "
+        "their mere presence.\n"
+        "\n"
+        "Their arctic beauty and strength, dazzling to all who oppose the "
+        "Summoners, can freeze a man's heart even before his body is engulfed "
+        "in a bone-chilling blizzard."
+msgstr  "Néhány tengeristen még a Mélységben jégkígyó formába fagyott. Merev "
+        "formájuk ellenére meglepő hajlékonysággal és könnyedséggel szelik át "
+        "a szárazföldet. A tengeristeneket a varázslók az élet csodájának "
+        "tartják, a bennük lüktető mágikus víz hatására a szomszédos "
+        "szövetséges egységeket pusztán a jelenlétükkel gyógyítják.\n"
+        "\n"
+        "Hideg szépségük és erejük megbabonázza a varázslók ellenségeit, "
+        "szívüket hideg borzongás járja át, mielőtt testüket a hóvihar "
+        "csontig hatoló jégszilánkjai megfagyasztják."
+
+msgid   "Second target!"
+msgstr  "Újabb célpont!"
+
+msgid   "Shadow Matriarch knows no mercy. She creates dark aura, which makes "
+        "all enemy units inside fight worse. Also she can perform witch-fire "
+        "spell 7 times."
+msgstr  "A Sötétség Ősanyja nem ismer irgalmat. Sötét aurát bocsát ki "
+        "magából, amelyben minden ellenséges egység gyengébben harcol. "
+        "Ezenkívül hétszer csap le boszorkánytűzzel."
+
+msgid   "Shadowmage"
+msgstr  "Árnymágus"
+
+msgid   "Shadowmagi have learned the secrets of invisiblity. They are "
+        "completely invisible, but can still be seen in daylight because of "
+        "their equipment."
+msgstr  "Az árnymágusok megtanulták a láthatatlanság titkát. Teljesen "
+        "láthatatlanná válnak, de nappal a fegyverzetük miatt észlelhetők."
+
+msgid   "Shamanistic Adept"
+msgstr  "Gyakorló sámán"
+
+msgid   "Shamanistic Toad"
+msgstr  "Sámánvarangy"
+
+msgid   "Shielder"
+msgstr  "Pajzsos"
+
+msgid   "Shielder is a heavy unit with large shield. He is equipped with "
+        "spear. This unit is very steadfast, and if there is more of them "
+        "they can be unstopable."
+msgstr  "A pajzsos egy nehéz pajzzsal ellátott egység. Dárdája is van. "
+        "Robusztus egység, s ha többen vannak együtt, akkor "
+        "megállíthatatlanok."
+
+msgid   "Shooter"
+msgstr  "Lövész"
+
+msgid   "Silver Warrior"
+msgstr  "Ezüstharcos"
+
+msgid   "Sky Kingdom"
+msgstr  "Égi Királyság"
+
+msgid   "Slicer"
+msgstr  "Daraboló"
+
+msgid   "Some of the Corrupted Shamans do not come out of the Great Bog. "
+        "Instead, they opt to remain and find their fate there. Some of those "
+        "wander to a certain part of the Bog which is suffused with darkness. "
+        "Most of them die; the few who survive, probably through some sort of "
+        "deal with that place's dark rulers, come back... wrong. Their "
+        "personalities are wiped blank, and they serve as the darkness's "
+        "vehicles. They gain great power in its service, and their ability to "
+        "use the fires of the darkness itself and regenerate almost any wound "
+        "is infamous in some parts of the Bog."
+msgstr  "Néhány megrontott sámán nem merészkedik elő a Nagy Lápból. Ők "
+        "helyben maradva keresik a sorsukat. A Láp legsötétebb helyein "
+        "barangolnak. Legtöbbjük oda is veszik; az a kevés túlélő, aki "
+        "visszatér, valamilyen titkos egyezményt kötött a a sötétség "
+        "uraival... s ebben nincs semmi jó. Személyiségük gyökeres változáson "
+        "megy át, teljesen a sötétség uralma alatt állnak. Nagy erővel "
+        "bírnak, a sötétség tüzét használják, s szinte minden sebük "
+        "begyógyul, legalábbis ez a hír járja róluk."
+
+msgid   "Some of the Dark Blood Shamans get corrupted. By who, or what, "
+        "nobody knows, but it makes them exchange their Water Magic for that "
+        "of its polar opposite - Fire. They lose their healing abilities, but "
+        "they don't seem to care, as they say that Fire is inherently "
+        "supirior to Water.\n"
+        "Whatever corrupts them changes their personalities, too, making them "
+        "selfish and cruel. As a result, they are shunned from their tribes, "
+        "which exile them to the heart of the Great Bog. Forced to wander the "
+        "Bog for years, they usually make their way out and hire themselves "
+        "to some of the morally bankrupt Tribes."
+msgstr  "Néhány sámán s Sötétvérűek közül rontásnak esik áldozatul. Hogy ki "
+        "vagy mi rontja meg őket, azt senki sem tudja, de a vízmágia helyett "
+        "annak ellentétét használják - a tüzet. Elvesztik gyógyító "
+        "képességüket, de ezzel nem sokat törődnek, mivel a tűz szerintük "
+        "vitathatatlanul felülmúlja a vizet.\n"
+        "Akármi rontja meg őket, az a személyiségüket is megváltoztatja, "
+        "önzővé és kegyetlenné válnak. Emiatt fajtársaik is kerülik őket, s "
+        "ki is közösítik, s a Nagy Láp szívébe száműzik őket. A Lápban "
+        "vándorolva saját utakon járnak, s morálisan lesüllyedt törzsekhez "
+        "csapódnak. "
+
+msgid   "Sorcerer"
+msgstr  "Boszorkánymester"
+
+msgid   "Sorcerers are quite powerful while striking from far away, but are "
+        "weak melee fighters."
+msgstr  "A boszorkányok távolsági támadása komoly sebzést okoz, de "
+        "közelharcban gyengék."
+
+msgid   "Standard-bearers are an oddity amongst goblins. A goblin who has "
+        "survived enough battles to be considered a veteran is rare enough, "
+        "and it is rarer still for the other goblins to recognize and respect "
+        "his veteran status. Nonetheless, a rouser's frenzied goading "
+        "effectively steels the younger at arms to fight harder and longer "
+        "before they die."
+msgstr  "A zászlótartók a koboldok közt nagyon ritkák. Egy kobold, aki sok "
+        "csatát látott, és túl is élte azokat, olyan ritka a koboldok között, "
+        "hogy méltán kiérdemli a többiek tiszteletét és nagyrabecsülését. "
+        "Emiatt aztán a nógatásuk valósággal megacélozza az ifjú koboldokat, "
+        "akik keményebben és tovább harcolnak, mielőtt meghalnak."
+
+msgid   "Steam Berserker"
+msgstr  "Gőzös dühöngő"
+
+msgid   "Steam Ulfserker"
+msgstr  "Dühöngő gőzös"
+
+msgid   "Steam Ulfserkers are the face of any serious offensive movement. "
+        "Armoured and armed with steel, they cut through opposition lines "
+        "with ease, for these mechanical beings hold nothing back in a "
+        "assault. It results in locking the opponent in close combat, "
+        "attacking in a furious frenzy that only ends when either one is dead."
+msgstr  "A gőzös dühöngők minden komoly támadó hadmozdulat aktív részesei. "
+        "Acélfegyvereikkel és vértjeikkel könnyedén törnek át az ellenség "
+        "vonalain, mivel ezeket a szerkezeteket semmi sem tartja vissza a "
+        "rohamtól. Emiatt közelharcban ádáz dühvel vetik magukat a "
+        "küzdelembe, s csak "
+
+msgid   "Steamcopter"
+msgstr  "Gőzkopter"
+
+msgid   "Striding Machine"
+msgstr  "Lépegető"
+
+msgid   "Subversive Magi use black magicks to slow their enemies and to "
+        "batter them with missles of cold."
+msgstr  "A pusztító mágusok feketemágiát használnak ellenségeik "
+        "lelassítására, s fagyos fuvallatokkal való megsemmisítésére."
+
+msgid   "Subversive mage"
+msgstr  "Pusztító mágus"
+
+msgid   "Summon "
+msgstr  "Megidézés"
+
+msgid   "Summon Help"
+msgstr  "Megidézés súgója"
+
+msgid   "Summon Roc:\n"
+        "this unit can summon new units near him, but not in villages."
+msgstr  "Rokmadár megidézése:\n"
+        "ez az egység a szomszédos mezőre, ami nem falu, megidézhet egy új "
+        "egységet."
+
+msgid   "Summon:\n"
+        "this unit can summon new units near him, but not in villages."
+msgstr  "Megidézés:\n"
+        "ez az egység képes új lényeket megidézni a mellette álló mezőre, "
+        "kivéve falvakba."
+
+msgid   "Summoner"
+msgstr  "Varázsló"
+
+msgid   "Summons master"
+msgstr  "Mestervarázsló"
+
+msgid   "Sun Follower"
+msgstr  "Naphívő"
+
+msgid   "Sun Guardian"
+msgstr  "Napőr"
+
+msgid   "Swallow +4"
+msgstr  "Bekebelezés +4"
+
+msgid   "Swallow +4:\n"
+        "This unit gains 4 hitpoints added to its current health whenever it "
+        "kills a living unit."
+msgstr  "Bekebelezés +4:\n"
+        "Ez az egység 4 ép-vel növeli aktuális ép-jét valahányszor megöl egy "
+        "élő egységet."
+
+msgid   "Swamp Ambush:\n"
+        "This unit can hide in swamp, and remain undetected by its enemies.\n"
+        "\n"
+        "Enemy units cannot see this unit while it is in swamp, except if "
+        "they have units next to it. Any enemy unit that first discovers this "
+        "unit immediately loses all its remaining movement."
+msgstr  "Mocsári rajtaütés:\n"
+        "Ez az egység képes elrejtőzni a mocsárban, ezáltal ellenségei "
+        "számára láthatatlanná válik.\n"
+        "\n"
+        "Az ellenséges egységek nem látják ezt az egységet, míg mocsárban "
+        "áll, kivéve ha mellélépnek. Az első ellenséges egység, amely "
+        "felderíti ennek az egységnek a helyzetét, elveszti a mozgáspontjait. "
+
+msgid   "Swamp Mage"
+msgstr  "Mocsári mágus"
+
+msgid   "Sworddancer"
+msgstr  "Kardtáncos"
+
+msgid   "Technician"
+msgstr  "Technikus"
+
+msgid   "Tharis"
+msgstr  "Tharis"
+
+msgid   "The Abyss is home to aquatic beings composed of nothing more than "
+        "the same pure water essential for all living creatures. Such a being "
+        "is held together by a singular magical bond circulating its whole "
+        "watery form. This grants it regeneration when submerged in other "
+        "bodies of water. The extraordinary water in its body has moderate "
+        "healing properties, which can mend the injuries of allies. Less "
+        "volatile than the other inhabitants of the Abyss, water elementals "
+        "are preferred by the more conservative of summoners.\n"
+        "\n"
+        "Yet these elementals are by no means harmless, and the unwary "
+        "opponent may find their bodies frozen at a moment's glance, their "
+        "limbs transformed into cold, useless ice."
+msgstr  "A Mélység a hona azoknak a vízi lényeknek is, amelyek semmi másból, "
+        "csak tiszta vízből épülnek fel, amely minden más élő lény számára is "
+        "alapvető fontosságú. Ezt a lényt viszont csak a benne áramló mágikus "
+        "energia tartja össze. Ez az energia teszi lehetővé azt is, hogy más "
+        "testekből elvont vízzel regenerálódjon. A testében felhalmozott víz "
+        "ugyanakkor azt is lehetővé teszi, hogy a mellette lévő szövtséges "
+        "egységek kisebb sebeit begyógyítsa. A Mélység többi lakójához képest "
+        "kevésbé változékonyak, így a biztonságot kedvelő varázslók "
+        "előszeretettel idézik meg őket.\n"
+        "\n"
+        "Azért ezeket a lényeket sem kell teljesen ártalmatlannak tekinteni, "
+        "hiszen a figyelmetlen ellenség testét egy szempillantás alatt "
+        "dermesztő hideg éri, s végtagjai is elfagyhatnak."
+
+msgid   "The Hydra is a powerful beast with 3 heads. It regenerates itself "
+        "and performs 7 attack, when it has full hp."
+msgstr  "A hidra egy háromfejű, erős szörnyeteg. Életereje teljében hétszer "
+        "támad, s regenerálódik is."
+
+msgid   "The Kirios is the most powerful warrior in the Kharos nation. He is "
+        "a commander-in-chief of the Kharos army. His willpower is amazing. "
+        "There is no spell, which could stop him from reaching an enemy and "
+        "destroy it with one single solar beam (70% reduction in spell "
+        "damage)."
+msgstr  "A kirios a kharos nép legerősebb harcosa. Kharos hadseregének "
+        "vezérlő parancsnoka. Elképesztő akaratereje van. Nincs olyan "
+        "varázslat, ami megállíthatná, ha nekitámad egy ellenségnek, hogy "
+        "egyetlen napfénykévével megsemmisítse (70%-kal csökkenti a mágikus "
+        "támadások erejét)."
+
+msgid   "The Revenger is a heavy tactical defense unit. His retalitation "
+        "strikes are always successful."
+msgstr  "A bosszúálló egy nehézfegyverzettel ellátott védőegység. Az "
+        "ellencsapása mindig talál."
+
+msgid   "The Rocs of Thornspire Mountain had long grown fat off the flesh of "
+        "the goblins who lived below. It took one particularly mad and "
+        "foolhardy goblin to change the fate of his people when he set out to "
+        "tame the beasts. After several narrow escapes the goblin managed to "
+        "steal an egg from the great birds and rose it under his care. Less "
+        "then three months later when the Rocs attacked they were surprised "
+        "to hear a piercing cry from above and even more surprised when they "
+        "were ripped to shreds by one of their own. To this day the goblins "
+        "ride tamed Rocs into battle, their battle cries the only warning of "
+        "impending doom."
+msgstr  "A Thornspire-hegység rokmadarai sokáig az alant lakó koboldok "
+        "húsából híztak kövérre. Mígnem egy félőrült, merész kobold "
+        "gyökeresen új irányt szabott a történéseknek, s megszelidítette "
+        "ezeket a repülő bestiákat. Többszöri, hajszál híján tragikusan "
+        "végződő  kísérlet után sikerült egy tojást ellopnia a nagy "
+        "madaraktól, s kikeltenie és felnevelnie egy fiókát. Három hónappal "
+        "később a vadászó rokmadarakat egy éles vijjogással a levegőből "
+        "támadta meg, s szaggatta szét saját fajtársuk. Ettől a naptól kezdve "
+        "a koboldok rokmadarakon lovagolva mentek csatázni, s csatakiáltásuk "
+        "a közelgő végítélet előjelévé vált."
+
+msgid   "The Sun Follower is a very dangerous unit. His willpower is so high, "
+        "that he can negate some agressive spells (30% reduction in spell "
+        "damage)."
+msgstr  "A naphívők veszélyes egységek. Olyan akaraterővel rendelkeznek, hogy "
+        "a mágikus támadások csak csökkentett erővel hatnak rájuk (30%-kal "
+        "csökken a sebzés)."
+
+msgid   "The Sun Guardian is more powerful than Follower. Being so strong, he "
+        "is chosen to protect the most important shrines in the Kharos "
+        "country (50% reduction in spell damage)."
+msgstr  "A napőr sokkal erősebb, mint a hívő. Erejük miatt választották őket "
+        "Kharos legfontosabb szent helyeinek védelmére (50%-kal csökkenti a "
+        "mágikus támadások erejét)."
+
+msgid   "The Trolls within the Barbarian horde do not practice magic as it is "
+        "known to most races of the world although it easily could be "
+        "confused for such. Rather the rough skin of these mysterious "
+        "creatures when brought into rapid contact with itself can spark, "
+        "igniting any flammable materials around them. Thus with a snap of "
+        "the fingers trolls can ignite the small bundles of straw held within "
+        "their palms before flinging them at the enemy. Such is the "
+        "preternatural aim of the Troll Sorcerers that no matter where the "
+        "target is hiding they will unerringly seek it out."
+msgstr  "A barbár hordák trolljai közismerten nem használnak mágiát, de az "
+        "ilyen vélekedést könnyen összezavarhatják az ilyen jelenségek. "
+        "Valójában e misztikus lények durva bőre adja a jelenség kulcsát, "
+        "amely dörzsölés hatására szikrázik, s e szikrák gyújtanak meg "
+        "bármilyen gyúlékony anyagot. Ezt kihasználva a trollok "
+        "ujjpattintással szikrát csiholnak, ami meggyújtja a markukban "
+        "tartott szalmát, s ezt dobják az ellenségre. Így magyarázható a "
+        "troll boszorkányok természetfeletti képessége, s így hiába bújik el "
+        "a célpont, a támadás mindig eléri."
+
+msgid   "The most unswerving of all elementals are the ones born from the "
+        "earth. Such large elementals carry the strength of easily ten men "
+        "each, but their true function are living fortresses, defending lines "
+        "of troops with their uncompromising and sturdy rock-skin. Earth "
+        "elementals are capable of withstanding barrages of blows before "
+        "finally collapsing into shambles of stones, returning back to the "
+        "earth.\n"
+        "\n"
+        "After their summoning from the Abyss, earth elementals are imbued "
+        "with regenerative abilities by their summoners to improve them as "
+        "living shields, thus expanding their lifespans and their services to "
+        "their masters."
+msgstr  "Az elemi lények közül a földből születettek térnek el leginkább az "
+        "átlagostól. Ezek a hatalmas elemi lények tíz ember erejével bírnak, "
+        "de igazi hasznuk, hogy élő erődként használhatóak, az arcvonalakat "
+        "szilárdan tartják, mivel durva, kőkemény bőrüket alig fogja fegyver. "
+        "A földlények hatékonyan állnak ellen a csapásoknak mígnem apró "
+        "kavicsokra törik, s visszahull a porba.\n"
+        "\n"
+        "A Mélységből való megidézésük után a földlényeket regenerációs "
+        "képességgel ruházzák fel a varázslók, s így élettartamukat és "
+        "szolgálataikat is meghosszabbítva élő pajzsként használják őket."
+
+msgid   "These Magi are renowned for their speed and for their ability to "
+        "create powerful winds. In battle, they conjure deadly storms of "
+        "unspeakable power."
+msgstr  "Ezek a mágusok a gyorsaságukról közismertek, s arról, hogy hatalmas "
+        "szeleket képesek támasztani. A csaták hevében iszonyatos erejű "
+        "halálos viharokat kavarnak."
+
+msgid   "These beings are born from a ancient tradition, when dwarves become "
+        "attached to their creations, and instead of reducing robotic corpses "
+        "to scrap, they are often rebuilt as stronger, faster and sturdier "
+        "fighters.\n"
+        "    \n"
+        "The rust that forms their coat of paint is misleading, for they "
+        "outstrip their younger cousins in every aspect. The additional heavy "
+        "armour plating that is affixed upon them serves as a shield of "
+        "sorts, and such is their inward vigour and strength, that they can "
+        "turn back damage accrued through the tides of time through careful "
+        "conservation of energy."
+msgstr  "Ezek szerkezetek egy régihagyomány alapján születtek. A törpök "
+        "annyira kötődtek szerkentyűikhez, hogy a tönkrement  robottesteket "
+        "nem dobták a szemétdombra, hanem még erősebb, még gyorsabb, még "
+        "keményebb fromában újjáépítették.\n"
+        "    \n"
+        "A felületüket borító festés összetéveszthetetlen, s a korábbi "
+        "változatokat minden szempontból felülmúlják. Egy újabb "
+        "páncélréteggel felvértezett belső szerkezetük roppant ellenálló, s "
+        "nagy erőt képes kifejteni, s képesek ellenállni az idők során egyre "
+        "sokasodó rongálásoknak is."
+
+msgid   "These dwarves are recruited for their uncanny knack for engineering. "
+        "If their robotic creations are at the head of an offense, then the "
+        "mechanics form the backbone, repairing oil leaks, replacing broken "
+        "fuel tanks, and keeping the front line running in clockwork fashion. "
+        "Even if beset by opposition they hold their own, employing their "
+        "vast arsenal of tools to hold enemies at bay until their better "
+        "armoured brethren come to their rescue."
+msgstr  "Ezeket a törpöket a kiváló technikai érzékük miatt toborozták. Ha az "
+        "általuk alkotott masinák állnak a támadások élén, a mechanikusok ott "
+        "állnak mellettük, s megjavítják a szivárgó, megrongálódott "
+        "üzemanyagtartályokat, s biztosítják, hogy e masinák óraműszerűen "
+        "végezzék feladataikat. Ha az ellenség bekeríti őket, eszközeik "
+        "garmadáját használják fel, hogy feltartsák a támadókat, míg jobban "
+        "felfegyverzett társaik a segítségükre sietnek. "
+
+msgid   "These short but stout dwarfsmen are known as Runeadepts, forgers of "
+        "fire in ancient tongue. When grouped in numbers, they are a fearsome "
+        "sight to behold, and are armed with huge hammers that shatter "
+        "through the enemy front lines. Though the very sight of them is "
+        "intimidating enough, it is even more fearsome for the dwarven foe to "
+        "see the unrelenting accuracy of their attacks, for these items of "
+        "weaponary are imbued with potent forces of magic that rip through "
+        "any trick aimed at hazing assault."
+msgstr  "Ezek az alacsony, zömök törpök, mint rúnatanulmányozók ismertek, ősi "
+        "nyelven a tűz csiholói. Ha nagyobb számban jelennek meg, félelmetes "
+        "erőt képviselnek, hatalmas pörölyeikkel áttörnek bármilyen "
+        "ellenséges vonalon. Pusztán a látványuk is elegendő ahooz, hogy a "
+        "törpök ellenségeinek inába szálljon a bátorsága, s ez csak fokozódik "
+        "a támadások pontossága láttán, mivel a fegyvereiket átjáró mágia "
+        "hatástalanítja az ellenséges védekező trükköket."
+
+msgid   "This amazing monster is reinforced by black magic. It always brings "
+        "death."
+msgstr  "Ez a csodálatos szörnyeteg a feketemágiától nyeri erejét. S a halál "
+        "jár a nyomában."
+
+msgid   "This unit is less effective than white mage but it can perform more "
+        "magical attacks. The Cleric heals and leads other units.\n"
+        "\n"
+        "Special Notes:"
+msgstr  "Ez az egység kevésbé hatékony, mint a fehér mágus, de több mágikus "
+        "támadással bír. A próféta gyógyít és vezeti a sereget."
+
+msgid   "Though Runists in name, very few of dwarfish kin have both have the "
+        "capacity and the willingness to dedicate their existences in rune-"
+        "making. Instead, many will immerse themselves in what they believe "
+        "was nature's intended desire - the way of the warrior. Their dour, "
+        "stout figures serve them suitably, as they learn to wield weaponry "
+        "with born alacrity.\n"
+        "\n"
+        "If one seeks to incur a Dwarrow's wrath, then do so at your own "
+        "peril, for if any risk their lives intruding within the iron "
+        "strongholds which dwarves inhabit, then they will be greeted by "
+        "these foot soldiers, blade bearing warriors that are sure to fend "
+        "off any attempts at assault."
+msgstr  "Habár nevükben szerepel a rúna, a törpök közül kevesen rendelkeznek "
+        "a rúnavésés képességével, s még kevesebben hajlandók életüket e "
+        "képesség fejlesztésének szentelni. Ehelyett belemerülnek a "
+        "természetüknek jobban megfelelő harci kiképzésbe. Szikár, zömök "
+        "termetük megfelelően szolgálja őket, mivel velükszületett "
+        "fürgeségüknél fogva könnyen megtanulják a fegyverforgatást is.\n"
+        "\n"
+        "Ha valaki meg akarja ismerni a törpök haragját, csak saját "
+        "felelősségére próbálkozzon, hiszen vasból épült erődeikbe benyomulva "
+        "ezek a gyalogosok fogadják őket, akik félelmetes pengéikkel bármi "
+        "áron megakadályoznak mindenféle behatolási kísérletet."
+
+msgid   "To summon a unit right-click on adjacent hexes near a selected "
+        "summoner.\n"
+        "\n"
+        "You need all movement points (and remaining attacks) to summon one "
+        "creature. You are unable to summon from castles or keeps. A new unit "
+        "can't be summoned on water.\n"
+        "Every summoning adds +4 to current experience.\n"
+        "\n"
+        "If there are 2 or more summoners, a new unit will be summoned by the "
+        "last selected unit able to summon."
+msgstr  "Egy egység megidézéséhez jobbklikk a választott varázsló melleti "
+        "mezőre.\n"
+        " \n"
+        "Minden mozgáspontra szükség van (s támadási lehetőségre is) egy "
+        "egység megidézéséhez. Kastélyban, erődben nem lehet megidézni. Vízre "
+        "sem lehet lényt megidézni.\n"
+        "Minden megidézés +4 TP-növekedéssel jár.\n"
+        "\n"
+        "Ha két vagy több varázsló is képes megidézni az adott mezőre, akkor "
+        "az utoljára kiválasztott varázsló fogja megidézni a lényt. "
+
+msgid   "Toad"
+msgstr  "Varangy"
+
+msgid   "Troll Fire Wizard"
+msgstr  "Troll tűzvarázsló"
+
+msgid   "Troll Sorcerer"
+msgstr  "Troll boszorkány"
+
+msgid   "Troll Warbanner"
+msgstr  "Troll zászlótartó"
+
+msgid   "Troll leader:\n"
+        "This unit can lead our own Trolls that are next to it, making them "
+        "fight better. Also ALL adjacent friendly units receive a +30% bonus "
+        "to fire, cold and arcane resistance.\n"
+        "\n"
+        "Adjacent own Trolls will do more damage in battle (20% more) and all "
+        "adjecent friendly units gain better magical resistance (30% more "
+        "applied to fire, cold and arcane resistance)."
+msgstr  "Troll vezér:\n"
+        "Ez az gység a szomszédos mezőn álló saját oldali trollokat jobb "
+        "harcra ösztönzi. És MINDEN baráti egység 30% plusz ellenállással bír "
+        "a tűz, a hideg és a földöntúli támadások ellen.\n"
+        "\n"
+        "A szomszédos álló saját oldali troll többet sebez csatában (20%-kal) "
+        "és minden baráti egység plusz ellenállást kap a mágikus támadások "
+        "ellen (+30% a tűz, a hideg, a földöntúli támadások ellen)."
+
+msgid   "Troll shamans are the mystical leaders of the trolls. Though not as "
+        "strong or tough as other trolls, their true power lies in their fire "
+        "magic, which they use to blast enemies with gouts of fire."
+msgstr  "A troll sámánok a trollok misztikus vezetői. Habár nem olyan erősek, "
+        "mint a többi troll, igazi erejük a tűzmágiájukban rejtőzik, amelynek "
+        "segítségével pusztító tűzvihart bocsátanak ellenségeikre."
+
+msgid   "Um"
+msgstr  "Um"
+
+msgid   "Ums ('um' in single) are the Enlightened Kingdom's top secret "
+        "weapon. These powerful magical creatures are a result of long, hard "
+        "studies and experiments."
+msgstr  "Az umok a Megvilágosodottak Királyságának legtitkosabb fegyverei. "
+        "Ezek a nagyerejű mágikus kreatúrák hosszú tanulmányok és kísérletek "
+        "eredményei."
+
+msgid   "War Banner"
+msgstr  "Hadizászló"
+
+msgid   "War Mage"
+msgstr  "Harcimágus"
+
+msgid   "War Magi are equiped with longswords, and are quit proficient in "
+        "their use. They are also able to perform devastating ranged attacks."
+msgstr  "A harcimágusok pallosokkal vannak felfegyverezve, s félelmetesen "
+        "bánnak fegyverükkel. Emellett pusztító erejű távolsági támadásuk is "
+        "van."
+
+msgid   "Water Avatar"
+msgstr  "Folyamlény"
+
+msgid   "Water Elemental"
+msgstr  "Vízlény"
+
+msgid   "Water God"
+msgstr  "Tengeristen"
+
+msgid   "Water Magi use their power to heal, not to destroy. In battle, they "
+        "use their control of the water inside their enemies' bodies to slow "
+        "them, and conjure shards of ice with deadly accuracy."
+msgstr  "A vízmágusok gyógyításra használják erejüket, nem pusztításra. "
+        "Csatában a víz feletti uralmukat használva lelassítják "
+        "ellenségeiket, s halálos pontossággal céloznak jégcsapjaikkal."
+
+msgid   "When Mastermagi learn all of the world's secrets, they become gurus. "
+        "Gurus, due to their amazing knowledge of the world's occult secerts, "
+        "are fearsome warriors, crushing their enemies beneath great chunks "
+        "of rock they conjure out of nothing, and protecting themselves in "
+        "inpenetrable ice stases."
+msgstr  "Ha a mestermágusok megismerik a világ minden titkát, guruvá válnak. "
+        "A guruk, lévén birtokukban van a világ összes rejtett titka is, "
+        "félelmetes harcosok, a semmiből elővarázsolt sziklákkal morzsolják "
+        "szét ellenségeiket, s áthatolhatatlan jégburok övezi testüket."
+
+msgid   "Whitches are servants of darkness. They use special magic attack "
+        "called witch-fire. It is cheap spell and drains energy from an "
+        "enemy. In close range witches use their spears."
+msgstr  "A boszorkányok a sötétség szolgái. Speciális támadásukat "
+        "boszorkánytűznek nevezik. Ez egy olcsó varázslat, s az ellenség "
+        "életerejét szívják el. Közelharcban a boszorkányok a dárdájukat "
+        "használják."
+
+msgid   "White Warrior"
+msgstr  "Fehér harcos"
+
+msgid   "White warriors are equipped with a very sharp sword."
+msgstr  "A fehér harcosok nagyon éles karddal vannak felfegyverezve."
+
+msgid   "Witch"
+msgstr  "Boszorkány"
+
+msgid   "With the aid of steam genies, Steamcopters are able to move faster "
+        "and carry more bombs than Gyrocopters."
+msgstr  "A gőzdzsinnek segítségével a gőzkopterek gyorsabb mozgásra képesek, "
+        "és több bombát is képesek magukkal vinni, mint a helikopterek. "
+
+msgid   "Wonderful Jinn"
+msgstr  "Csodás dzsinn"
+
+msgid   "Wyvern"
+msgstr  "Sárkánygyík"
+
+msgid   "Wyvern Rider"
+msgstr  "Sárkánykígyólovas"
+
+msgid   "Wyvern Tamer"
+msgstr  "Sárkánykígyó-szelidítő"
+
+msgid   "Yes"
+msgstr  "Igen"
+
+msgid   "You don't have enough gold to activate the rune aura!"
+msgstr  "Nincs elég aranyad, hogy aktiváld a rúnaaurát!"
+
+msgid   "You will die in a twinkling of an eye."
+msgstr  "Meghalsz egy szempillantás alatt."
+
+msgid   "aimed shot"
+msgstr  "célzott lövés"
+
+msgid   "al-Kamija"
+msgstr  "al-Kamija"
+
+msgid   "always hits"
+msgstr  "mindig talál"
+
+msgid   "always hits:\n"
+        "This attack always has a 100% chance to hit"
+msgstr  "mindig talál:\n"
+        "Ez a támadás 100% eséllyel talál."
+
+msgid   "arrow"
+msgstr  "nyíl"
+
+msgid   "awaken"
+msgstr  "visszahívás"
+
+msgid   "awe"
+msgstr  "rémség"
+
+msgid   "awoken"
+msgstr  "visszahívott"
+
+msgid   "banish"
+msgstr  "irtás"
+
+msgid   "banish:\n"
+        "If a Banisher hits an enemy magical unit, the enemy will turn into a "
+        "DG 'Dimensional Gate', (this happens only if the target is exactly "
+        "one level below the banisher). If the enemy is at least two levels "
+        "below your banisher, it'll get completly destroyed. Any other enemy "
+        "won't be affected."
+msgstr  "irtás:\n"
+        "Ha egy szellemirtó megüt egy mágikus lényt, az átalakul dk-vé "
+        "'dimenziókapuvá', (ez csak akkor történik meg, ha a célpont egy "
+        "szinttel a támadó szintje alatt van). Ha a megtámadott egység "
+        "legalább két szinttel a támadó alatt van, akkor teljesen "
+        "megsemmisül. Más ellenséges egység esetén nem történik semmi."
+
+msgid   "banishment"
+msgstr  "likvidálás"
+
+msgid   "banner"
+msgstr  "hadizászló"
+
+msgid   "battlefrenzy"
+msgstr  "támadókedv"
+
+msgid   "beam"
+msgstr  "fénysugár"
+
+msgid   "bite"
+msgstr  "harapás"
+
+msgid   "blades"
+msgstr  "penge"
+
+msgid   "blinding light"
+msgstr  "vakító fénysugár"
+
+msgid   "blood gate"
+msgstr  "vérkapu"
+
+msgid   "bloodlust"
+msgstr  "vérszomj"
+
+msgid   "blue flame"
+msgstr  "kékláng"
+
+msgid   "bolas"
+msgstr  "bola"
+
+msgid   "bombs"
+msgstr  "bomba"
+
+msgid   "bow bash"
+msgstr  "íjütés"
+
+msgid   "bubble"
+msgstr  "buborék"
+
+msgid   "burner"
+msgstr  "lángszóró"
+
+msgid   "burning fist"
+msgstr  "égő ököl"
+
+msgid   "cannon"
+msgstr  "ágyú"
+
+msgid   "cave ambush"
+msgstr  "barlangi rajtaütés"
+
+msgid   "chakram"
+msgstr  "csakram"
+
+msgid   "charge"
+msgstr  "roham"
+
+msgid   "circle of balance"
+msgstr  "egyensúlyi kör"
+
+msgid   "circle of banishment"
+msgstr  "irtókör"
+
+msgid   "circle of banishment:\n"
+        "This unit can affect enemy magical units that are next to it, making "
+        "them fight worse.\n"
+        "\n"
+        "Adjacent enemy magical units of lower level will do less damage in "
+        "battle. When a unit adjacent to, of the same level, or a lower level "
+        "than, and is an enemy of the unit with Circle of Banishment engages "
+        "in combat, its attacks do less damage (-40% lvl0, -30% lvl1, -15% "
+        "lvl2, -10% lvl3)."
+msgstr  "irtókör:\n"
+        "Az egység köre csökkenti a szomszédos ellenséges egység erejét, s az "
+        "gyengébben harcol.\n"
+        "\n"
+        "A szomszédos alacsonyabb szintű ellenséges mágikus egység kisebbet "
+        "sebez a csatában. Ha a szomszédos mezőn álló egység az irtókörös "
+        "egység ellensége, s azonos vagy nála alacsonyabb szintű, akkor "
+        "sebzése a szintjétől függően csökken (-40% 0-s szinten, -30% 1-s "
+        "szinten, -15% 2-s szinten, -10% 3-s szinten)."
+
+msgid   "circle of destruction"
+msgstr  "pusztítókör"
+
+msgid   "circle of resistance"
+msgstr  "ellenállási kör"
+
+msgid   "claws"
+msgstr  "karom"
+
+msgid   "cleave"
+msgstr  "osztott csapás"
+
+msgid   "cold aura"
+msgstr  "hideg aura"
+
+msgid   "concentrated fire"
+msgstr  "koncentrált tűz"
+
+msgid   "crossbow x2"
+msgstr  "számszeríj x2"
+
+msgid   "cup of fire"
+msgstr  "tűzcsésze"
+
+msgid   "curse"
+msgstr  "átok"
+
+msgid   "cursed knifes"
+msgstr  "átkozott kés"
+
+msgid   "daggers"
+msgstr  "tőrök"
+
+msgid   "damned flame"
+msgstr  "átkozott láng"
+
+msgid   "dark aura"
+msgstr  "sötét aura"
+
+msgid   "dark ball"
+msgstr  "sötét labda"
+
+msgid   "dark spark"
+msgstr  "sötét szikra"
+
+msgid   "dart"
+msgstr  "minidárda"
+
+msgid   "deadzone"
+msgstr  "holtsáv"
+
+msgid   "defender"
+msgstr  "védelmező"
+
+msgid   "destruction"
+msgstr  "irtótűz"
+
+msgid   "devine spear"
+msgstr  "csodás dárda"
+
+msgid   "dimensional vortex"
+msgstr  "dimenziós örvény"
+
+msgid   "double attack"
+msgstr  "kettős támadás"
+
+msgid   "double devine spear"
+msgstr  "csodás dupladárda"
+
+msgid   "double divine spear"
+msgstr  "isteni dupladárda"
+
+msgid   "evasion"
+msgstr  "gyengítés"
+
+msgid   "evasion:\n"
+        "When this attack is used offensively, this unit takes one third less "
+        "damage in retaliation."
+msgstr  "gyengítés:\n"
+        "When this attack is used offensively, this unit takes one third less "
+        "damage in retaliation."
+
+msgid   "exlosive ammo"
+msgstr  "robbanó lövedék"
+
+msgid   "explosion"
+msgstr  "robbanás"
+
+msgid   "explosive ammo"
+msgstr  "robbanó lövedék"
+
+msgid   "eye"
+msgstr  "szem"
+
+msgid   "eye of the storm"
+msgstr  "hurrikán szeme"
+
+msgid   "fangs"
+msgstr  "agyar"
+
+msgid   "female^Adept of Light"
+msgstr  "Fénytanítvány"
+
+msgid   "female^Child of Light"
+msgstr  "Fénygyermek"
+
+msgid   "female^Cleric"
+msgstr  "Papnő"
+
+msgid   "female^Inspired"
+msgstr  "Ösztönzött"
+
+msgid   "female^Mistress of Light"
+msgstr  "Fényességes Hölgy"
+
+msgid   "female^Prophet of Light"
+msgstr  "Fénypróféta"
+
+msgid   "female^Sister of Light"
+msgstr  "Fénynővér"
+
+msgid   "female^awoken"
+msgstr  "visszahívott"
+
+msgid   "female^magical"
+msgstr  "mágikus lény"
+
+msgid   "fire"
+msgstr  "tűz"
+
+msgid   "fire arrow"
+msgstr  "tüzes nyíl"
+
+msgid   "fire blast"
+msgstr  "tűzcsapás"
+
+msgid   "fireball"
+msgstr  "tűzgolyó"
+
+msgid   "fist"
+msgstr  "ököl"
+
+msgid   "flame"
+msgstr  "láng"
+
+msgid   "flame blast"
+msgstr  "tűzvihar"
+
+msgid   "flames"
+msgstr  "lángnyelvek"
+
+msgid   "frozen fist"
+msgstr  "jeges ököl"
+
+msgid   "frozen gate"
+msgstr  "fagykapu"
+
+msgid   "furious death"
+msgstr  "tomboló halál"
+
+msgid   "fury"
+msgstr  "őrjöngés"
+
+msgid   "fusion"
+msgstr  "robbanás"
+
+msgid   "gaze"
+msgstr  "igézés"
+
+msgid   "goblin leader"
+msgstr  "kobold vezér"
+
+msgid   "grenade"
+msgstr  "gránát"
+
+msgid   "growing fury"
+msgstr  "növekvő őrjöngés"
+
+msgid   "gun"
+msgstr  "fegyver"
+
+msgid   "hammer"
+msgstr  "pöröly"
+
+msgid   "hatchet"
+msgstr  "hajítóbárd"
+
+msgid   "headbutt"
+msgstr  "homlok"
+
+msgid   "heals +2"
+msgstr  "gyógyítás +2"
+
+msgid   "hit"
+msgstr  "ütés"
+
+msgid   "hit and run"
+msgstr  "üss és fuss"
+
+msgid   "hurricane"
+msgstr  "hurrikán"
+
+msgid   "hydra's strike"
+msgstr  "hidraütés"
+
+msgid   "ice arrow"
+msgstr  "jeges nyíl"
+
+msgid   "ice strike"
+msgstr  "jeges csapás"
+
+msgid   "iceball"
+msgstr  "jéggolyó"
+
+msgid   "icecles"
+msgstr  "jégeső"
+
+msgid   "implosion"
+msgstr  "robbanás"
+
+msgid   "incantation of power"
+msgstr  "varázserő"
+
+msgid   "inferno"
+msgstr  "pokoli tűz"
+
+msgid   "inspire"
+msgstr  "ösztönzés"
+
+msgid   "kamikaze"
+msgstr  "kamikaze"
+
+msgid   "key"
+msgstr  "kulcs"
+
+msgid   "knives"
+msgstr  "kések"
+
+msgid   "landmass"
+msgstr  "göröngy"
+
+msgid   "lavahome"
+msgstr  "lávalakó"
+
+msgid   "lavahome:\n"
+        "This unit is made of fire. If it stands in lava, it will recive 6 hp."
+msgstr  "lávalakó:\n"
+        "Ez az egység tűzből áll. Ha lávaterepen áll, 6 ÉP-t gyógyul."
+
+msgid   "light focusing"
+msgstr  "lézerfény"
+
+msgid   "light touch"
+msgstr  "könnyed érintés"
+
+msgid   "lightning"
+msgstr  "villám"
+
+msgid   "lightning bolt"
+msgstr  "villámló bot"
+
+msgid   "lightstorm"
+msgstr  "fényvihar"
+
+msgid   "machine gun"
+msgstr  "gépfegyver"
+
+msgid   "magic"
+msgstr  "mágia"
+
+msgid   "magic arrow"
+msgstr  "mágikus nyíl"
+
+msgid   "magic arrow II"
+msgstr  "mágikus nyíl II"
+
+msgid   "magic missile"
+msgstr  "mágikus nyíl"
+
+msgid   "magical"
+msgstr  "mágikus lény"
+
+msgid   "magical dagger"
+msgstr  "mágikus tőr"
+
+msgid   "magical powder"
+msgstr  "mágikus por"
+
+msgid   "magical scimitar"
+msgstr  "mágikus handzsár"
+
+msgid   "matriarch-fire"
+msgstr  "ősanya-tűz"
+
+msgid   "megacircle"
+msgstr  "bűvkör"
+
+msgid   "megacircle:\n"
+        "This unit owns powerful magic circle which affects all units inside. "
+        "All friendly units fight better (+125%, +100%, +75%, +50%, +25% - "
+        "lvl 0, 1, 2, 3, 4) and regenerate themselves."
+msgstr  "bűvkör:\n"
+        "Ez az egység egy mágikus kisugárzással bír, amely a környező "
+        "egységekre hatást gyakorol. A baráti egységek jobban harcolnak "
+        "(+125%, +100%, +75% +50%, +25% - 0, 1, 2, 3, 4 szintű) és "
+        "regenerálódnak."
+
+msgid   "missile"
+msgstr  "lövedék"
+
+msgid   "mountain ambush"
+msgstr  "hegyi rajtaütés"
+
+msgid   "mu"
+msgstr  "mu"
+
+msgid   "net"
+msgstr  "háló"
+
+msgid   "no counter-attack"
+msgstr  "nincs ellentámadás"
+
+msgid   "no counter-attack:\n"
+        "The opponent has always a 0% chance to hit, when this unit is "
+        "attacking."
+msgstr  "nincs ellentámadás:\n"
+        "Az ellenséges egységnek esélye sincs, hogy ellentámadása sikerrel "
+        "jár."
+
+msgid   "orcish leader"
+msgstr  "ork vezér"
+
+msgid   "parachute"
+msgstr  "ejtőernyős"
+
+msgid   "paw"
+msgstr  "mancs"
+
+msgid   "piercing ammo"
+msgstr  "robbanótöltény"
+
+msgid   "poisoned arrow"
+msgstr  "mérgezett nyíl"
+
+msgid   "precision"
+msgstr  "precizitás"
+
+msgid   "precision:\n"
+        "This attack always has a 80% chance to hit"
+msgstr  "precizitás:\n"
+        "Ez a támadás mindig 80% eséllyel talál"
+
+msgid   "race+female^Cyclops"
+msgstr  "Küklopsz"
+
+msgid   "race+female^Human"
+msgstr  "Ember"
+
+msgid   "race+female^Magical"
+msgstr  "Mágikus lények"
+
+msgid   "race+female^Roc"
+msgstr  "Rokmadár"
+
+msgid   "race+female^Salamander"
+msgstr  "Szalamandra"
+
+msgid   "race+female^Tharis"
+msgstr  "Tharis"
+
+msgid   "race+plural^Magical"
+msgstr  "Mágikus lények"
+
+msgid   "race+plural^Tharis"
+msgstr  "Tharisok"
+
+msgid   "race^Cyclopes"
+msgstr  "Küklopszok"
+
+msgid   "race^Cyclops"
+msgstr  "Küklopsz"
+
+msgid   "race^Human"
+msgstr  "Ember"
+
+msgid   "race^Humans"
+msgstr  "Emberek"
+
+msgid   "race^Magical"
+msgstr  "Mágikus lény"
+
+msgid   "race^Roc"
+msgstr  "Rokmadár"
+
+msgid   "race^Rocs"
+msgstr  "Rokmadarak"
+
+msgid   "race^Salamander"
+msgstr  "Szalamandra"
+
+msgid   "race^Salamanders"
+msgstr  "Szalamandrák"
+
+msgid   "race^Tharis"
+msgstr  "Tharis"
+
+msgid   "range^kamikaze"
+msgstr  "kamikázé"
+
+msgid   "ray of light"
+msgstr  "fénysugár"
+
+msgid   "regenerates +4"
+msgstr  "felfrissülés +4"
+
+msgid   "repairs +5"
+msgstr  "javítás +5"
+
+msgid   "repairs +8"
+msgstr  "javítás +8"
+
+msgid   "revenge"
+msgstr  "bosszú"
+
+msgid   "revenge:\n"
+        "The unit has always a 100% chance to hit, during retalitation."
+msgstr  "bosszú:\n"
+        "Ez az egység mindig 100% eséllyel talál visszatámadáskor."
+
+msgid   "rune aura"
+msgstr  "rúnaaura"
+
+msgid   "runes"
+msgstr  "rúnák"
+
+msgid   "runic sword"
+msgstr  "rúnakard"
+
+msgid   "saw"
+msgstr  "fűrész"
+
+msgid   "scimitar"
+msgstr  "handzsár"
+
+msgid   "scimitar throw"
+msgstr  "hajítóhandzsár"
+
+msgid   "scream"
+msgstr  "sikoly"
+
+msgid   "screwdriver"
+msgstr  "csavarhúzó"
+
+msgid   "scroll"
+msgstr  "tekercs"
+
+msgid   "scythe"
+msgstr  "múmia"
+
+msgid   "secret hit"
+msgstr  "rejtett ütés"
+
+msgid   "shadow wave"
+msgstr  "árnyhullám"
+
+msgid   "shield"
+msgstr  "pajzs"
+
+msgid   "short circuit"
+msgstr  "rövidzár"
+
+msgid   "short-circuit"
+msgstr  "rövidzár"
+
+msgid   "small lightning"
+msgstr  "kis villám"
+
+msgid   "small thunder"
+msgstr  "kis zivatar"
+
+msgid   "solar beam"
+msgstr  "fénykéve"
+
+msgid   "sparks"
+msgstr  "szikrák"
+
+msgid   "spear"
+msgstr  "dárda"
+
+msgid   "spear throw"
+msgstr  "hajítódárda"
+
+msgid   "staff"
+msgstr  "bot"
+
+msgid   "summon"
+msgstr  "megidézés"
+
+msgid   "summon roc"
+msgstr  "rokmadár megidézése"
+
+msgid   "swallow +4"
+msgstr  "bekebelezés +4"
+
+msgid   "swamp ambush"
+msgstr  "mocsári rajtaütés"
+
+msgid   "sword"
+msgstr  "kard"
+
+msgid   "sword+axe"
+msgstr  "kard+bárd"
+
+msgid   "sworddance"
+msgstr  "kardtánc"
+
+msgid   "swords"
+msgstr  "kardok"
+
+msgid   "tackle"
+msgstr  "szerszám"
+
+msgid   "thunder"
+msgstr  "zivatar"
+
+msgid   "tongue"
+msgstr  "nyelv"
+
+msgid   "touch"
+msgstr  "érintés"
+
+msgid   "touch of magic"
+msgstr  "mágikus érintés"
+
+msgid   "trample"
+msgstr  "taposóláb"
+
+msgid   "tree"
+msgstr  "fa"
+
+msgid   "tree thrown"
+msgstr  "hajítófa"
+
+msgid   "troll leader"
+msgstr  "troll vezér"
+
+msgid   "ultra circle"
+msgstr  "ultrakör"
+
+msgid   "ultracures"
+msgstr  "szupergyógyítás"
+
+msgid   "ultraspeed"
+msgstr  "villámütés"
+
+msgid   "um"
+msgstr  "um"
+
+msgid   "water"
+msgstr  "víz"
+
+msgid   "water Ambush:\n"
+        "This unit can hide in water, and remain undetected by its enemies.\n"
+        "\n"
+        "Enemy units cannot see this unit while it is in water, except if "
+        "they have units next to it. Any enemy unit that first discovers this "
+        "unit immediately loses all its remaining movement."
+msgstr  "Vízi rajtaütés:\n"
+        "Ez az egység a vízben képes elrejtőzni, s így ellenségei számára "
+        "láthatatlanná válik.\n"
+        "\n"
+        "Az ellenséges egységek nem látják ezt az egységet, míg vízben áll, "
+        "kivéve ha mellélépnek. Az első ellenséges egység, amely felderíti "
+        "ennek az egységnek a helyzetét, elveszti a mozgáspontjait."
+
+msgid   "water ambush"
+msgstr  "vízi rajtaütés"
+
+msgid   "water blast"
+msgstr  "hullámverés"
+
+msgid   "waterhome"
+msgstr  "vízlakó"
+
+msgid   "waterhome:\n"
+        "This unit is made of water. If it stands in water, it will receive 6 "
+        "hp."
+msgstr  "vízlakó:\n"
+        "Ez az egység vízből áll. Ha vízi terepen áll, 6 ÉP-t gyógyul."
+
+msgid   "white sword"
+msgstr  "fehér kard"
+
+msgid   "witch-fire"
+msgstr  "boszorkánytűz"
+
+msgid   "wrist blade"
+msgstr  "csuklópenge"
+
+msgid   "yellow flame"
+msgstr  "sárga láng"

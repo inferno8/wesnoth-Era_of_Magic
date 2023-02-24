@@ -1,0 +1,3374 @@
+msgid   ""
+msgstr  "Project-Id-Version: \n"
+        "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
+        "PO-Revision-Date: 2022-12-31 10:23+0100\n"
+        "Language-Team: \n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=UTF-8\n"
+        "Content-Transfer-Encoding: 8bit\n"
+        "X-Generator: Poedit 2.4.1\n"
+        "Last-Translator: \n"
+        "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n"
+        "%100<12 || n%100>14) ? 1 : 2);\n"
+        "Language: pl\n"
+
+msgid   "(INACTIVE IN RPG MODE)"
+msgstr  "(NIEAKTYWNE W TRYBIE RPG)"
+
+msgid   "+$this_unit.level exp"
+msgstr  "+$this_unit.level exp"
+
+msgid   "+1 max hp"
+msgstr  "+ 1max hp"
+
+msgid   "+3 exp"
+msgstr  "+3 doświadczenie"
+
+msgid   "+4 max hp"
+msgstr  "+4 max hp"
+
+msgid   "+5 max hp"
+msgstr  "+5 max hp"
+
+msgid   "+8 max hp"
+msgstr  "+8 max hp"
+
+msgid   "+First strike to melee attacks; +5 max HP; +20% XP"
+msgstr  "+Pierwszy cios dla ataków wręcz; +5 do maksymalnych punktów życia, "
+        "+20% XP"
+
+msgid   "+Skirmisher; +30% XP"
+msgstr  "+Harcownik; +30% XP"
+
+msgid   "- All water tiles around this unit turn to ice on this unit's next "
+        "turn (this effect lasts 1 turn).\n"
+        "- The owner of this ability deals 4 cold damage to adjacent enemies "
+        "every turn.\n"
+        "- All adjacent units with water regeneration (including Water "
+        "Elementals and their advancements) become slowed.\n"
+        "- Area around this unit provides a 40% (50% max) bonus to fire "
+        "resistance and a −25% (-75% max) reduction to cold resistance.\n"
+        "- This ability does not affect other units with the same ability.\n"
+        "- This ability does not work on tiles affected by the heat aura "
+        "ability."
+msgstr  "- Wszystkie wodne heksy wokół tej jednostki zamieniają się w lód na "
+        "następnej turze tej jednostki (efekt ten trwa 1 turę).\n"
+        "- Właściciel tej zdolności zadaje 4 obrażenia od zimna sąsiadującym "
+        "wrogom co turę.\n"
+        "- Wszystkie przyległe jednostki z regeneracją wody (w tym Żywiołaki "
+        "Wody i ich wyższe poziomy) zostają spowolnione.\n"
+        "- Obszar wokół tej jednostki zapewnia 40% (50% max) premii do "
+        "odporności na ogień i -25% (-75% max) redukcji do odporności na "
+        "zimno.\n"
+        "- Ta zdolność nie wpływa na inne jednostki z tą samą zdolnością.\n"
+        "- Ta zdolność nie działa na heksy w zasięgu zdolności 'Aura ciepła'."
+
+msgid   "2nd attack"
+msgstr  "2. atak"
+
+msgid   "<span color='red'>-50%</span> to arcane resistance\n"
+        "<span color='red'>-20%</span> to all other resistances\n"
+        "<span color='red'>-20%</span> to damage"
+msgstr  "<span color='red'>-50%</span> do odporności na tajemny typ obrażeń\n"
+        "<span color='red'>-20%</span> do pozostałych odporności\n"
+        "<span color='red'>-20%</span> do zadawanych obrażeń"
+
+msgid   "A long time ago, there was a magnificent civilization of "
+        "Runemasters. They lived in isolation at the North Pole, extracting "
+        "power crystals - the source of energy for their mechanical creations "
+        "like steam robots, tanks and even flying mechanical dragons. The "
+        "Runemasters were the last nation to face the Destroyers' killing "
+        "spree, and thanks to these stunning constructs, managed to stop the "
+        "enemy, but at a great cost. The dwarves are now considered almost "
+        "extinct, yet their machines still function, and guard their ancient "
+        "lands to this day."
+msgstr  "Dawno temu istniała wspaniała cywilizacja starożytnych krasnoludów. "
+        "Żyli w izolacji na biegunie północnym, wydobywając kryształy mocy - "
+        "źródło energii dla swoich mechanicznych konstrukcji, takich jak "
+        "roboty parowe, czołgi, a nawet latające mechaniczne smoki. Dzięki "
+        "tym oszałamiającym konstrukcjom Mistrzowie Run byli ostatnim "
+        "narodem, który stawił czoła potężnym Niszczycielom i nawet był w "
+        "stanie ich powstrzymać, lecz za ogromną cenę. Krasnoludy są teraz "
+        "uważane za niemal wymarłe, ale ich maszyny wciąż funkcjonują i "
+        "strzegą swoich starożytnych ziem po dziś dzień."
+
+msgid   "A unit with this ability can hurt 3 adjacent units standing behind "
+        "the defender. Only works on offense."
+msgstr  "Jednostka z tą zdolnością potrafi razić 3 przyległe jednostki "
+        "stojące za broniącą się jednostką. Działa tylko w ofensywie."
+
+msgid   "A unit with this ability can hurt units that are adjacent to the "
+        "attacker and the defender at the same time.\n"
+        "This ability does not work against berserker units."
+msgstr  "Jednostka posiadająca tą zdolność potrafi ranić też inne jednostki "
+        "przylegające do niej i do przeciwnika.\n"
+        "Umiejętność ta nie działa wobec berserkerów."
+
+msgid   "A unit with this ability can hurt units that are adjacent to the "
+        "attacker and the defender at the same time. The damage dealt equals "
+        "50% of the base damage.\n"
+        "This ability does not work against berserker units."
+msgstr  "Jednostka posiadająca tą zdolność potrafi ranić też inne jednostki "
+        "przylegające do niej i do przeciwnika. Zadane obrażenia wynosić będą "
+        "50% głównego ataku.\n"
+        "Umiejętność ta nie działa wobec berserkerów."
+
+msgid   "A unit with this ability can hurt units that are adjacent to the "
+        "attacker and the defender at the same time. The damage dealt equals "
+        "{DISPLAYVALUE}% of the base damage.\n"
+        "This ability does not work against berserker units."
+msgstr  "Jednostka posiadająca tą zdolność potrafi ranić też inne jednostki "
+        "przylegające do niej i do przeciwnika. Zadane obrażenia wynosić będą "
+        "{DISPLAYVALUE}% głównego ataku.\n"
+        "Umiejętność ta nie działa wobec berserkerów."
+
+msgid   "A variant of Era of Magic designed for playing scenarios which "
+        "involve elements of roleplaying (RPG) by having lvl1 units as "
+        "leaders with empty recruit lists."
+msgstr  "Wariant Ery Magii zaprojektowany specjalnie na potrzeby scenariuszy "
+        "uwzględniających elementy odgrywania ról (RPG) gdzie liderami są "
+        "jednostki poziomu 1 a rekrutacja jest wyłączona."
+
+msgid   "A variant of Era of Magic with higher level units: level 3 leaders, "
+        "with level 1 and 2 units available for recruit. Not considered "
+        "balanced."
+msgstr  "Wariant Ery Magii z wysokopoziomowymi jednostkami: liderami 3 "
+        "poziomu i rekrutami o poziomach 1 i 2. Ten tryb nie jest "
+        "zbalansowany."
+
+msgid   "A variant of Era of Magic with higher level units: level 3-4 "
+        "leaders, with level 2 and 3 units available for recruit. Not "
+        "considered balanced."
+msgstr  "Wariant Ery Magii z jednostkami wyższego poziomu: przywódcy poziomu "
+        "4, jednostki do rekrutacji na poziomach 2 i 3. Niezbalansowane."
+
+msgid   "Abaddon"
+msgstr  "Abaddon"
+
+msgid   "Activate Aura (15 Gold)"
+msgstr  "Aktywacja Aury (15 szt. złota)"
+
+msgid   "Activate Aura (20 Gold)"
+msgstr  "Aktywuj aurę (20 szt. złota)"
+
+msgid   "Activate aura? (15 Gold)"
+msgstr  "Aktywować aurę? (15 szt. złota)"
+
+msgid   "Activate aura? (20 Gold)"
+msgstr  "Aktywować aurę? (20 szt. złota)"
+
+msgid   "Adjacent friendly units receive a +20% bonus to all resistances (up "
+        "to a maximum of 40%)."
+msgstr  "Sąsiednie przyjazne jednostki zyskują bonus +20% do wszystkich "
+        "odporności (do maksymalnie 40%)."
+
+msgid   "Adjacent units on hexes: n, se, sw receive a 99% bonus to fire, cold "
+        "and arcane resistance. Other units receive a -99% bonus to fire, "
+        "cold and arcane resistance."
+msgstr  "Przyległe jednostki na heksach: n, se, sw otrzymują 99% bonus do "
+        "ognia, chłodu i tajemnego typu obrażeń. Pozostałe jednostki "
+        "otrzymują -99% do tych samych typów obrażeń."
+
+msgid   "Adjacent units on hexes: s, ne, nw receive a 99% bonus to fire, cold "
+        "and arcane resistance. Other units receive a -99% bonus to fire, "
+        "cold and arcane resistance."
+msgstr  "Przyległe jednostki na heksach: s, ne, nw otrzymują 99% bonus do "
+        "ognia, chłodu i tajemnego typu obrażeń. Pozostałe jednostki "
+        "otrzymują -99% do tych samych typów obrażeń."
+
+msgid   "Advance Drone"
+msgstr  "Zaawansowany Dron"
+
+msgid   "Aeromancer"
+msgstr  "Mag Powietrza"
+
+msgid   "Aida,Aisha,Aliya,Amina,Aasma,Adara,Afra,Alima,Amira,Aziza,Badia,"
+        "Dariya,Dimah,Farah,Naniya,Heena,Hidaya,Inaya,Jahara,Jamila,Jazmin,"
+        "Karima,Khadija,Layla,Naia,Nailah,Naima,Nashita,Qadira,Rayah,Rima,"
+        "Sabah,Shaheen,Takisha,Thana,Veeda,Yasmin,Ziya,Zaida"
+msgstr  "Aida,Aisha,Aliya,Amina,Aasma,Adara,Afra,Alima,Amira,Aziza,Badia,"
+        "Dariya,Dimah,Farah,Naniya,Heena,Hidaya,Inaya,Jahara,Jamila,Jazmin,"
+        "Karima,Khadija,Layla,Naia,Nailah,Naima,Nashita,Qadira,Rayah,Rima,"
+        "Sabah,Shaheen,Takisha,Thana,Veeda,Yasmin,Ziya,Zaida"
+
+msgid   "Air Avatar"
+msgstr  "Awatar Powietrza"
+
+msgid   "Air Elemental"
+msgstr  "Żywiołak Powietrza"
+
+msgid   "Air God"
+msgstr  "Bóstwo Powietrza"
+
+msgid   "Alib,Kalib,Balib,Safay,Jaffar,Semir,Celal,Fatih,Ferhan,Mustafa,"
+        "Mehmet,Melih,Ali,Adem,Ahmet,Altan,Ismet,Ibrahim,Hakan,Kemal,Kenan,"
+        "Rafet,Tahir,Yasar,Yasin,Yusuf,Ahmed,Najib,Samir,Hassan,Hisham,Karim,"
+        "Saif,Rahul,Rohan,Rohit,Nikhil,Shahrukh,Krishi"
+msgstr  "Alib,Kalib,Balib,Safay,Jaffar,Semir,Celal,Fatih,Ferhan,Mustafa,"
+        "Mehmet,Melih,Ali,Adem,Ahmet,Altan,Ismet,Ibrahim,Hakan,Kemal,Kenan,"
+        "Rafet,Tahir,Yasar,Yasin,Yusuf,Ahmed,Najib,Samir,Hassan,Hisham,Karim,"
+        "Saif,Rahul,Rohan,Rohit,Nikhil,Shahrukh,Krishi"
+
+msgid   "All adjacent enemy units take damage equal to 15% of damage they "
+        "deal. This ability cannot, of itself, kill a unit. It will remain on "
+        "a battlefield with 1 HP instead."
+msgstr  "Wszystkie pobliskie wrogie jednostki otrzymują 15% obrażeń, które "
+        "same zadadzą tej jednostce. Ta zdolność sama w sobie nie może "
+        "wyeliminować jednostek. Pozostaną one na polu bitwy z 1 punktem "
+        "życia."
+
+msgid   "All adjacent enemy units’ fire, cold, and arcane resistances are "
+        "weakened by 20%."
+msgstr  "Wszystkie sąsiadujące wrogie jednostki mają obniżoną odporność na "
+        "ogień, chłód i tajemny typ obrażeń o 20%."
+
+msgid   "All adjacent friendly units next to this unit receive a +20% bonus "
+        "to fire, cold, and arcane resistances."
+msgstr  "Wszystkie sąsiednie przyjazne jednostki otrzymują +20% bonus do "
+        "odporności na ogień, chłód i tajemny typ obrażeń."
+
+msgid   "All living non-magical enemy units adjacent to this unit lose 2 HP "
+        "and become poisoned at the beginning of this unit's turn. If an "
+        "enemy unit's HP goes to or below 0 HP, its HP are set to 1."
+msgstr  "Wszystkie żyjące nie-magiczne jednostki przyległe do tej jednostki "
+        "tracą 2 HP i zostają zatrute na początku każdej tury tej jednostki. "
+        "Jeśli HP zatruwanej jednostki spadnie poniżej 0, to ustawiane jest "
+        "na wartość 1."
+
+msgid   "Allows the unit to heal adjacent allied units at the beginning of "
+        "its turn.\n"
+        "\n"
+        "A unit cared for by this healer may heal up to {VALUE} HP per turn, "
+        "or stop poison from taking effect for that turn.\n"
+        "A poisoned unit cannot be cured of its poison by a healer, and must "
+        "seek the care of a village or a unit that can cure."
+msgstr  "Pozwala jednostce leczyć sąsiadujące jednostki sojusznicze na "
+        "początku swojej tury.\n"
+        "\n"
+        "Jednostka, którą opiekuje się ten uzdrowiciel, może uleczyć do "
+        "{VALUE} HP na turę lub zatrzymać działanie trucizny w tej turze. \n"
+        "Zatruta jednostka nie może zostać wyleczona ze swojej trucizny przez "
+        "uzdrowiciela i musi szukać opieki we wiosce lub być obok jednostki, "
+        "która może ją wyleczyć."
+
+msgid   "Allows the unit to repair adjacent friendly mechanical units at the "
+        "beginning of each turn.\n"
+        "\n"
+        "A unit cared for by this mechanic may heal up to {VALUE} HP per turn."
+msgstr  "Pozwala jednostce naprawiać pobliskie mechaniczne jednostki na "
+        "początku swojej tury.\n"
+        "\n"
+        "Jednostka naprawiona odzyskuje {VALUE} HP."
+
+msgid   "Allows the unit to repair adjacent friendly undead units at the "
+        "beginning of each turn.\n"
+        "\n"
+        "A unit cared for by this healer may heal up to {VALUE} HP per turn."
+msgstr  "Pozwala jednostce naprawiać pobliskie mechaniczne jednostki na "
+        "początku swojej tury.\n"
+        "\n"
+        "Jednostka naprawiona odzyskuje {VALUE} HP."
+
+msgid   "Apocalypse"
+msgstr  "Apokalipsa"
+
+msgid   "Architect"
+msgstr  "Architekt"
+
+msgid   "Area around this unit is mostly purged from most kinds of magic "
+        "(anti-shield attacks still work fine)\n"
+        "- all adjacent units (including enemies) receive a 70% bonus to "
+        "fire, cold, and arcane resistances (up to a maximum of 70%),\n"
+        "- healing and circle of susceptibility around this unit do not work."
+msgstr  "Obszar wokół tej jednostki jest pozbawiony magii (ataki anty-"
+        "tarczowe działają jednak prawidłowo)\n"
+        "- wszystkie przyległe jednostki (również wrogie) otrzymują 70% bonus "
+        "do ognia, chłodu i tajemnego typu obrażeń (maksymalnie do 70%),\n"
+        "- leczenie oraz krąg podatności w pobliżu tej jednostki nie będą "
+        "działać."
+
+msgid   "Area around this unit provides a bonus to cold resistance (max 50%). "
+        "This ability does not affect other units with the same ability, fire "
+        "elementals and Masters of Fire. This ability negates effects of the "
+        "cold aura ability."
+msgstr  "Obszar wokół tej jednostki zapewnia bonus do odporności na chłód "
+        "(maksymalnie 50%). Ta zdolność nie działa na inne jednostki "
+        "posiadające tą samą zdolność, żywiołaki ognia oraz Mistrzów Ognia. "
+        "Ta zdolność neguje działanie aury chłodu."
+
+msgid   "At night this unit transforms into its alternative version."
+msgstr  "W nocy ta jednostka przemienia się w swoją alternatywną wersję."
+
+msgid   "At the beginning of each turn this unit heals +6 hp. If it is "
+        "poisoned, it will remove the poison instead of healing."
+msgstr  "Na początku każdej tury jednostka odzyskuje 6 punktów życia. Jeśli "
+        "jest zatruta to najpierw usunie truciznę, a dopiero w następnej "
+        "turze odzyska punkty życia."
+
+msgid   "At the edge of the Great Desert lies a sacred land - The Jungle of "
+        "Life. This mysterious place is inhabited by one of the oldest "
+        "civilizations on the planet - the Darkblooded. Their nation is "
+        "rather diverse: sneaky salamanders, majestic wyverns, huge toads and "
+        "clans of lizards - all living in a perfect harmony with nature. But "
+        "there is also a Great Bog - a place filled with darkness, where "
+        "corrupted shamans and other exiled creatures worship pure chaos..."
+msgstr  "Na skraju Wielkiej pustyni leży uświęcona ziemia - Dżungla Życia. To "
+        "tajemnicze miejsce jest zamieszkiwane przez jedną z najstarszych "
+        "cywilizacji na świecie - Ciemnokrwistych. Ich naród jest niezwykle "
+        "zróżnicowany: podstępne salamandry, majestatyczne Wiwerny, ogromne "
+        "ropuchy i klany jaszczurek - wszyscy żyją w harmonii z naturą. Ale "
+        "istnieje również Wielkie Bagno - miejsce wypełnione ciemnością, "
+        "gdzie skorumpowani szamani i inne wygnane istoty czczą chaos..."
+
+msgid   "Atokpi"
+msgstr  "Atokpi"
+
+msgid   "Atokpi Charger"
+msgstr  "Szarżujący Atokpi"
+
+msgid   "Atokpi General"
+msgstr  "Generał Atokpi"
+
+msgid   "Atokpi Infantry"
+msgstr  "Piechur Atokpi"
+
+msgid   "Atokpi Master"
+msgstr  "Mistrz Atokpi"
+
+msgid   "Atokpi Samurai"
+msgstr  "Samuraj Atokpi"
+
+msgid   "Avenger"
+msgstr  "Mściciel"
+
+msgid   "Balloon"
+msgstr  "Balon"
+
+msgid   "Banisher"
+msgstr  "Wyganiacz"
+
+msgid   "Barbarian"
+msgstr  "Barbarzyńca"
+
+msgid   "Barbarian Berserker"
+msgstr  "Barbarzyński Berserker"
+
+msgid   "Barbarian King"
+msgstr  "Barbarzyński Król"
+
+msgid   "Barbarian Lord"
+msgstr  "Barbarzyński Władca"
+
+msgid   "Barbarians"
+msgstr  "Barbarzyńcy"
+
+msgid   "Battle Eye"
+msgstr  "Bitewne Oko"
+
+msgid   "Battle Mage"
+msgstr  "Mag Bitewny"
+
+msgid   "Battle Toad"
+msgstr  "Bitewna Ropucha"
+
+msgid   "Battlecopter"
+msgstr  "Bitwokopter"
+
+msgid   "Belonging to a race already small in statue Goblin runts are born "
+        "smaller and weaker then most. Indeed it is a wonder that such tiny "
+        "creatures can fight at all, armed as they are with any piece of "
+        "pointy scrap metal found lying around. Their superiors use them for "
+        "cannon fodder, hurling them into impossible situations with often "
+        "surprising results."
+msgstr  "Gobliny, wbrew wielu przeczącym przekazom, zdają się być wręcz "
+        "urodzone do wojny. Pomimo ich słabości i tchórzostwa, w "
+        "społeczeństwie goblinów absolutnie nie ma nikogo, kto by nie "
+        "walczył. W ten sposób powstają hordy wymachujących włóczniami, "
+        "miernych wojowników, którzy gotowi są zmiażdżyć każdego wroga, o ile "
+        "tylko będą mieli przewagę siedmiu do jednego. Mimo, że w wielu "
+        "sercach widok szarżujących, potykających się o swe własne włócznie "
+        "goblinów stanowi widok bardziej śmieszny niż przerażający, to nie "
+        "można odmówić im zajadłości i zaangażowania. Przynajmniej do czasu, "
+        "kiedy przechylająca się w nie tę stronę co trzeba sytuacja nie "
+        "skłoni ich do ucieczki... --barowei"
+
+msgid   "Black Mage"
+msgstr  "Czarny Mag"
+
+msgid   "Black Orb"
+msgstr  "Czarna Kula"
+
+msgid   "Black Portal"
+msgstr  "Czarny Portal"
+
+msgid   "Black Salamander"
+msgstr  "Czarna Salamandra"
+
+msgid   "Blade Dancer"
+msgstr  "Tancerz Ostrzy"
+
+msgid   "Bladefury"
+msgstr  "Furia Ostrzy"
+
+msgid   "Blademaster"
+msgstr  "Mistrz Ostrzy"
+
+msgid   "Blood Warrior"
+msgstr  "Krwawy Wojownik"
+
+msgid   "Blue Salamander"
+msgstr  "Błękitna Salamandra"
+
+msgid   "Bone Beast"
+msgstr  "Koścista Bestia"
+
+msgid   "Bone Giant"
+msgstr  "Kościany Gigant"
+
+msgid   "Bone Golem"
+msgstr  "Kościany Golem"
+
+msgid   "Bronze Warrior"
+msgstr  "Brązowy Wojownik"
+
+msgid   "Build Drone"
+msgstr  "Zbuduj Drona"
+
+msgid   "Camel Master"
+msgstr  "Mistrz Wielbłądów"
+
+msgid   "Camel Rider"
+msgstr  "Wielbłądzi Jeździec"
+
+msgid   "Carpet Master"
+msgstr  "Mistrz Dywanów"
+
+msgid   "Carpet Rider"
+msgstr  "Jeździec Dywanów"
+
+msgid   "Cavalry Archer"
+msgstr  "Konny Łucznik"
+
+msgid   "Chainlady"
+msgstr  "Łańcuchowa Dama"
+
+msgid   "Chaos Hydra"
+msgstr  "Hydra Chaosu"
+
+msgid   "Chaos Wyvern"
+msgstr  "Chaotyczna Wiwerna"
+
+msgid   "Chaos Wyvern Rider"
+msgstr  "Chaotyczna Wiwerna"
+
+msgid   "Chaotic Observer"
+msgstr  "Chaotyczny Obserwator"
+
+msgid   "Chosen of Forest"
+msgstr  "Wybraniec Lasu"
+
+msgid   "Chosen of Marsh"
+msgstr  "Wybraniec Bagien"
+
+msgid   "Chronomancer"
+msgstr  "Chronomanta"
+
+msgid   "Clan Leader"
+msgstr  "Przywódca Klanu"
+
+msgid   "Constructor"
+msgstr  "Konstruktor"
+
+msgid   "Copied!"
+msgstr  "Skopiowany!"
+
+msgid   "Corrupted Shaman"
+msgstr  "Zdeprawowany Szaman"
+
+msgid   "Cosmic Eye"
+msgstr  "Kosmiczne Oko"
+
+msgid   "Crimson Atokpi"
+msgstr  "Karmazynowy Atokpi"
+
+msgid   "Crimson Blade"
+msgstr  "Karmazynowe Ostrze"
+
+msgid   "Cumbersome and lacking fine intellect, the Cyclops race had been "
+        "driven near to extinction before becoming a part of the barbarian "
+        "horde. Two centuries later and these lumbering beasts have "
+        "flourished, growing in both strength and number. Some say that it "
+        "was a strange magic which bound the cyclopes to their new allegiance "
+        "and is perhaps a reason for their increased power. One thing about "
+        "these beasts is a certainty: when facing one in combat it is best "
+        "not to get hit."
+msgstr  "Toporna i mało inteligentna rasa Cyklopów o mało nie wymarła przed "
+        "przyłączeniem się do barbarzyńskich hord. Dwieście lat później te "
+        "ciężko stąpające bestie ponownie urosły w liczbie i sile. Niektórzy "
+        "mówią, że to na skutek działania jakiejś dziwnej magii, która "
+        "uczyniła z Cyklopów istoty bardziej pokorne niż wcześniej i która "
+        "jednocześnie zwiększyła ich wytrzymałość. Jedno jest pewne: jeśli "
+        "mierzysz się w walce z jednym z nich, lepiej żebyś nie oberwał."
+
+msgid   "Cyclops"
+msgstr  "Cyklop"
+
+msgid   "Cyclops Breaker"
+msgstr  "Cyklop Łamacz"
+
+msgid   "Cyclops Brute"
+msgstr  "Cyklop Brutal"
+
+msgid   "Cyclops Goliath"
+msgstr  "Cyklop Goliat"
+
+msgid   "Cyclops Lord"
+msgstr  "Cyklop Władca"
+
+msgid   "Cyclops Necromancer"
+msgstr  "Cyklop Nerkormanta"
+
+msgid   "Cyclops Noble"
+msgstr  "Cyklop Magnat"
+
+msgid   "Cyclops Skeleton"
+msgstr  "Cyklop Szkielet"
+
+msgid   "Cyclops Warmonger"
+msgstr  "Cyklop Podżegacz"
+
+msgid   "Dark Apostle"
+msgstr  "Mroczny Apostoł"
+
+msgid   "Dark Assassin"
+msgstr  "Mroczny Zabójca"
+
+msgid   "Dark Atokpi"
+msgstr  "Mroczny Atokpi"
+
+msgid   "Dark Blood Alliance"
+msgstr  "Sojusz Ciemnokrwistych"
+
+msgid   "Dark Commander"
+msgstr  "Mroczny Dowódca"
+
+msgid   "Dark Executioner"
+msgstr  "Mroczny Egzekutor"
+
+msgid   "Dark General"
+msgstr  "Mroczny Generał"
+
+msgid   "Dark Hunter"
+msgstr  "Mroczny Myśliwy"
+
+msgid   "Dark Observer"
+msgstr  "Mroczny Obserwator"
+
+msgid   "Dark Portal"
+msgstr  "Mroczny Portal"
+
+msgid   "Dark Slayer"
+msgstr  "Mroczny Morderca"
+
+msgid   "Dark Warlord"
+msgstr  "Mroczny Władca"
+
+msgid   "Dark Warrior"
+msgstr  "Mroczny Wojownik"
+
+msgid   "Dark Wizard"
+msgstr  "Mroczny Czarodziej"
+
+msgid   "Destroyers"
+msgstr  "Niszczyciele"
+
+msgid   "Devourer"
+msgstr  "Pożeracz"
+
+msgid   "Dharma’rhami"
+msgstr  "Dharma'rhami"
+
+msgid   "Dimensional Gate"
+msgstr  "Wrota Wymiarów"
+
+msgid   "Dimensional Gate II"
+msgstr  "Wrota Wymiarów II"
+
+msgid   "Disciple"
+msgstr  "Uczeń"
+
+msgid   "Dispeller"
+msgstr  "Odczyniacz"
+
+msgid   "Doom Bringer"
+msgstr  "Zwiastun Zagłady"
+
+msgid   "Dreadnought"
+msgstr  "Pancernik"
+
+msgid   "Drone"
+msgstr  "Dron"
+
+msgid   "Dwarvish Cadet"
+msgstr  "Krasnoludzki Kadet"
+
+msgid   "Dwarvish Cannoneer"
+msgstr  "Krasnoludzki Kanonier"
+
+msgid   "Dwarvish Gunner"
+msgstr  "Krasnoludzki Strzelec"
+
+msgid   "Dwarvish Mobile Turret"
+msgstr  "Krasnoludzka Mobilna Wieżyczka"
+
+msgid   "Dwarvish Rune Lord"
+msgstr  "Krasnoludzki Władca Run"
+
+msgid   "Dwarvish Runic Warrior"
+msgstr  "Runiczny Wojownik"
+
+msgid   "Dwarvish Soldier"
+msgstr  "Krasnoludzki Żołnierz"
+
+msgid   "Dwarvish Tank"
+msgstr  "Krasnoludzki Czołg"
+
+msgid   "Dwarvish Veteran"
+msgstr  "Krasnoludzki Weteran"
+
+msgid   "Dwarvish Warrior"
+msgstr  "Krasnoludzki Wojownik"
+
+msgid   "Earth Avatar"
+msgstr  "Awatar Ziemi"
+
+msgid   "Earth Elemental"
+msgstr  "Żywiołak Ziemi"
+
+msgid   "Earth God"
+msgstr  "Bóstwo Ziemi"
+
+msgid   "Efreeti"
+msgstr  "Ifryt"
+
+msgid   "Elemental Archer"
+msgstr  "Elementarny Łucznik"
+
+msgid   "Elementalist"
+msgstr  "Elementalista"
+
+msgid   "Elite Camel Rider"
+msgstr  "Elitarny Wielbłądzi Jeździec"
+
+msgid   "Enemy magical attacks (fire, cold and arcane with the magical or "
+        "enchanted special) deal two thirds of the base damage (rounded up) "
+        "back to the attackers (applying the attacker's resistances). When "
+        "the attacker goes to or below 0 HP, it is not killed, instead its HP "
+        "are set to 1."
+msgstr  "Wrogie magiczne lub zaklęte ataki (oparte na ogniu, chłodzie lub "
+        "tajemnym typie obrażeń) zadają 2/3 obrażeń (zaokrąglone w górę) "
+        "samym atakującym (z uwzględnieniem ich odporności). Kiedy zdrowie "
+        "atakującego spadnie poniżej 0 HP, jednostka pozostaje na polu bitwy "
+        "z 1 HP życia."
+
+msgid   "Era of Magic"
+msgstr  "Era Magii"
+
+msgid   "Era of Magic (Age of Heroes)"
+msgstr  "Era Magii (Wiek Bohaterów)"
+
+msgid   "Era of Magic (Masters)"
+msgstr  "Era Magii (Mistrzowie)"
+
+msgid   "Era of Magic (RPG)"
+msgstr  "Era Magii (RPG)"
+
+msgid   "Error"
+msgstr  "Błąd"
+
+msgid   "Extinct Cyclops Mage"
+msgstr  "Wymarły Cyklopi Mag"
+
+msgid   "FURY!"
+msgstr  "FURIA!"
+
+msgid   "Fallen Cyclops King"
+msgstr  "Upadły Cyklopi Król"
+
+msgid   "Fanatic"
+msgstr  "Fanatyk"
+
+msgid   "Fire Avatar"
+msgstr  "Awatar Ognia"
+
+msgid   "Fire Elemental"
+msgstr  "Żywiołak Ognia"
+
+msgid   "Fire God"
+msgstr  "Bóstwo Ognia"
+
+msgid   "Fire Swordsman"
+msgstr  "Ognisty Szermierz"
+
+msgid   "Flying Drone"
+msgstr  "Latający Dron"
+
+msgid   "Flying Fortress"
+msgstr  "Latająca Forteca"
+
+msgid   "Forest Spirit"
+msgstr  "Duch Lasu"
+
+msgid   "Forest Spirit Help"
+msgstr  "Pomoc Ducha Lasu"
+
+msgid   "Frontliner"
+msgstr  "Frontowiec"
+
+msgid   "Give addtional armor"
+msgstr  "Daj dodatkowy pancerz"
+
+msgid   "Give berserer ai module"
+msgstr  "Daj moduł SI berserkera"
+
+msgid   "Give better blades"
+msgstr  "Daj lepsze ostrza"
+
+msgid   "Give damage rune"
+msgstr  "Daj runę zniszczenia"
+
+msgid   "Give rotor"
+msgstr  "Daj śmigła"
+
+msgid   "Give runic plate"
+msgstr  "Daj pancerz runiczny"
+
+msgid   "Goblin Archer"
+msgstr  "Goblin Łucznik"
+
+msgid   "Goblin Assassin"
+msgstr  "Goblin Zabójca"
+
+msgid   "Goblin Druid"
+msgstr  "Goblin Druid"
+
+msgid   "Goblin Hunter"
+msgstr  "Goblin Myśliwy"
+
+msgid   "Goblin Invader"
+msgstr  "Goblin Najeźdźca"
+
+msgid   "Goblin Kamikaze"
+msgstr  "Goblin Kamikaze"
+
+msgid   "Goblin Raider"
+msgstr  "Goblin Łupieżca"
+
+msgid   "Goblin Runt"
+msgstr  "Mały Goblin"
+
+msgid   "Goblin Shaman"
+msgstr  "Goblin Szaman"
+
+msgid   "Goblin Sniper"
+msgstr  "Goblin Snajper"
+
+msgid   "Goblin Veteran"
+msgstr  "Goblin Weteran"
+
+msgid   "Goblin Warbanner"
+msgstr  "Gobliński Chorąży"
+
+msgid   "Goblin Warrior"
+msgstr  "Goblin Wojownik"
+
+msgid   "Goblin Wizard"
+msgstr  "Goblin Czarodziej"
+
+msgid   "Golden Mage"
+msgstr  "Złoty Mag"
+
+msgid   "Golden Warrior"
+msgstr  "Złoty Wojownik"
+
+msgid   "Golem"
+msgstr  "Golem"
+
+msgid   "Grand Kharosian Warbanner"
+msgstr  "Wielka Chorągiew Kharosjańska"
+
+msgid   "Grand Summoner"
+msgstr  "Wielki Przywoływacz"
+
+msgid   "Great Efreeti"
+msgstr  "Wielki Ifryt"
+
+msgid   "Great Hunter"
+msgstr  "Wielki Łowca"
+
+msgid   "Great Hydra"
+msgstr  "Wielka Hydra"
+
+msgid   "Great Jinni"
+msgstr  "Wielki Dżin"
+
+msgid   "Great Warlock"
+msgstr  "Wielki Czarnoksiężnik"
+
+msgid   "Great Witch"
+msgstr  "Wielka Wiedźma"
+
+msgid   "Great Wyvern"
+msgstr  "Wielka Wiwerna"
+
+msgid   "Greater Cyclops Skeleton"
+msgstr  "Większy Cyklopi Szkielet"
+
+msgid   "Green Salamander"
+msgstr  "Zielona Salamandra"
+
+msgid   "Guru of Magic"
+msgstr  "Guru Magii"
+
+msgid   "Harbinger"
+msgstr  "Zwiastun Zła"
+
+msgid   "Heal +25 with Forest Spirit"
+msgstr  "Ulecz +25 Leśnym Duchem"
+
+msgid   "Heavy Balloon"
+msgstr  "Ciężki Balon"
+
+msgid   "Heavy Cavalry"
+msgstr  "Ciężki Kawalerzysta"
+
+msgid   "Heavy Summoner"
+msgstr  "Ciężki Przywoływacz"
+
+msgid   "Help"
+msgstr  "Pomoc"
+
+msgid   "Hidden Face"
+msgstr  "Zamaskowany"
+
+msgid   "Hoplite"
+msgstr  "Hoplita"
+
+msgid   "Ho’rhami"
+msgstr  "Ho'rhami"
+
+msgid   "Hydra"
+msgstr  "Hydra"
+
+msgid   "Hydromancer"
+msgstr  "Mag Wody"
+
+msgid   "I don't have enough gold. I am unable to recruit."
+msgstr  "Nie mam wystarczającej ilości złota. Nie mogę rekrutować."
+
+msgid   "I have insufficient materials. I am unable to summon."
+msgstr  "Nie mam wystarczającej ilości materiałów. Nie jestem w stanie "
+        "dokonać przywołania."
+
+msgid   "If a friendly adjacent unit with more than one hitpoint dies, it is "
+        "resurrected, gets +6 experience and remains in battle with one "
+        "hitpoint. If it dies again (having one hitpoint), it will be killed "
+        "for sure.\n"
+        "Doesn't work on units attacked indirectly e.g. by area weapons."
+msgstr  "Jeśli przyjazna sąsiednia jednostka zginie, zostaje wskrzeszona, "
+        "dostaje +6 punktów doświadczenia i pozostaje na polu bitwy z jednym "
+        "punktem życia. Jeśli zginie ponownie (mając 1 punkt życia), nie "
+        "będzie można wskrzesić jej ponownie.\n"
+        "Nie działa w przypadku jednostek pokonanych niebezpośrednio, np. za "
+        "pomocą broni obszarowych."
+
+msgid   "If this attack hits an enemy magical unit, the enemy will turn into "
+        "a ‘Dimensional Gate’, (this happens only if the target is of lower "
+        "level in comparison to the owner of this weapon special). If the "
+        "enemy is of the same level, then it won't be affected."
+msgstr  "Jeśli ten atak trafi wrogą jednostkę magiczną, zamieni ją we 'Wrota "
+        "Wymiarów' (tylko pod warunkiem, że przeciwnik jest poziom niżej od "
+        "jednostki, która wykonuje ten atak). Jeśli jednostka przeciwnika "
+        "jest na tym samym poziomie, zdolność nie zadziała."
+
+msgid   "Infernal Vortex"
+msgstr  "Piekielny Wir"
+
+msgid   "Install kamikaze module"
+msgstr  "Zainstaluj moduł kamikaze"
+
+msgid   "Jinni"
+msgstr  "Dżin"
+
+msgid   "Jungle Blowgunner"
+msgstr  "Strzelec Dżungli"
+
+msgid   "Jungle Champion"
+msgstr  "Czempion Dżungli"
+
+msgid   "Jungle Crossbowman"
+msgstr  "Kusznik Dżungli"
+
+msgid   "Jungle Guardian"
+msgstr  "Strażnik Dżungli"
+
+msgid   "Jungle Pikeman"
+msgstr  "Pikinier Dżungli"
+
+msgid   "Kharos"
+msgstr  "Kharos"
+
+msgid   "Kharos War Banner"
+msgstr  "Szandar Wojenny Kharos"
+
+msgid   "Kharosian Bulwark"
+msgstr  "Kharosański Bastion"
+
+msgid   "Kharosian Cataphract"
+msgstr  "Kharosański Katafrakt"
+
+msgid   "Kharosian Impaler"
+msgstr  "Kharosański Chorąży"
+
+msgid   "Kharosian Javelineer"
+msgstr  "Kharosański Oszczepnik"
+
+msgid   "Kharosian Legionnaire"
+msgstr  "Kharosański Legionista"
+
+msgid   "Kharosians are a mostly peaceful nation of common people and clerics "
+        "worshiping the Sun. In fact, they are all descendants of the Sun "
+        "Cult, a tribe who managed to subjugate other tribes in the dark "
+        "times. Kharosian warriors and clerics use light magic, which is "
+        "transmitted to them via the Sun Ray - a powerful ancient artifact, "
+        "whose location has been sworn never to be revealed by the "
+        "Kharosians. The artifact's magic allows them to quickly heal wounds, "
+        "and even teleport short distances."
+msgstr  "Kharosanie to w większości pokojowy naród zwykłych ludzi i "
+        "duchownych czczących Słońce. W rzeczywistości wszyscy są potomkami "
+        "Kultu Słońca, plemienia, któremu udało się podporządkować inne "
+        "plemiona w tzw. mrocznych czasach. Kharosjańscy wojownicy i duchowni "
+        "używają magii światła, która jest im przekazywana za pośrednictwem "
+        "Promienia Słońca - potężnego starożytnego artefaktu, którego "
+        "lokalizacja jest przez nich ściśle strzeżona. Magia pochodząca z "
+        "tego artefaktu pozwala im szybko leczyć rany, a nawet teleportować "
+        "na krótkie odległości."
+
+msgid   "Kirios"
+msgstr  "Kirios"
+
+msgid   "Magical Eye"
+msgstr  "Magiczne Oko"
+
+msgid   "Make a copy"
+msgstr  "Stwórz kopię"
+
+msgid   "Mara"
+msgstr  "Mara"
+
+msgid   "Master Mage"
+msgstr  "Mistrz Magii"
+
+msgid   "Master of Air"
+msgstr  "Mistrz Powietrza"
+
+msgid   "Master of Darkness"
+msgstr  "Mistrz Ciemności"
+
+msgid   "Master of Earth"
+msgstr  "Mistrz Ziemi"
+
+msgid   "Master of Elements"
+msgstr  "Mistrz Żywiołów"
+
+msgid   "Master of Fire"
+msgstr  "Mistrz Ognia"
+
+msgid   "Master of Water"
+msgstr  "Mistrz Wody"
+
+msgid   "Matriarch of Darkness"
+msgstr  "Mistrzyni Ciemności"
+
+msgid   "Matriarch of Emptiness"
+msgstr  "Matrona Pustki"
+
+msgid   "Matriarch of Frost"
+msgstr  "Mistrzyni Mrozu"
+
+msgid   "Matriarch of Pain"
+msgstr  "Matrona Bólu"
+
+msgid   "Max HP bonus +3, Max XP +20%"
+msgstr  "Bonus do maksymalnych punktów życia +3, MAX XP +30%"
+
+msgid   "Mechanic"
+msgstr  "Mechanik"
+
+msgid   "Mirrorshield"
+msgstr  "Lustrzany Tarczownik"
+
+msgid   "Mobile Defensive Platform"
+msgstr  "Mobilna Platforma Obronna"
+
+msgid   "Moloch"
+msgstr  "Moloch"
+
+msgid   "Moments before this unit's death, it flies into a fury, dealing "
+        "{DMG} impact damage to adjacent units, friend or foes alike. When a "
+        "harmed adjacent unit goes to or below 0 HP, its HP are set to 1 "
+        "instead of being killed."
+msgstr  "Na chwilę przed śmiercią, ta jednostka wpada w szał zadając {DMG} "
+        "obrażeń pobliskim jednostkom, bez względu czy to przeciwnicy czy "
+        "sojusznicy. Jeśli HP zranionej w ten sposób jednostki spadnie "
+        "poniżej 0, to jednostka nie ginie a pozostaje z 1 punktem życia."
+
+msgid   "Mount cannon"
+msgstr  "Zamontuj działo"
+
+msgid   "Mount portable furnace"
+msgstr  "Zamontuj przenośny piec"
+
+msgid   "Mu"
+msgstr  "Mu"
+
+msgid   "Mystic"
+msgstr  "Mistyk"
+
+msgid   "Mystic Warrior"
+msgstr  "Mistyczny Wojownik"
+
+msgid   "Mystical Archer"
+msgstr  "Mistyczny Łucznik"
+
+msgid   "Mystical Jinni"
+msgstr  "Mistyczny Dżin"
+
+msgid   "Neutral Summoner"
+msgstr  "Neutralny Przywoływacz"
+
+msgid   "Nightmare"
+msgstr  "Koszmar"
+
+msgid   "No description available"
+msgstr  "(brak opisu)"
+
+msgid   "Not enough gold to activate the aura!"
+msgstr  "Za mało złota by aktywować aurę!"
+
+msgid   "Not enough gold to activate the rune aura!"
+msgstr  "Za mało złota by aktywować runiczną aurę!"
+
+msgid   "Not enough gold! To copy this unit, you need at least "
+msgstr  "Za mało złota! By skopiować tą jednostkę, potrzebujesz co najmniej "
+
+msgid   "Novice Summoner"
+msgstr  "Przywoływacz Nowicjusz"
+
+msgid   "Obliterator"
+msgstr  "Obliterator"
+
+msgid   "Omen"
+msgstr  "Omen"
+
+msgid   "Orcish Chieftain"
+msgstr  "Wódz Orków"
+
+msgid   "Orcish Warbanner"
+msgstr  "Ork Chorąży"
+
+msgid   "Orcish Warrior"
+msgstr  "Ork Wojownik"
+
+msgid   "Pacificator"
+msgstr  "Pacyfikator"
+
+msgid   "Pain Mistress"
+msgstr  "Mistrzyni Bólu"
+
+msgid   "Parachutist"
+msgstr  "Spadochroniarz"
+
+msgid   "Perfect Drone"
+msgstr  "Perfekcyjny Dron"
+
+msgid   "Pirafly"
+msgstr  "Piralot"
+
+msgid   "Pirania Monstruosa"
+msgstr  "Pirania Monstruosa"
+
+msgid   "Platinum Warrior"
+msgstr  "Platynowy Wojownik"
+
+msgid   "Punisher"
+msgstr  "Oprawca"
+
+msgid   "Pyromancer"
+msgstr  "Mag Ognia"
+
+msgid   "Recalling..."
+msgstr  "Przywoływanie..."
+
+msgid   "Recruit Orcish Warrior"
+msgstr  "Rekrutuj Orka Wojownika"
+
+msgid   "Recruit Shielder"
+msgstr  "Rekrutuj Tarczownika"
+
+msgid   "Recruit White Warrior"
+msgstr  "Rekrutuj Białego Wojownika"
+
+msgid   "Recruiting Help"
+msgstr  "Pomoc Rekrutacji"
+
+msgid   "Recruitment Officer"
+msgstr  "Rekruter"
+
+msgid   "Red Salamander"
+msgstr  "Czerwona Salamandra"
+
+msgid   "Red Steam Ulfserker"
+msgstr  "Czerwony Parowy Ulfserker"
+
+msgid   "Rhami"
+msgstr  "Rhami"
+
+msgid   "Rhami’datu"
+msgstr  "Rhami'datu"
+
+msgid   "Rhami’kai"
+msgstr  "Rhami'kai"
+
+msgid   "Roc Master"
+msgstr  "Mistrz Roków"
+
+msgid   "Roc Rider"
+msgstr  "Jeździec Roków"
+
+msgid   "Rune Adept"
+msgstr  "Adept Run"
+
+msgid   "Rune Artist"
+msgstr  "Artysta Runiczny"
+
+msgid   "Runemaster"
+msgstr  "Mistrz Run"
+
+msgid   "Runemasters"
+msgstr  "Mistrzowie Run"
+
+msgid   "Runesmith"
+msgstr  "Kowal Run"
+
+msgid   "Salamander"
+msgstr  "Salamandra"
+
+msgid   "Saurian Assassin"
+msgstr  "Jaszczurzy Zabójca"
+
+msgid   "Savage and warlike Orcs form the back bone of the Barbarian hordes.\n"
+        "\n"
+        "Orc society is ill-suited to large-scale warfare, which leaves their "
+        "small tribes at prey to the more organized might of the world’s "
+        "various armies. However in the last two centuries something has "
+        "changed. Orcs now fight with Cyclops, Trolls, Rocs and goblins side "
+        "by side whether it be in brutal hunting packs or full blown armies. "
+        "The origins of this change are unknown but one thing is sure, when "
+        "the barbarian hordes come screaming for your blood the Orcs will be "
+        "leading the charge."
+msgstr  "Dzikie i skore do walk Orki, trzon barbarzyńskich hord.\n"
+        "\n"
+        "Społeczeństwo orków jest nieprzystosowane do prowadzenia działań "
+        "wojennych na wielką skalę, przez co ich małe plemiona są łatwym "
+        "kąskiem dla bardziej zorganizowanych armii. Jednak w ostatnich "
+        "dwustu latach coś się zmieniło. Orki walczą ramię w ramię z "
+        "Cyklopami, Trolami, Rokami i Goblinami, czy to w brutalnych "
+        "starciach myśliwych, czy też w pełnowymiarowych armiach. Źródło tej "
+        "przemiany jest nieznane, choć jedno wiadomo na pewno: jeśli "
+        "kiedykolwiek barbarzyńskie hordy przyjdą spragnione twojej krwi, "
+        "Orkowie będą im przewodzić."
+
+msgid   "Sculptor"
+msgstr  "Rzeźbiarz"
+
+msgid   "Shadow Mage"
+msgstr  "Mag Cienia"
+
+msgid   "Shadowblade"
+msgstr  "Cieniste Ostrze"
+
+msgid   "Shamanistic Adept"
+msgstr  "Szaman Adept"
+
+msgid   "Shielder"
+msgstr  "Tarczownik"
+
+msgid   "Silver Warrior"
+msgstr  "Srebrny Wojownik"
+
+msgid   "Sky Guardian"
+msgstr  "Strażnik Nieba"
+
+msgid   "Sky Kingdom"
+msgstr  "Podniebne Królestwo"
+
+msgid   "Slicer"
+msgstr  "Siekacz"
+
+msgid   "Solar Guardian"
+msgstr  "Strażnik Słońca"
+
+msgid   "Solar Master"
+msgstr  "Słoneczny Mistrz"
+
+msgid   "Sorcerer"
+msgstr  "Czarodziej"
+
+msgid   "Southwest of the Great Desert are barren wastelands - a harsh, "
+        "unforgiving land, yet which is home for many different creatures: "
+        "Tiny goblins, barbaric orcs, mysterious trolls and even mighty "
+        "cyclopes. They originally were independent and constantly fought for "
+        "survival, but recently, something made them unite against the "
+        "Darkblooded, forming the so-called 'Great Horde'. It could be due to "
+        "the Jungle of Life's vast resources, it could be due to some old "
+        "grudge, it could be something entirely else..."
+msgstr  "Na południowy zachód od Wielkiej Pustyni znajdują się jałowe "
+        "pustkowia - surowa, bezlitosna kraina, która jest domem dla różnych "
+        "stworzeń: małych goblinów, barbarzyńskich orków, tajemniczych "
+        "trolli, a nawet potężnych cyklopów. Początkowo byli niezależni i "
+        "nieustannie walczyli o przetrwanie, ale z niechęcią, coś sprawiło, "
+        "że zjednoczyli się przeciwko Ciemnokrwistym, tworząc tak zwaną "
+        "\"Wielką Hordę\". Być może powodem tego było pragnienie zdobycia "
+        "ogromnych zasobów Dżungli Życia, może wynikało to z jakiejś "
+        "pradawnej waśni, a może było to coś zupełnie innego..."
+
+msgid   "Steam Berserker"
+msgstr  "Parowy Berserker"
+
+msgid   "Steam Turboserker"
+msgstr  "Parowy Turboserker"
+
+msgid   "Steam Ulfserker"
+msgstr  "Parowy Ulfserker"
+
+msgid   "Steamcopter"
+msgstr  "Parokopter"
+
+msgid   "Storm Sphere"
+msgstr  "Przeładowana Sfera"
+
+msgid   "Striding Machine"
+msgstr  "Machina Krocząca"
+
+msgid   "Subversive Mage"
+msgstr  "Mag Dywersyjny"
+
+msgid   "Summon Air Avatar"
+msgstr  "Przywołaj Awatara Powietrza"
+
+msgid   "Summon Air Elemental"
+msgstr  "Przywołaj Żywiołaka Powietrza"
+
+msgid   "Summon Atokpi"
+msgstr  "Przywołaj Atokpi"
+
+msgid   "Summon Bone Beast"
+msgstr  "Przywołaj Kościstą Bestię"
+
+msgid   "Summon Dark Observer"
+msgstr  "Przywołaj Mrocznego Obserwatora"
+
+msgid   "Summon Dark Portal"
+msgstr  "Przywołaj Mroczny Portal"
+
+msgid   "Summon Earth Avatar"
+msgstr  "Przywołaj Awatara Ziemi"
+
+msgid   "Summon Earth Elemental"
+msgstr  "Przywołaj Żywiołaka Ziemi"
+
+msgid   "Summon Fire Avatar"
+msgstr  "Przywołaj Awatara Ognia"
+
+msgid   "Summon Fire Elemental"
+msgstr  "Przywołaj Żywiołaka Ognia"
+
+msgid   "Summon Forest Spirit"
+msgstr  "Przywołaj Ducha Lasu"
+
+msgid   "Summon Golem"
+msgstr  "Przywołaj Golema"
+
+msgid   "Summon Jinn"
+msgstr  "Przywołaj Dżina"
+
+msgid   "Summon Nightmare"
+msgstr  "Przywołaj Koszmar"
+
+msgid   "Summon Pirafly"
+msgstr  "Przywołaj Piralota"
+
+msgid   "Summon Rhami"
+msgstr  "Przywołaj Rhami"
+
+msgid   "Summon Roc Rider"
+msgstr  "Przywołaj Jeźdźca Roków"
+
+msgid   "Summon Swamp Spirit"
+msgstr  "Przywołaj Ducha Bagien"
+
+msgid   "Summon Water Avatar"
+msgstr  "Przywołaj Awatara Wody"
+
+msgid   "Summon Water Elemental"
+msgstr  "Przywołaj Żywiołaka Wody"
+
+msgid   "Summoner"
+msgstr  "Przywoływacz"
+
+msgid   "Summoners"
+msgstr  "Przywoływacze"
+
+msgid   "Summoning Help"
+msgstr  "Przywołanie - Pomoc"
+
+msgid   "Summons Master"
+msgstr  "Mistrz Przywołania"
+
+msgid   "Sun Follower"
+msgstr  "Wyznawca Słońca"
+
+msgid   "Swamp Mage"
+msgstr  "Bagienny Mag"
+
+msgid   "Swamp Spirit"
+msgstr  "Duch Bagien"
+
+msgid   "Switch Rune Positions (once per turn)"
+msgstr  "Zamień pozycje run (raz na turę)"
+
+msgid   "Sword Dancer"
+msgstr  "Tancerz Mieczy"
+
+msgid   "Technician"
+msgstr  "Technik"
+
+msgid   "Technocrat"
+msgstr  "Technokrata"
+
+msgid   "Technologist"
+msgstr  "Technolog"
+
+msgid   "Temple Guard"
+msgstr  "Strażnik Świątyni"
+
+msgid   "Terramancer"
+msgstr  "Mag Ziemi"
+
+msgid   "Tharis"
+msgstr  "Tharis"
+
+msgid   "The Era of Magic consists currently of 8 unique, fully animated "
+        "factions: Barbarians, Darkblooded, Destroyers, Kharos, Runemasters, "
+        "Sky Kingdom, Summoners and Tharis. Many units have fancy custom "
+        "abilities/weapon specials."
+msgstr  "Era Magii zawiera obecnie 8 unikalnych, w pełni animowanych frakcji. "
+        "Są to: Barbarzyńcy, Ciemnokrwiści, Niszczyciele, Kharos, Mistrzowie "
+        "Run, Podniebne Królestwo, Przywoływacze i Tharis."
+
+msgid   "The Rocs of Thornspire Mountain had long grown fat off the flesh of "
+        "the goblins who lived below. It took one particularly mad and "
+        "foolhardy goblin to change the fate of his people when he set out to "
+        "tame the beasts. After several narrow escapes the goblin managed to "
+        "steal an egg from the great birds and rose it under his care. Less "
+        "than three months later when the Rocs attacked they were surprised "
+        "to hear a piercing cry from above and even more surprised when they "
+        "were ripped to shreds by one of their own. To this day the goblins "
+        "ride tamed Rocs into battle, their battle cries the only warning of "
+        "impending doom."
+msgstr  "Roki z Cierniowej Góry przez długi czas obrastały w tłuszcz a to za "
+        "sprawą pożywnych Goblinów mieszkających u podnóży. Dopiero jeden "
+        "wyjątkowo szalony i lekkomyślny postanowił odmienić los swoich "
+        "ziomków i wyruszył oswoić te dzikie bestie. Po kilku cudem udanych "
+        "ucieczkach Goblin zdołał wykraść jajo prosto z gniazda wielkiego "
+        "ptaka i wysiedzieć je samemu. Po mniej niż trzech miesiącach, kiedy "
+        "Roki ponownie zaatakowały goblińską wioskę, zaskoczone zostały "
+        "słysząc przenikliwy pisk z góry, tym bardziej, że chwilę później "
+        "zostały rozerwane na strzępy przez jednego ze swoich. Od tamtej pory "
+        "Gobliny wykorzystują oswojone Roki do walki, a ich okrzyki bojowe "
+        "zwiastują wrogowi nadchodzącą zagładę."
+
+msgid   "The Sky Kingdom is an enigmatic civilization of mages. They live on "
+        "flying isles, which move along with the wind, and give the magi a "
+        "great view of the surface. When flying over nations, they usually "
+        "stop to observe, and sometimes trade. Their civilization is "
+        "considered to be one of the most advanced on the planet, and values "
+        "scientific progress above all else. They are known for experiments "
+        "with nature and cosmic matter, yet they don't reveal their motives "
+        "to others."
+msgstr  "Podniebne Królestwo to enigmatyczna cywilizacja magów. Żyją na "
+        "latających wyspach, które poruszają się wraz z wiatrem i dają magom "
+        "wspaniały widok na powierzchnię. Kiedy latają nad narodami, zwykle "
+        "przestają obserwować, a czasem handlują. Ich cywilizacja jest "
+        "uważana za jedną z najbardziej zaawansowanych na planecie i ceni "
+        "postęp naukowy ponad wszystko. Są znani z eksperymentów nad naturą i "
+        "kosmiczną materią, lecz nie ujawniają swoich motywów innym."
+
+msgid   "The cruel warlords and sovereigns of the East, Tharis are "
+        "descendants of an ancient tribe that practiced dark magic. This "
+        "irreversibly affected their physical appearance, and twisted their "
+        "minds. Being true masters of occult arts, great warlocks of this "
+        "nation can cast some of the most bizarre spells known to humankind. "
+        "Tharis worship the Great Destroyers, mysterious legendary undead "
+        "beings, believing that by slaughtering other nations they, they will "
+        "be spared by their deities during their foretold return. It is "
+        "rumored their cult is also centered around an enigmatic artifact "
+        "called the Eye of Darkness..."
+msgstr  "Okrutni władcy Wschodu, Tharis są potomkami starożytnego plemienia "
+        "praktykującego czarną magię. Ten fakt nieodwracalnie wpłynął na ich "
+        "wygląd fizyczny i zmącił ich umysły. Będąc prawdziwymi mistrzami "
+        "sztuki okultystycznej, wielcy czarnoksiężnicy tego narodu mogą "
+        "rzucić jedne z najpotężniejszych zaklęć znanych ludzkości. Tharis "
+        "czczą Wielkich Niszczycieli, tajemnicze legendarne nieumarłe istoty, "
+        "wierząc, że  gdy sami wyeliminują inne nacje, zostaną oni "
+        "oszczędzeni przez swoje bóstwa, gdy te powrócą. Krążą pogłoski "
+        "jakoby ich kult skupiał się także wokół enigmatycznego artefaktu "
+        "zwanego Okiem Ciemności..."
+
+msgid   "The cyclops nobles are an ancient bloodline with roots dating back "
+        "to the extinct cyclops magi civilization. They possess the ability "
+        "of using their eyes as a magic medium, but have become merely a "
+        "shadow of their ancestors' power, being little more than magic-using "
+        "brutes."
+msgstr  "Magnaci cyklopów posiadają starożytny rodowód, którego korzenie "
+        "sięgają wymarłej cywilizacji Cyklopów. Mają oni zdolność "
+        "wykorzystywania swoich oczu jako magicznego medium, lecz dziś są "
+        "jedynie cieniem mocy swoich przodków, będąc niewiele więcej niż "
+        "brutalami o pewnych magicznych zdolnościach."
+
+msgid   "The opponent cannot retaliate, when this unit is attacking. Does not "
+        "work on opponents with berserker frenzy."
+msgstr  "Przeciwnik nie może odpowiedzieć atakiem, gdy ta jednostka atakuje "
+        "pierwsza. Nie działa na berserkerów."
+
+msgid   "The pilot of this machine is equipped with a parachute, and he can "
+        "survive the destruction of his vehicle, continuing to fight as a "
+        "lvl0 unit."
+msgstr  "Pilot tej maszyny wyposażony jest w spadochron i może przetrwać "
+        "zniszczenie swojego pojazdu kontynuując walkę jako jednostka poziomu "
+        "0."
+
+msgid   "The proud people of al-Kamija inhabit the Great Desert. They often "
+        "refer themselves as Summoners. The reason for that is once upon a "
+        "time, their ancestors discovered the Abyss, a different dimension "
+        "full of untamed power that can be tapped into via magical circles. "
+        "The main implication of this newfound power was summoning elemental "
+        "beings and magical entities. Those strange dwellers of the Abyss "
+        "proved to be loyal to the Summoners, and fulfill whatever desires "
+        "the summoners have. With the help of these beings, the people of al-"
+        "Kamija have created a nearly utopian society."
+msgstr  "Dumni mieszkańcy al-Kamidży zamieszkują Wielką Pustynię. Często "
+        "określają się sami jako Przywoływacze. Nazwa ta wzięła się stąd, iż "
+        "pewnego razu ich przodkowie odkryli Otchłań, inny wymiar pełen "
+        "nieposkromionej mocy, którą można sprowadzić za pomocą magicznych "
+        "kręgów. Główną implikacją tej nowo odkrytej siły było przyzwanie "
+        "żywiołaków i magicznych bytów. Ci dziwni mieszkańcy Otchłani okazali "
+        "się lojalni wobec Przywoływaczy, mało tego, starają się zaspokoić "
+        "wszelkie ich pragnienia. Dzięki tym niezwykłym istotom, obywatele al-"
+        "Kamidży stworzyli prawie utopijne społeczeństwo."
+
+msgid   "The unit can use this attack twice per turn (when used, other "
+        "attacks become unavailable till the end of this unit's turn)."
+msgstr  "Ta jednostka może użyć tego ataku dwa razy w ciągu tej samej tury "
+        "(kiedy zostanie użyty, pozostałe ataki stają się niedostępne do "
+        "końca tury tej jednostki)."
+
+msgid   "The unit has at least 60% chance to hit during retaliation."
+msgstr  "Ta jednostka ma co najmniej 60% szans na trafienie podczas "
+        "kontrataku."
+
+msgid   "The unit has at least 80% chance to hit during retaliation."
+msgstr  "Jednostka ma 80% szans na trafienie gdy kontratakuje."
+
+msgid   "The unit will heal itself 12 HP per turn. If it is poisoned, it will "
+        "remove the poison instead of healing."
+msgstr  "Jednostka regeneruje 12 HP na turę. Jeśli zostanie zatruta, usunie "
+        "truciznę zamiast się regenerować."
+
+msgid   "The unit will heal itself {VALUE} HP at dawn or dusk and {VALUE2} HP "
+        "during day. If it is poisoned, it will remove the poison instead of "
+        "healing."
+msgstr  "Jednostka odzyskuje {VALUE} punktów życia w ciągu dnia i {VALUE2} o "
+        "świcie i zmierzchu. Jeśli jest zatruta, leczy zatrucie zamiast "
+        "odzyskiwać HP."
+
+msgid   "The unit will heal itself {VALUE} HP during night and when in caves "
+        "or indoors. If it is poisoned, it will remove the poison instead of "
+        "healing."
+msgstr  "Ta jednostka odzyskuje {VALUE} punktów życia w nocy oraz w "
+        "jaskiniach i pomieszczeniach. Jeśli jest zatruta, leczy truciznę "
+        "zamiast odzyskiwać HP."
+
+msgid   "The unit will heal itself {VALUE} HP per turn. If it is poisoned, it "
+        "will remove the poison instead of healing."
+msgstr  "Ta jednostka odzyskuje {VALUE} punktów życia na turę. Jeśli jest "
+        "zatruta, usunie truciznę zamiast leczenia."
+
+msgid   "This attack activates the 'shielded' ability of the unit applying "
+        "the +5 resistance bonus to the owner."
+msgstr  "Ten atak aktywuje zdolność 'osłony' dając jednostce dodatkowe +5 do "
+        "odporności."
+
+msgid   "This attack always has a 100% chance to hit"
+msgstr  "Ten atak ma zawsze 100% szans na trafienie przeciwnika."
+
+msgid   "This attack always has a 80% chance to hit"
+msgstr  "Ten atak ma zawsze 80% szans na trafienie przeciwnika."
+
+msgid   "This attack always has a flat 60% chance to hit (not cumulative)"
+msgstr  "Ta jednostka ma zawsze 60% szans na trafienie przeciwnika (nie "
+        "kumuluje się z innymi bonusami)."
+
+msgid   "This attack always has a minimum 60% chance to hit"
+msgstr  "Ta jednostka ma zawsze najmniej 60% szans na trafienie przeciwnika."
+
+msgid   "This attack can hit some enemy units adjacent to a target (up to 3 "
+        "harmed units total - depending on your luck).\n"
+        "This ability does not work on defense and against berserker units."
+msgstr  "Ten atak może trafić jednostki sąsiadujące z celem (łącznie do 3 "
+        "jednostek - w zależności od szczęścia).\n"
+        "Ta zdolność nie działa w obronie i przeciwko berserkerom."
+
+msgid   "This attack can hit some of adjacent enemy units (or even all "
+        "depending on your luck) Works only on offense.\n"
+        "This ability does not work on defense and against berserker units."
+msgstr  "Ten atak może ranić część sąsiednich wrogich jednostek (lub nawet "
+        "wszystkie w zależności od szczęścia). Działa tylko w ofensywie.\n"
+        "Ta zdolność nie działa podczas obrony i w starciu przeciwko "
+        "berserkerom."
+
+msgid   "This attack causes living targets to bleed. Bleeding units have "
+        "their moves reduced by 2, damage reduced by 15% and lose random 1-5 "
+        "HP every turn until they are cured or are reduced to 1 HP. Bleeding "
+        "cannot, of itself, kill a unit."
+msgstr  "Ten atak sprawia, że trafione żyjące jednostki krwawią. Krwawiące "
+        "jednostki tracą 2 punkty ruchu, zadają 15% mniej obrażeń i tracą od "
+        "1 do 5 punktów życia na turę dopóki nie zostaną uleczone lub ich HP "
+        "wyniesie 1 HP. Krawienie samo w sobie nie może zabić jednostki."
+
+msgid   "This attack doesn't work on offense."
+msgstr  "Ten atak nie działa w ofensywie."
+
+msgid   "This attack harms both the defender and the attacker. The attacker "
+        "receives damage equal to half of its hp and may survive the suicidal "
+        "charge."
+msgstr  "Ten atak rani zarówno atakującego jak broniącego się. Atakujący "
+        "otrzymuje połowę obrażeń i może przetrwać atak."
+
+msgid   "This attack negates all possible resistances, thus the damage output "
+        "is always constant."
+msgstr  "Ten atak ignoruje wszelkie odporności celu i zadaje zawsze taką samą "
+        "ilość obrażeń."
+
+msgid   "This attack petrifies the target, turning it to stone for two turns. "
+        "Units that have been petrified may not move or attack. When this "
+        "effect wears off, the unit is slowed for 1 turn."
+msgstr  "Ten atak zamienia cel w kamienną rzeźbę na 2 tury. Taka jednostka "
+        "nie może się ruszać i atakować, a gdy efekt przestaje działać, to "
+        "jednostka jest spowolniona przez okres 1 tury po odzyskaniu "
+        "sprawności."
+
+msgid   "This attack puts enormous pressure on the enemy, disrupting his ZOC "
+        "if a hit is landed. Not active on defense. Does not work on units "
+        "that do not have a ZoC."
+msgstr  "Ten atak w przypadku trafienia wywiera ogromną presję na "
+        "przeciwniku, zakłócając jego Strefę Kontroli. Nie działa w "
+        "defensywie. Nie działa wobec jednostek które nie mają Strefy "
+        "Kontroli."
+
+msgid   "This attack reduces magical chance to hit of opponents by 20% (down "
+        "to 50%). It also reduces enchanted chance to hit of opponents by 10% "
+        "(down to 50% as well)."
+msgstr  "Ten atak redukuje bonus przeciwnika do trafienia przy użyciu "
+        "magicznych ataków o 20% (zrównując do 50%). Poza tym redukuje "
+        "również bonus przeciwnika do trafienia przy użyciu zaklętych ataków "
+        "o 10% (również zrównując do 50%)."
+
+msgid   "This attack will only be used against magical and undead beings."
+msgstr  "Ten atak może być użyty tylko przeciwko magicznym i nieumarłym "
+        "istotom."
+
+msgid   "This attacks deals additional {VALUE} points of damage against "
+        "mechanical units."
+msgstr  "Ten atak zadaje dodatkowe punkty obrażeń (+{VALUE}) jednostkom "
+        "mechanicznym."
+
+msgid   "This drone can execute kamikaze protocols."
+msgstr  "Ten dron może wykonywać ataki kamikaze."
+
+msgid   "This drone has additional armor plates granting it bonus 12 HP and "
+        "increased blade/pierce/impact resistances (+10%)."
+msgstr  "Ten dron ma dodatkowy pancerz dający mu +12 punktów życia i "
+        "zwiększoną odporność na fizyczne obrażenia (+10%)."
+
+msgid   "This drone has better blades mounted on its legs. This provides it "
+        "with a bonus damage."
+msgstr  "Ten dron ma lepsze ostrza zamontowane na jego nogach. To daje mu "
+        "bonus do obrażeń."
+
+msgid   "This drone has rotor mounted on its top allowing it to fly. It "
+        "allows it to move faster (+1 movepoint)."
+msgstr  "Ten dron ma śmigła zamontowane na czubku, pozwalające mu latać. "
+        "Dzięki temu może poruszać się szybciej (+1 punkt ruchu)."
+
+msgid   "This drone has the berserker ai module."
+msgstr  "Ten dron ma moduł SI berserkera."
+
+msgid   "This drone has the damage rune granting additional magical fire "
+        "attack."
+msgstr  "Ten dron ma runę obrażeń pozwalającą mu na zadawanie dodatkowych "
+        "magicznych ognistych obrażeń."
+
+msgid   "This drone is equipped with a small cannon."
+msgstr  "Ten dron wyposażony jest w małe działko."
+
+msgid   "This drone is protected by runes giving it improved fire, cold and "
+        "arcane resistance (50%)"
+msgstr  "Ten dron jest chroniony przez runy dające mu dodatkową odporność na "
+        "ogień, chłód i tajemny typ obrażeń (50%)"
+
+msgid   "This unit always hits a target when attacking, but dies instantly "
+        "afterwards."
+msgstr  "Ta jednostka zawsze trafia cel ale za to jednocześnie ginie."
+
+msgid   "This unit always strikes first with this attack, even if they are "
+        "defending."
+msgstr  "Ta jednostka zawsze atakuje pierwsza, nawet jak się broni."
+
+msgid   "This unit and all adjacent friendly units strike first and receive "
+        "+15% chance to hit bonus, while all adjacent enemy units receive "
+        "-15% chance to hit penalty (except for attacks which always hit). "
+        "The ability lasts one turn."
+msgstr  "Ta jednostka i wszystkie sąsiednie przyjazne jednostki uderzają jako "
+        "pierwsze i otrzymują premię +15% do trafienia, podczas gdy wszystkie "
+        "sąsiednie wrogie jednostki otrzymują karę -15% do trafienia (z "
+        "wyjątkiem ataków, które zawsze trafiają). Zdolność trwa jedną turę."
+
+msgid   "This unit can affect enemy magical units that are next to it, making "
+        "them fight worse.\n"
+        "\n"
+        "Adjacent enemy magical units of lower level will do less damage in "
+        "battle. When a unit adjacent to, of the same level, or a lower level "
+        "than, and is an enemy of the unit with Circle of Banishment engages "
+        "in combat, its attacks do less damage (−40% lvl0, −30% lvl1, −20% "
+        "lvl2, −10% lvl3)."
+msgstr  "Ta jednostka sprawia, że pobliskie wrogie jednostki magiczne walczą "
+        "gorzej.\n"
+        "\n"
+        "Sąsiednie wrogie jednostki magiczne niższego poziomu będą zadawać "
+        "niższe obrażenia w walce (-40% obrażeń dla poziomu 0, -30% dla "
+        "poziomu 1, -20% dla poziomu 2, -10% dla poziomu 3)."
+
+msgid   "This unit can attack another unit after killing an enemy."
+msgstr  "Jeśli ta jednostka zabije inną, to może wykonać kolejny atak."
+
+msgid   "This unit can be sacrificed to heal a selected friendly unit.\n"
+        "\n"
+        "For more information, choose the 'Forest Spirit Help' rightclick "
+        "option which appears when rightclicking on a unit with this ability."
+msgstr  "Ta jednostka może zostać poświęcona, by wyleczyć sąsiednią przyjazną "
+        "jednostkę.\n"
+        "\n"
+        "By uzyskać więcej informacji, kliknij Leśnego Ducha prawym "
+        "przyciskiem myszy i wybierz opcję pomocy."
+
+msgid   "This unit can create a living statue from any adjacent petrified "
+        "unit (or any of your normal units, but the process ends the turn of "
+        "both units). The statues have similar stats than the unit they are "
+        "based on, but will always be slightly weaker, slower and weak to "
+        "arcane. Making a statue costs 50% of the original unit price."
+msgstr  "Ta jednostka potrafi tworzyć żywe kopie każdej sąsiedniej, "
+        "zamienionej w kamień jednostki (lub normalnej przyjaznej jednostki, "
+        "ale proces ten kończy turę dla obu zaangażowanych jednostek). Kopie "
+        "mają podobne statystyki do oryginałów, ale zawsze są odrobinę "
+        "słabsze, wolniejsze i podatne na tajemny typ obrażeń. Stworzenie "
+        "kopi kosztuje 50% oryginalnej ceny danej jednostki."
+
+msgid   "This unit can create new drones on adjacent tiles, but not in "
+        "villages, or on water."
+msgstr  "Ta jednostka może tworzyć nowe drony na sąsiednich polach, ale nie w "
+        "wioskach i nie na wodzie."
+
+msgid   "This unit can frighten enemy units that are next to it, making them "
+        "fight worse.\n"
+        "\n"
+        "There are units immune to effects of this ability. Awe does not work "
+        "on:\n"
+        "- undead units\n"
+        "- mechanical units\n"
+        "- magical units\n"
+        "- fearless units\n"
+        "- Tharis race\n"
+        "- cyclops"
+msgstr  "Ta jednostka potrafi przestraszyć inne pobliskie jednostki, "
+        "sprawiając, że będą walczyć gorzej.\n"
+        "\n"
+        "Są jednak jednostki, które nie dają się przestraszyć. Ta zdolność "
+        "nie działa w przypadku:\n"
+        "- jednostek nieumarłych\n"
+        "- jednostek mechanicznych\n"
+        "- istot magicznych\n"
+        "- jednostek nieustraszonych\n"
+        "- rasy Tharis\n"
+        "- cyklopów"
+
+msgid   "This unit can hide in cave, and remain undetected by its enemies.\n"
+        "\n"
+        "Enemy units cannot see this unit while it is in cave, except if they "
+        "have units next to it. Any enemy unit that first discovers this unit "
+        "immediately loses all its remaining movement."
+msgstr  "Ta jednostka potrafi ukrywać się w jaskiniach.\n"
+        "\n"
+        "Wrogie oddziały nie są w stanie wykryć tej jednostki kiedy przebywa "
+        "ona w jaskini, chyba że stoją obok niej. Przeciwnik, który wykryje "
+        "tak zamaskowaną jednostkę, traci cały swój ruch."
+
+msgid   "This unit can hide in mountains and hills, and remain undetected by "
+        "its enemies.\n"
+        "\n"
+        "Enemy units cannot see this unit while it is in mountains or hills, "
+        "except if they have units next to it. Any enemy unit that first "
+        "discovers this unit immediately loses all its remaining movement."
+msgstr  "Ta jednostka może ukrywać się w górach i wzgórzach, pozostając "
+        "niewidoczna dla wrogów.\n"
+        "\n"
+        "Wrogowie nie widzą tej jednostki gdy stoi ona na wzgórzu lub górze, "
+        "chyba że stoi obok nich. Jednostka przeciwnika, która odkryje tak "
+        "schowaną jednostkę, traci wszystkie punkty ruchu."
+
+msgid   "This unit can hide in swamp, and remain undetected by its enemies.\n"
+        "\n"
+        "Enemy units cannot see this unit while it is in swamp, except if "
+        "they have units next to it. Any enemy unit that first discovers this "
+        "unit immediately loses all its remaining movement."
+msgstr  "Ta jednostka potrafi ukrywać się na bagnach.\n"
+        "\n"
+        "Wrogie oddziały nie są w stanie wykryć tej jednostki kiedy przebywa "
+        "ona na bagnach, chyba że stoją obok niej. Przeciwnik, który wykryje "
+        "tak zamaskowaną jednostkę, traci cały swój ruch."
+
+msgid   "This unit can hide in water, and remain undetected by its enemies.\n"
+        "\n"
+        "Enemy units cannot see this unit while it is in water, except if "
+        "they have units next to it. Any enemy unit that first discovers this "
+        "unit immediately loses all its remaining movement."
+msgstr  "Ta jednostka potrafi ukrywać się w wodzie.\n"
+        "\n"
+        "Wrogie oddziały nie są w stanie wykryć tej jednostki kiedy przebywa "
+        "ona w wodzie, chyba że stoją obok niej. Przeciwnik, który wykryje "
+        "tak zamaskowaną jednostkę, traci cały swój ruch."
+
+msgid   "This unit can inspire friendly units that are next to it, making "
+        "them fight better.\n"
+        "\n"
+        "Adjacent friendly level 0 units will do 30% more damage in battle.\n"
+        "Adjacent friendly level 1 units will do 15% more damage in battle."
+msgstr  "Ta jednostka może zainspirować przyjazne jednostki, które są obok "
+        "niej, dzięki czemu będą lepiej walczyć.\n"
+        "\n"
+        "Sąsiednie przyjazne poziomy 0 jednostek zadadzą 30% więcej obrażeń w "
+        "walce.\n"
+        "Sąsiednie przyjazne jednostki poziomu 1 zadadzą 15% więcej obrażeń w "
+        "bitwie."
+
+msgid   "This unit can inspire friendly units that are next to it, making "
+        "them fight better.\n"
+        "\n"
+        "Adjacent friendly level 0 units will do 50% more damage in battle.\n"
+        "Adjacent friendly level 1 units will do 25% more damage in battle.\n"
+        "Adjacent friendly level 2 units will do 12% more damage in battle.\n"
+        "Adjacent friendly level 3 units will do 6% more damage in battle."
+msgstr  "Ta jednostka może zainspirować przyjazne jednostki, które są obok "
+        "niej, dzięki czemu będą lepiej walczyć.\n"
+        "\n"
+        "Sąsiednie przyjazne poziomy 0 jednostek zadadzą 50% więcej obrażeń w "
+        "walce.\n"
+        "Sąsiednie przyjazne jednostki poziomu 1 zadadzą 25% więcej obrażeń w "
+        "bitwie.\n"
+        "Sąsiednie przyjazne jednostki poziomu 2 zadadzą 12% więcej obrażeń w "
+        "bitwie.\n"
+        "Sąsiednie przyjazne jednostki poziomu 3 zadadzą 6% więcej obrażeń w "
+        "bitwie."
+
+msgid   "This unit can inspire friendly units that are next to it, making "
+        "them fight better.\n"
+        "\n"
+        "Adjacent friendly units will do 15% more damage in battle."
+msgstr  "Ta jednostka inspiruje sąsiednie jednostki, sprawiając że walczą "
+        "lepiej.\n"
+        "\n"
+        "Sąsiednie jednostki będą zadawać 15% więcej obrażeń w walce."
+
+msgid   "This unit can lead units of the same race as the owner of this "
+        "ability that are next to it, making them fight better.\n"
+        "\n"
+        "Adjacent units of the same race will do more damage in battle (20% "
+        "more)."
+msgstr  "Ta jednostka może dowodzić pobliskimi jednostkami tej samej rasy co "
+        "ona sama, sprawiając, że lepiej walczą.\n"
+        "\n"
+        "Sąsiadujące jednostki tej samej rasy będą zadawać więcej obrażeń w "
+        "walce (20% więcej)."
+
+msgid   "This unit can make an adjacent drone advance, yet retain its exp "
+        "after doing so. The unit uses up all of his movepoints, and then "
+        "gains some exp. Also, the drone is unable to move/attack on the same "
+        "turn as it is advanced."
+msgstr  "Ta jednostka może awansować sąsiedniego drona zachowując jego "
+        "dotychczasowe punkty doświadczenia. Jednostka ta traci wtedy "
+        "wszystkie punkty ruchu ale dostaje kilka punktów doświadczenia. Poza "
+        "tym tak awansowany dron nie może się ruszać i atakować w tej samej "
+        "turze kiedy awansował."
+
+msgid   "This unit can only advance by consuming a magical or living being."
+msgstr  "Ta jednostka może awansować jedynie poprzez pochłonięcie magicznej "
+        "lub żywej istoty."
+
+msgid   "This unit can recruit new units on adjacent tiles, but only when "
+        "standing in villages.\n"
+        "\n"
+        "For more information, choose the 'Recruiting Help' rightclick option "
+        "which appears when rightclicking on a unit with the 'recruit' "
+        "ability."
+msgstr  "Ta jednostka potrafi rekrutować nowe jednostki na sąsiednich polach, "
+        "ale pod warunkiem, że sama stoi na wiosce.\n"
+        "\n"
+        "Po więcej informacji, kliknij jednostkę prawym przyciskiem myszy i "
+        "wybierz 'Pomoc Rekrutacji'."
+
+msgid   "This unit can summon new units on adjacent tiles, but not in "
+        "villages, or on water.\n"
+        "\n"
+        "For more information, choose the 'Summoning Help' rightclick option "
+        "which appears when rightclicking on a unit with the 'summon' ability."
+msgstr  "Ta jednostka może przywoływać nowe jednostki na sąsiednich polach, "
+        "ale nie we wioskach ani na wodzie. Aby uzyskać więcej informacji, "
+        "wybierz opcję \"Przywoływanie - Pomoc\", która pojawia się po "
+        "kliknięciu prawym przyciskiem myszy na jednostkę ze zdolnością "
+        "\"przywoływania\"."
+
+msgid   "This unit costs 1 less gold worth of upkeep than it would normally."
+msgstr  "Ta jednostka kosztuje 1 szt. złota mniej w utrzymaniu niż normalnie."
+
+msgid   "This unit counts towards the summoned zombie limit."
+msgstr  "Ta jednostka liczy się do limitu przywołanych zombie."
+
+msgid   "This unit darkens the surrounding area, making chaotic units fight "
+        "better, and lawful units fight worse.\n"
+        "\n"
+        "Any units adjacent to this unit will fight as if it were dusk when "
+        "it is day, and as if it were night when it is dusk."
+msgstr  "Ta jednostka przyciemnia sąsiednie pola, sprawiając że jednostki "
+        "chaotyczne walczą lepiej, a praworządne gorzej.\n"
+        "\n"
+        "Wszystkie przyległe jednostki za dnia walczą jakby był zmierzch, a o "
+        "zmierzchu tak jakby była noc."
+
+msgid   "This unit doesn't cost upkeep."
+msgstr  "Ta jednostka nie musi być utrzymywana za złoto."
+
+msgid   "This unit gains +5% to all resistances, up to a maximum of 60%, when "
+        "using a weapon with the 'shielded' special."
+msgstr  "Ta jednostka dostaje +5% bonus do odporności, łącznie maksymalnie do "
+        "60%, kiedy używa ataku ze specjałem 'osłona'"
+
+msgid   "This unit gains additional moves back after attacking with this "
+        "weapon, but cannot attack again."
+msgstr  "Jednostka dostaje dodatkowe punkty ruchu po ataku tą bronią, ale nie "
+        "może zaatakować ponownie w tej samej turze."
+
+msgid   "This unit gains additional moves back after attacking, but cannot "
+        "attack again."
+msgstr  "Jednostka dostaje dodatkowe punkty ruchu po ataku, ale nie może "
+        "zaatakować ponownie w tej samej turze."
+
+msgid   "This unit gains hitpoints added to its current health whenever it "
+        "kills a non-magical unit. The amount of hitpoints gained equals"
+msgstr  "Ta jednostka otrzymuje dodatkowe punkty życia za każdym razem gdy "
+        "pokona niemagiczną istotę. Liczba pozyskanych punktów wynosi"
+
+msgid   "This unit gains {VALUE} hitpoints added to its current health "
+        "whenever an adjacent living unit is harmed with its attacks "
+        "(directly or indirectly)."
+msgstr  "Ta jednostka dostaje {VALUE} punktów życia gdy jakakolwiek sąsiednia "
+        "żywa jednostka jest raniona atakami (pośrednio lub bezpośrednio)."
+
+msgid   "This unit gains {VALUE} hitpoints added to its current health "
+        "whenever an adjacent living unit is harmed."
+msgstr  "Ta jednostka otrzymuje dodatkowe punkty życia (+{VALUE}) za każdym "
+        "razem gdy dowolna żywa jednostka jest raniona."
+
+msgid   "This unit gains {VALUE} hitpoints added to its current health "
+        "whenever an adjacent unit dies."
+msgstr  "Ta jednostka otrzymuje dodatkowe punkty życia +{VALUE} za każdym "
+        "razem gdy dowolna jednostka obok ginie."
+
+msgid   "This unit gains {VALUE} hitpoints added to its current health "
+        "whenever it kills a living unit."
+msgstr  "Ta jednostka otrzymuje dodatkowe punkty życia (+{VALUE}) za każdym "
+        "razem gdy pokonuje żywą jednostkę."
+
+msgid   "This unit harms all adjacent enemies at the start of each turn by a "
+        "certain amount of damage (affected by the ToD bonus), giving the "
+        "unit experience for each enemy harmed/killed."
+msgstr  "Ta jednostka zadaje obrażenia wszystkim sąsiadującym wrogom na "
+        "początku każdej tury. Wielkość tych obrażeń zależy od pory dnia a za "
+        "każdą zranioną lub pokonaną w ten sposób jednostkę, otrzymuje "
+        "doświadczenie."
+
+msgid   "This unit harms all adjacent enemies at the start of each turn by a "
+        "certain amount of damage (affected by the ToD bonus), without giving "
+        "the unit experience for each enemy harmed. Like poison, it can't "
+        "kill."
+msgstr  "Ta jednostka zadaje obrażenia wszystkim sąsiadującym wrogom na "
+        "początku każdej tury. Wielkość tych obrażeń zależy od pory dnia a za "
+        "każdą zranioną w ten sposób jednostkę, otrzymuje doświadczenie. Tak "
+        "jak trucizna, zdolność ta nie może zabić, jedynie osłabić."
+
+msgid   "This unit illuminates the surrounding area, making lawful units "
+        "fight better, and chaotic units fight worse.\n"
+        "\n"
+        "Unlike the 'illuminates' ability, this ability affects the damage "
+        "bonus/penalty for adjacent units by 15%, instead of 25%."
+msgstr  "Jednostka ta oświetla otoczenie, sprawiając, że jednostki "
+        "praworządne walczą lepiej, a chaotyczne gorzej.\n"
+        "\n"
+        "W przeciwieństwie do zdolności 'oświetla', ta umiejętność wpływa na "
+        "premię/kary do obrażeń dla przyległych jednostek o 15%, zamiast 25%."
+
+msgid   "This unit may receive different upgrades when adjacent to specific "
+        "units. Also, when advancing, it can get different improvements."
+msgstr  "Ta jednostka może otrzymać różne udoskonalenia gdy stoi w pobliżu "
+        "określonych jednostek. Poza tym może otrzymać różne ulepszenia "
+        "również w przypadku awansowania na wyższe poziomy."
+
+msgid   "This unit regenerates {VALUE} hp every turn. this ability doesn't "
+        "cure poison, though."
+msgstr  "Ta jednostka regeneruje {VALUE} hp w każdej turze. Ta umiejętność "
+        "nie leczy jednak trucizny."
+
+msgid   "This unit summons a lvl0 zombie of random variation next to self at "
+        "the start of each turn. Only 4 total summoned zombies per unit with "
+        "this ability can be present on the battlefield at once."
+msgstr  "Ta jednostka przywołuje losowe zombie poziomu 0 tuż obok siebie na "
+        "początku każdej tury. Maksymalnie ta jednostka może przywołać "
+        "łącznie 4 zombie."
+
+msgid   "This unit’s vulnerabilities are halved when attacking."
+msgstr  "Podatności tej jednostki są zmniejszone o połowę gdy ta jednostka "
+        "atakuje."
+
+msgid   "This weapon will never be used on defense."
+msgstr  "Ta broń nie może być użyta w obronie."
+
+msgid   "Time flows slower around this unit. This has the following effects:\n"
+        "- all adjacent friendly units receive +5% chance to hit bonus;\n"
+        "- all adjacent enemy units receive -5% chance to hit penalty (except "
+        "for attacks which always hit)\n"
+        "\n"
+        "Also, this unit can cast a powerful time-manipulation spell with the "
+        "following effects lasting one turn:\n"
+        "- this unit and all adjacent friendly units strike first and receive "
+        "+15% chance to hit bonus;\n"
+        "- all adjacent enemy units receive -15% chance to hit penalty "
+        "(except for attacks which always hit);\n"
+        "- the caster of the spell gets the skirmisher ability.\n"
+        "\n"
+        "To cast the spell right-click the unit and select 'Activate Aura'."
+msgstr  "Czas wokół tej jednostki płynie wolniej. Daje to następujące "
+        "efekty:\n"
+        "- wszystkie przyległe przyjazne jednostki otrzymują premię +5% do "
+        "trafienia;\n"
+        "- wszystkie sąsiadujące jednostki wroga otrzymują karę -5% do "
+        "trafienia (z wyjątkiem ataków, które zawsze trafiają)\n"
+        "\n"
+        "Ponadto ta jednostka może rzucić potężne zaklęcie manipulujące "
+        "czasem o następujących efektach trwających jedną turę:\n"
+        "- ta jednostka i wszystkie sąsiednie przyjazne jednostki uderzają "
+        "jako pierwsze i otrzymują premię +15% do trafienia;\n"
+        "- wszystkie sąsiadujące wrogie jednostki otrzymują karę -15% do "
+        "trafienia (z wyjątkiem ataków, które zawsze trafiają);\n"
+        "- jednostka rzucająca to zaklęcie otrzymuje zdolność harcownika.\n"
+        "\n"
+        "Aby rzucić czar kliknij prawym przyciskiem myszy na jednostkę i "
+        "wybierz 'Aktywuj Aurę'."
+
+msgid   "Titania"
+msgstr  "Tytania"
+
+msgid   "To heal an adjacent friendly unit, rightclick that unit and choose "
+        "the option 'Heal +25'. The Forest Spirit will be sacrificed in the "
+        "process."
+msgstr  "By wyleczyć sąsiednią przyjazną jednostkę, kliknij ją prawym "
+        "przyciskiem myszy i wybierz 'Ulecz +25'. Leśny Duch ulegnie wtedy "
+        "zniszczeniu."
+
+msgid   "To recruit a unit right-click on hexes adjacent to a selected "
+        "recruiter.\n"
+        "\n"
+        "You need all movement points (and remaining attacks) to recruit one "
+        "creature. You can only recruit in villages. A new unit can’t be "
+        "recruited on water.\n"
+        "Every recruiting adds +3 to current experience.\n"
+        "\n"
+        "If there are 2 or more recruiters, a new unit will be recruited by "
+        "the last selected unit able to recruit, or if no recruiter has been "
+        "selected, a recruiter next to the selected tile will be chosen "
+        "randomly."
+msgstr  "Aby rekrutować jednostkę, kliknij prawym przyciskiem myszy na "
+        "sąsiednie heksy w pobliżu wybranego rekrutera.\n"
+        "\n"
+        "Potrzebujesz wszystkich punktów ruchu (i pozostałych ataków), aby "
+        "rekrutować jedną jednostkę. Możesz rekrutować tylko będąc we wiosce. "
+        "Nowa jednostka nie może zostać zrekrutowana na wodzie.\n"
+        "Każda rekrutacja dodaje +3 do obecnego doświadczenia.\n"
+        "\n"
+        "Jeśli jest dwóch lub więcej rekruterów, nowa jednostka zostanie "
+        "przywołana przez ostatnią wybraną jednostkę zdolną do przywołania, "
+        "lub jeśli nie wybrano rekrutera, rekruter obok wybranego pola "
+        "zostanie wybrany losowo."
+
+msgid   "To summon a unit right-click on hexes adjacent to a selected "
+        "summoner.\n"
+        "\n"
+        "You need all movement points (and remaining attacks) to summon one "
+        "creature. You are unable to summon in villages, from castles or "
+        "keeps. A new unit can’t be summoned on water.\n"
+        "Every summoning adds +3 to current experience.\n"
+        "\n"
+        "If there are 2 or more summoners, a new unit will be summoned by the "
+        "last selected unit able to summon, or if no summoner has been "
+        "selected, a summoner next to the selected tile will be chosen "
+        "randomly."
+msgstr  "Aby przywołać jednostkę, kliknij prawym przyciskiem myszy na "
+        "sąsiednie heksy w pobliżu wybranego przywoływacza.\n"
+        "\n"
+        "Potrzebujesz wszystkich punktów ruchu (i pozostałych ataków), aby "
+        "przywołać jedno stworzenie. Nie możesz przywoływać z zamków i "
+        "twierdz. Nowa jednostka nie może zostać przywołana na wodzie.\n"
+        "Każde przywołanie dodaje +3 do obecnego doświadczenia.\n"
+        "\n"
+        "Jeśli jest dwóch lub więcej przywoływaczy, nowa jednostka zostanie "
+        "przywołana przez ostatnią wybraną jednostkę zdolną do przywołania, "
+        "lub jeśli nie wybrano przywoływacza, przywoływacz obok wybranego "
+        "pola zostanie wybrany losowo."
+
+msgid   "Toad Archer"
+msgstr  "Ropuszy Łucznik"
+
+msgid   "Toad Mystic"
+msgstr  "Mistyczna Ropucha"
+
+msgid   "Toad Rider"
+msgstr  "Ropuszy Jeździec"
+
+msgid   "Toad Shaman"
+msgstr  "Ropuszy Szaman"
+
+msgid   "Troll Fire Wizard"
+msgstr  "Czarownik Ognia"
+
+msgid   "Troll Sorcerer"
+msgstr  "Troll Czarodziej"
+
+msgid   "Troll Warbanner"
+msgstr  "Troll Chorąży"
+
+msgid   "Troll Warlock"
+msgstr  "Troll Czarnoksiężnik"
+
+msgid   "Troll shamans are the mystical leaders of the trolls. Though not as "
+        "strong or tough as other trolls, their true power lies in their fire "
+        "magic, which they use to blast enemies with gouts of fire."
+msgstr  "Trolle szamani to mistyczni przywódcy Trolli. Choć nie są tak silni "
+        "jak inni przedstawiciele tego gatunku, ich prawdziwa moc leży w "
+        "magii ognia, której używają aby spopielić swych przeciwników "
+        "płonącymi kulami."
+
+msgid   "Troll warlocks are the mystical leaders of the trolls. Though not as "
+        "strong or tough as other trolls, their true power lies in their fire "
+        "magic, which they use to blast enemies with gouts of fire."
+msgstr  "Trolle szamani to mistyczni przywódcy Trolli. Choć nie są tak silni "
+        "jak inni przedstawiciele tego gatunku, ich prawdziwa moc leży w "
+        "magii ognia, której używają aby spopielić swych przeciwników "
+        "płonącymi kulami."
+
+msgid   "Twin Archer Toad"
+msgstr  "Ropuszy Łucznicy"
+
+msgid   "Um"
+msgstr  "Um"
+
+msgid   "Upgrade to Pain Absorption +2; +2 max HP; +20% XP"
+msgstr  "Ulepszenie do Absorbcji Bólu +2; +2 do maksymalnych punktów życia; "
+        "+20% XP"
+
+msgid   "Void Mage"
+msgstr  "Mag Pustki"
+
+msgid   "War Golem"
+msgstr  "Golem Wojenny"
+
+msgid   "War Mage"
+msgstr  "Mag Zbrojny"
+
+msgid   "Water Avatar"
+msgstr  "Awatar Wody"
+
+msgid   "Water Elemental"
+msgstr  "Żywiołak Wody"
+
+msgid   "Water God"
+msgstr  "Bóstwo Wody"
+
+msgid   "When dying this unit splits into 2 smaller versions of itself."
+msgstr  "Gdy ta jednostka ginie, zamienia się w 2 mniejsze wersje siebie."
+
+msgid   "When harming a living enemy, this unit is healed by "
+msgstr  "W momencie ranienia żyjącego przeciwnika, ta jednostka odzyskuje"
+
+msgid   "When killing a living enemy, this unit is healed by "
+msgstr  "W momencie pokonania przeciwnika, ta jednostka odzyskuje"
+
+msgid   "When standing on a forest or mushroom tile, this unit will heal "
+        "itself {VALUE} HP per turn. If it is poisoned, it will remove the "
+        "poison instead of healing."
+msgstr  "Kiedy ta jednostka stoi w lesie lub w grzybowym gaju, leczy {VALUE} "
+        "punktów życia na turę. Jeśli jest zatruta, usunie truciznę zamiast "
+        "leczenia."
+
+msgid   "When standing on a forest tile, this unit can cure adjacent friendly "
+        "units of poison, although these units will receive no additional "
+        "healing on the turn they are cured of the poison."
+msgstr  "Kiedy ta jednostka stoi w lesie, może uleczyć sąsiednie przyjazne "
+        "jednostki z zatrucia, lecz nie odzyskają one utraconych punktów "
+        "życia."
+
+msgid   "When standing on a mushroom grove, this unit will heal itself "
+        "{VALUE} HP per turn. If it is poisoned, it will remove the poison "
+        "instead of healing."
+msgstr  "Kiedy ta jednostka stoi w grzybowym gaju, leczy {VALUE} punktów "
+        "życia na turę. Jeśli jest zatruta, usunie truciznę zamiast leczenia."
+
+msgid   "When standing on a swamp tile, this unit will heal itself {VALUE} HP "
+        "per turn. If it is poisoned, it will remove the poison instead of "
+        "healing."
+msgstr  "Kiedy ta jednostka stoi w bagnie, leczy {VALUE} punktów życia na "
+        "turę. Jeśli jest zatruta, usunie truciznę zamiast leczenia."
+
+msgid   "When standing on water (except ford and reef terrain), this unit "
+        "will heal itself {VALUE} HP per turn. If it is poisoned, it will "
+        "remove the poison instead of healing."
+msgstr  "Kiedy stoi w wodzie (z wyjątkiem terenu z brodem i rafą), ta "
+        "jednostka leczy {VALUE} HP na turę. Jeśli zostanie zatruta, usunie "
+        "truciznę zamiast się leczyć."
+
+msgid   "When this ability is activated, all Rune Masters create special "
+        "auras.\n"
+        "-all ajdacent enemy units get 20 damage,\n"
+        "-adjacent units on hexes: s, ne, nw receive a 99% bonus to fire, "
+        "cold and arcane resistance,\n"
+        "-other units receive a -99% bonus to fire, cold and arcane "
+        "resistance,\n"
+        "-the aura can be rotated once per turn to cover appropriate units,\n"
+        "-transformed Runemasters cannot attack, but have 70% magical and "
+        "physical resistance,\n"
+        "-the transformation lasts one turn."
+msgstr  "Gdy ta zdolność jest aktywowana, wszyscy Mistrzowie Run utworzą "
+        "specjalne aury.\n"
+        "- wszystkie pobliskie wrogie jednostki otrzymają 20 punktów obrażeń\n"
+        "- jednostki na heksach: s, ne, nw otrzymają 99 bonus do odporności "
+        "na ogień, chłód i tajemny typ obrażeń\n"
+        "- pozostałe jednostki objęte aurą otrzymają -99% podatność na ogień, "
+        "chłód i tajemny typ obrażeń\n"
+        "- aura może być obrócona raz na turę by pokryć prawidłowe jednostki\n"
+        "- Mistrzowie Run w tym czasie nie mogą atakować, ale mają 70% bonus "
+        "do wszystkich odporności\n"
+        "- transformacja trwa jedną turę."
+
+msgid   "When this attack is used offensively, this unit takes one third less "
+        "damage in retaliation."
+msgstr  "Kiedy ten atak jest użyty ofensywnie, ta jednostka otrzymuje w "
+        "odpowiedzi jedną trzecią obrażeń mniej."
+
+msgid   "When this attack is used, all units adjacent to the target (except "
+        "the attacker) receive half of the attack's damage. Does not work on "
+        "defense."
+msgstr  "Kiedy ten atak jest w użyciu, wszystkie jednostki przyległe do celu "
+        "(poza atakującym) otrzymują połowę obrażeń. Nie działa w obronie."
+
+msgid   "When this attack is used, random units adjacent to the target "
+        "(except the attacker) get half of the basic damage. Does not work on "
+        "defense."
+msgstr  "Kiedy ten atak jest używany, losowe jednostki sąsiadujące z celem "
+        "(oprócz atakującego) otrzymują połowę podstawowych obrażeń. Nie "
+        "działa w obronie."
+
+msgid   "When this attack is used, the attacker can hurt a unit behind his "
+        "primary target and a unit behind that unit (3 units total). Damage "
+        "dealt to the second target equals to 2/3 of raw firepower. Damage "
+        "dealt to the third target equals to 1/3 of raw firepower. This "
+        "effect works only on offence."
+msgstr  "Kiedy ten atak jest użyty, atakujący może ranić jednostkę stojącą za "
+        "celem oraz kolejną stojącą za tą jednostką w linii (łącznie 3 "
+        "jednostki). Obrażenia zadane drugiej jednostce wynoszą 2/3 głównej "
+        "siły ognia. Obrażenia zadane trzeciej jednostce stanowią 1/3 głównej "
+        "siły ognia. Ta zdolność działa tylko w ataku."
+
+msgid   "When this attack is used, this units damage increases after each "
+        "successful hit until 4th strike."
+msgstr  "Gdy ten atak jest użyty, obrażenia rosną za każdym uderzeniem, aż do "
+        "4 ciosu."
+
+msgid   "When this large unit is destroyed, it falls on a ground dealing "
+        "damage to all adjacent units. When a harmed adjacent unit goes to or "
+        "below 0 HP, its HP are set to 1 instead of being killed."
+msgstr  "Gdy ta duża jednostka ulega zniszczeniu, spada na ziemię zadając "
+        "obrażenia pobliskim jednostkom. Jeśli HP zranionej w ten sposób "
+        "jednostki spadnie poniżej 0, to jednostka nie ginie a pozostaje z 1 "
+        "punktem życia."
+
+msgid   "When this unit dies a new Chaotic Observer unit is placed on the "
+        "recall list of this unit's side."
+msgstr  "Gdy ta jednostka ginie, nowy Chaotyczny Obserwator jest dostępny do "
+        "przywołania dla strony, która straciła tą jednostkę."
+
+msgid   "When used defensively, this attack has a 70% chance to hit "
+        "regardless of the defensive ability of the unit being attacked."
+msgstr  "Kiedy ten atak jest użyty defensywnie, ma on 70% szansy na trafienie."
+
+msgid   "When used offensively, this attack deals 150% damage to the target. "
+        "It also causes this unit to take 150% damage from the target’s "
+        "counterattack.\n"
+        "\n"
+        "When the opponent is defeated, the attacker with this ability moves "
+        "to the opponent's location."
+msgstr  "Użyty ofensywnie ten atak zadaje 1,5x więcej obrażeń przeciwnikowi. "
+        "Jednocześnie atakujący otrzymuje 1,5x więcej obrażeń.\n"
+        "\n"
+        "Kiedy przeciwnik zostanie pokonany, ta jednostka automatycznie "
+        "przemieści się i zajmie jego pozycję."
+
+msgid   "When used offensively, this attack has a 70% chance to hit "
+        "regardless of the defensive ability of the unit being attacked."
+msgstr  "Kiedy ten atak jest użyty ofensywnie, ma on 70% szansy na trafienie."
+
+msgid   "When used offensively, this attack has a 80% chance to hit "
+        "regardless of the defensive ability of the unit being attacked."
+msgstr  "Kiedy ten atak jest użyty ofensywnie, ma on 80% szansy na trafienie."
+
+msgid   "When used offensively, this attack reduces magical chance to hit of "
+        "opponents by 20% (down to 50%). It also reduces enchanted chance to "
+        "hit of opponents by 10% (down to 50% as well)."
+msgstr  "Użyty w ofensywie, atak ten redukuje bonus przeciwnika do trafienia "
+        "przy użyciu magicznych ataków o 20% (zrównując do 50%). Poza tym "
+        "redukuje również bonus przeciwnika do trafienia przy użyciu "
+        "zaklętych ataków o 10% (również zrównując do 50%)."
+
+msgid   "When used offensively, units hit with this attack become unable to "
+        "move for 1 turn"
+msgstr  "Gdy użyty ofensywnie, jednostki trafione tym atakiem nie mogą się "
+        "ruszyć przez 1 turę"
+
+msgid   "When used offensively, units hit with this attack suffer a 35% "
+        "reduction in damage and a 10% reduction in defenses for 1 turn"
+msgstr  "Gdy użyty ofensywnie, jednostki trafione tym atakiem mają o 35% "
+        "zmniejszoną siłę ataku i 10% mniej obrony terenowej na 1 turę"
+
+msgid   "While attacking, this unit will take 20% less fire/cold/arcane "
+        "damage in retaliation."
+msgstr  "Podczas ataku ta jednostka otrzyma o 20% mniejsze obrażenia od ognia/"
+        "chłodu/tajemnego typu obrażeń."
+
+msgid   "While attacking, this unit's resistances are doubled, up to a "
+        "maximum of 50. Weaknesses are not affected."
+msgstr  "Kiedy ta jednostka atakuje, jej odporności są zdublowane do maksimum "
+        "50%. Podatności nie są objęte działaniem tej zdolności."
+
+msgid   "White Warrior"
+msgstr  "Biały Wojownik"
+
+msgid   "Witch"
+msgstr  "Wiedźma"
+
+msgid   "Wonderful Jinni"
+msgstr  "Wspaniały Dżin"
+
+msgid   "Wyvern"
+msgstr  "Wiwerna"
+
+msgid   "Wyvern Knight"
+msgstr  "Poskramiacz Wiwern"
+
+msgid   "Wyvern Rider"
+msgstr  "Jeździec Wiwern"
+
+msgid   "Yellow Salamander"
+msgstr  "Żółta Salamandra"
+
+msgid   "You don't have enough gold!"
+msgstr  "Masz za mało złota!"
+
+msgid   "abyssal wind"
+msgstr  "wiatr otchłani"
+
+msgid   "activate drone"
+msgstr  "aktywuj drona"
+
+msgid   "additional armor"
+msgstr  "dodatkowy pancerz"
+
+msgid   "agility module (+1 mp; hit and run 2, +1 max hp)"
+msgstr  "moduł zwinności (+1 ruch, atak i ucieczka 2, +1 max hp)"
+
+msgid   "all around"
+msgstr  "obszarowy"
+
+msgid   "alter ego"
+msgstr  "alter ego"
+
+msgid   "always hits"
+msgstr  "zawsze trafia"
+
+msgid   "anti-magic"
+msgstr  "anty-magia"
+
+msgid   "anti-mech +{VALUE}"
+msgstr  "anty-mechaniczny +{VALUE}"
+
+msgid   "anti-shield"
+msgstr  "anty-tarcza"
+
+msgid   "area attack"
+msgstr  "atak obszarowy"
+
+msgid   "area effect"
+msgstr  "efekt obszarowy"
+
+msgid   "arrow"
+msgstr  "strzała"
+
+msgid   "attack module (+1 melee strike/damage)"
+msgstr  "moduł ofensywny (+1 cios/obrażenia)"
+
+msgid   "attack only"
+msgstr  "tylko do ataku"
+
+msgid   "aura"
+msgstr  "aura"
+
+msgid   "awaken"
+msgstr  "przebudzony"
+
+msgid   "awe 1"
+msgstr  "strach 1"
+
+msgid   "awe 2"
+msgstr  "strach 2"
+
+msgid   "awe 3"
+msgstr  "strach 3"
+
+msgid   "awe 4"
+msgstr  "strach 4"
+
+msgid   "awoken"
+msgstr  "przebudzony"
+
+msgid   "banish"
+msgstr  "wygnanie"
+
+msgid   "banishment"
+msgstr  "wygnanie"
+
+msgid   "banner"
+msgstr  "chorągiew"
+
+msgid   "beam"
+msgstr  "promień"
+
+msgid   "berserker ai"
+msgstr  "berserker SI"
+
+msgid   "better blades"
+msgstr  "lepsze ostrza"
+
+msgid   "bite"
+msgstr  "ugryzienie"
+
+msgid   "blade"
+msgstr  "ostrze"
+
+msgid   "blade ring"
+msgstr  "ostry pierścień"
+
+msgid   "blades"
+msgstr  "ostrza"
+
+msgid   "bleed"
+msgstr  "krwawienie"
+
+msgid   "bleeding"
+msgstr  "krwawi"
+
+msgid   "blinding light"
+msgstr  "oślepiające światło"
+
+msgid   "blood gate"
+msgstr  "krwawe wrota"
+
+msgid   "bloodlust"
+msgstr  "żądza krwi"
+
+msgid   "blowgun"
+msgstr  "dmuchawka"
+
+msgid   "blue flame"
+msgstr  "błękitny płomień"
+
+msgid   "bolas"
+msgstr  "bole"
+
+msgid   "bomb"
+msgstr  "bomba"
+
+msgid   "bombs"
+msgstr  "bomby"
+
+msgid   "bone collector"
+msgstr  "kolekcjoner kości"
+
+msgid   "bow"
+msgstr  "łuk"
+
+msgid   "bubble"
+msgstr  "bańka"
+
+msgid   "burner"
+msgstr  "palnik"
+
+msgid   "burning fist"
+msgstr  "płonąca pięść"
+
+msgid   "cannon"
+msgstr  "armata"
+
+msgid   "cannons"
+msgstr  "armatki"
+
+msgid   "cave ambush"
+msgstr  "jaskiniowa zasadzka"
+
+msgid   "chain"
+msgstr  "łańcuch"
+
+msgid   "chakram"
+msgstr  "czakram"
+
+msgid   "chaos channelling"
+msgstr  "przekierowanie chaosu"
+
+msgid   "chaotic blast"
+msgstr  "chaotyczny podmuch"
+
+msgid   "chaotic vortex"
+msgstr  "chaotyczny wir"
+
+msgid   "charge"
+msgstr  "szarża"
+
+msgid   "chill tempest"
+msgstr  "nawałnica chłodu"
+
+msgid   "chrono aura"
+msgstr  "aura czasu"
+
+msgid   "chrono aura (active)"
+msgstr  "aura czasu (aktywna)"
+
+msgid   "circle of balance"
+msgstr  "krąg równowagi"
+
+msgid   "circle of banishment"
+msgstr  "krąg wygnania"
+
+msgid   "circle of destruction"
+msgstr  "krąg zniszczenia"
+
+msgid   "circle of resistance"
+msgstr  "krąg odporności"
+
+msgid   "circle of susceptibility"
+msgstr  "krąg podatności"
+
+msgid   "cleave"
+msgstr  "cios obszarowy"
+
+msgid   "cleave 50%"
+msgstr  "cios obszarowy 50%"
+
+msgid   "cold aura"
+msgstr  "chłodna aura"
+
+msgid   "complete repair (drone)"
+msgstr  "kompletna naprawa (dron)"
+
+msgid   "concentrated fire"
+msgstr  "skoncentrowany ostrzał"
+
+msgid   "copied"
+msgstr  "skopiowany"
+
+msgid   "corrupted fire"
+msgstr  "przeklęty ogień"
+
+msgid   "crimson aura"
+msgstr  "karmazynowa aura"
+
+msgid   "cup of fire"
+msgstr  "kielich ognia"
+
+msgid   "cursed dagger"
+msgstr  "przeklęty sztylet"
+
+msgid   "cursed knives"
+msgstr  "przeklęte noże"
+
+msgid   "curved swords"
+msgstr  "zakrzywione miecze"
+
+msgid   "daggers"
+msgstr  "sztylety"
+
+msgid   "damage aura"
+msgstr  "aura uszkadzająca"
+
+msgid   "damage rune"
+msgstr  "runa zniszczenia"
+
+msgid   "damned flame"
+msgstr  "przeklęty płomień"
+
+msgid   "dark aura"
+msgstr  "mroczna aura"
+
+msgid   "dark ball"
+msgstr  "mroczna kula"
+
+msgid   "dark lightning"
+msgstr  "mroczny piorun"
+
+msgid   "dark spark"
+msgstr  "mroczna iskra"
+
+msgid   "dauntless"
+msgstr  "nieustraszony"
+
+msgid   "dazzle"
+msgstr  "oślepienie"
+
+msgid   "defend-only"
+msgstr  "tylko-obrona"
+
+msgid   "defender"
+msgstr  "obrońca"
+
+msgid   "defense module (add zone of control and autorepair +6, +2 max hp)"
+msgstr  "moduł defensywny (dodaje strefę kontroli i umożliwia autonaprawę +6, "
+        "+2 max hp)"
+
+msgid   "deflect magic"
+msgstr  "odbicie magii"
+
+msgid   "destruction"
+msgstr  "destrukcja"
+
+msgid   "devour"
+msgstr  "pożarcie"
+
+msgid   "dimensional vortex"
+msgstr  "wir wymiarów"
+
+msgid   "divine"
+msgstr  "niebiański"
+
+msgid   "divine spear"
+msgstr  "boska włócznia"
+
+msgid   "double attack"
+msgstr  "podwójny atak"
+
+msgid   "double divine spear"
+msgstr  "podwójna boska włócznia"
+
+msgid   "dragon breath"
+msgstr  "smoczy oddech"
+
+msgid   "dread"
+msgstr  "strach"
+
+msgid   "earth blast"
+msgstr  "cios ziemi"
+
+msgid   "elite"
+msgstr  "elitarny"
+
+msgid   "enchanted"
+msgstr  "zaklęty"
+
+msgid   "enchanted arrow"
+msgstr  "zaklęta strzała"
+
+msgid   "entrapment spell"
+msgstr  "zaklęcie spętania"
+
+msgid   "explosion"
+msgstr  "eksplozja"
+
+msgid   "eye of the storm"
+msgstr  "oko sztormu"
+
+msgid   "fanatic"
+msgstr  "fanatyk"
+
+msgid   "female^Bishop"
+msgstr  "Biskup"
+
+msgid   "female^Child of Light"
+msgstr  "Córa Światła"
+
+msgid   "female^Cleric"
+msgstr  "Kleryk"
+
+msgid   "female^Inspired"
+msgstr  "Natchniona"
+
+msgid   "female^Mistress of Light"
+msgstr  "Mistrzyni Światła"
+
+msgid   "female^Prophet of Light"
+msgstr  "Prorok Światła"
+
+msgid   "female^Sister of Light"
+msgstr  "Siostra"
+
+msgid   "female^awoken"
+msgstr  "przebudzona"
+
+msgid   "female^dauntless"
+msgstr  "nieustraszona"
+
+msgid   "female^elite"
+msgstr  "elitarna"
+
+msgid   "female^fanatic"
+msgstr  "fanatyczka"
+
+msgid   "female^heals"
+msgstr  "leczy"
+
+msgid   "female^heroic"
+msgstr  "heroiczna"
+
+msgid   "female^magical"
+msgstr  "magiczna"
+
+msgid   "female^regenerates +12"
+msgstr  "regeneruje +12"
+
+msgid   "female^shielded"
+msgstr  "osłona"
+
+msgid   "female^survivor"
+msgstr  "ocalała"
+
+msgid   "female^swamp lurk"
+msgstr  "Bagienna czychaczka"
+
+msgid   "female^tenacity"
+msgstr  "nieustępliwa"
+
+msgid   "female^veteran"
+msgstr  "weteranka"
+
+msgid   "fire arrow"
+msgstr  "ognista strzała"
+
+msgid   "fire blast"
+msgstr  "podmuch ognia"
+
+msgid   "fire breath"
+msgstr  "ognisty oddech"
+
+msgid   "fire runes"
+msgstr  "ogniste runy"
+
+msgid   "fire touch"
+msgstr  "ognisty dotyk"
+
+msgid   "fire wave"
+msgstr  "fala ognia"
+
+msgid   "first strike"
+msgstr  "pierwszy cios"
+
+msgid   "flame blast"
+msgstr  "ognisty podmuch"
+
+msgid   "flames"
+msgstr  "płomienie"
+
+msgid   "flames of doom"
+msgstr  "płomienie zagłady"
+
+msgid   "flamethrower"
+msgstr  "miotacz ognia"
+
+msgid   "freezing spell"
+msgstr  "zaklęcie zamrażające"
+
+msgid   "freezing touch"
+msgstr  "lodowy dotyk"
+
+msgid   "frozen fist"
+msgstr  "zamrożona pięść"
+
+msgid   "frozen gate"
+msgstr  "zamrożone wrota"
+
+msgid   "frozen spear"
+msgstr  "włócznia lodu"
+
+msgid   "fungal regeneration"
+msgstr  "grzybowa regeneracja"
+
+msgid   "furious death"
+msgstr  "wściekła śmierć"
+
+msgid   "fury"
+msgstr  "furia"
+
+msgid   "fusion"
+msgstr  "fuzja"
+
+msgid   "gaze"
+msgstr  "spojrzenie"
+
+msgid   "gold:"
+msgstr  "złoto:"
+
+msgid   "growing fury"
+msgstr  "wzbierająca furia"
+
+msgid   "gun"
+msgstr  "pistolet"
+
+msgid   "gun bash"
+msgstr  "uderzenie kolbą"
+
+msgid   "hard landing"
+msgstr  "twarde lądowanie"
+
+msgid   "head"
+msgstr  "uderzenie głową"
+
+msgid   "headbutt"
+msgstr  "uderzenie głową"
+
+msgid   "heals"
+msgstr  "leczy"
+
+msgid   "heals undead "
+msgstr  "leczy nieumarłych"
+
+msgid   "heat aura"
+msgstr  "gorąca aura"
+
+msgid   "heroic"
+msgstr  "heroiczny"
+
+msgid   "hit"
+msgstr  "cios"
+
+msgid   "hit and run"
+msgstr  "uderz i uciekaj"
+
+msgid   "holy arrow"
+msgstr  "święta strzała"
+
+msgid   "hurricane"
+msgstr  "huragan"
+
+msgid   "ice arrow"
+msgstr  "lodowa strzała"
+
+msgid   "ice runes"
+msgstr  "lodowe runy"
+
+msgid   "ice strike"
+msgstr  "uderzenie lodu"
+
+msgid   "iceball"
+msgstr  "kula lodu"
+
+msgid   "icicles"
+msgstr  "sople lodu"
+
+msgid   "illuminates (weak)"
+msgstr  "oświetla (słabo)"
+
+msgid   "immobilization"
+msgstr  "unieruchomienie"
+
+msgid   "immobilize"
+msgstr  "unieruchomienie"
+
+msgid   "implosion"
+msgstr  "implozja"
+
+msgid   "improved kamikaze"
+msgstr  "ulepszony kamikaze"
+
+msgid   "inactive in RPG"
+msgstr  "nieaktywne w RPG"
+
+msgid   "incantation of power"
+msgstr  "inkantacja mocy"
+
+msgid   "infernal flame"
+msgstr  "ogień piekielny"
+
+msgid   "inspires 1"
+msgstr  "inspiruje 1"
+
+msgid   "inspires 2"
+msgstr  "inspiruje 2"
+
+msgid   "irritant powder"
+msgstr  "proszek drażniący"
+
+msgid   "kamikaze"
+msgstr  "kamikaze"
+
+msgid   "kamikaze heal"
+msgstr  "samobójcze leczenie"
+
+msgid   "katana"
+msgstr  "katana"
+
+msgid   "knives"
+msgstr  "noże"
+
+msgid   "kunai"
+msgstr  "kunai"
+
+msgid   "landmass"
+msgstr  "fragment ziemi"
+
+msgid   "legs"
+msgstr  "nogi"
+
+msgid   "lesser damage aura"
+msgstr  "pomniejsza aura uszkadzająca"
+
+msgid   "lesser revenge"
+msgstr  "mniejsza zemsta"
+
+msgid   "life drain"
+msgstr  "wysysanie życia"
+
+msgid   "light touch"
+msgstr  "dotyk światła"
+
+msgid   "lightning"
+msgstr  "piorun"
+
+msgid   "lightning bolt"
+msgstr  "piorun"
+
+msgid   "lightstorm"
+msgstr  "świetlna burza"
+
+msgid   "low upkeep"
+msgstr  "niskie utrzymanie"
+
+msgid   "machine gun"
+msgstr  "karabin maszynowy"
+
+msgid   "magic"
+msgstr  "magia"
+
+msgid   "magic absorber"
+msgstr  "pochłaniacz magii"
+
+msgid   "magic arrow"
+msgstr  "magiczna strzała"
+
+msgid   "magic barrage"
+msgstr  "magiczny grad pocisków"
+
+msgid   "magic counter"
+msgstr  "kontruje magię"
+
+msgid   "magic counter (offensive)"
+msgstr  "kontruje magię (ofensywa)"
+
+msgid   "magic hardening"
+msgstr  "magiczne hartowanie"
+
+msgid   "magic missile"
+msgstr  "magiczny pocisk"
+
+msgid   "magic touch"
+msgstr  "magiczny dotyk"
+
+msgid   "magical"
+msgstr  "magiczny"
+
+msgid   "magical (defensive)"
+msgstr  "magiczny (defensywa)"
+
+msgid   "magical (offensive)"
+msgstr  "magiczny (ofensywa)"
+
+msgid   "magical dagger"
+msgstr  "magiczny sztylet"
+
+msgid   "magical hammer"
+msgstr  "magiczny młot"
+
+msgid   "magical powder"
+msgstr  "magiczny proszek"
+
+msgid   "magical scimitar"
+msgstr  "magiczny sejmitar"
+
+msgid   "metal claws"
+msgstr  "metalowe pazury"
+
+msgid   "meteor shower"
+msgstr  "deszcz meteorów"
+
+msgid   "missile"
+msgstr  "pocisk"
+
+msgid   "mountain ambush"
+msgstr  "górska zasadzka"
+
+msgid   "movepoints"
+msgstr  "punkty ruchu"
+
+msgid   "mystic touch"
+msgstr  "mistyczny dotyk"
+
+msgid   "nature detox"
+msgstr  "detoks natury"
+
+msgid   "nature regeneration"
+msgstr  "przyrodnicza regeneracja"
+
+msgid   "no counter-attack"
+msgstr  "brak kontrataku"
+
+msgid   "nocturnal regeneration"
+msgstr  "nocna regeneracja"
+
+msgid   "of defeated enemy's max health. This unit also gains +1 max hp with "
+        "each successful kill of a non-magical unit."
+msgstr  "pokonanego maksimum zdrowia wroga. Ta jednostka otrzymuje także +1 "
+        "max hp przy każdym udanym zabiciu niemagicznego stworzenia."
+
+msgid   "pain"
+msgstr  "ból"
+
+msgid   "pain absorption"
+msgstr  "absorbcja bólu"
+
+msgid   "pain absorption (strict)"
+msgstr  "absorbcja bólu (stricte)"
+
+msgid   "parachute"
+msgstr  "spadochron"
+
+msgid   "paw"
+msgstr  "łapa"
+
+msgid   "petrifying spell"
+msgstr  "zaklęcie rzeźbiące"
+
+msgid   "pieces of gold."
+msgstr  "złota."
+
+msgid   "pike"
+msgstr  "pika"
+
+msgid   "plasma shot"
+msgstr  "strzał plazmy"
+
+msgid   "point blank"
+msgstr  "strzał z bliska"
+
+msgid   "poisoned arrow"
+msgstr  "zatruta strzała"
+
+msgid   "poisoned bolt"
+msgstr  "zatruta strzała"
+
+msgid   "poisonous aura"
+msgstr  "zatruwająca aura"
+
+msgid   "precision"
+msgstr  "precyzja"
+
+msgid   "precision (offensive)"
+msgstr  "precyzja (ofensywa)"
+
+msgid   "race+female^Cyclops"
+msgstr  "Cyklop"
+
+msgid   "race+female^Magical"
+msgstr  "Magiczna"
+
+msgid   "race+female^Roc"
+msgstr  "Rok"
+
+msgid   "race+female^Salamander"
+msgstr  "Salamandra"
+
+msgid   "race+female^Tharis"
+msgstr  "Tharis"
+
+msgid   "race+plural^Magical"
+msgstr  "Magiczni"
+
+msgid   "race+plural^Tharis"
+msgstr  "Tharis"
+
+msgid   "race^Cyclopes"
+msgstr  "Cyklopy"
+
+msgid   "race^Cyclops"
+msgstr  "Cyklop"
+
+msgid   "race^Magical"
+msgstr  "Magiczny"
+
+msgid   "race^Roc"
+msgstr  "Rok"
+
+msgid   "race^Rocs"
+msgstr  "Roki"
+
+msgid   "race^Salamander"
+msgstr  "Salamandra"
+
+msgid   "race^Salamanders"
+msgstr  "Salamandra"
+
+msgid   "race^Tharis"
+msgstr  "Tharis"
+
+msgid   "racial leader"
+msgstr  "dowódca rasy"
+
+msgid   "random area effect"
+msgstr  "losowy efekt obszarowy"
+
+msgid   "range^kamikaze"
+msgstr  "kamikaze"
+
+msgid   "rapid fire"
+msgstr  "ciągły ogień"
+
+msgid   "ray of light"
+msgstr  "promień światła"
+
+msgid   "reality warp"
+msgstr  "zakrzywienie rzeczywistości"
+
+msgid   "recruit"
+msgstr  "rekrutacja"
+
+msgid   "regenerates +12"
+msgstr  "regeneruje +12"
+
+msgid   "regenerates +6"
+msgstr  "regeneruje się +6"
+
+msgid   "repairs"
+msgstr  "naprawia"
+
+msgid   "revenge"
+msgstr  "zemsta"
+
+msgid   "rifle"
+msgstr  "strzelba"
+
+msgid   "rotor"
+msgstr  "śmigła"
+
+msgid   "rune aura"
+msgstr  "runiczna aura"
+
+msgid   "rune aura (active)"
+msgstr  "runiczna aura (aktywna)"
+
+msgid   "rune aura (flipped)"
+msgstr  "runiczna aura (odwrócona)"
+
+msgid   "runic hammer"
+msgstr  "młot runiczny"
+
+msgid   "runic lightning"
+msgstr  "runiczny piorun"
+
+msgid   "runic plate"
+msgstr  "runiczny pancerz"
+
+msgid   "runic sword"
+msgstr  "runiczny miecz"
+
+msgid   "saw"
+msgstr  "piła"
+
+msgid   "scavenger"
+msgstr  "padlinożerca"
+
+msgid   "scimitar"
+msgstr  "sejmitar"
+
+msgid   "scimitar throw"
+msgstr  "rzut sejmitarem"
+
+msgid   "scream"
+msgstr  "krzyk"
+
+msgid   "screwdriver"
+msgstr  "śrubokręt"
+
+msgid   "scroll"
+msgstr  "zwój"
+
+msgid   "scroll spell"
+msgstr  "magiczny zwój"
+
+msgid   "sculpts"
+msgstr  "rzeźbi"
+
+msgid   "scythe"
+msgstr  "kosa"
+
+msgid   "secret"
+msgstr  "sekretny"
+
+msgid   "secret hit"
+msgstr  "sekretny cios"
+
+msgid   "shield"
+msgstr  "tarcza"
+
+msgid   "shield bash"
+msgstr  "tarcza"
+
+msgid   "shielded"
+msgstr  "osłona"
+
+msgid   "shock grenade"
+msgstr  "granat ogłuszający"
+
+msgid   "shock gun"
+msgstr  "działko"
+
+msgid   "shockwave"
+msgstr  "fala uderzeniowa"
+
+msgid   "skilled"
+msgstr  "umiejętny"
+
+msgid   "small lightning"
+msgstr  "mały piorun"
+
+msgid   "smash"
+msgstr  "miażdżenie"
+
+msgid   "solar beam"
+msgstr  "promień słoneczny"
+
+msgid   "solar regeneration"
+msgstr  "słoneczna regeneracja"
+
+msgid   "soul catcher"
+msgstr  "łapacz dusz"
+
+msgid   "spark"
+msgstr  "iskra"
+
+msgid   "sparks"
+msgstr  "iskry"
+
+msgid   "spear throw"
+msgstr  "rzut włócznią"
+
+msgid   "split"
+msgstr  "rozdzielenie"
+
+msgid   "split fire"
+msgstr  "podwójny atak"
+
+msgid   "spread shot"
+msgstr  "strzał obszarowy"
+
+msgid   "statue copy"
+msgstr  "kopiowanie"
+
+msgid   "stones"
+msgstr  "kamienie"
+
+msgid   "storm"
+msgstr  "burza"
+
+msgid   "stun"
+msgstr  "ogłusza"
+
+msgid   "stunned"
+msgstr  "ogłuszenie"
+
+msgid   "summon"
+msgstr  "przywołanie"
+
+msgid   "summon undead"
+msgstr  "przywołanie nieumarłych"
+
+msgid   "supercharge"
+msgstr  "superszarża"
+
+msgid   "survivor"
+msgstr  "ocalały"
+
+msgid   "swallow"
+msgstr  "połknięcie"
+
+msgid   "swamp lurk"
+msgstr  "Bagienny czychacz"
+
+msgid   "swamp regeneration"
+msgstr  "bagienna regeneracja"
+
+msgid   "sword+axe"
+msgstr  "miecz+topór"
+
+msgid   "sworddance"
+msgstr  "taniec mieczy"
+
+msgid   "swords"
+msgstr  "miecze"
+
+msgid   "tackle"
+msgstr  "uderzenie"
+
+msgid   "tail"
+msgstr  "ogon"
+
+msgid   "tenacity"
+msgstr  "nieustępliwość"
+
+msgid   "tongue"
+msgstr  "język"
+
+msgid   "torch"
+msgstr  "pochodnia"
+
+msgid   "touch"
+msgstr  "dotyk"
+
+msgid   "touch of apocalypse"
+msgstr  "dotyk apokalipsy"
+
+msgid   "touch of armageddon"
+msgstr  "dotyk armagedonu"
+
+msgid   "touch of doom"
+msgstr  "dotyk zagłady"
+
+msgid   "trample"
+msgstr  "zdeptanie"
+
+msgid   "tree"
+msgstr  "drzewo"
+
+msgid   "trident"
+msgstr  "trójząb"
+
+msgid   "triple strike"
+msgstr  "potrójny atak"
+
+msgid   "ultra circle"
+msgstr  "ultra krąg"
+
+msgid   "ultraspeed"
+msgstr  "ultraszybkość"
+
+msgid   "um blast"
+msgstr  "atak um"
+
+msgid   "um strike"
+msgstr  "atak um"
+
+msgid   "upgradable"
+msgstr  "możliwy do udoskonalenia"
+
+msgid   "upkeepless"
+msgstr  "bez utrzymania"
+
+msgid   "veteran"
+msgstr  "weteran"
+
+msgid   "voice of darkness"
+msgstr  "głos ciemności"
+
+msgid   "warrior influence"
+msgstr  "wojowniczy wpływ"
+
+msgid   "water ambush"
+msgstr  "wodna zasadzka"
+
+msgid   "water blast"
+msgstr  "fala wody"
+
+msgid   "water regeneration"
+msgstr  "wodna regeneracja"
+
+msgid   "whip"
+msgstr  "bicz"
+
+msgid   "white sword"
+msgstr  "biały miecz"
+
+msgid   "wind gust"
+msgstr  "podmuch wiatru"
+
+msgid   "witch-fire"
+msgstr  "ogień wiedźm"
+
+msgid   "wrench"
+msgstr  "klucz"
+
+msgid   "wrist blade"
+msgstr  "naręczne ostrze"
+
+msgid   "yari"
+msgstr  "yari"
+
+msgid   "yellow flame"
+msgstr  "żółty płomień"

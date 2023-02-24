@@ -1,0 +1,1335 @@
+msgid   ""
+msgstr  "Project-Id-Version: wescamp-i 18n\n"
+        "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+        "POT-Creation-Date: 2011-05-29 02:51-0400\n"
+        "PO-Revision-Date: 2011-07-02 10:00-0800\n"
+        "Last-Translator: Carson Callis aka Mountian_King "
+        "<tree_rings@rocketmail.com>\n"
+        "Language-Team: none\n"
+        "Language: ga\n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=UTF-8\n"
+        "Content-Transfer-Encoding: 8bit\n"
+        "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : "
+        "n<11 ? 3 : 4;\n"
+
+msgid   "\n"
+        "\n"
+        "Special Notes:"
+msgstr  "\n"
+        "\n"
+        "Nótaí Speisialta:"
+
+msgid   " mountain ambush"
+msgstr  " luíochán ar sléibhte"
+
+msgid   "(no description available)"
+msgstr  "(níl an tuarascáil infhaighte)"
+
+msgid   "."
+msgstr  "."
+
+msgid   ".\n"
+        "\n"
+        "Special Notes:"
+msgstr  ".\n"
+        "\n"
+        "Nótaí Speisialta:"
+
+msgid   ".\n"
+        "Special Notes:"
+msgstr  ".\n"
+        "Nótaí Speisialta:"
+
+msgid   "12"
+msgstr  "12"
+
+msgid   "4"
+msgstr  "4"
+
+msgid   "5"
+msgstr  "5"
+
+msgid   "6"
+msgstr  "6"
+
+msgid   "9"
+msgstr  "9"
+
+msgid   "Abyss Mage"
+msgstr  "Asarlaí Dhuibheagáin"
+
+msgid   "Activate Aura (24g)"
+msgstr  "Cuir an Luan i nGníomh (24p. ór)"
+
+msgid   "Activate aura? (cost: 24g)"
+msgstr  "Cuir an Luan i nGníomh? (cost: 24p. ór)"
+
+msgid   "Air Avatar"
+msgstr  "Abhatár Aeir"
+
+msgid   "Air Elemental"
+msgstr  "Eiliminteach Aeir"
+
+msgid   "Air God"
+msgstr  "Dia Aeir"
+
+msgid   "Alib,Kalib,Balib,Safay,Jaffar,Semir,Celal,Fatih,Ferhan,Mustafa,"
+        "Mehmet,Melih,Ali,Adem,Ahmet,Altan,Ismet,Ibrahim,Hakan,Kemal,Kenan,"
+        "Rafet,Tahir,Yasar,Yasin,Yusuf,Ahmed,Najib,Samir,Hassan,Hisham,Karim,"
+        "Saif,Rahul,Rohan,Rohit,Nikhil,Shahrukh,Krishi"
+msgstr  "Alib,Kalib,Balib,Safay,Jaffar,Semir,Celal,Fatih,Ferhan,Mustafa,"
+        "Mehmet,Melih,Ali,Adem,Ahmet,Altan,Ismet,Ibrahim,Hakan,Kemal,Kenan,"
+        "Rafet,Tahir,Yasar,Yasin,Yusuf,Ahmed,Najib,Samir,Hassan,Hisham,Karim,"
+        "Saif,Rahul,Rohan,Rohit,Nikhil,Shahrukh,Krishi"
+
+msgid   "Ancient Cyclops"
+msgstr  "Cioclóp Ársa"
+
+msgid   "Balloon"
+msgstr  "Balún"
+
+msgid   "Banisher"
+msgstr  "Díbreoir"
+
+msgid   "Barbarian"
+msgstr  "Barbarach"
+
+msgid   "Barbarian Berserker"
+msgstr  "Dásachtach Barbarach"
+
+msgid   "Barbarian King"
+msgstr  "Rí Barbarach"
+
+msgid   "Barbarian Lord"
+msgstr  "Tiarna Barbarach"
+
+msgid   "Barbarians"
+msgstr  "Barbaraigh"
+
+msgid   "Battle Toad"
+msgstr  "Buaf Chatha"
+
+msgid   "Battlemage"
+msgstr  "Asarlaí Chatha"
+
+msgid   "Black Mage"
+msgstr  "Asarlaí Dhubh"
+
+msgid   "Black Salamander"
+msgstr  "Salamandar Dubh"
+
+msgid   "Bladedancer"
+msgstr  "Rinceoir Lainne"
+
+msgid   "Blademaster"
+msgstr  "Claíomhmáistir"
+
+msgid   "Blood Warrior"
+msgstr  "Laoch Fola"
+
+msgid   "Blue Salamander"
+msgstr  "Salamandar Gorm"
+
+msgid   "Brown Warrior"
+msgstr  "Laoch Donn"
+
+msgid   "Brown warriors are equipped with a very sharp sword and a mace."
+msgstr  "Tá laochra donn claíomh an-ghéar agus más acu."
+
+msgid   "Camel Rider"
+msgstr  "Marcach Camaill"
+
+msgid   "Carpet Master"
+msgstr  "Ridire Cairpéid"
+
+msgid   "Carpet Rider"
+msgstr  "Marcach Cairpéid"
+
+msgid   "Cavalry Archer"
+msgstr  "Boghdóir Marcra"
+
+msgid   "Chaos Hydra"
+msgstr  "Híodra Éagruth"
+
+msgid   "Chaos Rider"
+msgstr  "Marcach Éagruth"
+
+msgid   "Chaos Wyvern"
+msgstr  "Vuibhearn Éagruth"
+
+msgid   "Chosen of Forest"
+msgstr  "Tofa an Fhoraoise"
+
+msgid   "Clan Leader"
+msgstr  "Tuathach"
+
+msgid   "Cold Matriarch"
+msgstr  "Máthair Fhuar"
+
+msgid   "Commander"
+msgstr  "Ceannasaí"
+
+msgid   "Corrupted Shaman"
+msgstr  "Seaman Truaillí"
+
+msgid   "Crossbowman"
+msgstr  "Crosbhoghdóir"
+
+msgid   "Cyclops"
+msgstr  "Cioclóp"
+
+msgid   "Cyclops Breaker"
+msgstr  "Bristeoir Chioclóp"
+
+msgid   "Cyclops Destroyer"
+msgstr  "Airgtheoir Chioclóp"
+
+msgid   "Dark Assassin"
+msgstr  "Feallmharfóir Dubh"
+
+msgid   "Dark Blood Alliance"
+msgstr  "Cairdeas Fola Dhorcha"
+
+msgid   "Dark Hunter"
+msgstr  "Sealgaire Dorcha"
+
+msgid   "Dark Slayer"
+msgstr  "Marfóir Dorcha"
+
+msgid   "Dark Warrior"
+msgstr  "Laoch Dochrach"
+
+msgid   "Dark Witch"
+msgstr  "Cailleach Dhubh"
+
+msgid   "Dark Wizard"
+msgstr  "Asarlaí Dhochrach"
+
+msgid   "Deadly Eye"
+msgstr  "Súil Marfach"
+
+msgid   "Default+Magic"
+msgstr  "Réamhshocrú+Draíocht"
+
+msgid   "Dharma’rhami"
+msgstr  "Dharma’rhamaí"
+
+msgid   "Dimensional Gate"
+msgstr  "Geata Thoiseach"
+
+msgid   "Dimensional Gate 2"
+msgstr  "Geata Thoiseach a 2"
+
+msgid   "Disciple"
+msgstr  "Deisceabal"
+
+msgid   "Dispeller"
+msgstr  "Ruaigtheach"
+
+msgid   "Double Ranged Toad"
+msgstr  "Buaf Dhá Bhairille"
+
+msgid   "Double attack!"
+msgstr  "Ionsaí dhúbailte!"
+
+msgid   "Dread Bat"
+msgstr  "Sciathán Imeagla"
+
+msgid   "Dreadnaught"
+msgstr  "Muirbhréid"
+
+msgid   "Dwarvish Heavy Warrior"
+msgstr  "Laoch Abhcach Trom"
+
+msgid   "Dwarvish Rune Lord"
+msgstr  "Rúnthiarna Abhcach"
+
+msgid   "Dwarvish Rune Warrior"
+msgstr  "Rúnlaoch Abhcach"
+
+msgid   "Dwarvish Tank"
+msgstr  "Tanc Abhcach"
+
+msgid   "Dwarvish Warrior"
+msgstr  "Laoch Abhcach"
+
+msgid   "Earth Avatar"
+msgstr  "Abhatár Talún"
+
+msgid   "Earth Elemental"
+msgstr  "Eiliminteach Talún"
+
+msgid   "Earth God"
+msgstr  "Dia Talún"
+
+msgid   "Efreet"
+msgstr  "Ífrít"
+
+msgid   "Elemental Archer"
+msgstr  "Boghdóir Eiliminteach"
+
+msgid   "Elementalist"
+msgstr  "Eiliminteachtoir"
+
+msgid   "Era of Magic"
+msgstr  "Aois Draíochta"
+
+msgid   "Era of Magic Masters"
+msgstr  "Máistrí hAois Draíochta"
+
+msgid   "Era of Magic RPG"
+msgstr  "Aois Draíochta RPG"
+
+msgid   "Error"
+msgstr  "Earráid"
+
+msgid   "FLEE!"
+msgstr  "RITH AMACH!"
+
+msgid   "FURY!"
+msgstr  "FIÚNACH!"
+
+msgid   "Fanatic"
+msgstr  "Fanaiceach"
+
+msgid   "Fire Avatar"
+msgstr  "Abhatár Tine"
+
+msgid   "Fire Cyclops"
+msgstr  "Cioclóp Tine"
+
+msgid   "Fire Elemental"
+msgstr  "Eiliminteach Tine"
+
+msgid   "Fire God"
+msgstr  "Dia Tine"
+
+msgid   "Flying Fortress"
+msgstr  "Daingean Aeir"
+
+msgid   "General"
+msgstr  "Ginearál"
+
+msgid   "Goblin Archer"
+msgstr  "Boghdóir Lucharacháin"
+
+msgid   "Goblin Assassin"
+msgstr  "Feallmharfóir Lucharacháin"
+
+msgid   "Goblin Hunter"
+msgstr  "Sealgaire Lucharacháin"
+
+msgid   "Goblin Kamikaze"
+msgstr  "Kamikaze Lucharacháin"
+
+msgid   "Goblin Rouser"
+msgstr  "Múscailoir Lucharacháin"
+
+msgid   "Goblin Runt"
+msgstr  "Arcán Lucharacháin"
+
+msgid   "Goblin Sniper"
+msgstr  "Snípéir Lucharacháin"
+
+msgid   "Goblin Warbanner"
+msgstr  "Bratachchogaidh Lucharacháin"
+
+msgid   "Goblin Warrior"
+msgstr  "Laoch Lucharacháin"
+
+msgid   "Golden Mage"
+msgstr  "Asarlaí Órga"
+
+msgid   "Golden Warrior"
+msgstr  "Laoch Órga"
+
+msgid   "Golem"
+msgstr  "Golem"
+
+msgid   "Golem Boss"
+msgstr  "Bas Golem"
+
+msgid   "Grand Summoner"
+msgstr  "Tionóileór Mór"
+
+msgid   "Great Efreeti"
+msgstr  "Ífrítí Mór"
+
+msgid   "Great Hunter"
+msgstr  "Sealgaire Mór"
+
+msgid   "Great Jinn"
+msgstr  "Siní Mór"
+
+msgid   "Great Pikeman"
+msgstr  "Píceálaí Mór"
+
+msgid   "Great Warlock"
+msgstr  "Brathadóir Mór"
+
+msgid   "Great Wyvern"
+msgstr  "Vuibhearn Mhór"
+
+msgid   "Green Salamander"
+msgstr  "Salamandar Glas"
+
+msgid   "Guru"
+msgstr  "Eagnaí"
+
+msgid   "Hard landing"
+msgstr  "Tuirlingt de Thuairt"
+
+msgid   "Heavy Balloon"
+msgstr  "Balún Mór"
+
+msgid   "Heavy Camel Rider"
+msgstr  "Marcach Camaill Trom"
+
+msgid   "Heavy Cavalry Archer"
+msgstr  "Boghdóir Marcra Trom"
+
+msgid   "Heavy Summoner"
+msgstr  "Tionóileór Trom"
+
+msgid   "Help"
+msgstr  "Cabhair"
+
+msgid   "Heroes+Magic"
+msgstr  "Héaróis+Draíocht"
+
+msgid   "Hidden Face"
+msgstr  "Aghaidh Fholaithe"
+
+msgid   "Ho’rhami"
+msgstr  "Ho’rhamaí"
+
+msgid   "Hydra"
+msgstr  "Híodra"
+
+msgid   "Jinn"
+msgstr  "Siní"
+
+msgid   "Kharos"
+msgstr  "Charos"
+
+msgid   "Kharos War Banner"
+msgstr  "Bratach Chogaidh Charois"
+
+msgid   "Kirios"
+msgstr  "Cirios"
+
+msgid   "Mage of air"
+msgstr  "Asarlaí Aeir"
+
+msgid   "Mage of fire"
+msgstr  "Asarlaí Thine"
+
+msgid   "Mage of water"
+msgstr  "Asarlaí Uisce"
+
+msgid   "Magical Eye"
+msgstr  "Súil Draíochtúil"
+
+msgid   "Master of Air"
+msgstr  "Máistir Aeir"
+
+msgid   "Master of Darkness"
+msgstr  "Máistir Dorchadais"
+
+msgid   "Master of Elements"
+msgstr  "Máistir Eilimintí"
+
+msgid   "Master of Fire"
+msgstr  "Máistir Tine"
+
+msgid   "Master of Sun"
+msgstr  "Máistir Gréine"
+
+msgid   "Master of War"
+msgstr  "Máistir Chatha"
+
+msgid   "Master of Water"
+msgstr  "Máistir Uisce"
+
+msgid   "Mastermage"
+msgstr  "Máistirasarlaí"
+
+msgid   "Matriarch of Darkness"
+msgstr  "Máthair Dhorchadais"
+
+msgid   "Matriarch of Emptiness"
+msgstr  "Máthair le Folús"
+
+msgid   "Mechanic"
+msgstr  "Meicneoir"
+
+msgid   "Mechanical Dragon"
+msgstr  "Dragan Meicniúil"
+
+msgid   "Mighty Cyclops"
+msgstr  "Cioclóp Neartmhar"
+
+msgid   "Mu"
+msgstr  "Mú"
+
+msgid   "Mystic"
+msgstr  "Misteach"
+
+msgid   "Mystic Warrior"
+msgstr  "Laoch Misteach"
+
+msgid   "Mystical Jinn"
+msgstr  "Siní Rúndiamhair"
+
+msgid   "Mystical Toad"
+msgstr  "Buaf Rúndiamhair"
+
+msgid   "Neutral Summoner"
+msgstr  "Tionóileór Neodrach"
+
+msgid   "No"
+msgstr  "Ni hea"
+
+msgid   "Novice Summoner"
+msgstr  "Tionóileór Nóibhíseach"
+
+msgid   "Orcish Warbanner"
+msgstr  "Bratachchogaidh Orchach"
+
+msgid   "Orcish Warrior"
+msgstr  "Laoch Orchach"
+
+msgid   "Pacificator"
+msgstr  "Réiteoir"
+
+msgid   "Parachutist"
+msgstr  "Paraisiútaí"
+
+msgid   "Platinum Warrior"
+msgstr  "Laoch Platanaim"
+
+msgid   "Protector"
+msgstr  "Cosantóir"
+
+msgid   "Raging Cyclops"
+msgstr  "Cioclóp Feargach"
+
+msgid   "Raging Hydra"
+msgstr  "Híodra Feargach"
+
+msgid   "Random Default"
+msgstr  "Réamhshocrú Randamach"
+
+msgid   "Ranged Toad"
+msgstr  "Buaf Fhadraon"
+
+msgid   "Red Ulfserker"
+msgstr  "Lochlannach Dearg"
+
+msgid   "Revenger"
+msgstr  "Díoltach"
+
+msgid   "Rhami"
+msgstr  "Rhamaí"
+
+msgid   "Rhami’datu"
+msgstr  "Rhamaí’dátú"
+
+msgid   "Rhami’kai"
+msgstr  "Rhamaí’caí"
+
+msgid   "Roc Master"
+msgstr  "Máistir Róic"
+
+msgid   "Roc Rider"
+msgstr  "Marcach Róic"
+
+msgid   "Rune Artist"
+msgstr  "Ealaíontóir Rúnscríbhinne"
+
+msgid   "Runeadept"
+msgstr  "Rúntallann"
+
+msgid   "Runemaster"
+msgstr  "Rúnmháistir"
+
+msgid   "Runemasters"
+msgstr  "Rúnmáistrí"
+
+msgid   "Runesmith"
+msgstr  "Rúnghabha"
+
+msgid   "Salamander"
+msgstr  "Salamandar"
+
+msgid   "Saurian Pikeman"
+msgstr  "Píceálaí Sáraígh"
+
+msgid   "Second target!"
+msgstr  "Dara targaid!"
+
+msgid   "Shadowmage"
+msgstr  "Drochasarlaí"
+
+msgid   "Shamanistic Adept"
+msgstr  "Máistir Seamanach"
+
+msgid   "Shamanistic Toad"
+msgstr  "Buaf Seamanach"
+
+msgid   "Shielder"
+msgstr  "Sciathoir"
+
+msgid   "Shooter"
+msgstr  "Sealgaire"
+
+msgid   "Silver Warrior"
+msgstr  "Laoch Airgid"
+
+msgid   "Sky Kingdom"
+msgstr  "Ríocht Spéire"
+
+msgid   "Slicer"
+msgstr  "Slisneoir"
+
+msgid   "Sorcerer"
+msgstr  "Draíodóir"
+
+msgid   "Steam Berserker"
+msgstr  "Dásachtach Gaile"
+
+msgid   "Steam Ulfserker"
+msgstr  "Lochlannach Gaile"
+
+msgid   "Steamcopter"
+msgstr  "Galcaptar"
+
+msgid   "Striding Machine"
+msgstr  "Meaisín Siúl"
+
+msgid   "Subversive mage"
+msgstr  "Asarlaí Suaiteach"
+
+msgid   "Summon "
+msgstr  "Tionóil"
+
+msgid   "Summon Help"
+msgstr  "Cabhair Tionóil"
+
+msgid   "Summoner"
+msgstr  "Sumnadóir"
+
+msgid   "Summons master"
+msgstr  "Máistir Toghairme"
+
+msgid   "Sun Follower"
+msgstr  "Giolla an Ghréine"
+
+msgid   "Sun Guardian"
+msgstr  "Garda Gréine"
+
+msgid   "Swallow +4"
+msgstr  "Slogadh +4"
+
+msgid   "Swamp Mage"
+msgstr  "Asarlaí Chorcaí"
+
+msgid   "Sworddancer"
+msgstr  "Damhsóir na gClaimhte"
+
+msgid   "Technician"
+msgstr  "Teicneoir"
+
+msgid   "Tharis"
+msgstr  "Tharus"
+
+msgid   "Toad"
+msgstr  "Buaf"
+
+msgid   "Troll Fire Wizard"
+msgstr  "Asarlaí Thine Troill"
+
+msgid   "Troll Sorcerer"
+msgstr  "Asarlái Troill"
+
+msgid   "Troll Warbanner"
+msgstr  "Bratachchogaidh Troill"
+
+msgid   "Um"
+msgstr  "Úm"
+
+msgid   "War Banner"
+msgstr  "Bratach Chogaidh"
+
+msgid   "War Mage"
+msgstr  "Asarlaí Chogaidh"
+
+msgid   "Water Avatar"
+msgstr  "Abhatár Uisce"
+
+msgid   "Water Elemental"
+msgstr  "Eiliminteach Uisce"
+
+msgid   "Water God"
+msgstr  "Dia Uisce"
+
+msgid   "White Warrior"
+msgstr  "Laoch Bán"
+
+msgid   "Witch"
+msgstr  "Cailleach"
+
+msgid   "Wonderful Jinn"
+msgstr  "Siní Iontach"
+
+msgid   "Wyvern"
+msgstr  "Vuibhearn"
+
+msgid   "Wyvern Rider"
+msgstr  "Marcach Vuibhearn"
+
+msgid   "Wyvern Tamer"
+msgstr  "Ceansaitheoir Vuibhearn"
+
+msgid   "Yes"
+msgstr  "Is ea"
+
+msgid   "You will die in a twinkling of an eye."
+msgstr  "Gheobhaidh tú bás i bhfaiteadh na súl."
+
+msgid   "aimed shot"
+msgstr  "urchar aimsiú"
+
+msgid   "al-Kamija"
+msgstr  "al-Kamija"
+
+msgid   "always hits"
+msgstr  "buailte riamh"
+
+msgid   "arrow"
+msgstr  "saighead"
+
+msgid   "awaken"
+msgstr  "dúisigh"
+
+msgid   "awe"
+msgstr  "uafás"
+
+msgid   "awoken"
+msgstr  "dúiseacht"
+
+msgid   "banish"
+msgstr  "díbir"
+
+msgid   "banishment"
+msgstr  "díbirt"
+
+msgid   "banner"
+msgstr  "bratach"
+
+msgid   "battlefrenzy"
+msgstr  "cuthach chatha"
+
+msgid   "beam"
+msgstr  "léas"
+
+msgid   "bite"
+msgstr  "greim"
+
+msgid   "blades"
+msgstr  "lanna"
+
+msgid   "blinding light"
+msgstr  "dallóg ghréine"
+
+msgid   "blood gate"
+msgstr  "fuilgeata"
+
+msgid   "bloodlust"
+msgstr  "ainmhiain fola"
+
+msgid   "blue flame"
+msgstr  "bladhm gorm"
+
+msgid   "bolas"
+msgstr  "bolas"
+
+msgid   "bombs"
+msgstr  "buamaí"
+
+msgid   "bow bash"
+msgstr  "bualadh le bogha"
+
+msgid   "bubble"
+msgstr  "bolgánaer"
+
+msgid   "burner"
+msgstr  "dóiteoir"
+
+msgid   "burning fist"
+msgstr  "dorn ar lasadh"
+
+msgid   "cannon"
+msgstr  "gunna mór"
+
+msgid   "cave ambush"
+msgstr  "luíochán in uaimheanna"
+
+msgid   "chakram"
+msgstr  "chakram"
+
+msgid   "charge"
+msgstr  "ruathar"
+
+msgid   "circle of balance"
+msgstr  "ciorcal cothroim"
+
+msgid   "circle of banishment"
+msgstr  "ciorcal díbeartha"
+
+msgid   "circle of destruction"
+msgstr  "ciorcal scriosta"
+
+msgid   "circle of resistance"
+msgstr  "ciorcal seasmhachta"
+
+msgid   "circle of susceptibility"
+msgstr  "ciorcal so-ghabhálachta"
+
+msgid   "claws"
+msgstr  "crúba"
+
+msgid   "cleave"
+msgstr  "scoilt"
+
+msgid   "cold aura"
+msgstr  "luan fuar"
+
+msgid   "concentrated fire"
+msgstr  "scaoileadh tiubhaithe"
+
+msgid   "crossbow x2"
+msgstr  "dhá chrosbhogha"
+
+msgid   "cup of fire"
+msgstr  "cupán bladhma"
+
+msgid   "curse"
+msgstr  "mallacht"
+
+msgid   "cursed knifes"
+msgstr  "miodóga mallaithe"
+
+msgid   "daggers"
+msgstr  "miodóga"
+
+msgid   "damned flame"
+msgstr  "tine dhamanta"
+
+msgid   "dark aura"
+msgstr  "luan dorcha"
+
+msgid   "dark ball"
+msgstr  "liathróid dorcha"
+
+msgid   "dark spark"
+msgstr  "spréach dorcha"
+
+msgid   "dart"
+msgstr  "ga"
+
+msgid   "deadzone"
+msgstr  "marbhchrios"
+
+msgid   "defender"
+msgstr  "cosantóir"
+
+msgid   "destruction"
+msgstr  "millteanas"
+
+msgid   "devine spear"
+msgstr  "sléa sácráilte"
+
+msgid   "dimensional vortex"
+msgstr  "cuilithe toimhseach"
+
+msgid   "double attack"
+msgstr  "ionsaí dhúbailte"
+
+msgid   "double devine spear"
+msgstr  "sléa sácráilte dhúbailte"
+
+msgid   "double divine spear"
+msgstr  "sléa sácráilte dhúbailte"
+
+msgid   "evasion"
+msgstr  "seachanta"
+
+msgid   "exlosive ammo"
+msgstr  "armlón pléascach"
+
+msgid   "explosion"
+msgstr  "pléascadh"
+
+msgid   "explosive ammo"
+msgstr  "armlón pléascach"
+
+msgid   "eye"
+msgstr  "súil"
+
+msgid   "eye of the storm"
+msgstr  "croí hairicín"
+
+msgid   "fangs"
+msgstr  "starrfhiacla"
+
+msgid   "female^Adept of Light"
+msgstr  "Maístir Solais"
+
+msgid   "female^Child of Light"
+msgstr  "Páiste Solais"
+
+msgid   "female^Cleric"
+msgstr  "Bean Rialta"
+
+msgid   "female^Inspired"
+msgstr  "Inspioráidithe"
+
+msgid   "female^Mistress of Light"
+msgstr  "Máistreás Solais"
+
+msgid   "female^Prophet of Light"
+msgstr  "Banfháidh Solais"
+
+msgid   "female^Sister of Light"
+msgstr  "Siúr Sholais"
+
+msgid   "female^awoken"
+msgstr  "dúiseacht"
+
+msgid   "female^magical"
+msgstr  "draíochtúil"
+
+msgid   "fire"
+msgstr  "tine"
+
+msgid   "fire arrow"
+msgstr  "saighead thine"
+
+msgid   "fire blast"
+msgstr  "soinneán tine"
+
+msgid   "fireball"
+msgstr  "caor thine"
+
+msgid   "fist"
+msgstr  "dorn"
+
+msgid   "flame"
+msgstr  "bladhm"
+
+msgid   "flame blast"
+msgstr  "soinneán bladhma"
+
+msgid   "flames"
+msgstr  "bladhmanna"
+
+msgid   "frozen fist"
+msgstr  "dorn oighreata"
+
+msgid   "frozen gate"
+msgstr  "geata reoite"
+
+msgid   "furious death"
+msgstr  "bás ainscianta"
+
+msgid   "fury"
+msgstr  "fiúnach"
+
+msgid   "fusion"
+msgstr  "comhleá"
+
+msgid   "gaze"
+msgstr  "amharc"
+
+msgid   "goblin leader"
+msgstr  "treoraí lucharacháin"
+
+msgid   "grenade"
+msgstr  "gránáid"
+
+msgid   "growing fury"
+msgstr  "fiúnach fáis"
+
+msgid   "gun"
+msgstr  "gunna"
+
+msgid   "hammer"
+msgstr  "casúr"
+
+msgid   "hatchet"
+msgstr  "tua caitimh"
+
+msgid   "headbutt"
+msgstr  "bualadh le ceann"
+
+msgid   "heals +2"
+msgstr  "cneasú +2"
+
+msgid   "hit"
+msgstr  "plabadh"
+
+msgid   "hit and run"
+msgstr  "tionóisc buille is teitheadh"
+
+msgid   "hurricane"
+msgstr  "hairicín"
+
+msgid   "hydra's strike"
+msgstr  "bualadh hiodra"
+
+msgid   "ice arrow"
+msgstr  "saighead oighir"
+
+msgid   "ice strike"
+msgstr  "bualadh oighreata"
+
+msgid   "iceball"
+msgstr  "oighear"
+
+msgid   "icecles"
+msgstr  "briogadán"
+
+msgid   "implosion"
+msgstr  "inphléascadh"
+
+msgid   "incantation of power"
+msgstr  "ortha chumhachta"
+
+msgid   "inferno"
+msgstr  "ifreann"
+
+msgid   "inspire"
+msgstr  "ionanálú"
+
+msgid   "kamikaze"
+msgstr  "kamikaze"
+
+msgid   "key"
+msgstr  "eochair"
+
+msgid   "knives"
+msgstr  "sceana"
+
+msgid   "landmass"
+msgstr  "ilchríoch"
+
+msgid   "lavahome"
+msgstr  "baile-laibhe"
+
+msgid   "light focusing"
+msgstr  "fócasaithe solais"
+
+msgid   "light touch"
+msgstr  "lámh sholais"
+
+msgid   "lightning"
+msgstr  "tintreach"
+
+msgid   "lightning bolt"
+msgstr  "splanc thintrí"
+
+msgid   "lightstorm"
+msgstr  "stoirmsolais"
+
+msgid   "machine gun"
+msgstr  "meaisínghunna"
+
+msgid   "magic"
+msgstr  "draíocht"
+
+msgid   "magic arrow"
+msgstr  "saighead draíochtúil"
+
+msgid   "magic arrow II"
+msgstr  "saighead draíochtúil II"
+
+msgid   "magic missile"
+msgstr  "diúraicthe draíochtúil"
+
+msgid   "magical"
+msgstr  "draíochtúil"
+
+msgid   "magical dagger"
+msgstr  "Miodóg draíochtúil"
+
+msgid   "magical powder"
+msgstr  "púdar draíochtúil"
+
+msgid   "magical scimitar"
+msgstr  "simeatár draíochtúil"
+
+msgid   "matriarch-fire"
+msgstr  "Máthair Thine"
+
+msgid   "megacircle"
+msgstr  "meigeachiorcal"
+
+msgid   "missile"
+msgstr  "diúraicthe"
+
+msgid   "mountain ambush"
+msgstr  "luíochán ar sléibhte"
+
+msgid   "mu"
+msgstr  "mú"
+
+msgid   "net"
+msgstr  "teilglíon"
+
+msgid   "no counter-attack"
+msgstr  "gan frithionsaí"
+
+msgid   "orcish leader"
+msgstr  "treoraí orchach"
+
+msgid   "parachute"
+msgstr  "paraisiút"
+
+msgid   "paw"
+msgstr  "lapa"
+
+msgid   "piercing ammo"
+msgstr  "armlón treáite"
+
+msgid   "poisoned arrow"
+msgstr  "Saighead Nimhiúil"
+
+msgid   "precision"
+msgstr  "mionchruinne"
+
+msgid   "race+female^Cyclops"
+msgstr  "Cioclóp"
+
+msgid   "race+female^Human"
+msgstr  "Daonna"
+
+msgid   "race+female^Magical"
+msgstr  "Draíochtúil"
+
+msgid   "race+female^Roc"
+msgstr  "Róc"
+
+msgid   "race+female^Salamander"
+msgstr  "Salamandar"
+
+msgid   "race+female^Tharis"
+msgstr  "Tharus"
+
+msgid   "race+plural^Magical"
+msgstr  "Draíochtúla"
+
+msgid   "race+plural^Tharis"
+msgstr  "Tharus"
+
+msgid   "race^Cyclopes"
+msgstr  "Cioclóp"
+
+msgid   "race^Cyclops"
+msgstr  "Cioclóp"
+
+msgid   "race^Human"
+msgstr  "Daonna"
+
+msgid   "race^Humans"
+msgstr  "Daonnaí"
+
+msgid   "race^Magical"
+msgstr  "Draíochtúil"
+
+msgid   "race^Roc"
+msgstr  "Róc"
+
+msgid   "race^Rocs"
+msgstr  "Róic"
+
+msgid   "race^Salamander"
+msgstr  "Salamandar"
+
+msgid   "race^Salamanders"
+msgstr  "Salamandair"
+
+msgid   "race^Tharis"
+msgstr  "Tharus"
+
+msgid   "range^kamikaze"
+msgstr  "kamikaze"
+
+msgid   "ray of light"
+msgstr  "ga-solais"
+
+msgid   "regenerates +4"
+msgstr  "athginiúnach +4"
+
+msgid   "repairs +5"
+msgstr  "deisigh +5"
+
+msgid   "repairs +8"
+msgstr  "deisigh +8"
+
+msgid   "revenge"
+msgstr  "díoltas"
+
+msgid   "rune aura"
+msgstr  "luan rúnscríbhinne"
+
+msgid   "runes"
+msgstr  "rúnscríbhinní"
+
+msgid   "runic sword"
+msgstr  "claíomh rúnach"
+
+msgid   "saw"
+msgstr  "sábh"
+
+msgid   "scimitar"
+msgstr  "simeatár"
+
+msgid   "scimitar throw"
+msgstr  "simeatár caitimh"
+
+msgid   "scream"
+msgstr  "scréach"
+
+msgid   "screwdriver"
+msgstr  "scriúire"
+
+msgid   "scroll"
+msgstr  "scrolla"
+
+msgid   "scythe"
+msgstr  "speal"
+
+msgid   "secret hit"
+msgstr  "plabadh rún"
+
+msgid   "shadow wave"
+msgstr  "tonn scátha"
+
+msgid   "shield"
+msgstr  "sciath"
+
+msgid   "short circuit"
+msgstr  "gearrchiorcad"
+
+msgid   "short-circuit"
+msgstr  "gearrchiorcad"
+
+msgid   "small lightning"
+msgstr  "tintreach beag"
+
+msgid   "small thunder"
+msgstr  "toirneach beag"
+
+msgid   "solar beam"
+msgstr  "grianléas"
+
+msgid   "sparks"
+msgstr  "spréacha"
+
+msgid   "spear"
+msgstr  "sleá"
+
+msgid   "spear throw"
+msgstr  "sléa caitimh"
+
+msgid   "staff"
+msgstr  "bachall"
+
+msgid   "summon"
+msgstr  "tionóil"
+
+msgid   "summon roc"
+msgstr  "róc a tionóil"
+
+msgid   "swallow +4"
+msgstr  "slogadh +4"
+
+msgid   "swamp ambush"
+msgstr  "luíochán i gcorcach"
+
+msgid   "sword"
+msgstr  "claíomh"
+
+msgid   "sword+axe"
+msgstr  "claíomh+tua"
+
+msgid   "sworddance"
+msgstr  "damhsa na gclaimhte"
+
+msgid   "swords"
+msgstr  "claimhte"
+
+msgid   "tackle"
+msgstr  "gleic"
+
+msgid   "thunder"
+msgstr  "toirneach"
+
+msgid   "tongue"
+msgstr  "teanga"
+
+msgid   "touch"
+msgstr  "lámh"
+
+msgid   "touch of magic"
+msgstr  "tadhaill draíochta"
+
+msgid   "trample"
+msgstr  "satláim"
+
+msgid   "tree"
+msgstr  "crann"
+
+msgid   "tree thrown"
+msgstr  "crann caitimh"
+
+msgid   "troll leader"
+msgstr  "treoraí troill"
+
+msgid   "ultra circle"
+msgstr  "ultraciorcal"
+
+msgid   "ultracures"
+msgstr  "ultraleigheas"
+
+msgid   "ultraspeed"
+msgstr  "ultraluas"
+
+msgid   "um"
+msgstr  "úm"
+
+msgid   "water"
+msgstr  "uisce"
+
+msgid   "water ambush"
+msgstr  "luíochán san uisce"
+
+msgid   "water blast"
+msgstr  "soinneán uisce"
+
+msgid   "waterhome"
+msgstr  "baile-uisce"
+
+msgid   "white sword"
+msgstr  "claíomh bán"
+
+msgid   "witch-fire"
+msgstr  "Cailleach Thine"
+
+msgid   "wrist blade"
+msgstr  "lann rosta"
+
+msgid   "yellow flame"
+msgstr  "bladhm buí"
