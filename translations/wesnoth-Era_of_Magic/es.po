@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-02-17 10:56 UTC\n"
+"POT-Creation-Date: 2023-02-24 13:23 UTC\n"
 "PO-Revision-Date: \n"
 "Last-Translator: galegosimpatico <galegosimpatico@outlook.com>\n"
 "Language-Team: wespo 2.2\n"
@@ -1597,7 +1597,7 @@ msgstr "Asesino Saurio"
 #: Era_of_Magic\units\Dark_Blood_Alliance\Shadow_Salamander.cfg:4
 #, fuzzy
 #| msgid "Salamander"
-msgid "Shadow\tSalamander"
+msgid "Shadow Salamander"
 msgstr "Salamandra"
 
 #. [advancement]: id=SDW_SAL_AWE
@@ -7619,19 +7619,26 @@ msgstr "muerte furiosa"
 
 #. [damage]: id=eoma_furiousdeath{DMG}{TYPE}
 #: Era_of_Magic\utils\abilities.cfg:162
+#, fuzzy
+#| msgid ""
+#| "When this large unit is destroyed, it falls on a ground dealing damage to "
+#| "all adjacent units. "
 msgid ""
-"Moments before this unit's death, it flies into a fury, dealing {DMG} impact "
+"Moments before this unit's death, it flies into a fury, dealing some impact "
 "damage to adjacent units, friend or foes alike. When a harmed adjacent unit "
-"goes to or below 0 HP, its HP are set to 1 instead of being killed."
+"goes to or below 0 HP, its HP are set to 1 instead of being killed.\n"
+"The amount of damage dealt:"
 msgstr ""
+"Cuando esta gran unidad es destruída, cae al suelo provocándoles daños a "
+"todas las unidades adyacentes. "
 
 #. [dummy]: id=eoma_hardlanding{DMG}{TYPE}
-#: Era_of_Magic\utils\abilities.cfg:214
+#: Era_of_Magic\utils\abilities.cfg:215
 msgid "hard landing"
 msgstr "aterrizaje forzoso"
 
 #. [dummy]: id=eoma_hardlanding{DMG}{TYPE}
-#: Era_of_Magic\utils\abilities.cfg:215
+#: Era_of_Magic\utils\abilities.cfg:216
 #, fuzzy
 #| msgid ""
 #| "When this large unit is destroyed, it falls on a ground dealing damage to "
@@ -7645,12 +7652,12 @@ msgstr ""
 "todas las unidades adyacentes. "
 
 #. [dummy]: id=eoma_parachute
-#: Era_of_Magic\utils\abilities.cfg:260
+#: Era_of_Magic\utils\abilities.cfg:261
 msgid "parachute"
 msgstr "paracaídas"
 
 #. [dummy]: id=eoma_parachute
-#: Era_of_Magic\utils\abilities.cfg:261
+#: Era_of_Magic\utils\abilities.cfg:262
 #, fuzzy
 #| msgid ""
 #| "The pilot of this machine is equipped with parachute and he can survive a "
@@ -7663,12 +7670,12 @@ msgstr ""
 "a la destrucción de su vehículo."
 
 #. [damage]: id=eoma_areaeffect
-#: Era_of_Magic\utils\abilities.cfg:300
+#: Era_of_Magic\utils\abilities.cfg:301
 msgid "area effect"
 msgstr "efecto de área"
 
 #. [damage]: id=eoma_areaeffect
-#: Era_of_Magic\utils\abilities.cfg:301
+#: Era_of_Magic\utils\abilities.cfg:302
 #, fuzzy
 #| msgid ""
 #| "When this attack is used, all units adjacent to the target (except the "
@@ -7682,12 +7689,12 @@ msgstr ""
 "la defensiva."
 
 #. [damage]: id=eoma_areaeffectrandom
-#: Era_of_Magic\utils\abilities.cfg:448
+#: Era_of_Magic\utils\abilities.cfg:449
 msgid "random area effect"
 msgstr "efecto de área aleatorio"
 
 #. [damage]: id=eoma_areaeffectrandom
-#: Era_of_Magic\utils\abilities.cfg:449
+#: Era_of_Magic\utils\abilities.cfg:450
 msgid ""
 "When this attack is used, random units adjacent to the target (except the "
 "attacker) get half of the basic damage. Does not work on defense."
@@ -7697,61 +7704,62 @@ msgstr ""
 "cuando a la defensiva."
 
 #. [damage]: id=eoma_swallow{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:592
+#: Era_of_Magic\utils\abilities.cfg:593
 msgid "swallow"
 msgstr "devorar"
 
 #. [damage]: id=eoma_swallow{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:593
+#: Era_of_Magic\utils\abilities.cfg:594
 msgid "When killing a living enemy, this unit is healed by "
 msgstr ""
 
 #. [damage]: id=eoma_collector{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:649
+#: Era_of_Magic\utils\abilities.cfg:650
 #, fuzzy
 #| msgid "bone collector"
 msgid "collector"
 msgstr "coleccionista de huesos"
 
 #. [damage]: id=eoma_collector{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:650
+#: Era_of_Magic\utils\abilities.cfg:651
 #, fuzzy
 #| msgid ""
 #| "This unit gains hitpoints added to its current health whenever it kills a "
 #| "non-magical unit. The amount of hitpoints gained equals"
 msgid ""
-"This unit gains {VALUE} HP added to its current health whenever it kills a "
-"non-magical unit. It also gains +1 max HP with each successful kill of a non-"
-"magical unit. This special works only on offense."
+"This unit gains some HP added to its current health whenever it kills a non-"
+"magical unit. It also gains +1 max HP with each successful kill of a non-"
+"magical unit. This special works only on offense.\n"
+"The amount of hitpoints gained:"
 msgstr ""
 "Esta unidad gana puntos de vida a añadir a su salud actual cada vez que mate "
 "a una unidad no mágica. La cantidad de puntos de daño ganada es igual a"
 
 #. [floating_text]
-#: Era_of_Magic\utils\abilities.cfg:683
+#: Era_of_Magic\utils\abilities.cfg:685
 #, fuzzy
 #| msgid "+4 max hp"
 msgid "+1 max hp"
 msgstr "+4 a la salud máxima"
 
 #. [dummy]: id=eoma_split
-#: Era_of_Magic\utils\abilities.cfg:711
+#: Era_of_Magic\utils\abilities.cfg:713
 msgid "split"
 msgstr "división"
 
 #. [dummy]: id=eoma_split
-#: Era_of_Magic\utils\abilities.cfg:712
+#: Era_of_Magic\utils\abilities.cfg:714
 msgid "When dying this unit splits into 2 smaller versions of itself."
 msgstr ""
 "Cuando muere, esta unidad se divide en 2 versiones más pequeñas de sí misma."
 
 #. [dummy]: id=eoma_antishield
-#: Era_of_Magic\utils\abilities.cfg:743
+#: Era_of_Magic\utils\abilities.cfg:745
 msgid "anti-shield"
 msgstr "anti-escudo"
 
 #. [dummy]: id=eoma_antishield
-#: Era_of_Magic\utils\abilities.cfg:744
+#: Era_of_Magic\utils\abilities.cfg:746
 msgid ""
 "This attack negates all possible resistances, thus the damage output is "
 "always constant."
@@ -7760,12 +7768,12 @@ msgstr ""
 "será constante."
 
 #. [dummy]: id=eoma_poisonousaura
-#: Era_of_Magic\utils\abilities.cfg:751
+#: Era_of_Magic\utils\abilities.cfg:753
 msgid "poisonous aura"
 msgstr "aura venenosa"
 
 #. [dummy]: id=eoma_poisonousaura
-#: Era_of_Magic\utils\abilities.cfg:752
+#: Era_of_Magic\utils\abilities.cfg:754
 #, fuzzy
 #| msgid ""
 #| "All living non-magical enemy units adjacent to this unit loose 2 HP and "
@@ -7782,22 +7790,22 @@ msgstr ""
 "efecto, no serán reducidos por debajo de 1."
 
 #. [dummy]: id=eoma_alterego
-#: Era_of_Magic\utils\abilities.cfg:818
+#: Era_of_Magic\utils\abilities.cfg:820
 msgid "alter ego"
 msgstr "alter ego"
 
 #. [dummy]: id=eoma_alterego
-#: Era_of_Magic\utils\abilities.cfg:819
+#: Era_of_Magic\utils\abilities.cfg:821
 msgid "At night this unit transforms into its alternative version."
 msgstr "Durante la noche esta unidad se transforma en su versión alternativa."
 
 #. [dummy]: id=eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:847
+#: Era_of_Magic\utils\abilities.cfg:849
 msgid "damage aura"
 msgstr "aura dañina"
 
 #. [dummy]: id=eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:848
+#: Era_of_Magic\utils\abilities.cfg:850
 msgid ""
 "This unit harms all adjacent enemies at the start of each turn by a certain "
 "amount of damage (affected by the ToD bonus), giving the unit experience for "
@@ -7808,12 +7816,12 @@ msgstr ""
 "dando a la unidad experiencia por cada enemigo dañado o asesinado."
 
 #. [dummy]: id=lesser_eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:941
+#: Era_of_Magic\utils\abilities.cfg:943
 msgid "lesser damage aura"
 msgstr "aura dañina menor"
 
 #. [dummy]: id=lesser_eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:942
+#: Era_of_Magic\utils\abilities.cfg:944
 msgid ""
 "This unit harms all adjacent enemies at the start of each turn by a certain "
 "amount of damage (affected by the ToD bonus), without giving the unit "
@@ -7825,12 +7833,12 @@ msgstr ""
 "el veneno, no puede matar."
 
 #. [damage]: id=eoma_immoblize
-#: Era_of_Magic\utils\abilities.cfg:1036
+#: Era_of_Magic\utils\abilities.cfg:1038
 msgid "immobilize"
 msgstr "inmovilizar"
 
 #. [damage]: id=eoma_immoblize
-#: Era_of_Magic\utils\abilities.cfg:1037
+#: Era_of_Magic\utils\abilities.cfg:1039
 #, fuzzy
 #| msgid "Units hit with this attack become unable to move for 1 turn"
 msgid ""
@@ -7841,24 +7849,24 @@ msgstr ""
 "durante 1 turno"
 
 #. [damage]: id=eoma_dazzle
-#: Era_of_Magic\utils\abilities.cfg:1180
+#: Era_of_Magic\utils\abilities.cfg:1182
 msgid "dazzle"
 msgstr ""
 
 #. [damage]: id=eoma_dazzle
-#: Era_of_Magic\utils\abilities.cfg:1181
+#: Era_of_Magic\utils\abilities.cfg:1183
 msgid ""
 "When used offensively, units hit with this attack suffer a 35% reduction in "
 "damage and a 10% reduction in defenses for 1 turn"
 msgstr ""
 
 #. [chance_to_hit]: id=eoma_stun
-#: Era_of_Magic\utils\abilities.cfg:1326
+#: Era_of_Magic\utils\abilities.cfg:1328
 msgid "stun"
 msgstr ""
 
 #. [chance_to_hit]: id=eoma_stun
-#: Era_of_Magic\utils\abilities.cfg:1327
+#: Era_of_Magic\utils\abilities.cfg:1329
 msgid ""
 "This attack puts enormous pressure on the enemy, disrupting his ZOC if a hit "
 "is landed. Not active on defense. Does not work on units that do not have a "
@@ -7866,39 +7874,40 @@ msgid ""
 msgstr ""
 
 #. [unstore_unit]
-#: Era_of_Magic\utils\abilities.cfg:1365
+#: Era_of_Magic\utils\abilities.cfg:1367
 msgid "stunned"
 msgstr ""
 
 #. [dummy]: id=eoma_bloodlust{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1450
+#: Era_of_Magic\utils\abilities.cfg:1452
 #, fuzzy
 #| msgid "bloodlust +5"
 msgid "bloodlust"
 msgstr "fervor por la sangre +5"
 
 #. [dummy]: id=eoma_bloodlust{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1451
+#: Era_of_Magic\utils\abilities.cfg:1453
 #, fuzzy
 #| msgid ""
 #| "This unit gains 5 hitpoints added to its current health whenever it kills "
 #| "a living unit."
 msgid ""
-"This unit gains {VALUE} hitpoints added to its current health whenever it "
-"kills a living unit. This ability works only on offense."
+"This unit gains hitpoints added to its current health whenever it kills a "
+"living unit. This ability works only on offense.\n"
+"The amount of hitpoints gained:"
 msgstr ""
 "Esta unidad gana 5 puntos de vida que se le añaden a su salud actual cada "
 "vez que mata a una unidad viva."
 
 #. [damage]: id=eoma_supercharge
-#: Era_of_Magic\utils\abilities.cfg:1525
+#: Era_of_Magic\utils\abilities.cfg:1528
 #, fuzzy
 #| msgid "charge"
 msgid "supercharge"
 msgstr "carga"
 
 #. [damage]: id=eoma_supercharge
-#: Era_of_Magic\utils\abilities.cfg:1526
+#: Era_of_Magic\utils\abilities.cfg:1529
 msgid ""
 "When used offensively, this attack deals 150% damage to the target. It also "
 "causes this unit to take 150% damage from the target’s counterattack.\n"
@@ -7908,34 +7917,35 @@ msgid ""
 msgstr ""
 
 #. [dummy]: id=eoma_scavenger{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1583
+#: Era_of_Magic\utils\abilities.cfg:1586
 #, fuzzy
 #| msgid "Avenger"
 msgid "scavenger"
 msgstr "Vengador"
 
 #. [dummy]: id=eoma_scavenger{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1584
+#: Era_of_Magic\utils\abilities.cfg:1587
 #, fuzzy
 #| msgid ""
 #| "This unit gains 5 hitpoints added to its current health whenever it kills "
 #| "a living unit."
 msgid ""
-"This unit gains {VALUE} hitpoints added to its current health whenever an "
-"adjacent unit dies."
+"This unit gains some hitpoints added to its current health whenever an "
+"adjacent unit dies.\n"
+"The amount of hitpoints gained:"
 msgstr ""
 "Esta unidad gana 5 puntos de vida que se le añaden a su salud actual cada "
 "vez que mata a una unidad viva."
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic\utils\abilities.cfg:1618
-#: Era_of_Magic\utils\abilities.cfg:1619
+#: Era_of_Magic\utils\abilities.cfg:1622
+#: Era_of_Magic\utils\abilities.cfg:1623
 msgid "dread"
 msgstr ""
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic\utils\abilities.cfg:1620
-#: Era_of_Magic\utils\abilities.cfg:1621
+#: Era_of_Magic\utils\abilities.cfg:1624
+#: Era_of_Magic\utils\abilities.cfg:1625
 #, fuzzy
 #| msgid ""
 #| "When this attack is used, this units damage increases after each "
@@ -7948,14 +7958,14 @@ msgstr ""
 "tras cada golpe exitoso."
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic\utils\abilities.cfg:1631
-#: Era_of_Magic\utils\abilities.cfg:1632
+#: Era_of_Magic\utils\abilities.cfg:1635
+#: Era_of_Magic\utils\abilities.cfg:1636
 msgid "evade"
 msgstr ""
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic\utils\abilities.cfg:1633
-#: Era_of_Magic\utils\abilities.cfg:1634
+#: Era_of_Magic\utils\abilities.cfg:1637
+#: Era_of_Magic\utils\abilities.cfg:1638
 #, fuzzy
 #| msgid ""
 #| "When this attack is used, this units damage increases after each "
@@ -7968,43 +7978,43 @@ msgstr ""
 "tras cada golpe exitoso."
 
 #. [damage]: id=eoma_magic_hardening
-#: Era_of_Magic\utils\abilities.cfg:1645
+#: Era_of_Magic\utils\abilities.cfg:1649
 #, fuzzy
 #| msgid "magic barrage"
 msgid "magic hardening"
 msgstr "bombardeo mágico"
 
 #. [damage]: id=eoma_magic_hardening
-#: Era_of_Magic\utils\abilities.cfg:1646
+#: Era_of_Magic\utils\abilities.cfg:1650
 msgid ""
 "While attacking, this unit will take 20% less fire/cold/arcane damage in "
 "retaliation."
 msgstr ""
 
 #. [dummy]: id=eoma_chaos_channeling
-#: Era_of_Magic\utils\abilities.cfg:1661
+#: Era_of_Magic\utils\abilities.cfg:1665
 msgid "chaos channelling"
 msgstr ""
 
 #. [dummy]: id=eoma_chaos_channeling
-#: Era_of_Magic\utils\abilities.cfg:1662
+#: Era_of_Magic\utils\abilities.cfg:1666
 msgid ""
 "When this unit dies a new Chaotic Observer unit is placed on the recall list "
 "of this unit's side."
 msgstr ""
 
 #. [floating_text]
-#: Era_of_Magic\utils\abilities.cfg:1682
+#: Era_of_Magic\utils\abilities.cfg:1686
 msgid "Recalling..."
 msgstr ""
 
 #. [illuminates]: id=eoma_illuminates_weak
-#: Era_of_Magic\utils\abilities.cfg:1694
+#: Era_of_Magic\utils\abilities.cfg:1698
 msgid "illuminates (weak)"
 msgstr ""
 
 #. [illuminates]: id=eoma_illuminates_weak
-#: Era_of_Magic\utils\abilities.cfg:1695
+#: Era_of_Magic\utils\abilities.cfg:1699
 msgid ""
 "This unit illuminates the surrounding area, making lawful units fight "
 "better, and chaotic units fight worse.\n"
@@ -8020,15 +8030,17 @@ msgstr ""
 "lugar de un 25%."
 
 #. [damage]: id=eoma_antimech{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1705
-msgid "anti-mech +{VALUE}"
-msgstr ""
+#: Era_of_Magic\utils\abilities.cfg:1709
+#, fuzzy
+#| msgid "anti-magic"
+msgid "anti-mech"
+msgstr "anti magia"
 
 #. [damage]: id=eoma_antimech{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1706
+#: Era_of_Magic\utils\abilities.cfg:1710
 msgid ""
-"This attacks deals additional {VALUE} points of damage against mechanical "
-"units."
+"This attacks deals additional points of damage against mechanical units.\n"
+"Additional damage dealt:"
 msgstr ""
 
 #. [disable]: id=eoma_disable_in_rpg, description=
@@ -8533,25 +8545,26 @@ msgstr ""
 #, fuzzy
 #| msgid ""
 #| "A unit with this ability can hurt units that are adjacent to the attacker "
-#| "and the defender at the same time. The damage dealt equals % of the base "
-#| "damage."
+#| "and the defender at the same time. The damage dealt equals 50% of the "
+#| "base damage."
 msgid ""
 "A unit with this ability can hurt units that are adjacent to the attacker "
-"and the defender at the same time. The damage dealt equals {DISPLAYVALUE}% "
-"of the base damage.\n"
-"This ability does not work against berserker units."
+"and the defender at the same time. The damage dealt equals a specified % of "
+"the base damage.\n"
+"This ability does not work against berserker units.\n"
+"Base damage multiplier:"
 msgstr ""
 "Una unidad con esta habilidad puede herir simultáneamente a otras unidades "
-"que estén adyacentes al atacante y al defensor. El daño hecho equivale al % "
-"del daño base."
+"que estén adyacentes al atacante y al defensor. El daño hecho equivale al "
+"50% del daño base."
 
 #. [dummy]: id=eoma_cleavehalf
-#: Era_of_Magic\utils\cleave.cfg:489
+#: Era_of_Magic\utils\cleave.cfg:490
 msgid "cleave 50%"
 msgstr "atravesar 50%"
 
 #. [dummy]: id=eoma_cleavehalf
-#: Era_of_Magic\utils\cleave.cfg:490
+#: Era_of_Magic\utils\cleave.cfg:491
 #, fuzzy
 #| msgid ""
 #| "A unit with this ability can hurt units that are adjacent to the attacker "
@@ -8684,7 +8697,7 @@ msgid "You don't have enough gold!"
 msgstr ""
 
 #: Era_of_Magic\utils\drone-upgrades.cfg:176
-msgid "Give addtional armor"
+msgid "Give additional armor"
 msgstr ""
 
 #: Era_of_Magic\utils\drone-upgrades.cfg:210
@@ -8710,7 +8723,7 @@ msgid "Install kamikaze module"
 msgstr ""
 
 #: Era_of_Magic\utils\drone-upgrades.cfg:306
-msgid "Give berserer ai module"
+msgid "Give berserker ai module"
 msgstr ""
 
 #: Era_of_Magic\utils\drone-upgrades.cfg:331
@@ -9026,10 +9039,11 @@ msgstr "cura +5"
 msgid ""
 "Allows the unit to heal adjacent allied units at the beginning of its turn.\n"
 "\n"
-"A unit cared for by this healer may heal up to {VALUE} HP per turn, or stop "
+"A unit cared for by this healer may heal up to some HP per turn, or stop "
 "poison from taking effect for that turn.\n"
 "A poisoned unit cannot be cured of its poison by a healer, and must seek the "
-"care of a village or a unit that can cure."
+"care of a village or a unit that can cure.\n"
+"The amount of hitpoints healed:"
 msgstr ""
 "Permite a la unidad curar unidades aliadas adyacentes al comienzo de su "
 "turno.\n"
@@ -9041,38 +9055,40 @@ msgstr ""
 "sanar venenos."
 
 #. [regenerate]: id=eoma_regenerates{VALUE}
-#: Era_of_Magic\utils\healing.cfg:107
+#: Era_of_Magic\utils\healing.cfg:108
 #, fuzzy
 #| msgid ""
 #| "This unit regenerates  hp every turn. this ability doesn't cure poison, "
 #| "though."
 msgid ""
-"This unit regenerates {VALUE} hp every turn. this ability doesn't cure "
-"poison, though."
+"This unit regenerates some hp every turn. this ability doesn't cure poison, "
+"though.\n"
+"The amount of hitpoints restored:"
 msgstr ""
 "Esta unidad se regenera  puntos de vida cada turno. de todas formas, esta "
 "habilidad no sana veneno."
 
 #. [regenerate]: id=eoma_regenerates{VALUE}
-#: Era_of_Magic\utils\healing.cfg:121
+#: Era_of_Magic\utils\healing.cfg:123
 #, fuzzy
 #| msgid ""
 #| "The unit will heal itself 12 HP per turn. If it is poisoned, it will "
 #| "remove the poison instead of healing."
 msgid ""
-"The unit will heal itself {VALUE} HP per turn. If it is poisoned, it will "
-"remove the poison instead of healing."
+"The unit will heal itself some HP per turn. If it is poisoned, it will "
+"remove the poison instead of healing.\n"
+"The amount of hitpoints restored:"
 msgstr ""
 "Esta unidad se curará a sí misma 12 puntos de vida por turno. Si está "
 "envenenada, se sanará su veneno en lugar de curarse."
 
 #. [regenerate]: id=regen6
-#: Era_of_Magic\utils\healing.cfg:140
+#: Era_of_Magic\utils\healing.cfg:143
 msgid "regenerates +6"
 msgstr "regenera +6"
 
 #. [regenerate]: id=regen6
-#: Era_of_Magic\utils\healing.cfg:141
+#: Era_of_Magic\utils\healing.cfg:144
 #, fuzzy
 #| msgid ""
 #| "At the beginning of each turn this unit heals +6 hp. If it is poisoned, "
@@ -9085,17 +9101,17 @@ msgstr ""
 "envenenada, se sanará en vez de curarse."
 
 #. [regenerate]: id=eoma_regenerates12
-#: Era_of_Magic\utils\healing.cfg:154
+#: Era_of_Magic\utils\healing.cfg:157
 msgid "regenerates +12"
 msgstr "regenera +12"
 
 #. [regenerate]: id=eoma_regenerates12
-#: Era_of_Magic\utils\healing.cfg:155
+#: Era_of_Magic\utils\healing.cfg:158
 msgid "female^regenerates +12"
 msgstr "regenera +12"
 
 #. [regenerate]: id=eoma_regenerates12
-#: Era_of_Magic\utils\healing.cfg:156
+#: Era_of_Magic\utils\healing.cfg:159
 msgid ""
 "The unit will heal itself 12 HP per turn. If it is poisoned, it will remove "
 "the poison instead of healing."
@@ -9104,41 +9120,40 @@ msgstr ""
 "envenenada, se sanará su veneno en lugar de curarse."
 
 #. [heals]: id=eoma_repair{VALUE}
-#: Era_of_Magic\utils\healing.cfg:171
+#: Era_of_Magic\utils\healing.cfg:174
 #, fuzzy
 #| msgid "repairs +6"
 msgid "repairs"
 msgstr "repara +6"
 
 #. [heals]: id=eoma_repair{VALUE}
-#: Era_of_Magic\utils\healing.cfg:172
+#: Era_of_Magic\utils\healing.cfg:175
 #, fuzzy
 #| msgid ""
 #| "Allows the unit to repair adjacent friendly mechanical units at the "
 #| "beginning of each turn.\n"
 #| "\n"
-#| "A unit cared for by this healer may heal up to 6 HP per turn."
+#| "A unit cared for by this healer may heal up to 8 HP per turn."
 msgid ""
 "Allows the unit to repair adjacent friendly mechanical units at the "
 "beginning of each turn.\n"
-"\n"
-"A unit cared for by this mechanic may heal up to {VALUE} HP per turn."
+"The amount of hitpoints restored:"
 msgstr ""
 "Permite a la unidad reparar unidades mecánicas aliadas adyacentes al "
-"comienzo de cada turno.\n"
+"principio de cada turno.\n"
 "\n"
-"Una unidad cuidada por este mecánico podrá recuperar hasta 6 puntos de vida "
+"Una unidad cuidada por este mecánico podrá recuperar hasta 8 puntos de vida "
 "cada turno."
 
 #. [regenerate]: id=eoma_water_regeneration{VALUE}
-#: Era_of_Magic\utils\healing.cfg:191
+#: Era_of_Magic\utils\healing.cfg:193
 #, fuzzy
 #| msgid "water regeneration +4"
 msgid "water regeneration"
 msgstr "regeneración acuática +4"
 
 #. [regenerate]: id=eoma_water_regeneration{VALUE}
-#: Era_of_Magic\utils\healing.cfg:192
+#: Era_of_Magic\utils\healing.cfg:194
 #, fuzzy
 #| msgid ""
 #| "When stading on water (except ford an reef terrain), this unit will heal "
@@ -9146,125 +9161,132 @@ msgstr "regeneración acuática +4"
 #| "instead of healing."
 msgid ""
 "When standing on water (except ford and reef terrain), this unit will heal "
-"itself {VALUE} HP per turn. If it is poisoned, it will remove the poison "
-"instead of healing."
+"itself some HP per turn. If it is poisoned, it will remove the poison "
+"instead of healing.\n"
+"The amount of hitpoints restored:"
 msgstr ""
 "Cuando permanecen sobre el agua (excepto vados y arrecifes), esta unidad se "
 "curará a sí misma 4 puntos de vida por turno. Si está envenenada, se sanará "
 "su veneno en lugar de curarse."
 
 #. [regenerate]: id=eoma_nature_regeneration{VALUE}
-#: Era_of_Magic\utils\healing.cfg:208
+#: Era_of_Magic\utils\healing.cfg:211
 #, fuzzy
 #| msgid "nocturnal regeneration"
 msgid "nature regeneration"
 msgstr "regeneración nocturna"
 
 #. [regenerate]: id=eoma_nature_regeneration{VALUE}
-#: Era_of_Magic\utils\healing.cfg:209
+#: Era_of_Magic\utils\healing.cfg:212
 #, fuzzy
 #| msgid ""
 #| "When stading on water (except ford an reef terrain), this unit will heal "
 #| "itself 4 HP per turn. If it is poisoned, it will remove the poison "
 #| "instead of healing."
 msgid ""
-"When standing on a forest or mushroom tile, this unit will heal itself "
-"{VALUE} HP per turn. If it is poisoned, it will remove the poison instead of "
-"healing."
+"When standing on a forest or mushroom tile, this unit will heal itself some "
+"HP per turn. If it is poisoned, it will remove the poison instead of "
+"healing.\n"
+"The amount of hitpoints restored:"
 msgstr ""
 "Cuando permanecen sobre el agua (excepto vados y arrecifes), esta unidad se "
 "curará a sí misma 4 puntos de vida por turno. Si está envenenada, se sanará "
 "su veneno en lugar de curarse."
 
 #. [regenerate]: id=eoma_swamp_regeneration{VALUE}
-#: Era_of_Magic\utils\healing.cfg:225
+#: Era_of_Magic\utils\healing.cfg:229
 #, fuzzy
 #| msgid "solar regeneration"
 msgid "swamp regeneration"
 msgstr "regeneración solar"
 
 #. [regenerate]: id=eoma_swamp_regeneration{VALUE}
-#: Era_of_Magic\utils\healing.cfg:226
+#: Era_of_Magic\utils\healing.cfg:230
 #, fuzzy
 #| msgid ""
 #| "When stading on water (except ford an reef terrain), this unit will heal "
 #| "itself 4 HP per turn. If it is poisoned, it will remove the poison "
 #| "instead of healing."
 msgid ""
-"When standing on a swamp tile, this unit will heal itself {VALUE} HP per "
-"turn. If it is poisoned, it will remove the poison instead of healing."
+"When standing on a swamp tile, this unit will heal itself some HP per turn. "
+"If it is poisoned, it will remove the poison instead of healing.\n"
+"The amount of hitpoints restored:"
 msgstr ""
 "Cuando permanecen sobre el agua (excepto vados y arrecifes), esta unidad se "
 "curará a sí misma 4 puntos de vida por turno. Si está envenenada, se sanará "
 "su veneno en lugar de curarse."
 
 #. [regenerate]: id=eoma_fungal_regeneration{VALUE}
-#: Era_of_Magic\utils\healing.cfg:242
+#: Era_of_Magic\utils\healing.cfg:247
 msgid "fungal regeneration"
 msgstr "regeneración fangal"
 
 #. [regenerate]: id=eoma_fungal_regeneration{VALUE}
-#: Era_of_Magic\utils\healing.cfg:243
+#: Era_of_Magic\utils\healing.cfg:248
 #, fuzzy
 #| msgid ""
 #| "When stading on water (except ford an reef terrain), this unit will heal "
 #| "itself 4 HP per turn. If it is poisoned, it will remove the poison "
 #| "instead of healing."
 msgid ""
-"When standing on a mushroom grove, this unit will heal itself {VALUE} HP per "
-"turn. If it is poisoned, it will remove the poison instead of healing."
+"When standing on a mushroom grove, this unit will heal itself some HP per "
+"turn. If it is poisoned, it will remove the poison instead of healing.\n"
+"The amount of hitpoints restored:"
 msgstr ""
 "Cuando permanecen sobre el agua (excepto vados y arrecifes), esta unidad se "
 "curará a sí misma 4 puntos de vida por turno. Si está envenenada, se sanará "
 "su veneno en lugar de curarse."
 
 #. [regenerate]: id=eoma_regeneratessolar1_{VALUE}_{VALUE2}
-#: Era_of_Magic\utils\healing.cfg:260
+#: Era_of_Magic\utils\healing.cfg:266
 msgid "solar regeneration"
 msgstr "regeneración solar"
 
 #. [regenerate]: id=eoma_regeneratessolar1_{VALUE}_{VALUE2}
-#: Era_of_Magic\utils\healing.cfg:261
+#: Era_of_Magic\utils\healing.cfg:267
 #, fuzzy
 #| msgid ""
 #| "The unit will heal itself some HP at dawn or dusk and more HP during day. "
 #| "If it is poisoned, it will remove the poison instead of healing."
 msgid ""
-"The unit will heal itself {VALUE} HP at dawn or dusk and {VALUE2} HP during "
-"day. If it is poisoned, it will remove the poison instead of healing."
+"The unit will heal itself some HP at dawn or dusk and some HP during day. If "
+"it is poisoned, it will remove the poison instead of healing.\n"
+"The amount of hitpoints restored during day (first value) and at dawn or "
+"dusk (second value):"
 msgstr ""
 "La unidad se curará así misma algunos puntos de vida durante el amanecer o "
 "el atardecer, y más durante el día. Si está envenenada, se sanará su veneno "
 "en lugar de curarse."
 
 #. [regenerate]: id=eoma_regeneratesnight1_{VALUE}
-#: Era_of_Magic\utils\healing.cfg:289
+#: Era_of_Magic\utils\healing.cfg:296
 msgid "nocturnal regeneration"
 msgstr "regeneración nocturna"
 
 #. [regenerate]: id=eoma_regeneratesnight1_{VALUE}
-#: Era_of_Magic\utils\healing.cfg:290
+#: Era_of_Magic\utils\healing.cfg:297
 #, fuzzy
 #| msgid ""
 #| "The unit will heal itself some HP during night and when in caves or "
 #| "indoors. If it is poisoned, it will remove the poison instead of healing."
 msgid ""
-"The unit will heal itself {VALUE} HP during night and when in caves or "
-"indoors. If it is poisoned, it will remove the poison instead of healing."
+"The unit will heal itself some HP during night and when in caves or indoors. "
+"If it is poisoned, it will remove the poison instead of healing.\n"
+"The amount of hitpoints restored:"
 msgstr ""
 "La unidad se curará así misma algunos puntos de vida durante la noche y "
 "cuando se encuentre en cuevas o en techado. Si está envenenada, se sanará su "
 "veneno en lugar de curarse."
 
 #. [heals]: id=undeadheal{VALUE}
-#: Era_of_Magic\utils\healing.cfg:307
+#: Era_of_Magic\utils\healing.cfg:315
 #, fuzzy
 #| msgid "heal undead"
-msgid "heals undead "
+msgid "heals undead"
 msgstr "sanar no muertos"
 
 #. [heals]: id=undeadheal{VALUE}
-#: Era_of_Magic\utils\healing.cfg:308
+#: Era_of_Magic\utils\healing.cfg:316
 #, fuzzy
 #| msgid ""
 #| "Allows the unit to repair adjacent friendly mechanical units at the "
@@ -9274,8 +9296,7 @@ msgstr "sanar no muertos"
 msgid ""
 "Allows the unit to repair adjacent friendly undead units at the beginning of "
 "each turn.\n"
-"\n"
-"A unit cared for by this healer may heal up to {VALUE} HP per turn."
+"The amount of hitpoints restored:"
 msgstr ""
 "Permite a la unidad reparar unidades mecánicas aliadas adyacentes al "
 "comienzo de cada turno.\n"
@@ -9401,26 +9422,28 @@ msgstr ""
 #| "This unit gains 5 hitpoints added to its current health whenever it kills "
 #| "a living unit."
 msgid ""
-"This unit gains {VALUE} hitpoints added to its current health whenever an "
-"adjacent living unit is harmed."
+"This unit gains some hitpoints added to its current health whenever an "
+"adjacent living unit is harmed.\n"
+"The amount of hitpoints gained:"
 msgstr ""
 "Esta unidad gana 5 puntos de vida que se le añaden a su salud actual cada "
 "vez que mata a una unidad viva."
 
 #. [dummy]: id=eoma_painabsorb_aura_strict{VALUE}
-#: Era_of_Magic\utils\pain_absorption.cfg:177
+#: Era_of_Magic\utils\pain_absorption.cfg:178
 msgid "pain absorption (strict)"
 msgstr ""
 
 #. [dummy]: id=eoma_painabsorb_aura_strict{VALUE}
-#: Era_of_Magic\utils\pain_absorption.cfg:178
+#: Era_of_Magic\utils\pain_absorption.cfg:179
 #, fuzzy
 #| msgid ""
 #| "This unit gains 5 hitpoints added to its current health whenever it kills "
 #| "a living unit."
 msgid ""
-"This unit gains {VALUE} hitpoints added to its current health whenever an "
-"adjacent living unit is harmed with its attacks (directly or indirectly)."
+"This unit gains some hitpoints added to its current health whenever an "
+"adjacent living unit is harmed with its attacks (directly or indirectly).\n"
+"The amount of hitpoints gained:"
 msgstr ""
 "Esta unidad gana 5 puntos de vida que se le añaden a su salud actual cada "
 "vez que mata a una unidad viva."
@@ -9984,6 +10007,50 @@ msgid ""
 "This ability does not work on defense and against berserker units."
 msgstr ""
 
+#, fuzzy
+#~| msgid ""
+#~| "A unit with this ability can hurt units that are adjacent to the "
+#~| "attacker and the defender at the same time. The damage dealt equals % of "
+#~| "the base damage."
+#~ msgid ""
+#~ "A unit with this ability can hurt units that are adjacent to the attacker "
+#~ "and the defender at the same time. The damage dealt equals "
+#~ "{DISPLAYVALUE}% of the base damage.\n"
+#~ "This ability does not work against berserker units."
+#~ msgstr ""
+#~ "Una unidad con esta habilidad puede herir simultáneamente a otras "
+#~ "unidades que estén adyacentes al atacante y al defensor. El daño hecho "
+#~ "equivale al % del daño base."
+
+#, fuzzy
+#~| msgid ""
+#~| "The unit will heal itself 12 HP per turn. If it is poisoned, it will "
+#~| "remove the poison instead of healing."
+#~ msgid ""
+#~ "The unit will heal itself {VALUE} HP per turn. If it is poisoned, it will "
+#~ "remove the poison instead of healing."
+#~ msgstr ""
+#~ "Esta unidad se curará a sí misma 12 puntos de vida por turno. Si está "
+#~ "envenenada, se sanará su veneno en lugar de curarse."
+
+#, fuzzy
+#~| msgid ""
+#~| "Allows the unit to repair adjacent friendly mechanical units at the "
+#~| "beginning of each turn.\n"
+#~| "\n"
+#~| "A unit cared for by this healer may heal up to 6 HP per turn."
+#~ msgid ""
+#~ "Allows the unit to repair adjacent friendly mechanical units at the "
+#~ "beginning of each turn.\n"
+#~ "\n"
+#~ "A unit cared for by this mechanic may heal up to {VALUE} HP per turn."
+#~ msgstr ""
+#~ "Permite a la unidad reparar unidades mecánicas aliadas adyacentes al "
+#~ "comienzo de cada turno.\n"
+#~ "\n"
+#~ "Una unidad cuidada por este mecánico podrá recuperar hasta 6 puntos de "
+#~ "vida cada turno."
+
 #~ msgid ""
 #~ "\n"
 #~ "\n"
@@ -10074,18 +10141,6 @@ msgstr ""
 #~ "\n"
 #~ "Una unidad cuidada por este sanador podrá curarse hasta 2 puntos de vida "
 #~ "por turno."
-
-#~ msgid ""
-#~ "Allows the unit to repair adjacent friendly mechanical units at the "
-#~ "beginning of each turn.\n"
-#~ "\n"
-#~ "A unit cared for by this healer may heal up to 8 HP per turn."
-#~ msgstr ""
-#~ "Permite a la unidad reparar unidades mecánicas aliadas adyacentes al "
-#~ "principio de cada turno.\n"
-#~ "\n"
-#~ "Una unidad cuidada por este mecánico podrá recuperar hasta 8 puntos de "
-#~ "vida cada turno."
 
 #~ msgid ""
 #~ "Allows the unit to repair adjacent friendly undead units at the beginning "

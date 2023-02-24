@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-02-17 10:56 UTC\n"
+"POT-Creation-Date: 2023-02-24 13:23 UTC\n"
 "PO-Revision-Date: 2011-04-11 11:35+0100\n"
 "Last-Translator: Kelemen Zoltan <kelemen_zoltan@freemail.hu>\n"
 "Language-Team: none\n"
@@ -1492,7 +1492,7 @@ msgstr "Sötét orgyilkos"
 #: Era_of_Magic\units\Dark_Blood_Alliance\Shadow_Salamander.cfg:4
 #, fuzzy
 #| msgid "Salamander"
-msgid "Shadow\tSalamander"
+msgid "Shadow Salamander"
 msgstr "Szalamandra"
 
 #. [advancement]: id=SDW_SAL_AWE
@@ -6823,21 +6823,28 @@ msgstr "tomboló halál"
 
 #. [damage]: id=eoma_furiousdeath{DMG}{TYPE}
 #: Era_of_Magic\utils\abilities.cfg:162
+#, fuzzy
+#| msgid ""
+#| "Hard landing: When this large unit is destroyed, it falls on a ground "
+#| "dealing damage to all adjecent units. "
 msgid ""
-"Moments before this unit's death, it flies into a fury, dealing {DMG} impact "
+"Moments before this unit's death, it flies into a fury, dealing some impact "
 "damage to adjacent units, friend or foes alike. When a harmed adjacent unit "
-"goes to or below 0 HP, its HP are set to 1 instead of being killed."
+"goes to or below 0 HP, its HP are set to 1 instead of being killed.\n"
+"The amount of damage dealt:"
 msgstr ""
+"Megsemmisítő vég: Amikor ez az egység meghal, a szomszédos egységeknek is "
+"sebzést okoz."
 
 #. [dummy]: id=eoma_hardlanding{DMG}{TYPE}
-#: Era_of_Magic\utils\abilities.cfg:214
+#: Era_of_Magic\utils\abilities.cfg:215
 #, fuzzy
 #| msgid "Hard landing"
 msgid "hard landing"
 msgstr "Megsemmisítő vég"
 
 #. [dummy]: id=eoma_hardlanding{DMG}{TYPE}
-#: Era_of_Magic\utils\abilities.cfg:215
+#: Era_of_Magic\utils\abilities.cfg:216
 #, fuzzy
 #| msgid ""
 #| "Hard landing: When this large unit is destroyed, it falls on a ground "
@@ -6851,12 +6858,12 @@ msgstr ""
 "sebzést okoz."
 
 #. [dummy]: id=eoma_parachute
-#: Era_of_Magic\utils\abilities.cfg:260
+#: Era_of_Magic\utils\abilities.cfg:261
 msgid "parachute"
 msgstr "ejtőernyős"
 
 #. [dummy]: id=eoma_parachute
-#: Era_of_Magic\utils\abilities.cfg:261
+#: Era_of_Magic\utils\abilities.cfg:262
 #, fuzzy
 #| msgid ""
 #| "Parachute: The pilot of this machine is equipped with parachute and he "
@@ -6869,12 +6876,12 @@ msgstr ""
 "túlélheti járművének megsemmisülését."
 
 #. [damage]: id=eoma_areaeffect
-#: Era_of_Magic\utils\abilities.cfg:300
+#: Era_of_Magic\utils\abilities.cfg:301
 msgid "area effect"
 msgstr ""
 
 #. [damage]: id=eoma_areaeffect
-#: Era_of_Magic\utils\abilities.cfg:301
+#: Era_of_Magic\utils\abilities.cfg:302
 #, fuzzy
 #| msgid ""
 #| "Grenade: When this attack is used, all units adjecent to a target get "
@@ -6887,12 +6894,12 @@ msgstr ""
 "Védekezés közben nem használható."
 
 #. [damage]: id=eoma_areaeffectrandom
-#: Era_of_Magic\utils\abilities.cfg:448
+#: Era_of_Magic\utils\abilities.cfg:449
 msgid "random area effect"
 msgstr ""
 
 #. [damage]: id=eoma_areaeffectrandom
-#: Era_of_Magic\utils\abilities.cfg:449
+#: Era_of_Magic\utils\abilities.cfg:450
 #, fuzzy
 #| msgid ""
 #| "Grenade: When this attack is used, all units adjecent to a target get "
@@ -6905,70 +6912,79 @@ msgstr ""
 "Védekezés közben nem használható."
 
 #. [damage]: id=eoma_swallow{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:592
+#: Era_of_Magic\utils\abilities.cfg:593
 #, fuzzy
 #| msgid "swallow +4"
 msgid "swallow"
 msgstr "bekebelezés +4"
 
 #. [damage]: id=eoma_swallow{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:593
+#: Era_of_Magic\utils\abilities.cfg:594
 msgid "When killing a living enemy, this unit is healed by "
 msgstr ""
 
 #. [damage]: id=eoma_collector{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:649
+#: Era_of_Magic\utils\abilities.cfg:650
 #, fuzzy
 #| msgid "Protector"
 msgid "collector"
 msgstr "Védelmező"
 
 #. [damage]: id=eoma_collector{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:650
+#: Era_of_Magic\utils\abilities.cfg:651
+#, fuzzy
+#| msgid ""
+#| "Swallow +4:\n"
+#| "This unit gains 4 hitpoints added to its current health whenever it kills "
+#| "a living unit."
 msgid ""
-"This unit gains {VALUE} HP added to its current health whenever it kills a "
-"non-magical unit. It also gains +1 max HP with each successful kill of a non-"
-"magical unit. This special works only on offense."
+"This unit gains some HP added to its current health whenever it kills a non-"
+"magical unit. It also gains +1 max HP with each successful kill of a non-"
+"magical unit. This special works only on offense.\n"
+"The amount of hitpoints gained:"
 msgstr ""
+"Bekebelezés +4:\n"
+"Ez az egység 4 ép-vel növeli aktuális ép-jét valahányszor megöl egy élő "
+"egységet."
 
 #. [floating_text]
-#: Era_of_Magic\utils\abilities.cfg:683
+#: Era_of_Magic\utils\abilities.cfg:685
 msgid "+1 max hp"
 msgstr ""
 
 #. [dummy]: id=eoma_split
-#: Era_of_Magic\utils\abilities.cfg:711
+#: Era_of_Magic\utils\abilities.cfg:713
 msgid "split"
 msgstr ""
 
 #. [dummy]: id=eoma_split
-#: Era_of_Magic\utils\abilities.cfg:712
+#: Era_of_Magic\utils\abilities.cfg:714
 msgid "When dying this unit splits into 2 smaller versions of itself."
 msgstr ""
 
 #. [dummy]: id=eoma_antishield
-#: Era_of_Magic\utils\abilities.cfg:743
+#: Era_of_Magic\utils\abilities.cfg:745
 #, fuzzy
 #| msgid "shield"
 msgid "anti-shield"
 msgstr "pajzs"
 
 #. [dummy]: id=eoma_antishield
-#: Era_of_Magic\utils\abilities.cfg:744
+#: Era_of_Magic\utils\abilities.cfg:746
 msgid ""
 "This attack negates all possible resistances, thus the damage output is "
 "always constant."
 msgstr ""
 
 #. [dummy]: id=eoma_poisonousaura
-#: Era_of_Magic\utils\abilities.cfg:751
+#: Era_of_Magic\utils\abilities.cfg:753
 #, fuzzy
 #| msgid "poisoned arrow"
 msgid "poisonous aura"
 msgstr "mérgezett nyíl"
 
 #. [dummy]: id=eoma_poisonousaura
-#: Era_of_Magic\utils\abilities.cfg:752
+#: Era_of_Magic\utils\abilities.cfg:754
 msgid ""
 "All living non-magical enemy units adjacent to this unit lose 2 HP and "
 "become poisoned at the beginning of this unit's turn. If an enemy unit's HP "
@@ -6976,26 +6992,26 @@ msgid ""
 msgstr ""
 
 #. [dummy]: id=eoma_alterego
-#: Era_of_Magic\utils\abilities.cfg:818
+#: Era_of_Magic\utils\abilities.cfg:820
 #, fuzzy
 #| msgid "Water God"
 msgid "alter ego"
 msgstr "Tengeristen"
 
 #. [dummy]: id=eoma_alterego
-#: Era_of_Magic\utils\abilities.cfg:819
+#: Era_of_Magic\utils\abilities.cfg:821
 msgid "At night this unit transforms into its alternative version."
 msgstr ""
 
 #. [dummy]: id=eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:847
+#: Era_of_Magic\utils\abilities.cfg:849
 #, fuzzy
 #| msgid "dark aura"
 msgid "damage aura"
 msgstr "sötét aura"
 
 #. [dummy]: id=eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:848
+#: Era_of_Magic\utils\abilities.cfg:850
 msgid ""
 "This unit harms all adjacent enemies at the start of each turn by a certain "
 "amount of damage (affected by the ToD bonus), giving the unit experience for "
@@ -7003,12 +7019,12 @@ msgid ""
 msgstr ""
 
 #. [dummy]: id=lesser_eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:941
+#: Era_of_Magic\utils\abilities.cfg:943
 msgid "lesser damage aura"
 msgstr ""
 
 #. [dummy]: id=lesser_eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:942
+#: Era_of_Magic\utils\abilities.cfg:944
 msgid ""
 "This unit harms all adjacent enemies at the start of each turn by a certain "
 "amount of damage (affected by the ToD bonus), without giving the unit "
@@ -7016,36 +7032,36 @@ msgid ""
 msgstr ""
 
 #. [damage]: id=eoma_immoblize
-#: Era_of_Magic\utils\abilities.cfg:1036
+#: Era_of_Magic\utils\abilities.cfg:1038
 msgid "immobilize"
 msgstr ""
 
 #. [damage]: id=eoma_immoblize
-#: Era_of_Magic\utils\abilities.cfg:1037
+#: Era_of_Magic\utils\abilities.cfg:1039
 msgid ""
 "When used offensively, units hit with this attack become unable to move for "
 "1 turn"
 msgstr ""
 
 #. [damage]: id=eoma_dazzle
-#: Era_of_Magic\utils\abilities.cfg:1180
+#: Era_of_Magic\utils\abilities.cfg:1182
 msgid "dazzle"
 msgstr ""
 
 #. [damage]: id=eoma_dazzle
-#: Era_of_Magic\utils\abilities.cfg:1181
+#: Era_of_Magic\utils\abilities.cfg:1183
 msgid ""
 "When used offensively, units hit with this attack suffer a 35% reduction in "
 "damage and a 10% reduction in defenses for 1 turn"
 msgstr ""
 
 #. [chance_to_hit]: id=eoma_stun
-#: Era_of_Magic\utils\abilities.cfg:1326
+#: Era_of_Magic\utils\abilities.cfg:1328
 msgid "stun"
 msgstr ""
 
 #. [chance_to_hit]: id=eoma_stun
-#: Era_of_Magic\utils\abilities.cfg:1327
+#: Era_of_Magic\utils\abilities.cfg:1329
 msgid ""
 "This attack puts enormous pressure on the enemy, disrupting his ZOC if a hit "
 "is landed. Not active on defense. Does not work on units that do not have a "
@@ -7053,39 +7069,40 @@ msgid ""
 msgstr ""
 
 #. [unstore_unit]
-#: Era_of_Magic\utils\abilities.cfg:1365
+#: Era_of_Magic\utils\abilities.cfg:1367
 msgid "stunned"
 msgstr ""
 
 #. [dummy]: id=eoma_bloodlust{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1450
+#: Era_of_Magic\utils\abilities.cfg:1452
 msgid "bloodlust"
 msgstr "vérszomj"
 
 #. [dummy]: id=eoma_bloodlust{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1451
+#: Era_of_Magic\utils\abilities.cfg:1453
 #, fuzzy
 #| msgid ""
 #| "Swallow +4:\n"
 #| "This unit gains 4 hitpoints added to its current health whenever it kills "
 #| "a living unit."
 msgid ""
-"This unit gains {VALUE} hitpoints added to its current health whenever it "
-"kills a living unit. This ability works only on offense."
+"This unit gains hitpoints added to its current health whenever it kills a "
+"living unit. This ability works only on offense.\n"
+"The amount of hitpoints gained:"
 msgstr ""
 "Bekebelezés +4:\n"
 "Ez az egység 4 ép-vel növeli aktuális ép-jét valahányszor megöl egy élő "
 "egységet."
 
 #. [damage]: id=eoma_supercharge
-#: Era_of_Magic\utils\abilities.cfg:1525
+#: Era_of_Magic\utils\abilities.cfg:1528
 #, fuzzy
 #| msgid "charge"
 msgid "supercharge"
 msgstr "roham"
 
 #. [damage]: id=eoma_supercharge
-#: Era_of_Magic\utils\abilities.cfg:1526
+#: Era_of_Magic\utils\abilities.cfg:1529
 msgid ""
 "When used offensively, this attack deals 150% damage to the target. It also "
 "causes this unit to take 150% damage from the target’s counterattack.\n"
@@ -7095,36 +7112,37 @@ msgid ""
 msgstr ""
 
 #. [dummy]: id=eoma_scavenger{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1583
+#: Era_of_Magic\utils\abilities.cfg:1586
 #, fuzzy
 #| msgid "Revenger"
 msgid "scavenger"
 msgstr "Bosszúálló"
 
 #. [dummy]: id=eoma_scavenger{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1584
+#: Era_of_Magic\utils\abilities.cfg:1587
 #, fuzzy
 #| msgid ""
 #| "Swallow +4:\n"
 #| "This unit gains 4 hitpoints added to its current health whenever it kills "
 #| "a living unit."
 msgid ""
-"This unit gains {VALUE} hitpoints added to its current health whenever an "
-"adjacent unit dies."
+"This unit gains some hitpoints added to its current health whenever an "
+"adjacent unit dies.\n"
+"The amount of hitpoints gained:"
 msgstr ""
 "Bekebelezés +4:\n"
 "Ez az egység 4 ép-vel növeli aktuális ép-jét valahányszor megöl egy élő "
 "egységet."
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic\utils\abilities.cfg:1618
-#: Era_of_Magic\utils\abilities.cfg:1619
+#: Era_of_Magic\utils\abilities.cfg:1622
+#: Era_of_Magic\utils\abilities.cfg:1623
 msgid "dread"
 msgstr ""
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic\utils\abilities.cfg:1620
-#: Era_of_Magic\utils\abilities.cfg:1621
+#: Era_of_Magic\utils\abilities.cfg:1624
+#: Era_of_Magic\utils\abilities.cfg:1625
 #, fuzzy
 #| msgid ""
 #| "Evasion:\n"
@@ -7139,14 +7157,14 @@ msgstr ""
 "sebzést okoz a normálnál."
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic\utils\abilities.cfg:1631
-#: Era_of_Magic\utils\abilities.cfg:1632
+#: Era_of_Magic\utils\abilities.cfg:1635
+#: Era_of_Magic\utils\abilities.cfg:1636
 msgid "evade"
 msgstr ""
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic\utils\abilities.cfg:1633
-#: Era_of_Magic\utils\abilities.cfg:1634
+#: Era_of_Magic\utils\abilities.cfg:1637
+#: Era_of_Magic\utils\abilities.cfg:1638
 #, fuzzy
 #| msgid ""
 #| "Evasion:\n"
@@ -7161,14 +7179,14 @@ msgstr ""
 "sebzést okoz a normálnál."
 
 #. [damage]: id=eoma_magic_hardening
-#: Era_of_Magic\utils\abilities.cfg:1645
+#: Era_of_Magic\utils\abilities.cfg:1649
 #, fuzzy
 #| msgid "magic arrow"
 msgid "magic hardening"
 msgstr "mágikus nyíl"
 
 #. [damage]: id=eoma_magic_hardening
-#: Era_of_Magic\utils\abilities.cfg:1646
+#: Era_of_Magic\utils\abilities.cfg:1650
 #, fuzzy
 #| msgid ""
 #| "Evasion:\n"
@@ -7183,29 +7201,29 @@ msgstr ""
 "sebzést okoz a normálnál."
 
 #. [dummy]: id=eoma_chaos_channeling
-#: Era_of_Magic\utils\abilities.cfg:1661
+#: Era_of_Magic\utils\abilities.cfg:1665
 msgid "chaos channelling"
 msgstr ""
 
 #. [dummy]: id=eoma_chaos_channeling
-#: Era_of_Magic\utils\abilities.cfg:1662
+#: Era_of_Magic\utils\abilities.cfg:1666
 msgid ""
 "When this unit dies a new Chaotic Observer unit is placed on the recall list "
 "of this unit's side."
 msgstr ""
 
 #. [floating_text]
-#: Era_of_Magic\utils\abilities.cfg:1682
+#: Era_of_Magic\utils\abilities.cfg:1686
 msgid "Recalling..."
 msgstr ""
 
 #. [illuminates]: id=eoma_illuminates_weak
-#: Era_of_Magic\utils\abilities.cfg:1694
+#: Era_of_Magic\utils\abilities.cfg:1698
 msgid "illuminates (weak)"
 msgstr ""
 
 #. [illuminates]: id=eoma_illuminates_weak
-#: Era_of_Magic\utils\abilities.cfg:1695
+#: Era_of_Magic\utils\abilities.cfg:1699
 msgid ""
 "This unit illuminates the surrounding area, making lawful units fight "
 "better, and chaotic units fight worse.\n"
@@ -7215,15 +7233,17 @@ msgid ""
 msgstr ""
 
 #. [damage]: id=eoma_antimech{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1705
-msgid "anti-mech +{VALUE}"
-msgstr ""
+#: Era_of_Magic\utils\abilities.cfg:1709
+#, fuzzy
+#| msgid "magic"
+msgid "anti-mech"
+msgstr "mágia"
 
 #. [damage]: id=eoma_antimech{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1706
+#: Era_of_Magic\utils\abilities.cfg:1710
 msgid ""
-"This attacks deals additional {VALUE} points of damage against mechanical "
-"units."
+"This attacks deals additional points of damage against mechanical units.\n"
+"Additional damage dealt:"
 msgstr ""
 
 #. [disable]: id=eoma_disable_in_rpg, description=
@@ -7862,22 +7882,23 @@ msgstr ""
 #| "attacker and the defender at the same time."
 msgid ""
 "A unit with this ability can hurt units that are adjacent to the attacker "
-"and the defender at the same time. The damage dealt equals {DISPLAYVALUE}% "
-"of the base damage.\n"
-"This ability does not work against berserker units."
+"and the defender at the same time. The damage dealt equals a specified % of "
+"the base damage.\n"
+"This ability does not work against berserker units.\n"
+"Base damage multiplier:"
 msgstr ""
 "Osztott csapás: Az egység ezzel a képességgel nemcsak a megtámadott, hanem a "
 "mindkettejükkel szomszédos egységet is támadja. "
 
 #. [dummy]: id=eoma_cleavehalf
-#: Era_of_Magic\utils\cleave.cfg:489
+#: Era_of_Magic\utils\cleave.cfg:490
 #, fuzzy
 #| msgid "cleave"
 msgid "cleave 50%"
 msgstr "osztott csapás"
 
 #. [dummy]: id=eoma_cleavehalf
-#: Era_of_Magic\utils\cleave.cfg:490
+#: Era_of_Magic\utils\cleave.cfg:491
 #, fuzzy
 #| msgid ""
 #| "Cleave: A unit with this ability can hurt units that are adjacent to the "
@@ -8008,7 +8029,7 @@ msgid "You don't have enough gold!"
 msgstr "Nincs elég aranyad, hogy aktiváld a rúnaaurát!"
 
 #: Era_of_Magic\utils\drone-upgrades.cfg:176
-msgid "Give addtional armor"
+msgid "Give additional armor"
 msgstr ""
 
 #: Era_of_Magic\utils\drone-upgrades.cfg:210
@@ -8034,7 +8055,7 @@ msgid "Install kamikaze module"
 msgstr ""
 
 #: Era_of_Magic\utils\drone-upgrades.cfg:306
-msgid "Give berserer ai module"
+msgid "Give berserker ai module"
 msgstr ""
 
 #: Era_of_Magic\utils\drone-upgrades.cfg:331
@@ -8235,10 +8256,11 @@ msgstr "mágikus lény"
 msgid ""
 "Allows the unit to heal adjacent allied units at the beginning of its turn.\n"
 "\n"
-"A unit cared for by this healer may heal up to {VALUE} HP per turn, or stop "
+"A unit cared for by this healer may heal up to some HP per turn, or stop "
 "poison from taking effect for that turn.\n"
 "A poisoned unit cannot be cured of its poison by a healer, and must seek the "
-"care of a village or a unit that can cure."
+"care of a village or a unit that can cure.\n"
+"The amount of hitpoints healed:"
 msgstr ""
 "Gyógyítás +12:\n"
 "A közeli egységeket minden kör elején meggyógyítja.\n"
@@ -8248,36 +8270,38 @@ msgstr ""
 "páciens."
 
 #. [regenerate]: id=eoma_regenerates{VALUE}
-#: Era_of_Magic\utils\healing.cfg:107
+#: Era_of_Magic\utils\healing.cfg:108
 msgid ""
-"This unit regenerates {VALUE} hp every turn. this ability doesn't cure "
-"poison, though."
+"This unit regenerates some hp every turn. this ability doesn't cure poison, "
+"though.\n"
+"The amount of hitpoints restored:"
 msgstr ""
 
 #. [regenerate]: id=eoma_regenerates{VALUE}
-#: Era_of_Magic\utils\healing.cfg:121
+#: Era_of_Magic\utils\healing.cfg:123
 #, fuzzy
 #| msgid ""
 #| "Regenerates +4:\n"
 #| "At the begining of each turn this unit heals +4 hp. If it is poisoned, it "
 #| "will remove it instead of healing."
 msgid ""
-"The unit will heal itself {VALUE} HP per turn. If it is poisoned, it will "
-"remove the poison instead of healing."
+"The unit will heal itself some HP per turn. If it is poisoned, it will "
+"remove the poison instead of healing.\n"
+"The amount of hitpoints restored:"
 msgstr ""
 "felfrissülés +4:\n"
 "Minden kör elején az egység 4 ép-t gyógyul. Ha mérgezett, akkor gyógyulás "
 "helyett kikúrálódik a mérgezésből."
 
 #. [regenerate]: id=regen6
-#: Era_of_Magic\utils\healing.cfg:140
+#: Era_of_Magic\utils\healing.cfg:143
 #, fuzzy
 #| msgid "regenerates +4"
 msgid "regenerates +6"
 msgstr "felfrissülés +4"
 
 #. [regenerate]: id=regen6
-#: Era_of_Magic\utils\healing.cfg:141
+#: Era_of_Magic\utils\healing.cfg:144
 #, fuzzy
 #| msgid ""
 #| "Regenerates +4:\n"
@@ -8292,21 +8316,21 @@ msgstr ""
 "helyett kikúrálódik a mérgezésből."
 
 #. [regenerate]: id=eoma_regenerates12
-#: Era_of_Magic\utils\healing.cfg:154
+#: Era_of_Magic\utils\healing.cfg:157
 #, fuzzy
 #| msgid "regenerates +4"
 msgid "regenerates +12"
 msgstr "felfrissülés +4"
 
 #. [regenerate]: id=eoma_regenerates12
-#: Era_of_Magic\utils\healing.cfg:155
+#: Era_of_Magic\utils\healing.cfg:158
 #, fuzzy
 #| msgid "regenerates +4"
 msgid "female^regenerates +12"
 msgstr "felfrissülés +4"
 
 #. [regenerate]: id=eoma_regenerates12
-#: Era_of_Magic\utils\healing.cfg:156
+#: Era_of_Magic\utils\healing.cfg:159
 #, fuzzy
 #| msgid ""
 #| "Regenerates +4:\n"
@@ -8321,14 +8345,14 @@ msgstr ""
 "helyett kikúrálódik a mérgezésből."
 
 #. [heals]: id=eoma_repair{VALUE}
-#: Era_of_Magic\utils\healing.cfg:171
+#: Era_of_Magic\utils\healing.cfg:174
 #, fuzzy
 #| msgid "repairs +5"
 msgid "repairs"
 msgstr "javítás +5"
 
 #. [heals]: id=eoma_repair{VALUE}
-#: Era_of_Magic\utils\healing.cfg:172
+#: Era_of_Magic\utils\healing.cfg:175
 #, fuzzy
 #| msgid ""
 #| "Repairs +5:\n"
@@ -8339,8 +8363,7 @@ msgstr "javítás +5"
 msgid ""
 "Allows the unit to repair adjacent friendly mechanical units at the "
 "beginning of each turn.\n"
-"\n"
-"A unit cared for by this mechanic may heal up to {VALUE} HP per turn."
+"The amount of hitpoints restored:"
 msgstr ""
 "Javítás +5:\n"
 "Az egység képes a mellette lévő baráti mechanikus egység javítására.\n"
@@ -8348,12 +8371,12 @@ msgstr ""
 "A javított egység életereje legfeljebb 5 ÉP-vel nő körönként."
 
 #. [regenerate]: id=eoma_water_regeneration{VALUE}
-#: Era_of_Magic\utils\healing.cfg:191
+#: Era_of_Magic\utils\healing.cfg:193
 msgid "water regeneration"
 msgstr ""
 
 #. [regenerate]: id=eoma_water_regeneration{VALUE}
-#: Era_of_Magic\utils\healing.cfg:192
+#: Era_of_Magic\utils\healing.cfg:194
 #, fuzzy
 #| msgid ""
 #| "Regenerates +4:\n"
@@ -8361,113 +8384,122 @@ msgstr ""
 #| "will remove it instead of healing."
 msgid ""
 "When standing on water (except ford and reef terrain), this unit will heal "
-"itself {VALUE} HP per turn. If it is poisoned, it will remove the poison "
-"instead of healing."
+"itself some HP per turn. If it is poisoned, it will remove the poison "
+"instead of healing.\n"
+"The amount of hitpoints restored:"
 msgstr ""
 "felfrissülés +4:\n"
 "Minden kör elején az egység 4 ép-t gyógyul. Ha mérgezett, akkor gyógyulás "
 "helyett kikúrálódik a mérgezésből."
 
 #. [regenerate]: id=eoma_nature_regeneration{VALUE}
-#: Era_of_Magic\utils\healing.cfg:208
+#: Era_of_Magic\utils\healing.cfg:211
 msgid "nature regeneration"
 msgstr ""
 
 #. [regenerate]: id=eoma_nature_regeneration{VALUE}
-#: Era_of_Magic\utils\healing.cfg:209
+#: Era_of_Magic\utils\healing.cfg:212
 #, fuzzy
 #| msgid ""
 #| "Regenerates +4:\n"
 #| "At the begining of each turn this unit heals +4 hp. If it is poisoned, it "
 #| "will remove it instead of healing."
 msgid ""
-"When standing on a forest or mushroom tile, this unit will heal itself "
-"{VALUE} HP per turn. If it is poisoned, it will remove the poison instead of "
-"healing."
+"When standing on a forest or mushroom tile, this unit will heal itself some "
+"HP per turn. If it is poisoned, it will remove the poison instead of "
+"healing.\n"
+"The amount of hitpoints restored:"
 msgstr ""
 "felfrissülés +4:\n"
 "Minden kör elején az egység 4 ép-t gyógyul. Ha mérgezett, akkor gyógyulás "
 "helyett kikúrálódik a mérgezésből."
 
 #. [regenerate]: id=eoma_swamp_regeneration{VALUE}
-#: Era_of_Magic\utils\healing.cfg:225
+#: Era_of_Magic\utils\healing.cfg:229
 msgid "swamp regeneration"
 msgstr ""
 
 #. [regenerate]: id=eoma_swamp_regeneration{VALUE}
-#: Era_of_Magic\utils\healing.cfg:226
+#: Era_of_Magic\utils\healing.cfg:230
 #, fuzzy
 #| msgid ""
 #| "Regenerates +4:\n"
 #| "At the begining of each turn this unit heals +4 hp. If it is poisoned, it "
 #| "will remove it instead of healing."
 msgid ""
-"When standing on a swamp tile, this unit will heal itself {VALUE} HP per "
-"turn. If it is poisoned, it will remove the poison instead of healing."
+"When standing on a swamp tile, this unit will heal itself some HP per turn. "
+"If it is poisoned, it will remove the poison instead of healing.\n"
+"The amount of hitpoints restored:"
 msgstr ""
 "felfrissülés +4:\n"
 "Minden kör elején az egység 4 ép-t gyógyul. Ha mérgezett, akkor gyógyulás "
 "helyett kikúrálódik a mérgezésből."
 
 #. [regenerate]: id=eoma_fungal_regeneration{VALUE}
-#: Era_of_Magic\utils\healing.cfg:242
+#: Era_of_Magic\utils\healing.cfg:247
 msgid "fungal regeneration"
 msgstr ""
 
 #. [regenerate]: id=eoma_fungal_regeneration{VALUE}
-#: Era_of_Magic\utils\healing.cfg:243
+#: Era_of_Magic\utils\healing.cfg:248
 #, fuzzy
 #| msgid ""
 #| "Regenerates +4:\n"
 #| "At the begining of each turn this unit heals +4 hp. If it is poisoned, it "
 #| "will remove it instead of healing."
 msgid ""
-"When standing on a mushroom grove, this unit will heal itself {VALUE} HP per "
-"turn. If it is poisoned, it will remove the poison instead of healing."
+"When standing on a mushroom grove, this unit will heal itself some HP per "
+"turn. If it is poisoned, it will remove the poison instead of healing.\n"
+"The amount of hitpoints restored:"
 msgstr ""
 "felfrissülés +4:\n"
 "Minden kör elején az egység 4 ép-t gyógyul. Ha mérgezett, akkor gyógyulás "
 "helyett kikúrálódik a mérgezésből."
 
 #. [regenerate]: id=eoma_regeneratessolar1_{VALUE}_{VALUE2}
-#: Era_of_Magic\utils\healing.cfg:260
+#: Era_of_Magic\utils\healing.cfg:266
 msgid "solar regeneration"
 msgstr ""
 
 #. [regenerate]: id=eoma_regeneratessolar1_{VALUE}_{VALUE2}
-#: Era_of_Magic\utils\healing.cfg:261
+#: Era_of_Magic\utils\healing.cfg:267
 msgid ""
-"The unit will heal itself {VALUE} HP at dawn or dusk and {VALUE2} HP during "
-"day. If it is poisoned, it will remove the poison instead of healing."
+"The unit will heal itself some HP at dawn or dusk and some HP during day. If "
+"it is poisoned, it will remove the poison instead of healing.\n"
+"The amount of hitpoints restored during day (first value) and at dawn or "
+"dusk (second value):"
 msgstr ""
 
 #. [regenerate]: id=eoma_regeneratesnight1_{VALUE}
-#: Era_of_Magic\utils\healing.cfg:289
+#: Era_of_Magic\utils\healing.cfg:296
 msgid "nocturnal regeneration"
 msgstr ""
 
 #. [regenerate]: id=eoma_regeneratesnight1_{VALUE}
-#: Era_of_Magic\utils\healing.cfg:290
+#: Era_of_Magic\utils\healing.cfg:297
 #, fuzzy
 #| msgid ""
 #| "Regenerates +4:\n"
 #| "At the begining of each turn this unit heals +4 hp. If it is poisoned, it "
 #| "will remove it instead of healing."
 msgid ""
-"The unit will heal itself {VALUE} HP during night and when in caves or "
-"indoors. If it is poisoned, it will remove the poison instead of healing."
+"The unit will heal itself some HP during night and when in caves or indoors. "
+"If it is poisoned, it will remove the poison instead of healing.\n"
+"The amount of hitpoints restored:"
 msgstr ""
 "felfrissülés +4:\n"
 "Minden kör elején az egység 4 ép-t gyógyul. Ha mérgezett, akkor gyógyulás "
 "helyett kikúrálódik a mérgezésből."
 
 #. [heals]: id=undeadheal{VALUE}
-#: Era_of_Magic\utils\healing.cfg:307
-msgid "heals undead "
-msgstr ""
+#: Era_of_Magic\utils\healing.cfg:315
+#, fuzzy
+#| msgid "summon"
+msgid "heals undead"
+msgstr "megidézés"
 
 #. [heals]: id=undeadheal{VALUE}
-#: Era_of_Magic\utils\healing.cfg:308
+#: Era_of_Magic\utils\healing.cfg:316
 #, fuzzy
 #| msgid ""
 #| "Repairs +5:\n"
@@ -8478,8 +8510,7 @@ msgstr ""
 msgid ""
 "Allows the unit to repair adjacent friendly undead units at the beginning of "
 "each turn.\n"
-"\n"
-"A unit cared for by this healer may heal up to {VALUE} HP per turn."
+"The amount of hitpoints restored:"
 msgstr ""
 "Javítás +5:\n"
 "Az egység képes a mellette lévő baráti mechanikus egység javítására.\n"
@@ -8625,28 +8656,30 @@ msgstr ""
 #| "This unit gains 4 hitpoints added to its current health whenever it kills "
 #| "a living unit."
 msgid ""
-"This unit gains {VALUE} hitpoints added to its current health whenever an "
-"adjacent living unit is harmed."
+"This unit gains some hitpoints added to its current health whenever an "
+"adjacent living unit is harmed.\n"
+"The amount of hitpoints gained:"
 msgstr ""
 "Bekebelezés +4:\n"
 "Ez az egység 4 ép-vel növeli aktuális ép-jét valahányszor megöl egy élő "
 "egységet."
 
 #. [dummy]: id=eoma_painabsorb_aura_strict{VALUE}
-#: Era_of_Magic\utils\pain_absorption.cfg:177
+#: Era_of_Magic\utils\pain_absorption.cfg:178
 msgid "pain absorption (strict)"
 msgstr ""
 
 #. [dummy]: id=eoma_painabsorb_aura_strict{VALUE}
-#: Era_of_Magic\utils\pain_absorption.cfg:178
+#: Era_of_Magic\utils\pain_absorption.cfg:179
 #, fuzzy
 #| msgid ""
 #| "Swallow +4:\n"
 #| "This unit gains 4 hitpoints added to its current health whenever it kills "
 #| "a living unit."
 msgid ""
-"This unit gains {VALUE} hitpoints added to its current health whenever an "
-"adjacent living unit is harmed with its attacks (directly or indirectly)."
+"This unit gains some hitpoints added to its current health whenever an "
+"adjacent living unit is harmed with its attacks (directly or indirectly).\n"
+"The amount of hitpoints gained:"
 msgstr ""
 "Bekebelezés +4:\n"
 "Ez az egység 4 ép-vel növeli aktuális ép-jét valahányszor megöl egy élő "
@@ -9223,6 +9256,32 @@ msgid ""
 "units total - depending on your luck).\n"
 "This ability does not work on defense and against berserker units."
 msgstr ""
+
+#, fuzzy
+#~| msgid ""
+#~| "Cleave: A unit with this ability can hurt units that are adjacent to the "
+#~| "attacker and the defender at the same time."
+#~ msgid ""
+#~ "A unit with this ability can hurt units that are adjacent to the attacker "
+#~ "and the defender at the same time. The damage dealt equals "
+#~ "{DISPLAYVALUE}% of the base damage.\n"
+#~ "This ability does not work against berserker units."
+#~ msgstr ""
+#~ "Osztott csapás: Az egység ezzel a képességgel nemcsak a megtámadott, "
+#~ "hanem a mindkettejükkel szomszédos egységet is támadja. "
+
+#, fuzzy
+#~| msgid ""
+#~| "Regenerates +4:\n"
+#~| "At the begining of each turn this unit heals +4 hp. If it is poisoned, "
+#~| "it will remove it instead of healing."
+#~ msgid ""
+#~ "The unit will heal itself {VALUE} HP per turn. If it is poisoned, it will "
+#~ "remove the poison instead of healing."
+#~ msgstr ""
+#~ "felfrissülés +4:\n"
+#~ "Minden kör elején az egység 4 ép-t gyógyul. Ha mérgezett, akkor gyógyulás "
+#~ "helyett kikúrálódik a mérgezésből."
 
 #~ msgid ""
 #~ "\n"
