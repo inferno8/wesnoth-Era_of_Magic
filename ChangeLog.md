@@ -1,6 +1,19 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 4.0.1
+ ### Code
+   * restructured the translations subdirectory
+   * removed all macro references from translatable strings
+   * dimensional gate fixes
+   * added _server.ign
+   * fixed typos
+ ### Translations
+   * updated EoMa_translation_template.pot
+   * recreated .po files for available languages from .mo files
+   * updated the Polish translation
+   * updated translators_readme.txt
+
 ## Version 4.0
  ### Gameplay
    * added experimental 24fps standing animations to most lvl0 and lvl1 units (+ some lvl2s) and to almost all units from the Barbarians faction
