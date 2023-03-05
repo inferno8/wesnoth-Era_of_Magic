@@ -1,6 +1,12 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 4.0.2
+ ### Code
+   * fixed translations not working (restructured the translations subdirectory)
+ ### Translations
+   * updated translators_readme.txt
+
 ## Version 4.0.1
  ### Code
    * restructured the translations subdirectory
