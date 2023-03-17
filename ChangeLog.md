@@ -1,6 +1,18 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 4.0.3
+ ### Descriptions
+   * fixed incorrect solar regeneration ability description
+ ### Abilities
+   * fixed the collector ability not working
+ ### Code
+   * removed markup from unit descriptions
+   * updated msgmerge_pofiles.sh
+ ### Translations
+   * updated EoMa_translation_template.pot
+   * updated po files for supported languages
+
 ## Version 4.0.2
  ### Code
    * fixed translations not working (restructured the translations subdirectory)
