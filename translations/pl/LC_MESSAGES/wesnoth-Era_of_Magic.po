@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-02-24 13:23 UTC\n"
+"POT-Creation-Date: 2023-03-17 17:41 UTC\n"
 "PO-Revision-Date: 2023-02-24 18:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -373,7 +373,8 @@ msgstr "Cyklop"
 
 #. [unit_type]: id=EoMa_Cyclops, race=eoma_cyclops
 #. [race]: id=eoma_cyclops
-#: Era_of_Magic\units\Barbarians\Cyclops.cfg:25 Era_of_Magic\units\units.cfg:22
+#: Era_of_Magic\units\Barbarians\Cyclops.cfg:25
+#: Era_of_Magic\units\units.cfg:22
 msgid ""
 "Cumbersome and lacking fine intellect, the Cyclops race had been driven near "
 "to extinction before becoming a part of the barbarian horde. Two centuries "
@@ -1148,7 +1149,7 @@ msgstr "Pomoc Ducha Lasu"
 
 #. [message]: speaker=narrator
 #: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:241
-#: Era_of_Magic\utils\recruit.cfg:239
+#: Era_of_Magic\utils\recruit.cfg:239 Era_of_Magic\utils\summon.cfg:241
 msgid "Help"
 msgstr "Pomoc"
 
@@ -1498,7 +1499,8 @@ msgstr "Duch Bagien"
 #. [dummy]: id=eoma_upgradable_kamikaze
 #. [effect]: type=fire
 #: Era_of_Magic\units\Dark_Blood_Alliance\Swamp_Spirit.cfg:111
-#: Era_of_Magic\utils\abilities.cfg:15 Era_of_Magic\utils\drone-upgrades.cfg:50
+#: Era_of_Magic\utils\abilities.cfg:15
+#: Era_of_Magic\utils\drone-upgrades.cfg:50
 #: Era_of_Magic\utils\drone-upgrades.cfg:291
 msgid "kamikaze"
 msgstr "kamikaze"
@@ -2129,9 +2131,8 @@ msgstr "Upadły Cyklopi Król"
 msgid ""
 "The following extract has been compiled by golem XTC1-3 from excavation site "
 "3, property of cartographer Silos:\n"
-"<span font-style='italic'>-(...) most unusual. The subservient dead flesh "
-"(...) animated using (...) (new?) (...) useful. Much (intelligence?) "
-"easier.\n"
+"-(...) most unusual. The subservient dead flesh (...) animated using (...) "
+"(new?) (...) useful. Much (intelligence?) easier.\n"
 "- New (...) (milestone?). Necromancy reigns (a supreme?) dark art. Artisans "
 "of living flesh will (bow to?) our thrulls (...).\n"
 "-They destroyed them. But they don't (...). No (...) control. It (...) "
@@ -2144,7 +2145,7 @@ msgid ""
 "(we?) done. (...)failure (...).\n"
 "- They share (...) mind. (...) not necromancy (...). Do not engage (...) it "
 "will grow (...) more intelligence. Do not repeat (....). If you (read?) "
-"flee. You (...) doomed.</span>"
+"flee. You (...) doomed."
 msgstr ""
 
 #. [abilities]
@@ -3060,7 +3061,8 @@ msgstr "Latający Dron"
 #. [unstore_unit]
 #: Era_of_Magic\units\Runemasters\Drone.cfg:444
 #: Era_of_Magic\units\Runemasters\Perfect_Drone.cfg:222
-#: Era_of_Magic\utils\abilities.cfg:57 Era_of_Magic\utils\abilities.cfg:118
+#: Era_of_Magic\utils\abilities.cfg:57 Era_of_Magic\utils\abilities.cfg:85
+#: Era_of_Magic\utils\abilities.cfg:118
 msgid "movepoints"
 msgstr "punkty ruchu"
 
@@ -4292,14 +4294,13 @@ msgstr "Um"
 #. [unit_type]: id=EoMa_Um, race=monster
 #: Era_of_Magic\units\Sky_Kingdom\Um.cfg:23
 msgid ""
-"Ums (<italic>text='um'</italic> in single) are the Sky Kingdom's top secret "
-"weapon. They represent the pinnacle of Sky Kingdom's biological enhancement "
-"technology. Their creation is a result of long, hard studies and "
-"experiments, requiring many factors, including a fit Mu specimen, genetic "
-"modification, and extreme amounts of nutrition. Their name means 'mind' in "
-"the language of one of the nations the Sky Kingdom have observed. The power "
-"of the Ums is beyond that of any other artificial being the Sky Kingdom has "
-"created."
+"Ums ('um' in single) are the Sky Kingdom's top secret weapon. They represent "
+"the pinnacle of Sky Kingdom's biological enhancement technology. Their "
+"creation is a result of long, hard studies and experiments, requiring many "
+"factors, including a fit Mu specimen, genetic modification, and extreme "
+"amounts of nutrition. Their name means 'mind' in the language of one of the "
+"nations the Sky Kingdom have observed. The power of the Ums is beyond that "
+"of any other artificial being the Sky Kingdom has created."
 msgstr ""
 
 #. [attack]: type=secret
@@ -5363,7 +5364,7 @@ msgstr "+Harcownik; +30% XP"
 
 #. [advancement]: id=amla_standard
 #. [advancement]: id=eoma_amla_default_{ID}
-#: Era_of_Magic\units\Tharis\Chainlady.cfg:92
+#: Era_of_Magic\units\Tharis\Chainlady.cfg:92 Era_of_Magic\utils\amla.cfg:26
 msgid "Max HP bonus +3, Max XP +20%"
 msgstr "Bonus do maksymalnych punktów życia +3, MAX XP +30%"
 
@@ -5964,7 +5965,7 @@ msgstr "Ta jednostka zawsze trafia cel ale za to jednocześnie ginie."
 
 #. [dummy]: id=eoma_hitandrun{VALUE}
 #. [dummy]: id=eoma_hitandrunspecial{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:41
+#: Era_of_Magic\utils\abilities.cfg:41 Era_of_Magic\utils\abilities.cfg:100
 msgid "hit and run"
 msgstr "uderz i uciekaj"
 
@@ -6121,27 +6122,27 @@ msgstr ""
 "Liczba uzyskanych punktów życia:"
 
 #. [floating_text]
-#: Era_of_Magic\utils\abilities.cfg:685
+#: Era_of_Magic\utils\abilities.cfg:702
 msgid "+1 max hp"
 msgstr "+ 1max hp"
 
 #. [dummy]: id=eoma_split
-#: Era_of_Magic\utils\abilities.cfg:713
+#: Era_of_Magic\utils\abilities.cfg:733
 msgid "split"
 msgstr "rozdzielenie"
 
 #. [dummy]: id=eoma_split
-#: Era_of_Magic\utils\abilities.cfg:714
+#: Era_of_Magic\utils\abilities.cfg:734
 msgid "When dying this unit splits into 2 smaller versions of itself."
 msgstr "Gdy ta jednostka ginie, zamienia się w 2 mniejsze wersje siebie."
 
 #. [dummy]: id=eoma_antishield
-#: Era_of_Magic\utils\abilities.cfg:745
+#: Era_of_Magic\utils\abilities.cfg:765
 msgid "anti-shield"
 msgstr "anty-tarcza"
 
 #. [dummy]: id=eoma_antishield
-#: Era_of_Magic\utils\abilities.cfg:746
+#: Era_of_Magic\utils\abilities.cfg:766
 msgid ""
 "This attack negates all possible resistances, thus the damage output is "
 "always constant."
@@ -6150,12 +6151,12 @@ msgstr ""
 "obrażeń."
 
 #. [dummy]: id=eoma_poisonousaura
-#: Era_of_Magic\utils\abilities.cfg:753
+#: Era_of_Magic\utils\abilities.cfg:773
 msgid "poisonous aura"
 msgstr "zatruwająca aura"
 
 #. [dummy]: id=eoma_poisonousaura
-#: Era_of_Magic\utils\abilities.cfg:754
+#: Era_of_Magic\utils\abilities.cfg:774
 msgid ""
 "All living non-magical enemy units adjacent to this unit lose 2 HP and "
 "become poisoned at the beginning of this unit's turn. If an enemy unit's HP "
@@ -6166,22 +6167,22 @@ msgstr ""
 "zatruwanej jednostki spadnie poniżej 0, to ustawiane jest na wartość 1."
 
 #. [dummy]: id=eoma_alterego
-#: Era_of_Magic\utils\abilities.cfg:820
+#: Era_of_Magic\utils\abilities.cfg:840
 msgid "alter ego"
 msgstr "alter ego"
 
 #. [dummy]: id=eoma_alterego
-#: Era_of_Magic\utils\abilities.cfg:821
+#: Era_of_Magic\utils\abilities.cfg:841
 msgid "At night this unit transforms into its alternative version."
 msgstr "W nocy ta jednostka przemienia się w swoją alternatywną wersję."
 
 #. [dummy]: id=eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:849
+#: Era_of_Magic\utils\abilities.cfg:869
 msgid "damage aura"
 msgstr "aura uszkadzająca"
 
 #. [dummy]: id=eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:850
+#: Era_of_Magic\utils\abilities.cfg:870
 msgid ""
 "This unit harms all adjacent enemies at the start of each turn by a certain "
 "amount of damage (affected by the ToD bonus), giving the unit experience for "
@@ -6192,12 +6193,12 @@ msgstr ""
 "lub pokonaną w ten sposób jednostkę, otrzymuje doświadczenie."
 
 #. [dummy]: id=lesser_eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:943
+#: Era_of_Magic\utils\abilities.cfg:963
 msgid "lesser damage aura"
 msgstr "pomniejsza aura uszkadzająca"
 
 #. [dummy]: id=lesser_eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:944
+#: Era_of_Magic\utils\abilities.cfg:964
 msgid ""
 "This unit harms all adjacent enemies at the start of each turn by a certain "
 "amount of damage (affected by the ToD bonus), without giving the unit "
@@ -6209,12 +6210,12 @@ msgstr ""
 "nie może zabić, jedynie osłabić."
 
 #. [damage]: id=eoma_immoblize
-#: Era_of_Magic\utils\abilities.cfg:1038
+#: Era_of_Magic\utils\abilities.cfg:1058
 msgid "immobilize"
 msgstr "unieruchomienie"
 
 #. [damage]: id=eoma_immoblize
-#: Era_of_Magic\utils\abilities.cfg:1039
+#: Era_of_Magic\utils\abilities.cfg:1059
 msgid ""
 "When used offensively, units hit with this attack become unable to move for "
 "1 turn"
@@ -6223,12 +6224,12 @@ msgstr ""
 "przez 1 turę"
 
 #. [damage]: id=eoma_dazzle
-#: Era_of_Magic\utils\abilities.cfg:1182
+#: Era_of_Magic\utils\abilities.cfg:1202
 msgid "dazzle"
 msgstr "oślepienie"
 
 #. [damage]: id=eoma_dazzle
-#: Era_of_Magic\utils\abilities.cfg:1183
+#: Era_of_Magic\utils\abilities.cfg:1203
 msgid ""
 "When used offensively, units hit with this attack suffer a 35% reduction in "
 "damage and a 10% reduction in defenses for 1 turn"
@@ -6237,12 +6238,12 @@ msgstr ""
 "siłę ataku i 10% mniej obrony terenowej na 1 turę"
 
 #. [chance_to_hit]: id=eoma_stun
-#: Era_of_Magic\utils\abilities.cfg:1328
+#: Era_of_Magic\utils\abilities.cfg:1348
 msgid "stun"
 msgstr "ogłusza"
 
 #. [chance_to_hit]: id=eoma_stun
-#: Era_of_Magic\utils\abilities.cfg:1329
+#: Era_of_Magic\utils\abilities.cfg:1349
 msgid ""
 "This attack puts enormous pressure on the enemy, disrupting his ZOC if a hit "
 "is landed. Not active on defense. Does not work on units that do not have a "
@@ -6253,17 +6254,17 @@ msgstr ""
 "jednostek które nie mają Strefy Kontroli."
 
 #. [unstore_unit]
-#: Era_of_Magic\utils\abilities.cfg:1367
+#: Era_of_Magic\utils\abilities.cfg:1387
 msgid "stunned"
 msgstr "ogłuszenie"
 
 #. [dummy]: id=eoma_bloodlust{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1452
+#: Era_of_Magic\utils\abilities.cfg:1472
 msgid "bloodlust"
 msgstr "żądza krwi"
 
 #. [dummy]: id=eoma_bloodlust{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1453
+#: Era_of_Magic\utils\abilities.cfg:1473
 msgid ""
 "This unit gains hitpoints added to its current health whenever it kills a "
 "living unit. This ability works only on offense.\n"
@@ -6274,12 +6275,12 @@ msgstr ""
 "Liczba uzyskanych punktów życia:"
 
 #. [damage]: id=eoma_supercharge
-#: Era_of_Magic\utils\abilities.cfg:1528
+#: Era_of_Magic\utils\abilities.cfg:1548
 msgid "supercharge"
 msgstr "superszarża"
 
 #. [damage]: id=eoma_supercharge
-#: Era_of_Magic\utils\abilities.cfg:1529
+#: Era_of_Magic\utils\abilities.cfg:1549
 msgid ""
 "When used offensively, this attack deals 150% damage to the target. It also "
 "causes this unit to take 150% damage from the target’s counterattack.\n"
@@ -6294,12 +6295,12 @@ msgstr ""
 "się i zajmie jego pozycję."
 
 #. [dummy]: id=eoma_scavenger{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1586
+#: Era_of_Magic\utils\abilities.cfg:1606
 msgid "scavenger"
 msgstr "padlinożerca"
 
 #. [dummy]: id=eoma_scavenger{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1587
+#: Era_of_Magic\utils\abilities.cfg:1607
 msgid ""
 "This unit gains some hitpoints added to its current health whenever an "
 "adjacent unit dies.\n"
@@ -6310,12 +6311,14 @@ msgstr ""
 "Liczba uzyskanych punktów życia:"
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic\utils\abilities.cfg:1622 Era_of_Magic\utils\abilities.cfg:1623
+#: Era_of_Magic\utils\abilities.cfg:1642
+#: Era_of_Magic\utils\abilities.cfg:1643
 msgid "dread"
 msgstr "strach"
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic\utils\abilities.cfg:1624 Era_of_Magic\utils\abilities.cfg:1625
+#: Era_of_Magic\utils\abilities.cfg:1644
+#: Era_of_Magic\utils\abilities.cfg:1645
 msgid ""
 "When this attack is used offensively, this unit takes one third less damage "
 "in retaliation."
@@ -6324,12 +6327,14 @@ msgstr ""
 "jedną trzecią obrażeń mniej."
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic\utils\abilities.cfg:1635 Era_of_Magic\utils\abilities.cfg:1636
+#: Era_of_Magic\utils\abilities.cfg:1655
+#: Era_of_Magic\utils\abilities.cfg:1656
 msgid "evade"
 msgstr "unik"
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic\utils\abilities.cfg:1637 Era_of_Magic\utils\abilities.cfg:1638
+#: Era_of_Magic\utils\abilities.cfg:1657
+#: Era_of_Magic\utils\abilities.cfg:1658
 msgid ""
 "When this attack is used offensively, this unit takes 25% less damage in "
 "retaliation."
@@ -6338,12 +6343,12 @@ msgstr ""
 "25% obrażeń mniej."
 
 #. [damage]: id=eoma_magic_hardening
-#: Era_of_Magic\utils\abilities.cfg:1649
+#: Era_of_Magic\utils\abilities.cfg:1669
 msgid "magic hardening"
 msgstr "magiczne hartowanie"
 
 #. [damage]: id=eoma_magic_hardening
-#: Era_of_Magic\utils\abilities.cfg:1650
+#: Era_of_Magic\utils\abilities.cfg:1670
 msgid ""
 "While attacking, this unit will take 20% less fire/cold/arcane damage in "
 "retaliation."
@@ -6352,12 +6357,12 @@ msgstr ""
 "tajemnego typu obrażeń."
 
 #. [dummy]: id=eoma_chaos_channeling
-#: Era_of_Magic\utils\abilities.cfg:1665
+#: Era_of_Magic\utils\abilities.cfg:1685
 msgid "chaos channelling"
 msgstr "przekierowanie chaosu"
 
 #. [dummy]: id=eoma_chaos_channeling
-#: Era_of_Magic\utils\abilities.cfg:1666
+#: Era_of_Magic\utils\abilities.cfg:1686
 msgid ""
 "When this unit dies a new Chaotic Observer unit is placed on the recall list "
 "of this unit's side."
@@ -6366,17 +6371,17 @@ msgstr ""
 "przywołania dla strony, która straciła tą jednostkę."
 
 #. [floating_text]
-#: Era_of_Magic\utils\abilities.cfg:1686
+#: Era_of_Magic\utils\abilities.cfg:1706
 msgid "Recalling..."
 msgstr "Przywoływanie..."
 
 #. [illuminates]: id=eoma_illuminates_weak
-#: Era_of_Magic\utils\abilities.cfg:1698
+#: Era_of_Magic\utils\abilities.cfg:1718
 msgid "illuminates (weak)"
 msgstr "oświetla (słabo)"
 
 #. [illuminates]: id=eoma_illuminates_weak
-#: Era_of_Magic\utils\abilities.cfg:1699
+#: Era_of_Magic\utils\abilities.cfg:1719
 msgid ""
 "This unit illuminates the surrounding area, making lawful units fight "
 "better, and chaotic units fight worse.\n"
@@ -6391,12 +6396,12 @@ msgstr ""
 "kary do obrażeń dla przyległych jednostek o 15%, zamiast 25%."
 
 #. [damage]: id=eoma_antimech{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1709
+#: Era_of_Magic\utils\abilities.cfg:1729
 msgid "anti-mech"
 msgstr "anty-mech"
 
 #. [damage]: id=eoma_antimech{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1710
+#: Era_of_Magic\utils\abilities.cfg:1730
 msgid ""
 "This attacks deals additional points of damage against mechanical units.\n"
 "Additional damage dealt:"
@@ -6641,7 +6646,7 @@ msgid "awe 4"
 msgstr "strach 4"
 
 #. [damage]: id=eoma_banish
-#: Era_of_Magic\utils\banish.cfg:19
+#: Era_of_Magic\utils\banish.cfg:19 Era_of_Magic\utils\banish.cfg:20
 msgid "banish"
 msgstr "wygnanie"
 
@@ -6659,9 +6664,11 @@ msgstr ""
 "samym poziomie, zdolność nie zadziała."
 
 #. [unstore_unit]
-#: Era_of_Magic\utils\banish.cfg:237 Era_of_Magic\utils\drone-upgrades.cfg:547
-#: Era_of_Magic\utils\recruit.cfg:124 Era_of_Magic\utils\recruit.cfg:191
-#: Era_of_Magic\utils\summon.cfg:162
+#: Era_of_Magic\utils\banish.cfg:237
+#: Era_of_Magic\utils\drone-upgrades.cfg:547
+#: Era_of_Magic\utils\recruit.cfg:124 Era_of_Magic\utils\recruit.cfg:160
+#: Era_of_Magic\utils\recruit.cfg:191 Era_of_Magic\utils\summon.cfg:126
+#: Era_of_Magic\utils\summon.cfg:162 Era_of_Magic\utils\summon.cfg:193
 msgid "+3 exp"
 msgstr "+3 doświadczenie"
 
@@ -6698,7 +6705,7 @@ msgstr ""
 "Krawienie samo w sobie nie może zabić jednostki."
 
 #. [unstore_unit]
-#: Era_of_Magic\utils\bleed.cfg:54
+#: Era_of_Magic\utils\bleed.cfg:54 Era_of_Magic\utils\bleed.cfg:119
 msgid "bleeding"
 msgstr "krwawi"
 
@@ -6935,7 +6942,7 @@ msgstr ""
 
 #. [dummy]: id=eoma_cleave
 #. [dummy]: id=eoma_cleave{DISPLAYVALUE}
-#: Era_of_Magic\utils\cleave.cfg:128
+#: Era_of_Magic\utils\cleave.cfg:128 Era_of_Magic\utils\cleave.cfg:305
 msgid "cleave"
 msgstr "cios obszarowy"
 
@@ -7103,7 +7110,6 @@ msgid "You don't have enough gold!"
 msgstr "Masz za mało złota!"
 
 #: Era_of_Magic\utils\drone-upgrades.cfg:176
-#| msgid "Give addtional armor"
 msgid "Give additional armor"
 msgstr "Daj dodatkowy pancerz"
 
@@ -7177,9 +7183,10 @@ msgid "Advance Drone"
 msgstr "Zaawansowany Dron"
 
 #. [set_menu_item]: id=completerepair
-#. [set_menu_item]: id=recruit_{ID}, description= -
-#. [set_menu_item]: id=summon_{ID}, description= -
-#: Era_of_Magic\utils\drone-upgrades.cfg:456 Era_of_Magic\utils\recruit.cfg:48
+#. [set_menu_item]: id=recruit_{ID}, description= - 
+#. [set_menu_item]: id=summon_{ID}, description= - 
+#: Era_of_Magic\utils\drone-upgrades.cfg:456
+#: Era_of_Magic\utils\recruit.cfg:48 Era_of_Magic\utils\summon.cfg:48
 msgid "gold:"
 msgstr "złoto:"
 
@@ -7189,7 +7196,8 @@ msgid "+$this_unit.level exp"
 msgstr "+$this_unit.level exp"
 
 #. [message]: speaker=narrator
-#: Era_of_Magic\utils\drone-upgrades.cfg:595 Era_of_Magic\utils\recruit.cfg:208
+#: Era_of_Magic\utils\drone-upgrades.cfg:595
+#: Era_of_Magic\utils\recruit.cfg:208 Era_of_Magic\utils\statue-copy.cfg:357
 #: Era_of_Magic\utils\summon.cfg:210
 msgid "Error"
 msgstr "Błąd"
@@ -7535,11 +7543,17 @@ msgstr "słoneczna regeneracja"
 
 #. [regenerate]: id=eoma_regeneratessolar1_{VALUE}_{VALUE2}
 #: Era_of_Magic\utils\healing.cfg:267
+#, fuzzy
+#| msgid ""
+#| "The unit will heal itself some HP at dawn or dusk and some HP during day. "
+#| "If it is poisoned, it will remove the poison instead of healing.\n"
+#| "The amount of hitpoints restored during day (first value) and at dawn or "
+#| "dusk (second value):"
 msgid ""
 "The unit will heal itself some HP at dawn or dusk and some HP during day. If "
 "it is poisoned, it will remove the poison instead of healing.\n"
-"The amount of hitpoints restored during day (first value) and at dawn or "
-"dusk (second value):"
+"The amount of hitpoints restored during dawn or dusk (first value) and "
+"during day (second value):"
 msgstr ""
 "Jednostka odzyskuje określoną ilość punktów życia w ciągu dnia oraz inną "
 "ilość o świcie i zmierzchu. Jeśli jest zatruta, leczy zatrucie zamiast "
@@ -7903,7 +7917,8 @@ msgstr ""
 
 #. [resistance]: id=eoma_shielded
 #. [dummy]: id=eoma_shielded_special
-#: Era_of_Magic\utils\resistance.cfg:340 Era_of_Magic\utils\resistance.cfg:353
+#: Era_of_Magic\utils\resistance.cfg:340
+#: Era_of_Magic\utils\resistance.cfg:353
 msgid "shielded"
 msgstr "osłona"
 
@@ -8184,13 +8199,13 @@ msgstr "heroiczna"
 
 #. [trait]: id=eoma_elite
 #. [trait]: id=eoma_elite_alt
-#: Era_of_Magic\utils\traits.cfg:62
+#: Era_of_Magic\utils\traits.cfg:62 Era_of_Magic\utils\traits.cfg:97
 msgid "elite"
 msgstr "elitarny"
 
 #. [trait]: id=eoma_elite
 #. [trait]: id=eoma_elite_alt
-#: Era_of_Magic\utils\traits.cfg:63
+#: Era_of_Magic\utils\traits.cfg:63 Era_of_Magic\utils\traits.cfg:98
 msgid "female^elite"
 msgstr "elitarna"
 
