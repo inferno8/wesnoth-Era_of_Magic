@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Era_of_Magic-1.10\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-02-24 13:23 UTC\n"
+"POT-Creation-Date: 2023-03-17 17:41 UTC\n"
 "PO-Revision-Date: 2013-01-10 15:21+0100\n"
 "Last-Translator: BioHazardX <dhamp90@aol.com>\n"
 "Language-Team: none\n"
@@ -2339,9 +2339,8 @@ msgstr "Ciclope del fuoco"
 msgid ""
 "The following extract has been compiled by golem XTC1-3 from excavation site "
 "3, property of cartographer Silos:\n"
-"<span font-style='italic'>-(...) most unusual. The subservient dead flesh "
-"(...) animated using (...) (new?) (...) useful. Much (intelligence?) "
-"easier.\n"
+"-(...) most unusual. The subservient dead flesh (...) animated using (...) "
+"(new?) (...) useful. Much (intelligence?) easier.\n"
 "- New (...) (milestone?). Necromancy reigns (a supreme?) dark art. Artisans "
 "of living flesh will (bow to?) our thrulls (...).\n"
 "-They destroyed them. But they don't (...). No (...) control. It (...) "
@@ -2354,7 +2353,7 @@ msgid ""
 "(we?) done. (...)failure (...).\n"
 "- They share (...) mind. (...) not necromancy (...). Do not engage (...) it "
 "will grow (...) more intelligence. Do not repeat (....). If you (read?) "
-"flee. You (...) doomed.</span>"
+"flee. You (...) doomed."
 msgstr ""
 
 #. [abilities]
@@ -4782,14 +4781,13 @@ msgstr "Um"
 #. [unit_type]: id=EoMa_Um, race=monster
 #: Era_of_Magic\units\Sky_Kingdom\Um.cfg:23
 msgid ""
-"Ums (<italic>text='um'</italic> in single) are the Sky Kingdom's top secret "
-"weapon. They represent the pinnacle of Sky Kingdom's biological enhancement "
-"technology. Their creation is a result of long, hard studies and "
-"experiments, requiring many factors, including a fit Mu specimen, genetic "
-"modification, and extreme amounts of nutrition. Their name means 'mind' in "
-"the language of one of the nations the Sky Kingdom have observed. The power "
-"of the Ums is beyond that of any other artificial being the Sky Kingdom has "
-"created."
+"Ums ('um' in single) are the Sky Kingdom's top secret weapon. They represent "
+"the pinnacle of Sky Kingdom's biological enhancement technology. Their "
+"creation is a result of long, hard studies and experiments, requiring many "
+"factors, including a fit Mu specimen, genetic modification, and extreme "
+"amounts of nutrition. Their name means 'mind' in the language of one of the "
+"nations the Sky Kingdom have observed. The power of the Ums is beyond that "
+"of any other artificial being the Sky Kingdom has created."
 msgstr ""
 
 #. [attack]: type=secret
@@ -7232,45 +7230,45 @@ msgstr ""
 "vivente."
 
 #. [floating_text]
-#: Era_of_Magic\utils\abilities.cfg:685
+#: Era_of_Magic\utils\abilities.cfg:702
 msgid "+1 max hp"
 msgstr ""
 
 #. [dummy]: id=eoma_split
-#: Era_of_Magic\utils\abilities.cfg:713
+#: Era_of_Magic\utils\abilities.cfg:733
 #, fuzzy
 #| msgid "split fire"
 msgid "split"
 msgstr "fuoco divisorio"
 
 #. [dummy]: id=eoma_split
-#: Era_of_Magic\utils\abilities.cfg:714
+#: Era_of_Magic\utils\abilities.cfg:734
 msgid "When dying this unit splits into 2 smaller versions of itself."
 msgstr ""
 
 #. [dummy]: id=eoma_antishield
-#: Era_of_Magic\utils\abilities.cfg:745
+#: Era_of_Magic\utils\abilities.cfg:765
 #, fuzzy
 #| msgid "shield"
 msgid "anti-shield"
 msgstr "scudo"
 
 #. [dummy]: id=eoma_antishield
-#: Era_of_Magic\utils\abilities.cfg:746
+#: Era_of_Magic\utils\abilities.cfg:766
 msgid ""
 "This attack negates all possible resistances, thus the damage output is "
 "always constant."
 msgstr ""
 
 #. [dummy]: id=eoma_poisonousaura
-#: Era_of_Magic\utils\abilities.cfg:753
+#: Era_of_Magic\utils\abilities.cfg:773
 #, fuzzy
 #| msgid "poisoned arrow"
 msgid "poisonous aura"
 msgstr "freccia avvelenata"
 
 #. [dummy]: id=eoma_poisonousaura
-#: Era_of_Magic\utils\abilities.cfg:754
+#: Era_of_Magic\utils\abilities.cfg:774
 msgid ""
 "All living non-magical enemy units adjacent to this unit lose 2 HP and "
 "become poisoned at the beginning of this unit's turn. If an enemy unit's HP "
@@ -7278,26 +7276,26 @@ msgid ""
 msgstr ""
 
 #. [dummy]: id=eoma_alterego
-#: Era_of_Magic\utils\abilities.cfg:820
+#: Era_of_Magic\utils\abilities.cfg:840
 #, fuzzy
 #| msgid "Water God"
 msgid "alter ego"
 msgstr "Dio dell’acqua"
 
 #. [dummy]: id=eoma_alterego
-#: Era_of_Magic\utils\abilities.cfg:821
+#: Era_of_Magic\utils\abilities.cfg:841
 msgid "At night this unit transforms into its alternative version."
 msgstr ""
 
 #. [dummy]: id=eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:849
+#: Era_of_Magic\utils\abilities.cfg:869
 #, fuzzy
 #| msgid "dark aura"
 msgid "damage aura"
 msgstr "aura oscura"
 
 #. [dummy]: id=eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:850
+#: Era_of_Magic\utils\abilities.cfg:870
 msgid ""
 "This unit harms all adjacent enemies at the start of each turn by a certain "
 "amount of damage (affected by the ToD bonus), giving the unit experience for "
@@ -7305,12 +7303,12 @@ msgid ""
 msgstr ""
 
 #. [dummy]: id=lesser_eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:943
+#: Era_of_Magic\utils\abilities.cfg:963
 msgid "lesser damage aura"
 msgstr ""
 
 #. [dummy]: id=lesser_eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:944
+#: Era_of_Magic\utils\abilities.cfg:964
 msgid ""
 "This unit harms all adjacent enemies at the start of each turn by a certain "
 "amount of damage (affected by the ToD bonus), without giving the unit "
@@ -7318,36 +7316,36 @@ msgid ""
 msgstr ""
 
 #. [damage]: id=eoma_immoblize
-#: Era_of_Magic\utils\abilities.cfg:1038
+#: Era_of_Magic\utils\abilities.cfg:1058
 msgid "immobilize"
 msgstr ""
 
 #. [damage]: id=eoma_immoblize
-#: Era_of_Magic\utils\abilities.cfg:1039
+#: Era_of_Magic\utils\abilities.cfg:1059
 msgid ""
 "When used offensively, units hit with this attack become unable to move for "
 "1 turn"
 msgstr ""
 
 #. [damage]: id=eoma_dazzle
-#: Era_of_Magic\utils\abilities.cfg:1182
+#: Era_of_Magic\utils\abilities.cfg:1202
 msgid "dazzle"
 msgstr ""
 
 #. [damage]: id=eoma_dazzle
-#: Era_of_Magic\utils\abilities.cfg:1183
+#: Era_of_Magic\utils\abilities.cfg:1203
 msgid ""
 "When used offensively, units hit with this attack suffer a 35% reduction in "
 "damage and a 10% reduction in defenses for 1 turn"
 msgstr ""
 
 #. [chance_to_hit]: id=eoma_stun
-#: Era_of_Magic\utils\abilities.cfg:1328
+#: Era_of_Magic\utils\abilities.cfg:1348
 msgid "stun"
 msgstr ""
 
 #. [chance_to_hit]: id=eoma_stun
-#: Era_of_Magic\utils\abilities.cfg:1329
+#: Era_of_Magic\utils\abilities.cfg:1349
 msgid ""
 "This attack puts enormous pressure on the enemy, disrupting his ZOC if a hit "
 "is landed. Not active on defense. Does not work on units that do not have a "
@@ -7355,17 +7353,17 @@ msgid ""
 msgstr ""
 
 #. [unstore_unit]
-#: Era_of_Magic\utils\abilities.cfg:1367
+#: Era_of_Magic\utils\abilities.cfg:1387
 msgid "stunned"
 msgstr ""
 
 #. [dummy]: id=eoma_bloodlust{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1452
+#: Era_of_Magic\utils\abilities.cfg:1472
 msgid "bloodlust"
 msgstr "sete di sangue"
 
 #. [dummy]: id=eoma_bloodlust{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1453
+#: Era_of_Magic\utils\abilities.cfg:1473
 #, fuzzy
 #| msgid ""
 #| "Swallow +4:\n"
@@ -7381,14 +7379,14 @@ msgstr ""
 "vivente."
 
 #. [damage]: id=eoma_supercharge
-#: Era_of_Magic\utils\abilities.cfg:1528
+#: Era_of_Magic\utils\abilities.cfg:1548
 #, fuzzy
 #| msgid "charge"
 msgid "supercharge"
 msgstr "carica"
 
 #. [damage]: id=eoma_supercharge
-#: Era_of_Magic\utils\abilities.cfg:1529
+#: Era_of_Magic\utils\abilities.cfg:1549
 msgid ""
 "When used offensively, this attack deals 150% damage to the target. It also "
 "causes this unit to take 150% damage from the target’s counterattack.\n"
@@ -7398,14 +7396,14 @@ msgid ""
 msgstr ""
 
 #. [dummy]: id=eoma_scavenger{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1586
+#: Era_of_Magic\utils\abilities.cfg:1606
 #, fuzzy
 #| msgid "Revenger"
 msgid "scavenger"
 msgstr "Vendicatore"
 
 #. [dummy]: id=eoma_scavenger{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1587
+#: Era_of_Magic\utils\abilities.cfg:1607
 #, fuzzy
 #| msgid ""
 #| "Swallow +4:\n"
@@ -7421,14 +7419,14 @@ msgstr ""
 "vivente."
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic\utils\abilities.cfg:1622
-#: Era_of_Magic\utils\abilities.cfg:1623
+#: Era_of_Magic\utils\abilities.cfg:1642
+#: Era_of_Magic\utils\abilities.cfg:1643
 msgid "dread"
 msgstr ""
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic\utils\abilities.cfg:1624
-#: Era_of_Magic\utils\abilities.cfg:1625
+#: Era_of_Magic\utils\abilities.cfg:1644
+#: Era_of_Magic\utils\abilities.cfg:1645
 #, fuzzy
 #| msgid ""
 #| "Evasion:\n"
@@ -7443,14 +7441,14 @@ msgstr ""
 "danno in meno durante la rivalsa."
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic\utils\abilities.cfg:1635
-#: Era_of_Magic\utils\abilities.cfg:1636
+#: Era_of_Magic\utils\abilities.cfg:1655
+#: Era_of_Magic\utils\abilities.cfg:1656
 msgid "evade"
 msgstr ""
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic\utils\abilities.cfg:1637
-#: Era_of_Magic\utils\abilities.cfg:1638
+#: Era_of_Magic\utils\abilities.cfg:1657
+#: Era_of_Magic\utils\abilities.cfg:1658
 #, fuzzy
 #| msgid ""
 #| "Evasion:\n"
@@ -7465,14 +7463,14 @@ msgstr ""
 "danno in meno durante la rivalsa."
 
 #. [damage]: id=eoma_magic_hardening
-#: Era_of_Magic\utils\abilities.cfg:1649
+#: Era_of_Magic\utils\abilities.cfg:1669
 #, fuzzy
 #| msgid "magic arrow"
 msgid "magic hardening"
 msgstr "freccia magica"
 
 #. [damage]: id=eoma_magic_hardening
-#: Era_of_Magic\utils\abilities.cfg:1650
+#: Era_of_Magic\utils\abilities.cfg:1670
 #, fuzzy
 #| msgid ""
 #| "Evasion:\n"
@@ -7487,29 +7485,29 @@ msgstr ""
 "danno in meno durante la rivalsa."
 
 #. [dummy]: id=eoma_chaos_channeling
-#: Era_of_Magic\utils\abilities.cfg:1665
+#: Era_of_Magic\utils\abilities.cfg:1685
 msgid "chaos channelling"
 msgstr ""
 
 #. [dummy]: id=eoma_chaos_channeling
-#: Era_of_Magic\utils\abilities.cfg:1666
+#: Era_of_Magic\utils\abilities.cfg:1686
 msgid ""
 "When this unit dies a new Chaotic Observer unit is placed on the recall list "
 "of this unit's side."
 msgstr ""
 
 #. [floating_text]
-#: Era_of_Magic\utils\abilities.cfg:1686
+#: Era_of_Magic\utils\abilities.cfg:1706
 msgid "Recalling..."
 msgstr ""
 
 #. [illuminates]: id=eoma_illuminates_weak
-#: Era_of_Magic\utils\abilities.cfg:1698
+#: Era_of_Magic\utils\abilities.cfg:1718
 msgid "illuminates (weak)"
 msgstr ""
 
 #. [illuminates]: id=eoma_illuminates_weak
-#: Era_of_Magic\utils\abilities.cfg:1699
+#: Era_of_Magic\utils\abilities.cfg:1719
 msgid ""
 "This unit illuminates the surrounding area, making lawful units fight "
 "better, and chaotic units fight worse.\n"
@@ -7519,14 +7517,14 @@ msgid ""
 msgstr ""
 
 #. [damage]: id=eoma_antimech{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1709
+#: Era_of_Magic\utils\abilities.cfg:1729
 #, fuzzy
 #| msgid "magic"
 msgid "anti-mech"
 msgstr "magico"
 
 #. [damage]: id=eoma_antimech{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1710
+#: Era_of_Magic\utils\abilities.cfg:1730
 msgid ""
 "This attacks deals additional points of damage against mechanical units.\n"
 "Additional damage dealt:"
@@ -8741,8 +8739,8 @@ msgstr ""
 msgid ""
 "The unit will heal itself some HP at dawn or dusk and some HP during day. If "
 "it is poisoned, it will remove the poison instead of healing.\n"
-"The amount of hitpoints restored during day (first value) and at dawn or "
-"dusk (second value):"
+"The amount of hitpoints restored during dawn or dusk (first value) and "
+"during day (second value):"
 msgstr ""
 
 #. [regenerate]: id=eoma_regeneratesnight1_{VALUE}
