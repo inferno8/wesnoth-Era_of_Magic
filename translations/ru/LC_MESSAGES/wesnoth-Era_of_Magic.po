@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-03-17 17:41 UTC\n"
+"POT-Creation-Date: 2023-06-06 18:06 UTC\n"
 "PO-Revision-Date: 2011-11-08 23:42-0500\n"
 "Last-Translator: Fardeil <fardeil@mail.ru>\n"
 "Language-Team: none\n"
@@ -67,6 +67,12 @@ msgstr "Эра Магии"
 msgid ""
 "A variant of Era of Magic with higher level units: level 3-4 leaders, with "
 "level 2 and 3 units available for recruit. Not considered balanced."
+msgstr ""
+
+#: Era_of_Magic\dependency-utils.cfg:14
+msgid ""
+"The required add-on “<i>Era of Magic Resources</i>” is currently <b>not</b> "
+"installed."
 msgstr ""
 
 #. [language]
@@ -292,7 +298,7 @@ msgstr "Варвар"
 
 #. [attack]: type=blade
 #: Era_of_Magic\units\Barbarians\Barbarian.cfg:29
-#: Era_of_Magic\units\Barbarians\Barbarian_King.cfg:57
+#: Era_of_Magic\units\Barbarians\Barbarian_King.cfg:60
 #: Era_of_Magic\units\Barbarians\Barbarian_Lord.cfg:53
 msgid "sword+axe"
 msgstr "меч и топор"
@@ -319,7 +325,7 @@ msgid ""
 msgstr ""
 
 #. [specials]
-#: Era_of_Magic\units\Barbarians\Barbarian_King.cfg:64
+#: Era_of_Magic\units\Barbarians\Barbarian_King.cfg:67
 #: Era_of_Magic\units\Barbarians\Barbarian_Lord.cfg:60
 #: Era_of_Magic\units\Barbarians\Cyclops_Breaker.cfg:56
 #: Era_of_Magic\units\Barbarians\Cyclops_Breaker_rpg.cfg:18
@@ -574,10 +580,10 @@ msgstr "отравленные стрелы"
 #: Era_of_Magic\units\Dark_Blood_Alliance\Twin_Archer_Toad_rpg.cfg:20
 #: Era_of_Magic\units\Runemasters\Dwarvish_Mobile_Turret.cfg:84
 #: Era_of_Magic\units\Runemasters\Dwarvish_Mobile_Turret.cfg:77
-#: Era_of_Magic\units\Runemasters\Dwarvish_Mobile_Turret_rpg.cfg:22
+#: Era_of_Magic\units\Runemasters\Dwarvish_Mobile_Turret_rpg.cfg:24
 #: Era_of_Magic\units\Runemasters\Mobile_Defensive_Platform.cfg:87
 #: Era_of_Magic\units\Runemasters\Mobile_Defensive_Platform.cfg:80
-#: Era_of_Magic\units\Runemasters\Mobile_Defensive_Platform_rpg.cfg:22
+#: Era_of_Magic\units\Runemasters\Mobile_Defensive_Platform_rpg.cfg:23
 #, fuzzy
 #| msgid "witch-fire"
 msgid "split fire"
@@ -1170,7 +1176,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:241
-#: Era_of_Magic\utils\recruit.cfg:239 Era_of_Magic\utils\summon.cfg:241
+#: Era_of_Magic\utils\recruit.cfg:239 Era_of_Magic\utils\summon.cfg:291
 msgid "Help"
 msgstr "Помощь"
 
@@ -1556,19 +1562,6 @@ msgstr "камикадзе"
 #. [unit_type]: id=EoMa_Temple_Guard, race=lizard, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Dark_Blood_Alliance\Temple_Guard.cfg:4
 msgid "Temple Guard"
-msgstr ""
-
-#. [disable]: id=eoma_divine
-#: Era_of_Magic\units\Dark_Blood_Alliance\Temple_Guard.cfg:78
-#, fuzzy
-#| msgid "divine spear"
-msgid "divine"
-msgstr "божественное копьё"
-
-#. [disable]: id=eoma_divine
-#: Era_of_Magic\units\Dark_Blood_Alliance\Temple_Guard.cfg:79
-msgid ""
-"This attack will only be used against monsters, magical and undead beings."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Ranged_Toad, race=lizard, description={NO_DESCR_AVAILABLE}
@@ -2493,6 +2486,8 @@ msgstr ""
 #: Era_of_Magic\units\Kharos\Shielder.cfg:50
 #: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:64
 #: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:73
+#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield_rpg.cfg:16
+#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield_rpg.cfg:25
 msgid "shield"
 msgstr "щит"
 
@@ -2583,6 +2578,13 @@ msgid ""
 "adept at light magic; conjuring beams of light at their foes, and being "
 "quite skilled at healing the wounded."
 msgstr ""
+
+#. [unit_type]: id=EoMa_Divine_Executor, race=human, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Kharos\Divine_Executor.cfg:4
+#, fuzzy
+#| msgid "Dark Hunter"
+msgid "Divine Executor"
+msgstr "Темный охотник"
 
 #. [unit_type]: id=EoMa_Elemental_Archer, race=human
 #: Era_of_Magic\units\Kharos\Elemental_Archer.cfg:4
@@ -2770,7 +2772,7 @@ msgid "Kharosian Impaler"
 msgstr "Боевое знамя Кароса"
 
 #. [unit_type]: id=EoMa_Kharosian_Impaler, race=human
-#: Era_of_Magic\units\Kharos\Kharosian_Impaler.cfg:28
+#: Era_of_Magic\units\Kharos\Kharosian_Impaler.cfg:20
 msgid ""
 "The title of Impaler is given to the best javelineers of Kharos. Their light "
 "equipment allows them to be more agile and cover more area on a battlefield "
@@ -2778,6 +2780,11 @@ msgid ""
 "them from enemy arrows very well while not limiting the movement. "
 "Additionally they're equipped with magic wards which absorb part of incoming "
 "magic damage."
+msgstr ""
+
+#. [attack]: type=arcane
+#: Era_of_Magic\units\Kharos\Kharosian_Impaler_rpg.cfg:20
+msgid "holy javelin"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Kharosian_Javelineer, race=human
@@ -3179,6 +3186,7 @@ msgstr ""
 
 #. [attack]: type=fire
 #: Era_of_Magic\units\Runemasters\Constructor.cfg:140
+#: Era_of_Magic\units\Runemasters\Dwarvish_Soldier_rpg.cfg:17
 #: Era_of_Magic\units\Runemasters\Technician.cfg:118
 #, fuzzy
 #| msgid "bombs"
@@ -3275,7 +3283,8 @@ msgstr ""
 
 #. [attack]: type=pierce
 #: Era_of_Magic\units\Runemasters\Dwarvish_Cadet.cfg:54
-#: Era_of_Magic\units\Runemasters\Dwarvish_Cannoneer.cfg:61
+#: Era_of_Magic\units\Runemasters\Dwarvish_Cannoneer.cfg:48
+#: Era_of_Magic\units\Runemasters\Dwarvish_Cannoneer.cfg:60
 #: Era_of_Magic\units\Runemasters\Dwarvish_Gunner.cfg:50
 #: Era_of_Magic\units\Runemasters\Dwarvish_Rune_Lord.cfg:60
 #: Era_of_Magic\units\Runemasters\Dwarvish_Runic_Warrior.cfg:40
@@ -3294,17 +3303,13 @@ msgid "Dwarvish Cannoneer"
 msgstr "Танк"
 
 #. [attack]: type=impact
-#: Era_of_Magic\units\Runemasters\Dwarvish_Cannoneer.cfg:40
+#: Era_of_Magic\units\Runemasters\Dwarvish_Cannoneer.cfg:39
 #: Era_of_Magic\units\Runemasters\Dwarvish_Gunner.cfg:41
+#: Era_of_Magic\units\Runemasters\Trench_Sweeper.cfg:45
 #, fuzzy
 #| msgid "bow bash"
 msgid "gun bash"
 msgstr "удар луком"
-
-#. [attack]: type=pierce
-#: Era_of_Magic\units\Runemasters\Dwarvish_Cannoneer.cfg:49
-msgid "point blank"
-msgstr ""
 
 #. [unit_type]: id=EoMa_Dwarvish_Gunner, race=dwarf, description=
 #: Era_of_Magic\units\Runemasters\Dwarvish_Gunner.cfg:4
@@ -3701,7 +3706,9 @@ msgid "Steam Turboserker"
 msgstr "Паровой берсерк"
 
 #. [unit_type]: id=EoMa_Steam_Ulfserker, race=mechanical
+#. [unit_type]: id=EoMa_Steam_Ulfserker_rpg
 #: Era_of_Magic\units\Runemasters\Steam_Ulfserker.cfg:4
+#: Era_of_Magic\units\Runemasters\Steam_Ulfserker_rpg.cfg:7
 msgid "Steam Ulfserker"
 msgstr "Паровой ульфсерк"
 
@@ -3813,6 +3820,33 @@ msgid ""
 "machines - they invent them. Armed with experimental rifles they pose a "
 "serious threat to any kind of foe."
 msgstr ""
+
+#. [unit_type]: id=EoMa_Trench_Sweeper, race=dwarf, description=
+#: Era_of_Magic\units\Runemasters\Trench_Sweeper.cfg:4
+msgid "Trench Sweeper"
+msgstr ""
+
+#. [attack]: type=pierce
+#: Era_of_Magic\units\Runemasters\Trench_Sweeper.cfg:54
+#: Era_of_Magic\units\Runemasters\Trench_Sweeper.cfg:73
+msgid "trenchgun"
+msgstr ""
+
+#. [damage]: id=eoma_pointblank
+#: Era_of_Magic\units\Runemasters\Trench_Sweeper.cfg:64
+msgid "point blank"
+msgstr ""
+
+#. [damage]: id=eoma_pointblank
+#: Era_of_Magic\units\Runemasters\Trench_Sweeper.cfg:65
+#, fuzzy
+#| msgid ""
+#| "precision:\n"
+#| "This attack always has a 80% chance to hit"
+msgid "When used offensively, this attack deals +4 more damage to the target."
+msgstr ""
+"Точность:\n"
+"Такая атака всегда попадает с вероятностью 80%."
 
 #. [unit_type]: id=EoMa_Mage_of_Air, race=human
 #: Era_of_Magic\units\Sky_Kingdom\Aeromancer.cfg:4
@@ -4411,6 +4445,7 @@ msgstr ""
 
 #. [attack]: type=impact
 #: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:82
+#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield_rpg.cfg:34
 #, fuzzy
 #| msgid "shield"
 msgid "shield bash"
@@ -4418,6 +4453,7 @@ msgstr "щит"
 
 #. [attack]: type=secret
 #: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:91
+#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield_rpg.cfg:43
 #: Era_of_Magic\units\Sky_Kingdom\Mystic_Warrior.cfg:85
 #: Era_of_Magic\units\Sky_Kingdom\Sky_Guardian.cfg:99
 msgid "secret hit"
@@ -4523,7 +4559,7 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=pierce
-#: Era_of_Magic\units\Sky_Kingdom\Shadow_Mage.cfg:100
+#: Era_of_Magic\units\Sky_Kingdom\Shadow_Mage.cfg:102
 #, fuzzy
 #| msgid "cursed knifes"
 msgid "cursed knives"
@@ -6069,6 +6105,13 @@ msgstr "Мастер призыва"
 msgid "scythe"
 msgstr "коса"
 
+#. [attack]: type=impact
+#: Era_of_Magic\units\Tharis\Great_Warlock.cfg:147
+#, fuzzy
+#| msgid "implosion"
+msgid "lesser implosion"
+msgstr "внутренний взрыв"
+
 #. [unit_type]: id=EoMa_Great_Witch, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Great_Witch.cfg:4
 #, fuzzy
@@ -6221,7 +6264,9 @@ msgstr ""
 
 #. [attack]: type=fire
 #: Era_of_Magic\units\Tharis\Matriarch_of_Pain.cfg:51
+#: Era_of_Magic\units\Tharis\Matriarch_of_Pain_rpg.cfg:21
 #: Era_of_Magic\units\Tharis\Pain_Mistress.cfg:46
+#: Era_of_Magic\units\Tharis\Pain_Mistress_rpg.cfg:12
 msgid "pain"
 msgstr ""
 
@@ -6615,14 +6660,14 @@ msgid "When killing a living enemy, this unit is healed by "
 msgstr ""
 
 #. [damage]: id=eoma_collector{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:650
+#: Era_of_Magic\utils\abilities.cfg:651
 #, fuzzy
 #| msgid "Protector"
 msgid "collector"
 msgstr "Защитник"
 
 #. [damage]: id=eoma_collector{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:651
+#: Era_of_Magic\utils\abilities.cfg:652
 #, fuzzy
 #| msgid ""
 #| "Swallow +4:\n"
@@ -6639,43 +6684,43 @@ msgstr ""
 "ЗД."
 
 #. [floating_text]
-#: Era_of_Magic\utils\abilities.cfg:702
+#: Era_of_Magic\utils\abilities.cfg:703
 msgid "+1 max hp"
 msgstr ""
 
 #. [dummy]: id=eoma_split
-#: Era_of_Magic\utils\abilities.cfg:733
+#: Era_of_Magic\utils\abilities.cfg:734
 msgid "split"
 msgstr ""
 
 #. [dummy]: id=eoma_split
-#: Era_of_Magic\utils\abilities.cfg:734
+#: Era_of_Magic\utils\abilities.cfg:735
 msgid "When dying this unit splits into 2 smaller versions of itself."
 msgstr ""
 
 #. [dummy]: id=eoma_antishield
-#: Era_of_Magic\utils\abilities.cfg:765
+#: Era_of_Magic\utils\abilities.cfg:766
 #, fuzzy
 #| msgid "shield"
 msgid "anti-shield"
 msgstr "щит"
 
 #. [dummy]: id=eoma_antishield
-#: Era_of_Magic\utils\abilities.cfg:766
+#: Era_of_Magic\utils\abilities.cfg:767
 msgid ""
 "This attack negates all possible resistances, thus the damage output is "
 "always constant."
 msgstr ""
 
 #. [dummy]: id=eoma_poisonousaura
-#: Era_of_Magic\utils\abilities.cfg:773
+#: Era_of_Magic\utils\abilities.cfg:774
 #, fuzzy
 #| msgid "poisoned arrow"
 msgid "poisonous aura"
 msgstr "отравленные стрелы"
 
 #. [dummy]: id=eoma_poisonousaura
-#: Era_of_Magic\utils\abilities.cfg:774
+#: Era_of_Magic\utils\abilities.cfg:775
 msgid ""
 "All living non-magical enemy units adjacent to this unit lose 2 HP and "
 "become poisoned at the beginning of this unit's turn. If an enemy unit's HP "
@@ -6683,26 +6728,28 @@ msgid ""
 msgstr ""
 
 #. [dummy]: id=eoma_alterego
-#: Era_of_Magic\utils\abilities.cfg:840
+#: Era_of_Magic\utils\abilities.cfg:841
+#: Era_of_Magic\utils\abilities_rpg.cfg:277
 #, fuzzy
 #| msgid "Water God"
 msgid "alter ego"
 msgstr "Бог Воды"
 
 #. [dummy]: id=eoma_alterego
-#: Era_of_Magic\utils\abilities.cfg:841
+#: Era_of_Magic\utils\abilities.cfg:842
+#: Era_of_Magic\utils\abilities_rpg.cfg:278
 msgid "At night this unit transforms into its alternative version."
 msgstr ""
 
 #. [dummy]: id=eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:869
+#: Era_of_Magic\utils\abilities.cfg:870
 #, fuzzy
 #| msgid "dark aura"
 msgid "damage aura"
 msgstr "аура Тьмы"
 
 #. [dummy]: id=eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:870
+#: Era_of_Magic\utils\abilities.cfg:871
 msgid ""
 "This unit harms all adjacent enemies at the start of each turn by a certain "
 "amount of damage (affected by the ToD bonus), giving the unit experience for "
@@ -6710,12 +6757,12 @@ msgid ""
 msgstr ""
 
 #. [dummy]: id=lesser_eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:963
+#: Era_of_Magic\utils\abilities.cfg:964
 msgid "lesser damage aura"
 msgstr ""
 
 #. [dummy]: id=lesser_eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:964
+#: Era_of_Magic\utils\abilities.cfg:965
 msgid ""
 "This unit harms all adjacent enemies at the start of each turn by a certain "
 "amount of damage (affected by the ToD bonus), without giving the unit "
@@ -6723,36 +6770,36 @@ msgid ""
 msgstr ""
 
 #. [damage]: id=eoma_immoblize
-#: Era_of_Magic\utils\abilities.cfg:1058
+#: Era_of_Magic\utils\abilities.cfg:1059
 msgid "immobilize"
 msgstr ""
 
 #. [damage]: id=eoma_immoblize
-#: Era_of_Magic\utils\abilities.cfg:1059
+#: Era_of_Magic\utils\abilities.cfg:1060
 msgid ""
 "When used offensively, units hit with this attack become unable to move for "
 "1 turn"
 msgstr ""
 
 #. [damage]: id=eoma_dazzle
-#: Era_of_Magic\utils\abilities.cfg:1202
+#: Era_of_Magic\utils\abilities.cfg:1203
 msgid "dazzle"
 msgstr ""
 
 #. [damage]: id=eoma_dazzle
-#: Era_of_Magic\utils\abilities.cfg:1203
+#: Era_of_Magic\utils\abilities.cfg:1204
 msgid ""
 "When used offensively, units hit with this attack suffer a 35% reduction in "
 "damage and a 10% reduction in defenses for 1 turn"
 msgstr ""
 
 #. [chance_to_hit]: id=eoma_stun
-#: Era_of_Magic\utils\abilities.cfg:1348
+#: Era_of_Magic\utils\abilities.cfg:1349
 msgid "stun"
 msgstr ""
 
 #. [chance_to_hit]: id=eoma_stun
-#: Era_of_Magic\utils\abilities.cfg:1349
+#: Era_of_Magic\utils\abilities.cfg:1350
 msgid ""
 "This attack puts enormous pressure on the enemy, disrupting his ZOC if a hit "
 "is landed. Not active on defense. Does not work on units that do not have a "
@@ -6760,17 +6807,17 @@ msgid ""
 msgstr ""
 
 #. [unstore_unit]
-#: Era_of_Magic\utils\abilities.cfg:1387
+#: Era_of_Magic\utils\abilities.cfg:1388
 msgid "stunned"
 msgstr ""
 
 #. [dummy]: id=eoma_bloodlust{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1472
+#: Era_of_Magic\utils\abilities.cfg:1473
 msgid "bloodlust"
 msgstr "жажда крови"
 
 #. [dummy]: id=eoma_bloodlust{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1473
+#: Era_of_Magic\utils\abilities.cfg:1474
 #, fuzzy
 #| msgid ""
 #| "Swallow +4:\n"
@@ -6786,14 +6833,14 @@ msgstr ""
 "ЗД."
 
 #. [damage]: id=eoma_supercharge
-#: Era_of_Magic\utils\abilities.cfg:1548
+#: Era_of_Magic\utils\abilities.cfg:1549
 #, fuzzy
 #| msgid "charge"
 msgid "supercharge"
 msgstr "бросок"
 
 #. [damage]: id=eoma_supercharge
-#: Era_of_Magic\utils\abilities.cfg:1549
+#: Era_of_Magic\utils\abilities.cfg:1550
 msgid ""
 "When used offensively, this attack deals 150% damage to the target. It also "
 "causes this unit to take 150% damage from the target’s counterattack.\n"
@@ -6803,14 +6850,14 @@ msgid ""
 msgstr ""
 
 #. [dummy]: id=eoma_scavenger{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1606
+#: Era_of_Magic\utils\abilities.cfg:1607
 #, fuzzy
 #| msgid "Revenger"
 msgid "scavenger"
 msgstr "Мститель"
 
 #. [dummy]: id=eoma_scavenger{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1607
+#: Era_of_Magic\utils\abilities.cfg:1608
 #, fuzzy
 #| msgid ""
 #| "Swallow +4:\n"
@@ -6826,14 +6873,14 @@ msgstr ""
 "ЗД."
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic\utils\abilities.cfg:1642
 #: Era_of_Magic\utils\abilities.cfg:1643
+#: Era_of_Magic\utils\abilities.cfg:1644
 msgid "dread"
 msgstr ""
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic\utils\abilities.cfg:1644
 #: Era_of_Magic\utils\abilities.cfg:1645
+#: Era_of_Magic\utils\abilities.cfg:1646
 #, fuzzy
 #| msgid ""
 #| "Evasion:\n"
@@ -6848,14 +6895,14 @@ msgstr ""
 "урона."
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic\utils\abilities.cfg:1655
 #: Era_of_Magic\utils\abilities.cfg:1656
+#: Era_of_Magic\utils\abilities.cfg:1657
 msgid "evade"
 msgstr ""
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic\utils\abilities.cfg:1657
 #: Era_of_Magic\utils\abilities.cfg:1658
+#: Era_of_Magic\utils\abilities.cfg:1659
 #, fuzzy
 #| msgid ""
 #| "Evasion:\n"
@@ -6870,14 +6917,14 @@ msgstr ""
 "урона."
 
 #. [damage]: id=eoma_magic_hardening
-#: Era_of_Magic\utils\abilities.cfg:1669
+#: Era_of_Magic\utils\abilities.cfg:1670
 #, fuzzy
 #| msgid "magic arrow"
 msgid "magic hardening"
 msgstr "магическая стрела"
 
 #. [damage]: id=eoma_magic_hardening
-#: Era_of_Magic\utils\abilities.cfg:1670
+#: Era_of_Magic\utils\abilities.cfg:1671
 #, fuzzy
 #| msgid ""
 #| "Evasion:\n"
@@ -6892,29 +6939,29 @@ msgstr ""
 "урона."
 
 #. [dummy]: id=eoma_chaos_channeling
-#: Era_of_Magic\utils\abilities.cfg:1685
+#: Era_of_Magic\utils\abilities.cfg:1686
 msgid "chaos channelling"
 msgstr ""
 
 #. [dummy]: id=eoma_chaos_channeling
-#: Era_of_Magic\utils\abilities.cfg:1686
+#: Era_of_Magic\utils\abilities.cfg:1687
 msgid ""
 "When this unit dies a new Chaotic Observer unit is placed on the recall list "
 "of this unit's side."
 msgstr ""
 
 #. [floating_text]
-#: Era_of_Magic\utils\abilities.cfg:1706
+#: Era_of_Magic\utils\abilities.cfg:1707
 msgid "Recalling..."
 msgstr ""
 
 #. [illuminates]: id=eoma_illuminates_weak
-#: Era_of_Magic\utils\abilities.cfg:1718
+#: Era_of_Magic\utils\abilities.cfg:1719
 msgid "illuminates (weak)"
 msgstr ""
 
 #. [illuminates]: id=eoma_illuminates_weak
-#: Era_of_Magic\utils\abilities.cfg:1719
+#: Era_of_Magic\utils\abilities.cfg:1720
 msgid ""
 "This unit illuminates the surrounding area, making lawful units fight "
 "better, and chaotic units fight worse.\n"
@@ -6924,35 +6971,35 @@ msgid ""
 msgstr ""
 
 #. [damage]: id=eoma_antimech{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1729
+#: Era_of_Magic\utils\abilities.cfg:1730
 #, fuzzy
 #| msgid "magic"
 msgid "anti-mech"
 msgstr "магия"
 
 #. [damage]: id=eoma_antimech{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1730
+#: Era_of_Magic\utils\abilities.cfg:1731
 msgid ""
 "This attacks deals additional points of damage against mechanical units.\n"
 "Additional damage dealt:"
 msgstr ""
 
+#. [disable]: id=eoma_divine
+#: Era_of_Magic\utils\abilities.cfg:1744
+#, fuzzy
+#| msgid "divine spear"
+msgid "divine"
+msgstr "божественное копьё"
+
+#. [disable]: id=eoma_divine
+#: Era_of_Magic\utils\abilities.cfg:1745
+msgid ""
+"This attack will only be used against monsters, magical and undead beings."
+msgstr ""
+
 #. [disable]: id=eoma_disable_in_rpg, description=
 #: Era_of_Magic\utils\abilities_rpg.cfg:6
 msgid "inactive in RPG"
-msgstr ""
-
-#. [firststrike]: id=firststrike_rpg
-#: Era_of_Magic\utils\abilities_rpg.cfg:186
-#, fuzzy
-#| msgid "ice strike"
-msgid "first strike"
-msgstr "удар льда"
-
-#. [firststrike]: id=firststrike_rpg
-#: Era_of_Magic\utils\abilities_rpg.cfg:187
-msgid ""
-"This unit always strikes first with this attack, even if they are defending."
 msgstr ""
 
 #. [dummy]: id=eoma_allaround
@@ -7243,8 +7290,7 @@ msgstr ""
 #: Era_of_Magic\utils\banish.cfg:237
 #: Era_of_Magic\utils\drone-upgrades.cfg:547
 #: Era_of_Magic\utils\recruit.cfg:124 Era_of_Magic\utils\recruit.cfg:160
-#: Era_of_Magic\utils\recruit.cfg:191 Era_of_Magic\utils\summon.cfg:126
-#: Era_of_Magic\utils\summon.cfg:162 Era_of_Magic\utils\summon.cfg:193
+#: Era_of_Magic\utils\recruit.cfg:191 Era_of_Magic\utils\summon.cfg:239
 msgid "+3 exp"
 msgstr ""
 
@@ -7782,7 +7828,7 @@ msgstr ""
 #. [set_menu_item]: id=recruit_{ID}, description= - 
 #. [set_menu_item]: id=summon_{ID}, description= - 
 #: Era_of_Magic\utils\drone-upgrades.cfg:456
-#: Era_of_Magic\utils\recruit.cfg:48 Era_of_Magic\utils\summon.cfg:48
+#: Era_of_Magic\utils\recruit.cfg:48 Era_of_Magic\utils\summon.cfg:61
 msgid "gold:"
 msgstr ""
 
@@ -7794,7 +7840,7 @@ msgstr ""
 #. [message]: speaker=narrator
 #: Era_of_Magic\utils\drone-upgrades.cfg:595
 #: Era_of_Magic\utils\recruit.cfg:208 Era_of_Magic\utils\statue-copy.cfg:357
-#: Era_of_Magic\utils\summon.cfg:210
+#: Era_of_Magic\utils\summon.cfg:260
 msgid "Error"
 msgstr "Ошибка"
 
@@ -8065,9 +8111,8 @@ msgstr ""
 #| "At the beginning of each turn this unit heals +4 hp. If it is poisoned, "
 #| "it will remove it instead of healing."
 msgid ""
-"When standing on water (except ford and reef terrain), this unit will heal "
-"itself some HP per turn. If it is poisoned, it will remove the poison "
-"instead of healing.\n"
+"When standing on water, this unit will heal itself some HP per turn. If it "
+"is poisoned, it will remove the poison instead of healing.\n"
 "The amount of hitpoints restored:"
 msgstr ""
 "Регенерация +4:\n"
@@ -8301,12 +8346,12 @@ msgstr ""
 "Соседние бойцы 1 уровня будут наносить в битве на 25% больше урона.\n"
 "Соседние бойцы 2 уровня будут наносить в битве на 10% больше урона."
 
-#. [leadership]: id=leadership
+#. [leadership]: id=eoma_warcry
 #: Era_of_Magic\utils\leaderships.cfg:116
-msgid "warrior influence"
+msgid "warcry"
 msgstr ""
 
-#. [leadership]: id=leadership
+#. [leadership]: id=eoma_warcry
 #: Era_of_Magic\utils\leaderships.cfg:117
 #, fuzzy
 #| msgid ""
@@ -8320,7 +8365,7 @@ msgid ""
 "This unit can inspire friendly units that are next to it, making them fight "
 "better.\n"
 "\n"
-"Adjacent friendly units will do 15% more damage in battle."
+"All adjacent friendly units will do 10% more damage in battle."
 msgstr ""
 "Вдохновение:\n"
 "Такой боец может вдохвлять соседние дружественные войска, улучшая боевые "
@@ -8455,19 +8500,39 @@ msgstr "защитник"
 #| "maximum of 40%)."
 msgid ""
 "Adjacent friendly units receive a +20% bonus to all resistances (up to a "
-"maximum of 40%)."
+"maximum of 50%). Does not stack with the bulwark ability."
+msgstr ""
+"Защитник:\n"
+"Соседние дружественные бойцы получают +20% ко всем сопротивлениям (до "
+"максимума в 40%)"
+
+#. [resistance]: id=eoma_bulwark
+#: Era_of_Magic\utils\resistance.cfg:34
+msgid "bulwark"
+msgstr ""
+
+#. [resistance]: id=eoma_bulwark
+#: Era_of_Magic\utils\resistance.cfg:35
+#, fuzzy
+#| msgid ""
+#| "Defender:\n"
+#| "Adjacent friendly units receive a +20% bonus to all resistances (up to a "
+#| "maximum of 40%)."
+msgid ""
+"Adjacent friendly units receive a +20% bonus to all resistances (up to a "
+"maximum of 85%). Does not stack with the defender ability."
 msgstr ""
 "Защитник:\n"
 "Соседние дружественные бойцы получают +20% ко всем сопротивлениям (до "
 "максимума в 40%)"
 
 #. [resistance]: id=eoma_circleres
-#: Era_of_Magic\utils\resistance.cfg:27
+#: Era_of_Magic\utils\resistance.cfg:53
 msgid "circle of resistance"
 msgstr "круг сопротивления"
 
 #. [resistance]: id=eoma_circleres
-#: Era_of_Magic\utils\resistance.cfg:28
+#: Era_of_Magic\utils\resistance.cfg:54
 #, fuzzy
 #| msgid ""
 #| "Deadzone:\n"
@@ -8475,19 +8540,20 @@ msgstr "круг сопротивления"
 #| "resistances."
 msgid ""
 "All adjacent friendly units next to this unit receive a +20% bonus to fire, "
-"cold, and arcane resistances."
+"cold, and arcane resistances (does not work against units with the magic "
+"absorber ability)."
 msgstr ""
 "Зоня смерти:\n"
 "Соседние дружественные бойцы получают 99% бонус к сопротивлениям огню, "
 "холоду и мистиическому урону."
 
 #. [resistance]: id=eoma_circlesus
-#: Era_of_Magic\utils\resistance.cfg:46
+#: Era_of_Magic\utils\resistance.cfg:75
 msgid "circle of susceptibility"
 msgstr "круг уязвимости"
 
 #. [resistance]: id=eoma_circlesus
-#: Era_of_Magic\utils\resistance.cfg:47
+#: Era_of_Magic\utils\resistance.cfg:76
 #, fuzzy
 #| msgid ""
 #| "Circle of Susceptibility:\n"
@@ -8495,21 +8561,21 @@ msgstr "круг уязвимости"
 #| "resistances."
 msgid ""
 "All adjacent enemy units’ fire, cold, and arcane resistances are weakened by "
-"20%."
+"20% (does not work against units with the magic absorber ability)."
 msgstr ""
 "Круг Уязвимости:\n"
 "Все соседние вражеские войска получают -20% к сопротивлениям огню, холоду и "
 "мистическому урону."
 
 #. [resistance]: id=eoma_magicabsorb
-#: Era_of_Magic\utils\resistance.cfg:66
+#: Era_of_Magic\utils\resistance.cfg:98
 #, fuzzy
 #| msgid "magic arrow"
 msgid "magic absorber"
 msgstr "магическая стрела"
 
 #. [resistance]: id=eoma_magicabsorb
-#: Era_of_Magic\utils\resistance.cfg:67
+#: Era_of_Magic\utils\resistance.cfg:99
 msgid ""
 "Area around this unit is mostly purged from most kinds of magic (anti-shield "
 "attacks still work fine)\n"
@@ -8519,12 +8585,12 @@ msgid ""
 msgstr ""
 
 #. [resistance]: id=eoma_coldaura
-#: Era_of_Magic\utils\resistance.cfg:88
+#: Era_of_Magic\utils\resistance.cfg:123
 msgid "cold aura"
 msgstr "аура холода"
 
 #. [resistance]: id=eoma_coldaura
-#: Era_of_Magic\utils\resistance.cfg:89
+#: Era_of_Magic\utils\resistance.cfg:124
 msgid ""
 "- All water tiles around this unit turn to ice on this unit's next turn "
 "(this effect lasts 1 turn).\n"
@@ -8539,14 +8605,14 @@ msgid ""
 msgstr ""
 
 #. [resistance]: id=eoma_heataura{VALUE}
-#: Era_of_Magic\utils\resistance.cfg:280
+#: Era_of_Magic\utils\resistance.cfg:315
 #, fuzzy
 #| msgid "dark aura"
 msgid "heat aura"
 msgstr "аура Тьмы"
 
 #. [resistance]: id=eoma_heataura{VALUE}
-#: Era_of_Magic\utils\resistance.cfg:281
+#: Era_of_Magic\utils\resistance.cfg:316
 msgid ""
 "Area around this unit provides a bonus to cold resistance (max 50%). This "
 "ability does not affect other units with the same ability, fire elementals "
@@ -8554,66 +8620,66 @@ msgid ""
 msgstr ""
 
 #. [resistance]: id=eoma_dauntless
-#: Era_of_Magic\utils\resistance.cfg:310
+#: Era_of_Magic\utils\resistance.cfg:345
 msgid "dauntless"
 msgstr ""
 
 #. [resistance]: id=eoma_dauntless
-#: Era_of_Magic\utils\resistance.cfg:311
+#: Era_of_Magic\utils\resistance.cfg:346
 #, fuzzy
 #| msgid "female^Cleric"
 msgid "female^dauntless"
 msgstr "Священница"
 
 #. [resistance]: id=eoma_dauntless
-#: Era_of_Magic\utils\resistance.cfg:312
+#: Era_of_Magic\utils\resistance.cfg:347
 msgid ""
 "While attacking, this unit's resistances are doubled, up to a maximum of 50. "
 "Weaknesses are not affected."
 msgstr ""
 
 #. [resistance]: id=eoma_tenacity
-#: Era_of_Magic\utils\resistance.cfg:327
+#: Era_of_Magic\utils\resistance.cfg:362
 msgid "tenacity"
 msgstr ""
 
 #. [resistance]: id=eoma_tenacity
-#: Era_of_Magic\utils\resistance.cfg:328
+#: Era_of_Magic\utils\resistance.cfg:363
 #, fuzzy
 #| msgid "female^Cleric"
 msgid "female^tenacity"
 msgstr "Священница"
 
 #. [resistance]: id=eoma_tenacity
-#: Era_of_Magic\utils\resistance.cfg:329
+#: Era_of_Magic\utils\resistance.cfg:364
 msgid "This unit’s vulnerabilities are halved when attacking."
 msgstr ""
 
 #. [resistance]: id=eoma_shielded
 #. [dummy]: id=eoma_shielded_special
-#: Era_of_Magic\utils\resistance.cfg:340
-#: Era_of_Magic\utils\resistance.cfg:353
+#: Era_of_Magic\utils\resistance.cfg:375
+#: Era_of_Magic\utils\resistance.cfg:388
 #, fuzzy
 #| msgid "shield"
 msgid "shielded"
 msgstr "щит"
 
 #. [resistance]: id=eoma_shielded
-#: Era_of_Magic\utils\resistance.cfg:341
+#: Era_of_Magic\utils\resistance.cfg:376
 #, fuzzy
 #| msgid "female^Inspired"
 msgid "female^shielded"
 msgstr "Вдохновленная"
 
 #. [resistance]: id=eoma_shielded
-#: Era_of_Magic\utils\resistance.cfg:342
+#: Era_of_Magic\utils\resistance.cfg:377
 msgid ""
 "This unit gains +5% to all resistances, up to a maximum of 60%, when using a "
 "weapon with the 'shielded' special."
 msgstr ""
 
 #. [dummy]: id=eoma_shielded_special
-#: Era_of_Magic\utils\resistance.cfg:354
+#: Era_of_Magic\utils\resistance.cfg:389
 msgid ""
 "This attack activates the 'shielded' ability of the unit applying the +5 "
 "resistance bonus to the owner."
@@ -8732,12 +8798,12 @@ msgstr ""
 "всех остальных отнимается 99% от тех же сопротивлений. Преобразование длится "
 "один ход. Преобразованный боец не может атаковать."
 
-#. [petrifies]: id=sculpts
+#. [petrifies]: id=eoma_sculpts
 #: Era_of_Magic\utils\sculpt.cfg:8
 msgid "sculpts"
 msgstr ""
 
-#. [petrifies]: id=sculpts
+#. [petrifies]: id=eoma_sculpts
 #: Era_of_Magic\utils\sculpt.cfg:9
 msgid ""
 "This attack petrifies the target, turning it to stone for two turns. Units "
@@ -8819,27 +8885,45 @@ msgstr "призыв"
 #. [dummy]: id=eoma_summon
 #: Era_of_Magic\utils\summon.cfg:6
 msgid ""
-"This unit can summon new units on adjacent tiles, but not in villages, or on "
-"water.\n"
+"This unit can summon new units on adjacent tiles, but not in villages.\n"
 "\n"
 "For more information, choose the 'Summoning Help' rightclick option which "
 "appears when rightclicking on a unit with the 'summon' ability."
 msgstr ""
 
+#. [dummy]: id=eoma_fastsummon
+#: Era_of_Magic\utils\summon.cfg:48
+#, fuzzy
+#| msgid "summon"
+msgid "fast summon"
+msgstr "призыв"
+
+#. [dummy]: id=eoma_fastsummon
+#: Era_of_Magic\utils\summon.cfg:49
+#, fuzzy
+#| msgid ""
+#| "Hit and Run:\n"
+#| "This unit gains 3 moves back after attacking, but cannot attack again."
+msgid "This unit may move after summoning (but not attack)."
+msgstr ""
+"Ударил-убежал:\n"
+"После атаки такой боец приобретает обратно три очка движения, но не может "
+"снова атаковать."
+
 #. [message]: speaker=narrator
-#: Era_of_Magic\utils\summon.cfg:211
+#: Era_of_Magic\utils\summon.cfg:261
 msgid "I have insufficient materials. I am unable to summon."
 msgstr "У меня не хватает ресурсов. Призыв невозможен."
 
 #. [set_menu_item]: id=summon_zhelp
-#: Era_of_Magic\utils\summon.cfg:222
+#: Era_of_Magic\utils\summon.cfg:272
 #, fuzzy
 #| msgid "Summon Help"
 msgid "Summoning Help"
 msgstr "Призвать подмогу"
 
 #. [message]: speaker=narrator
-#: Era_of_Magic\utils\summon.cfg:242
+#: Era_of_Magic\utils\summon.cfg:292
 #, fuzzy
 #| msgid ""
 #| "To summon a unit right-click on adjacent hexes near a selected summoner.\n"
@@ -8855,8 +8939,16 @@ msgid ""
 "To summon a unit right-click on hexes adjacent to a selected summoner.\n"
 "\n"
 "You need all movement points (and remaining attacks) to summon one creature. "
-"You are unable to summon in villages, from castles or keeps. A new unit "
-"can’t be summoned on water.\n"
+"You are unable to summon in villages. A new unit can’t be summoned on water "
+"(with the exception of Water and Air Elementals).\n"
+"\n"
+"Castle hexes work as a barrier for summoning:\n"
+"If the summoner is inside a castle, he can summon a new unit only on "
+"adjacent castle hexes but not ouside the castle. To summon outside the "
+"castle, the summoner needs to leave it first.\n"
+"If the summoner is outside a castle, he cannot summon a new unit on adjacent "
+"castle hexes (the summoner needs to enter the castle first).\n"
+"\n"
 "Every summoning adds +3 to current experience.\n"
 "\n"
 "If there are 2 or more summoners, a new unit will be summoned by the last "
@@ -8962,6 +9054,26 @@ msgid ""
 "units total - depending on your luck).\n"
 "This ability does not work on defense and against berserker units."
 msgstr ""
+
+#, fuzzy
+#~| msgid "ice strike"
+#~ msgid "first strike"
+#~ msgstr "удар льда"
+
+#, fuzzy
+#~| msgid ""
+#~| "Regenerates +4:\n"
+#~| "At the beginning of each turn this unit heals +4 hp. If it is poisoned, "
+#~| "it will remove it instead of healing."
+#~ msgid ""
+#~ "When standing on water (except ford and reef terrain), this unit will "
+#~ "heal itself some HP per turn. If it is poisoned, it will remove the "
+#~ "poison instead of healing.\n"
+#~ "The amount of hitpoints restored:"
+#~ msgstr ""
+#~ "Регенерация +4:\n"
+#~ "Этот боец излечивает 4 ЗД. Если он отравлен, он вместо лечения "
+#~ "избавляется от яда."
 
 #, fuzzy
 #~| msgid ""
