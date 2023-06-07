@@ -11,8 +11,6 @@ ERA MAINTAINERS
 inferno8
 Ravana
 ForestDragon
-Espreon
-Alarantalara
 
 ART
 inferno8
@@ -30,14 +28,15 @@ glonstons
 
 CODING
 inferno8
-Alarantalara
-Espreon
-fog_of_gold
 ForestDragon
+Ravana
+Slayer95
+Espreon
+Toranks
+Alarantalara
+fog_of_gold
 kalfat
 Atreides (MXB2001)
-Ravana
-Toranks
 
 DESCRIPTIONS
 AzuSkyLigh (Summoners)
@@ -67,7 +66,7 @@ fog_of_gold
 ForestDragon (2.0-3.0+ balancing)
 Froz
 Hejnewar
-IPS (2.0-3.0+ balancing)
+IPS (2.0-4.0+ balancing)
 jozio
 kalfat
 nikon
@@ -89,26 +88,36 @@ inferno8
 IWAI Masaharu
 Kelemen Zoltán
 Mountain_King
+Slayer95
+Toranks
 wuxiangjinxing
 
 SPECIAL THANKS
-ForestDragon for his incredible EoMa 2.0-3.0 feedback regarding almost every aspect of the era.
-IPS for his post 2.0 extremely detailed balance analysis and concepts for new units
-Chewan for his amazing story/descriptions feedback
-All creators of: Era of Myths, Extended Era, Imperial Era, Mercenaries Era
+ForestDragon for his incredible EoMa 2.0-4.0 feedback regarding almost every aspect of the era.
+IPS for his extremely detailed balance analysis and ideas for new units (2.0-4.0+).
+Ravana for his vast coding knowledge, advice, diligence and commitment.
+Slayer95 for his outstanding WML code improvements including summon rework and many TLU improvements (4.0+)
+Chewan for his amazing story/descriptions feedback (2.0).
+All authors of unit descriptions.
+All translators.
+All creators of: Era of Myths, Extended Era, Imperial Era, Mercenaries Era.
+All Era of Magic players
 
 -official BfW forum users:
 (in alphabetical order)
 
+Alarantalarala (previous maintainer, code improvements)
 Atreides (MXB2001)
 Aura (art advisory)
 Binaryquasar
+Chewan (story/descriptions feedback)
 devas
+Espreon (previous maintainer, porting the add-on to a version control system, many code improvements)
 Fatquack (bugs finder)
 fog_of_gold (a lot of balancing suggestions)
-ForestDragon (EoMa 2.0-3.0+ balancing, animation coding, unit ideas, gameplay improvements)
+ForestDragon (EoMa 2.0-4.0+ balancing, animation coding, unit ideas, gameplay improvements)
 Gena
-IPS (EoMa 2.0-3.0+ balancing, 3.0+ unit ideas, gameplay improvements)
+IPS (EoMa 2.0-4.0+ balancing, many unit ideas for 3.0-4.0+, gameplay improvements, RPG stats ideas)
 Konrad2
 lightdragonx
 lastdragon
@@ -118,8 +127,9 @@ Michchar
 mnewton1
 Quietus
 Peter The Great1
-Ravana
+Ravana (add-on maintenance, many code improvements)
 Sandermatt
+Slayer95 (many code improvements, summon rework)
 Slug (Barbarians descriptions)
 -stf-
 Tezereth (unit concepts for Frontliner, Crimson Blade, Architect, Kharosian Bulwark)
@@ -149,5 +159,3 @@ vetch (Eagle Eye)
 vul6 (WRP support)
 Werian
 Zaku
-
-and all Era of Magic's fans.
