@@ -46,4 +46,29 @@ function wesnoth.wml_actions.EoMa_remove_array_duplicates(cfg)
 	wml.array_access.set(name, outArray)
 end
 
+function wesnoth.wml_actions.EoMa_remember_indirectly_damaged_unit(cfg)
+	wesnoth.wml_actions.store_unit{
+		T.filter{
+			x=cfg.x,
+			y=cfg.y
+		},
+		variable="EoMa_indirectly_damaged_unit",
+		mode="append"
+	}
+end
+
+function wesnoth.wml_actions.EoMa_trigger_pain_absorbation_aura_on_location(cfg)
+	-- purpose of primary_unit is for middle level pain absorbation to only heal if area damage is caused by that same unit
+	-- TODO use EoMa_remember_indirectly_damaged_unit stored data to decide if that unit is living or not
+	wesnoth.wml_actions.fire_event{
+		name="EoMa_pain_absorbation_aura",
+		T.primary_weapon{
+			x=cfg.x,
+			y=cfg.y
+		},
+		T.primary_unit{
+			id=cfg.primary_unit
+		}
+	}
+end
 -->>
