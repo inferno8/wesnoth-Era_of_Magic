@@ -14,8 +14,8 @@ args.attacker = {
 		T.object{
 			T.effect{
 				apply_to="attack",
-				set_attacks=10,
-				set_damage=2
+				set_attacks=20,
+				set_damage=3
 			}
 		}
 	}
@@ -48,6 +48,35 @@ check = function (actual, expected, description)
 	end
 end
 
+wesnoth.wml_actions.EoMa_run_test_combo = function(cfg)
+	local yy = {}
+	yy.attacker_type = cfg.attacker_type
+	yy.attacker_attack_index = cfg.attacker_attack_index
+	yy.defender_dies = true
+	yy.thirdparty_dies = true
+	wesnoth.wml_actions.EoMa_unit_test_attacker(yy)
+	
+	local yn = {}
+	yn.attacker_type = cfg.attacker_type
+	yn.attacker_attack_index = cfg.attacker_attack_index
+	yn.defender_dies = true
+	yn.thirdparty_dies = false
+	wesnoth.wml_actions.EoMa_unit_test_attacker(yn)
+	
+	local ny = {}
+	ny.attacker_type = cfg.attacker_type
+	ny.attacker_attack_index = cfg.attacker_attack_index
+	ny.defender_dies = false
+	ny.thirdparty_dies = true
+	wesnoth.wml_actions.EoMa_unit_test_attacker(ny)
+	
+	local nn = {}
+	nn.attacker_type = cfg.attacker_type
+	nn.attacker_attack_index = cfg.attacker_attack_index
+	nn.defender_dies = false
+	nn.thirdparty_dies = false
+	wesnoth.wml_actions.EoMa_unit_test_attacker(nn)
+end
 
 
 wesnoth.wml_actions.EoMa_unit_test_attacker = function (cfg)
@@ -56,7 +85,7 @@ wesnoth.wml_actions.EoMa_unit_test_attacker = function (cfg)
 	
 
 	if cfg.defender_dies then
-		args.defender.hitpoints=1
+		args.defender.hitpoints=10
 	else
 		args.defender.hitpoints=1000
 	end
@@ -79,18 +108,18 @@ wesnoth.wml_actions.EoMa_unit_test_attacker = function (cfg)
 	thirdparty = wesnoth.units.get("thirdparty")
 	
 	if cfg.defender_dies and cfg.thirdparty_dies then
-		check(attacker.experience, 2*3*8, "attacker xp if cfg.defender_dies and cfg.thirdparty_dies")
+		check(attacker.experience, 2*3*8, args.attacker.type.." attacker xp if cfg.defender_dies and cfg.thirdparty_dies")
 	end
 	if cfg.defender_dies and not cfg.thirdparty_dies then
-		check(attacker.experience, 3*8, "attacker xp if cfg.defender_dies and not cfg.thirdparty_dies")
+		check(attacker.experience, 3*8, args.attacker.type.." attacker xp if cfg.defender_dies and not cfg.thirdparty_dies")
 		check(thirdparty.experience, 3, "thirdparty xp if cfg.defender_dies and not cfg.thirdparty_dies")
 	end
 	if not cfg.defender_dies and cfg.thirdparty_dies then
-		check(attacker.experience, 3+3*8, "attacker xp if not cfg.defender_dies and cfg.thirdparty_dies")
+		check(attacker.experience, 3+3*8, args.attacker.type.." attacker xp if not cfg.defender_dies and cfg.thirdparty_dies")
 		check(defender.experience, 3, "defender xp if not cfg.defender_dies and cfg.thirdparty_dies")
 	end
 	if not cfg.defender_dies and not cfg.thirdparty_dies then
-		check(attacker.experience, 3, "attacker xp if not cfg.defender_dies and not cfg.thirdparty_dies")
+		check(attacker.experience, 3, args.attacker.type.." attacker xp if not cfg.defender_dies and not cfg.thirdparty_dies")
 		check(defender.experience, 3, "defender xp if not cfg.defender_dies and not cfg.thirdparty_dies")
 		check(thirdparty.experience, 3, "thirdparty xp if not cfg.defender_dies and not cfg.thirdparty_dies")
 	end
