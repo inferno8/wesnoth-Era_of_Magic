@@ -9,28 +9,17 @@ IPS
 
 ERA MAINTAINERS
 inferno8
-Ravana
+Ravana (ProditorMagnus)
 ForestDragon
 
 ART
 inferno8
 
-ICONS
-inferno8
-ForestDragon
-Dingo7
-
-TEAM COLORS
-inferno8
-Eagle_11
-ForestDragon
-glonstons
-
 CODING
 inferno8
 ForestDragon
-Ravana
-Slayer95
+Ravana (ProditorMagnus)
+IceSandslash
 Espreon
 Toranks
 Alarantalara
@@ -47,7 +36,7 @@ Edwylm (Salamanders)
 ForestDragon (various)
 galegosimpatico (Banisher)
 inferno8 (various)
-IPS (Destroyers)
+IPS (various)
 Lord_bold (Destroyers)
 Lord-Knightmare (various)
 Slug (Barbarians)
@@ -58,15 +47,26 @@ SOUNDS FX
 inferno8
 ForestDragon
 
+ICONS
+inferno8
+ForestDragon
+Dingo7
+
+TEAM COLORS
+inferno8
+Eagle_11
+ForestDragon
+glonstons
+
 BALANCING
 Adris
 barowei
 dk
 fog_of_gold
-ForestDragon (2.0-3.0+ balancing)
+ForestDragon (2.0+ balancing)
 Froz
 Hejnewar
-IPS (2.0-4.0+ balancing)
+IPS (2.0+ balancing)
 jozio
 kalfat
 nikon
@@ -88,20 +88,21 @@ inferno8
 IWAI Masaharu
 Kelemen Zoltán
 Mountain_King
-Slayer95
+IceSandslash
 Toranks
 wuxiangjinxing
 
 SPECIAL THANKS
 ForestDragon for his incredible EoMa 2.0-4.0 feedback regarding almost every aspect of the era.
 IPS for his extremely detailed balance analysis and ideas for new units (2.0-4.0+).
-Ravana for his vast coding knowledge, advice, diligence and commitment.
-Slayer95 for his outstanding WML code improvements including summon rework and many TLU improvements (4.0+)
+Ravana (ProditorMagnus) for his vast coding knowledge, advice, diligence and commitment.
+IceSandslash for his outstanding WML code improvements including summon rework and many TLU improvements (4.0+)
 Chewan for his amazing story/descriptions feedback (2.0).
 All authors of unit descriptions.
 All translators.
 All creators of: Era of Myths, Extended Era, Imperial Era, Mercenaries Era.
-All Era of Magic players
+All Era of Magic players.
+All Battle for Wesnoth developers and artists.
 
 -official BfW forum users:
 (in alphabetical order)
@@ -115,9 +116,9 @@ devas
 Espreon (previous maintainer, porting the add-on to a version control system, many code improvements)
 Fatquack (bugs finder)
 fog_of_gold (a lot of balancing suggestions)
-ForestDragon (EoMa 2.0-4.0+ balancing, animation coding, unit ideas, gameplay improvements)
+ForestDragon (EoMa 2.0+ balancing, animation coding, unit ideas, gameplay improvements)
 Gena
-IPS (EoMa 2.0-4.0+ balancing, many unit ideas for 3.0-4.0+, gameplay improvements, RPG stats ideas)
+IPS (EoMa 2.0+ balancing, many unit ideas for 3.0+, gameplay improvements, RPG stats ideas)
 Konrad2
 lightdragonx
 lastdragon
@@ -127,9 +128,9 @@ Michchar
 mnewton1
 Quietus
 Peter The Great1
-Ravana (add-on maintenance, many code improvements)
+Ravana (ProditorMagnus) (add-on maintenance, many code improvements, area damage XP rework)
 Sandermatt
-Slayer95 (many code improvements, summon rework)
+IceSandslash (many code improvements, summon rework)
 Slug (Barbarians descriptions)
 -stf-
 Tezereth (unit concepts for Frontliner, Crimson Blade, Architect, Kharosian Bulwark)
