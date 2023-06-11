@@ -1,6 +1,6 @@
 T = wml.tag
 
-args = {}
+local args = {}
 args.attacker = {
 	id="attacker",
 	name="attacker",
@@ -60,6 +60,8 @@ args.painabsorber = {
 }
 
 run_all_tests = function()
+	-- could test pain absorb with nonliving such as Skeleton
+
 	-- all round, with self healing
 	wesnoth.wml_actions.EoMa_run_test_combo{attacker_type="EoMa_Chainlady",attacker_attack_index=0}
 	-- triplestrike, with self healing
@@ -74,7 +76,7 @@ run_all_tests = function()
 	wesnoth.wml_actions.EoMa_run_test_combo{attacker_type="EoMa_Kirios",attacker_attack_index=2,thirdparty_position="beam_far"}
 end
 
-check = function (actual, expected, description)
+local check = function (actual, expected, description)
 	if actual ~= expected then
 		print("fail "..description.." expected ".. tostring(expected).." but was ".. tostring(actual))
 		wesnoth.message("failed", description.." expected ".. tostring(expected).." but was ".. tostring(actual))
@@ -82,6 +84,9 @@ check = function (actual, expected, description)
 		print("pass "..description.." is ".. tostring(actual))
 	end
 end
+
+EoMa_assert_equal = check
+AE_assert_equal = check
 
 wesnoth.wml_actions.EoMa_run_test_combo = function(cfg)
 	-- whether to skip fourth party pain absorbing tests
@@ -241,15 +246,15 @@ wesnoth.wml_actions.EoMa_unit_test_attacker = function (cfg)
 		check(thirdparty.experience, 3, "thirdparty xp if not cfg.defender_dies and not cfg.thirdparty_dies")
 	end
 	
-	if args.painabsorber_type == "EoMa_Matriarch_of_Pain" and thirdparty ~= nil and thirdparty.hitpoints~= 1000 and thirdparty.hitpoints~= 1 then
+	if args.painabsorber.type == "EoMa_Matriarch_of_Pain" and thirdparty ~= nil and thirdparty.hitpoints~= 1000 and thirdparty.hitpoints~= 1 then
 		local painabsorber_heal_amount = painabsorber.hitpoints -1
 		if painabsorber_heal_amount == 0 then
 			check(painabsorber_heal_amount, ">0", "painabsorber should have healed")
 		end
 	end
-	if args.painabsorber_type == "EoMa_Chainlady" and thirdparty ~= nil and thirdparty.hitpoints~= 1000 and thirdparty.hitpoints~= 1 then
+	if args.painabsorber.type == "EoMa_Chainlady" and thirdparty ~= nil and thirdparty.hitpoints~= 1000 and thirdparty.hitpoints~= 1 then
 		local painabsorber_heal_amount = painabsorber.hitpoints -1
-		if painabsorber_heal_amount == 0 then
+		if painabsorber_heal_amount ~= 0 then
 			check(painabsorber_heal_amount, 0, "chainlady should not heal from damage done by someone else")
 		end
 	end
