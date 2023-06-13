@@ -68,9 +68,9 @@ run_all_tests = function()
 	wesnoth.wml_actions.EoMa_run_test_combo{attacker_type="EoMa_Chainlady",attacker_attack_index=1}
 	
 	wesnoth.wml_actions.EoMa_run_test_combo{attacker_type="EoMa_Great_Efreeti",attacker_attack_index=2}
-	wesnoth.wml_actions.EoMa_run_test_combo{attacker_type="EoMa_Omen",attacker_attack_index=0}
+	-- wesnoth.wml_actions.EoMa_run_test_combo{attacker_type="EoMa_Omen",attacker_attack_index=0} -- covered by chainlady
 	wesnoth.wml_actions.EoMa_run_test_combo{attacker_type="EoMa_Chaos_Rider",attacker_attack_index=2}
-	wesnoth.wml_actions.EoMa_run_test_combo{attacker_type="EoMa_Chaos_Hydra",attacker_attack_index=0}
+	-- wesnoth.wml_actions.EoMa_run_test_combo{attacker_type="EoMa_Chaos_Hydra",attacker_attack_index=0,skip_pain_absorb=true} -- covered by chainlady
 	wesnoth.wml_actions.EoMa_run_test_combo{attacker_type="EoMa_Mechanical_Dragon",attacker_attack_index=2,thirdparty_position="beam"}
 	wesnoth.wml_actions.EoMa_run_test_combo{attacker_type="EoMa_Kirios",attacker_attack_index=2,thirdparty_position="beam"}
 	wesnoth.wml_actions.EoMa_run_test_combo{attacker_type="EoMa_Kirios",attacker_attack_index=2,thirdparty_position="beam_far"}
@@ -90,7 +90,7 @@ AE_assert_equal = check
 
 wesnoth.wml_actions.EoMa_run_test_combo = function(cfg)
 	-- whether to skip fourth party pain absorbing tests
-	if false then
+	if cfg.skip_pain_absorb then
 		wesnoth.wml_actions.EoMa_run_test_combo_defender_thirdparty_dies_lives(cfg)
 		if true then
 			return
