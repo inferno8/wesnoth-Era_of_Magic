@@ -1,6 +1,169 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 4.1
+ ### Gameplay
+   * added new units: Divine Executor, Trench Sweeper
+   * Cyclops Necromancer is now a lvl3 unit
+   * removed some leaders from AoH: Obliterator, Master of Air, Shadowblade
+   * removed some leaders from Masters Era: Master of Air, Shadowblade
+   * the following leaders start with the slow trait: Mara, Child of Light, Apocalypse, Wonderful Jinn, Void Mage, Pacificator
+   * the following leaders start with the slow and weak traits and -1 movement: Mistress of Light, Great Efreeti
+   * the following leaders start with the slow and weak traits: Dark Apostle
+   * disabled 'plague' in RPG
+ ### Units
+   * Barbarians:
+     * Barbarian Lord: XP from 175 to 160; increased blade resistance to 20%
+     * Barbarian King: increased blade resistance to 30%
+     * Cyclops Noble (RPG): replaced the 'precision' weapon special with 'precision (offensive)'
+     * Cyclops Lord (RPG): replaced the 'precision' weapon special with 'precision (offensive)'
+     * Goblin Assassin (RPG): increased hitpoints to 45; removed the 'hit-and-run' ability; added the 'magic-counter' weapon special to the melee attack; increased the ranged attack damage to 6-3
+     * Goblin Druid (RPG): removed the 'magic hardening weapon special from both melee and ranged attacks
+     * Goblin Veteran: XP from 77 to 74
+     * Goblin Wizard (RPG): removed the 'magic hardening weapon special from both melee and ranged attacks
+     * Orcish Warrior (RPG): removed advancement to Orcish Warbanner
+     * Roc Master (RPG): increased hitpoints to 51; added the 'magic-counter' weapon special to the melee attack
+     * Troll warbanner (RPG): added the 'magic-counter' weapon special to the melee attack
+   * Dark Blood Alliance:
+     * Yellow Salamander: hitpoints from 49 to 51; XP from 110 to 105
+     * Yellow Salamander (RPG): increased damage of the pierce attack with backstab to 4x4
+     * Desert Salamander (RPG): increased damage of the pierce attack with backstab to 4x5
+     * Black Salamander: increased hitpoints from 48 to 50; XP from 110 to 105
+     * Blue Salamander: hitpoints from 48 to 50; XP from 110 to 105
+     * Green Salamander: hitpoints from 51 to 53; XP from 110 to 105
+     * Red Salamander: hitpoints from 46 to 48; XP from 110 to 105
+     * Wyverns / Chaos Wyverns / Chaos Wyvern Rider (RPG): removed the 'marksman' weapon special from all ranged attacks
+     * Chaos Wyvern (RPG): replaced the 'skilled' weapon special with 'marksman'
+     * Battle Toad: increased regeneration from 8 to 9
+     * Dreadnaught: increased regeneration from 9 to 10
+     * Toad Archer: increased regeneration from 8 to 9
+     * Twin Archer Toad: increased regeneration from 9 to 10
+     * Toad Shaman: increased regeneration from 8 to 9
+     * Toad Mystic: increased regeneration from 9 to 10
+   * Destroyers:
+     * Atokpi Samurai: added the 'nocturnal regeneration +2' ability
+     * Atokpi General: added the 'nocturnal regeneration +3' ability
+     * Atokpi Master: added the 'nocturnal regeneration +4' ability
+     * Dark Atokpi: added the 'nocturnal regeneration +5' ability
+     * Atokpi Master (RPG): replaced the 'skilled' weapon special with 'marksman' for the ranged spear attack
+     * Dark Atokpi (RPG): replaced the 'magical' weapon special with 'marksman' for the ranged spear attack; Anti-magic ranged damage decreased to 15-2 and replaced the 'magical' weapon special wiith 'marksman'
+     * Atokpi Infantry: XP from 90 to 87; increased the bloodlust value from 5 to 6; replaced the 'precision (offensive)' weapon special with 'greater marksman' for the ranged 12x1 attack
+     * Atokpi Infantry (RPG): decreased ranged accuracy to 'marksman'; ranged damage increased to 10-1
+     * Crimson Atokpi: increased the bloodlust value from 5 to 6; replaced the 'precision' weapon special with 'precision (offensive)' and added the 'skilled weapon special to the 15x1 ranged attack
+     * Crimson Atokpi (RPG): ranged accuracy set to 'precision (offensive)' for the ranged attack, added 'lesser revenge' to the attack
+     * Atokpi Charger: shallow water defense to 50%, swamp defense to 40%, reef defense to 50%; increased the bloodlust value from 7 to 8
+     * Atokpi Charger (RPG): increased movement to 7; ranged accuracy set to 'precision'; set fire resistance to 0%; set impact resistance to -10%
+     * Bone Beast: XP from 45 to 41
+     * Bone Golem: hitpoints from 53 to 55; XP from 90 to 85
+     * Bone Giant: hitpoints from 71 to 74
+     * Moloch: hitpoints from 92 to 96
+     * Cyclops Necromancer (RPG): changed the 'dagger' attack damage to 4x4
+     * Greater Cyclops Skeleton: XP from 100 to 90
+     * Greater Cyclops Skeleton (RPG): 'Gaze (cold)' attack damage decreased to 20x1; 'Gaze (arcane)' attack damage set to 8x3
+     * Extinct Cyclops Mage: XP from 235 to 220
+     * Extinct Cyclops Mage (RPG): Gaze (cold) damage decreased to 26x1
+     * Fallen Cyclops King (RPG): melee damage decreased to 10x2; Gaze (cold) damage decreased to 32x1
+     * Nightmares line (RPG): removed the 'skilled' weapon special from the ranged attack
+     * Punisher (RPG): -2 damage to the melee sword (pierce) attack
+     * Obliterator (RPG) / Abaddon (RPG): removed the 'skilled' weapon special from the ranged attack; -2 damage to the melee sword (pierce) attack
+     * Piranha Monstruosa: XP from 76 to 73
+     * Devourer: XP from 180 to 170
+     * Infernal Vortex: ranged attack damaged changed from 14x1 to 8x2
+   * Kharos:
+     * Elemental Archer (RPG): Ice arrow damage decreased to 6x2
+     * Avenger: XP from 90 to 85
+     * Hoplite: XP from 95 to 85
+     * Kharosian Javelineer: set fire resistance to 10%
+     * Kharosian Legionnaire: hitpoints from 69 to 70
+     * Hoplite (RPG): removed the 'steadfast' ability; set pierce/blade/impact resistances to 30%; set fire and cold resistances to 0%
+     * Kharosian Bulwark (RPG): removed the 'steadfast' ability; added the 'shielded' weapon special to the Spear attack (melee+ranged); blade/pierce/impact/arcane resistances set to 30%; fire resitance set to 0%
+     * Kharosian Impaler (RPG): set hitpoints to 66; relee damage increaseed to 11x3; ranged damage increased to 17x2; added a new attack: Holy Javelin 13x2 arcane ranged; set cold resistance to +10%
+     * Solar Guardian (RPG): Melee damage decreased to 10x3; Solar regeneration value decreased to +3/5
+     * Kirios (RPG): Solar regeneration value decreased to +3/5; arcane resistance from 40% to 50%
+     * Brown Warrior (RPG): disabled advancement to Recruitment Officer
+   * Runemasters:
+     * Flying Fortress (RPG): Cannon damage decreased to 16x2; Machine Gun (melee) damage decreased to 12x1
+     * Mechanical Dragon (RPG): Fangs (pierce) damage decreased to 12x2; Firebreath damage decreased to 17x2
+     * Battlecopter (RPG): Shock Gun melee accuracy decreased to 'marksman', removed the 'first-strike' weapon special
+     * Dwarvish Soldier: hitpoints from 65 to 67
+     * Dwarvish Soldier (RPG): added a new attack: Bombs 9x3 fire ranged + 'marksman'
+     * Dwarvish Cannoneer: frozen defense from 50% to 40%
+     * Runemaster (RPG): Fire runes damage decreased to 13x3; Ice runes damage decreased to 16x2
+     * Turboserker (RPG): decreased missile attack accuracy to + 'marksman'; removed the 'hit and run' weapon special from the ranged attack
+     * Red Steam Ulfseker (RPG): removed the 'skirmisher' ability'
+     * Dwarvish Mobile Turret (RPG): added the 'first strike' weapon special to the Shockwave attack, replaced the 'all around' weapon special with 'triple strike' for the Shockwave attack; removed the 'first strike' from the Spreadshot attack
+     * Mobile Defensive Platform (RPG): Shockwave damage increased to 9x2, replaced the 'all around' weapon special with 'triple strike' for the Shockwave attack; removed the 'first strike' from the Spreadshot attack
+     * Constructor: XP from 111 to 126
+   * Sky Kingdom:
+     * Cosmic Eye (RPG): unlocked reality warp attack, but with base damage of 10x1 and no specials
+     * Guru of Magic (RPG): removed the 'marksman' weapon special from the Um-strike attack
+     * Master of Air (RPG): melee damage decreased to 12x1
+     * Terramancer / Master of Earth (RPG): removed the 'first-strike' weapon special from all melee attacks;
+     * Master of Earth (RPG): landmass (2 strikes) accuracy decreased to 'Lesser-revenge'; removed all weapon specials from the landmass (1 strike) attack
+     * Mystic Warrior (RPG): removed all specials from the secret hit attack
+     * Sky Guardian (RPG): secret hit damage decreased to 7x3 and accuracy decreased to 'marksman'
+     * Mirror Shield (RPG): removed the 'deflect' ability; removed all specials from the secret hit attack
+     * Black Mage: cost from 38 to 39
+     * Black Mage (RPG): Etrapment spell accuracy decreased to 'enchanted'
+     * Shadow Mage: sand/frozen defense to 50%; added the 'nocturnal regeneration +4'
+     * Void Mage: cost from 56 to 60
+     * Void Mage (RPG): increased hitpoints to 63; set the same movement costs as lvl2 Black Mage
+     * Chronomancer (RPG): increased hitpoints to 72; increased movement points to 7; set the same movement costs as lvl2 Black Mage; replaced the 'no counter-attack' with 'dread' and 'evasion'
+     * Sorcerer: cost from 40 to 38
+     * Mu: secret attack damage from 1x12 to 1x11
+   * Summoners:
+     * Earth God (RPG): removed the Hit (no specials) attack; added the 'shielded' weapon special to the Hit attack (shielded)
+     * Fire God (RPG): added the 'marksman' weapon special to the melee attack
+     * Summons Master (RPG): removed the 'marksman' weapon special from the Incantation of Power attack, lowered damage to 20x1; added the 'marksman' weapon special to all melee attacks; decreased the Hammer attack damage to 13x2
+     * Dispeller (RPG): movement decreased to 5; banishment melee damage decreased to 5x1
+     * Banisher (RPG): movement decreased to 5; banishment melee damage decreased to 9x1
+     * Dharma'Rami (RPG): removed the 'skilled' weapon special from the Tackle attack
+     * Rhami'Kai (RPG): increased hitpoints to 50; Precision offensive attack damage decreased to 5-2 / 7-2
+     * Ho'Rhami (RPG): increased hitpoints to 62; replaced the 'precision' weapon special with 'precision (offensive)' for the divine spear 8x2 attack
+     * Efreeti: cost from 44 to 42
+     * Great Jinni: cost from 42 to 40
+   * Tharis:
+     * Dark Warrior line (RPG): replaced the 'no counter-attack' weapon special with 'evasion' and 'dread'
+     * Great Witch and advancements (RPG): witch-fire attack accuracy decreased to 'Marksman'
+     * Matriarch of Frost: hitpoints from 55 to 57
+     * Matriarch of Frost (RPG): removed the 'magical' weapon special from the chill tempest attack, damage increased to 11x3
+     * Matriarch of Emptiness: hitpoints from 52 to 50; spear melee blade attack damage from 12x3 to 11x3
+     * Matriarch of Emptiness (RPG): fire/cold/arcane resistances decreased to 50% , anti-magic damage decreased to 10x1
+     * Pain Mistress (RPG): removed the 'first strike' weapon special from the pain (ranged) attack; replaced the 'skilled' weapon special with 'marksman'
+     * Matriarch of Pain: hitpoints from 54 to 56
+     * Matriarch of Pain (RPG): increased hitpoints to 60; removed the 'pain absorb' aura; added 'pain absorbtion +1' to the whip attack; removed the 'first strike' weapon special from the pain (ranged) attack; replaced the 'skilled' weapon special with 'marksman'
+     * Matriarch of Darkness: hitpoints from 48 to 50
+     * Dark Assassin: XP from 88 to 84
+     * Dark Wizard: cost from 37 to 36
+     * Great Warlock: added a new attack: lesser implosion
+ ### Ability
+   * added a new ability: 'warcry'
+   * added a new ability: 'bulwark'
+   * added a new weapon special: 'point blank'
+   * increased the upper resistance limit of the 'defender' ability from 40% to 50%
+   * 'magic absorber' no longer affects the owner of the ability
+   * 'circle of susceptibility' and 'circle of resistance' no longer work against units with 'magic absorber'
+   * 'water regeneration' now works also on ford and reef terrain
+   * it is now possible to summon Water/Air Elementals/Avatars on water
+   * 'swallow' no longer restores statuses
+ ### Code
+   * optimized the 'summon' ability
+   * added suport for fast summoning
+   * allowed eoma_delete_advancement multiple times in the 'soul catcher' ability
+   * fixed OOS in MP from usage of select event in the 'Summon' ability
+   * the flying attribute is now used correctly
+   * fixed text domain in dependency-utils
+   * moved the 'divine' weapon special to abilities.cfg
+   * used [while] instead of [foreach] for the 'sculpts' weapon special
+   * prevented applying the same traits, if a starting leader already has them
+   * add a note about the 'awe' ability being inactive in RPG
+   * removed unused abilities
+ ### Translations
+   * updated EoMa_translation_template.pot and all .po files
+   * updated the Spanish translation (100%)
+   * updated the Polish translation
+   * updated translators_readme.txt
+
 ## Version 4.0.3
  ### Descriptions
    * fixed incorrect solar regeneration ability description
@@ -719,7 +882,7 @@ Era of Magic - ChangeLog
 
 ## Version 3.8
  ### Gameplay
-   * added 3 new units for the Destroyers faction: Atokpi Infantry, Crimson Atokpi and Atkopi Charger
+   * added 3 new units for the Destroyers faction: Atokpi Infantry, Crimson Atokpi and Atokpi Charger
    * removed Troll Warbanner and Goblin Druid from the list of available leaders in Age of Heroes era
  ### Units
    * Kharos:
