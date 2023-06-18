@@ -46,4 +46,47 @@ function wesnoth.wml_actions.EoMa_remove_array_duplicates(cfg)
 	wml.array_access.set(name, outArray)
 end
 
+function wesnoth.wml_actions.EoMa_remember_indirectly_damaged_unit(cfg)
+	wesnoth.wml_actions.store_unit{
+		T.filter{
+			x=cfg.x,
+			y=cfg.y
+		},
+		variable="EoMa_indirectly_damaged_unit",
+		mode="append"
+	}
+end
+
+function wesnoth.wml_actions.EoMa_trigger_pain_absorbation_aura_on_location(cfg)
+	local damaged_unit = wml.array_access.get("EoMa_indirectly_damaged_unit")[#wml.array_access.get("EoMa_indirectly_damaged_unit")]
+	
+	if damaged_unit.x ~= cfg.x or damaged_unit.y ~= cfg.y then
+		EoMa_debug_validation(damaged_unit.x, cfg.x, "EoMa_trigger_pain_absorbation_aura_on_location should be triggered on most recently damaged unit, EoMa_indirectly_damaged_unit x")
+		EoMa_debug_validation(damaged_unit.y, cfg.y, "EoMa_trigger_pain_absorbation_aura_on_location should be triggered on most recently damaged unit, EoMa_indirectly_damaged_unit y")
+		return
+	end
+	
+	if not wml.get_child(damaged_unit, "status").undrainable then
+		-- purpose of primary_unit is for middle level pain absorbation to only heal if area damage is caused by that same unit
+		wesnoth.wml_actions.fire_event{
+			name="EoMa_pain_absorbation_aura",
+			T.primary_weapon{
+				x=cfg.x,
+				y=cfg.y
+			},
+			T.primary_unit{
+				id=cfg.primary_unit
+			}
+		}
+	else
+		-- print("debug EoMa_trigger_pain_absorbation_aura_on_location skipped for undrainable unit "..damaged_unit.type)
+	end
+end
+
+function EoMa_debug_validation(actual, expected, description)
+	-- extra validation/logging enabled if Era_of_Magic/modificationUnitTest.lua is loaded
+	if rawget(_G, "EoMa_assert_equal") ~= nil then
+		EoMa_assert_equal(actual, expected, description)
+	end
+end
 -->>
