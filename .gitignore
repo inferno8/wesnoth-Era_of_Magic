@@ -2,3 +2,4 @@ _info.cfg
 translations/**/*.po~
 **/*.cfg-bak
 .vscode
+*.py
