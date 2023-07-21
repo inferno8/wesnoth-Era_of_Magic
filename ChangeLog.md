@@ -164,6 +164,7 @@ Era of Magic - ChangeLog
    * it is now possible to summon flying units on Q*
    * Fire Elemental cannot be summoned on water
    * Water Elemental cannot be summoned on Q*
+   * fixed heat aura reducing high cold resistance to 50%
  ### Graphics
    * added 24fps standing animations for Destroyers
    * added 24fps healing animations for Destroyers
