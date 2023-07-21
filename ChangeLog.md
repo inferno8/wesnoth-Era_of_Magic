@@ -1,6 +1,183 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 4.2
+ ### Gameplay
+   * added 1 new unit: Bone Splitter
+   * indirectly damaged units now get fight XP
+   * if a unit indirectly kills another unit, it now gets kill XP
+   * disabled Area of Effect abilities in RPG mode (all around, beam, dragon breath, random area effect, triple strike)
+   * removed Goblin Invader from leaders list in EoMa Default
+   * fixed some ai recruitment pattern issues
+ ### Units
+   * Barbarians:
+     * Barbarian Lord: cost to 53g (+1g) 
+     * Barbarian: XP to 72 (-2), cost to 27g (-1g) 
+     * Cyclops Warmonger: cost to 63g (+3g) 
+     * Cyclops Brute: XP to 88 (-4) 
+     * Cyclops Noble: XP to 95 (-5) 
+     * Goblin Invader: cost to 45g (+1g)
+     * Goblin Raider: cost to 48g (+3g) 
+     * Goblin Veteran: XP to 68 (-6)
+     * Orcish Warbanner: XP to 88 (-12)
+     * Orcish Chieftain: HP to 66
+     * Troll Warlock: cost to 58g (+2g)
+   * Dark Blooded: 
+     * Chaos Wyvern: XP to 166 (+16), cost to 67g (+3g) 
+     * Chaos Wyvern Rider: HP to 77 (+2), XP to 166 (+16), cost to 67g (+5g)
+     * Chosen of Marsh (RPG): XP decreased to 180
+     * ALL Lvl3 SALAMANDERS (RPG): movement to 6 (+1)
+     * Desert Salamander: HP to 63 (+3), cost to 55g (+2g)
+     * Dreadnought: HP to 84 (+1), cold resistance to 15% (+5%), cost to 62g (+2g)
+     * Jungle Champion: cost to 47g (+3g)
+     * Jungle Crossbowman: XP to 70 (-5) 
+     * Jungle Guardian: XP to 77 (-3)
+     * Lava Salamander: HP to 56 (+3), cost to 57g (+1g) 
+     * Lava Salamander (RPG): now having Regenerates +4, firetouch damage increased to 9-3 +magic-counter
+     * Mystic: HP to 48 (+1), XP to 190 (-10)
+     * Mystic (RPG): XP decreased to 140
+     * Salamander Marine: HP to 58 (+3), cost to 54g (+2g)
+     * Salamander Marine (RPG): ALL melee damage increase by +1, Ranged accuracy decreased to marksman
+     * Saurian Assassin: cost to 48g (+3g) 
+     * Shadow Salamander: cost HP to 60 (+3), to 54g (+2g)
+     * Shadow Salamander (RPG): NEW ATTACK: Wrist blade 8-3 blade melee +marksman +magic-counter, Throwing knives strikes increased to 4-6
+     * Swamp Mage: XP to 195 (-15), cost to 57g (+1g)
+     * Swamp Salamander: HP to 61 (+3), cost to 54g (+2g)
+     * Swamp Salamander (RPG): +1 damage to all attacks
+     * Temple Guard: HP to 55 (+1)
+     * Toad Mystic: pierce resistance to -10% (+10%), cost to 65g (+1g) 
+     * Twin Archer Toad: HP to 82 (+2), cold resistance to 15% (+5%), cost to 62g (+2g)
+   * Destroyers: 
+     * Abaddon: cost to 105g (+10g)
+     * Apocalypse: cost to 56g (+2g) 
+     * Atokpi Charger: cost to 57g (+3g)
+     * Atokpi General: cost to 54g (+2g)
+     * Atokpi Master: cost to 88g (+6g)
+     * Black Portal: cost to 58g (+2g)
+     * Bone Giant: scavenger value increase to +3, cost to 51g (+3g) 
+     * Bone Golem: scavenger value increase to +2
+     * Crimson Atokpi: cost to 55g (+3g)
+     * Cyclops Necromancer: cost to 65g (+5g)
+     * Devourer: cost to 49g (+2g)
+     * Harbinger: cost to 40g (+2g)
+     * Doom Bringer: cost to 58g (+2g)
+     * Extinct Cyclops Mage: cost to 61g (+3g)
+     * Fallen Cyclops King: cost to 85g (+9g)
+     * Infernal Vortex: cost to 57g (+2g)
+     * Moloch: scavenger value increase to +4, cost to 77g (+5g) 
+     * Obliterator: cost to 70g (+3g)
+     * Pirania Monstruosa: cost to 26g (-1g)
+     * Titania: cost to 68g (+3g)
+   * Kharos:
+     * Bishop: cost to 38g (-2g)
+     * Divine Executor: cost to 83g (+11g)
+     * Elemental Archer: cost to 37g (+1g)
+     * Fanatic: cost to 35g (+1g)
+     * Golden Warrior: cost to 57g (+2g) 
+     * Grand Kharosian Warbanner: cost to 70g (+3g) 
+     * Kharosian Bulwark: cost to 51g (+3g)
+     * Kharosian Cataphract: HP to 63 (+3), cost to 56g (+3g)
+     * Kharosian Impaler: cost to 48g (+3g)
+     * Kharosian Javelineer: cost to 24g (-2g)
+     * Kharosian Legionnaire: cost to 48g (+3g)
+     * Kirios: cost to 93g (+10g)
+     * Mistress of Light: cost to 66g (+3g)
+     * Mystical Archer: HP to 58 (+2), cost to 61g (+4g)
+     * Platinum Warrior: cost to 59g (+5g) 
+     * Prophet of Light: cost to 57g (+2g) 
+     * Recruitment Officer: HP to 65 (+5), XP to 126 (-24)
+     * Solar Guardian: cost to 59g (+3g)
+     * Solar Master: cost to 87g (+7g)
+   * Runemasters:
+     * Battlecopter: cost to 70g (+2g)
+     * Battlecopter (RPG): melee accuracy decreased to +Marksman
+     * Constructor (RPG): impact damage decreased to 5-5, pierce attack decreased from 5-6 to 5-5
+     * Dwarvish Cadet: XP to 83 (-5)
+     * Dwarvish Cannoneer: cost to 33g (+1g)
+     * Dwarvish Runic Warrior: cost to 56g (+3g)
+     * Dwarvish Soldier: gains a NEW ATTACK - Bombs 8-3 fire ranged +marksman +attack-only, cost to 60g (+6g)
+     * Flying Fortress: melee accuracy adjusted from +Skilled to +Lesser-Revenge, cost to 66g (+4g)
+     * Flying Fortress (RPG): melee accuracy change from +Skilled to +Lesser-revenge, disabled Parachute
+     * Mechanical Dragon: cost to 64g (+4g)
+     * Mechanical Dragon (RPG): disabled Parachute
+     * Mobile Defensive Platform: cost to 64g (+4g), XP to 166 (+16)
+     * Pacificator: cost to 66g (+4g)
+     * Rune Artist: cost to 59g (+5g) 
+     * Steam Turboserker: cost to 57g (+2g)
+     * Technocrat: HP to 55 (+2) 
+     * Trench Sweeper: XP adjustment to 126 (+26), cost to 56g (+2g)
+   * Sky Kingdom:
+     * Cosmic Eye: cost to 48g (+3g) 
+     * Golden Mage: cost to 69g (+3g)
+     * Hydromancer: cost to 37g (-1g)
+     * Master Mage: cost to 65g (+3g)
+     * Master of Air: cost to 66g (+6g) 
+     * Master of Earth: cost to 56g (+2g)
+     * Master of Elements: cost to 93g (+5g)
+     * Master of Fire: cost to 67g (+5g) 
+     * Mirrorshield: cost to 57g (+1g), day regeneration to +0/+3, XP increase to 134 (+8) . 
+     * Pyromancer: cost to 35g (-1g)
+     * Shadow Mage: cost to 54g (+3g) 
+     * Sky Guardian: cost to 57g (+3g), XP increase to 134 (+8)
+     * Terramancer: XP to 82 (-3), cost to 29g (-3g)
+     * Um: cost to 67g (+2g), XP increase to 166 (+16) 
+     * Void Mage: cost to 60g (+4g) 
+   * Summoners:
+     * Air God: cost to 61g (+3g) 
+     * ALL JINNS (except efreeti): frozen/unwalkable defense to 40% (-10%)
+     * ALL WATER ELEMENTALS: frozen defense to 40% (+10%), adquisition of Frozen Regeneration +4
+     * Banisher: cost to 59g (+4g)
+     * Camel Master: cost to 59g (+4g) 
+     * Carpet Master: cost to 35g (+2g)
+     * Dharma’rhami: HP to 65 (+2), Regenerates to +9, XP to 166 (+16), cost to 62g (+4g)
+     * Dispeller: cost to 33g (+1g)
+     * Earth God: cost to 58g (+3g)
+     * Fire God: cost to 65g (+5g)
+     * Grand Summoner: cost to 56g (+3g)
+     * Great Efreeti: XP to 166 (+16), cost to 72g (+4g) 
+     * Heavy Summoner: cost to 60g (+2g)
+     * Ho’rhami: HP to 57 (+2), Regenerates to +9, XP to 166 (+16), cost to 65g (+5g) 
+     * Mystical Jinni: cost to 111g (+19g) 
+     * Neutral Summoner: cost to 58g (+3g), adquires now +magic-counter in both melee.
+     * Summons Master: HP to 75 (+3), cost to 111g (+11g)
+     * Wonderful Jinni: cost to 66g (+4g)
+   * Tharis:
+     * Blademaster: HP to 56 (+2), cost to 58g (+4g)
+     * Dark Executioner: Knives damage increase to 12-2, cost to 58g (+3g)
+     * Dark General: cost to 60g (+2g) 
+     * Dark Warlord: cost to 93g (+8g)
+     * Great Warlock: cost to 60g (+2g) 
+     * Great Witch: cost to 35g (-1g)
+     * Great Witch (RPG): HP to 42 (+4), ranged damage adjusted from 4-6 to 5-5, Curse damage to 10-1 and accuracy decreased to +Enchanted
+     * Master of Darkness: cost to 93g (+11g)
+     * Matriarch of Darkness: cost to 58g (+4g)
+     * Matriarch of Darkness (RPG): ranged damage adjusted from 4-7 to 5-5, Curse damage to 12-1 and accuracy (offensive) decreased to +magic(offensive), accuracy (defense) decreased to +Enchanted, melee damage increased to 10-3
+     * Matriarch of Pain: cost to 53g (+2g) 
+     * Matriarch of Pain (RPG): melee damage increase to 8-5 
+     * Shadowblade: HP to 52 (+2), XP to 134 (-16), cost to 55g (+3g) 
+     * Storm Sphere: cost to 37g (+2g)
+ ### Abilities
+   * added a new ability: Frozen Regeneration
+   * added a new ability: Rest Healing
+   * added the "swift strike" weapon special
+   * it is now possible to summon units on ford terrain (Wwf);
+   * it is now possible to summon flying units on Q*
+   * Fire Elemental cannot be summoned on water
+   * Water Elemental cannot be summoned on Q*
+ ### Graphics
+   * added 24fps standing animations for Destroyers
+   * added 24fps healing animations for Destroyers
+ ### Code
+   * solved area attack xp issues
+   * improved pain absorbing reliability
+   * simplified the 'cleave' ability
+   * made "inactive in RPG mode" warning visible only in MP
+   * restored and updated some special notes
+   * fixed the stun weapon special trying to modify chance to hit
+   * solved some issues revealed by schema
+ ### Translations
+   * updated EoMa_translation_template.pot and all .po files
+
 ## Version 4.1
  ### Gameplay
    * added new units: Divine Executor, Trench Sweeper
@@ -136,7 +313,7 @@ Era of Magic - ChangeLog
      * Dark Assassin: XP from 88 to 84
      * Dark Wizard: cost from 37 to 36
      * Great Warlock: added a new attack: lesser implosion
- ### Ability
+ ### Abilities
    * added a new ability: 'warcry'
    * added a new ability: 'bulwark'
    * added a new weapon special: 'point blank'
