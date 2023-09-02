@@ -1,6 +1,23 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 4.2.1
+ ### Units
+   * Runemasters:
+     * Mechanic: XP to 48 (-2)
+     * Technician: XP to 84 (-10)
+     * Technologist: XP to 84 (-10)
+     * Constructor: cost to 49g (-3g)
+     * Technocrat: HP to 57 (+2)
+ ### Abilities
+   * gave awe immunity to undrainable units
+   * fixed frozen regeneration not working on mixed terrain
+ ### Code
+   * fixed incorrect usage= in Blue Salamander and Marine Salamander
+   * improved 'swift strike' code
+   * improved 'collector' code
+   * added missing movement_type= to Cyclops Necromancer   
+
 ## Version 4.2
  ### Gameplay
    * added 1 new unit: Bone Splitter
