@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-10-12 18:18 UTC\n"
-"PO-Revision-Date: 2023-06-07 11:19+0200\n"
+"PO-Revision-Date: 2023-10-12 20:54+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl\n"
@@ -381,8 +381,7 @@ msgstr "Cyklop"
 
 #. [unit_type]: id=EoMa_Cyclops, race=eoma_cyclops
 #. [race]: id=eoma_cyclops
-#: Era_of_Magic\units\Barbarians\Cyclops.cfg:25
-#: Era_of_Magic\units\units.cfg:19
+#: Era_of_Magic\units\Barbarians\Cyclops.cfg:25 Era_of_Magic\units\units.cfg:19
 msgid ""
 "Cumbersome and lacking fine intellect, the Cyclops race had been driven near "
 "to extinction before becoming a part of the barbarian horde. Two centuries "
@@ -695,10 +694,8 @@ msgstr "fragment ziemi"
 
 #. [unit_type]: id=EoMa_Orcish_Brawler, race=orc, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Barbarians\Orcish_Brawler.cfg:4
-#, fuzzy
-#| msgid "Orcish Warbanner"
 msgid "Orcish Brawler"
-msgstr "Ork Chorąży"
+msgstr "Ork Awanturnik"
 
 #. [unit_type]: id=EoMa_Orcish_Chieftain, race=orc, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Barbarians\Orcish_Chieftain.cfg:4
@@ -798,10 +795,8 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Savage_Roc_Rider, race=eoma_roc, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Barbarians\Savage_Roc_Rider.cfg:4
-#, fuzzy
-#| msgid "Roc Rider"
 msgid "Savage Roc Rider"
-msgstr "Jeździec Roków"
+msgstr "Dziki Jeździec Roków"
 
 #. [unit_type]: id=EoMa_Troll_Fire_Wizard, race=troll
 #: Era_of_Magic\units\Barbarians\Troll_Fire_Wizard.cfg:4
@@ -1173,8 +1168,7 @@ msgstr "Pomoc Ducha Lasu"
 
 #. [message]: speaker=narrator
 #: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:241
-#: Era_of_Magic\utils\bonesplit.cfg:287 Era_of_Magic\utils\recruit.cfg:247
-#: Era_of_Magic\utils\summon.cfg:303
+#: Era_of_Magic\utils\bonesplit.cfg:287 Era_of_Magic\utils\summon.cfg:303
 msgid "Help"
 msgstr "Pomoc"
 
@@ -1524,8 +1518,7 @@ msgstr "Duch Bagien"
 #. [dummy]: id=eoma_upgradable_kamikaze
 #. [effect]: type=fire
 #: Era_of_Magic\units\Dark_Blood_Alliance\Swamp_Spirit.cfg:111
-#: Era_of_Magic\utils\abilities.cfg:15
-#: Era_of_Magic\utils\drone-upgrades.cfg:50
+#: Era_of_Magic\utils\abilities.cfg:15 Era_of_Magic\utils\drone-upgrades.cfg:50
 #: Era_of_Magic\utils\drone-upgrades.cfg:291
 msgid "kamikaze"
 msgstr "kamikaze"
@@ -1883,10 +1876,8 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Bone_Splitter, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Destroyers\Bone_Splitter.cfg:4
-#, fuzzy
-#| msgid "Bone Giant"
 msgid "Bone Splitter"
-msgstr "Kościany Gigant"
+msgstr "Kościany Rozdwajacz"
 
 #. [abilities]
 #: Era_of_Magic\units\Destroyers\Bone_Splitter.cfg:43
@@ -1896,10 +1887,8 @@ msgstr "Przywołaj Kościstą Bestię"
 
 #. [attack]: type=pierce
 #: Era_of_Magic\units\Destroyers\Bone_Splitter.cfg:98
-#, fuzzy
-#| msgid "stones"
 msgid "bones"
-msgstr "kamienie"
+msgstr "kości"
 
 #. [unit_type]: id=EoMa_Chaotic_Observer, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Destroyers\Chaotic_Observer.cfg:4
@@ -3118,8 +3107,7 @@ msgstr "Latający Dron"
 #. [unstore_unit]
 #: Era_of_Magic\units\Runemasters\Drone.cfg:444
 #: Era_of_Magic\units\Runemasters\Perfect_Drone.cfg:222
-#: Era_of_Magic\utils\abilities.cfg:57 Era_of_Magic\utils\abilities.cfg:85
-#: Era_of_Magic\utils\abilities.cfg:118
+#: Era_of_Magic\utils\abilities.cfg:57 Era_of_Magic\utils\abilities.cfg:118
 msgid "movepoints"
 msgstr "punkty ruchu"
 
@@ -5471,7 +5459,7 @@ msgstr "+Harcownik; +30% XP"
 
 #. [advancement]: id=amla_standard
 #. [advancement]: id=eoma_amla_default_{ID}
-#: Era_of_Magic\units\Tharis\Chainlady.cfg:92 Era_of_Magic\utils\amla.cfg:26
+#: Era_of_Magic\units\Tharis\Chainlady.cfg:92
 msgid "Max HP bonus +3, Max XP +20%"
 msgstr "Bonus do maksymalnych punktów życia +3, MAX XP +30%"
 
@@ -6011,17 +5999,13 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Pain_Sphere, race=mechanical, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Tharis\Pain_Sphere.cfg:4
-#, fuzzy
-#| msgid "Storm Sphere"
 msgid "Pain Sphere"
-msgstr "Przeładowana Sfera"
+msgstr "Sfera Bólu"
 
 #. [attack]: type=impact
 #: Era_of_Magic\units\Tharis\Pain_Sphere.cfg:202
-#, fuzzy
-#| msgid "um blast"
 msgid "blast"
-msgstr "atak um"
+msgstr "wybuch"
 
 #. [unit_type]: id=EoMa_Shadowblade, race=eoma_tharis, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Tharis\Shadowblade.cfg:4
@@ -6212,64 +6196,71 @@ msgid "(INACTIVE IN RPG MODE)"
 msgstr "(NIEAKTYWNE W TRYBIE RPG)"
 
 #: Era_of_Magic\utils\_strings.cfg:15
-#, fuzzy
-#| msgid ""
-#| "This unit can create new drones on adjacent tiles, but not in villages, "
-#| "or on water."
 msgid ""
 "This unit can create other units in the near free spaces, but not in "
 "villages."
 msgstr ""
-"Ta jednostka może tworzyć nowe drony na sąsiednich polach, ale nie w "
-"wioskach i nie na wodzie."
+"Ta jednostka może tworzyć nowe jednostki na sąsiednich polach, ale nie w "
+"wioskach."
 
 #: Era_of_Magic\utils\_strings.cfg:18
 msgid ""
 "Allies adjacent to this unit return to life if killed while having more than "
 "one hit point."
 msgstr ""
+"Pobliskie sojusznicze jednostki gdy giną to natychmiast wracają do życia z 1 "
+"punktem zdrowia."
 
 #: Era_of_Magic\utils\_strings.cfg:21
 msgid ""
 "This unit can effecively fight with magical units by turning them into "
 "Dimensional Gates."
 msgstr ""
+"Ta jednostka potrafi efektywnie walczyć z magicznymi istotami zamieniając je "
+"we Wrota Żywiołów."
 
 #: Era_of_Magic\utils\_strings.cfg:24
 msgid "This unit is capable of minor healing."
-msgstr ""
+msgstr "Ta jednostka potrafi w małym stopniu leczyć."
 
 #: Era_of_Magic\utils\_strings.cfg:27
 msgid ""
 "The presence of this unit inspires own units next to it to deal more damage "
 "in combat, though this only applies to units of lower or equal level."
 msgstr ""
+"Obecność tej jednostki inspiruje pobliskie oddziały sprawiając, że zadają "
+"więcej obrażeń w walce, ale dotyczy to tylko jednostek o niższym bądź tym "
+"samym poziomie."
 
 #: Era_of_Magic\utils\_strings.cfg:30
 msgid "This unit increases the resistances of adjacent friendly units."
-msgstr ""
+msgstr "Ta jednostka zwiększa odporności pobliskich przyjaznych jednostek."
 
 #: Era_of_Magic\utils\_strings.cfg:33
 msgid ""
 "This unit invokes awe in adjacent enemy units of the same or lower level, "
 "causing them to have their damage reduced."
 msgstr ""
+"Ta jednostka wzbudza strach u pobliskich wrogich oddziałów tego samego bądź "
+"niższego poziomu, sprawiając, że zadają mniej obrażeń."
 
 #: Era_of_Magic\utils\_strings.cfg:36
 msgid "This unit can turn enemy units into stone for two turns."
-msgstr ""
+msgstr "Ta jednostka potrafi zamienić inne w kamień na 2 tury."
 
 #: Era_of_Magic\utils\_strings.cfg:39
 msgid "This unit is capable of superior healing and also cures poison."
 msgstr ""
+"Ta jednostka potrafi leczyć bardzo duże ilości punktów życia oraz usuwa "
+"truciznę."
 
 #: Era_of_Magic\utils\_strings.cfg:42
 msgid "This unit regenerates in the presence of water."
-msgstr ""
+msgstr "Ta jednostka regeneruje się w wodzie."
 
 #: Era_of_Magic\utils\_strings.cfg:45
 msgid "This unit regenerates in the presence of snow or ice."
-msgstr ""
+msgstr "Ta jednostka regeneruje się w śniegu i na lodzie."
 
 #. [disable]: id=eoma_attack_only
 #: Era_of_Magic\utils\abilities.cfg:6
@@ -6289,7 +6280,7 @@ msgstr "Ta jednostka zawsze trafia cel ale za to jednocześnie ginie."
 
 #. [dummy]: id=eoma_hitandrun{VALUE}
 #. [dummy]: id=eoma_hitandrunspecial{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:41 Era_of_Magic\utils\abilities.cfg:100
+#: Era_of_Magic\utils\abilities.cfg:41
 msgid "hit and run"
 msgstr "uderz i uciekaj"
 
@@ -6396,10 +6387,6 @@ msgstr "losowy efekt obszarowy"
 
 #. [dummy]: id=eoma_areaeffectrandom_{CHANCETOHIT}
 #: Era_of_Magic\utils\abilities.cfg:306
-#, fuzzy
-#| msgid ""
-#| "When this attack is used, random units adjacent to the target (except the "
-#| "attacker) get half of the basic damage. Does not work on defense."
 msgid ""
 "When this attack is used, random units adjacent to the target (except the "
 "attacker) get half of the basic damage.\n"
@@ -6409,7 +6396,12 @@ msgid ""
 "Chance to hit secondary target: "
 msgstr ""
 "Kiedy ten atak jest używany, losowe jednostki sąsiadujące z celem (oprócz "
-"atakującego) otrzymują połowę podstawowych obrażeń. Nie działa w obronie."
+"atakującego) otrzymują połowę podstawowych obrażeń. \n"
+"Nie działa w obronie.\n"
+"Nie działa na sojuszników.\n"
+"Drugorzędny cel może zostać trafiony nawet jeśli główny atak się nie "
+"powiedzie.\n"
+"Szansa na trafienie drugorzędnego celu: "
 
 #. [damage]: id=eoma_swallow{VALUE}
 #: Era_of_Magic\utils\abilities.cfg:452
@@ -6631,14 +6623,12 @@ msgstr ""
 "Liczba uzyskanych punktów życia:"
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic\utils\abilities.cfg:1528
-#: Era_of_Magic\utils\abilities.cfg:1529
+#: Era_of_Magic\utils\abilities.cfg:1528 Era_of_Magic\utils\abilities.cfg:1529
 msgid "dread"
 msgstr "strach"
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic\utils\abilities.cfg:1530
-#: Era_of_Magic\utils\abilities.cfg:1531
+#: Era_of_Magic\utils\abilities.cfg:1530 Era_of_Magic\utils\abilities.cfg:1531
 msgid ""
 "When this attack is used offensively, this unit takes one third less damage "
 "in retaliation."
@@ -6647,14 +6637,12 @@ msgstr ""
 "jedną trzecią obrażeń mniej."
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic\utils\abilities.cfg:1541
-#: Era_of_Magic\utils\abilities.cfg:1542
+#: Era_of_Magic\utils\abilities.cfg:1541 Era_of_Magic\utils\abilities.cfg:1542
 msgid "evade"
 msgstr "unik"
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic\utils\abilities.cfg:1543
-#: Era_of_Magic\utils\abilities.cfg:1544
+#: Era_of_Magic\utils\abilities.cfg:1543 Era_of_Magic\utils\abilities.cfg:1544
 msgid ""
 "When this attack is used offensively, this unit takes 25% less damage in "
 "retaliation."
@@ -6744,29 +6732,21 @@ msgstr ""
 
 #. [attacks]: id=eoma_swiftstrike
 #: Era_of_Magic\utils\abilities.cfg:1642
-#, fuzzy
-#| msgid "first strike"
 msgid "swift strike"
-msgstr "pierwszy cios"
+msgstr "szybki cios"
 
 #. [attacks]: id=eoma_swiftstrike
 #: Era_of_Magic\utils\abilities.cfg:1643
-#, fuzzy
-#| msgid ""
-#| "When this attack is used offensively, this unit takes 25% less damage in "
-#| "retaliation."
 msgid ""
 "When this attack is used offensively, the attacker gets +1 bonus strike."
 msgstr ""
-"Kiedy ten atak jest użyty ofensywnie, ta jednostka otrzymuje w odpowiedzi "
-"25% obrażeń mniej."
+"Kiedy ten atak jest użyty ofensywnie, ta jednostka otrzymuje +1 dodatkowy "
+"cios"
 
 #. [dummy]: id=eoma_pain_chaining
 #: Era_of_Magic\utils\abilities.cfg:1653
-#, fuzzy
-#| msgid "magic hardening"
 msgid "pain chaining"
-msgstr "magiczne hartowanie"
+msgstr "łączenie bólu"
 
 #. [dummy]: id=eoma_pain_chaining
 #: Era_of_Magic\utils\abilities.cfg:1654
@@ -6775,6 +6755,9 @@ msgid ""
 "of all adjacent enemy units by 10%. This effect lasts only during active "
 "side's turn."
 msgstr ""
+"Kiedy ta jednostka zostanie zaatakowana, zmniejsza fizyczne odporności "
+"pobliskich wrogich jednostek o 10%. Efekt ten trwa tylko w trakcie tury "
+"aktywnego obecnie gracza."
 
 #. [disable]: id=eoma_disable_in_rpg, description=
 #: Era_of_Magic\utils\abilities_rpg.cfg:6
@@ -6788,11 +6771,6 @@ msgstr "obszarowy"
 
 #. [dummy]: id=eoma_allaround_{CHANCETOHIT}
 #: Era_of_Magic\utils\allaround.cfg:74
-#, fuzzy
-#| msgid ""
-#| "This attack can hit some of adjacent enemy units (or even all depending "
-#| "on your luck) Works only on offense.\n"
-#| "This ability does not work on defense and against berserker units."
 msgid ""
 "This attack can hit some of adjacent enemy units (or even all depending on "
 "your luck.\n"
@@ -6802,8 +6780,12 @@ msgid ""
 "Chance to hit secondary target: "
 msgstr ""
 "Ten atak może ranić część sąsiednich wrogich jednostek (lub nawet wszystkie "
-"w zależności od szczęścia). Działa tylko w ofensywie.\n"
-"Ta zdolność nie działa podczas obrony i w starciu przeciwko berserkerom."
+"w zależności od szczęścia).\n"
+"Działa tylko w ofensywie.\n"
+"Nie działa przeciwko berserkerom.\n"
+"Drugorzędny cel może zostać trafiony nawet jeśli główny atak się nie "
+"powiedzie.\n"
+"Szansa na trafienie drugorzędnego celu: "
 
 #. [hides]: id=eoma_mountainambush
 #: Era_of_Magic\utils\ambush.cfg:5
@@ -6965,18 +6947,6 @@ msgstr ""
 "poziomu 2, -10% dla poziomu 3)."
 
 #: Era_of_Magic\utils\awe.cfg:128
-#, fuzzy
-#| msgid ""
-#| "This unit can frighten enemy units that are next to it, making them fight "
-#| "worse.\n"
-#| "\n"
-#| "There are units immune to effects of this ability. Awe does not work on:\n"
-#| "- undead units\n"
-#| "- mechanical units\n"
-#| "- magical units\n"
-#| "- fearless units\n"
-#| "- Tharis race\n"
-#| "- cyclops"
 msgid ""
 "This unit can frighten enemy units that are next to it, making them fight "
 "worse.\n"
@@ -6992,9 +6962,8 @@ msgstr ""
 "\n"
 "Są jednak jednostki, które nie dają się przestraszyć. Ta zdolność nie działa "
 "w przypadku:\n"
-"- jednostek nieumarłych\n"
-"- jednostek mechanicznych\n"
-"- istot magicznych\n"
+"- jednostek z których nie da się wyssać życia, takich jak, np. nieumarli, "
+"istoty magiczne oraz jednostki mechaniczne\n"
 "- jednostek nieustraszonych\n"
 "- rasy Tharis\n"
 "- cyklopów"
@@ -7020,7 +6989,7 @@ msgid "awe 4"
 msgstr "strach 4"
 
 #. [damage]: id=eoma_banish
-#: Era_of_Magic\utils\banish.cfg:19 Era_of_Magic\utils\banish.cfg:20
+#: Era_of_Magic\utils\banish.cfg:19
 msgid "banish"
 msgstr "wygnanie"
 
@@ -7038,22 +7007,14 @@ msgstr ""
 "samym poziomie, zdolność nie zadziała."
 
 #. [unstore_unit]
-#: Era_of_Magic\utils\banish.cfg:238 Era_of_Magic\utils\bonesplit.cfg:123
-#: Era_of_Magic\utils\bonesplit.cfg:176 Era_of_Magic\utils\bonesplit.cfg:223
-#: Era_of_Magic\utils\drone-upgrades.cfg:547
-#: Era_of_Magic\utils\recruit.cfg:132 Era_of_Magic\utils\recruit.cfg:168
-#: Era_of_Magic\utils\recruit.cfg:199 Era_of_Magic\utils\summon.cfg:251
+#: Era_of_Magic\utils\banish.cfg:238 Era_of_Magic\utils\bonesplit.cfg:176
+#: Era_of_Magic\utils\drone-upgrades.cfg:547 Era_of_Magic\utils\recruit.cfg:132
+#: Era_of_Magic\utils\recruit.cfg:199
 msgid "+3 exp"
 msgstr "+3 doświadczenie"
 
 #. [damage]: id=eoma_beam
 #: Era_of_Magic\utils\beam.cfg:75
-#, fuzzy
-#| msgid ""
-#| "When this attack is used, the attacker can hurt a unit behind his primary "
-#| "target and a unit behind that unit (3 units total). Damage dealt to the "
-#| "second target equals to 2/3 of raw firepower. Damage dealt to the third "
-#| "target equals to 1/3 of raw firepower. This effect works only on offence."
 msgid ""
 "When this attack is used, the attacker can hurt a unit behind his primary "
 "target and a unit behind that unit (3 units total). Damage dealt to the "
@@ -7067,7 +7028,9 @@ msgstr ""
 "oraz kolejną stojącą za tą jednostką w linii (łącznie 3 jednostki). "
 "Obrażenia zadane drugiej jednostce wynoszą 2/3 głównej siły ognia. Obrażenia "
 "zadane trzeciej jednostce stanowią 1/3 głównej siły ognia. Ta zdolność "
-"działa tylko w ataku."
+"działa tylko w ataku.\n"
+"Ta zdolność potrafi ranić sojuszników.\n"
+"Szansa na trafienie drugorzędnego celu: 100% kiedy główny atak się powiedzie."
 
 #. [damage]: id=eoma_bleed
 #: Era_of_Magic\utils\bleed.cfg:10
@@ -7088,55 +7051,47 @@ msgstr ""
 "Krawienie samo w sobie nie może zabić jednostki."
 
 #. [unstore_unit]
-#: Era_of_Magic\utils\bleed.cfg:54 Era_of_Magic\utils\bleed.cfg:119
+#: Era_of_Magic\utils\bleed.cfg:54
 msgid "bleeding"
 msgstr "krwawi"
 
 #. [dummy]: id=eoma_bonesplit
 #: Era_of_Magic\utils\bonesplit.cfg:5
-#, fuzzy
-#| msgid "split"
 msgid "bone split"
-msgstr "rozdzielenie"
+msgstr "rozdwojenie kości"
 
 #. [dummy]: id=eoma_bonesplit
 #: Era_of_Magic\utils\bonesplit.cfg:6
-#, fuzzy
-#| msgid ""
-#| "This unit can summon new units on adjacent tiles, but not in villages.\n"
-#| "\n"
-#| "For more information, choose the 'Summoning Help' rightclick option which "
-#| "appears when rightclicking on a unit with the 'summon' ability."
 msgid ""
 "This unit can summon new Bone Beast on adjacent tiles, but not in villages.\n"
 "\n"
 "For more information, choose the 'Bone Split Help' rightclick option which "
 "appears when rightclicking on a unit with the 'bone split' ability."
 msgstr ""
-"Ta jednostka może przywoływać nowe jednostki na sąsiednich polach, ale nie "
-"we wioskach. Aby uzyskać więcej informacji, wybierz opcję \"Przywoływanie - "
-"Pomoc\", która pojawia się po kliknięciu prawym przyciskiem myszy na "
-"jednostkę ze zdolnością \"przywoływania\"."
+"Ta jednostka może przywoływać nowe Kościane Bestie na sąsiednich polach, ale "
+"nie we wioskach.\n"
+"\n"
+"Aby uzyskać więcej informacji, wybierz opcję \"Przywoływanie - Pomoc\", "
+"która pojawia się po kliknięciu prawym przyciskiem myszy na jednostkę ze "
+"zdolnością \"rozdwojenia kości\"."
 
-#. [set_menu_item]: id=bonesplit_{ID}, description= - 
+#. [set_menu_item]: id=bonesplit_{ID}, description= -
 #. [set_menu_item]: id=completerepair
-#. [set_menu_item]: id=recruit_{ID}, description= - 
-#. [set_menu_item]: id=summon_{ID}, description= - 
+#. [set_menu_item]: id=recruit_{ID}, description= -
+#. [set_menu_item]: id=summon_{ID}, description= -
 #: Era_of_Magic\utils\bonesplit.cfg:48
-#: Era_of_Magic\utils\drone-upgrades.cfg:456
-#: Era_of_Magic\utils\recruit.cfg:51 Era_of_Magic\utils\summon.cfg:68
+#: Era_of_Magic\utils\drone-upgrades.cfg:456 Era_of_Magic\utils\recruit.cfg:51
 msgid "gold:"
 msgstr "złoto:"
 
-#. [set_menu_item]: id=bonesplit_{ID}, description= - 
+#. [set_menu_item]: id=bonesplit_{ID}, description= -
 #: Era_of_Magic\utils\bonesplit.cfg:48
 msgid "-10HP"
-msgstr ""
+msgstr "-10HP"
 
 #. [message]: speaker=narrator
 #: Era_of_Magic\utils\bonesplit.cfg:256
-#: Era_of_Magic\utils\drone-upgrades.cfg:595
-#: Era_of_Magic\utils\recruit.cfg:216 Era_of_Magic\utils\statue-copy.cfg:357
+#: Era_of_Magic\utils\drone-upgrades.cfg:595 Era_of_Magic\utils\recruit.cfg:216
 #: Era_of_Magic\utils\summon.cfg:272
 msgid "Error"
 msgstr "Błąd"
@@ -7144,29 +7099,15 @@ msgstr "Błąd"
 #. [message]: speaker=narrator
 #: Era_of_Magic\utils\bonesplit.cfg:257
 msgid "Not enough gold and/or HP."
-msgstr ""
+msgstr "Za mało złota i/lub punktów życia."
 
 #. [set_menu_item]: id=bonesplit_zhelp
 #: Era_of_Magic\utils\bonesplit.cfg:268
-#, fuzzy
-#| msgid "Forest Spirit Help"
 msgid "Bone Split Help"
-msgstr "Pomoc Ducha Lasu"
+msgstr "Pomoc Rozdwojenia Kości"
 
 #. [message]: speaker=narrator
 #: Era_of_Magic\utils\bonesplit.cfg:288
-#, fuzzy
-#| msgid ""
-#| "To recruit a unit right-click on hexes adjacent to a selected recruiter.\n"
-#| "\n"
-#| "You need all movement points (and remaining attacks) to recruit one "
-#| "creature. You can only recruit in villages. A new unit can’t be recruited "
-#| "on water.\n"
-#| "Every recruiting adds +3 to current experience.\n"
-#| "\n"
-#| "If there are 2 or more recruiters, a new unit will be recruited by the "
-#| "last selected unit able to recruit, or if no recruiter has been selected, "
-#| "a recruiter next to the selected tile will be chosen randomly."
 msgid ""
 "To summon a Bone Beast right-click on hexes adjacent to a selected unit with "
 "the bone split ability.\n"
@@ -7179,17 +7120,17 @@ msgid ""
 "last selected unit with the ability, or if no Bone Splitter has been "
 "selected, a Bone Splitter next to the selected tile will be chosen randomly."
 msgstr ""
-"Aby rekrutować jednostkę, kliknij prawym przyciskiem myszy na sąsiednie "
-"heksy w pobliżu wybranego rekrutera.\n"
+"Aby przywołać Kościaną Bestię, kliknij prawym przyciskiem myszy na sąsiednie "
+"heksy w pobliżu wybranej jednostki z umiejętnością rozdwojenia kości.\n"
 "\n"
-"Potrzebujesz wszystkich punktów ruchu (i pozostałych ataków), aby rekrutować "
-"jedną jednostkę. Możesz rekrutować tylko będąc we wiosce. Nowa jednostka nie "
-"może zostać zrekrutowana na wodzie.\n"
+"Potrzebujesz co najmniej 11 punktów życia oraz wszystkich punktów ruchu (i "
+"pozostałych ataków), aby rekrutować jedną jednostkę.\n"
 "Każda rekrutacja dodaje +3 do obecnego doświadczenia.\n"
 "\n"
-"Jeśli jest dwóch lub więcej rekruterów, nowa jednostka zostanie przywołana "
-"przez ostatnią wybraną jednostkę zdolną do przywołania, lub jeśli nie "
-"wybrano rekrutera, rekruter obok wybranego pola zostanie wybrany losowo."
+"Jeśli jest dwóch lub więcej Kościanych Rozdwajaczy nowa jednostka zostanie "
+"przywołana przez ostatnią wybraną jednostkę zdolną do przywołania, lub jeśli "
+"nie wybrano żadnej takiej jednostki, obok wybranego pola zostanie ona "
+"wybrana losowo."
 
 #. [chance_to_hit]: id=eoma_alwayshits
 #: Era_of_Magic\utils\chancetohit.cfg:5
@@ -7429,13 +7370,6 @@ msgstr "cios obszarowy"
 
 #. [dummy]: id=eoma_cleave{DISPLAYVALUE}
 #: Era_of_Magic\utils\cleave.cfg:129
-#, fuzzy
-#| msgid ""
-#| "A unit with this ability can hurt units that are adjacent to the attacker "
-#| "and the defender at the same time. The damage dealt equals a specified % "
-#| "of the base damage.\n"
-#| "This ability does not work against berserker units.\n"
-#| "Base damage multiplier:"
 msgid ""
 "A unit with this ability can hurt units that are adjacent to the attacker "
 "and the defender at the same time. The damage dealt equals a specified % of "
@@ -7450,7 +7384,12 @@ msgstr ""
 "Jednostka posiadająca tą zdolność potrafi ranić też inne jednostki "
 "przylegające do niej i do przeciwnika. Zadane obrażenia wynosić będą "
 "określony % głównego ataku.\n"
-"Umiejętność ta nie działa wobec berserkerów.\n"
+"Nie działa wobec berserkerów.\n"
+"Działa nawet w obronie.\n"
+"Działa również na sojuszników.\n"
+"Drugorzędny cel może zostać trafiony nawet jeśli główny atak nie trafi "
+"celu.\n"
+"Szansa na trafienie drugorzędnego celu: 50%\n"
 "Mnożnik podstawowych obrażeń:"
 
 #. [dummy]: id=splitfire
@@ -7483,6 +7422,13 @@ msgid ""
 "Secondary target may be hit even when primary attack misses.\n"
 "Chance to hit secondary target: 60%"
 msgstr ""
+"Jednostka z tą zdolnością potrafi trafić 3 pobliskie jednostki stojące za "
+"obrońcą.\n"
+"Ten efekt działa tylko podczas ataku.\n"
+"Ta zdolność działa również na sojuszników.\n"
+"Drugorzędny cel może zostać trafiony nawet jeśli główny atak nie trafi "
+"celu.\n"
+"Szansa na trafienie drugorzędnego celu: 60%"
 
 #. [dummy]: id=eoma_upgradable_armor
 #: Era_of_Magic\utils\drone-upgrades.cfg:5
@@ -7846,11 +7792,9 @@ msgstr ""
 "Ilość odzyskanych punktów życia:"
 
 #. [regenerate]: id=eoma_regenerates{VALUE}
-#: Era_of_Magic\utils\healing.cfg:77 Era_of_Magic\utils\healing.cfg:92
-#, fuzzy
-#| msgid "regenerates +6"
+#: Era_of_Magic\utils\healing.cfg:77
 msgid "regenerates"
-msgstr "regeneruje się +6"
+msgstr "regeneruje się"
 
 #. [regenerate]: id=eoma_regenerates{VALUE}
 #: Era_of_Magic\utils\healing.cfg:78
@@ -7909,28 +7853,20 @@ msgstr ""
 
 #. [regenerate]: id=eoma_frozen_regeneration{VALUE}
 #: Era_of_Magic\utils\healing.cfg:157
-#, fuzzy
-#| msgid "nature regeneration"
 msgid "frozen regeneration"
-msgstr "przyrodnicza regeneracja"
+msgstr "lodowa regeneracja"
 
 #. [regenerate]: id=eoma_frozen_regeneration{VALUE}
 #: Era_of_Magic\utils\healing.cfg:159
-#, fuzzy
-#| msgid ""
-#| "When standing on a forest or mushroom tile, this unit will heal itself "
-#| "some HP per turn. If it is poisoned, it will remove the poison instead of "
-#| "healing.\n"
-#| "The amount of hitpoints restored:"
 msgid ""
 "When standing on frozen terrain such as snow or ice, this unit will heal "
 "itself some HP per turn. If it is poisoned, it will remove the poison "
 "instead of healing.\n"
 "The amount of hitpoints restored:"
 msgstr ""
-"Kiedy ta jednostka stoi w lesie lub w grzybowym gaju, leczy określoną ilość "
-"punktów życia na turę. Jeśli jest zatruta, usunie truciznę zamiast "
-"leczenia.\n"
+"Kiedy ta jednostka stoi na chłodnym terenie takim jak śnieg czy lód, leczy "
+"określoną ilość punktów życia na turę. Jeśli jest zatruta, usunie truciznę "
+"zamiast leczenia.\n"
 "Ilość odzyskanych punktów życia:"
 
 #. [regenerate]: id=eoma_nature_regeneration{VALUE}
@@ -8038,21 +7974,16 @@ msgstr ""
 #. [dummy]: id=eoma_restheal{VALUE}
 #: Era_of_Magic\utils\healing.cfg:297
 msgid "rest healing"
-msgstr ""
+msgstr "leczenie w odpoczynku"
 
 #. [dummy]: id=eoma_restheal{VALUE}
 #: Era_of_Magic\utils\healing.cfg:298
-#, fuzzy
-#| msgid ""
-#| "This unit regenerates some hp every turn. this ability doesn't cure "
-#| "poison, though.\n"
-#| "The amount of hitpoints restored:"
 msgid ""
 "This unit regenerates more hitpoints when resting than other units.\n"
 "The additional amount of hitpoints restored:"
 msgstr ""
-"Ta jednostka regeneruje określoną ilość hp w każdej turze. Ta umiejętność "
-"nie leczy jednak trucizny.\n"
+"Ta jednostka odzyskuje więcej punktów życia w trakcie odpoczynku niż inne "
+"jednostki.\n"
 "Ilość odzyskanych punktów życia:"
 
 #. [leadership]: id=leadership
@@ -8139,30 +8070,22 @@ msgstr ""
 
 #. [leadership]: id=leadership
 #: Era_of_Magic\utils\leaderships.cfg:139
-#, fuzzy
-#| msgid "racial leader"
 msgid "camel leadership"
-msgstr "dowódca rasy"
+msgstr "dowodzenie wielbłądami"
 
 #. [leadership]: id=leadership
 #: Era_of_Magic\utils\leaderships.cfg:140
-#, fuzzy
-#| msgid ""
-#| "This unit can lead units of the same race as the owner of this ability "
-#| "that are next to it, making them fight better.\n"
-#| "\n"
-#| "Adjacent units of the same race will do more damage in battle (20% more)."
 msgid ""
 "This unit can lead camel riders of lower levels that are next to it, making "
 "them fight better.\n"
 "\n"
 "Adjacent camel riders will do more damage in battle (15% more)."
 msgstr ""
-"Ta jednostka może dowodzić pobliskimi jednostkami tej samej rasy co ona "
-"sama, sprawiając, że lepiej walczą.\n"
+"Ta jednostka może dowodzić pobliskimi Wielbłądzimi Jeźdźcami oraz Elitarnymi "
+"Wielbłądzimi Jeźdźcami, sprawiając, że lepiej walczą.\n"
 "\n"
 "Sąsiadujące jednostki tej samej rasy będą zadawać więcej obrażeń w walce "
-"(20% więcej)."
+"(15% więcej)."
 
 #. [dummy]: id=eoma_painabsorb{VALUE}
 #: Era_of_Magic\utils\pain_absorption.cfg:11
@@ -8176,8 +8099,6 @@ msgstr "W momencie ranienia żyjącego przeciwnika, ta jednostka odzyskuje"
 
 #. [dummy]: id=eoma_painabsorb_aura{VALUE}
 #: Era_of_Magic\utils\pain_absorption.cfg:97
-#, fuzzy
-#| msgid "pain absorption"
 msgid "pain absorption aura"
 msgstr "absorbcja bólu"
 
@@ -8194,10 +8115,8 @@ msgstr ""
 
 #. [dummy]: id=eoma_painabsorb_aura_strict{VALUE}
 #: Era_of_Magic\utils\pain_absorption.cfg:212
-#, fuzzy
-#| msgid "pain absorption (strict)"
 msgid "pain absorption (personal)"
-msgstr "absorbcja bólu (ścisła)"
+msgstr "absorbcja bólu (osobista)"
 
 #. [dummy]: id=eoma_painabsorb_aura_strict{VALUE}
 #: Era_of_Magic\utils\pain_absorption.cfg:213
@@ -8429,8 +8348,7 @@ msgstr ""
 
 #. [resistance]: id=eoma_shielded
 #. [dummy]: id=eoma_shielded_special
-#: Era_of_Magic\utils\resistance.cfg:382
-#: Era_of_Magic\utils\resistance.cfg:395
+#: Era_of_Magic\utils\resistance.cfg:382 Era_of_Magic\utils\resistance.cfg:395
 msgid "shielded"
 msgstr "osłona"
 
@@ -8731,13 +8649,13 @@ msgstr "heroiczna"
 
 #. [trait]: id=eoma_elite
 #. [trait]: id=eoma_elite_alt
-#: Era_of_Magic\utils\traits.cfg:62 Era_of_Magic\utils\traits.cfg:97
+#: Era_of_Magic\utils\traits.cfg:62
 msgid "elite"
 msgstr "elitarny"
 
 #. [trait]: id=eoma_elite
 #. [trait]: id=eoma_elite_alt
-#: Era_of_Magic\utils\traits.cfg:63 Era_of_Magic\utils\traits.cfg:98
+#: Era_of_Magic\utils\traits.cfg:63
 msgid "female^elite"
 msgstr "elitarna"
 
@@ -8778,11 +8696,6 @@ msgstr "potrójny atak"
 
 #. [dummy]: id=eoma_triplestrike
 #: Era_of_Magic\utils\triplestrike.cfg:8
-#, fuzzy
-#| msgid ""
-#| "This attack can hit some enemy units adjacent to a target (up to 3 harmed "
-#| "units total - depending on your luck).\n"
-#| "This ability does not work on defense and against berserker units."
 msgid ""
 "This attack can hit some enemy units adjacent to both attacker and target "
 "(up to 3 harmed units total).\n"
@@ -8793,7 +8706,11 @@ msgid ""
 msgstr ""
 "Ten atak może trafić jednostki sąsiadujące z celem (łącznie do 3 jednostek - "
 "w zależności od szczęścia).\n"
-"Ta zdolność nie działa w obronie i przeciwko berserkerom."
+"Nie działa przeciwko berserkerom.\n"
+"Działa również w obronie \n"
+"Drugorzędny cel może zostać trafiony nawet jeśli główny atak nie trafi "
+"celu.\n"
+"Szansa na trafienie drugorzędnego celu: 40%"
 
 #~ msgid "area effect"
 #~ msgstr "efekt obszarowy"
