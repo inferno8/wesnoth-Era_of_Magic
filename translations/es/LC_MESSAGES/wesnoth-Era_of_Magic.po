@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-07-19 17:35 UTC\n"
+"POT-Creation-Date: 2023-10-12 18:18 UTC\n"
 "PO-Revision-Date: 2023-06-07 22:09+0200\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
@@ -457,8 +457,8 @@ msgstr "Goliat ciclópeo"
 #: Era_of_Magic\units\Barbarians\Cyclops_Lord.cfg:66
 #: Era_of_Magic\units\Barbarians\Cyclops_Noble.cfg:45
 #: Era_of_Magic\units\Barbarians\Cyclops_Noble.cfg:58
-#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:134
-#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:147
+#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:135
+#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:148
 #: Era_of_Magic\units\Destroyers\Cyclops_Skeleton.cfg:78
 #: Era_of_Magic\units\Destroyers\Cyclops_Skeleton.cfg:91
 #: Era_of_Magic\units\Destroyers\Extinct_Cyclops_Mage.cfg:81
@@ -467,8 +467,8 @@ msgstr "Goliat ciclópeo"
 #: Era_of_Magic\units\Destroyers\Fallen_Cyclops_King.cfg:108
 #: Era_of_Magic\units\Destroyers\Greater_Cyclops_Skeleton.cfg:79
 #: Era_of_Magic\units\Destroyers\Greater_Cyclops_Skeleton.cfg:92
-#: Era_of_Magic\units\Summoners\Ho_rhami.cfg:82
-#: Era_of_Magic\units\Summoners\Rhami_kai.cfg:70
+#: Era_of_Magic\units\Summoners\Ho_rhami.cfg:93
+#: Era_of_Magic\units\Summoners\Rhami_kai.cfg:81
 msgid "gaze"
 msgstr "mirada"
 
@@ -519,6 +519,7 @@ msgstr "Asesino goblin"
 #. [attack]: type=impact
 #: Era_of_Magic\units\Barbarians\Goblin_Assassin.cfg:74
 #: Era_of_Magic\units\Barbarians\Goblin_Hunter.cfg:73
+#: Era_of_Magic\units\Barbarians\Savage_Roc_Rider.cfg:51
 msgid "bolas"
 msgstr "boleadoras"
 
@@ -736,6 +737,13 @@ msgstr "Hechicero goblin"
 msgid "landmass"
 msgstr "masa de tierra"
 
+#. [unit_type]: id=EoMa_Orcish_Brawler, race=orc, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Barbarians\Orcish_Brawler.cfg:4
+#, fuzzy
+#| msgid "Orcish Warbanner"
+msgid "Orcish Brawler"
+msgstr "Abanderado orco"
+
 #. [unit_type]: id=EoMa_Orcish_Chieftain, race=orc, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Barbarians\Orcish_Chieftain.cfg:4
 msgid "Orcish Chieftain"
@@ -841,6 +849,13 @@ msgstr ""
 "de los suyos. Desde aquel día, los goblins conducen rocs domesticados a la "
 "batalla y sus graznidos de guerra son el único aviso de la inminente "
 "destrucción."
+
+#. [unit_type]: id=EoMa_Savage_Roc_Rider, race=eoma_roc, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Barbarians\Savage_Roc_Rider.cfg:4
+#, fuzzy
+#| msgid "Roc Rider"
+msgid "Savage Roc Rider"
+msgstr "Jinete de roc"
 
 #. [unit_type]: id=EoMa_Troll_Fire_Wizard, race=troll
 #: Era_of_Magic\units\Barbarians\Troll_Fire_Wizard.cfg:4
@@ -1032,7 +1047,7 @@ msgstr "lanza"
 #: Era_of_Magic\units\Tharis\Blade_Dancer.cfg:50
 #: Era_of_Magic\units\Tharis\Blade_Dancer.cfg:62
 #: Era_of_Magic\units\Tharis\Crimson_Blade.cfg:74
-#: Era_of_Magic\units\Tharis\Frontliner.cfg:62
+#: Era_of_Magic\units\Tharis\Frontliner.cfg:61
 #: Era_of_Magic\units\Tharis\Sword_Dancer.cfg:49
 msgid "chakram"
 msgstr "chakram"
@@ -1093,7 +1108,7 @@ msgid "iceball"
 msgstr "bola de hielo"
 
 #. [attack]: type=cold
-#: Era_of_Magic\units\Dark_Blood_Alliance\Chosen_of_Forest.cfg:143
+#: Era_of_Magic\units\Dark_Blood_Alliance\Chosen_of_Forest.cfg:144
 #: Era_of_Magic\units\Dark_Blood_Alliance\Mystic.cfg:113
 msgid "freezing spell"
 msgstr "hechizo congelante"
@@ -1272,8 +1287,8 @@ msgstr "Ayuda sobre espíritu del bosque"
 
 #. [message]: speaker=narrator
 #: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:241
-#: Era_of_Magic\utils\bonesplit.cfg:287 Era_of_Magic\utils\recruit.cfg:239
-#: Era_of_Magic\utils\summon.cfg:295
+#: Era_of_Magic\utils\bonesplit.cfg:287 Era_of_Magic\utils\recruit.cfg:247
+#: Era_of_Magic\utils\summon.cfg:303
 msgid "Help"
 msgstr "Ayuda"
 
@@ -2083,7 +2098,7 @@ msgstr "aura"
 
 #. [attack]: type=cold
 #: Era_of_Magic\units\Destroyers\Black_Portal.cfg:212
-#: Era_of_Magic\units\Tharis\Great_Warlock.cfg:135
+#: Era_of_Magic\units\Tharis\Great_Warlock.cfg:132
 msgid "dark ball"
 msgstr "bola oscura"
 
@@ -2252,7 +2267,7 @@ msgid "Cyclops Necromancer"
 msgstr "Nigromante ciclópeo"
 
 #. [unit_type]: id=EoMa_Cyclops_Necromancer, race=undead
-#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:25
+#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:26
 msgid ""
 "Destroyer 'necromancers' are not to be mistaken with lich of any kind, for "
 "they do not possess any semblance of willpower of their past self, nor soul "
@@ -2268,12 +2283,12 @@ msgstr ""
 "tan antiguas. La única certeza es la muerte a su paso."
 
 #. [dummy]: id=eoma_summonzombie
-#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:111
+#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:112
 msgid "summon undead"
 msgstr "invocar no muerto"
 
 #. [dummy]: id=eoma_summonzombie
-#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:112
+#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:113
 msgid ""
 "This unit summons a lvl0 zombie of random variation next to self at the "
 "start of each turn. Only 4 total summoned zombies per unit with this ability "
@@ -2285,12 +2300,12 @@ msgstr ""
 "batalla a la vez."
 
 #. [attack]: type=blade
-#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:122
+#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:123
 msgid "cursed dagger"
 msgstr "daga maldita"
 
 #. [dummy]: id=eoma_summoned_zombie
-#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:494
+#: Era_of_Magic\units\Destroyers\Cyclops_Necromancer.cfg:495
 msgid "This unit counts towards the summoned zombie limit."
 msgstr "Esta unidad cuenta para el límite de zombis invocados."
 
@@ -2380,7 +2395,7 @@ msgstr "Atokpi oscuro"
 
 #. [attack]: type=secret
 #: Era_of_Magic\units\Destroyers\Dark_Atokpi.cfg:99
-#: Era_of_Magic\units\Tharis\Matriarch_of_Emptiness.cfg:68
+#: Era_of_Magic\units\Tharis\Matriarch_of_Emptiness.cfg:70
 msgid "anti-magic"
 msgstr "anti-magia"
 
@@ -2414,7 +2429,7 @@ msgstr ""
 #: Era_of_Magic\units\Runemasters\Flying_Fortress.cfg:92
 #: Era_of_Magic\units\Runemasters\Heavy_Balloon.cfg:109
 #: Era_of_Magic\units\Runemasters\Runemaster2.cfg:62
-#: Era_of_Magic\units\Summoners\Carpet_Rider.cfg:58
+#: Era_of_Magic\units\Summoners\Carpet_Rider.cfg:56
 msgid "defend-only"
 msgstr "defensa"
 
@@ -2427,7 +2442,7 @@ msgstr "defensa"
 #: Era_of_Magic\units\Runemasters\Flying_Fortress.cfg:93
 #: Era_of_Magic\units\Runemasters\Heavy_Balloon.cfg:110
 #: Era_of_Magic\units\Runemasters\Runemaster2.cfg:63
-#: Era_of_Magic\units\Summoners\Carpet_Rider.cfg:59
+#: Era_of_Magic\units\Summoners\Carpet_Rider.cfg:57
 msgid "This attack doesn't work on offense."
 msgstr "Este ataque no funciona durante la ofensiva."
 
@@ -2888,10 +2903,24 @@ msgstr ""
 "expertas en la magia de la luz; conjurando rayos de luz a sus enemigos, y "
 "siendo bastante hábiles para curar a los heridos."
 
-#. [unit_type]: id=EoMa_Divine_Executor, race=human, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Divine_Executor, race=human
 #: Era_of_Magic\units\Kharos\Divine_Executor.cfg:4
 msgid "Divine Executor"
 msgstr "Ejecutor divino"
+
+#. [unit_type]: id=EoMa_Divine_Executor, race=human
+#: Era_of_Magic\units\Kharos\Divine_Executor.cfg:21
+msgid ""
+"The most elite Impalers often attain great importance in Kharos society, "
+"earning the title of Divine Executors due to their exceptional rarity and "
+"heroism. These soldiers have lived through numerous battles with little more "
+"than their skill and determination to protect their people. As a result, "
+"they are granted special sacred equipment inspired by historic legends that "
+"have shaped Kharos' destiny and survival. While these tools may lack the "
+"same level of magical resistance as those wielded by Sun Followers' cult "
+"members, they offer distinct advantages such as increased maneuverability "
+"and the ability to inflict huge amounts of damage to evil forces."
+msgstr ""
 
 #. [unit_type]: id=EoMa_Elemental_Archer, race=human
 #: Era_of_Magic\units\Kharos\Elemental_Archer.cfg:4
@@ -4753,7 +4782,7 @@ msgstr ""
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Air.cfg:27
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:67
 #: Era_of_Magic\units\Summoners\Grand_Summoner.cfg:66
-#: Era_of_Magic\units\Summoners\Summons_Master.cfg:86
+#: Era_of_Magic\units\Summoners\Summons_Master.cfg:68
 msgid "Summon Air Elemental"
 msgstr "Invocar elemental de aire"
 
@@ -4793,7 +4822,7 @@ msgstr ""
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Earth.cfg:72
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:68
 #: Era_of_Magic\units\Summoners\Grand_Summoner.cfg:67
-#: Era_of_Magic\units\Summoners\Summons_Master.cfg:87
+#: Era_of_Magic\units\Summoners\Summons_Master.cfg:69
 msgid "Summon Earth Elemental"
 msgstr "Invocar elemental de tierra"
 
@@ -4847,7 +4876,7 @@ msgstr ""
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:65
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Fire.cfg:24
 #: Era_of_Magic\units\Summoners\Grand_Summoner.cfg:64
-#: Era_of_Magic\units\Summoners\Summons_Master.cfg:84
+#: Era_of_Magic\units\Summoners\Summons_Master.cfg:66
 msgid "Summon Fire Elemental"
 msgstr "Invocar elemental de fuego"
 
@@ -4855,13 +4884,13 @@ msgstr "Invocar elemental de fuego"
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:66
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Water.cfg:47
 #: Era_of_Magic\units\Summoners\Grand_Summoner.cfg:65
-#: Era_of_Magic\units\Summoners\Summons_Master.cfg:85
+#: Era_of_Magic\units\Summoners\Summons_Master.cfg:67
 msgid "Summon Water Elemental"
 msgstr "Invocar elemental de agua"
 
 #. [attack]: type=impact
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:134
-#: Era_of_Magic\units\Summoners\Great_Efreeti.cfg:95
+#: Era_of_Magic\units\Summoners\Great_Efreeti.cfg:105
 msgid "meteor shower"
 msgstr "baño de meteoritos"
 
@@ -5432,38 +5461,50 @@ msgstr ""
 "están cerca de ellos, contribuyendo así a la tarea de los desterradores."
 
 #. [attack]: type=arcane
-#: Era_of_Magic\units\Summoners\Banisher.cfg:124
-#: Era_of_Magic\units\Summoners\Dispeller.cfg:32
+#: Era_of_Magic\units\Summoners\Banisher.cfg:125
+#: Era_of_Magic\units\Summoners\Dispeller.cfg:38
 msgid "banishment"
 msgstr "destierro"
 
 #. [attack]: type=cold
-#: Era_of_Magic\units\Summoners\Banisher.cfg:146
-#: Era_of_Magic\units\Summoners\Dispeller.cfg:54
+#: Era_of_Magic\units\Summoners\Banisher.cfg:147
+#: Era_of_Magic\units\Summoners\Dispeller.cfg:60
 msgid "frozen gate"
 msgstr "portal helado"
 
-#. [unit_type]: id=EoMa_Camel_Master, race=eoma_summoner, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Camel_Master, race=eoma_summoner
 #: Era_of_Magic\units\Summoners\Camel_Master.cfg:4
 msgid "Camel Master"
 msgstr "Maestro camellero"
 
+#. [unit_type]: id=EoMa_Camel_Master, race=eoma_summoner
+#: Era_of_Magic\units\Summoners\Camel_Master.cfg:19
+msgid ""
+"A Camel Master represents the pinnacle of excellence among camel riders, "
+"boasting unparalleled prowess with deadly scimitars and lightning-fast "
+"agility on their mounts. These masters hold the highest regard within their "
+"respective communities and are frequently sought out to lead smaller "
+"contingents of less experienced riders into battle. Their exceptional skills "
+"and dedication have earned them the highest ranks within their societies, "
+"and they are considered among the most formidable warriors in the land."
+msgstr ""
+
 #. [attack]: type=blade
-#: Era_of_Magic\units\Summoners\Camel_Master.cfg:42
+#: Era_of_Magic\units\Summoners\Camel_Master.cfg:48
 #: Era_of_Magic\units\Summoners\Camel_Rider.cfg:46
-#: Era_of_Magic\units\Summoners\Elite_Camel_Rider.cfg:40
-#: Era_of_Magic\units\Summoners\Grand_Summoner.cfg:188
-#: Era_of_Magic\units\Summoners\Heavy_Summoner.cfg:215
-#: Era_of_Magic\units\Summoners\Neutral_Summoner.cfg:189
+#: Era_of_Magic\units\Summoners\Elite_Camel_Rider.cfg:45
+#: Era_of_Magic\units\Summoners\Grand_Summoner.cfg:180
+#: Era_of_Magic\units\Summoners\Heavy_Summoner.cfg:218
+#: Era_of_Magic\units\Summoners\Neutral_Summoner.cfg:186
 #: Era_of_Magic\units\Summoners\Novice_Summoner.cfg:59
 #: Era_of_Magic\units\Summoners\Summoner.cfg:45
 msgid "scimitar"
 msgstr "cimitarra"
 
 #. [attack]: type=blade
-#: Era_of_Magic\units\Summoners\Camel_Master.cfg:51
+#: Era_of_Magic\units\Summoners\Camel_Master.cfg:57
 #: Era_of_Magic\units\Summoners\Camel_Rider.cfg:55
-#: Era_of_Magic\units\Summoners\Elite_Camel_Rider.cfg:49
+#: Era_of_Magic\units\Summoners\Elite_Camel_Rider.cfg:54
 msgid "scimitar throw"
 msgstr "almarada"
 
@@ -5525,14 +5566,14 @@ msgstr ""
 "planea por los aires con tan poco esfuerzo como cualquier pájaro."
 
 #. [attack]: type=pierce
-#: Era_of_Magic\units\Summoners\Carpet_Master.cfg:39
-#: Era_of_Magic\units\Summoners\Carpet_Rider.cfg:48
+#: Era_of_Magic\units\Summoners\Carpet_Master.cfg:43
+#: Era_of_Magic\units\Summoners\Carpet_Rider.cfg:46
 msgid "irritant powder"
 msgstr "polvos irritantes"
 
 #. [attack]: type=cold
-#: Era_of_Magic\units\Summoners\Carpet_Master.cfg:51
-#: Era_of_Magic\units\Summoners\Carpet_Rider.cfg:66
+#: Era_of_Magic\units\Summoners\Carpet_Master.cfg:55
+#: Era_of_Magic\units\Summoners\Carpet_Rider.cfg:64
 msgid "magical powder"
 msgstr "polvo mágico"
 
@@ -5605,28 +5646,28 @@ msgstr ""
 "oposición con facilidad."
 
 #. [attack]: type=blade
-#: Era_of_Magic\units\Summoners\Dharma_rhami.cfg:56
-#: Era_of_Magic\units\Summoners\Rhami_datu.cfg:57
+#: Era_of_Magic\units\Summoners\Dharma_rhami.cfg:61
+#: Era_of_Magic\units\Summoners\Rhami_datu.cfg:63
 #: Era_of_Magic\units\Tharis\Sword_Dancer.cfg:36
 msgid "swords"
 msgstr "espadas"
 
 #. [attack]: type=pierce
 #. [attack]: type=blade
-#: Era_of_Magic\units\Summoners\Dharma_rhami.cfg:69
-#: Era_of_Magic\units\Summoners\Rhami_kai.cfg:46
-#: Era_of_Magic\units\Summoners\Rhami_kai.cfg:58
+#: Era_of_Magic\units\Summoners\Dharma_rhami.cfg:74
+#: Era_of_Magic\units\Summoners\Rhami_kai.cfg:57
+#: Era_of_Magic\units\Summoners\Rhami_kai.cfg:69
 msgid "divine spear"
 msgstr "lanza divina"
 
 #. [attack]: type=impact
-#: Era_of_Magic\units\Summoners\Dharma_rhami.cfg:81
+#: Era_of_Magic\units\Summoners\Dharma_rhami.cfg:86
 msgid "tackle"
 msgstr "polea"
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Summoners\Dharma_rhami.cfg:94
-#: Era_of_Magic\units\Summoners\Rhami_datu.cfg:70
+#: Era_of_Magic\units\Summoners\Dharma_rhami.cfg:99
+#: Era_of_Magic\units\Summoners\Rhami_datu.cfg:76
 msgid "cup of fire"
 msgstr "cáliz de fuego"
 
@@ -5817,16 +5858,16 @@ msgstr ""
 #. [attack]: type=fire
 #. [attack]: type=arcane
 #. [attack]: type=cold
-#: Era_of_Magic\units\Summoners\Efreeti.cfg:67
-#: Era_of_Magic\units\Summoners\Great_Efreeti.cfg:69
-#: Era_of_Magic\units\Summoners\Great_Jinni.cfg:85
-#: Era_of_Magic\units\Summoners\Jinni.cfg:95
-#: Era_of_Magic\units\Summoners\Mystical_Jinni.cfg:117
-#: Era_of_Magic\units\Summoners\Mystical_Jinni.cfg:130
-#: Era_of_Magic\units\Summoners\Mystical_Jinni.cfg:143
-#: Era_of_Magic\units\Summoners\Wonderful_Jinni.cfg:75
-#: Era_of_Magic\units\Summoners\Wonderful_Jinni.cfg:88
-#: Era_of_Magic\units\Summoners\Wonderful_Jinni.cfg:101
+#: Era_of_Magic\units\Summoners\Efreeti.cfg:78
+#: Era_of_Magic\units\Summoners\Great_Efreeti.cfg:79
+#: Era_of_Magic\units\Summoners\Great_Jinni.cfg:95
+#: Era_of_Magic\units\Summoners\Jinni.cfg:101
+#: Era_of_Magic\units\Summoners\Mystical_Jinni.cfg:127
+#: Era_of_Magic\units\Summoners\Mystical_Jinni.cfg:140
+#: Era_of_Magic\units\Summoners\Mystical_Jinni.cfg:153
+#: Era_of_Magic\units\Summoners\Wonderful_Jinni.cfg:85
+#: Era_of_Magic\units\Summoners\Wonderful_Jinni.cfg:98
+#: Era_of_Magic\units\Summoners\Wonderful_Jinni.cfg:111
 msgid "magic"
 msgstr "magia"
 
@@ -5973,13 +6014,13 @@ msgstr ""
 "tiene un 100% de probabilidades de acertar."
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Summoners\Grand_Summoner.cfg:206
-#: Era_of_Magic\units\Summoners\Summons_Master.cfg:233
+#: Era_of_Magic\units\Summoners\Grand_Summoner.cfg:198
+#: Era_of_Magic\units\Summoners\Summons_Master.cfg:169
 msgid "circle of destruction"
 msgstr "círculo de destrucción"
 
 #. [attack]: type=pierce
-#: Era_of_Magic\units\Summoners\Grand_Summoner.cfg:218
+#: Era_of_Magic\units\Summoners\Grand_Summoner.cfg:210
 msgid "scroll spell"
 msgstr "hechizo en pergamino"
 
@@ -6011,7 +6052,7 @@ msgstr ""
 "fuego infernal y sus tormentas de fuego devastadoras."
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Summoners\Great_Efreeti.cfg:81
+#: Era_of_Magic\units\Summoners\Great_Efreeti.cfg:91
 msgid "destruction"
 msgstr "destrucción"
 
@@ -6047,10 +6088,10 @@ msgstr ""
 "la vida, a pesar de la posición que ocupan."
 
 #. [attack]: type=blade
-#: Era_of_Magic\units\Summoners\Great_Jinni.cfg:73
-#: Era_of_Magic\units\Summoners\Mystical_Jinni.cfg:104
-#: Era_of_Magic\units\Summoners\Summons_Master.cfg:209
-#: Era_of_Magic\units\Summoners\Wonderful_Jinni.cfg:62
+#: Era_of_Magic\units\Summoners\Great_Jinni.cfg:83
+#: Era_of_Magic\units\Summoners\Mystical_Jinni.cfg:114
+#: Era_of_Magic\units\Summoners\Summons_Master.cfg:145
+#: Era_of_Magic\units\Summoners\Wonderful_Jinni.cfg:72
 msgid "magical scimitar"
 msgstr "cimitarra mágica"
 
@@ -6099,13 +6140,13 @@ msgid "Summon Rhami"
 msgstr "Invocar rami"
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Summoners\Heavy_Summoner.cfg:233
+#: Era_of_Magic\units\Summoners\Heavy_Summoner.cfg:236
 #: Era_of_Magic\units\Summoners\Summoner.cfg:63
 msgid "magic arrow"
 msgstr "flecha mágica"
 
 #. [attack]: type=pierce
-#: Era_of_Magic\units\Summoners\Heavy_Summoner.cfg:245
+#: Era_of_Magic\units\Summoners\Heavy_Summoner.cfg:248
 #: Era_of_Magic\units\Summoners\Novice_Summoner.cfg:77
 #: Era_of_Magic\units\Summoners\Summoner.cfg:75
 msgid "scroll"
@@ -6138,13 +6179,13 @@ msgstr ""
 
 #. [attack]: type=blade
 #. [attack]: type=pierce
-#: Era_of_Magic\units\Summoners\Ho_rhami.cfg:58
-#: Era_of_Magic\units\Summoners\Ho_rhami.cfg:70
+#: Era_of_Magic\units\Summoners\Ho_rhami.cfg:69
+#: Era_of_Magic\units\Summoners\Ho_rhami.cfg:81
 msgid "double divine spear"
 msgstr "doble lanza divina"
 
 #. [attack]: type=cold
-#: Era_of_Magic\units\Summoners\Ho_rhami.cfg:95
+#: Era_of_Magic\units\Summoners\Ho_rhami.cfg:106
 msgid "abyssal wind"
 msgstr "viento abisal"
 
@@ -6172,7 +6213,7 @@ msgstr ""
 "invocadores, con sus curiosos pensamientos siempre inquietos."
 
 #. [attack]: type=blade
-#: Era_of_Magic\units\Summoners\Jinni.cfg:83
+#: Era_of_Magic\units\Summoners\Jinni.cfg:89
 msgid "magical dagger"
 msgstr "daga mágica"
 
@@ -6232,7 +6273,7 @@ msgstr ""
 "- Genio Místico"
 
 #. [attack]: type=secret
-#: Era_of_Magic\units\Summoners\Mystical_Jinni.cfg:156
+#: Era_of_Magic\units\Summoners\Mystical_Jinni.cfg:166
 msgid "dimensional vortex"
 msgstr "vórtice dimensional"
 
@@ -6267,7 +6308,7 @@ msgid "Summon Jinn"
 msgstr "Invocar genio"
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Summoners\Neutral_Summoner.cfg:215
+#: Era_of_Magic\units\Summoners\Neutral_Summoner.cfg:212
 msgid "circle of balance"
 msgstr "círculo de balance"
 
@@ -6337,7 +6378,7 @@ msgstr ""
 "caídos."
 
 #. [attack]: type=blade
-#: Era_of_Magic\units\Summoners\Rhami.cfg:78
+#: Era_of_Magic\units\Summoners\Rhami.cfg:84
 msgid "sworddance"
 msgstr "danza de espadas"
 
@@ -6465,12 +6506,12 @@ msgstr ""
 "En derredor del invocador maestro, se cumplen milagros y deviene la ruina."
 
 #. [attack]: type=impact
-#: Era_of_Magic\units\Summoners\Summons_Master.cfg:221
+#: Era_of_Magic\units\Summoners\Summons_Master.cfg:157
 msgid "magical hammer"
 msgstr "martillo mágico"
 
 #. [attack]: type=secret
-#: Era_of_Magic\units\Summoners\Summons_Master.cfg:245
+#: Era_of_Magic\units\Summoners\Summons_Master.cfg:181
 msgid "incantation of power"
 msgstr "mantra de poder"
 
@@ -6599,7 +6640,7 @@ msgstr ""
 "las sombras del mundo."
 
 #. [attack]: type=secret
-#: Era_of_Magic\units\Summoners\Wonderful_Jinni.cfg:114
+#: Era_of_Magic\units\Summoners\Wonderful_Jinni.cfg:124
 msgid "ultra circle"
 msgstr "ultra círculo"
 
@@ -6611,27 +6652,33 @@ msgstr "Orbe negro"
 #. [unit_type]: id=EoMa_Black_Orb, race=mechanical
 #: Era_of_Magic\units\Tharis\Black_Orb.cfg:16
 msgid ""
-"'Black Orbs' are electricity-conducting crystal spheres, which have been "
-"animated by Great Warlocks, and are powered by occult magic. These flying "
-"creations are generally used for scouting, but can also zap opponents by "
-"applying fairly high voltage to their bodies on contact."
+"'Black Orbs' are electrically conductive crystal spheres that have been "
+"imbued with life by Great Warlocks. These magical constructs are capable of "
+"flight, thanks to the careful balance of energy within their hollow "
+"interiors. By channeling occult power from their masters, the Black Orbs can "
+"sustain themselves indefinitely, illuminated by a soft, ethereal glow.\n"
+"\n"
+"As scouting devices, the Black Orbs excel at detecting subtle changes in the "
+"environment, sensing even the faintest traces of magic or hidden foes. Their "
+"keen sensory abilities allow them to navigate unseen paths and avoid "
+"detection, making them indispensable tools for covert operations.\n"
+"\n"
+"When threatened, they can deliver a bolt of lightning-fast justice upon "
+"their enemies, unleashing a burst of dark energy stored within their "
+"crystalline structures that can even kill smaller targets."
 msgstr ""
-"Los 'orbes negros' son esferas de vidrio conductoras de la electricidad, las "
-"cuales han sido animadas por los grandes brujos, y están energizadas por "
-"magia oculta. Estas creaciones voladoras son generalmente usadas para la "
-"exploración, pero pueden también cargarse contra sus oponentes mediante la "
-"aplicación de un adecuado voltaje a sus cuerpos al entrar en contacto."
 
 #. [attack]: type=cold
-#: Era_of_Magic\units\Tharis\Black_Orb.cfg:202
+#: Era_of_Magic\units\Tharis\Black_Orb.cfg:206
 #: Era_of_Magic\units\Tharis\Dark_Observer.cfg:172
+#: Era_of_Magic\units\Tharis\Pain_Sphere.cfg:190
 #: Era_of_Magic\units\Tharis\Storm_Sphere.cfg:267
 #: Era_of_Magic\units\Tharis\Storm_Sphere_rpg.cfg:9
 msgid "touch"
 msgstr "toque"
 
 #. [attack]: type=cold
-#: Era_of_Magic\units\Tharis\Black_Orb.cfg:214
+#: Era_of_Magic\units\Tharis\Black_Orb.cfg:218
 #: Era_of_Magic\units\Tharis\Dark_Observer.cfg:184
 #: Era_of_Magic\units\Tharis\Storm_Sphere.cfg:279
 msgid "dark lightning"
@@ -6645,18 +6692,17 @@ msgstr "Bailarín de cuchillas"
 #. [unit_type]: id=EoMa_Bladedancer, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Blade_Dancer.cfg:19
 msgid ""
-"Tharis blade dancers are a rather eccentric type of troops, fighting using "
-"chakrams, and using potent psychedelic substances which tamper with their "
-"self-preservation instincts, resulting in a frenzied dancing fighting style. "
-"They are also quite agile, easily dodging most enemy counter-attacks, but "
-"are rather frail."
+"Tharis blade dancers are a distinctive and unorthodox type of trooper, known "
+"for their mesmerizing dance-like fighting style and their use of "
+"psychoactive substances to enhance their combat prowess. Armed with "
+"chakrams, these warriors weave complex patterns of movement and attack, "
+"striking with precision and speed while under the influence of mind-altering "
+"drugs. The result is a frenetic, almost otherworldly display of martial "
+"artistry that leaves their enemies bewildered and disoriented. However, "
+"despite their impressive combat skills, blade dancers are surprisingly "
+"fragile, requiring constant support and protection from their allies if they "
+"hope to survive the rigors of battle."
 msgstr ""
-"Los bailarines de cuchillas taris son un tipo de tropas más bien "
-"excéntricas, luchando con chakram, y poseedores de potentes psicotrópicos "
-"con los que se previenen de sus propios instintos de autoprotección, "
-"resultando un estilo de lucha de baile frenético. Además, son bastante "
-"ágiles, por tanto fácilmente esquivan la mayor parte de los contraataques "
-"enemigos, aunque son más bien frágiles."
 
 #. [unit_type]: id=EoMa_Bladefury, race=eoma_tharis, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Tharis\Bladefury.cfg:4
@@ -6711,13 +6757,17 @@ msgstr "Hidra caótica"
 #. [unit_type]: id=EoMa_Chaos_Hydra, race=monster
 #: Era_of_Magic\units\Tharis\Chaos_Hydra.cfg:19
 msgid ""
-"Chaos Hydras are the finest specimens of their kind, enhanced with black "
-"magic. These towering beasts devour infantry with ease, and sow fear in the "
-"enemy ranks."
+"The Chaos Hydra is a grotesque creation of dark sorcery, shaped by twisted "
+"rituals and arcane incantations designed to bring forth a weapon of "
+"destruction upon the mortal realm. Its imposing form looms over the "
+"battlefield, its massive body dwarfing even the bravest warriors. With each "
+"swing of its multiple heads, the Hydra leaves a trail of death and "
+"devastation in its wake, as if channeling the very essence of chaos itself. "
+"Its eyes glow with an otherworldly light, as if fueled by the malevolent "
+"energies that gave it life. It is a true terror of the battlefield, a "
+"relentless hunter with no regard for mercy or quarter, leaving nothing but "
+"ruin in its path."
 msgstr ""
-"Las hidras del caos son los mejores especímenes de su clase, mejorados con "
-"magia negra. Estas imponentes bestias devoran a la infantería con facilidad, "
-"y siembran el terror entre las filas enemigas."
 
 #. [attack]: type=pierce
 #: Era_of_Magic\units\Tharis\Chaos_Hydra.cfg:47
@@ -6751,8 +6801,8 @@ msgstr ""
 #. [attack]: type=pierce
 #: Era_of_Magic\units\Tharis\Crimson_Blade.cfg:49
 #: Era_of_Magic\units\Tharis\Crimson_Blade.cfg:61
-#: Era_of_Magic\units\Tharis\Frontliner.cfg:38
-#: Era_of_Magic\units\Tharis\Frontliner.cfg:49
+#: Era_of_Magic\units\Tharis\Frontliner.cfg:37
+#: Era_of_Magic\units\Tharis\Frontliner.cfg:48
 msgid "curved swords"
 msgstr "espadas curvas"
 
@@ -6764,18 +6814,17 @@ msgstr "Asesino oscuro"
 #. [unit_type]: id=EoMa_Dark_Assassin, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Dark_Assassin.cfg:23
 msgid ""
-"Dark Assassins can easily sneak around enemy troops unnoticed during night-"
-"time, and are able to easily eliminate enemy leaders, or wounded troops in "
-"the enemy rear. They are also more agile than your average infantry, being, "
-"almost as fast as cavalry, making them able to easily flee after exposing "
-"themselves."
+"The Dark Assassins are stealthy and deadly warriors who excel in covert "
+"operations during nighttime battles. With their expertise in camouflage and "
+"silent movement, they can effortlessly navigate through enemy lines "
+"undetected, striking fear into the hearts of their foes. Their lightning "
+"quick reflexes make them equally adept at eliminating enemy leaders or "
+"picking off weakened soldiers in the enemy's rear, catching them off guard "
+"and leaving them vulnerable to attack. As if their speed and agility weren't "
+"enough, these assassins are almost as nimble as cavalrymen, allowing them to "
+"quickly retreat from dangerous situations while maintaining the element of "
+"surprise."
 msgstr ""
-"Los asesinos oscuros pueden infiltrarse con facilidad entre las tropas "
-"enemigas durante la noche, y son capaces de eliminar con facilidad a los "
-"líderes enemigos, o a las tropas heridas que se encuentren en la retaguardia "
-"reposando y curándose. Son además más ágiles que la infantería media, siendo "
-"casi tan veloces como las tropas de caballería, permitiéndoles escapar con "
-"facilidad una vez expuestos al contraataque enemigo."
 
 #. [attack]: type=blade
 #. [attack]: type=pierce
@@ -6799,22 +6848,23 @@ msgstr "Comandante oscuro"
 #. [unit_type]: id=EoMa_Commander, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Dark_Commander.cfg:19
 msgid ""
-"Tharis warriors with enough experience and charisma eventually get promoted "
-"into 'commanders'. They personally charge into battle, in order to raise "
-"their troops' morale. When it comes to combat, they trade their enchanted "
-"daggers for spears, which they use for slashing. Curiously enough, their "
-"spears are actually magical staves with spearheads attached to them, "
-"allowing commanders to use basic fire magic against their enemies, without "
-"needing much actual skill with magic."
+"Tharis warriors who have proven themselves through bravery and leadership "
+"are often promoted to the rank of Dark Commander, exchanging their enchanted "
+"daggers for spears imbued with fire magic. These powerful individuals stand "
+"at least a head taller than their comrades, with broad shoulders and "
+"imposing physiques that command respect. Despite their fearsome appearance, "
+"however, Dark Commanders are known for their calm and collected demeanor on "
+"the battlefield, inspiring their followers with their confidence and "
+"authority.\n"
+"\n"
+"In addition to their prowess in melee combat, Dark Commanders possess a "
+"limited ability to wield basic fire magic. While they may not be adept at "
+"casting spells, they can still harness the power of flames to devastating "
+"effect by imbuing their spears with fiery energy unleashing explosive bursts "
+"of heat upon their enemies. With training and practice, they might even "
+"develop greater control over this aspect of their powers, becoming truly "
+"formidable mages on the battlefield."
 msgstr ""
-"Los guerreros taris con la suficiente experiencia y carisma finalmente son "
-"promocionados a 'comandantes'. Ellos mismos personalmente cargan a la "
-"batalla, con el objetivo de aumentar la moral de sus tropas. Cuando se trata "
-"de combatir, están encantados de intercambiar sus dagas por lanzas, las "
-"cuales usan para asestar puñaladas. Curiosamente, sus lanzas son en realidad "
-"bastones mágicos con puntas de lanza en las mismas, permitiendo así a los "
-"comandantes el uso básico de magia de fuego contra sus enemigos, sin "
-"necesidad de tener mucha habilidad real con la magia."
 
 #. [unit_type]: id=EoMa_Dark_Executioner, race=eoma_tharis, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Tharis\Dark_Executioner.cfg:4
@@ -6834,19 +6884,17 @@ msgstr "Cazador oscuro"
 #. [unit_type]: id=EoMa_Dark_Hunter, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Dark_Hunter.cfg:19
 msgid ""
-"Dark hunters are probably some of the best examples of what Tharis "
-"represents for other races. These silent killers can easily eliminate most "
-"kinds of enemy infantry, especially if there is a gap in their formation, "
-"but are less efficient against non-living enemies, since they are immune to "
-"the poisoned thrown daggers used by dark hunters."
+"Dark hunters embody everything that Tharis stands for - stealthy, deadly, "
+"and unrelenting. They move with a quiet grace, striking from the shadows "
+"like ghosts, taking down even the toughest foes with ease. Their training "
+"allows them to exploit any weakness in their opponents' defenses, whether it "
+"be a gap in their formation or a momentary lapse in concentration. Against "
+"living enemies, they are nearly unstoppable. However, their effectiveness "
+"against non-living enemies is more limited, as they are immune to the "
+"poisoned thrown daggers favored by dark hunters themselves. Despite this "
+"limitation, they remain one of the most feared and respected warrior classes "
+"in all of Tharis."
 msgstr ""
-"Los cazadores oscuros son probablemente algunos de los mejores ejemplos de "
-"lo que los taris representan para otras razas. Estos asesinos silenciosos "
-"pueden eliminar a la mayor parte de los tipos de infantería enemiga, "
-"especialmente si existe algún hueco en su formación, pero son menos "
-"eficientes contra enemigos no vivientes, ya que estos serán inmunes a los "
-"lanzamientos de dagas envenenadas que habitualmente acometen los cazadores "
-"oscuros."
 
 #. [unit_type]: id=EoMa_Dark_Observer, race=mechanical, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Tharis\Dark_Observer.cfg:4
@@ -6860,7 +6908,7 @@ msgstr "Matador oscuro"
 
 #. [attack]: type=blade
 #: Era_of_Magic\units\Tharis\Dark_Slayer.cfg:43
-#: Era_of_Magic\units\Tharis\Dark_Warrior.cfg:72
+#: Era_of_Magic\units\Tharis\Dark_Warrior.cfg:74
 msgid "daggers"
 msgstr "dagas"
 
@@ -6877,18 +6925,18 @@ msgstr "Guerrero oscuro"
 #. [unit_type]: id=EoMa_Dark_Warrior, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Dark_Warrior.cfg:20
 msgid ""
-"Dark warriors form the backbone of Tharis infantry. They attack lightning-"
-"fast, dealing multiple blows before the enemy can even blink. It's suspected "
-"that this trait of theirs is a result of enchantments placed on them by the "
-"best of Tharis magi, who themselves have been known for being able to stop "
-"time."
+"Dark warriors stand out among Tharis' soldiers due to their supernatural "
+"speed and agility in battle. While regular soldiers rely on brute strength "
+"and endurance to overpower their opponents, dark warriors move with an "
+"uncanny fluidity, striking swiftly and relentlessly as if time stood still.\n"
+"\n"
+"The enchantments that grant dark warriors their supernatural abilities are "
+"said to be imbued upon them by the most skilled magi in Tharis. These "
+"powerful magic users have the ability to manipulate time itself, allowing "
+"them to enhance the physical prowess and combat skills of their chosen "
+"warriors. As a result, dark warriors possess incredible reflexes, reaction "
+"times, and endurance, making them nearly unbeatable in close quarters combat."
 msgstr ""
-"Los guerreros oscuros forman la espina dorsal de la infantería taris. Atacan "
-"con la velocidad de los relámpagos, asestando múltiples golpes antes de que "
-"el enemigo pueda incluso parpadear. Se sospecha que este rasgo de los "
-"guerreros oscuros es el resultado de unos encantamientos puestos sobre ellos "
-"por los mejores de entre los magos taris, los cuales se conocen en tres "
-"ellos por ser capaces de detener el tiempo."
 
 #. [unit_type]: id=EoMa_Dark_Wizard, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Dark_Wizard.cfg:4
@@ -6898,22 +6946,17 @@ msgstr "Hechicero oscuro"
 #. [unit_type]: id=EoMa_Dark_Wizard, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Dark_Wizard.cfg:18
 msgid ""
-"Disciples with enough talent and luck eventually manage to ascend in the "
-"Tharis hierarchy, becoming apprentices of Great Warlocks, and some also "
-"deciding to teach disciples as a part-time job. Although they are still "
-"quite far from masters in terms of skill, they are a lot more powerful than "
-"disciples, as well as much closer to becoming great warlocks themselves. "
-"Their drastic rise in spellpower is partially caused by the fact that they "
-"are equipped with magical staves, which reinforce it."
+"Aspiring sorcerers who have honed their craft through dedication and merit "
+"gradually advance within the ranks of Tharis' arcane elite, assuming roles "
+"as apprentices under esteemed Great Warlocks. Some individuals, however, "
+"choose to supplement their main occupation by mentoring promising novices on "
+"a part-time basis. While still distant from the pinnacle of Great Warlock "
+"rank, Dark Wizards possess significantly increased magical prowess compared "
+"to their peers, bridging the gap towards eventual mastery. A crucial factor "
+"in their accelerated growth lies in their possession of potent magical "
+"staves, which amplify their innate abilities and hasten their ascent towards "
+"true mastery."
 msgstr ""
-"Los discípulos con el suficiente talento y suerte finalmente se las arreglan "
-"para ascender en la jerarquía taris, convirtiéndose en aprendices de los "
-"grandes brujos, y algunos también decidiendo enseñar a discípulos como "
-"trabajo a tiempo parcial. A pesar de que siguen estando bastante lejos de "
-"sus maestros en lo que respecta a habilidades, son mucho más poderosos que "
-"los discípulos, así como mucho más próximos a convertirse en grandes brujos. "
-"Su drástico aumento en poderes de invocación está en parte causado por el "
-"hecho de que están equipados con bastones mágicos, los cuales las refuerzan."
 
 #. [attack]: type=cold
 #: Era_of_Magic\units\Tharis\Dark_Wizard.cfg:53
@@ -6928,18 +6971,15 @@ msgstr "Discípulo"
 #. [unit_type]: id=EoMa_Disciple, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Disciple.cfg:19
 msgid ""
-"Dark Disciples are inexperienced practitioners of the occult. Every one of "
-"them aspires to become a Great Warlock someday, but only a select few "
-"actually succeed in earning that prestigious title in their lifetime. "
-"Although they only have their fists to defend themselves with in melee "
-"combat, their dark spells are not something to underestimate."
+"Neophytes in the shadowcraft, Dark Disciples are the fledgling adepts of "
+"Tharis, eagerly striving toward the loftiest heights of Great Warlockhood. "
+"Despite their limited prowess, these novice sorcerers possess a formidable "
+"arsenal of dark energies at their disposal, capable of inflicting "
+"devastating effects upon unsuspecting foes. Though their melee skills may be "
+"limited to mere fisticuffs, their clandestine arts make them a force to be "
+"reckoned with in close quarters, particularly when unleashing malevolent "
+"spells upon their opponents."
 msgstr ""
-"Los discípulos oscuros son practicantes de lo oculto, sin experiencia. Todos "
-"y cada uno de ellos aspira a convertirse algún día en un gran brujo, pero "
-"sólo unos pocos selectos al final tienen éxito en el ganarse tal prestigioso "
-"título en algún momento de su vida. A pesar de que para defenderse en el "
-"combate cuerpo a cuerpo sólo se valen de sus propios puños, sus oscuros "
-"conjuros no son algo a infravalorar."
 
 #. [unit_type]: id=EoMa_Frontliner, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Frontliner.cfg:4
@@ -6949,18 +6989,17 @@ msgstr "Primera línea"
 #. [unit_type]: id=EoMa_Frontliner, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Frontliner.cfg:19
 msgid ""
-"Unlike most Tharis troops, these warriors have been trained for direct "
-"combat rather than sneak tactics like poison or no counter attack "
-"techniques.\n"
-"They are noticeably more resilient than most, carrying two curved swords for "
-"melee combat and chakrams for ranged encounters."
+"Frontliners are a special caste of warriors distinguished by their "
+"preference for brutal, upfront combat. Unlike their fellow Tharis soldiers, "
+"who rely on stealth and subterfuge to gain the upper hand, Frontliners "
+"charge into battle with reckless abandon, relying on their superior strength "
+"and weaponry to obliterate any opposition. Equipped with dual curved swords "
+"crafted for maximum bloodletting, these warriors specialize in disabling "
+"their enemies with swift, decisive blows, leaving them vulnerable to "
+"subsequent attacks from behind. By clearing the path ahead of the main "
+"offensive force, Frontliners enable their comrades to advance with relative "
+"ease, making them indispensable in any military campaign."
 msgstr ""
-"A diferencia de la mayoría de las tropas Taris, estos guerreros han sido "
-"entrenados para el combate directo en lugar de tácticas furtivas como el "
-"veneno o técnicas de anti-contraataque.\n"
-"Son notablemente más resistentes que la mayoría, ya que llevan dos espadas "
-"curvas para el combate cuerpo a cuerpo y chakrams para los encuentros a "
-"distancia."
 
 #. [unit_type]: id=EoMa_Great_Hunter, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Great_Hunter.cfg:4
@@ -6970,19 +7009,32 @@ msgstr "Gran cazador"
 #. [unit_type]: id=EoMa_Great_Hunter, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Great_Hunter.cfg:18
 msgid ""
-"Dark Hunters who manage to prove themselves better than the rest are "
-"promoted into the ranks of Great Hunters. They can swiftly kill their foes "
-"in melee combat, and they also carry nets to entangle them."
+"The elite among Dark Hunters, those who have proven themselves superior to "
+"their peers, are elevated to the rank of Great Hunter. These exceptional "
+"warriors move with fluid grace, their blades flashing silver in the light of "
+"the full moon as they strike with deadly precision. But when it comes to "
+"capturing their prey, Great Hunters don't rely on crude traps or brute "
+"force. Instead, they employ sophisticated nets crafted from rare, silky "
+"threads that can ensnare even the most cunning of quarry."
 msgstr ""
-"Los cazadores oscuros que se las arreglen para probarse mejores que los "
-"demás son promocionados al rango de grandes cazadores. Pueden matar a sus "
-"enemigos rauda y velozmente en el combate cuerpo a cuerpo, y además llevan "
-"redes para ralentizarles."
 
-#. [unit_type]: id=EoMa_Raging_Hydra, race=monster, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Raging_Hydra, race=monster
 #: Era_of_Magic\units\Tharis\Great_Hydra.cfg:4
 msgid "Great Hydra"
 msgstr "Gran hidra"
+
+#. [unit_type]: id=EoMa_Raging_Hydra, race=monster
+#: Era_of_Magic\units\Tharis\Great_Hydra.cfg:18
+msgid ""
+"Risen from the depths of the underground tunnels like a nightmarish "
+"manifestation, this towering, mature Great Hydra brooks no opposition. Its "
+"sheer size and ferocity make it a terror beyond compare, with three twisted "
+"heads, each one seemingly more malevolent than the last, the beast stalks "
+"its prey with unrelenting determination, leaving a trail of destruction in "
+"its wake. Those who have witnessed this abomination up close live only to "
+"bear witness to its fury, their screams and pleas for mercy lost to the "
+"echoes of the caverns."
+msgstr ""
 
 #. [unit_type]: id=EoMa_Great_Warlock, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Great_Warlock.cfg:4
@@ -6992,37 +7044,35 @@ msgstr "Gran brujo"
 #. [unit_type]: id=EoMa_Great_Warlock, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Great_Warlock.cfg:21
 msgid ""
-"Becoming a Great Warlock is the dream of almost any Tharis mage. Their skill "
-"with black magic is superb. Great Warlocks have learned the secret of "
-"levitation, allowing them to move for long distances, as well as on "
-"unfavorable terrain. They are also a equipped with scythes, which are a "
-"ceremonial weapon of Tharis, and they are very skilled with martial arts. "
-"Their dark spells can easily devastate enemy forces, leaving no survivors "
-"most of the time."
+"To become a Great Warlock, the pinnacle of achievement for any Tharis mage, "
+"is a lifelong pursuit of mastery over the dark arts. These powerful "
+"practitioners possess unparalleled skill in black magic, able to wield it "
+"with precision and deadliness. The secret of levitation has been fully "
+"realized by Great Warlocks, enabling them to traverse vast distances with "
+"ease, even across treacherous terrain. As a symbol of their status and "
+"prowess, they carry ceremonial scythes, imbued with the power of the dark "
+"arts and used to devastating effect in battle. But it is not merely brute "
+"strength that distinguishes Great Warlocks; they are also accomplished "
+"strategists and tacticians. They can weave complex spell combinations, "
+"exploiting weaknesses in enemy defenses and catching them off guard. With "
+"each victory, their mastery grows, and their reputation spreads like "
+"wildfire throughout the realm."
 msgstr ""
-"Convertirse en un gran brujo es el sueño de casi cualquier mago taris. Su "
-"habilidad con la magia oscura es magnífica. Los grandes brujos han aprendido "
-"el secreto de la levitación, permitiéndoles moverse durante largas "
-"distancias, así como en terrenos poco favorables. Además están equipados con "
-"guadañas, las cuales son un arma ceremonial taris, y son muy duchos en las "
-"artes marciales. Los oscuros conjuros pueden causar con facilidad gran "
-"devastación entre las fuerzas enemigas, la mayor parte de las veces sin "
-"dejar supervivientes."
 
 #. [abilities]
-#: Era_of_Magic\units\Tharis\Great_Warlock.cfg:112
+#: Era_of_Magic\units\Tharis\Great_Warlock.cfg:109
 #: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:26
 msgid "Summon Dark Observer"
 msgstr "Invocar observador oscuro"
 
 #. [attack]: type=blade
-#: Era_of_Magic\units\Tharis\Great_Warlock.cfg:117
-#: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:183
+#: Era_of_Magic\units\Tharis\Great_Warlock.cfg:114
+#: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:180
 msgid "scythe"
 msgstr "guadaña"
 
 #. [attack]: type=impact
-#: Era_of_Magic\units\Tharis\Great_Warlock.cfg:147
+#: Era_of_Magic\units\Tharis\Great_Warlock.cfg:144
 msgid "lesser implosion"
 msgstr "implosión menor"
 
@@ -7034,16 +7084,15 @@ msgstr "Gran bruja"
 #. [unit_type]: id=EoMa_Great_Witch, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Great_Witch.cfg:19
 msgid ""
-"Great Witches, or 'ladies of torture', as they are often called in Tharis "
-"society - serve two purposes: versatile killers, and interrogators. Their "
-"strengthened bond with darkness allows them to inflict magical curses on "
-"their enemies, and makes the witches themselves even more cruel."
+"A Great Witch stands apart from her peers, her connection to the darkness at "
+"its most profound. This powerful sorceress has honed her craft through years "
+"of devotion and practice, weaving a tapestry of evil magic that strikes fear "
+"into the hearts of her foes. Her bond with the shadows grows stronger with "
+"each passing day, allowing her to imbue her spells with an intensity that "
+"borders on malevolence. The Great Witch's wrath is felt across the land, as "
+"she unleashes curse after curse upon her enemies, draining their strength "
+"and corrupting their minds."
 msgstr ""
-"Las grandes brujas, o 'señoras de la tortura', tal y como son a menudo "
-"denominadas en la sociedad de Taris, sirven a dos propósitos: los asesinatos "
-"versátiles, y la interrogación. Su reforzado enlace con la oscuridad les "
-"permite infligir maldiciones mágicas en sus enemigos, y hace a las brujas "
-"mismas incluso más crueles."
 
 #. [attack]: type=fire
 #: Era_of_Magic\units\Tharis\Great_Witch.cfg:46
@@ -7060,16 +7109,13 @@ msgstr "Hidra"
 #. [unit_type]: id=EoMa_Hydra, race=monster
 #: Era_of_Magic\units\Tharis\Hydra.cfg:19
 msgid ""
-"Raised in the deepest and darkest parts of the underground tunnels beneath "
-"the Tharis country, Hydras are regenerative, three-headed beasts, capable of "
-"harming several foes standing side by side at one swoop. Worse still, these "
-"water snakes are merely youths – mature hydras are even more terrifying..."
+"Bred in some of the most ominous reaches of the subterranean tunnels beneath "
+"Tharis, Hydras are relentless, three-headed abominations that boast the "
+"ability to maul multiple adversaries simultaneously, their venomous fangs "
+"sinking deeper with each successive strike. And yet, these juvenile beasts "
+"barely scratch the surface of their full potential; mature Hydras are said "
+"to be utterly unmatched in sheer ferocity and malice."
 msgstr ""
-"Criadas en las partes más profundas y oscuras de los túneles subterráneos "
-"bajo el país de Taris, las hidras son bestias regenerativas de tres cabezas, "
-"capaces de dañar a varios enemigos de un solo golpe. Peor aún, estas "
-"serpientes de agua no son más que crías: las hidras maduras son aún más "
-"aterradoras..."
 
 #. [unit_type]: id=EoMa_Master_of_Darkness, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:4
@@ -7079,31 +7125,26 @@ msgstr "Maestro de la oscuridad"
 #. [unit_type]: id=EoMa_Master_of_Darkness, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:21
 msgid ""
-"While the title of Great Warlock is undoubtedly very prestigious, it's "
-"strongly overshadowed by that of a Master of Darkness. The Master of "
-"Darkness is the Tharis monarch and a religious figure. Every century, the "
-"most powerful great warlocks are selected by the dark gods as candidates for "
-"the title, and have to venture into the cursed depths. The warlock who "
-"survives the rituals without completely losing his sanity is recognized as "
-"the leader. The dark gods grant him many powers, including the ability to "
-"cast spells that shatter even the most robust structures with ease, shrug "
-"off heavy plows like minor bruises, and dissipate into bats."
+"The title of Master of Darkness eclipses even that of Great Warlock, and "
+"holds immense prestige within the realm of Tharis. This exalted position is "
+"both political and religious, as the Master of Darkness serves as the "
+"supreme leader of its people. Once every decade, the Dark Council selects "
+"the most gifted Great Warlocks as contenders for the Mastership, subjecting "
+"them to trials of unspeakable horror deep within the accursed lands. Only he "
+"who emerges from these trials unscathed and sane of mind may claim the title "
+"of Master of Darkness. With the blessings of the dark gods, this chosen one "
+"gains access to abilities beyond those of mortal men, including the capacity "
+"to hurl spells that reduce entire structures to rubble with mere gestures, "
+"shrug off blows that would crush lesser mortals like insects, and transform "
+"into winged creatures at will. The true might of the Master of Darkness lies "
+"not in physical prowess alone, but in the dark energies he harnesses to "
+"shape reality itself."
 msgstr ""
-"Aunque el título de gran brujo es sin duda muy prestigioso, queda muy "
-"eclipsado por el de maestro de la oscuridad. El maestro de la oscuridad es "
-"el monarca de Taris y una figura religiosa. Cada siglo, los grandes brujos "
-"más poderosos son seleccionados por los dioses oscuros como candidatos al "
-"título, y tienen que aventurarse en las profundidades malditas. El brujo que "
-"sobrevive a los rituales sin perder completamente la cordura es reconocido "
-"como el líder. Los dioses oscuros le conceden muchos poderes, entre ellos la "
-"capacidad de lanzar hechizos que destrozarían con facilidad incluso las "
-"estructuras más robustas, menospreciar terribles impactos como si fueran "
-"contusiones menores, y disiparse en murciélagos."
 
 #. [attack]: type=cold
 #. [attack]: type=impact
-#: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:204
-#: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:216
+#: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:201
+#: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:213
 msgid "implosion"
 msgstr "implosión"
 
@@ -7115,19 +7156,18 @@ msgstr "Matriarca de la oscuridad"
 #. [unit_type]: id=EoMa_Matriarch_of_Darkness, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Matriarch_of_Darkness.cfg:23
 msgid ""
-"The title of 'Matriarch of Darkness' is the highest a witch can achieve. "
-"They are often considered female equivalents of Great Warlocks, which is not "
-"too far from truth, given their skill. They create dark auras around "
-"themselves, which weaken nearby enemy units, both physically, and mentally, "
-"as well as boosting fellow Tharis troops."
+"The title of 'Matriarch of Darkness' is the ultimate honorific for a witch, "
+"often matching the greatest warlocks in power and prestige. These enigmatic "
+"figures embody the essence of darkness itself, radiating malevolent energy "
+"that debilitates enemies on all levels. Their very presence creates a shroud "
+"of gloom around them, sapping the strength and will of those unfortunate "
+"enough to be near. The Matriarch's dark aura not only weakens foes, but also "
+"has the power to demoralize and disorient them, making them vulnerable to "
+"attack. By contrast, allied Tharis troops are invigorated by the Matriarch's "
+"shadowy presence, their resolve fortified and their combat prowess "
+"augmented. In short, the Matriarch of Darkness is a force to be reckoned "
+"with, her mastery over shadows unmatched in the annals of Tharis magic."
 msgstr ""
-"El título de 'matriarca de la oscuridad' es el mayor que una bruja puede "
-"alcanzar. A menudo son consideradas equivalentes femeninas de los grandes "
-"brujos, lo cual no está demasiado lejos de la realidad, dadas sus "
-"habilidades. Ellas crean auras oscuras alrededor de sí mismas, la cual "
-"debilita a las unidades leales cercanas, tanto físicamente, como "
-"mentalmente, a la par que aumenta el rendimiento de las tropas taris "
-"caóticas."
 
 #. [attack]: type=cold
 #: Era_of_Magic\units\Tharis\Matriarch_of_Darkness.cfg:72
@@ -7142,24 +7182,23 @@ msgstr "Matriarca del vacío"
 #. [unit_type]: id=EoMa_Matriarch_of_Emptiness, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Matriarch_of_Emptiness.cfg:23
 msgid ""
-"Matriarchs of Emptiness own powerful orbs of unknown origin, which contain "
-"strange entities, who gluttonously drain magical energy from the air, making "
-"spells cast into the area in reach of the orb pretty much useless. Such orbs "
-"also give their bearers some of their absorbed power (to heal the bearer's "
-"wounds, focusing some of the orb's collected energy onto enemies in a beam, "
-"as well as enchanting their weapon with life-draining properties) in "
-"exchange for the matriarchs carrying them to locations that haven't been "
-"drained yet."
+"The Matriarchs of Emptiness are powerful witches who possess mysterious orbs "
+"of unknown origin. These orbs are filled with strange entities that feed on "
+"magical energy in the environment, rendering spellcasting nearby futile. In "
+"addition, these orbs can channel some of the absorbed power back to the "
+"bearer, allowing them to heal themselves or imbue their weapons with life-"
+"draining properties.\n"
+"\n"
+"The origins of the orbs are shrouded in mystery, and there are many "
+"different stories about how they came to be. Some say that the orbs were "
+"created by ancient sorcerers who sought to harness the power of the void "
+"itself. Others claim that the orbs are actually fragments of a long-lost "
+"celestial body, imbued with the essence of emptiness. Still, others believe "
+"that the orbs are simply cursed artifacts, created through dark rituals and "
+"imbued with malevolent energy. Whatever their true nature, one thing is "
+"certain: the orbs are incredibly rare and highly prized by those who seek to "
+"wield their power."
 msgstr ""
-"Las matriarcas del vacío poseen poderosos orbes de origen desconocido, los "
-"cuales contienen entidades extrañas, que glotonamente drenan energía mágica "
-"del aire, haciendo bastante inútil la invocación de hechizos en la zona en "
-"alcance del orbe. Tales orbes además otorgan a sus portadoras una parte de "
-"dicho poder absorbido (para curar las heridas de la portadora, para enfocar "
-"una parte de la energía recolectada por el orbe hacia sus enemigos en forma "
-"de un haz de energía dañina, o para encantar su armamento con propiedades de "
-"drenaje de vida) en intercambio a que las matriarcas porten los orbes hacia "
-"lugares que no hayan sido drenados todavía."
 
 #. [unit_type]: id=EoMa_Cold_Matriarch, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Matriarch_of_Frost.cfg:4
@@ -7169,41 +7208,36 @@ msgstr "Matriarca del frío"
 #. [unit_type]: id=EoMa_Cold_Matriarch, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Matriarch_of_Frost.cfg:24
 msgid ""
-"Unlike their colleagues, some great witches prefer to abandon their home, "
-"and live as hermits in extremely cold and desolate parts of the world. After "
-"living for years in such environments, as well as performing dark rituals, "
-"they manage to obtain cold-manipulating powers. Although some decide to stay "
-"in their newfound home forever, most decide to rejoin the Tharis, driven by "
-"their bloodthirst, to participate in more crusades. These so-called "
-"'Matriarchs of Frost' are surrounded by a cold aura, which maintains "
-"temperatures that tend to be dangerous even for bystanders, not to mention "
-"those whom the aura's power is focused on. Given the already cold "
-"temperature, it makes cold spells cast nearby it even more harmful, and fire "
-"spells' power reduced to little. It's is also capable of freezing water into "
-"ice around them in the span of minutes."
+"Unlike their brethren, who prefer to dwell among others of their kind, these "
+"powerful witches choose to isolate themselves in remote, inhospitable "
+"regions of the world. Years of residing in such harsh environments, combined "
+"with intense study and practice of dark magic, grant them the ability to "
+"manipulate the very fabric of reality itself.\n"
+"\n"
+"Whenever one of these Matriarchs emerges from their seclusion, they exude a "
+"palpable chill that can drop temperatures to dangerously low levels, even in "
+"the midst of warm climates. This unnerving aura extends far beyond their "
+"physical presence, infusing the air with an icy energy that can petrify or "
+"freeze any living thing caught too close. The mere proximity to a Matriarch "
+"of Frost can cause water to solidify into ice crystals, rendering flames "
+"impotent against their will.\n"
+"\n"
+"Despite their fearsome reputation, the Matriarchs of Frost are not devoid of "
+"compassion. They periodically leave their glacial abodes to join the Tharis "
+"in their crusades, bringing forth a maelstrom of frigid chaos that shakes "
+"the foundations of the earth. In battle, they prove to be an unstoppable "
+"force, their powers amplified by the adrenaline and ferocity of combat. As "
+"long as they remain loyal to the Tharis, no foe stands a chance against the "
+"wrath of a Matriarch of Frost."
 msgstr ""
-"A diferencia de sus colegas, algunas de las grandes brujas prefieren "
-"abandonar su hogar y vivir como ermitañas en partes del mundo extremadamente "
-"frías y desoladoras. Tras vivir durante años en tales entornos, además de "
-"haber amaestrado rituales oscuros, se las han apañado para obtener poderes "
-"manipuladores del frío. Aunque algunas deciden quedarse para siempre en su "
-"nuevo hogar, muchas deciden reincorporarse a los taris, guiadas por su sed "
-"de sangre, para participar en más cruzadas. Estas así llamadas 'matriarcas "
-"del frío' están rodeadas de un aura fría, la cual se mantiene en "
-"temperaturas que pueden llegar a ser dañinas incluso para los presentes, "
-"aparte de aquellos en los que el poder del aura esté enfocado. Dada la "
-"temperatura ya de por sí fría, hace incluso más poderosos los hechizos de "
-"frío invocados en las cercanías, y del mismo modo reduce al mínimo el poder "
-"de los hechizos de fuego. Es además capaz de congelar el agua convirtiéndola "
-"en hielo alrededor de ellas en cuestión de unos minutos."
 
 #. [attack]: type=cold
-#: Era_of_Magic\units\Tharis\Matriarch_of_Frost.cfg:115
+#: Era_of_Magic\units\Tharis\Matriarch_of_Frost.cfg:119
 msgid "frozen spear"
 msgstr "lanza helada"
 
 #. [attack]: type=cold
-#: Era_of_Magic\units\Tharis\Matriarch_of_Frost.cfg:124
+#: Era_of_Magic\units\Tharis\Matriarch_of_Frost.cfg:128
 msgid "chill tempest"
 msgstr "tormenta helada"
 
@@ -7214,22 +7248,54 @@ msgstr "Matriarca del dolor"
 
 #. [attack]: type=impact
 #: Era_of_Magic\units\Tharis\Matriarch_of_Pain.cfg:37
-#: Era_of_Magic\units\Tharis\Pain_Mistress.cfg:33
+#: Era_of_Magic\units\Tharis\Pain_Mistress.cfg:37
 msgid "whip"
 msgstr "látigo"
 
 #. [attack]: type=fire
 #: Era_of_Magic\units\Tharis\Matriarch_of_Pain.cfg:51
 #: Era_of_Magic\units\Tharis\Matriarch_of_Pain_rpg.cfg:23
-#: Era_of_Magic\units\Tharis\Pain_Mistress.cfg:46
+#: Era_of_Magic\units\Tharis\Pain_Mistress.cfg:50
 #: Era_of_Magic\units\Tharis\Pain_Mistress_rpg.cfg:12
 msgid "pain"
 msgstr "dolor"
 
-#. [unit_type]: id=EoMa_Pain_Mistress, race=eoma_tharis, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Pain_Mistress, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Pain_Mistress.cfg:4
 msgid "Pain Mistress"
 msgstr "Ama del dolor"
+
+#. [unit_type]: id=EoMa_Pain_Mistress, race=eoma_tharis
+#: Era_of_Magic\units\Tharis\Pain_Mistress.cfg:20
+msgid ""
+"Pain Mistresses use physical violence and torture as tools to achieve "
+"spiritual enlightenment. They have a unique style of fighting using their "
+"long whips which allow them to deliver powerful blows from short distances "
+"while also inflicting intense pain upon their targets.\n"
+"\n"
+"In addition to their martial abilities, they are also highly intelligent and "
+"manipulative individuals who derive immense pleasure from causing suffering "
+"to others. As such, they often engage in sadistic activities such as "
+"kidnapping and torturing unsuspecting victims solely for the thrill of "
+"watching them suffer.\n"
+"\n"
+"Overall, Pain Mistresses represent one of the darkest corners of the occult "
+"world and should be approached with caution if encountered."
+msgstr ""
+
+#. [unit_type]: id=EoMa_Pain_Sphere, race=mechanical, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Tharis\Pain_Sphere.cfg:4
+#, fuzzy
+#| msgid "Storm Sphere"
+msgid "Pain Sphere"
+msgstr "Esfera de las tormentas"
+
+#. [attack]: type=impact
+#: Era_of_Magic\units\Tharis\Pain_Sphere.cfg:202
+#, fuzzy
+#| msgid "um blast"
+msgid "blast"
+msgstr "explosión um"
 
 #. [unit_type]: id=EoMa_Shadowblade, race=eoma_tharis, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Tharis\Shadowblade.cfg:4
@@ -7260,24 +7326,21 @@ msgstr "Bailarín de las espadas"
 #. [unit_type]: id=EoMa_Sworddancer, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Sword_Dancer.cfg:19
 msgid ""
-"It is no secret that a chakram's main drawback as a melee weapon is its "
-"short length. Thus, when they are able to, experienced blade dancers always "
-"switch to shortswords to solve this issue. They do still carry chakrams for "
-"ranged combat, though, which they have become better at. They still use the "
-"same psychedelic substances before combat, so their fighting style with "
-"swords isn't all that different from when they used chakrams. Their enhanced "
-"reflexes allow them to easily dodge most of enemy attacks, while mercilessly "
-"slicing their enemies into pieces."
+"The sword dancer is a formidable warrior known for their lightning-fast "
+"movements and deadly precision. While their primary weapon of choice may be "
+"shortswords, they are just as skilled with their trusty chakrams in ranged "
+"combat. These unique fighters have honed their skills through years of "
+"practice and training, and their bodies are attuned to the rhythm of battle. "
+"Before each fight, they indulge in a ritual involving psychedelic "
+"substances, heightening their senses and allowing them to move with "
+"superhuman speed and agility. With their enhanced reflexes and keen "
+"instincts, they can effortlessly dodge enemy attacks and strike back with "
+"deadly accuracy. But their prowess doesn't stop there - these warriors also "
+"possess some regenerative abilities similar to those of Great Warlocks, "
+"allowing them to heal themselves during battle and stay in the fight longer. "
+"The end result is a fearsome opponent who can outmaneuver even the most "
+"skilled foes."
 msgstr ""
-"No es ningún secreto que el principal inconveniente de un chakram como arma "
-"cuerpo a cuerpo es su corta longitud. Por eso, cuando pueden, los danzantes "
-"de espadas experimentados siempre cambian a espadas cortas para solucionar "
-"este problema. Sin embargo, siguen llevando chakrams para el combate a "
-"distancia, en el que han mejorado. Siguen utilizando las mismas sustancias "
-"psicodélicas antes del combate, por lo que su estilo de lucha con espadas no "
-"difiere mucho del que utilizaban cuando usaban chakrams. Sus reflejos "
-"mejorados les permiten esquivar fácilmente la mayoría de los ataques "
-"enemigos, mientras los cortan en pedazos sin piedad."
 
 #. [unit_type]: id=EoMa_Witch, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Witch.cfg:4
@@ -7287,20 +7350,17 @@ msgstr "Bruja"
 #. [unit_type]: id=EoMa_Witch, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Witch.cfg:20
 msgid ""
-"Tharis witches are the female acolytes of the darkness cult of Tharis. Each "
-"of them performs a blood ritual, which allows them to unleash barrages of "
-"small otherworldly flames on their foes. Curiously enough, these flames heal "
-"the witch proportionally to the pain inflicted. Unlike Disciples, who are "
-"unarmed, and rely entirely on their spells, witches carry curved spears, "
-"which they are fairly good with."
+"Tharis witches are powerful female acolytes of the dark cult of Tharis, "
+"tasked with unleashing devastating attacks upon their enemies. These "
+"practitioners of the arcane arts perform a sacred blood ritual, imbuing "
+"themselves with supernatural energies that allow them to unleash torrents of "
+"tiny, otherworldly flames upon their foes. This draining of life force not "
+"only weakens but also heals the witch in direct proportion to the suffering "
+"she inflicts upon her opponents. In contrast to the unarmed Disciples, who "
+"rely solely on their magical abilities, witches wield curved spears with "
+"deadly precision, showcasing their skill and versatility as warriors of "
+"darkness."
 msgstr ""
-"Las brujas taris son las acólitas femeninas del culto a la oscuridad de "
-"Taris. Cada una de ellas realiza un ritual sangriento, el cual les permite "
-"liberar bombardeos de pequeñas llamas extraterrestres sobre sus enemigos. "
-"Curiosamente, sin embargo, estas llamas curan a la bruja proporcionalmente "
-"al daño infligido. A diferencia de los discípulos, los cuales están "
-"desarmados y confían enteramente en sus hechizos, las brujas llevan lanzas "
-"curvas, con las cuales son bastante buenas y habilidosas."
 
 #. [race]: id=eoma_tharis, description={EOMA_FACTION_DESCR_THARIS}
 #: Era_of_Magic\units\units.cfg:5
@@ -7668,28 +7728,28 @@ msgstr ""
 "La cantidad de puntos de vida ganados:"
 
 #. [floating_text]
-#: Era_of_Magic\utils\abilities.cfg:562
+#: Era_of_Magic\utils\abilities.cfg:591
 msgid "+1 max hp"
 msgstr "+1 PV máx"
 
 #. [dummy]: id=eoma_split
-#: Era_of_Magic\utils\abilities.cfg:593
+#: Era_of_Magic\utils\abilities.cfg:621
 msgid "split"
 msgstr "división"
 
 #. [dummy]: id=eoma_split
-#: Era_of_Magic\utils\abilities.cfg:594
+#: Era_of_Magic\utils\abilities.cfg:622
 msgid "When dying this unit splits into 2 smaller versions of itself."
 msgstr ""
 "Cuando muere, esta unidad se divide en 2 versiones más pequeñas de sí misma."
 
 #. [dummy]: id=eoma_antishield
-#: Era_of_Magic\utils\abilities.cfg:625
+#: Era_of_Magic\utils\abilities.cfg:653
 msgid "anti-shield"
 msgstr "antiescudo"
 
 #. [dummy]: id=eoma_antishield
-#: Era_of_Magic\utils\abilities.cfg:626
+#: Era_of_Magic\utils\abilities.cfg:654
 msgid ""
 "This attack negates all possible resistances, thus the damage output is "
 "always constant."
@@ -7698,12 +7758,12 @@ msgstr ""
 "será constante."
 
 #. [dummy]: id=eoma_poisonousaura
-#: Era_of_Magic\utils\abilities.cfg:633
+#: Era_of_Magic\utils\abilities.cfg:661
 msgid "poisonous aura"
 msgstr "aura venenosa"
 
 #. [dummy]: id=eoma_poisonousaura
-#: Era_of_Magic\utils\abilities.cfg:634
+#: Era_of_Magic\utils\abilities.cfg:662
 msgid ""
 "All living non-magical enemy units adjacent to this unit lose 2 HP and "
 "become poisoned at the beginning of this unit's turn. If an enemy unit's HP "
@@ -7715,24 +7775,24 @@ msgstr ""
 "efecto, se mantendrá en 1."
 
 #. [dummy]: id=eoma_alterego
-#: Era_of_Magic\utils\abilities.cfg:700
+#: Era_of_Magic\utils\abilities.cfg:728
 #: Era_of_Magic\utils\abilities_rpg.cfg:285
 msgid "alter ego"
 msgstr "alter ego"
 
 #. [dummy]: id=eoma_alterego
-#: Era_of_Magic\utils\abilities.cfg:701
+#: Era_of_Magic\utils\abilities.cfg:729
 #: Era_of_Magic\utils\abilities_rpg.cfg:286
 msgid "At night this unit transforms into its alternative version."
 msgstr "Durante la noche esta unidad se transforma en su versión alternativa."
 
 #. [dummy]: id=eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:729
+#: Era_of_Magic\utils\abilities.cfg:757
 msgid "damage aura"
 msgstr "aura dañina"
 
 #. [dummy]: id=eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:730
+#: Era_of_Magic\utils\abilities.cfg:758
 msgid ""
 "This unit harms all adjacent enemies at the start of each turn by a certain "
 "amount of damage (affected by the ToD bonus), giving the unit experience for "
@@ -7743,12 +7803,12 @@ msgstr ""
 "del día), dando a la unidad experiencia por cada enemigo dañado o asesinado."
 
 #. [dummy]: id=lesser_eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:823
+#: Era_of_Magic\utils\abilities.cfg:851
 msgid "lesser damage aura"
 msgstr "aura dañina menor"
 
 #. [dummy]: id=lesser_eoma_damageaura{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:824
+#: Era_of_Magic\utils\abilities.cfg:852
 msgid ""
 "This unit harms all adjacent enemies at the start of each turn by a certain "
 "amount of damage (affected by the ToD bonus), without giving the unit "
@@ -7760,12 +7820,12 @@ msgstr ""
 "veneno, no puede matar."
 
 #. [damage]: id=eoma_immoblize
-#: Era_of_Magic\utils\abilities.cfg:918
+#: Era_of_Magic\utils\abilities.cfg:946
 msgid "immobilize"
 msgstr "inmoviliza"
 
 #. [damage]: id=eoma_immoblize
-#: Era_of_Magic\utils\abilities.cfg:919
+#: Era_of_Magic\utils\abilities.cfg:947
 msgid ""
 "When used offensively, units hit with this attack become unable to move for "
 "1 turn"
@@ -7774,12 +7834,12 @@ msgstr ""
 "por 1 turno"
 
 #. [damage]: id=eoma_dazzle
-#: Era_of_Magic\utils\abilities.cfg:1062
+#: Era_of_Magic\utils\abilities.cfg:1090
 msgid "dazzle"
 msgstr "deslumbrar"
 
 #. [damage]: id=eoma_dazzle
-#: Era_of_Magic\utils\abilities.cfg:1063
+#: Era_of_Magic\utils\abilities.cfg:1091
 msgid ""
 "When used offensively, units hit with this attack suffer a 35% reduction in "
 "damage and a 10% reduction in defenses for 1 turn"
@@ -7789,12 +7849,12 @@ msgstr ""
 "durante 1 turno"
 
 #. [dummy]: id=eoma_stun
-#: Era_of_Magic\utils\abilities.cfg:1208
+#: Era_of_Magic\utils\abilities.cfg:1236
 msgid "stun"
 msgstr "aturdir"
 
 #. [dummy]: id=eoma_stun
-#: Era_of_Magic\utils\abilities.cfg:1209
+#: Era_of_Magic\utils\abilities.cfg:1237
 msgid ""
 "This attack puts enormous pressure on the enemy, disrupting his ZOC if a hit "
 "is landed. Not active on defense. Does not work on units that do not have a "
@@ -7805,17 +7865,17 @@ msgstr ""
 "tengan ZdC."
 
 #. [unstore_unit]
-#: Era_of_Magic\utils\abilities.cfg:1245
+#: Era_of_Magic\utils\abilities.cfg:1273
 msgid "stunned"
 msgstr "aturdido"
 
 #. [dummy]: id=eoma_bloodlust{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1330
+#: Era_of_Magic\utils\abilities.cfg:1358
 msgid "bloodlust"
 msgstr "sed de sangre"
 
 #. [dummy]: id=eoma_bloodlust{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1331
+#: Era_of_Magic\utils\abilities.cfg:1359
 msgid ""
 "This unit gains hitpoints added to its current health whenever it kills a "
 "living unit. This ability works only on offense.\n"
@@ -7826,12 +7886,12 @@ msgstr ""
 "La cantidad de puntos de vida ganados:"
 
 #. [damage]: id=eoma_supercharge
-#: Era_of_Magic\utils\abilities.cfg:1406
+#: Era_of_Magic\utils\abilities.cfg:1434
 msgid "supercharge"
 msgstr "súpercarga"
 
 #. [damage]: id=eoma_supercharge
-#: Era_of_Magic\utils\abilities.cfg:1407
+#: Era_of_Magic\utils\abilities.cfg:1435
 msgid ""
 "When used offensively, this attack deals 150% damage to the target. It also "
 "causes this unit to take 150% damage from the target’s counterattack.\n"
@@ -7847,12 +7907,12 @@ msgstr ""
 "a la ubicación del oponente."
 
 #. [dummy]: id=eoma_scavenger{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1464
+#: Era_of_Magic\utils\abilities.cfg:1492
 msgid "scavenger"
 msgstr "carroñero"
 
 #. [dummy]: id=eoma_scavenger{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1465
+#: Era_of_Magic\utils\abilities.cfg:1493
 msgid ""
 "This unit gains some hitpoints added to its current health whenever an "
 "adjacent unit dies.\n"
@@ -7862,14 +7922,14 @@ msgstr ""
 "Cantidad de PV:"
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic\utils\abilities.cfg:1500
-#: Era_of_Magic\utils\abilities.cfg:1501
+#: Era_of_Magic\utils\abilities.cfg:1528
+#: Era_of_Magic\utils\abilities.cfg:1529
 msgid "dread"
 msgstr "horror"
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic\utils\abilities.cfg:1502
-#: Era_of_Magic\utils\abilities.cfg:1503
+#: Era_of_Magic\utils\abilities.cfg:1530
+#: Era_of_Magic\utils\abilities.cfg:1531
 msgid ""
 "When this attack is used offensively, this unit takes one third less damage "
 "in retaliation."
@@ -7878,14 +7938,14 @@ msgstr ""
 "menos de daño en el contraataque."
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic\utils\abilities.cfg:1513
-#: Era_of_Magic\utils\abilities.cfg:1514
+#: Era_of_Magic\utils\abilities.cfg:1541
+#: Era_of_Magic\utils\abilities.cfg:1542
 msgid "evade"
 msgstr "evadir"
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic\utils\abilities.cfg:1515
-#: Era_of_Magic\utils\abilities.cfg:1516
+#: Era_of_Magic\utils\abilities.cfg:1543
+#: Era_of_Magic\utils\abilities.cfg:1544
 msgid ""
 "When this attack is used offensively, this unit takes 25% less damage in "
 "retaliation."
@@ -7894,12 +7954,12 @@ msgstr ""
 "menos de daño en el contraataque."
 
 #. [damage]: id=eoma_magic_hardening
-#: Era_of_Magic\utils\abilities.cfg:1527
+#: Era_of_Magic\utils\abilities.cfg:1555
 msgid "magic hardening"
 msgstr "endurecimiento mágico"
 
 #. [damage]: id=eoma_magic_hardening
-#: Era_of_Magic\utils\abilities.cfg:1528
+#: Era_of_Magic\utils\abilities.cfg:1556
 msgid ""
 "While attacking, this unit will take 20% less fire/cold/arcane damage in "
 "retaliation."
@@ -7908,12 +7968,12 @@ msgstr ""
 "arcano en represalia."
 
 #. [dummy]: id=eoma_chaos_channeling
-#: Era_of_Magic\utils\abilities.cfg:1542
+#: Era_of_Magic\utils\abilities.cfg:1570
 msgid "chaos channelling"
 msgstr "canalizar caos"
 
 #. [dummy]: id=eoma_chaos_channeling
-#: Era_of_Magic\utils\abilities.cfg:1543
+#: Era_of_Magic\utils\abilities.cfg:1571
 msgid ""
 "When this unit dies a new Chaotic Observer unit is placed on the recall list "
 "of this unit's side."
@@ -7922,17 +7982,17 @@ msgstr ""
 "lista de reincorporación del bando de esta unidad."
 
 #. [floating_text]
-#: Era_of_Magic\utils\abilities.cfg:1563
+#: Era_of_Magic\utils\abilities.cfg:1591
 msgid "Recalling..."
 msgstr "Reincorporando..."
 
 #. [illuminates]: id=eoma_illuminates_weak
-#: Era_of_Magic\utils\abilities.cfg:1575
+#: Era_of_Magic\utils\abilities.cfg:1603
 msgid "illuminates (weak)"
 msgstr "ilumina (tenue)"
 
 #. [illuminates]: id=eoma_illuminates_weak
-#: Era_of_Magic\utils\abilities.cfg:1576
+#: Era_of_Magic\utils\abilities.cfg:1604
 msgid ""
 "This unit illuminates the surrounding area, making lawful units fight "
 "better, and chaotic units fight worse.\n"
@@ -7948,12 +8008,12 @@ msgstr ""
 "lugar de un 25%."
 
 #. [damage]: id=eoma_antimech{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1586
+#: Era_of_Magic\utils\abilities.cfg:1614
 msgid "anti-mech"
 msgstr "antimecha"
 
 #. [damage]: id=eoma_antimech{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:1587
+#: Era_of_Magic\utils\abilities.cfg:1615
 msgid ""
 "This attacks deals additional points of damage against mechanical units.\n"
 "Additional damage dealt:"
@@ -7962,12 +8022,12 @@ msgstr ""
 "Daño adicional:"
 
 #. [disable]: id=eoma_divine
-#: Era_of_Magic\utils\abilities.cfg:1600
+#: Era_of_Magic\utils\abilities.cfg:1628
 msgid "divine"
 msgstr "divino"
 
 #. [disable]: id=eoma_divine
-#: Era_of_Magic\utils\abilities.cfg:1601
+#: Era_of_Magic\utils\abilities.cfg:1629
 msgid ""
 "This attack will only be used against monsters, magical and undead beings."
 msgstr ""
@@ -7975,14 +8035,14 @@ msgstr ""
 "mágicas."
 
 #. [attacks]: id=eoma_swiftstrike
-#: Era_of_Magic\utils\abilities.cfg:1614
+#: Era_of_Magic\utils\abilities.cfg:1642
 #, fuzzy
 #| msgid "first strike"
 msgid "swift strike"
 msgstr "precede"
 
 #. [attacks]: id=eoma_swiftstrike
-#: Era_of_Magic\utils\abilities.cfg:1615
+#: Era_of_Magic\utils\abilities.cfg:1643
 #, fuzzy
 #| msgid ""
 #| "When this attack is used offensively, this unit takes 25% less damage in "
@@ -7992,6 +8052,21 @@ msgid ""
 msgstr ""
 "Cuando este ataque se utiliza ofensivamente, esta unidad recibe un cuarto "
 "menos de daño en el contraataque."
+
+#. [dummy]: id=eoma_pain_chaining
+#: Era_of_Magic\utils\abilities.cfg:1653
+#, fuzzy
+#| msgid "magic hardening"
+msgid "pain chaining"
+msgstr "endurecimiento mágico"
+
+#. [dummy]: id=eoma_pain_chaining
+#: Era_of_Magic\utils\abilities.cfg:1654
+msgid ""
+"When this unit attacks or is attacked, it reduces all physical resistances "
+"of all adjacent enemy units by 10%. This effect lasts only during active "
+"side's turn."
+msgstr ""
 
 #. [disable]: id=eoma_disable_in_rpg, description=
 #: Era_of_Magic\utils\abilities_rpg.cfg:6
@@ -8190,15 +8265,25 @@ msgstr ""
 "con el círculo de disipación, entran en combate, sus ataques hacen menos "
 "daño (−40% nivel 0, −30% nivel 1, −15% nivel 2, −10% nivel 3)."
 
-#: Era_of_Magic\utils\awe.cfg:134
+#: Era_of_Magic\utils\awe.cfg:128
+#, fuzzy
+#| msgid ""
+#| "This unit can frighten enemy units that are next to it, making them fight "
+#| "worse.\n"
+#| "\n"
+#| "There are units immune to effects of this ability. Awe does not work on:\n"
+#| "- undead units\n"
+#| "- mechanical units\n"
+#| "- magical units\n"
+#| "- fearless units\n"
+#| "- Tharis race\n"
+#| "- cyclops"
 msgid ""
 "This unit can frighten enemy units that are next to it, making them fight "
 "worse.\n"
 "\n"
 "There are units immune to effects of this ability. Awe does not work on:\n"
-"- undead units\n"
-"- mechanical units\n"
-"- magical units\n"
+"- undrainable units, for example undead, magical, mechanical\n"
 "- fearless units\n"
 "- Tharis race\n"
 "- cyclops"
@@ -8216,22 +8301,22 @@ msgstr ""
 "- Cíclopes"
 
 #. [leadership]: id=eoma_awe1
-#: Era_of_Magic\utils\awe.cfg:149
+#: Era_of_Magic\utils\awe.cfg:141
 msgid "awe 1"
 msgstr "terror 1"
 
 #. [leadership]: id=eoma_awe2
-#: Era_of_Magic\utils\awe.cfg:174
+#: Era_of_Magic\utils\awe.cfg:166
 msgid "awe 2"
 msgstr "terror 2"
 
 #. [leadership]: id=eoma_awe3
-#: Era_of_Magic\utils\awe.cfg:201
+#: Era_of_Magic\utils\awe.cfg:193
 msgid "awe 3"
 msgstr "terror 3"
 
 #. [leadership]: id=eoma_awe4
-#: Era_of_Magic\utils\awe.cfg:230
+#: Era_of_Magic\utils\awe.cfg:222
 msgid "awe 4"
 msgstr "terror 4"
 
@@ -8256,8 +8341,8 @@ msgstr ""
 #: Era_of_Magic\utils\banish.cfg:238 Era_of_Magic\utils\bonesplit.cfg:123
 #: Era_of_Magic\utils\bonesplit.cfg:176 Era_of_Magic\utils\bonesplit.cfg:223
 #: Era_of_Magic\utils\drone-upgrades.cfg:547
-#: Era_of_Magic\utils\recruit.cfg:124 Era_of_Magic\utils\recruit.cfg:160
-#: Era_of_Magic\utils\recruit.cfg:191 Era_of_Magic\utils\summon.cfg:243
+#: Era_of_Magic\utils\recruit.cfg:132 Era_of_Magic\utils\recruit.cfg:168
+#: Era_of_Magic\utils\recruit.cfg:199 Era_of_Magic\utils\summon.cfg:251
 msgid "+3 exp"
 msgstr "+3 exp"
 
@@ -8341,7 +8426,7 @@ msgstr ""
 #. [set_menu_item]: id=summon_{ID}, description= - 
 #: Era_of_Magic\utils\bonesplit.cfg:48
 #: Era_of_Magic\utils\drone-upgrades.cfg:456
-#: Era_of_Magic\utils\recruit.cfg:48 Era_of_Magic\utils\summon.cfg:65
+#: Era_of_Magic\utils\recruit.cfg:51 Era_of_Magic\utils\summon.cfg:68
 msgid "gold:"
 msgstr "oro:"
 
@@ -8353,8 +8438,8 @@ msgstr ""
 #. [message]: speaker=narrator
 #: Era_of_Magic\utils\bonesplit.cfg:256
 #: Era_of_Magic\utils\drone-upgrades.cfg:595
-#: Era_of_Magic\utils\recruit.cfg:208 Era_of_Magic\utils\statue-copy.cfg:357
-#: Era_of_Magic\utils\summon.cfg:264
+#: Era_of_Magic\utils\recruit.cfg:216 Era_of_Magic\utils\statue-copy.cfg:357
+#: Era_of_Magic\utils\summon.cfg:272
 msgid "Error"
 msgstr "Error"
 
@@ -8617,27 +8702,27 @@ msgstr ""
 "selecciona \"Activar aura\"."
 
 #. [set_menu_item]: id=eoma_chronoaura_menu
-#: Era_of_Magic\utils\chronoaura.cfg:67
+#: Era_of_Magic\utils\chronoaura.cfg:69
 msgid "Activate Aura (15 Gold)"
 msgstr "Activar aura (15 oro)"
 
 #. [message]: speaker=unit
-#: Era_of_Magic\utils\chronoaura.cfg:88
+#: Era_of_Magic\utils\chronoaura.cfg:90
 msgid "Activate aura? (15 Gold)"
 msgstr "¿Activar aura? (15 oro)"
 
 #. [print]
-#: Era_of_Magic\utils\chronoaura.cfg:143
+#: Era_of_Magic\utils\chronoaura.cfg:145
 msgid "Not enough gold to activate the aura!"
 msgstr "¡Usted no tiene oro suficiente para activar el aura!"
 
 #. [firststrike]: id=eoma_chronoauractive
-#: Era_of_Magic\utils\chronoaura.cfg:157
+#: Era_of_Magic\utils\chronoaura.cfg:159
 msgid "chrono aura (active)"
 msgstr "cronoaura (activa)"
 
 #. [firststrike]: id=eoma_chronoauractive
-#: Era_of_Magic\utils\chronoaura.cfg:158
+#: Era_of_Magic\utils\chronoaura.cfg:160
 msgid ""
 "This unit and all adjacent friendly units strike first and receive +15% "
 "chance to hit bonus, while all adjacent enemy units receive -15% chance to "
@@ -9379,6 +9464,33 @@ msgstr ""
 "\n"
 "Las unidades amigas adyacentes harán un 10% más de daño en batalla."
 
+#. [leadership]: id=leadership
+#: Era_of_Magic\utils\leaderships.cfg:139
+#, fuzzy
+#| msgid "racial leader"
+msgid "camel leadership"
+msgstr "líder racial"
+
+#. [leadership]: id=leadership
+#: Era_of_Magic\utils\leaderships.cfg:140
+#, fuzzy
+#| msgid ""
+#| "This unit can lead units of the same race as the owner of this ability "
+#| "that are next to it, making them fight better.\n"
+#| "\n"
+#| "Adjacent units of the same race will do more damage in battle (20% more)."
+msgid ""
+"This unit can lead camel riders of lower levels that are next to it, making "
+"them fight better.\n"
+"\n"
+"Adjacent camel riders will do more damage in battle (15% more)."
+msgstr ""
+"Esta unidad puede liderar a las unidades adyacentes de la misma raza que el "
+"propietario de esta habilidad, haciendo que luchen mejor.\n"
+"\n"
+"Las unidades adyacentes de la misma raza harán más daño en combate (un 20% "
+"más)."
+
 #. [dummy]: id=eoma_painabsorb{VALUE}
 #: Era_of_Magic\utils\pain_absorption.cfg:11
 msgid "pain absorption"
@@ -9448,17 +9560,17 @@ msgstr ""
 "\"reclutar\"."
 
 #. [message]: speaker=narrator
-#: Era_of_Magic\utils\recruit.cfg:209
+#: Era_of_Magic\utils\recruit.cfg:217
 msgid "I don't have enough gold. I am unable to recruit."
 msgstr "No tengo suficiente oro para reclutar."
 
 #. [set_menu_item]: id=recruit_zhelp
-#: Era_of_Magic\utils\recruit.cfg:220
+#: Era_of_Magic\utils\recruit.cfg:228
 msgid "Recruiting Help"
 msgstr "Ayuda de reclutamiento"
 
 #. [message]: speaker=narrator
-#: Era_of_Magic\utils\recruit.cfg:240
+#: Era_of_Magic\utils\recruit.cfg:248
 msgid ""
 "To recruit a unit right-click on hexes adjacent to a selected recruiter.\n"
 "\n"
@@ -9617,17 +9729,17 @@ msgstr ""
 "habilidad niega los efectos de la habilidad de aura fría."
 
 #. [resistance]: id=eoma_dauntless
-#: Era_of_Magic\utils\resistance.cfg:349
+#: Era_of_Magic\utils\resistance.cfg:352
 msgid "dauntless"
 msgstr "impávido"
 
 #. [resistance]: id=eoma_dauntless
-#: Era_of_Magic\utils\resistance.cfg:350
+#: Era_of_Magic\utils\resistance.cfg:353
 msgid "female^dauntless"
 msgstr "impávida"
 
 #. [resistance]: id=eoma_dauntless
-#: Era_of_Magic\utils\resistance.cfg:351
+#: Era_of_Magic\utils\resistance.cfg:354
 msgid ""
 "While attacking, this unit's resistances are doubled, up to a maximum of 50. "
 "Weaknesses are not affected."
@@ -9636,35 +9748,35 @@ msgstr ""
 "de 50. Las debilidades no alteran su valor."
 
 #. [resistance]: id=eoma_tenacity
-#: Era_of_Magic\utils\resistance.cfg:366
+#: Era_of_Magic\utils\resistance.cfg:369
 msgid "tenacity"
 msgstr "tenacidad"
 
 #. [resistance]: id=eoma_tenacity
-#: Era_of_Magic\utils\resistance.cfg:367
+#: Era_of_Magic\utils\resistance.cfg:370
 msgid "female^tenacity"
 msgstr "tenacidad"
 
 #. [resistance]: id=eoma_tenacity
-#: Era_of_Magic\utils\resistance.cfg:368
+#: Era_of_Magic\utils\resistance.cfg:371
 msgid "This unit’s vulnerabilities are halved when attacking."
 msgstr ""
 "Las vulnerabilidades de esta unidad se reducen a la mitad cuando se defiende."
 
 #. [resistance]: id=eoma_shielded
 #. [dummy]: id=eoma_shielded_special
-#: Era_of_Magic\utils\resistance.cfg:379
-#: Era_of_Magic\utils\resistance.cfg:392
+#: Era_of_Magic\utils\resistance.cfg:382
+#: Era_of_Magic\utils\resistance.cfg:395
 msgid "shielded"
 msgstr "blindado"
 
 #. [resistance]: id=eoma_shielded
-#: Era_of_Magic\utils\resistance.cfg:380
+#: Era_of_Magic\utils\resistance.cfg:383
 msgid "female^shielded"
 msgstr "blindada"
 
 #. [resistance]: id=eoma_shielded
-#: Era_of_Magic\utils\resistance.cfg:381
+#: Era_of_Magic\utils\resistance.cfg:384
 msgid ""
 "This unit gains +5% to all resistances, up to a maximum of 60%, when using a "
 "weapon with the 'shielded' special."
@@ -9673,7 +9785,7 @@ msgstr ""
 "cuando usa un arma con el especial 'blindado'."
 
 #. [dummy]: id=eoma_shielded_special
-#: Era_of_Magic\utils\resistance.cfg:393
+#: Era_of_Magic\utils\resistance.cfg:396
 msgid ""
 "This attack activates the 'shielded' ability of the unit applying the +5 "
 "resistance bonus to the owner."
@@ -9871,27 +9983,27 @@ msgstr ""
 "'invocar'."
 
 #. [dummy]: id=eoma_fastsummon
-#: Era_of_Magic\utils\summon.cfg:49
+#: Era_of_Magic\utils\summon.cfg:52
 msgid "fast summon"
 msgstr "invocación rápida"
 
 #. [dummy]: id=eoma_fastsummon
-#: Era_of_Magic\utils\summon.cfg:50
+#: Era_of_Magic\utils\summon.cfg:53
 msgid "This unit may move after summoning (but not attack)."
 msgstr "Esta unidad puede moverse tras invocar (pero no atacar)."
 
 #. [message]: speaker=narrator
-#: Era_of_Magic\utils\summon.cfg:265
+#: Era_of_Magic\utils\summon.cfg:273
 msgid "I have insufficient materials. I am unable to summon."
 msgstr "No tengo los materiales necesarios para invocar."
 
 #. [set_menu_item]: id=summon_zhelp
-#: Era_of_Magic\utils\summon.cfg:276
+#: Era_of_Magic\utils\summon.cfg:284
 msgid "Summoning Help"
 msgstr "Ayuda a la invocación"
 
 #. [message]: speaker=narrator
-#: Era_of_Magic\utils\summon.cfg:296
+#: Era_of_Magic\utils\summon.cfg:304
 msgid ""
 "To summon a unit right-click on hexes adjacent to a selected summoner.\n"
 "\n"
@@ -10019,6 +10131,330 @@ msgstr ""
 "Este ataque puede golpear a algunas unidades enemigas adyacentes al objetivo "
 "(hasta 3 unidades dañadas en total, dependiendo de la suerte).\n"
 "Esta habilidad no funciona en defensa ni contra unidades con frenesí."
+
+#~ msgid ""
+#~ "'Black Orbs' are electricity-conducting crystal spheres, which have been "
+#~ "animated by Great Warlocks, and are powered by occult magic. These flying "
+#~ "creations are generally used for scouting, but can also zap opponents by "
+#~ "applying fairly high voltage to their bodies on contact."
+#~ msgstr ""
+#~ "Los 'orbes negros' son esferas de vidrio conductoras de la electricidad, "
+#~ "las cuales han sido animadas por los grandes brujos, y están energizadas "
+#~ "por magia oculta. Estas creaciones voladoras son generalmente usadas para "
+#~ "la exploración, pero pueden también cargarse contra sus oponentes "
+#~ "mediante la aplicación de un adecuado voltaje a sus cuerpos al entrar en "
+#~ "contacto."
+
+#~ msgid ""
+#~ "Tharis blade dancers are a rather eccentric type of troops, fighting "
+#~ "using chakrams, and using potent psychedelic substances which tamper with "
+#~ "their self-preservation instincts, resulting in a frenzied dancing "
+#~ "fighting style. They are also quite agile, easily dodging most enemy "
+#~ "counter-attacks, but are rather frail."
+#~ msgstr ""
+#~ "Los bailarines de cuchillas taris son un tipo de tropas más bien "
+#~ "excéntricas, luchando con chakram, y poseedores de potentes psicotrópicos "
+#~ "con los que se previenen de sus propios instintos de autoprotección, "
+#~ "resultando un estilo de lucha de baile frenético. Además, son bastante "
+#~ "ágiles, por tanto fácilmente esquivan la mayor parte de los contraataques "
+#~ "enemigos, aunque son más bien frágiles."
+
+#~ msgid ""
+#~ "Chaos Hydras are the finest specimens of their kind, enhanced with black "
+#~ "magic. These towering beasts devour infantry with ease, and sow fear in "
+#~ "the enemy ranks."
+#~ msgstr ""
+#~ "Las hidras del caos son los mejores especímenes de su clase, mejorados "
+#~ "con magia negra. Estas imponentes bestias devoran a la infantería con "
+#~ "facilidad, y siembran el terror entre las filas enemigas."
+
+#~ msgid ""
+#~ "Dark Assassins can easily sneak around enemy troops unnoticed during "
+#~ "night-time, and are able to easily eliminate enemy leaders, or wounded "
+#~ "troops in the enemy rear. They are also more agile than your average "
+#~ "infantry, being, almost as fast as cavalry, making them able to easily "
+#~ "flee after exposing themselves."
+#~ msgstr ""
+#~ "Los asesinos oscuros pueden infiltrarse con facilidad entre las tropas "
+#~ "enemigas durante la noche, y son capaces de eliminar con facilidad a los "
+#~ "líderes enemigos, o a las tropas heridas que se encuentren en la "
+#~ "retaguardia reposando y curándose. Son además más ágiles que la "
+#~ "infantería media, siendo casi tan veloces como las tropas de caballería, "
+#~ "permitiéndoles escapar con facilidad una vez expuestos al contraataque "
+#~ "enemigo."
+
+#~ msgid ""
+#~ "Tharis warriors with enough experience and charisma eventually get "
+#~ "promoted into 'commanders'. They personally charge into battle, in order "
+#~ "to raise their troops' morale. When it comes to combat, they trade their "
+#~ "enchanted daggers for spears, which they use for slashing. Curiously "
+#~ "enough, their spears are actually magical staves with spearheads attached "
+#~ "to them, allowing commanders to use basic fire magic against their "
+#~ "enemies, without needing much actual skill with magic."
+#~ msgstr ""
+#~ "Los guerreros taris con la suficiente experiencia y carisma finalmente "
+#~ "son promocionados a 'comandantes'. Ellos mismos personalmente cargan a la "
+#~ "batalla, con el objetivo de aumentar la moral de sus tropas. Cuando se "
+#~ "trata de combatir, están encantados de intercambiar sus dagas por lanzas, "
+#~ "las cuales usan para asestar puñaladas. Curiosamente, sus lanzas son en "
+#~ "realidad bastones mágicos con puntas de lanza en las mismas, permitiendo "
+#~ "así a los comandantes el uso básico de magia de fuego contra sus "
+#~ "enemigos, sin necesidad de tener mucha habilidad real con la magia."
+
+#~ msgid ""
+#~ "Dark hunters are probably some of the best examples of what Tharis "
+#~ "represents for other races. These silent killers can easily eliminate "
+#~ "most kinds of enemy infantry, especially if there is a gap in their "
+#~ "formation, but are less efficient against non-living enemies, since they "
+#~ "are immune to the poisoned thrown daggers used by dark hunters."
+#~ msgstr ""
+#~ "Los cazadores oscuros son probablemente algunos de los mejores ejemplos "
+#~ "de lo que los taris representan para otras razas. Estos asesinos "
+#~ "silenciosos pueden eliminar a la mayor parte de los tipos de infantería "
+#~ "enemiga, especialmente si existe algún hueco en su formación, pero son "
+#~ "menos eficientes contra enemigos no vivientes, ya que estos serán inmunes "
+#~ "a los lanzamientos de dagas envenenadas que habitualmente acometen los "
+#~ "cazadores oscuros."
+
+#~ msgid ""
+#~ "Dark warriors form the backbone of Tharis infantry. They attack lightning-"
+#~ "fast, dealing multiple blows before the enemy can even blink. It's "
+#~ "suspected that this trait of theirs is a result of enchantments placed on "
+#~ "them by the best of Tharis magi, who themselves have been known for being "
+#~ "able to stop time."
+#~ msgstr ""
+#~ "Los guerreros oscuros forman la espina dorsal de la infantería taris. "
+#~ "Atacan con la velocidad de los relámpagos, asestando múltiples golpes "
+#~ "antes de que el enemigo pueda incluso parpadear. Se sospecha que este "
+#~ "rasgo de los guerreros oscuros es el resultado de unos encantamientos "
+#~ "puestos sobre ellos por los mejores de entre los magos taris, los cuales "
+#~ "se conocen en tres ellos por ser capaces de detener el tiempo."
+
+#~ msgid ""
+#~ "Disciples with enough talent and luck eventually manage to ascend in the "
+#~ "Tharis hierarchy, becoming apprentices of Great Warlocks, and some also "
+#~ "deciding to teach disciples as a part-time job. Although they are still "
+#~ "quite far from masters in terms of skill, they are a lot more powerful "
+#~ "than disciples, as well as much closer to becoming great warlocks "
+#~ "themselves. Their drastic rise in spellpower is partially caused by the "
+#~ "fact that they are equipped with magical staves, which reinforce it."
+#~ msgstr ""
+#~ "Los discípulos con el suficiente talento y suerte finalmente se las "
+#~ "arreglan para ascender en la jerarquía taris, convirtiéndose en "
+#~ "aprendices de los grandes brujos, y algunos también decidiendo enseñar a "
+#~ "discípulos como trabajo a tiempo parcial. A pesar de que siguen estando "
+#~ "bastante lejos de sus maestros en lo que respecta a habilidades, son "
+#~ "mucho más poderosos que los discípulos, así como mucho más próximos a "
+#~ "convertirse en grandes brujos. Su drástico aumento en poderes de "
+#~ "invocación está en parte causado por el hecho de que están equipados con "
+#~ "bastones mágicos, los cuales las refuerzan."
+
+#~ msgid ""
+#~ "Dark Disciples are inexperienced practitioners of the occult. Every one "
+#~ "of them aspires to become a Great Warlock someday, but only a select few "
+#~ "actually succeed in earning that prestigious title in their lifetime. "
+#~ "Although they only have their fists to defend themselves with in melee "
+#~ "combat, their dark spells are not something to underestimate."
+#~ msgstr ""
+#~ "Los discípulos oscuros son practicantes de lo oculto, sin experiencia. "
+#~ "Todos y cada uno de ellos aspira a convertirse algún día en un gran "
+#~ "brujo, pero sólo unos pocos selectos al final tienen éxito en el ganarse "
+#~ "tal prestigioso título en algún momento de su vida. A pesar de que para "
+#~ "defenderse en el combate cuerpo a cuerpo sólo se valen de sus propios "
+#~ "puños, sus oscuros conjuros no son algo a infravalorar."
+
+#~ msgid ""
+#~ "Unlike most Tharis troops, these warriors have been trained for direct "
+#~ "combat rather than sneak tactics like poison or no counter attack "
+#~ "techniques.\n"
+#~ "They are noticeably more resilient than most, carrying two curved swords "
+#~ "for melee combat and chakrams for ranged encounters."
+#~ msgstr ""
+#~ "A diferencia de la mayoría de las tropas Taris, estos guerreros han sido "
+#~ "entrenados para el combate directo en lugar de tácticas furtivas como el "
+#~ "veneno o técnicas de anti-contraataque.\n"
+#~ "Son notablemente más resistentes que la mayoría, ya que llevan dos "
+#~ "espadas curvas para el combate cuerpo a cuerpo y chakrams para los "
+#~ "encuentros a distancia."
+
+#~ msgid ""
+#~ "Dark Hunters who manage to prove themselves better than the rest are "
+#~ "promoted into the ranks of Great Hunters. They can swiftly kill their "
+#~ "foes in melee combat, and they also carry nets to entangle them."
+#~ msgstr ""
+#~ "Los cazadores oscuros que se las arreglen para probarse mejores que los "
+#~ "demás son promocionados al rango de grandes cazadores. Pueden matar a sus "
+#~ "enemigos rauda y velozmente en el combate cuerpo a cuerpo, y además "
+#~ "llevan redes para ralentizarles."
+
+#~ msgid ""
+#~ "Becoming a Great Warlock is the dream of almost any Tharis mage. Their "
+#~ "skill with black magic is superb. Great Warlocks have learned the secret "
+#~ "of levitation, allowing them to move for long distances, as well as on "
+#~ "unfavorable terrain. They are also a equipped with scythes, which are a "
+#~ "ceremonial weapon of Tharis, and they are very skilled with martial arts. "
+#~ "Their dark spells can easily devastate enemy forces, leaving no survivors "
+#~ "most of the time."
+#~ msgstr ""
+#~ "Convertirse en un gran brujo es el sueño de casi cualquier mago taris. Su "
+#~ "habilidad con la magia oscura es magnífica. Los grandes brujos han "
+#~ "aprendido el secreto de la levitación, permitiéndoles moverse durante "
+#~ "largas distancias, así como en terrenos poco favorables. Además están "
+#~ "equipados con guadañas, las cuales son un arma ceremonial taris, y son "
+#~ "muy duchos en las artes marciales. Los oscuros conjuros pueden causar con "
+#~ "facilidad gran devastación entre las fuerzas enemigas, la mayor parte de "
+#~ "las veces sin dejar supervivientes."
+
+#~ msgid ""
+#~ "Great Witches, or 'ladies of torture', as they are often called in Tharis "
+#~ "society - serve two purposes: versatile killers, and interrogators. Their "
+#~ "strengthened bond with darkness allows them to inflict magical curses on "
+#~ "their enemies, and makes the witches themselves even more cruel."
+#~ msgstr ""
+#~ "Las grandes brujas, o 'señoras de la tortura', tal y como son a menudo "
+#~ "denominadas en la sociedad de Taris, sirven a dos propósitos: los "
+#~ "asesinatos versátiles, y la interrogación. Su reforzado enlace con la "
+#~ "oscuridad les permite infligir maldiciones mágicas en sus enemigos, y "
+#~ "hace a las brujas mismas incluso más crueles."
+
+#~ msgid ""
+#~ "Raised in the deepest and darkest parts of the underground tunnels "
+#~ "beneath the Tharis country, Hydras are regenerative, three-headed beasts, "
+#~ "capable of harming several foes standing side by side at one swoop. Worse "
+#~ "still, these water snakes are merely youths – mature hydras are even more "
+#~ "terrifying..."
+#~ msgstr ""
+#~ "Criadas en las partes más profundas y oscuras de los túneles subterráneos "
+#~ "bajo el país de Taris, las hidras son bestias regenerativas de tres "
+#~ "cabezas, capaces de dañar a varios enemigos de un solo golpe. Peor aún, "
+#~ "estas serpientes de agua no son más que crías: las hidras maduras son aún "
+#~ "más aterradoras..."
+
+#~ msgid ""
+#~ "While the title of Great Warlock is undoubtedly very prestigious, it's "
+#~ "strongly overshadowed by that of a Master of Darkness. The Master of "
+#~ "Darkness is the Tharis monarch and a religious figure. Every century, the "
+#~ "most powerful great warlocks are selected by the dark gods as candidates "
+#~ "for the title, and have to venture into the cursed depths. The warlock "
+#~ "who survives the rituals without completely losing his sanity is "
+#~ "recognized as the leader. The dark gods grant him many powers, including "
+#~ "the ability to cast spells that shatter even the most robust structures "
+#~ "with ease, shrug off heavy plows like minor bruises, and dissipate into "
+#~ "bats."
+#~ msgstr ""
+#~ "Aunque el título de gran brujo es sin duda muy prestigioso, queda muy "
+#~ "eclipsado por el de maestro de la oscuridad. El maestro de la oscuridad "
+#~ "es el monarca de Taris y una figura religiosa. Cada siglo, los grandes "
+#~ "brujos más poderosos son seleccionados por los dioses oscuros como "
+#~ "candidatos al título, y tienen que aventurarse en las profundidades "
+#~ "malditas. El brujo que sobrevive a los rituales sin perder completamente "
+#~ "la cordura es reconocido como el líder. Los dioses oscuros le conceden "
+#~ "muchos poderes, entre ellos la capacidad de lanzar hechizos que "
+#~ "destrozarían con facilidad incluso las estructuras más robustas, "
+#~ "menospreciar terribles impactos como si fueran contusiones menores, y "
+#~ "disiparse en murciélagos."
+
+#~ msgid ""
+#~ "The title of 'Matriarch of Darkness' is the highest a witch can achieve. "
+#~ "They are often considered female equivalents of Great Warlocks, which is "
+#~ "not too far from truth, given their skill. They create dark auras around "
+#~ "themselves, which weaken nearby enemy units, both physically, and "
+#~ "mentally, as well as boosting fellow Tharis troops."
+#~ msgstr ""
+#~ "El título de 'matriarca de la oscuridad' es el mayor que una bruja puede "
+#~ "alcanzar. A menudo son consideradas equivalentes femeninas de los grandes "
+#~ "brujos, lo cual no está demasiado lejos de la realidad, dadas sus "
+#~ "habilidades. Ellas crean auras oscuras alrededor de sí mismas, la cual "
+#~ "debilita a las unidades leales cercanas, tanto físicamente, como "
+#~ "mentalmente, a la par que aumenta el rendimiento de las tropas taris "
+#~ "caóticas."
+
+#~ msgid ""
+#~ "Matriarchs of Emptiness own powerful orbs of unknown origin, which "
+#~ "contain strange entities, who gluttonously drain magical energy from the "
+#~ "air, making spells cast into the area in reach of the orb pretty much "
+#~ "useless. Such orbs also give their bearers some of their absorbed power "
+#~ "(to heal the bearer's wounds, focusing some of the orb's collected energy "
+#~ "onto enemies in a beam, as well as enchanting their weapon with life-"
+#~ "draining properties) in exchange for the matriarchs carrying them to "
+#~ "locations that haven't been drained yet."
+#~ msgstr ""
+#~ "Las matriarcas del vacío poseen poderosos orbes de origen desconocido, "
+#~ "los cuales contienen entidades extrañas, que glotonamente drenan energía "
+#~ "mágica del aire, haciendo bastante inútil la invocación de hechizos en la "
+#~ "zona en alcance del orbe. Tales orbes además otorgan a sus portadoras una "
+#~ "parte de dicho poder absorbido (para curar las heridas de la portadora, "
+#~ "para enfocar una parte de la energía recolectada por el orbe hacia sus "
+#~ "enemigos en forma de un haz de energía dañina, o para encantar su "
+#~ "armamento con propiedades de drenaje de vida) en intercambio a que las "
+#~ "matriarcas porten los orbes hacia lugares que no hayan sido drenados "
+#~ "todavía."
+
+#~ msgid ""
+#~ "Unlike their colleagues, some great witches prefer to abandon their home, "
+#~ "and live as hermits in extremely cold and desolate parts of the world. "
+#~ "After living for years in such environments, as well as performing dark "
+#~ "rituals, they manage to obtain cold-manipulating powers. Although some "
+#~ "decide to stay in their newfound home forever, most decide to rejoin the "
+#~ "Tharis, driven by their bloodthirst, to participate in more crusades. "
+#~ "These so-called 'Matriarchs of Frost' are surrounded by a cold aura, "
+#~ "which maintains temperatures that tend to be dangerous even for "
+#~ "bystanders, not to mention those whom the aura's power is focused on. "
+#~ "Given the already cold temperature, it makes cold spells cast nearby it "
+#~ "even more harmful, and fire spells' power reduced to little. It's is also "
+#~ "capable of freezing water into ice around them in the span of minutes."
+#~ msgstr ""
+#~ "A diferencia de sus colegas, algunas de las grandes brujas prefieren "
+#~ "abandonar su hogar y vivir como ermitañas en partes del mundo "
+#~ "extremadamente frías y desoladoras. Tras vivir durante años en tales "
+#~ "entornos, además de haber amaestrado rituales oscuros, se las han apañado "
+#~ "para obtener poderes manipuladores del frío. Aunque algunas deciden "
+#~ "quedarse para siempre en su nuevo hogar, muchas deciden reincorporarse a "
+#~ "los taris, guiadas por su sed de sangre, para participar en más cruzadas. "
+#~ "Estas así llamadas 'matriarcas del frío' están rodeadas de un aura fría, "
+#~ "la cual se mantiene en temperaturas que pueden llegar a ser dañinas "
+#~ "incluso para los presentes, aparte de aquellos en los que el poder del "
+#~ "aura esté enfocado. Dada la temperatura ya de por sí fría, hace incluso "
+#~ "más poderosos los hechizos de frío invocados en las cercanías, y del "
+#~ "mismo modo reduce al mínimo el poder de los hechizos de fuego. Es además "
+#~ "capaz de congelar el agua convirtiéndola en hielo alrededor de ellas en "
+#~ "cuestión de unos minutos."
+
+#~ msgid ""
+#~ "It is no secret that a chakram's main drawback as a melee weapon is its "
+#~ "short length. Thus, when they are able to, experienced blade dancers "
+#~ "always switch to shortswords to solve this issue. They do still carry "
+#~ "chakrams for ranged combat, though, which they have become better at. "
+#~ "They still use the same psychedelic substances before combat, so their "
+#~ "fighting style with swords isn't all that different from when they used "
+#~ "chakrams. Their enhanced reflexes allow them to easily dodge most of "
+#~ "enemy attacks, while mercilessly slicing their enemies into pieces."
+#~ msgstr ""
+#~ "No es ningún secreto que el principal inconveniente de un chakram como "
+#~ "arma cuerpo a cuerpo es su corta longitud. Por eso, cuando pueden, los "
+#~ "danzantes de espadas experimentados siempre cambian a espadas cortas para "
+#~ "solucionar este problema. Sin embargo, siguen llevando chakrams para el "
+#~ "combate a distancia, en el que han mejorado. Siguen utilizando las mismas "
+#~ "sustancias psicodélicas antes del combate, por lo que su estilo de lucha "
+#~ "con espadas no difiere mucho del que utilizaban cuando usaban chakrams. "
+#~ "Sus reflejos mejorados les permiten esquivar fácilmente la mayoría de los "
+#~ "ataques enemigos, mientras los cortan en pedazos sin piedad."
+
+#~ msgid ""
+#~ "Tharis witches are the female acolytes of the darkness cult of Tharis. "
+#~ "Each of them performs a blood ritual, which allows them to unleash "
+#~ "barrages of small otherworldly flames on their foes. Curiously enough, "
+#~ "these flames heal the witch proportionally to the pain inflicted. Unlike "
+#~ "Disciples, who are unarmed, and rely entirely on their spells, witches "
+#~ "carry curved spears, which they are fairly good with."
+#~ msgstr ""
+#~ "Las brujas taris son las acólitas femeninas del culto a la oscuridad de "
+#~ "Taris. Cada una de ellas realiza un ritual sangriento, el cual les "
+#~ "permite liberar bombardeos de pequeñas llamas extraterrestres sobre sus "
+#~ "enemigos. Curiosamente, sin embargo, estas llamas curan a la bruja "
+#~ "proporcionalmente al daño infligido. A diferencia de los discípulos, los "
+#~ "cuales están desarmados y confían enteramente en sus hechizos, las brujas "
+#~ "llevan lanzas curvas, con las cuales son bastante buenas y habilidosas."
 
 #~ msgid "area effect"
 #~ msgstr "colateral"
