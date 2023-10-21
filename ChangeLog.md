@@ -1,6 +1,42 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 4.3
+ ### Gameplay
+   * added 2 new units: Orcish Brawler, Savage Roc Rider, Pain Sphere
+   * disabled the 'summon' and 'recruit' abilities for leaders in Multiplayer
+   * added lvl3 salamanders to Masters' list of recruits
+ ### Units
+   * Darkblood Alliance:
+     * Black Salamander: cost from 33g to 37g
+     * Chosen of Forest: added the 'magic counter (offensive)' weapon special to all ranged attacks
+   * Destroyers:
+     * Cyclops Necromancer: XP from 100 to 150
+   * Sky Kingdom:
+     * Terramancer: hitpoints from 45g to 46g; cost from 29g to 28g
+     * Master of Earth: cost from 56g to 55g
+     * Mirrorshield: hitpoints from 55 to 56; changed solar regeneration main value from 3 to 4
+     * Sculptor: hitpoints from 44 to 45
+     * War Golem: cost from 37g to 36g
+   * Summoners:
+     * Novice Summoner: changed +precision to +precision (offensive) for the scroll attack and added +enchanted weapon special
+     * Summoner: changed +precision to +precision (offensive) for the scroll attack and added +magical weapon special
+ ### Abilities
+   * added a new ability: Pain Chaining
+   * added a new ability: Camel Leadership
+ ### Graphics
+   * added 24fps standing animations for Summoners
+   * added 24fps healing animations for Abysmals (Jinn and Rhamis)
+ ### Descriptions
+   * added descriptions for: Divine Executor, Camel Master, Great Hydra, Pain Mistress
+   * improved descriptions of most Tharis units
+ ### Code
+   * fixed issues reported by units.wesnoth.org
+   * updated add-on's .pbl description
+  ### Translations
+   * updated EoMa_translation_template.pot and all .po files
+   * updated the Polish translation
+
 ## Version 4.2.1
  ### Units
    * Runemasters:
