@@ -1,6 +1,152 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 4.4
+ ### Gameplay
+   * added 4 new units: Roc Master (lvl3), Mechanical Wyrm (lvl3), Corrupted Hydra (lvl4), Hellish Hydra (lvl4)
+   * Mechanical Dragon is now a lvl4 unit
+   * removed Orcish Brawler and Savage Roc Rider from MP
+   * renamed Roc Master (lvl2) to Roc Tamer
+   * renamed Dwarvish Soldier to Dwarvish Commando
+   * in Masters era random leaderpool intentionally only includes lvl4s
+   * Wonderful Jinni can now be selected as a leader in Masters era
+   * removed Crimson Atokpi from the Masters leader list
+ ### Units
+   * Barbarians:
+     * Barbarian: decreased the ranged blade attack damage from 7-2 to 6-2
+     * Barbarian King: increased the melee blade attack damage from 15-4 to 16-4, removed the 'growing fury' weapon special
+     * Barbarian Lord: decreased the melee double-attack damage from 9-3 to 8-3
+     * Blood Warrior: increased the melee pierce attack damage from 8-2 to 9-2
+     * Cyclops Noble: XP from 95 to 100; added the 'drain' weapon special to the attack only ranged attack
+     * Cyclops Warmonger: XP from 230 to 200
+     * Goblin Raider: increased the ranged impact attack damage from 6-3 to 7-3; removed the 'first strike' special from ranged pierce attack
+     * Goblin Wizard: hitpoints from 36 to 40; removed the 'magic counter' special from the melee attack; increased cold ranged attack damage from 8-2 to 10-2;
+     * Goblin Wizard (RPG): removed the 'magic hardening' from all attacks
+     * Orcish Chieftain: recruiting an orc via the 'recruit' ability costs 13g instead of 14g
+     * Orcish Warbanner: XP from 88 to 78
+     * Orcish Warrior: decreased the ranged blade attack damage from 5-2 to 4-2
+     * Troll Sorcerer: XP from 57 to 54
+     * Troll Warbanner: replaced the 'first strike' special with 'skilled' for the melee attack
+   * Darkblood Alliance:
+     * Black Salamander: XP from 105 to 90
+     * Blue Salamander: XP from 105 to 90
+     * Chosen of Forest: increased fire restistance from 0 to 15%; removed 'magic counter' specials from all attacks
+     * Chosen of Marsh: increased fire resistance from 20 to 30%
+     * Clan Leader: XP from 110 to 100
+     * Green Salamander: XP from 105 to 90
+     * Jungle Champion: cost from 47 to 52
+     * Lava Salamander: replaced the 'magical (offensive)' with 'magical' for the attack with the 'attack only' special
+     * Lava Salamander (RPG): removed the 'magic counter' from the melee attack, changed attack damage to 8-3
+     * Red Salamander: XP from 105 to 90
+     * Saurian Assassin: cost from 48 to 55
+     * Shadow Salamander: removed 'magic counter' and 'first strike' specials from all attacks
+     * Temple Guard: cost from 48 to 53; increased arcane resistance from 40 to 50%; increased fire and cold resitance from 20 to 35%; increased the melee arcane attack damage from 9-3 to 10-3, removed 'first strike' and 'magic hardening' specials; replaced 'magical' and 'skilled' specials with one 'very skilled' special
+     * Yellow Salamander: XP from 105 to 90
+   * Destroyers:
+     * Atokpi Charger: increased the melee blade attack damage from 11-3 to 12-3; replaced 'precision' and 'skilled' specials with 'precision (cumulative)'
+     * Crimson Atokpi: increased the melee pierce attack damage from 16-2 to 18-2
+     * Crimson Atokpi (RPG): replaced the 'lesser revenge' special with 'skilled'
+     * Dark Portal: replaced the 'magical (defensive)' with 'magical' for all attacks with the 'defend only' special
+     * Devourer: XP from 170 to 150
+     * Extinct Cyclops Mage: XP from 220 to 210
+     * Harbinger: decreased the melee fire damage from 5-4 to 4-4, replaced the 'enchanted' special with 'magical'
+     * Infernal Vortex: replaced the 'magical (defensive)' with 'magical' for all attacks with the 'defend only' special
+     * Mara: XP from 117 to 107; removed the 'enchanted' special from the melee attack
+     * Obliterator: XP from 214 to 220
+     * Titania: increased the 'hit and run' value from 1 to 2 movepoints
+   * Kharos:
+     * Bishop: XP from 100 to 95
+     * Bronze Warrior: XP from 100 to 85
+     * Divine Executor: removed 'lesser revenge' and 'magic counter' specials from all attacks; increased the melee pierce attack damage from 11-4 to 12-4; increased the ranged melee arcane attack damage from 9-4 to 10-4
+     * Grand Kharosian Warbanner: replaced 'magical (offensive)' and 'enchanted' specials with 'magical' for the ranged attack
+     * Heavy Cavalry: XP from 90 to 86
+     * Inspired: hitpoints from 38 to 40; removed the 'first strike' special from all ranged attacks
+     * Inspired (RPG): removed the 'magic counter' special from all attacks; removed the 'magical' special from the last attack
+     * Impaler: increased the melee pierce attack damage from 10-3 to 11-3, removed the 'magic counter' special from the attack
+     * Kharos War Banner: XP from 100 to 95
+     * Kharosian Cataphract: hitpoints from 63 to 68; increased the 'growing fury' value from 1 to 2 for the melee impact attack; removed the melee pierce attack; increased the ranged pierce attack damage from 10-2 to 12-2
+     * Prophet of Light: replaced the 'magical' special with 'precision' for the ranged arcane attack
+     * Prophet of Light: replaced the 'magical (offensive)' special with 'magical' for the last attack
+     * Solar Master: replaced 'precision' and 'skilled' specials with 'precision (cumulative)'
+   * Runemasters:
+     * Battlecopter: removed the 'first strike' special from all attacks; replaced the 'precision (offensive)' special with 'very skilled'; increased blade resistance from -10% to +10%
+     * Constructor: replaced the 'repair +8' ability with 'repair +10'; changed drone build cost from 9 to 4g
+     * Drone: changed the behavior of Drone HP AMLAs
+     * Dwarvish Mobile Turret: increased the ranged impact attack damage from 15-1 to 16-1
+     * Dwarvish Rune Lord: replaced 'magical' and 'skilled' specials with one 'very skilled' special
+     * Dwarvish Runic Warrior: XP from 200 to 185
+     * Flying Fortress: now has the 'inspires 2' ability; removed the 'defend only' special from the melee pierce attack; removed the 'first strike' special from all ranged attacks
+     * Heavy Balloon: now has the 'inspires 1' ability; removed the 'defend only' special from the melee pierce attack, replaced the 'skilled' special with 'lesser revenge'; removed the 'first strike' special from all ranged attacks
+     * Mechanical Dragon: is now a lvl 4 unit
+     * Mobile Defensive Platform: removed 'lesser revenge' and 'first strike' specials from the 'split fire' attack; increased ranged impact attack damage from 21-1 to 23-1
+     * Red Steam Ulfserker: increased the regeneration value from 4 to 6; increased fire and cold resistances from 10 to 20%; removed the 'magic counter (offensive)' special
+     * Rune Artist: XP from 220 to 200
+     * Steamcopter: removed the 'marksman' special from the melee attack; removed the 'marksman' special from the melee attack; removed the 'first strike' special from the ranged attack
+     * Technocrat: hitpoints from 57 to 60; removed the 'first strike' special from the ranged pierce attack; replaced the 'precision (offensive)' with 'greater marksman' for the ranged impact attack
+     * Technologist: hitpoints from 42 to 44; removed the 'first strike' special from the ranged pierce attack; replaced the 'precision (offensive)' with 'greater marksman' for the ranged impact attack
+     * Trench Sweeper: the 'point blank' special deals 5 additional damage instead of 4; increased the ranged pierce attack damage from 16-2 to 17-2, removed the 'first strike' special
+   * Sky Kingdom:
+     * Aeromancer: removed the 'first strike' special from the 3-7 attack
+     * Architect: XP from 160 to 150; replaced the 'precision (offensive)' with 'precision' for the attack with the 'attack only' special
+     * Battle Eye: replaced the 'precision' special with 'precision (offensive)' and 'magical' for the ranged attack
+     * Chronomancer: replaced the 'first strike' special with 'skilled' for the melee attack
+     * Guru of Magic: remove the 'magic counter' from the melee attack
+     * Magical Eye: replaced the 'precision' special with 'precision (offensive)' and 'enchanted' for the ranged attack
+     * Master of Air: removed the 'first strike' special from the 4-8 attack
+     * Master of Earth: increased melee impact attack damage from 13-2 to 14-2; removed the 'first stike' special from the 4-9 attack
+     * Mystic Warrior: XP from 110 to 100; replaced the 'skilled' weapon special with 'marksman'
+     * Sculptor: XP from 100 to 93; replaced the 'magical (offensive)' with 'magical' for the attack with the 'attack only' special
+     * Shadow Mage: remove the 'magic counter' special from the melee attack
+     * Sky Guardian: replaced the 'skilled' weapon special with 'marksman'
+     * Terramancer: removed the 'first strike' special from the 4-5 attack
+     * Um: increase the ranged secret attack damage from 3-11 to 3-13; increase the ranged secret attack damage from 15-1 to 20-1
+   * Summoners:
+     * Air God: increased the ranged arcane attack damage from 11-3 to 12-3
+     * Camel Master: increased the melee blade attack damage from 10-3 to 11-3
+     * Carpet Rider: removed 'first strike' and 'defend only' specials from the melee attack
+     * Earth God: increased the regeneration value from 8 to 10; removed the shielded ability and weapon special; changed the melee impact attack damage from 12-3 to 18-2, added the 'stun' special to the attack
+     * Elite Camel Rider: XP from 95 to 88
+     * Great Efreeti: replaced the 'magical (offensive)' with 'magical' for the attack with the 'attack only' special
+     * Neutral Summoner: increased fire and cold resistances from 10% to 15%; removed the 'magic counter' special from all attacks
+     * Summons Master: replaced the 'magical' special with 'very skilled' for all melee attacks
+     * Water Avatar: XP from 82 to 75
+   * Tharis:
+     * Chaos Hydra: hitpoints from 78 to 80
+     * Crimson Blade: removed the 'first strike' special from the melee pierce attack
+     * Great Warlock: increased the ranged impact attack damage from 7-3 to 9-3
+     * Great Witch: XP from 100 to 93
+     * Master of Darkness: increased the ranged impact attack damage from 12-3 to 13-3
+     * Matriarch of Darkness: XP from 150 to 166; replaced the 'precision (offensive)' with 'precision' for the attack with the 'attack only' special
+     * Matriarch of Emptiness: XP from 150 to 166; replaced the 'enchanted' weapon special with 'magical' for the ranged secret attack
+     * Matriarch of Frost: XP from 150 to 166
+     * Matriarch of Pain: removed the 'first strike' special from the ranged fire attack
+     * Pain Mistress: XP from 95 to 90; removed the 'first strike' special from the ranged fire attack
+     * Pain Sphere: hitpoints from 42 to 43; removed the 'enchanted' special from the ranged impact attack
+     * Shadowblade: changed the melee blade attack damage from 8-4 to 15-2
+ ### Abilities
+   * added a new weapon special: very skilled (at least 70% cth)
+   * added a new weapon special: precision (cumulative) (at least 80% cth)
+   * made the 'divine' weapon special work on undrainable units and monsters
+   * replaced the 'activate drone' ability with the regular 'summon' ability
+   * renamed the 'complete repair (drone)' ability to 'upgrade drone'
+   * implemented specific 'upgrade drone (module)' abilities for various units
+   * expanded the list of units capable of installing drone upgrades
+ ### Graphics
+   * changed one of Bishop's ranged attack icons
+   * changed one of Prophet's of Light ranged attack icons
+ ### Descriptions
+   * improved the Era of Magic (Masters) description
+ ### Code 
+   * refactored the 'upgrade drone' ability (former 'complete repair')
+   * refactored the 'upgradable' ability
+   * refactored the 'alter ego' code to work with custom ToD
+   * fixed incorrect Fallen Goblin Sniper image
+   * moved unused units to a separate directory
+   * fixed some typos
+  ### Translations
+   * updated EoMa_translation_template.pot and all .po files
+   * updated the Polish translation
+
 ## Version 4.3
  ### Gameplay
    * added 2 new units: Orcish Brawler, Savage Roc Rider, Pain Sphere
