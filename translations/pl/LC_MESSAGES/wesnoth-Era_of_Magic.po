@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-11-24 15:55 UTC\n"
-"PO-Revision-Date: 2023-10-12 20:54+0200\n"
+"PO-Revision-Date: 2023-11-24 17:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl\n"
@@ -76,6 +76,15 @@ msgid ""
 "reduction) and intelligent traits. In some cases however (mainly units with "
 "lots of ranged strikes), the units may get other traits instead."
 msgstr ""
+"Wariant Ery Magii z jednostkami wyższego poziomu: liderzy 3-4 poziomu, z "
+"jednostkami 2 i 3 poziomu dostępnymi do rekrutacji. Nie jest uważany za "
+"zbalansowany.\n"
+"\n"
+"Uwaga: liderzy 3. poziomu w tym wariancie otrzymują cechę \"heroiczny\", "
+"która jest połączeniem cech siły, zręczności, odporności, szybkości (bez "
+"redukcji punktów życia) i inteligencji. Jednak w niektórych przypadkach "
+"(głównie w przypadku jednostek z dużą liczbą ataków dystansowych) jednostki "
+"mogą zamiast tego otrzymać inne cechy."
 
 #: Era_of_Magic\dependency-utils.cfg:14
 msgid ""
@@ -384,8 +393,7 @@ msgstr "Cyklop"
 
 #. [unit_type]: id=EoMa_Cyclops, race=eoma_cyclops
 #. [race]: id=eoma_cyclops
-#: Era_of_Magic\units\Barbarians\Cyclops.cfg:25
-#: Era_of_Magic\units\units.cfg:19
+#: Era_of_Magic\units\Barbarians\Cyclops.cfg:25 Era_of_Magic\units\units.cfg:19
 msgid ""
 "Cumbersome and lacking fine intellect, the Cyclops race had been driven near "
 "to extinction before becoming a part of the barbarian horde. Two centuries "
@@ -781,10 +789,8 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Roc_Tamer, race=eoma_roc
 #: Era_of_Magic\units\Barbarians\Roc_Tamer.cfg:4
-#, fuzzy
-#| msgid "Roc Master"
 msgid "Roc Tamer"
-msgstr "Mistrz Roków"
+msgstr "Poskramiacz Roków"
 
 #. [unit_type]: id=EoMa_Roc_Tamer, race=eoma_roc
 #: Era_of_Magic\units\Barbarians\Roc_Tamer.cfg:20
@@ -1180,8 +1186,7 @@ msgstr "Pomoc Ducha Lasu"
 
 #. [message]: speaker=narrator
 #: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:241
-#: Era_of_Magic\utils\bonesplit.cfg:287 Era_of_Magic\utils\recruit.cfg:247
-#: Era_of_Magic\utils\summon.cfg:303
+#: Era_of_Magic\utils\bonesplit.cfg:287 Era_of_Magic\utils\summon.cfg:303
 msgid "Help"
 msgstr "Pomoc"
 
@@ -1531,8 +1536,7 @@ msgstr "Duch Bagien"
 #. [dummy]: id=eoma_upgradable_kamikaze
 #. [effect]: type=fire
 #: Era_of_Magic\units\Dark_Blood_Alliance\Swamp_Spirit.cfg:111
-#: Era_of_Magic\utils\abilities.cfg:15
-#: Era_of_Magic\utils\drone-upgrades.cfg:50
+#: Era_of_Magic\utils\abilities.cfg:15 Era_of_Magic\utils\drone-upgrades.cfg:50
 #: Era_of_Magic\utils\drone-upgrades.cfg:310
 msgid "kamikaze"
 msgstr "kamikaze"
@@ -3012,7 +3016,7 @@ msgstr "Zbuduj Drona"
 #: Era_of_Magic\units\Runemasters\Constructor.cfg:39
 #: Era_of_Magic\units\Runemasters\Technician.cfg:36
 msgid "armor"
-msgstr ""
+msgstr "pancerz"
 
 #. [attack]: type=blade
 #: Era_of_Magic\units\Runemasters\Constructor.cfg:75
@@ -3116,8 +3120,7 @@ msgstr "Latający Dron"
 #. [unstore_unit]
 #: Era_of_Magic\units\Runemasters\Drone.cfg:444
 #: Era_of_Magic\units\Runemasters\Perfect_Drone.cfg:222
-#: Era_of_Magic\utils\abilities.cfg:57 Era_of_Magic\utils\abilities.cfg:85
-#: Era_of_Magic\utils\abilities.cfg:118
+#: Era_of_Magic\utils\abilities.cfg:57 Era_of_Magic\utils\abilities.cfg:118
 msgid "movepoints"
 msgstr "punkty ruchu"
 
@@ -3193,10 +3196,8 @@ msgstr "uderzenie kolbą"
 
 #. [unit_type]: id=EoMa_Dwarvish_Commando, race=dwarf, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Runemasters\Dwarvish_Commando.cfg:4
-#, fuzzy
-#| msgid "Dwarvish Cadet"
 msgid "Dwarvish Commando"
-msgstr "Krasnoludzki Kadet"
+msgstr "Krasnoludzki Komandos"
 
 #. [unit_type]: id=EoMa_Dwarvish_Gunner, race=dwarf, description=
 #: Era_of_Magic\units\Runemasters\Dwarvish_Gunner.cfg:4
@@ -3385,7 +3386,7 @@ msgstr ""
 #: Era_of_Magic\units\Runemasters\Mechanical_Dragon.cfg:49
 #: Era_of_Magic\units\Runemasters\Mechanical_Wyrm.cfg:47
 msgid "furnace"
-msgstr ""
+msgstr "piec"
 
 #. [attack]: type=fire
 #: Era_of_Magic\units\Runemasters\Mechanical_Dragon.cfg:77
@@ -3397,10 +3398,8 @@ msgstr "ognisty oddech"
 
 #. [unit_type]: id=EoMa_Mechanical_Wyrm, race=mechanical, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Runemasters\Mechanical_Wyrm.cfg:4
-#, fuzzy
-#| msgid "Mechanical Dragon"
 msgid "Mechanical Wyrm"
-msgstr "Mechaniczny Smok"
+msgstr "Mechaniczny Żmij"
 
 #. [unit_type]: id=EoMa_Mobile_Defensive_Platform, race=mechanical, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Runemasters\Mobile_Defensive_Platform.cfg:4
@@ -3481,10 +3480,8 @@ msgstr ""
 #: Era_of_Magic\units\Runemasters\Steam_Turboserker.cfg:52
 #: Era_of_Magic\units\Runemasters\Technocrat.cfg:36
 #: Era_of_Magic\units\Runemasters\Technologist.cfg:35
-#, fuzzy
-#| msgid "Install kamikaze module"
 msgid "kamikaze module"
-msgstr "Zainstaluj moduł kamikaze"
+msgstr "moduł kamikaze"
 
 #. [abilities]
 #. [dummy]: id=eoma_upgradable_berserk
@@ -3537,10 +3534,8 @@ msgstr "Artysta Runiczny"
 #: Era_of_Magic\units\Runemasters\Rune_Artist.cfg:30
 #: Era_of_Magic\units\Runemasters\Runemaster.cfg:24
 #: Era_of_Magic\units\Runemasters\Runesmith.cfg:43
-#, fuzzy
-#| msgid "rune aura"
 msgid "runearmor"
-msgstr "runiczna aura"
+msgstr "runiczny pancerz"
 
 #. [attack]: type=impact
 #: Era_of_Magic\units\Runemasters\Rune_Artist.cfg:35
@@ -3711,11 +3706,8 @@ msgstr "strzał z bliska"
 
 #. [damage]: id=eoma_pointblank
 #: Era_of_Magic\units\Runemasters\Trench_Sweeper.cfg:66
-#, fuzzy
-#| msgid ""
-#| "When used offensively, this attack deals +4 more damage to the target."
 msgid "When used offensively, this attack deals +5 more damage to the target."
-msgstr "Jeśli użyty ofensywnie, ten atak zadaje dodatkowe 4 punkty obrażeń."
+msgstr "Jeśli użyty ofensywnie, ten atak zadaje dodatkowe 5 punktów obrażeń."
 
 #. [unit_type]: id=EoMa_Mage_of_Air, race=human
 #: Era_of_Magic\units\Sky_Kingdom\Aeromancer.cfg:4
@@ -5534,7 +5526,7 @@ msgstr "+Harcownik; +30% XP"
 
 #. [advancement]: id=amla_standard
 #. [advancement]: id=eoma_amla_default_{ID}
-#: Era_of_Magic\units\Tharis\Chainlady.cfg:92 Era_of_Magic\utils\amla.cfg:26
+#: Era_of_Magic\units\Tharis\Chainlady.cfg:92
 msgid "Max HP bonus +3, Max XP +20%"
 msgstr "Bonus do maksymalnych punktów życia +3, MAX XP +30%"
 
@@ -5569,10 +5561,8 @@ msgstr "ugryzienie"
 
 #. [unit_type]: id=EoMa_Corrupted_Hydra, race=monster, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Tharis\Corrupted_Hydra.cfg:4
-#, fuzzy
-#| msgid "Corrupted Shaman"
 msgid "Corrupted Hydra"
-msgstr "Zdeprawowany Szaman"
+msgstr "Wynaturzona Hydra"
 
 #. [unit_type]: id=EoMa_Crimson_Blade, race=eoma_tharis, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Tharis\Crimson_Blade.cfg:4
@@ -5902,12 +5892,12 @@ msgstr "ogień wiedźm"
 #. [unit_type]: id=EoMa_Hellish_Hydra, race=monster, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Tharis\Hellish_Hydra.cfg:4
 msgid "Hellish Hydra"
-msgstr ""
+msgstr "Piekielna Hydra"
 
 #. [attack]: type=secret
 #: Era_of_Magic\units\Tharis\Hellish_Hydra.cfg:105
 msgid "devastating bite"
-msgstr ""
+msgstr "niszczycielskie ugryzienie"
 
 #. [unit_type]: id=EoMa_Hydra, race=monster
 #: Era_of_Magic\units\Tharis\Hydra.cfg:4
@@ -6374,7 +6364,7 @@ msgstr "Ta jednostka zawsze trafia cel ale za to jednocześnie ginie."
 
 #. [dummy]: id=eoma_hitandrun{VALUE}
 #. [dummy]: id=eoma_hitandrunspecial{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:41 Era_of_Magic\utils\abilities.cfg:100
+#: Era_of_Magic\utils\abilities.cfg:41
 msgid "hit and run"
 msgstr "uderz i uciekaj"
 
@@ -6715,14 +6705,12 @@ msgstr ""
 "Liczba uzyskanych punktów życia:"
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic\utils\abilities.cfg:1555
-#: Era_of_Magic\utils\abilities.cfg:1556
+#: Era_of_Magic\utils\abilities.cfg:1555 Era_of_Magic\utils\abilities.cfg:1556
 msgid "dread"
 msgstr "strach"
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic\utils\abilities.cfg:1557
-#: Era_of_Magic\utils\abilities.cfg:1558
+#: Era_of_Magic\utils\abilities.cfg:1557 Era_of_Magic\utils\abilities.cfg:1558
 msgid ""
 "When this attack is used offensively, this unit takes one third less damage "
 "in retaliation."
@@ -6731,14 +6719,12 @@ msgstr ""
 "jedną trzecią obrażeń mniej."
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic\utils\abilities.cfg:1568
-#: Era_of_Magic\utils\abilities.cfg:1569
+#: Era_of_Magic\utils\abilities.cfg:1568 Era_of_Magic\utils\abilities.cfg:1569
 msgid "evade"
 msgstr "unik"
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic\utils\abilities.cfg:1570
-#: Era_of_Magic\utils\abilities.cfg:1571
+#: Era_of_Magic\utils\abilities.cfg:1570 Era_of_Magic\utils\abilities.cfg:1571
 msgid ""
 "When this attack is used offensively, this unit takes 25% less damage in "
 "retaliation."
@@ -6820,15 +6806,12 @@ msgstr "niebiański"
 
 #. [disable]: id=eoma_divine
 #: Era_of_Magic\utils\abilities.cfg:1656
-#, fuzzy
-#| msgid ""
-#| "This attack will only be used against monsters, magical and undead beings."
 msgid ""
 "This attack will only be used against monsters and undrainable units such as "
 "magical and undead beings."
 msgstr ""
-"Ten atak może być użyty tylko przeciwko potworom, magicznym i nieumarłym "
-"istotom."
+"Ten atak może być użyty tylko przeciwko potworom oraz jednostkom, z których "
+"nie da się wyssać życia, tj. magicznym i nieumarłym istotom oraz mechanizmom."
 
 #. [attacks]: id=eoma_swiftstrike
 #: Era_of_Magic\utils\abilities.cfg:1672
@@ -7089,7 +7072,7 @@ msgid "awe 4"
 msgstr "strach 4"
 
 #. [damage]: id=eoma_banish
-#: Era_of_Magic\utils\banish.cfg:19 Era_of_Magic\utils\banish.cfg:20
+#: Era_of_Magic\utils\banish.cfg:19
 msgid "banish"
 msgstr "wygnanie"
 
@@ -7107,11 +7090,9 @@ msgstr ""
 "samym poziomie, zdolność nie zadziała."
 
 #. [unstore_unit]
-#: Era_of_Magic\utils\banish.cfg:238 Era_of_Magic\utils\bonesplit.cfg:123
-#: Era_of_Magic\utils\bonesplit.cfg:176 Era_of_Magic\utils\bonesplit.cfg:223
-#: Era_of_Magic\utils\drone-upgrades.cfg:591
-#: Era_of_Magic\utils\recruit.cfg:132 Era_of_Magic\utils\recruit.cfg:168
-#: Era_of_Magic\utils\recruit.cfg:199 Era_of_Magic\utils\summon.cfg:251
+#: Era_of_Magic\utils\banish.cfg:238 Era_of_Magic\utils\bonesplit.cfg:176
+#: Era_of_Magic\utils\drone-upgrades.cfg:591 Era_of_Magic\utils\recruit.cfg:132
+#: Era_of_Magic\utils\recruit.cfg:199
 msgid "+3 exp"
 msgstr "+3 doświadczenie"
 
@@ -7153,7 +7134,7 @@ msgstr ""
 "Krawienie samo w sobie nie może zabić jednostki."
 
 #. [unstore_unit]
-#: Era_of_Magic\utils\bleed.cfg:54 Era_of_Magic\utils\bleed.cfg:119
+#: Era_of_Magic\utils\bleed.cfg:54
 msgid "bleeding"
 msgstr "krwawi"
 
@@ -7177,25 +7158,23 @@ msgstr ""
 "która pojawia się po kliknięciu prawym przyciskiem myszy na jednostkę ze "
 "zdolnością \"rozdwojenia kości\"."
 
-#. [set_menu_item]: id=bonesplit_{ID}, description= - 
+#. [set_menu_item]: id=bonesplit_{ID}, description= -
 #. [set_menu_item]: id=completerepair
-#. [set_menu_item]: id=recruit_{ID}, description= - 
-#. [set_menu_item]: id=summon_{ID}, description= - 
+#. [set_menu_item]: id=recruit_{ID}, description= -
+#. [set_menu_item]: id=summon_{ID}, description= -
 #: Era_of_Magic\utils\bonesplit.cfg:48
-#: Era_of_Magic\utils\drone-upgrades.cfg:476
-#: Era_of_Magic\utils\recruit.cfg:51 Era_of_Magic\utils\summon.cfg:68
+#: Era_of_Magic\utils\drone-upgrades.cfg:476 Era_of_Magic\utils\recruit.cfg:51
 msgid "gold:"
 msgstr "złoto:"
 
-#. [set_menu_item]: id=bonesplit_{ID}, description= - 
+#. [set_menu_item]: id=bonesplit_{ID}, description= -
 #: Era_of_Magic\utils\bonesplit.cfg:48
 msgid "-10HP"
 msgstr "-10HP"
 
 #. [message]: speaker=narrator
 #: Era_of_Magic\utils\bonesplit.cfg:256
-#: Era_of_Magic\utils\drone-upgrades.cfg:599
-#: Era_of_Magic\utils\recruit.cfg:216 Era_of_Magic\utils\statue-copy.cfg:357
+#: Era_of_Magic\utils\drone-upgrades.cfg:599 Era_of_Magic\utils\recruit.cfg:216
 #: Era_of_Magic\utils\summon.cfg:272
 msgid "Error"
 msgstr "Błąd"
@@ -7272,17 +7251,13 @@ msgstr "Ten atak ma zawsze 80% szans na trafienie przeciwnika."
 
 #. [chance_to_hit]: id=eoma_precision_cumulative
 #: Era_of_Magic\utils\chancetohit.cfg:52
-#, fuzzy
-#| msgid "precision (offensive)"
 msgid "precision (cumulative)"
-msgstr "precyzja (ofensywa)"
+msgstr "precyzja (skumulowana)"
 
 #. [chance_to_hit]: id=eoma_precision_cumulative
 #: Era_of_Magic\utils\chancetohit.cfg:53
-#, fuzzy
-#| msgid "This attack always has a 80% chance to hit"
 msgid "This attack always has at least a 80% chance to hit"
-msgstr "Ten atak ma zawsze 80% szans na trafienie przeciwnika."
+msgstr "Ten atak ma zawsze co najmniej 80% szans na trafienie przeciwnika."
 
 #. [chance_to_hit]: id=eoma_marksman_greater
 #: Era_of_Magic\utils\chancetohit.cfg:62
@@ -7329,17 +7304,13 @@ msgstr "Ta jednostka ma zawsze najmniej 60% szans na trafienie przeciwnika."
 
 #. [chance_to_hit]: id=eoma_veryskilled
 #: Era_of_Magic\utils\chancetohit.cfg:107
-#, fuzzy
-#| msgid "skilled"
 msgid "very skilled"
-msgstr "umiejętny"
+msgstr "bardzo umiejętny"
 
 #. [chance_to_hit]: id=eoma_veryskilled
 #: Era_of_Magic\utils\chancetohit.cfg:108
-#, fuzzy
-#| msgid "This attack always has a minimum 60% chance to hit"
 msgid "This attack always has a minimum 70% chance to hit"
-msgstr "Ta jednostka ma zawsze najmniej 60% szans na trafienie przeciwnika."
+msgstr "Ta jednostka ma zawsze co najmniej 70% szans na trafienie przeciwnika."
 
 #. [chance_to_hit]: id=eoma_enchanted
 #: Era_of_Magic\utils\chancetohit.cfg:117
@@ -7639,10 +7610,8 @@ msgstr ""
 #. [dummy]: id=eoma_upgradedrone
 #: Era_of_Magic\utils\drone-upgrades.cfg:75
 #: Era_of_Magic\utils\drone-upgrades.cfg:448
-#, fuzzy
-#| msgid "upgradable"
 msgid "upgrade drone"
-msgstr "możliwy do udoskonalenia"
+msgstr "ulepszenie drona"
 
 #. [dummy]: id=eoma_upgradedrone_{MODULE}
 #: Era_of_Magic\utils\drone-upgrades.cfg:76
@@ -7723,10 +7692,8 @@ msgstr ""
 
 #. [set_menu_item]: id=completerepair
 #: Era_of_Magic\utils\drone-upgrades.cfg:476
-#, fuzzy
-#| msgid "Advance Drone"
 msgid "Upgrade Drone"
-msgstr "Zaawansowany Dron"
+msgstr "Ulepszenie Drona"
 
 #: Era_of_Magic\utils\faction_descriptions.cfg:4
 msgid ""
@@ -7922,7 +7889,7 @@ msgstr ""
 "Ilość odzyskanych punktów życia:"
 
 #. [regenerate]: id=eoma_regenerates{VALUE}
-#: Era_of_Magic\utils\healing.cfg:77 Era_of_Magic\utils\healing.cfg:92
+#: Era_of_Magic\utils\healing.cfg:77
 msgid "regenerates"
 msgstr "regeneruje się"
 
@@ -8478,8 +8445,7 @@ msgstr ""
 
 #. [resistance]: id=eoma_shielded
 #. [dummy]: id=eoma_shielded_special
-#: Era_of_Magic\utils\resistance.cfg:382
-#: Era_of_Magic\utils\resistance.cfg:395
+#: Era_of_Magic\utils\resistance.cfg:382 Era_of_Magic\utils\resistance.cfg:395
 msgid "shielded"
 msgstr "osłona"
 
@@ -8780,13 +8746,13 @@ msgstr "heroiczna"
 
 #. [trait]: id=eoma_elite
 #. [trait]: id=eoma_elite_alt
-#: Era_of_Magic\utils\traits.cfg:62 Era_of_Magic\utils\traits.cfg:97
+#: Era_of_Magic\utils\traits.cfg:62
 msgid "elite"
 msgstr "elitarny"
 
 #. [trait]: id=eoma_elite
 #. [trait]: id=eoma_elite_alt
-#: Era_of_Magic\utils\traits.cfg:63 Era_of_Magic\utils\traits.cfg:98
+#: Era_of_Magic\utils\traits.cfg:63
 msgid "female^elite"
 msgstr "elitarna"
 
