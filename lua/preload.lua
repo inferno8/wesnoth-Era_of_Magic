@@ -14,6 +14,20 @@ function wesnoth.wml_conditionals.EoMa_not_rpg()
 	return not wesnoth.wml_conditionals.EoMa_is_rpg()
 end
 
+function wesnoth.wml_conditionals.EoMa_is_unbalanced()
+	local id = wesnoth.scenario.era.id or ""
+	id = id:lower()
+	if id:find("unbalanced") then
+		return true
+	else
+		return false
+	end
+end
+
+function wesnoth.wml_conditionals.EoMa_not_unbalanced()
+	return not wesnoth.wml_conditionals.EoMa_is_unbalanced()
+end
+
 function wesnoth.wml_conditionals.EoMa_is_masters()
 	local id = wesnoth.scenario.era.id or ""
 	id = id:lower()
