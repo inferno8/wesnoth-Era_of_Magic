@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-11-24 15:55 UTC\n"
+"POT-Creation-Date: 2023-12-08 17:30 UTC\n"
 "PO-Revision-Date: 2010-12-05 13:58+0900\n"
 "Last-Translator: IWAI, Masaharu <iwaim.sub@gmail.com>\n"
 "Language-Team: <wesnoth-ja-translate@lists.sourceforge.jp>\n"
@@ -37,32 +37,54 @@ msgstr "魔法の時代 RPG"
 msgid ""
 "A variant of Era of Magic designed for playing scenarios which involve "
 "elements of roleplaying (RPG) by having lvl1 units as leaders with empty "
-"recruit lists."
+"recruit lists.\n"
+"\n"
+"NOTE: many units have altered stats and abilities to ensure a more balanced "
+"experience"
+msgstr ""
+
+#. [era]: id=era_magic_unbalanced#also known as rpg2 or mrpg2
+#: Era_of_Magic\EoMa_eras.cfg:46
+#, fuzzy
+#| msgid "Era of Magic RPG"
+msgid "Era of Magic (RPG) (unbalanced)"
+msgstr "魔法の時代 RPG"
+
+#. [era]: id=era_magic_unbalanced#also known as rpg2 or mrpg2
+#: Era_of_Magic\EoMa_eras.cfg:47
+msgid ""
+"A variant of Era of Magic designed for playing scenarios which involve "
+"elements of roleplaying (RPG) by having lvl1 units as leaders with empty "
+"recruit lists. Unit stats and abilities are unchanged from normal variant\n"
+"\n"
+"WARNING: some abilities may break some scenarios and/or heavily influence "
+"outcomes of matches. It is also advised to avoid using this in PvP rpg "
+"scenarios due to the heavily unbalanced nature of this variant."
 msgstr ""
 
 #. [era]: id=era_magic_aoh
-#: Era_of_Magic\EoMa_eras.cfg:44
+#: Era_of_Magic\EoMa_eras.cfg:67
 #, fuzzy
 #| msgid "Era of Magic"
 msgid "Era of Magic (Age of Heroes)"
 msgstr "魔法の時代"
 
 #. [era]: id=era_magic_aoh
-#: Era_of_Magic\EoMa_eras.cfg:45
+#: Era_of_Magic\EoMa_eras.cfg:68
 msgid ""
 "A variant of Era of Magic with higher level units: level 3 leaders, with "
 "level 1 and 2 units available for recruit. Not considered balanced."
 msgstr ""
 
 #. [era]: id=era_magic_masters
-#: Era_of_Magic\EoMa_eras.cfg:63
+#: Era_of_Magic\EoMa_eras.cfg:86
 #, fuzzy
 #| msgid "Era of Magic"
 msgid "Era of Magic (Masters)"
 msgstr "魔法の時代"
 
 #. [era]: id=era_magic_masters
-#: Era_of_Magic\EoMa_eras.cfg:64
+#: Era_of_Magic\EoMa_eras.cfg:87
 msgid ""
 "A variant of Era of Magic with higher level units: level 3-4 leaders, with "
 "level 2 and 3 units available for recruit. Not considered balanced.\n"
@@ -99,6 +121,7 @@ msgstr "秘伝の一撃"
 #. [multiplayer_side]: id=barbarians_ms, type=EoMa_Barbarian_King
 #: Era_of_Magic\factions\aoh\barbarians-aoh.cfg:4
 #: Era_of_Magic\factions\default\barbarians-default.cfg:4
+#: Era_of_Magic\factions\mrpg2\barbarians-mrpg2.cfg:4
 #: Era_of_Magic\factions\mrpg\barbarians-mrpg.cfg:4
 #: Era_of_Magic\factions\ms\barbarians-ms.cfg:4
 msgid "Barbarians"
@@ -110,6 +133,7 @@ msgstr "バーバリアン"
 #. [multiplayer_side]: id=darkblood_ms, type=EoMa_Chosen_of_Forest
 #: Era_of_Magic\factions\aoh\darkblood-aoh.cfg:4
 #: Era_of_Magic\factions\default\darkblood-default.cfg:4
+#: Era_of_Magic\factions\mrpg2\darkblood-mrpg2.cfg:4
 #: Era_of_Magic\factions\mrpg\darkblood-mrpg.cfg:4
 #: Era_of_Magic\factions\ms\darkblood-ms.cfg:4
 msgid "Dark Blood Alliance"
@@ -121,6 +145,7 @@ msgstr "どす黒い血の同盟"
 #. [multiplayer_side]: id=destroyers_ms, type=EoMa_Abaddon
 #: Era_of_Magic\factions\aoh\destroyers-aoh.cfg:4
 #: Era_of_Magic\factions\default\destroyers-default.cfg:4
+#: Era_of_Magic\factions\mrpg2\destroyers-mrpg2.cfg:4
 #: Era_of_Magic\factions\mrpg\destroyers-mrpg.cfg:4
 #: Era_of_Magic\factions\ms\destroyers-ms.cfg:4
 #, fuzzy
@@ -134,6 +159,7 @@ msgstr "サイクロプスデストロイヤー"
 #. [multiplayer_side]: id=kharos_ms, type=EoMa_Kirios
 #: Era_of_Magic\factions\aoh\kharos-aoh.cfg:4
 #: Era_of_Magic\factions\default\kharos-default.cfg:4
+#: Era_of_Magic\factions\mrpg2\kharos-mrpg2.cfg:4
 #: Era_of_Magic\factions\mrpg\kharos-mrpg.cfg:4
 #: Era_of_Magic\factions\ms\kharos-ms.cfg:4
 msgid "Kharos"
@@ -145,6 +171,7 @@ msgstr ""
 #. [multiplayer_side]: id=runemasters_ms, type=EoMa_Rune_Master
 #: Era_of_Magic\factions\aoh\runemasters-aoh.cfg:4
 #: Era_of_Magic\factions\default\runemasters-default.cfg:4
+#: Era_of_Magic\factions\mrpg2\runemasters-mrpg2.cfg:4
 #: Era_of_Magic\factions\mrpg\runemasters-mrpg.cfg:4
 #: Era_of_Magic\factions\ms\runemasters-ms.cfg:4
 msgid "Runemasters"
@@ -156,6 +183,7 @@ msgstr "ルーンマスター"
 #. [multiplayer_side]: id=skykingdom_ms, type=EoMa_Guru
 #: Era_of_Magic\factions\aoh\skykingdom-aoh.cfg:4
 #: Era_of_Magic\factions\default\skykingdom-default.cfg:4
+#: Era_of_Magic\factions\mrpg2\skykingdom-mrpg2.cfg:4
 #: Era_of_Magic\factions\mrpg\skykingdom-mrpg.cfg:4
 #: Era_of_Magic\factions\ms\skykingdom-ms.cfg:4
 msgid "Sky Kingdom"
@@ -167,6 +195,7 @@ msgstr "空の王国"
 #. [multiplayer_side]: id=summoners_ms, type=EoMa_Summons_Master
 #: Era_of_Magic\factions\aoh\summoners-aoh.cfg:4
 #: Era_of_Magic\factions\default\summoners-default.cfg:4
+#: Era_of_Magic\factions\mrpg2\summoners-mrpg2.cfg:4
 #: Era_of_Magic\factions\mrpg\summoners-mrpg.cfg:4
 #: Era_of_Magic\factions\ms\summoners-ms.cfg:4
 #, fuzzy
@@ -180,6 +209,7 @@ msgstr "召喚士"
 #. [multiplayer_side]: id=tharis_ms, type=EoMa_Master_of_Darkness
 #: Era_of_Magic\factions\aoh\tharis-aoh.cfg:4
 #: Era_of_Magic\factions\default\tharis-default.cfg:4
+#: Era_of_Magic\factions\mrpg2\tharis-mrpg2.cfg:4
 #: Era_of_Magic\factions\mrpg\tharis-mrpg.cfg:4
 #: Era_of_Magic\factions\ms\tharis-ms.cfg:4
 msgid "Tharis"
@@ -305,7 +335,7 @@ msgstr "バーバリアン"
 #. [attack]: type=blade
 #: Era_of_Magic\units\Barbarians\Barbarian.cfg:29
 #: Era_of_Magic\units\Barbarians\Barbarian_King.cfg:57
-#: Era_of_Magic\units\Barbarians\Barbarian_Lord.cfg:53
+#: Era_of_Magic\units\Barbarians\Barbarian_Lord.cfg:57
 msgid "sword+axe"
 msgstr "剣+斧"
 
@@ -332,23 +362,76 @@ msgstr ""
 
 #. [specials]
 #: Era_of_Magic\units\Barbarians\Barbarian_King.cfg:64
-#: Era_of_Magic\units\Barbarians\Barbarian_Lord.cfg:60
+#: Era_of_Magic\units\Barbarians\Barbarian_Lord.cfg:64
 #: Era_of_Magic\units\Barbarians\Cyclops_Breaker.cfg:56
 #: Era_of_Magic\units\Barbarians\Cyclops_Breaker_rpg.cfg:18
 msgid "double attack"
 msgstr "2回攻撃"
 
-#. [unit_type]: id=EoMa_Barbarian_Lord, race=orc, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Barbarian_Lord, race=orc
 #. [unit_type]: id=EoMa_Barbarian_Lord_rpg
 #: Era_of_Magic\units\Barbarians\Barbarian_Lord.cfg:4
 #: Era_of_Magic\units\Barbarians\Barbarian_Lord_rpg.cfg:7
 msgid "Barbarian Lord"
 msgstr "バーバリアンの貴族"
 
-#. [unit_type]: id=EoMa_Blood_Warrior, race=orc, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Barbarian_Lord, race=orc
+#: Era_of_Magic\units\Barbarians\Barbarian_Lord.cfg:19
+msgid ""
+"Barbarian Lord is a towering, muscular figure, exuding an aura of unbridled "
+"strength and authority. As a high-ranking orc warrior, below only the "
+"Barbarian King himself, he commands respect and fear from his brethren, "
+"possessing a deadly combination of brute force and tactical acumen.\n"
+"\n"
+"Dual-wielding a pair of devastating weapons – a heavy greatsword and a "
+"double-headed battleaxe – he rends his foes asunder, leaving a trail of "
+"carnage in his wake. He mastered this form of combat so well that he can "
+"even take on two foes in close range simultaneously, dispatching them with "
+"brutal efficiency. And if an opponent is too far to reach, he can switch to "
+"throwing hatchets instead. \n"
+"\n"
+"Few warriors dare to cross swords with a Barbarian Lord, and far fewer live "
+"to tell the tale."
+msgstr ""
+
+#. [unit_type]: id=EoMa_Blood_Warrior, race=orc
 #: Era_of_Magic\units\Barbarians\Blood_Warrior.cfg:4
 msgid "Blood Warrior"
 msgstr "血糊の闘士"
+
+#. [unit_type]: id=EoMa_Blood_Warrior, race=orc
+#: Era_of_Magic\units\Barbarians\Blood_Warrior.cfg:19
+msgid ""
+"Blood Warriors are savage bloodthirsty orcs, driven by a singular purpose – "
+"to slaughter everything in their path. These elite Barbarian berserkers from "
+"the Barbarian faction charge into battle with no regard for their own "
+"safety, relying on their rage and martial prowess to overcome almost any "
+"obstacle.\n"
+"\n"
+"Wielding twin gauntlet-mounted blades, they strike with lightning speed and "
+"merciless efficiency, tearing through ranks of foes without hesitation. "
+"Their eyes gleam with bloodlust, fueled by a never-ending thirst for "
+"violence; once engaged, they become an unstoppable force of nature, "
+"relentless in their pursuit of victory. \n"
+"\n"
+"Even after vanquishing an adversary, the Blood Warrior does not rest – he "
+"continues to press forward, seeking fresh blood add to his already "
+"impressive tally of kills."
+msgstr ""
+
+#. [attack]: type=pierce
+#. [abilities]
+#. [attack]: type=blade
+#: Era_of_Magic\units\Barbarians\Blood_Warrior.cfg:38
+#: Era_of_Magic\units\Runemasters\Dwarvish_Cadet.cfg:42
+#: Era_of_Magic\units\Runemasters\Dwarvish_Commando.cfg:43
+#: Era_of_Magic\units\Runemasters\Dwarvish_Rune_Lord.cfg:44
+#: Era_of_Magic\units\Runemasters\Dwarvish_Runic_Warrior.cfg:30
+#: Era_of_Magic\units\Runemasters\Dwarvish_Veteran.cfg:28
+#: Era_of_Magic\units\Sky_Kingdom\Mystic_Warrior.cfg:61
+#: Era_of_Magic\units\Tharis\Blademaster.cfg:49
+msgid "blades"
+msgstr "刃"
 
 #. [unit_type]: id=EoMa_Cyclops, race=eoma_cyclops
 #: Era_of_Magic\units\Barbarians\Cyclops.cfg:4
@@ -381,34 +464,72 @@ msgid ""
 "style, some are intelligent enough to do otherwise. These so-called 'cyclops "
 "breakers' are the closest thing to martial artists that the barbarians have. "
 "Their brute force combined with some technique can easily knock out any "
-"humanoid being in seconds, if they are careless enough to let its guard down."
+"humanoid being in seconds, if they are careless enough to let their guard "
+"down."
 msgstr ""
 
-#. [unit_type]: id=EoMa_Mighty_Cyclops, race=eoma_cyclops, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Mighty_Cyclops, race=eoma_cyclops
 #: Era_of_Magic\units\Barbarians\Cyclops_Brute.cfg:4
 #, fuzzy
 #| msgid "Cyclops Breaker"
 msgid "Cyclops Brute"
 msgstr "サイクロプスの破壊者"
 
+#. [unit_type]: id=EoMa_Mighty_Cyclops, race=eoma_cyclops
+#: Era_of_Magic\units\Barbarians\Cyclops_Brute.cfg:23
+msgid ""
+"Cyclops Brute is a clumsy, dim-witted warrior. Nevertheless, he possesses "
+"raw muscle mass and unwavering determination to fight alongside his kin, "
+"relying on sheer strength and tenacity to make up for his deficiencies. "
+"Wielding a massive wooden club, he swings with gruesome efficiency, crushing "
+"any foolish enough to stand in his way. Although his movements are "
+"cumbersome, his attacks are surprisingly effective, thanks to his immense "
+"physical prowess. Unfortunately, his lack of finesse means he struggles "
+"against opponents employing subtler strategies – but don't underestimate "
+"this brute! In a straight-up slugfest, he'll leave many foes reduced to a "
+"bloody pulp."
+msgstr ""
+
 #. [attack]: type=impact
 #: Era_of_Magic\units\Barbarians\Cyclops_Brute.cfg:37
-#: Era_of_Magic\units\Barbarians\Cyclops_Goliath.cfg:55
-#: Era_of_Magic\units\Barbarians\Cyclops_Warmonger.cfg:47
+#: Era_of_Magic\units\Barbarians\Cyclops_Goliath.cfg:59
+#: Era_of_Magic\units\Barbarians\Cyclops_Warmonger.cfg:51
 msgid "tree"
 msgstr "木"
 
-#. [unit_type]: id=EoMa_Cyclops_Goliath, race=eoma_cyclops, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Cyclops_Goliath, race=eoma_cyclops
 #: Era_of_Magic\units\Barbarians\Cyclops_Goliath.cfg:4
 #, fuzzy
 #| msgid "Cyclops"
 msgid "Cyclops Goliath"
 msgstr "サイクロプス"
 
+#. [unit_type]: id=EoMa_Cyclops_Goliath, race=eoma_cyclops
+#: Era_of_Magic\units\Barbarians\Cyclops_Goliath.cfg:27
+msgid ""
+"Cyclops Goliath stands tall above all his kin and most other living beings "
+"in the world, an unstoppable mountain of muscle and fury. He embodies the "
+"pinnacle of cyclops physique, boasting strength beyond what other races can "
+"even dream of. Having effortlessly ripped a large tree from the Jungle of "
+"Life with his bare hands, he swings these several tonnes of wood around as "
+"if it was an ordinary mace. Each blow lands with devastating impact, "
+"reducing buildings to rubble and tossing crushed enemy squads into the air "
+"as if they were ragdolls.\n"
+"\n"
+"Despite not being particularly intelligent, by sheer willpower the Goliath "
+"is able to harness some of the latent magical power in his eye similarly to "
+"Cyclops Nobles. Although weaker than the magical gaze of the latter, it can "
+"still prove quite useful on the battlefield. \n"
+"\n"
+"Trying to fight this colossal cyclops head-on is suicidal for all but the "
+"mightiest warriors, so unless you have a very skilled squad and a good plan, "
+"do not even bother approaching this behemoth if you wish to stay alive."
+msgstr ""
+
 #. [attack]: type=fire
 #. [attack]: type=cold
 #. [attack]: type=arcane
-#: Era_of_Magic\units\Barbarians\Cyclops_Goliath.cfg:67
+#: Era_of_Magic\units\Barbarians\Cyclops_Goliath.cfg:71
 #: Era_of_Magic\units\Barbarians\Cyclops_Lord.cfg:52
 #: Era_of_Magic\units\Barbarians\Cyclops_Lord.cfg:66
 #: Era_of_Magic\units\Barbarians\Cyclops_Noble.cfg:45
@@ -451,17 +572,52 @@ msgid ""
 "power, being little more than magic-using brutes."
 msgstr ""
 
-#. [unit_type]: id=EoMa_Raging_Cyclops, race=eoma_cyclops, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Raging_Cyclops, race=eoma_cyclops
 #: Era_of_Magic\units\Barbarians\Cyclops_Warmonger.cfg:4
 #, fuzzy
 #| msgid "Cyclops Destroyer"
 msgid "Cyclops Warmonger"
 msgstr "サイクロプスデストロイヤー"
 
-#. [unit_type]: id=EoMa_Goblin_Archer, race=goblin, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Raging_Cyclops, race=eoma_cyclops
+#: Era_of_Magic\units\Barbarians\Cyclops_Warmonger.cfg:27
+msgid ""
+"Cyclops Warmonger is a behemoth of a warrior, towering over most of the "
+"other Barbarian troops. Unlike his lesser brethren, this colossus wields a "
+"fearsome weapon – an entire tree, ripped out from the Jungle of Life's soil "
+"with his bare hands, and reinforced with metal straps to be even more "
+"effective. While such an idea would be ridiculously impractical for any "
+"smaller race, this mighty cyclops is able to swing it with as little effort "
+"as a human can swing a mace.\n"
+"\n"
+"With a mighty swing of this colossal improvised club, he can strike multiple "
+"foes at once, either crushing enemies into a bloody puddle or sending them "
+"flying. Besides being an effective melee weapon, it is also an open mockery "
+"of the Darkblooded's reverence of the Jungle, killing them with a mostly-"
+"intact corpse of what they were trying to protect. \n"
+"\n"
+"When faced with certain death, the Cyclops Warmonger is engulfed by a surge "
+"of pure rage, delivering a flurry of swift, vicious blows to anyone "
+"unfortunate enough to be standing within reach before succumbing to his "
+"injuries."
+msgstr ""
+
+#. [unit_type]: id=EoMa_Goblin_Archer, race=goblin
 #: Era_of_Magic\units\Barbarians\Goblin_Archer.cfg:4
 msgid "Goblin Archer"
 msgstr "ゴブリンの射手"
+
+#. [unit_type]: id=EoMa_Goblin_Archer, race=goblin
+#: Era_of_Magic\units\Barbarians\Goblin_Archer.cfg:21
+msgid ""
+"Goblin Archers are a cunning little creatures, barely bigger than a child "
+"yet as deadly as a venomous snake. Clad in rags and armed with a crude bow, "
+"such an archer fires poison-tipped arrows at his enemies, piercing into "
+"their skin like a snake's fang. Many warriors who underestimate and mock "
+"these seemingly weak goblins end up writhing on the ground in agony with "
+"arrows stuck in their body, before being killed by the archer's comrades, "
+"while the goblin himself watches with glee."
+msgstr ""
 
 #. [attack]: type=pierce
 #: Era_of_Magic\units\Barbarians\Goblin_Archer.cfg:49
@@ -516,11 +672,10 @@ msgid "torch"
 msgstr ""
 
 #. [attack]: type=pierce
-#. [attack]: type=blade
 #: Era_of_Magic\units\Barbarians\Goblin_Invader.cfg:70
 #: Era_of_Magic\units\Barbarians\Goblin_Runt.cfg:48
 #: Era_of_Magic\units\Barbarians\Goblin_Veteran.cfg:51
-#: Era_of_Magic\units\Barbarians\Goblin_Warbanner.cfg:77
+#: Era_of_Magic\units\Barbarians\Goblin_Warbanner.cfg:75
 #: Era_of_Magic\units\Barbarians\Goblin_Warrior.cfg:51
 #: Era_of_Magic\units\Dark_Blood_Alliance\Battle_Toad.cfg:91
 #: Era_of_Magic\units\Dark_Blood_Alliance\Dreadnought.cfg:92
@@ -571,15 +726,18 @@ msgstr "毒矢"
 
 #. [specials]
 #. [attack]: type=pierce
+#. [attack]: type=fire
 #. [attack]: type=impact
 #: Era_of_Magic\units\Barbarians\Goblin_Raider.cfg:72
 #: Era_of_Magic\units\Barbarians\Goblin_Raider.cfg:64
 #: Era_of_Magic\units\Dark_Blood_Alliance\Saurian_Assassin.cfg:70
 #: Era_of_Magic\units\Dark_Blood_Alliance\Saurian_Assassin.cfg:62
-#: Era_of_Magic\units\Dark_Blood_Alliance\Shadow_Salamander.cfg:166
+#: Era_of_Magic\units\Dark_Blood_Alliance\Shadow_Salamander.cfg:167
 #: Era_of_Magic\units\Dark_Blood_Alliance\Twin_Archer_Toad.cfg:88
 #: Era_of_Magic\units\Dark_Blood_Alliance\Twin_Archer_Toad.cfg:81
 #: Era_of_Magic\units\Dark_Blood_Alliance\Twin_Archer_Toad_rpg.cfg:20
+#: Era_of_Magic\units\Kharos\Fire_Templar.cfg:85
+#: Era_of_Magic\units\Kharos\Fire_Templar.cfg:79
 #: Era_of_Magic\units\Runemasters\Dwarvish_Mobile_Turret.cfg:87
 #: Era_of_Magic\units\Runemasters\Dwarvish_Mobile_Turret.cfg:80
 #: Era_of_Magic\units\Runemasters\Dwarvish_Mobile_Turret_rpg.cfg:24
@@ -649,8 +807,18 @@ msgstr "ゴブリンの狩人"
 msgid "Goblin Warbanner"
 msgstr "ゴブリンの戦旗"
 
+#. [unit_type]: id=EoMa_Goblin_Warbanner, race=goblin
+#: Era_of_Magic\units\Barbarians\Goblin_Warbanner.cfg:33
+msgid ""
+"Standard-bearers are an oddity amongst goblins. A goblin who has survived "
+"enough battles to be considered a veteran is rare enough, and it is rarer "
+"still for the other goblins to recognize and respect his veteran status. "
+"Nonetheless, a rouser’s frenzied goading effectively steels the less veteran "
+"fighters to strive harder and longer before they die."
+msgstr ""
+
 #. [abilities]
-#: Era_of_Magic\units\Barbarians\Goblin_Warbanner.cfg:47
+#: Era_of_Magic\units\Barbarians\Goblin_Warbanner.cfg:45
 #, fuzzy
 #| msgid "Roc Rider"
 msgid "Summon Roc Rider"
@@ -717,10 +885,25 @@ msgstr ""
 msgid "Orcish Warrior"
 msgstr "オークの闘士"
 
-#. [unit_type]: id=EoMa_Roc_Master, race=eoma_roc, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Roc_Master, race=eoma_roc
 #: Era_of_Magic\units\Barbarians\Roc_Master.cfg:4
 msgid "Roc Master"
 msgstr "ロックの支配者"
+
+#. [unit_type]: id=EoMa_Roc_Master, race=eoma_roc
+#: Era_of_Magic\units\Barbarians\Roc_Master.cfg:21
+msgid ""
+"Roc Masters are unrivaled aerial warriors among the Barbarian horde, "
+"boasting decades of expertise in handling the majestic rocs. Having spent "
+"countless hours training and bonding with these noble birds of prey, they "
+"have reached the pinnacle of aerial combat prowess. With graceful ease, they "
+"pilot their roc towards the battlefield, their sharp eyes scanning the "
+"horizon for potential targets. As they swoop down, their mighty roc's claws "
+"effortlessly rip enemies to shreds. The Roc Master himself wields a crossbow "
+"and a bolas, for wounding or immobilizing foes safely from above. If you "
+"believe you are safe from the Barbarians' wrath in the skies, you are sorely "
+"mistaken."
+msgstr ""
 
 #. [unit_type]: id=EoMa_Roc_Rider, race=eoma_roc
 #: Era_of_Magic\units\Barbarians\Roc_Rider.cfg:4
@@ -880,11 +1063,12 @@ msgstr "舌"
 #. [attack]: type=impact
 #: Era_of_Magic\units\Dark_Blood_Alliance\Battle_Toad.cfg:70
 #: Era_of_Magic\units\Dark_Blood_Alliance\Dreadnought.cfg:71
-#: Era_of_Magic\units\Destroyers\Atokpi_Charger.cfg:90
+#: Era_of_Magic\units\Destroyers\Atokpi_Charger.cfg:91
 #: Era_of_Magic\units\Destroyers\Atokpi_Infantry.cfg:85
 #: Era_of_Magic\units\Destroyers\Crimson_Atokpi.cfg:88
-#: Era_of_Magic\units\Sky_Kingdom\Golem.cfg:54
-#: Era_of_Magic\units\Sky_Kingdom\War_Golem.cfg:88
+#: Era_of_Magic\units\Sky_Kingdom\Golem.cfg:91
+#: Era_of_Magic\units\Sky_Kingdom\Titan_Golem.cfg:126
+#: Era_of_Magic\units\Sky_Kingdom\War_Golem.cfg:127
 msgid "charge"
 msgstr "突進"
 
@@ -910,7 +1094,7 @@ msgstr ""
 #: Era_of_Magic\units\Dark_Blood_Alliance\Desert_Salamander.cfg:133
 #: Era_of_Magic\units\Dark_Blood_Alliance\Desert_Salamander.cfg:146
 #: Era_of_Magic\units\Dark_Blood_Alliance\Salamander.cfg:84
-#: Era_of_Magic\units\Dark_Blood_Alliance\Shadow_Salamander.cfg:134
+#: Era_of_Magic\units\Dark_Blood_Alliance\Shadow_Salamander.cfg:135
 #: Era_of_Magic\units\Dark_Blood_Alliance\Shadow_Salamander_rpg.cfg:24
 #: Era_of_Magic\units\Dark_Blood_Alliance\Yellow_Salamander.cfg:81
 #: Era_of_Magic\units\Dark_Blood_Alliance\Yellow_Salamander.cfg:93
@@ -1168,7 +1352,7 @@ msgstr ""
 #. [message]: speaker=narrator
 #: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:241
 #: Era_of_Magic\utils\bonesplit.cfg:287 Era_of_Magic\utils\recruit.cfg:247
-#: Era_of_Magic\utils\summon.cfg:303
+#: Era_of_Magic\utils\summon.cfg:318
 msgid "Help"
 msgstr "ヘルプ"
 
@@ -1553,7 +1737,7 @@ msgstr ""
 #: Era_of_Magic\units\Dark_Blood_Alliance\Swamp_Spirit.cfg:111
 #: Era_of_Magic\utils\abilities.cfg:15
 #: Era_of_Magic\utils\drone-upgrades.cfg:50
-#: Era_of_Magic\utils\drone-upgrades.cfg:310
+#: Era_of_Magic\utils\drone-upgrades.cfg:328
 msgid "kamikaze"
 msgstr "カミカゼ"
 
@@ -1702,12 +1886,12 @@ msgstr "2回攻撃"
 
 #. [attack]: type=fire
 #: Era_of_Magic\units\Destroyers\Abaddon.cfg:71
-#: Era_of_Magic\units\Destroyers\Apocalypse.cfg:67
-#: Era_of_Magic\units\Destroyers\Chaotic_Observer.cfg:50
-#: Era_of_Magic\units\Destroyers\Dark_Apostle.cfg:129
+#: Era_of_Magic\units\Destroyers\Apocalypse.cfg:68
+#: Era_of_Magic\units\Destroyers\Dark_Apostle.cfg:130
 #: Era_of_Magic\units\Destroyers\Mara.cfg:55
 #: Era_of_Magic\units\Destroyers\Nightmare.cfg:57
 #: Era_of_Magic\units\Destroyers\Obliterator.cfg:69
+#: Era_of_Magic\units\Destroyers\unused\Chaotic_Observer.cfg:50
 #, fuzzy
 #| msgid "water blast"
 msgid "chaotic blast"
@@ -1735,7 +1919,7 @@ msgstr ""
 msgid "touch of apocalypse"
 msgstr "魔力の接触"
 
-#. [attack]: type=fire
+#. [attack]: type=secret
 #: Era_of_Magic\units\Destroyers\Apocalypse.cfg:54
 #: Era_of_Magic\units\Destroyers\Dark_Apostle.cfg:116
 msgid "devour"
@@ -1774,8 +1958,8 @@ msgstr ""
 
 #. [attack]: type=blade
 #. [attack]: type=pierce
-#: Era_of_Magic\units\Destroyers\Atokpi_Charger.cfg:64
-#: Era_of_Magic\units\Destroyers\Atokpi_Charger.cfg:77
+#: Era_of_Magic\units\Destroyers\Atokpi_Charger.cfg:65
+#: Era_of_Magic\units\Destroyers\Atokpi_Charger.cfg:78
 #: Era_of_Magic\units\Destroyers\Atokpi_Infantry.cfg:61
 #: Era_of_Magic\units\Destroyers\Atokpi_Infantry.cfg:73
 #: Era_of_Magic\units\Destroyers\Crimson_Atokpi.cfg:64
@@ -1852,13 +2036,14 @@ msgstr ""
 #: Era_of_Magic\units\Destroyers\Black_Portal.cfg:199
 #: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:292
 #: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:311
-#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:277
-#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:296
+#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:280
+#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:299
 #, fuzzy
 #| msgid "cold aura"
 msgid "aura"
 msgstr "冷気のオーラ"
 
+#. [attack]: type=secret
 #. [attack]: type=cold
 #: Era_of_Magic\units\Destroyers\Black_Portal.cfg:212
 #: Era_of_Magic\units\Tharis\Great_Warlock.cfg:132
@@ -1891,9 +2076,9 @@ msgstr ""
 #: Era_of_Magic\units\Destroyers\Bone_Splitter.cfg:73
 #: Era_of_Magic\units\Destroyers\Moloch.cfg:73
 #: Era_of_Magic\units\Tharis\Chaos_Hydra.cfg:67
-#: Era_of_Magic\units\Tharis\Corrupted_Hydra.cfg:94
+#: Era_of_Magic\units\Tharis\Corrupted_Hydra.cfg:98
 #: Era_of_Magic\units\Tharis\Great_Hydra.cfg:59
-#: Era_of_Magic\units\Tharis\Hellish_Hydra.cfg:94
+#: Era_of_Magic\units\Tharis\Hellish_Hydra.cfg:98
 #: Era_of_Magic\units\Tharis\Hydra.cfg:72
 msgid "headbutt"
 msgstr "頭突き"
@@ -1959,18 +2144,6 @@ msgstr "召喚術を極めし者"
 #: Era_of_Magic\units\Destroyers\Bone_Splitter.cfg:98
 msgid "bones"
 msgstr ""
-
-#. [unit_type]: id=EoMa_Chaotic_Observer, race=undead, description={NO_DESCR_AVAILABLE}
-#: Era_of_Magic\units\Destroyers\Chaotic_Observer.cfg:4
-msgid "Chaotic Observer"
-msgstr ""
-
-#. [attack]: type=fire
-#: Era_of_Magic\units\Destroyers\Chaotic_Observer.cfg:38
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Fire.cfg:69
-#: Era_of_Magic\units\Sky_Kingdom\Pyromancer.cfg:54
-msgid "flames"
-msgstr "火炎"
 
 #. [unit_type]: id=EoMa_Crimson_Atokpi, race=undead
 #: Era_of_Magic\units\Destroyers\Crimson_Atokpi.cfg:4
@@ -2154,10 +2327,10 @@ msgstr ""
 #. [dummy]: id=defend-only
 #: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:303
 #: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:321
-#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:288
-#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:306
+#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:291
+#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:309
 #: Era_of_Magic\units\Runemasters\Balloon.cfg:91
-#: Era_of_Magic\units\Runemasters\Runemaster2.cfg:62
+#: Era_of_Magic\units\Runemasters\Runemaster2.cfg:63
 #, fuzzy
 #| msgid "defender"
 msgid "defend-only"
@@ -2166,10 +2339,10 @@ msgstr "擁護"
 #. [dummy]: id=defend-only
 #: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:304
 #: Era_of_Magic\units\Destroyers\Dark_Portal.cfg:322
-#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:289
-#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:307
+#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:292
+#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:310
 #: Era_of_Magic\units\Runemasters\Balloon.cfg:92
-#: Era_of_Magic\units\Runemasters\Runemaster2.cfg:63
+#: Era_of_Magic\units\Runemasters\Runemaster2.cfg:64
 msgid "This attack doesn't work on offense."
 msgstr ""
 
@@ -2203,11 +2376,6 @@ msgid ""
 "These abominations are wounds so large in reality that they generate dark "
 "portals to stabilize their mass. They are so unstable that their mere "
 "existence is contradictory and a sinful menace to the realm."
-msgstr ""
-
-#. [abilities]
-#: Era_of_Magic\units\Destroyers\Doom_Bringer.cfg:41
-msgid "Summon Dark Portal"
 msgstr ""
 
 #. [attack]: type=fire
@@ -2270,6 +2438,7 @@ msgstr ""
 
 #. [abilities]
 #: Era_of_Magic\units\Destroyers\Fallen_Cyclops_King.cfg:75
+#: Era_of_Magic\units\Destroyers\Infernal_Vortex.cfg:30
 #, fuzzy
 #| msgid "Summons master"
 msgid "Summon Nightmare"
@@ -2451,6 +2620,18 @@ msgstr "魔力追放使い"
 msgid "Titania"
 msgstr ""
 
+#. [unit_type]: id=EoMa_Chaotic_Observer, race=undead, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Destroyers\unused\Chaotic_Observer.cfg:4
+msgid "Chaotic Observer"
+msgstr ""
+
+#. [attack]: type=fire
+#: Era_of_Magic\units\Destroyers\unused\Chaotic_Observer.cfg:38
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Fire.cfg:69
+#: Era_of_Magic\units\Sky_Kingdom\Pyromancer.cfg:54
+msgid "flames"
+msgstr "火炎"
+
 #. [unit_type]: id=EoMa_Avenger, race=human
 #: Era_of_Magic\units\Kharos\Avenger.cfg:4
 #, fuzzy
@@ -2477,8 +2658,8 @@ msgstr "復讐兵は、防御戦術に重要なユニットです。その反撃
 #: Era_of_Magic\units\Kharos\Kharosian_Bulwark.cfg:49
 #: Era_of_Magic\units\Kharos\Kharosian_Legionnaire.cfg:47
 #: Era_of_Magic\units\Kharos\Shielder.cfg:50
-#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:65
-#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:74
+#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:86
+#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:95
 #: Era_of_Magic\units\Sky_Kingdom\Mirrorshield_rpg.cfg:16
 #: Era_of_Magic\units\Sky_Kingdom\Mirrorshield_rpg.cfg:25
 msgid "shield"
@@ -2492,9 +2673,14 @@ msgstr ""
 #. [unit_type]: id=EoMa_Cleric, race=human
 #: Era_of_Magic\units\Kharos\Bishop.cfg:19
 msgid ""
-"Bishops are the more experienced and higher-ranking priestesses of Light. "
-"Their blessings not only quicky regenerate their allies' wounds, but also "
-"strongly boost their morale."
+"Bishops are seasoned and highly respected priestesses of Light, setting "
+"themselves apart through their proficiency in channeling the divine power of "
+"the Light. Not only do their blessings rapidly restore their allies' wounds, "
+"but they also significantly boost the morale of those around them. By "
+"drawing upon their deep understanding of the intricacies of Light magic, "
+"these esteemed individuals are able to imbue their spells with greater "
+"potency than Clerics. As veteran members of the priesthood, they hold "
+"significant power and influence within the Kharosian society."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Brown_Warrior, race=human
@@ -2567,9 +2753,12 @@ msgstr "魔法生物"
 #: Era_of_Magic\units\Kharos\Cleric.cfg:20
 msgid ""
 "In the Kharosian society, it's common for women to join the priesthood. They "
-"aren't quite as capable of using solar magic as men are, but are far more "
-"adept at light magic; conjuring beams of light at their foes, and being "
-"quite skilled at healing the wounded."
+"dedicate much of their time to studying light magic, which is far more "
+"widely practiced by Kharosian women, while solar magic is more commonly used "
+"by the Kharosian men. In peacetime they mainly perform religious duties and "
+"heal the sick, while in wartime they conjure beams of light at their foes, "
+"and heal wounded comrades. The more experienced clerics usually end up "
+"becoming Bishops, but some may choose to take a much different path."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Divine_Executor, race=human
@@ -2638,6 +2827,38 @@ msgid ""
 "Once deployed, they can outmatch even the strongest warriors."
 msgstr ""
 
+#. [unit_type]: id=EoMa_Fire_Priestess, race=human
+#: Era_of_Magic\units\Kharos\Fire_Priestess.cfg:4
+#, fuzzy
+#| msgid "female^magical"
+msgid "female^Fire Priestess"
+msgstr "魔法生物"
+
+#. [unit_type]: id=EoMa_Fire_Priestess, race=human
+#: Era_of_Magic\units\Kharos\Fire_Priestess.cfg:20
+msgid ""
+"Fire Priestess is a devout servant of the Order of Fire, a mystical sect "
+"known for harnessing the raw power of flame to annihilate their enemies. The "
+"order itself has existed for a long time, being founded during Kharos's "
+"unification wars, but was few in number for most of its history. However, "
+"that changed after the start of the Tharis invasion of Kharos.\n"
+"\n"
+"Many former Clerics began flocking to the order in droves seeking vengeance, "
+"many of them having lost comrades or loved ones to the dark horde. Realizing "
+"that the kindness of the Light is too soft to deal with the merciless "
+"threat, they instead embrace the Sun's righteous fury. Rather than "
+"specializing in healing their comrades like Bishops do, Fire Priestesses "
+"believe that the best way to save lives is to vaporize an enemy before he is "
+"able to wound or kill anyone.\n"
+"\n"
+"With a flick of her wrist, a Fire Priestess can summon waves of burning fury "
+"to engulf her enemies, reducing them to ash and smoke. Her eyes burn bright "
+"with holy fervor, her heart consumed by the fire of righteousness. For her, "
+"there is no greater honor than defending her kin and faith with every "
+"breath, every swing of her blade and every fireball launched at enemies of "
+"Kharos."
+msgstr ""
+
 #. [unit_type]: id=EoMa_Fire_Swordsman, race=human
 #: Era_of_Magic\units\Kharos\Fire_Swordsman.cfg:4
 #, fuzzy
@@ -2648,10 +2869,14 @@ msgstr "火の神"
 #. [unit_type]: id=EoMa_Fire_Swordsman, race=human
 #: Era_of_Magic\units\Kharos\Fire_Swordsman.cfg:21
 msgid ""
-"When a slicer survives enough battles he get a fire sword as an addition to "
-"its normal blades. It is said that the magic that is bound onto the sword "
-"comes from the mysterious magicians of the Sky Kingdom, not unlike the "
-"enchanted arrows of the Elemental Archers."
+"When a slicer survives enough battles he is given a fire sword as an "
+"addition to his normal blades. Fire Swordsmen's swords are enchanted by Fire "
+"Templars, using same magic that the latter use for their own blades."
+msgstr ""
+
+#. [unit_type]: id=EoMa_Fire_Templar, race=human, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Kharos\Fire_Templar.cfg:4
+msgid "female^Fire Templar"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Golden_Warrior, race=human
@@ -2855,8 +3080,13 @@ msgstr ""
 #. [unit_type]: id=EoMa_Mistress_of_Light, race=human
 #: Era_of_Magic\units\Kharos\Mistress_of_Light.cfg:22
 msgid ""
-"Mistress of Light is an extremely powerful healer, the true miracle on the "
-"battlefield, incarnation of light itself."
+"In the annals of Kharos's history, there have been few individuals as "
+"remarkable as the Mistress of Light. Sometimes exceptionally talented and "
+"devout servants of Light appeared, whose sheer willpower allowed them to "
+"cross the border between spirit and body, turning them into living "
+"personifications of the Light. Her touch can heal even the most grievous of "
+"wounds, transforming darkness into light and despair into hope. For "
+"generations the Kharosians have waited for a new Mistress to appear."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Mystical_Archer, race=human, description={NO_DESCR_AVAILABLE}
@@ -2957,7 +3187,7 @@ msgstr "銀の闘士"
 #: Era_of_Magic\units\Kharos\Silver_Warrior.cfg:19
 msgid ""
 "White warriors with enough field experience can choose to become either "
-"silver, or brown warriors. While brown warriors sacrifice their agility in "
+"silver, or bronze warriors. While bronze warriors sacrifice their agility in "
 "favor of armor and brute force, silver warriors combine agility and light "
 "magic, giving them rather unique abilities. They are capable of teleporting "
 "between friendly villages, utilizing their combined soul power. This allows "
@@ -3139,18 +3369,30 @@ msgstr ""
 #. [attack]: type=secret
 #: Era_of_Magic\units\Runemasters\Battlecopter.cfg:94
 #: Era_of_Magic\units\Runemasters\Battlecopter.cfg:106
-#: Era_of_Magic\units\Runemasters\Steam_Turboserker.cfg:78
+#: Era_of_Magic\units\Runemasters\Steam_Turboserker.cfg:77
 #: Era_of_Magic\units\Sky_Kingdom\Battle_Mage.cfg:43
 #: Era_of_Magic\units\Sky_Kingdom\Mu.cfg:76
 msgid "missile"
 msgstr "誘導弾"
 
-#. [unit_type]: id=EoMa_Constructor, race=dwarf, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Constructor, race=dwarf
 #: Era_of_Magic\units\Runemasters\Constructor.cfg:4
 #, fuzzy
 #| msgid "destruction"
 msgid "Constructor"
 msgstr "破壊"
+
+#. [unit_type]: id=EoMa_Constructor, race=dwarf
+#: Era_of_Magic\units\Runemasters\Constructor.cfg:21
+msgid ""
+"At the pinnacle of dwarven technological prowess lie the Constructors - "
+"experts in the field of engineering, renowned for their unparalleled "
+"ingenuity and versatility. Their proficiency knows no bounds when it comes "
+"to creating, repairing and upgrading steam-powered machinery, as well as "
+"transforming mundane objects into formidable weapons. These elite "
+"technicians take great pride in their handiwork, meticulously fine-tuning "
+"each creation to perform optimally in even the most challenging environments."
+msgstr ""
 
 #. [abilities]
 #: Era_of_Magic\units\Runemasters\Constructor.cfg:36
@@ -3253,7 +3495,7 @@ msgstr ""
 #: Era_of_Magic\units\Runemasters\Drone.cfg:307
 #: Era_of_Magic\units\Runemasters\Perfect_Drone.cfg:74
 #: Era_of_Magic\units\Runemasters\Perfect_Drone.cfg:83
-#: Era_of_Magic\utils\drone-upgrades.cfg:335
+#: Era_of_Magic\utils\drone-upgrades.cfg:353
 msgid "legs"
 msgstr ""
 
@@ -3289,18 +3531,6 @@ msgid ""
 "counterparts."
 msgstr ""
 
-#. [abilities]
-#. [attack]: type=blade
-#: Era_of_Magic\units\Runemasters\Dwarvish_Cadet.cfg:42
-#: Era_of_Magic\units\Runemasters\Dwarvish_Commando.cfg:43
-#: Era_of_Magic\units\Runemasters\Dwarvish_Rune_Lord.cfg:44
-#: Era_of_Magic\units\Runemasters\Dwarvish_Runic_Warrior.cfg:30
-#: Era_of_Magic\units\Runemasters\Dwarvish_Veteran.cfg:28
-#: Era_of_Magic\units\Sky_Kingdom\Mystic_Warrior.cfg:61
-#: Era_of_Magic\units\Tharis\Blademaster.cfg:49
-msgid "blades"
-msgstr "刃"
-
 #. [attack]: type=pierce
 #: Era_of_Magic\units\Runemasters\Dwarvish_Cadet.cfg:55
 #: Era_of_Magic\units\Runemasters\Dwarvish_Cannoneer.cfg:49
@@ -3335,7 +3565,7 @@ msgstr "ドワーフの戦車"
 #: Era_of_Magic\units\Runemasters\Perfect_Drone.cfg:107
 #: Era_of_Magic\units\Runemasters\Trench_Sweeper.cfg:37
 #: Era_of_Magic\utils\drone-upgrades.cfg:42
-#: Era_of_Magic\utils\drone-upgrades.cfg:285
+#: Era_of_Magic\utils\drone-upgrades.cfg:303
 msgid "cannon"
 msgstr "カノン"
 
@@ -3355,12 +3585,25 @@ msgstr "弓での打撃"
 msgid "Dwarvish Commando"
 msgstr "ドワーフの戦車"
 
-#. [unit_type]: id=EoMa_Dwarvish_Gunner, race=dwarf, description=
+#. [unit_type]: id=EoMa_Dwarvish_Gunner, race=dwarf
 #: Era_of_Magic\units\Runemasters\Dwarvish_Gunner.cfg:4
 #, fuzzy
 #| msgid "Dwarvish Rune Lord"
 msgid "Dwarvish Gunner"
 msgstr "ドワーフのルーン貴族"
+
+#. [unit_type]: id=EoMa_Dwarvish_Gunner, race=dwarf
+#: Era_of_Magic\units\Runemasters\Dwarvish_Gunner.cfg:19
+msgid ""
+"Gunners serve as a fundamental component of the Runemaster military. Armed "
+"with standard-issue rifles, these dwarves excel at delivering precise long-"
+"range attacks, making them valuable assets in any battle. While not as "
+"heavily armored as some of their comrades, the Dwarvish Gunners' speed and "
+"agility allow them to quickly move around the battlefield and engage enemies "
+"from various angles. Their proficiency with their weapons enables them to "
+"take out opponents effectively, despite lacking the same level of protection "
+"as most other dwarven troops."
+msgstr ""
 
 #. [unit_type]: id=EoMa_Mobile_Turret, race=mechanical
 #: Era_of_Magic\units\Runemasters\Dwarvish_Mobile_Turret.cfg:4
@@ -3383,6 +3626,7 @@ msgstr ""
 #. [attack]: type=impact
 #: Era_of_Magic\units\Runemasters\Dwarvish_Mobile_Turret.cfg:55
 #: Era_of_Magic\units\Runemasters\Mobile_Defensive_Platform.cfg:57
+#: Era_of_Magic\units\Sky_Kingdom\Titan_Golem.cfg:148
 #, fuzzy
 #| msgid "shadow wave"
 msgid "shockwave"
@@ -3553,14 +3797,14 @@ msgid ""
 msgstr ""
 
 #. [abilities]
-#: Era_of_Magic\units\Runemasters\Mechanical_Dragon.cfg:49
-#: Era_of_Magic\units\Runemasters\Mechanical_Wyrm.cfg:47
+#: Era_of_Magic\units\Runemasters\Mechanical_Dragon.cfg:48
+#: Era_of_Magic\units\Runemasters\Mechanical_Wyrm.cfg:46
 msgid "furnace"
 msgstr ""
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Runemasters\Mechanical_Dragon.cfg:77
-#: Era_of_Magic\units\Runemasters\Mechanical_Wyrm.cfg:75
+#: Era_of_Magic\units\Runemasters\Mechanical_Dragon.cfg:76
+#: Era_of_Magic\units\Runemasters\Mechanical_Wyrm.cfg:74
 #: Era_of_Magic\units\Summoners\Fire_Avatar.cfg:208
 #: Era_of_Magic\units\Summoners\Fire_God.cfg:121
 #, fuzzy
@@ -3568,21 +3812,50 @@ msgstr ""
 msgid "fire breath"
 msgstr "炎の爆発"
 
-#. [unit_type]: id=EoMa_Mechanical_Wyrm, race=mechanical, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Mechanical_Wyrm, race=mechanical
 #: Era_of_Magic\units\Runemasters\Mechanical_Wyrm.cfg:4
 #, fuzzy
 #| msgid "Mechanical Dragon"
 msgid "Mechanical Wyrm"
 msgstr "機械竜"
 
+#. [unit_type]: id=EoMa_Mechanical_Wyrm, race=mechanical
+#: Era_of_Magic\units\Runemasters\Mechanical_Wyrm.cfg:18
+msgid ""
+"While the Mechanical Dragon is argued to be the pinnacle of Runemaster "
+"engineering, creating one is a long and expensive process that requires the "
+"effort of the finest dwarven engineers. However, one day a team of dwarven "
+"engineers invented a solution - the Mechanical Wyrm. This impressive "
+"mechanical marvel crafted by the skilled hands of Runemasters represents a "
+"significant milestone in the evolution of flight technology, bridging the "
+"gap between the affordable but outdated Steamcopter and unrivaled "
+"masterpiece that is the Mechanical Dragon. This revolutionary aircraft "
+"seamlessly integrates the flame-breathing capability of a dragon with the "
+"speed and maneuverability of a helicopter, while remaining simple enough to "
+"produce in quantities needed for the Runemaster army."
+msgstr ""
+
 #. [unit_type]: id=EoMa_Mobile_Defensive_Platform, race=mechanical, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Runemasters\Mobile_Defensive_Platform.cfg:4
 msgid "Mobile Defensive Platform"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Pacificator, race=mechanical, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Pacificator, race=mechanical
 #: Era_of_Magic\units\Runemasters\Pacificator.cfg:4
 msgid "Pacificator"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Pacificator, race=mechanical
+#: Era_of_Magic\units\Runemasters\Pacificator.cfg:18
+msgid ""
+"The Pacificator, crafted by the most skilled dwarven engineers, is a marvel "
+"of steam-powered engineering. This majestic tank boasts an unrivaled level "
+"of durability and firepower, thanks to its imposing armor plates and array "
+"of deadly weaponry. With the power of runic magic infused into every piston "
+"and gear, this colossus embodies the pinnacle of dwarven innovation. As the "
+"Pacificator rumbles onto the battlefield, its presence is undeniable – an "
+"unmistakable declaration of dominance over any adversary foolish enough to "
+"stand in its way."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Parachutist, race=dwarf, description={NO_DESCR_AVAILABLE}
@@ -3605,11 +3878,11 @@ msgstr ""
 #. [dummy]: id=eoma_upgradable_runedamage
 #. [effect]: type=fire
 #: Era_of_Magic\units\Runemasters\Perfect_Drone.cfg:95
-#: Era_of_Magic\units\Runemasters\Rune_Artist.cfg:31
-#: Era_of_Magic\units\Runemasters\Runemaster.cfg:25
-#: Era_of_Magic\units\Runemasters\Runesmith.cfg:44
+#: Era_of_Magic\units\Runemasters\Rune_Artist.cfg:30
+#: Era_of_Magic\units\Runemasters\Runemaster.cfg:24
+#: Era_of_Magic\units\Runemasters\Runesmith.cfg:43
 #: Era_of_Magic\utils\drone-upgrades.cfg:66
-#: Era_of_Magic\utils\drone-upgrades.cfg:360
+#: Era_of_Magic\utils\drone-upgrades.cfg:378
 msgid "damage rune"
 msgstr ""
 
@@ -3663,9 +3936,9 @@ msgstr "カミカゼ"
 
 #. [abilities]
 #. [dummy]: id=eoma_upgradable_berserk
-#: Era_of_Magic\units\Runemasters\Red_Steam_Ulfserker.cfg:57
-#: Era_of_Magic\units\Runemasters\Steam_Berserker.cfg:50
-#: Era_of_Magic\units\Runemasters\Steam_Turboserker.cfg:53
+#: Era_of_Magic\units\Runemasters\Red_Steam_Ulfserker.cfg:56
+#: Era_of_Magic\units\Runemasters\Steam_Berserker.cfg:49
+#: Era_of_Magic\units\Runemasters\Steam_Turboserker.cfg:52
 #: Era_of_Magic\utils\drone-upgrades.cfg:58
 msgid "berserker ai"
 msgstr ""
@@ -3691,9 +3964,9 @@ msgstr ""
 
 #. [attack]: type=fire
 #: Era_of_Magic\units\Runemasters\Rune_Adept.cfg:49
-#: Era_of_Magic\units\Runemasters\Rune_Artist.cfg:47
-#: Era_of_Magic\units\Runemasters\Runemaster.cfg:51
-#: Era_of_Magic\units\Runemasters\Runesmith.cfg:60
+#: Era_of_Magic\units\Runemasters\Rune_Artist.cfg:46
+#: Era_of_Magic\units\Runemasters\Runemaster.cfg:50
+#: Era_of_Magic\units\Runemasters\Runesmith.cfg:59
 #, fuzzy
 #| msgid "runes"
 msgid "fire runes"
@@ -3701,9 +3974,9 @@ msgstr "ルーン"
 
 #. [attack]: type=cold
 #: Era_of_Magic\units\Runemasters\Rune_Adept.cfg:61
-#: Era_of_Magic\units\Runemasters\Rune_Artist.cfg:59
-#: Era_of_Magic\units\Runemasters\Runemaster.cfg:63
-#: Era_of_Magic\units\Runemasters\Runesmith.cfg:72
+#: Era_of_Magic\units\Runemasters\Rune_Artist.cfg:58
+#: Era_of_Magic\units\Runemasters\Runemaster.cfg:62
+#: Era_of_Magic\units\Runemasters\Runesmith.cfg:71
 #, fuzzy
 #| msgid "runes"
 msgid "ice runes"
@@ -3724,16 +3997,16 @@ msgid "runearmor"
 msgstr "闇のオーラ"
 
 #. [attack]: type=impact
-#: Era_of_Magic\units\Runemasters\Rune_Artist.cfg:35
-#: Era_of_Magic\units\Runemasters\Runemaster.cfg:39
+#: Era_of_Magic\units\Runemasters\Rune_Artist.cfg:34
+#: Era_of_Magic\units\Runemasters\Runemaster.cfg:38
 #, fuzzy
 #| msgid "hammer"
 msgid "runic hammer"
 msgstr "ハンマー"
 
 #. [attack]: type=fire
-#: Era_of_Magic\units\Runemasters\Rune_Artist.cfg:71
-#: Era_of_Magic\units\Runemasters\Runemaster.cfg:75
+#: Era_of_Magic\units\Runemasters\Rune_Artist.cfg:70
+#: Era_of_Magic\units\Runemasters\Runemaster.cfg:74
 msgid "lightning bolt"
 msgstr "雷撃"
 
@@ -3741,13 +4014,13 @@ msgstr "雷撃"
 #. [variation]
 #. [unit_type]: id=EoMa_Runemaster_Protected, race=dwarf, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Runemasters\Runemaster.cfg:4
-#: Era_of_Magic\units\Runemasters\Runemaster2.cfg:236
+#: Era_of_Magic\units\Runemasters\Runemaster2.cfg:237
 #: Era_of_Magic\units\Runemasters\Runemaster2.cfg:4
 msgid "Runemaster"
 msgstr "ルーンマスター"
 
 #. [attack]: type=secret
-#: Era_of_Magic\units\Runemasters\Runemaster2.cfg:53
+#: Era_of_Magic\units\Runemasters\Runemaster2.cfg:54
 #, fuzzy
 #| msgid "lightning"
 msgid "runic lightning"
@@ -3763,12 +4036,25 @@ msgstr "ルーンスミス"
 msgid "Steam Berserker"
 msgstr "蒸気式狂戦士"
 
-#. [unit_type]: id=EoMa_Steam_Turboserker, race=mechanical, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Steam_Turboserker, race=mechanical
 #: Era_of_Magic\units\Runemasters\Steam_Turboserker.cfg:4
 #, fuzzy
 #| msgid "Steam Berserker"
 msgid "Steam Turboserker"
 msgstr "蒸気式狂戦士"
+
+#. [unit_type]: id=EoMa_Steam_Turboserker, race=mechanical
+#: Era_of_Magic\units\Runemasters\Steam_Turboserker.cfg:18
+msgid ""
+"Steam Turborserkers are fearsome war machines crafted from exceptionally "
+"high-quality parts. Their bulky frames are adorned with intricate gears and "
+"augmented with runes, while their limbs are articulated for maximum "
+"mobility. And on top of that, these mechanical warriors have a portable "
+"missile launchers attached to their metallic backs. When activated, they "
+"enter a berserk rage, and are able to lay waste to entire enemy squads. "
+"Leave no doubt about it - these machines were built for one purpose alone: "
+"to annihilate."
+msgstr ""
 
 #. [unit_type]: id=EoMa_Steam_Ulfserker, race=mechanical
 #. [unit_type]: id=EoMa_Steam_Ulfserker_rpg
@@ -4105,6 +4391,13 @@ msgid ""
 "harshest conflicts."
 msgstr ""
 
+#. [abilities]
+#: Era_of_Magic\units\Sky_Kingdom\Golden_Mage.cfg:45
+#, fuzzy
+#| msgid "Battlemage"
+msgid "Summon Battle Eye"
+msgstr "戦いの魔術師"
+
 #. [unit_type]: id=EoMa_Golem, race=mechanical
 #: Era_of_Magic\units\Sky_Kingdom\Golem.cfg:4
 msgid "Golem"
@@ -4122,8 +4415,9 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
-#: Era_of_Magic\units\Sky_Kingdom\Golem.cfg:67
-#: Era_of_Magic\units\Sky_Kingdom\War_Golem.cfg:101
+#: Era_of_Magic\units\Sky_Kingdom\Golem.cfg:104
+#: Era_of_Magic\units\Sky_Kingdom\Titan_Golem.cfg:139
+#: Era_of_Magic\units\Sky_Kingdom\War_Golem.cfg:140
 msgid "smash"
 msgstr ""
 
@@ -4389,7 +4683,7 @@ msgid "Summon Water Elemental"
 msgstr "召喚術を極めし者"
 
 #. [attack]: type=impact
-#: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:134
+#: Era_of_Magic\units\Sky_Kingdom\Master_of_Elements.cfg:133
 #: Era_of_Magic\units\Summoners\Great_Efreeti.cfg:105
 msgid "meteor shower"
 msgstr ""
@@ -4481,7 +4775,7 @@ msgstr "氷塊"
 msgid "bubble"
 msgstr "水泡"
 
-#. [unit_type]: id=EoMa_Mirrorshield, race=human, description={NO_DESCR_AVAILABLE}, type=fire,cold,arcane
+#. [unit_type]: id=EoMa_Mirrorshield, race=human, type=fire,cold,arcane
 #: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:4
 #, fuzzy
 #| msgid "shield"
@@ -4502,8 +4796,33 @@ msgid ""
 "or below 0 HP, it is not killed, instead its HP are set to 1."
 msgstr ""
 
+#. [unit_type]: id=EoMa_Mirrorshield, race=human, type=fire,cold,arcane
+#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:39
+msgid ""
+"Innovative magic mirrors are a hallmark of the Sky Kingdom, capable of "
+"absorbing and deflecting magical spells. One fateful day, one such mirror "
+"was stolen by cunning Mystic Warrior with the intent of selling it on a "
+"black market to pay off some debts he accrued. Before he could stash the "
+"mirror, he was summoned on an expedition, during which he faced a life-or-"
+"death situation. When his leader was attacked and almost killed by enemy "
+"mages, the warrior acted swiftly, pulling out the mirror from his backpack "
+"and using it to protect himself and his comrades. The mirror's defensive "
+"capabilities proved crucial, repelling the attackers and saving the group "
+"from certain doom.\n"
+"\n"
+"The warrior's bravery and quick thinking earned him a reprieve from the "
+"Master Council, who otherwise would have punished him for stealing the "
+"valuable artifact. Instead, the Guru intervened on the warrior's behalf, "
+"pardoning him, paying off his debts and granting him permission to keep the "
+"mirror as a memento. From this encounter, the Mirrorshield Division was born "
+"– a specialized unit equipped with specially crafted reinforced mirrors that "
+"combine magic-deflecting properties with formidable melee weapons. These "
+"elite warriors are sent on the most dangerous expeditions, and their unique "
+"arsenal gives them a major advantage against powerful magic-using foes."
+msgstr ""
+
 #. [attack]: type=impact
-#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:83
+#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:104
 #: Era_of_Magic\units\Sky_Kingdom\Mirrorshield_rpg.cfg:34
 #, fuzzy
 #| msgid "shield"
@@ -4511,7 +4830,7 @@ msgid "shield bash"
 msgstr "盾"
 
 #. [attack]: type=secret
-#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:92
+#: Era_of_Magic\units\Sky_Kingdom\Mirrorshield.cfg:113
 #: Era_of_Magic\units\Sky_Kingdom\Mirrorshield_rpg.cfg:43
 #: Era_of_Magic\units\Sky_Kingdom\Mystic_Warrior.cfg:85
 #: Era_of_Magic\units\Sky_Kingdom\Sky_Guardian.cfg:99
@@ -4689,6 +5008,13 @@ msgstr ""
 msgid "Terramancer"
 msgstr ""
 
+#. [unit_type]: id=EoMa_Titan_Golem, race=mechanical, description={NO_DESCR_AVAILABLE}
+#: Era_of_Magic\units\Sky_Kingdom\Titan_Golem.cfg:4
+#, fuzzy
+#| msgid "Golem"
+msgid "Titan Golem"
+msgstr "ゴーレム"
+
 #. [unit_type]: id=EoMa_Um, race=monster
 #: Era_of_Magic\units\Sky_Kingdom\Um.cfg:4
 msgid "Um"
@@ -4735,7 +5061,7 @@ msgid "War Golem"
 msgstr "ゴーレム"
 
 #. [unit_type]: id=EoMa_Golem_Boss, race=mechanical
-#: Era_of_Magic\units\Sky_Kingdom\War_Golem.cfg:17
+#: Era_of_Magic\units\Sky_Kingdom\War_Golem.cfg:16
 msgid ""
 "Unlike the regular golems, war golems are made entirely from metal. They "
 "also have a magic energy conducting device inside them, which can shoot "
@@ -4925,8 +5251,28 @@ msgstr ""
 msgid "Carpet Master"
 msgstr "カーペットの主人"
 
+#. [advancement]: id=damage_amla
+#: Era_of_Magic\units\Summoners\Carpet_Master.cfg:20
+msgid "+2 magical powder damage; +3 max HP; +20% XP"
+msgstr ""
+
+#. [advancement]: id=veryskilled_amla
+#: Era_of_Magic\units\Summoners\Carpet_Master.cfg:39
+msgid "Very Skilled instead of Marksman on magical powder; +2 max HP; +20% XP"
+msgstr ""
+
+#. [advancement]: id=hitandrun2_amla
+#: Era_of_Magic\units\Summoners\Carpet_Master.cfg:62
+msgid "+Hit and Run 2; +2 max HP; +25% XP"
+msgstr ""
+
+#. [advancement]: id=melee_amla
+#: Era_of_Magic\units\Summoners\Carpet_Master.cfg:106
+msgid "+1 strike and +skilled on irritant powder; +3 max HP; +20% XP"
+msgstr ""
+
 #. [unit_type]: id=EoMa_Carpet_Master, race=eoma_summoner
-#: Era_of_Magic\units\Summoners\Carpet_Master.cfg:21
+#: Era_of_Magic\units\Summoners\Carpet_Master.cfg:131
 msgid ""
 "Captains of the winds, any carpet master can attest to having ridden the "
 "skies more times than he can count. A carpet master’s worth is still his "
@@ -4938,7 +5284,7 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=pierce
-#: Era_of_Magic\units\Summoners\Carpet_Master.cfg:43
+#: Era_of_Magic\units\Summoners\Carpet_Master.cfg:153
 #: Era_of_Magic\units\Summoners\Carpet_Rider.cfg:46
 #, fuzzy
 #| msgid "magical powder"
@@ -4946,7 +5292,7 @@ msgid "irritant powder"
 msgstr "魔法の粉"
 
 #. [attack]: type=cold
-#: Era_of_Magic\units\Summoners\Carpet_Master.cfg:55
+#: Era_of_Magic\units\Summoners\Carpet_Master.cfg:165
 #: Era_of_Magic\units\Summoners\Carpet_Rider.cfg:55
 msgid "magical powder"
 msgstr "魔法の粉"
@@ -5843,10 +6189,25 @@ msgstr "ブレードダンサー"
 msgid "chain"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Blademaster, race=eoma_tharis, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Blademaster, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Blademaster.cfg:4
 msgid "Blademaster"
 msgstr "ブレードマスター"
+
+#. [unit_type]: id=EoMa_Blademaster, race=eoma_tharis
+#: Era_of_Magic\units\Tharis\Blademaster.cfg:19
+msgid ""
+"Within the ranks of the Tharis, the Blademasters represent the pinnacle of "
+"martial excellence, showcasing unparalleled speed and agility in battle. "
+"These deadly warriors lunge with lightning-fast speed, leaving even the most "
+"seasoned veterans in their dust. Equipped with razor-sharp blades, "
+"Blademasters strike with precision and ferocity, carving through foes like a "
+"hot knife through butter. Enhanced by powerful magic, these dark warriors "
+"possess superhuman reflexes and reaction times, rendering them nearly "
+"untouchable in close quarters combat if they catch you off guard. Their "
+"rapid movements and merciless tactics ensure that even seasoned warriors "
+"tremble at the sight of a Blademaster."
+msgstr ""
 
 #. [unit_type]: id=EoMa_Chainlady, race=eoma_tharis, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Tharis\Chainlady.cfg:4
@@ -5896,19 +6257,45 @@ msgstr ""
 
 #. [attack]: type=pierce
 #: Era_of_Magic\units\Tharis\Chaos_Hydra.cfg:53
-#: Era_of_Magic\units\Tharis\Corrupted_Hydra.cfg:80
+#: Era_of_Magic\units\Tharis\Corrupted_Hydra.cfg:84
 #: Era_of_Magic\units\Tharis\Great_Hydra.cfg:45
-#: Era_of_Magic\units\Tharis\Hellish_Hydra.cfg:80
+#: Era_of_Magic\units\Tharis\Hellish_Hydra.cfg:84
 #: Era_of_Magic\units\Tharis\Hydra.cfg:58
 msgid "bite"
 msgstr "噛みつき"
 
-#. [unit_type]: id=EoMa_Corrupted_Hydra, race=monster, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Corrupted_Hydra, race=monster
 #: Era_of_Magic\units\Tharis\Corrupted_Hydra.cfg:4
 #, fuzzy
 #| msgid "Corrupted Shaman"
 msgid "Corrupted Hydra"
 msgstr "堕落した呪術師"
+
+#. [unit_type]: id=EoMa_Corrupted_Hydra, race=monster
+#. [unit_type]: id=EoMa_Hellish_Hydra, race=monster
+#: Era_of_Magic\units\Tharis\Corrupted_Hydra.cfg:19
+#: Era_of_Magic\units\Tharis\Hellish_Hydra.cfg:19
+msgid ""
+"Augmented by Tharis inhumane experiments and fueled by the darkest sorcery "
+"of the most depraved warlocks, the Corrupted Hydra has become an unrelenting "
+"terror upon the battlefield. The very existence of this colossal monstrosity "
+"is an affront to nature itself. With its five twisted heads, it can unleash "
+"a maelstrom of destruction upon its foes, tearing through armor like tissue "
+"paper. Its body, engraved with sinister glowing symbols, is able to "
+"effortlessly recover from injuries that would certainly be fatal to any "
+"normal living being.\n"
+"\n"
+"This abominable creature's powers do not end there - in the darkness of "
+"night, the beast's true power is unleashed. Known as the Hellish Hydra - a "
+"malevolent entity imbued with the destructive power of the Destroyers, it "
+"becomes even more frenzied, and able to channel anti-magic through its own "
+"body. Any conventional defense becomes utterly powerless against the hydra's "
+"rampage.\n"
+"\n"
+"If you hear the blood-curdling screech of a Corrupted Hydra, the wise thing "
+"to do is running away as fast as your legs can carry you and praying that "
+"this infernal beast will not catch up to you."
+msgstr ""
 
 #. [unit_type]: id=EoMa_Crimson_Blade, race=eoma_tharis, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Tharis\Crimson_Blade.cfg:4
@@ -5971,8 +6358,8 @@ msgstr ""
 #: Era_of_Magic\units\Tharis\Dark_Executioner.cfg:40
 #: Era_of_Magic\units\Tharis\Dark_Hunter.cfg:40
 #: Era_of_Magic\units\Tharis\Dark_Hunter.cfg:52
-#: Era_of_Magic\units\Tharis\Great_Hunter.cfg:28
-#: Era_of_Magic\units\Tharis\Great_Hunter.cfg:40
+#: Era_of_Magic\units\Tharis\Great_Hunter.cfg:31
+#: Era_of_Magic\units\Tharis\Great_Hunter.cfg:43
 #: Era_of_Magic\units\Tharis\Shadowblade.cfg:50
 msgid "knives"
 msgstr "ナイフ"
@@ -6029,14 +6416,13 @@ msgstr "闇の狩人"
 msgid ""
 "Dark hunters embody everything that Tharis stands for - stealthy, deadly, "
 "and unrelenting. They move with a quiet grace, striking from the shadows "
-"like ghosts, taking down even the toughest foes with ease. Their training "
-"allows them to exploit any weakness in their opponents' defenses, whether it "
-"be a gap in their formation or a momentary lapse in concentration. Against "
-"living enemies, they are nearly unstoppable. However, their effectiveness "
-"against non-living enemies is more limited, as they are immune to the "
-"poisoned thrown daggers favored by dark hunters themselves. Despite this "
-"limitation, they remain one of the most feared and respected warrior classes "
-"in all of Tharis."
+"like ghosts, taking down unsuspecting foes with ease. Their training allows "
+"them to exploit any weakness in their opponents' defenses, whether it be a "
+"gap in their formation or a momentary lapse in concentration. Against living "
+"enemies, they are a serious threat. However, their effectiveness against non-"
+"living enemies is more limited, as they are immune to the poisoned thrown "
+"daggers favored by dark hunters themselves. Despite this limitation, they "
+"remain one of the most feared and respected warrior classes in all of Tharis"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Dark_Observer, race=mechanical, description={NO_DESCR_AVAILABLE}
@@ -6044,10 +6430,22 @@ msgstr ""
 msgid "Dark Observer"
 msgstr ""
 
-#. [unit_type]: id=EoMa_Dark_Slayer, race=eoma_tharis, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Dark_Slayer, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Dark_Slayer.cfg:4
 msgid "Dark Slayer"
 msgstr "闇の殺戮者"
+
+#. [unit_type]: id=EoMa_Dark_Slayer, race=eoma_tharis
+#: Era_of_Magic\units\Tharis\Dark_Slayer.cfg:18
+msgid ""
+"Through extensive training and experience, the best Dark Warriors rise to "
+"the rank of Dark Slayer, demonstrating exceptional combat prowess. Equipped "
+"with expertly crafted enchanted daggers, Dark Slayers exhibit greater "
+"ferocity, agility and endurance than their lower-ranking comrades, "
+"heightened reflexes, reaction times, and endurance, allowing them to "
+"maintain a significant advantage in close quarters combat against various "
+"foes."
+msgstr ""
 
 #. [attack]: type=blade
 #: Era_of_Magic\units\Tharis\Dark_Slayer.cfg:43
@@ -6216,7 +6614,7 @@ msgstr "召喚術を極めし者"
 
 #. [attack]: type=blade
 #: Era_of_Magic\units\Tharis\Great_Warlock.cfg:114
-#: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:180
+#: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:181
 msgid "scythe"
 msgstr "大鎌"
 
@@ -6254,13 +6652,13 @@ msgstr ""
 msgid "witch-fire"
 msgstr "魔女の炎"
 
-#. [unit_type]: id=EoMa_Hellish_Hydra, race=monster, description={NO_DESCR_AVAILABLE}
+#. [unit_type]: id=EoMa_Hellish_Hydra, race=monster
 #: Era_of_Magic\units\Tharis\Hellish_Hydra.cfg:4
 msgid "Hellish Hydra"
 msgstr ""
 
 #. [attack]: type=secret
-#: Era_of_Magic\units\Tharis\Hellish_Hydra.cfg:105
+#: Era_of_Magic\units\Tharis\Hellish_Hydra.cfg:109
 msgid "devastating bite"
 msgstr ""
 
@@ -6274,10 +6672,10 @@ msgstr "ヒドラ"
 msgid ""
 "Bred in some of the most ominous reaches of the subterranean tunnels beneath "
 "Tharis, Hydras are relentless, three-headed abominations that boast the "
-"ability to maul multiple adversaries simultaneously, their venomous fangs "
-"sinking deeper with each successive strike. And yet, these juvenile beasts "
-"barely scratch the surface of their full potential; mature Hydras are said "
-"to be utterly unmatched in sheer ferocity and malice."
+"ability to maul multiple adversaries simultaneously, their fangs sinking "
+"deeper with each successive strike. And yet, these juvenile beasts barely "
+"scratch the surface of their full potential; mature Hydras are said to be "
+"utterly unmatched in sheer ferocity and malice."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Master_of_Darkness, race=eoma_tharis
@@ -6304,10 +6702,17 @@ msgid ""
 "shape reality itself."
 msgstr ""
 
+#. [abilities]
+#: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:27
+#, fuzzy
+#| msgid "Roc Rider"
+msgid "Summon Storm Sphere"
+msgstr "ロックの乗り手"
+
 #. [attack]: type=cold
 #. [attack]: type=impact
-#: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:201
-#: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:213
+#: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:202
+#: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:214
 msgid "implosion"
 msgstr "爆縮"
 
@@ -6415,17 +6820,22 @@ msgstr ""
 msgid "Matriarch of Pain"
 msgstr "闇の女主人"
 
+#. [abilities]
+#: Era_of_Magic\units\Tharis\Matriarch_of_Pain.cfg:36
+#, fuzzy
+#| msgid "Summons master"
+msgid "Summon Pain Sphere"
+msgstr "召喚術を極めし者"
+
 #. [attack]: type=impact
-#: Era_of_Magic\units\Tharis\Matriarch_of_Pain.cfg:37
-#: Era_of_Magic\units\Tharis\Pain_Mistress.cfg:37
+#: Era_of_Magic\units\Tharis\Matriarch_of_Pain.cfg:41
+#: Era_of_Magic\units\Tharis\Pain_Mistress.cfg:40
 msgid "whip"
 msgstr ""
 
-#. [attack]: type=fire
-#: Era_of_Magic\units\Tharis\Matriarch_of_Pain.cfg:51
-#: Era_of_Magic\units\Tharis\Matriarch_of_Pain_rpg.cfg:23
-#: Era_of_Magic\units\Tharis\Pain_Mistress.cfg:50
-#: Era_of_Magic\units\Tharis\Pain_Mistress_rpg.cfg:12
+#. [attack]: type=impact
+#: Era_of_Magic\units\Tharis\Matriarch_of_Pain.cfg:55
+#: Era_of_Magic\units\Tharis\Pain_Mistress.cfg:53
 msgid "pain"
 msgstr ""
 
@@ -6669,7 +7079,7 @@ msgid "No description available"
 msgstr ""
 
 #: Era_of_Magic\utils\_strings.cfg:8
-msgid "(INACTIVE IN RPG MODE)"
+msgid "(inactive in rpg mode - with the exception of the unbalanced variant)"
 msgstr ""
 
 #: Era_of_Magic\utils\_strings.cfg:15
@@ -7578,9 +7988,9 @@ msgstr ""
 #. [unstore_unit]
 #: Era_of_Magic\utils\banish.cfg:238 Era_of_Magic\utils\bonesplit.cfg:123
 #: Era_of_Magic\utils\bonesplit.cfg:176 Era_of_Magic\utils\bonesplit.cfg:223
-#: Era_of_Magic\utils\drone-upgrades.cfg:591
+#: Era_of_Magic\utils\drone-upgrades.cfg:609
 #: Era_of_Magic\utils\recruit.cfg:132 Era_of_Magic\utils\recruit.cfg:168
-#: Era_of_Magic\utils\recruit.cfg:199 Era_of_Magic\utils\summon.cfg:251
+#: Era_of_Magic\utils\recruit.cfg:199 Era_of_Magic\utils\summon.cfg:266
 msgid "+3 exp"
 msgstr ""
 
@@ -7634,8 +8044,8 @@ msgstr ""
 #. [set_menu_item]: id=recruit_{ID}, description= - 
 #. [set_menu_item]: id=summon_{ID}, description= - 
 #: Era_of_Magic\utils\bonesplit.cfg:48
-#: Era_of_Magic\utils\drone-upgrades.cfg:476
-#: Era_of_Magic\utils\recruit.cfg:51 Era_of_Magic\utils\summon.cfg:68
+#: Era_of_Magic\utils\drone-upgrades.cfg:494
+#: Era_of_Magic\utils\recruit.cfg:51 Era_of_Magic\utils\summon.cfg:71
 msgid "gold:"
 msgstr ""
 
@@ -7646,9 +8056,9 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: Era_of_Magic\utils\bonesplit.cfg:256
-#: Era_of_Magic\utils\drone-upgrades.cfg:599
+#: Era_of_Magic\utils\drone-upgrades.cfg:617
 #: Era_of_Magic\utils\recruit.cfg:216 Era_of_Magic\utils\statue-copy.cfg:357
-#: Era_of_Magic\utils\summon.cfg:272
+#: Era_of_Magic\utils\summon.cfg:287
 msgid "Error"
 msgstr ""
 
@@ -7897,12 +8307,14 @@ msgid ""
 "well)."
 msgstr ""
 
-#. [chance_to_hit]: id=eoma_magic_counter_offensive
+#. [chance_to_hit]: id=eoma_magic_dodge
 #: Era_of_Magic\utils\chancetohit.cfg:185
-msgid "magic counter (offensive)"
-msgstr ""
+#, fuzzy
+#| msgid "magical powder"
+msgid "magic dodge"
+msgstr "魔法の粉"
 
-#. [chance_to_hit]: id=eoma_magic_counter_offensive
+#. [chance_to_hit]: id=eoma_magic_dodge
 #: Era_of_Magic\utils\chancetohit.cfg:186
 msgid ""
 "When used offensively, this attack reduces magical chance to hit of "
@@ -7931,33 +8343,35 @@ msgid ""
 "chance to hit bonus;\n"
 "- all adjacent enemy units receive -15% chance to hit penalty (except for "
 "attacks which always hit);\n"
+"- (activated aura's chance to hit effects stack additively with the passive "
+"+5%/-5% effect)\n"
 "- the caster of the spell gets the skirmisher ability.\n"
 "\n"
 "To cast the spell right-click the unit and select 'Activate Aura'."
 msgstr ""
 
 #. [set_menu_item]: id=eoma_chronoaura_menu
-#: Era_of_Magic\utils\chronoaura.cfg:69
+#: Era_of_Magic\utils\chronoaura.cfg:71
 msgid "Activate Aura (15 Gold)"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Era_of_Magic\utils\chronoaura.cfg:90
+#: Era_of_Magic\utils\chronoaura.cfg:92
 msgid "Activate aura? (15 Gold)"
 msgstr ""
 
 #. [print]
-#: Era_of_Magic\utils\chronoaura.cfg:145
+#: Era_of_Magic\utils\chronoaura.cfg:147
 msgid "Not enough gold to activate the aura!"
 msgstr ""
 
 #. [firststrike]: id=eoma_chronoauractive
-#: Era_of_Magic\utils\chronoaura.cfg:159
+#: Era_of_Magic\utils\chronoaura.cfg:161
 msgid "chrono aura (active)"
 msgstr ""
 
 #. [firststrike]: id=eoma_chronoauractive
-#: Era_of_Magic\utils\chronoaura.cfg:160
+#: Era_of_Magic\utils\chronoaura.cfg:162
 msgid ""
 "This unit and all adjacent friendly units strike first and receive +15% "
 "chance to hit bonus, while all adjacent enemy units receive -15% chance to "
@@ -8087,9 +8501,11 @@ msgid "This drone has the damage rune granting additional magical fire attack."
 msgstr ""
 
 #. [dummy]: id=eoma_upgradedrone_{MODULE}
+#. [dummy]: id=eoma_upgradedrone_ui_{MODULE1}_{MODULE2}
 #. [dummy]: id=eoma_upgradedrone
 #: Era_of_Magic\utils\drone-upgrades.cfg:75
-#: Era_of_Magic\utils\drone-upgrades.cfg:448
+#: Era_of_Magic\utils\drone-upgrades.cfg:86
+#: Era_of_Magic\utils\drone-upgrades.cfg:466
 msgid "upgrade drone"
 msgstr ""
 
@@ -8100,65 +8516,72 @@ msgid ""
 "upgrades does not cost any movepoints or attacks."
 msgstr ""
 
+#. [dummy]: id=eoma_upgradedrone_ui_{MODULE1}_{MODULE2}
+#: Era_of_Magic\utils\drone-upgrades.cfg:87
+msgid ""
+"This unit can install specific upgrade modules on a Drone. Installing "
+"upgrades does not cost any movepoints or attacks."
+msgstr ""
+
 #. [print]
 #. [message]: speaker=narrator
-#: Era_of_Magic\utils\drone-upgrades.cfg:183
-#: Era_of_Magic\utils\drone-upgrades.cfg:600
+#: Era_of_Magic\utils\drone-upgrades.cfg:201
+#: Era_of_Magic\utils\drone-upgrades.cfg:618
 msgid "You don't have enough gold!"
 msgstr ""
 
-#: Era_of_Magic\utils\drone-upgrades.cfg:195
+#: Era_of_Magic\utils\drone-upgrades.cfg:213
 msgid "Give additional armor"
 msgstr ""
 
-#: Era_of_Magic\utils\drone-upgrades.cfg:229
+#: Era_of_Magic\utils\drone-upgrades.cfg:247
 msgid "Give runic plate"
 msgstr ""
 
-#: Era_of_Magic\utils\drone-upgrades.cfg:241
+#: Era_of_Magic\utils\drone-upgrades.cfg:259
 msgid "Give better blades"
 msgstr ""
 
-#: Era_of_Magic\utils\drone-upgrades.cfg:263
+#: Era_of_Magic\utils\drone-upgrades.cfg:281
 msgid "Give rotor"
 msgstr ""
 
-#: Era_of_Magic\utils\drone-upgrades.cfg:275
+#: Era_of_Magic\utils\drone-upgrades.cfg:293
 #, fuzzy
 #| msgid "cannon"
 msgid "Mount cannon"
 msgstr "カノン"
 
-#: Era_of_Magic\utils\drone-upgrades.cfg:300
+#: Era_of_Magic\utils\drone-upgrades.cfg:318
 msgid "Install kamikaze module"
 msgstr ""
 
-#: Era_of_Magic\utils\drone-upgrades.cfg:325
+#: Era_of_Magic\utils\drone-upgrades.cfg:343
 msgid "Give berserker ai module"
 msgstr ""
 
-#: Era_of_Magic\utils\drone-upgrades.cfg:350
+#: Era_of_Magic\utils\drone-upgrades.cfg:368
 msgid "Give damage rune"
 msgstr ""
 
-#: Era_of_Magic\utils\drone-upgrades.cfg:379
+#: Era_of_Magic\utils\drone-upgrades.cfg:397
 msgid "Mount portable furnace"
 msgstr ""
 
 #. [dummy]: id=eoma_upgradable
-#: Era_of_Magic\utils\drone-upgrades.cfg:409
+#: Era_of_Magic\utils\drone-upgrades.cfg:427
 msgid "upgradable"
 msgstr ""
 
 #. [dummy]: id=eoma_upgradable
-#: Era_of_Magic\utils\drone-upgrades.cfg:410
+#: Era_of_Magic\utils\drone-upgrades.cfg:428
 msgid ""
 "This unit may receive different upgrades when adjacent to specific units. "
 "Also, when advancing, it can get different improvements."
 msgstr ""
 
 #. [dummy]: id=eoma_upgradedrone
-#: Era_of_Magic\utils\drone-upgrades.cfg:449
+#: Era_of_Magic\utils\drone-upgrades.cfg:467
 msgid ""
 "This unit can make an adjacent drone advance, yet retain its exp after doing "
 "so. The unit uses up all of his movepoints, and then gains some exp. Also, "
@@ -8166,7 +8589,7 @@ msgid ""
 msgstr ""
 
 #. [set_menu_item]: id=completerepair
-#: Era_of_Magic\utils\drone-upgrades.cfg:476
+#: Era_of_Magic\utils\drone-upgrades.cfg:494
 msgid "Upgrade Drone"
 msgstr ""
 
@@ -9023,8 +9446,7 @@ msgid ""
 "arcane resistance,\n"
 "-other units receive a -99% bonus to fire, cold and arcane resistance,\n"
 "-the aura can be rotated once per turn to cover appropriate units,\n"
-"-transformed Runemasters cannot attack, but have 70% magical and physical "
-"resistance,\n"
+"-unit gets higher physical/magical resistances,\n"
 "-the transformation lasts one turn."
 msgstr ""
 
@@ -9178,14 +9600,14 @@ msgid ""
 msgstr ""
 
 #. [dummy]: id=eoma_fastsummon
-#: Era_of_Magic\utils\summon.cfg:52
+#: Era_of_Magic\utils\summon.cfg:55
 #, fuzzy
 #| msgid "Summoner"
 msgid "fast summon"
 msgstr "召喚士"
 
 #. [dummy]: id=eoma_fastsummon
-#: Era_of_Magic\utils\summon.cfg:53
+#: Era_of_Magic\utils\summon.cfg:56
 #, fuzzy
 #| msgid ""
 #| "Hit and Run:\n"
@@ -9196,19 +9618,19 @@ msgstr ""
 "このユニットは攻撃した後に移動力を 3 得ます。再度攻撃することはできません。"
 
 #. [message]: speaker=narrator
-#: Era_of_Magic\utils\summon.cfg:273
+#: Era_of_Magic\utils\summon.cfg:288
 msgid "I have insufficient materials. I am unable to summon."
 msgstr ""
 
 #. [set_menu_item]: id=summon_zhelp
-#: Era_of_Magic\utils\summon.cfg:284
+#: Era_of_Magic\utils\summon.cfg:299
 #, fuzzy
 #| msgid "Summon Help"
 msgid "Summoning Help"
 msgstr "召喚についてのヘルプ"
 
 #. [message]: speaker=narrator
-#: Era_of_Magic\utils\summon.cfg:304
+#: Era_of_Magic\utils\summon.cfg:319
 msgid ""
 "To summon a unit right-click on hexes adjacent to a selected summoner.\n"
 "\n"
