@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-12-08 17:30 UTC\n"
-"PO-Revision-Date: 2023-11-24 17:11+0100\n"
+"PO-Revision-Date: 2023-12-08 18:44+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl\n"
@@ -37,11 +37,6 @@ msgstr "Era Magii (RPG)"
 
 #. [era]: id=era_magic_rpg
 #: Era_of_Magic\EoMa_eras.cfg:26
-#, fuzzy
-#| msgid ""
-#| "A variant of Era of Magic designed for playing scenarios which involve "
-#| "elements of roleplaying (RPG) by having lvl1 units as leaders with empty "
-#| "recruit lists."
 msgid ""
 "A variant of Era of Magic designed for playing scenarios which involve "
 "elements of roleplaying (RPG) by having lvl1 units as leaders with empty "
@@ -50,16 +45,17 @@ msgid ""
 "NOTE: many units have altered stats and abilities to ensure a more balanced "
 "experience"
 msgstr ""
-"Wariant Ery Magii zaprojektowany specjalnie na potrzeby scenariuszy "
-"uwzględniających elementy odgrywania ról (RPG) gdzie liderami są jednostki "
-"poziomu 1 a rekrutacja jest wyłączona."
+"Wariant Ery Magii przeznaczony do rozgrywania scenariuszy zawierających "
+"elementy RPG, w których liderami są jednostki na poziomie 1 z pustymi "
+"listami rekrutów.\n"
+"\n"
+"UWAGA: wiele jednostek ma zmienione statystyki i zdolności, aby zapewnić "
+"bardziej zrównoważone wrażenia"
 
 #. [era]: id=era_magic_unbalanced#also known as rpg2 or mrpg2
 #: Era_of_Magic\EoMa_eras.cfg:46
-#, fuzzy
-#| msgid "Era of Magic (RPG)"
 msgid "Era of Magic (RPG) (unbalanced)"
-msgstr "Era Magii (RPG)"
+msgstr "Era Magii (RPG) (niezbalansowana)"
 
 #. [era]: id=era_magic_unbalanced#also known as rpg2 or mrpg2
 #: Era_of_Magic\EoMa_eras.cfg:47
@@ -72,6 +68,15 @@ msgid ""
 "outcomes of matches. It is also advised to avoid using this in PvP rpg "
 "scenarios due to the heavily unbalanced nature of this variant."
 msgstr ""
+"Wariant Ery Magii przeznaczony do rozgrywania scenariuszy, które zawierają "
+"elementy odgrywania ról (RPG) poprzez posiadanie jednostek lvl1 jako liderów "
+"z pustymi listami rekrutów. Statystyki i zdolności jednostek pozostają "
+"niezmienione w stosunku do normalnego wariantu\n"
+"\n"
+"OSTRZEŻENIE: niektóre zdolności mogą zepsuć niektóre scenariusze i/lub "
+"znacząco wpłynąć na wyniki meczów. Zaleca się również unikanie używania tego "
+"wariantu w scenariuszach rpg PvP ze względu na mocno niezbalansowaną naturę "
+"tego wariantu."
 
 #. [era]: id=era_magic_aoh
 #: Era_of_Magic\EoMa_eras.cfg:67
@@ -481,8 +486,7 @@ msgstr "Cyklop"
 
 #. [unit_type]: id=EoMa_Cyclops, race=eoma_cyclops
 #. [race]: id=eoma_cyclops
-#: Era_of_Magic\units\Barbarians\Cyclops.cfg:25
-#: Era_of_Magic\units\units.cfg:19
+#: Era_of_Magic\units\Barbarians\Cyclops.cfg:25 Era_of_Magic\units\units.cfg:19
 msgid ""
 "Cumbersome and lacking fine intellect, the Cyclops race had been driven near "
 "to extinction before becoming a part of the barbarian horde. Two centuries "
@@ -1376,8 +1380,7 @@ msgstr "Pomoc Ducha Lasu"
 
 #. [message]: speaker=narrator
 #: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:241
-#: Era_of_Magic\utils\bonesplit.cfg:287 Era_of_Magic\utils\recruit.cfg:247
-#: Era_of_Magic\utils\summon.cfg:318
+#: Era_of_Magic\utils\bonesplit.cfg:287 Era_of_Magic\utils\summon.cfg:318
 msgid "Help"
 msgstr "Pomoc"
 
@@ -1727,8 +1730,7 @@ msgstr "Duch Bagien"
 #. [dummy]: id=eoma_upgradable_kamikaze
 #. [effect]: type=fire
 #: Era_of_Magic\units\Dark_Blood_Alliance\Swamp_Spirit.cfg:111
-#: Era_of_Magic\utils\abilities.cfg:15
-#: Era_of_Magic\utils\drone-upgrades.cfg:50
+#: Era_of_Magic\utils\abilities.cfg:15 Era_of_Magic\utils\drone-upgrades.cfg:50
 #: Era_of_Magic\utils\drone-upgrades.cfg:328
 msgid "kamikaze"
 msgstr "kamikaze"
@@ -2730,10 +2732,8 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Fire_Priestess, race=human
 #: Era_of_Magic\units\Kharos\Fire_Priestess.cfg:4
-#, fuzzy
-#| msgid "female^elite"
 msgid "female^Fire Priestess"
-msgstr "elitarna"
+msgstr "Kapłanka Ognia"
 
 #. [unit_type]: id=EoMa_Fire_Priestess, race=human
 #: Era_of_Magic\units\Kharos\Fire_Priestess.cfg:20
@@ -2775,10 +2775,8 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Fire_Templar, race=human, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Kharos\Fire_Templar.cfg:4
-#, fuzzy
-#| msgid "female^swamp lurk"
 msgid "female^Fire Templar"
-msgstr "Bagienna czychaczka"
+msgstr "Templariusz Ognia"
 
 #. [unit_type]: id=EoMa_Golden_Warrior, race=human
 #: Era_of_Magic\units\Kharos\Golden_Warrior.cfg:4
@@ -3372,8 +3370,7 @@ msgstr "Latający Dron"
 #. [unstore_unit]
 #: Era_of_Magic\units\Runemasters\Drone.cfg:444
 #: Era_of_Magic\units\Runemasters\Perfect_Drone.cfg:222
-#: Era_of_Magic\utils\abilities.cfg:57 Era_of_Magic\utils\abilities.cfg:85
-#: Era_of_Magic\utils\abilities.cfg:118
+#: Era_of_Magic\utils\abilities.cfg:57 Era_of_Magic\utils\abilities.cfg:118
 msgid "movepoints"
 msgstr "punkty ruchu"
 
@@ -4192,10 +4189,8 @@ msgstr ""
 
 #. [abilities]
 #: Era_of_Magic\units\Sky_Kingdom\Golden_Mage.cfg:45
-#, fuzzy
-#| msgid "Battle Eye"
 msgid "Summon Battle Eye"
-msgstr "Bitewne Oko"
+msgstr "Przywołaj Bitewne Oko"
 
 #. [unit_type]: id=EoMa_Golem, race=mechanical
 #: Era_of_Magic\units\Sky_Kingdom\Golem.cfg:4
@@ -4752,10 +4747,8 @@ msgstr "Mag Ziemi"
 
 #. [unit_type]: id=EoMa_Titan_Golem, race=mechanical, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Sky_Kingdom\Titan_Golem.cfg:4
-#, fuzzy
-#| msgid "War Golem"
 msgid "Titan Golem"
-msgstr "Golem Wojenny"
+msgstr "Tytanowy Golem"
 
 #. [unit_type]: id=EoMa_Um, race=monster
 #: Era_of_Magic\units\Sky_Kingdom\Um.cfg:4
@@ -4984,28 +4977,26 @@ msgstr "Mistrz Dywanów"
 #. [advancement]: id=damage_amla
 #: Era_of_Magic\units\Summoners\Carpet_Master.cfg:20
 msgid "+2 magical powder damage; +3 max HP; +20% XP"
-msgstr ""
+msgstr "+2 obrażenia od magicznego proszku; +3 maks. PŻ; +20% XP"
 
 #. [advancement]: id=veryskilled_amla
 #: Era_of_Magic\units\Summoners\Carpet_Master.cfg:39
 msgid "Very Skilled instead of Marksman on magical powder; +2 max HP; +20% XP"
 msgstr ""
+"Bardzo umiejętny zamiast strzelca wyborowego dla ataku przy użyciu "
+"magicznego proszku; +2 maks. PŻ; +20% XP"
 
 #. [advancement]: id=hitandrun2_amla
 #: Era_of_Magic\units\Summoners\Carpet_Master.cfg:62
-#, fuzzy
-#| msgid "Upgrade to Pain Absorption +2; +2 max HP; +20% XP"
 msgid "+Hit and Run 2; +2 max HP; +25% XP"
-msgstr ""
-"Ulepszenie do Absorbcji Bólu +2; +2 do maksymalnych punktów życia; +20% XP"
+msgstr "+Cios i Ucieczka 2; +2 max PŻ; +25% XP"
 
 #. [advancement]: id=melee_amla
 #: Era_of_Magic\units\Summoners\Carpet_Master.cfg:106
-#, fuzzy
-#| msgid "+First strike to melee attacks; +5 max HP; +20% XP"
 msgid "+1 strike and +skilled on irritant powder; +3 max HP; +20% XP"
 msgstr ""
-"+Pierwszy cios dla ataków wręcz; +5 do maksymalnych punktów życia, +20% XP"
+"+1 cios oraz dodany specjał 'umiejętny' dla ataku przy użyciu proszku; +3 "
+"PŻ; +20% XP"
 
 #. [unit_type]: id=EoMa_Carpet_Master, race=eoma_summoner
 #: Era_of_Magic\units\Summoners\Carpet_Master.cfg:131
@@ -5904,7 +5895,7 @@ msgstr "+Harcownik; +30% XP"
 
 #. [advancement]: id=amla_standard
 #. [advancement]: id=eoma_amla_default_{ID}
-#: Era_of_Magic\units\Tharis\Chainlady.cfg:92 Era_of_Magic\utils\amla.cfg:26
+#: Era_of_Magic\units\Tharis\Chainlady.cfg:92
 msgid "Max HP bonus +3, Max XP +20%"
 msgstr "Bonus do maksymalnych punktów życia +3, MAX XP +30%"
 
@@ -6356,10 +6347,8 @@ msgstr ""
 
 #. [abilities]
 #: Era_of_Magic\units\Tharis\Master_of_Darkness.cfg:27
-#, fuzzy
-#| msgid "Storm Sphere"
 msgid "Summon Storm Sphere"
-msgstr "Przeładowana Sfera"
+msgstr "Przywołaj Przeładowaną Sferę"
 
 #. [attack]: type=cold
 #. [attack]: type=impact
@@ -6468,10 +6457,8 @@ msgstr "Matrona Bólu"
 
 #. [abilities]
 #: Era_of_Magic\units\Tharis\Matriarch_of_Pain.cfg:36
-#, fuzzy
-#| msgid "Pain Sphere"
 msgid "Summon Pain Sphere"
-msgstr "Sfera Bólu"
+msgstr "Przywołaj Sferę Bólu"
 
 #. [attack]: type=impact
 #: Era_of_Magic\units\Tharis\Matriarch_of_Pain.cfg:41
@@ -6704,7 +6691,7 @@ msgstr "(brak opisu)"
 
 #: Era_of_Magic\utils\_strings.cfg:8
 msgid "(inactive in rpg mode - with the exception of the unbalanced variant)"
-msgstr ""
+msgstr "(nieaktywne w trybie RPG - z wyjątkiem wariantu niezbalansowanego)"
 
 #: Era_of_Magic\utils\_strings.cfg:15
 msgid ""
@@ -6791,7 +6778,7 @@ msgstr "Ta jednostka zawsze trafia cel ale za to jednocześnie ginie."
 
 #. [dummy]: id=eoma_hitandrun{VALUE}
 #. [dummy]: id=eoma_hitandrunspecial{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:41 Era_of_Magic\utils\abilities.cfg:100
+#: Era_of_Magic\utils\abilities.cfg:41
 msgid "hit and run"
 msgstr "uderz i uciekaj"
 
@@ -7132,14 +7119,12 @@ msgstr ""
 "Liczba uzyskanych punktów życia:"
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic\utils\abilities.cfg:1555
-#: Era_of_Magic\utils\abilities.cfg:1556
+#: Era_of_Magic\utils\abilities.cfg:1555 Era_of_Magic\utils\abilities.cfg:1556
 msgid "dread"
 msgstr "strach"
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic\utils\abilities.cfg:1557
-#: Era_of_Magic\utils\abilities.cfg:1558
+#: Era_of_Magic\utils\abilities.cfg:1557 Era_of_Magic\utils\abilities.cfg:1558
 msgid ""
 "When this attack is used offensively, this unit takes one third less damage "
 "in retaliation."
@@ -7148,14 +7133,12 @@ msgstr ""
 "jedną trzecią obrażeń mniej."
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic\utils\abilities.cfg:1568
-#: Era_of_Magic\utils\abilities.cfg:1569
+#: Era_of_Magic\utils\abilities.cfg:1568 Era_of_Magic\utils\abilities.cfg:1569
 msgid "evade"
 msgstr "unik"
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic\utils\abilities.cfg:1570
-#: Era_of_Magic\utils\abilities.cfg:1571
+#: Era_of_Magic\utils\abilities.cfg:1570 Era_of_Magic\utils\abilities.cfg:1571
 msgid ""
 "When this attack is used offensively, this unit takes 25% less damage in "
 "retaliation."
@@ -7503,7 +7486,7 @@ msgid "awe 4"
 msgstr "strach 4"
 
 #. [damage]: id=eoma_banish
-#: Era_of_Magic\utils\banish.cfg:19 Era_of_Magic\utils\banish.cfg:20
+#: Era_of_Magic\utils\banish.cfg:19
 msgid "banish"
 msgstr "wygnanie"
 
@@ -7521,11 +7504,9 @@ msgstr ""
 "samym poziomie, zdolność nie zadziała."
 
 #. [unstore_unit]
-#: Era_of_Magic\utils\banish.cfg:238 Era_of_Magic\utils\bonesplit.cfg:123
-#: Era_of_Magic\utils\bonesplit.cfg:176 Era_of_Magic\utils\bonesplit.cfg:223
-#: Era_of_Magic\utils\drone-upgrades.cfg:609
-#: Era_of_Magic\utils\recruit.cfg:132 Era_of_Magic\utils\recruit.cfg:168
-#: Era_of_Magic\utils\recruit.cfg:199 Era_of_Magic\utils\summon.cfg:266
+#: Era_of_Magic\utils\banish.cfg:238 Era_of_Magic\utils\bonesplit.cfg:176
+#: Era_of_Magic\utils\drone-upgrades.cfg:609 Era_of_Magic\utils\recruit.cfg:132
+#: Era_of_Magic\utils\recruit.cfg:199
 msgid "+3 exp"
 msgstr "+3 doświadczenie"
 
@@ -7567,7 +7548,7 @@ msgstr ""
 "Krawienie samo w sobie nie może zabić jednostki."
 
 #. [unstore_unit]
-#: Era_of_Magic\utils\bleed.cfg:54 Era_of_Magic\utils\bleed.cfg:119
+#: Era_of_Magic\utils\bleed.cfg:54
 msgid "bleeding"
 msgstr "krwawi"
 
@@ -7591,25 +7572,23 @@ msgstr ""
 "która pojawia się po kliknięciu prawym przyciskiem myszy na jednostkę ze "
 "zdolnością \"rozdwojenia kości\"."
 
-#. [set_menu_item]: id=bonesplit_{ID}, description= - 
+#. [set_menu_item]: id=bonesplit_{ID}, description= -
 #. [set_menu_item]: id=completerepair
-#. [set_menu_item]: id=recruit_{ID}, description= - 
-#. [set_menu_item]: id=summon_{ID}, description= - 
+#. [set_menu_item]: id=recruit_{ID}, description= -
+#. [set_menu_item]: id=summon_{ID}, description= -
 #: Era_of_Magic\utils\bonesplit.cfg:48
-#: Era_of_Magic\utils\drone-upgrades.cfg:494
-#: Era_of_Magic\utils\recruit.cfg:51 Era_of_Magic\utils\summon.cfg:71
+#: Era_of_Magic\utils\drone-upgrades.cfg:494 Era_of_Magic\utils\recruit.cfg:51
 msgid "gold:"
 msgstr "złoto:"
 
-#. [set_menu_item]: id=bonesplit_{ID}, description= - 
+#. [set_menu_item]: id=bonesplit_{ID}, description= -
 #: Era_of_Magic\utils\bonesplit.cfg:48
 msgid "-10HP"
 msgstr "-10HP"
 
 #. [message]: speaker=narrator
 #: Era_of_Magic\utils\bonesplit.cfg:256
-#: Era_of_Magic\utils\drone-upgrades.cfg:617
-#: Era_of_Magic\utils\recruit.cfg:216 Era_of_Magic\utils\statue-copy.cfg:357
+#: Era_of_Magic\utils\drone-upgrades.cfg:617 Era_of_Magic\utils\recruit.cfg:216
 #: Era_of_Magic\utils\summon.cfg:287
 msgid "Error"
 msgstr "Błąd"
@@ -7813,10 +7792,8 @@ msgstr ""
 
 #. [chance_to_hit]: id=eoma_magic_dodge
 #: Era_of_Magic\utils\chancetohit.cfg:185
-#, fuzzy
-#| msgid "magical powder"
 msgid "magic dodge"
-msgstr "magiczny proszek"
+msgstr "unik magii"
 
 #. [chance_to_hit]: id=eoma_magic_dodge
 #: Era_of_Magic\utils\chancetohit.cfg:186
@@ -7837,22 +7814,6 @@ msgstr "aura czasu"
 
 #. [dummy]: id=eoma_chronoaura
 #: Era_of_Magic\utils\chronoaura.cfg:6
-#, fuzzy
-#| msgid ""
-#| "Time flows slower around this unit. This has the following effects:\n"
-#| "- all adjacent friendly units receive +5% chance to hit bonus;\n"
-#| "- all adjacent enemy units receive -5% chance to hit penalty (except for "
-#| "attacks which always hit)\n"
-#| "\n"
-#| "Also, this unit can cast a powerful time-manipulation spell with the "
-#| "following effects lasting one turn:\n"
-#| "- this unit and all adjacent friendly units strike first and receive +15% "
-#| "chance to hit bonus;\n"
-#| "- all adjacent enemy units receive -15% chance to hit penalty (except for "
-#| "attacks which always hit);\n"
-#| "- the caster of the spell gets the skirmisher ability.\n"
-#| "\n"
-#| "To cast the spell right-click the unit and select 'Activate Aura'."
 msgid ""
 "Time flows slower around this unit. This has the following effects:\n"
 "- all adjacent friendly units receive +5% chance to hit bonus;\n"
@@ -7871,22 +7832,24 @@ msgid ""
 "\n"
 "To cast the spell right-click the unit and select 'Activate Aura'."
 msgstr ""
-"Czas wokół tej jednostki płynie wolniej. Daje to następujące efekty:\n"
-"- wszystkie przyległe przyjazne jednostki otrzymują premię +5% do "
+"Czas płynie wolniej wokół tej jednostki. Ma to następujące efekty:\n"
+"- wszystkie sąsiadujące przyjazne jednostki otrzymują premię +5% do "
 "trafienia;\n"
-"- wszystkie sąsiadujące jednostki wroga otrzymują karę -5% do trafienia (z "
-"wyjątkiem ataków, które zawsze trafiają)\n"
+"- wszystkie sąsiadujące jednostki wroga otrzymują karę -5% szans na "
+"trafienie (z wyjątkiem ataków, które zawsze trafiają)\n"
 "\n"
-"Ponadto ta jednostka może rzucić potężne zaklęcie manipulujące czasem o "
-"następujących efektach trwających jedną turę:\n"
-"- ta jednostka i wszystkie sąsiednie przyjazne jednostki uderzają jako "
-"pierwsze i otrzymują premię +15% do trafienia;\n"
-"- wszystkie sąsiadujące wrogie jednostki otrzymują karę -15% do trafienia (z "
-"wyjątkiem ataków, które zawsze trafiają);\n"
-"- jednostka rzucająca to zaklęcie otrzymuje zdolność harcownika.\n"
+"Ponadto jednostka ta może rzucić potężne zaklęcie manipulacji czasem z "
+"następującymi efektami trwającymi jedną turę:\n"
+"- ta jednostka i wszystkie sąsiadujące z nią przyjazne jednostki uderzają "
+"jako pierwsze i otrzymują premię +15% do trafienia;\n"
+"- wszystkie sąsiadujące jednostki wroga otrzymują karę -15% szans na "
+"trafienie (z wyjątkiem ataków, które zawsze trafiają);\n"
+"- (efekty szansy na trafienie aktywowanej aury kumulują się addytywnie z "
+"efektem pasywnym +5%/-5%)\n"
+"- rzucający zaklęcie otrzymuje umiejętność harcownika.\n"
 "\n"
-"Aby rzucić czar kliknij prawym przyciskiem myszy na jednostkę i wybierz "
-"'Aktywuj Aurę'."
+"Aby rzucić zaklęcie, kliknij jednostkę prawym przyciskiem myszy i wybierz "
+"opcję \"Aktywuj aurę\"."
 
 #. [set_menu_item]: id=eoma_chronoaura_menu
 #: Era_of_Magic\utils\chronoaura.cfg:71
@@ -8076,6 +8039,8 @@ msgid ""
 "This unit can install a specfic upgrade module on a Drone. Installing "
 "upgrades does not cost any movepoints or attacks."
 msgstr ""
+"Ta jednostka może zainstalować określony moduł ulepszeń na dronie. "
+"Instalowanie ulepszeń nie kosztuje żadnych punktów ruchu ani ataków."
 
 #. [dummy]: id=eoma_upgradedrone_ui_{MODULE1}_{MODULE2}
 #: Era_of_Magic\utils\drone-upgrades.cfg:87
@@ -8083,6 +8048,8 @@ msgid ""
 "This unit can install specific upgrade modules on a Drone. Installing "
 "upgrades does not cost any movepoints or attacks."
 msgstr ""
+"Ta jednostka może instalować określone moduły ulepszeń na dronie. "
+"Instalowanie ulepszeń nie kosztuje żadnych punktów ruchu ani ataków."
 
 #. [print]
 #. [message]: speaker=narrator
@@ -8353,7 +8320,7 @@ msgstr ""
 "Ilość odzyskanych punktów życia:"
 
 #. [regenerate]: id=eoma_regenerates{VALUE}
-#: Era_of_Magic\utils\healing.cfg:77 Era_of_Magic\utils\healing.cfg:92
+#: Era_of_Magic\utils\healing.cfg:77
 msgid "regenerates"
 msgstr "regeneruje się"
 
@@ -8909,8 +8876,7 @@ msgstr ""
 
 #. [resistance]: id=eoma_shielded
 #. [dummy]: id=eoma_shielded_special
-#: Era_of_Magic\utils\resistance.cfg:382
-#: Era_of_Magic\utils\resistance.cfg:395
+#: Era_of_Magic\utils\resistance.cfg:382 Era_of_Magic\utils\resistance.cfg:395
 msgid "shielded"
 msgstr "osłona"
 
@@ -8944,17 +8910,6 @@ msgstr "runiczna aura"
 
 #. [dummy]: id=eoma_runeaura
 #: Era_of_Magic\utils\runeaura.cfg:6
-#, fuzzy
-#| msgid ""
-#| "When this ability is activated, all Rune Masters create special auras.\n"
-#| "-all ajdacent enemy units get 20 damage,\n"
-#| "-adjacent units on hexes: s, ne, nw receive a 99% bonus to fire, cold and "
-#| "arcane resistance,\n"
-#| "-other units receive a -99% bonus to fire, cold and arcane resistance,\n"
-#| "-the aura can be rotated once per turn to cover appropriate units,\n"
-#| "-transformed Runemasters cannot attack, but have 70% magical and physical "
-#| "resistance,\n"
-#| "-the transformation lasts one turn."
 msgid ""
 "When this ability is activated, all Rune Masters create special auras.\n"
 "-all ajdacent enemy units get 20 damage,\n"
@@ -8965,17 +8920,15 @@ msgid ""
 "-unit gets higher physical/magical resistances,\n"
 "-the transformation lasts one turn."
 msgstr ""
-"Gdy ta zdolność jest aktywowana, wszyscy Mistrzowie Run utworzą specjalne "
-"aury.\n"
-"- wszystkie pobliskie wrogie jednostki otrzymają 20 punktów obrażeń\n"
-"- jednostki na heksach: s, ne, nw otrzymają 99 bonus do odporności na ogień, "
-"chłód i tajemny typ obrażeń\n"
-"- pozostałe jednostki objęte aurą otrzymają -99% podatność na ogień, chłód i "
-"tajemny typ obrażeń\n"
-"- aura może być obrócona raz na turę by pokryć prawidłowe jednostki\n"
-"- Mistrzowie Run w tym czasie nie mogą atakować, ale mają 70% bonus do "
-"wszystkich odporności\n"
-"- transformacja trwa jedną turę."
+"Po aktywacji tej zdolności wszyscy Mistrzowie Run tworzą specjalne aury.\n"
+"-wszystkie sąsiadujące jednostki wroga otrzymują 20 pkt. obrażeń,\n"
+"-sąsiadujące jednostki na heksach: s, ne, nw otrzymują 99% premii do "
+"odporności na ogień, zimno i magię,\n"
+"-pozostałe jednostki otrzymują premię -99% do odporności na ogień, zimno i "
+"magię,\n"
+"-aurę można obrócić raz na turę, aby objęła odpowiednie jednostki,\n"
+"-jednostka otrzymuje wyższe odporności fizyczne/magiczne,\n"
+"-transformacja trwa jedną turę."
 
 #. [set_menu_item]: id=eoma_runeaura_menu
 #: Era_of_Magic\utils\runeaura.cfg:35
@@ -9221,13 +9174,13 @@ msgstr "heroiczna"
 
 #. [trait]: id=eoma_elite
 #. [trait]: id=eoma_elite_alt
-#: Era_of_Magic\utils\traits.cfg:62 Era_of_Magic\utils\traits.cfg:97
+#: Era_of_Magic\utils\traits.cfg:62
 msgid "elite"
 msgstr "elitarny"
 
 #. [trait]: id=eoma_elite
 #. [trait]: id=eoma_elite_alt
-#: Era_of_Magic\utils\traits.cfg:63 Era_of_Magic\utils\traits.cfg:98
+#: Era_of_Magic\utils\traits.cfg:63
 msgid "female^elite"
 msgstr "elitarna"
 
