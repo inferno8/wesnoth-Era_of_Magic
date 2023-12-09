@@ -1,6 +1,105 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 4.5
+ ### Gameplay
+   * added 3 new units: Fire Priestess (lvl2), Fire Templar (lvl3), Titan Golem (lvl3)
+   * new gameplay mode: RPG (unbalanced)
+   * Carpet Master now has custom AMLAs
+   * removed Chaotic Observer from MP
+ ### Units
+   * Barbarians:
+     * Barbarian King: XP from 200 to 175
+     * Barbarian Lord: hitpoints from 70 to 73; decreased ranged blade attack damage from 9-2 to 8-2
+     * Blood Warrior: renamed the pierce melee attack name from 'dagger' to 'blades'
+     * Goblin Druid: cost from 33 to 31; now heals +6 instead of +5
+     * Goblin Raider: increased ranged pierce attack from 11-3 to 12-3
+     * Goblin Shaman: cost from 17 to 16; now heals +4 instead of +5
+     * Goblin Warbanner: changed the 'spear throw' attack damage type from blade to pierce
+     * Goblin Wizard: movepoints from 5 to 6; cost from 36 to 34; increased ranged impact attack damage from 12-2 to 13-2; increased ranged cold attack damage from 10-2 to 11-2
+   * Darkblood Alliance:
+     * Shadow Salamander: now has bloodlust +3
+   * Destroyers:
+     * Abaddon: XP from 200 to 225
+     * Apocalypse: changed the 'devour' attack damage type from fire to secret, added the anti-shield weapon special
+     * Atokpi Charger: now has 'kill and run +2'; increased ranged pierce attack damage from 10-2 to 11-2, replaced 'precision (cumulative)' with 'greater marksman'
+     * Atokpi Infantry: increased the ranged pierce attack damage from 12-1 to 13-1, removed the 'skilled' weapon special
+     * Black Portal: increased melee fire attack damage from 13-1 to 14-1, replaced the 'revenge' special with 'very skilled', increased the 'swallow' value from 2 to 3; changed the 'dark ball' attack damage type from cold to secret, increased damage from 6-3 to 8-3, removed 'first strike', added the 'anti-shield' weapon special, reduced 'undead heal' value from 8 to 5; removed the 'chaos channeling' ability;
+     * Crimson Atokpi: hitpoints from 60 to 62; changed 'bloodlust' value from 6 to 8; changed ranged pierce attack damage from 15-1 to 18-1, replaced 'precision (offensive)' and 'skilled' specials with 'greater marksman'
+     * Dark Apostle: XP from 200 to 225; changed the 'devour' attack damage type from fire to secret, changed damage from 36-1 to 30-1, added the 'anti-shield' weapon special
+     * Dark Portal: hitpoints from 33 to 35; removed the 'chaos channeling' ability
+     * Doom Bringer: changed 'nocturnal regeneration' value from 7 to 8; removed the 'summon' ability; removed the 'skilled' special from the ranged impact attack
+     * Harbriner: XP from 107 to 90
+     * Infernal Vortex: hitpoints from 50 to 52; now can summon Nightmares; removed the 'chaos channeling' ability; increased melee fire attack damage from 17-1 to 18-1
+   * Kharos:
+     * Bishop: renamed the 6-4 'lightbeam' attack to 'missile'
+     * Kirios: XP from 200 to 225
+     * Prophet of Light: renamed the 7-5 'lightbeam' attack to 'missile
+   * Runemasters:
+     * Mechanical Wyrm: XP from 220 to 215
+     * Rune Artist: replaced 'magical (offensive)' and 'enchanted' specials with 'magical'
+     * Runemaster: XP from 200 to 225; replaced 'magical (offensive)' and 'enchanted' specials with 'magical'
+     * Runemaster (runeaura variant): increase fire, cold and arcane resistances from 55% to 65%; increased melee attack damage from 18-1 to 26-1
+     * Steamcopter: XP from 90 to 84
+     * Technocrat: replaced 'greater marksman' with 'very skilled' for the grenade attack
+     * Technologist: replaced 'marksman' with 'skilled' for the grenade attack
+   * Sky Kingdom:
+     * Aeoromancer: hitpoints from 38 to 39; XP from 86 to 84
+     * Chronomancer: XP from 150 to 200
+     * Cosmic Eye: removed the 'precision (offensive)' special from the melee attack and 'reality warp' attack; removed 'lesser revenge' from the 'reality warp' attack, added the 'magical' special
+     * Golden Mage: now can summon Battle Eyes
+     * Golem: XP from 54 to 52; removed the 'magic dodge' (formerly 'magic counter (offensive)') special from the melee attack
+     * Guru of Magic: XP from 200 to 225
+     * Hydromancer: replaced the 'enchanted' special with 'skilled for the ranged pierce attack, decreased number of strikes by 1 from 8 to 7
+     * Master Mage: replaced 'magical (offensive)' and 'enchanted' specials with 'magical' for the ranged arcane attack
+     * Master of Air: hitpoints from 50 to 51
+     * Master of Earth: cost from 55 to 54
+     * Master of Elements: changed summon costs (they are now identical to those of Grand Summoner); replaced 'magical (offensive)' and 'enchanted' specials with 'magical' for the ranged arcane attack
+     * Master of Water: changed 'water regeneration' value from 4 to 6; replaced the 'enchanted' special with 'skilled' for the ranged pierce attack, changed damage from 4-9 to 3-10
+     * Shadow Mage: hitpoints from 54 to 55
+     * Terramancer: hitpoints from 46 to 47; cost from 28 to 27
+     * Um: XP from 166 to 175
+     * War Golem: hitpoints from 55 to 58; XP from 100 to 95; changed fire/cold/arcane resistance from 55% to 30%/50%/50%; removed the 'magic dodge' (formerly 'magic counter (offensive)') special from the melee attack; decreased ranged attack damage from 6-3 to 5-3
+   * Summoners:
+     * Air God:  replaced 'magical (offensive)' and 'enchanted' specials with 'magical' for the ranged Impact attack
+     * Fire Avatar: XP from 100 to 95
+     * Mystical Jinni: XP from 200 to 233
+     * Rhami'datu: XP from 114 to 105
+     * Rhami'kai: XP from 107 to 100
+     * Water God: increased water (and frozen) regeneration values by 2
+   * Tharis:
+     * Chainlady: XP from 100 to 80
+     * Crimson Blade: changed the 'bloodlust' ability value from 4 to 6
+     * Frontliner: changed the 'bloodlust' ability value from 3 to 4
+     * Great Hunter: now has 'nocturnal regeneration +2'
+     * Great Warlock: summoning Dark Observer costs 2g less (16g)
+     * Master of Darkness: now can summon Storm Spheres summoning Dark Observer costs 4g less (12g)
+     * Matriarch of Emptiness: now renegerates +6hp instead of +8
+     * Matriarch of Pain: now can summon 'Pain Spheres' hitpoints from 56 to 57; increased blade resistace from 10% to 15%; increased 'pain absorption aura' value by 1; removed 'magic counter' 'drain' and 'lesser revenge' from all attacks; added the 'skilled' special to the 'whip' attack; changed the 'pain' attack damage type from fire to impact, replaced the 'skilled' special with 'very skilled', increased the number of strikes by 1
+     * Pain Mistress: now has 'pain absorption +1' aura; hitpoints from 44 to 46; XP from 90 to 88; removed 'pain absorption' and 'drain' specials from all attacks; changed the 'pain' attack damage type from fire to impact, increased the number of strikes by 1
+ ### Abilities
+   * renamed 'magic counter (offensive)' to 'magic dodge'
+   * chronoaura (active) effects now stack with passive chronoaura bonuses
+ ### Graphics
+   * add special standing animations for damaged golems
+   * improved Bishop / Prophet of Light missile attack animation
+   * improved Pain Mistress / Matriarch of Pain ranged attack animation (+new attack icons)
+   * used fangs.png instead of head-hydra.png for the 'bite' attack
+ ### Descriptions
+   * added 17 new unit descriptions for: Barbarian Lord, Blood Warrior, Cyclops Brute, Cyclops Goliath, Cyclops Warmonger, Goblin Archer, Roc Master, Constructor, Dwarvish Gunner, Mechanical Wyrm, Pacificator, Steam Turboserker, Mirrorshield, Blademaster, Corrupted Hydra, Dark Slayer, Hellish Hydra
+   * improved unit descriptions for: Cyclops Breaker, Bishop, Cleric, Fire Swordsman, Mistress of Light, Silver Warrior, Dark Hunter, Hydra
+   * improved runeaura description
+   * adjusted eoma rpg mode description to be more informative
+ ### Code
+   * fixed incorrect chronoaura ability filter
+   * combined 'upgrade drone' abilities for units that have two upgrade modules, to save UI space
+   * fixed Chainlady AMLA not increasing xp
+   * fixed a critical bug than prevented bloodlust from working at all in most cases
+   * fixed scavenger not working if there was already a unit with a different tier of scavenger ability
+  ### Translations
+   * updated EoMa_translation_template.pot and all .po files
+   * updated the Polish translation
+
 ## Version 4.4
  ### Gameplay
    * added 4 new units: Roc Master (lvl3), Mechanical Wyrm (lvl3), Corrupted Hydra (lvl4), Hellish Hydra (lvl4)
@@ -1818,7 +1917,7 @@ Era of Magic - ChangeLog
      * Dark Portal / Infernal Vortex: Blade/Pierce/Impact resistances from 40% to 35%, Fire resistance from 50% to 40%, Cold resistance from 30% to 25%, Cave/Musrhoom grove defense from 50% to 40%, Dark Portal's aura (ranged) damage from 9-1 to 8-1, Dark Portal's regenerate value to +5, Infernal Vortex's, damage-aura from 16 to 14
      * Punisher: Sword damage from 14-2 to 13-2,
      * Obliterator: Health from 53 to 55, Attack (defense version) damage from 13-3 to 12-3, Sword damage from 17-2 to 16-2, Chaotic Blast damage from 6-2 to 7-2, added the skilled special, Cold resistance from 30% to 25%, Fire resistance from 20% to 15%
-     * Abbadon: Health from 64 to 67, Attack (defense version) damage from 16-3 to 15-3, Sword damage from 23-2 to 21-2, Cold resistance from 40% to 30%, Fire resistance from 30% to 20%, Chaotic Blast damage from 10-2 to 11-2, added the skilled special
+     * Abaddon: Health from 64 to 67, Attack (defense version) damage from 16-3 to 15-3, Sword damage from 23-2 to 21-2, Cold resistance from 40% to 30%, Fire resistance from 30% to 20%, Chaotic Blast damage from 10-2 to 11-2, added the skilled special
      * Titania: Health from 58 to 63, Awe 3 to Awe 2, Arcane/Blade/Fire resistances from -10% to 0%, Pierce resistance from 10% to 20%, Impact resistance from 0% to 10%
    * Kharos:
      * Calvary Archer: Price from 19g to 18g
@@ -2645,7 +2744,7 @@ Era of Magic - ChangeLog
      * Troll Sorcerer: experience to 57 (+7), cost to 18 (+1)
      * Troll Warlock: changed fist damage to 15-2 (+1)
    * Destroyers:
-     * Abbadon: cost to 95
+     * Abaddon: cost to 95
      * Extinct Cyclops Mage: added new range attack, secret type
      * Cyclops Legendary: added new range attack, secret type
      * Obliterator: cost to 65; changed pierce attack damage to 17-2 (-1)
