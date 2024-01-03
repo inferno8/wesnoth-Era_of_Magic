@@ -84,10 +84,11 @@ function wesnoth.wml_actions.EoMa_trigger_pain_absorbation_aura_on_location(cfg)
 		-- purpose of primary_unit is for middle level pain absorbation to only heal if area damage is caused by that same unit
 		wesnoth.wml_actions.fire_event{
 			name="EoMa_pain_absorbation_aura",
-			wml.tag.primary_weapon{
-				x=cfg.x,
-				y=cfg.y
-			},
+--for future note: primary_attack is the correct filter, and coords are useless here, for now the event DOES NOT pass any weapon data into the absorb event
+--			wml.tag.primary_weapon{
+--				x=cfg.x,
+--				y=cfg.y
+--			},
 			wml.tag.primary_unit{
 				id=cfg.primary_unit
 			}
