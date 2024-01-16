@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2024-01-16 13:24 UTC\n"
-"PO-Revision-Date: 2023-12-08 18:44+0100\n"
+"PO-Revision-Date: 2024-01-16 15:24+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl\n"
@@ -454,10 +454,8 @@ msgstr ""
 #. [advancement]: id=chainlady_bloodlust
 #: Era_of_Magic\units\Barbarians\Blood_Warrior.cfg:54
 #: Era_of_Magic\units\Tharis\Chainlady.cfg:47
-#, fuzzy
-#| msgid "Bloodlust +5, Max HP bonus +2"
 msgid "Bloodlust 8, +4 HP +20% max XP"
-msgstr "Żądza krwi +5, Bonus do maksymalnego HP +2"
+msgstr "Żądza krwi +8, Bonus do maksymalnego HP +4, +20% max XP"
 
 #. [advancement]: id=blood_warrior_resistances
 #: Era_of_Magic\units\Barbarians\Blood_Warrior.cfg:90
@@ -512,8 +510,7 @@ msgstr "Cyklop"
 
 #. [unit_type]: id=EoMa_Cyclops, race=eoma_cyclops
 #. [race]: id=eoma_cyclops
-#: Era_of_Magic\units\Barbarians\Cyclops.cfg:19
-#: Era_of_Magic\units\units.cfg:19
+#: Era_of_Magic\units\Barbarians\Cyclops.cfg:19 Era_of_Magic\units\units.cfg:19
 msgid ""
 "Cumbersome and lacking fine intellect, the Cyclops race had been driven near "
 "to extinction before becoming a part of the barbarian horde. Two centuries "
@@ -538,10 +535,8 @@ msgstr "Cyklop Łamacz"
 
 #. [advancement]: id=CYC_BRK_DAU
 #: Era_of_Magic\units\Barbarians\Cyclops_Breaker.cfg:18
-#, fuzzy
-#| msgid "Dauntless, Max HP bonus +2"
 msgid "Dauntless, +5 HP +20% max XP"
-msgstr "Nieustraszony, Bonus do maksymalnego HP +2"
+msgstr "Nieustraszony, Bonus do maksymalnego HP +5, +20% max XP"
 
 #. [advancement]: id=GOB_WB_MOV
 #: Era_of_Magic\units\Barbarians\Cyclops_Breaker.cfg:49
@@ -645,14 +640,12 @@ msgstr "Cyklop Władca"
 #. [advancement]: id=cyclopslord_inspire
 #: Era_of_Magic\units\Barbarians\Cyclops_Lord.cfg:21
 msgid "Inspire 2, +2 HP +25% max XP"
-msgstr ""
+msgstr "Insiruje 2; +2 max PŻ; +25% max XP"
 
 #. [unit_type]: id=EoMa_Cyclops_Lorekeeper, race=eoma_cyclops
 #: Era_of_Magic\units\Barbarians\Cyclops_Lorekeeper.cfg:4
-#, fuzzy
-#| msgid "Cyclops Breaker"
 msgid "Cyclops Lorekeeper"
-msgstr "Cyklop Łamacz"
+msgstr "Cyklopi Opiekun Wiedzy"
 
 #. [unit_type]: id=EoMa_Cyclops_Lorekeeper, race=eoma_cyclops
 #: Era_of_Magic\units\Barbarians\Cyclops_Lorekeeper.cfg:19
@@ -702,12 +695,6 @@ msgstr "Cyklop Magnat"
 
 #. [unit_type]: id=EoMa_Fire_Cyclops, race=eoma_cyclops
 #: Era_of_Magic\units\Barbarians\Cyclops_Noble.cfg:17
-#, fuzzy
-#| msgid ""
-#| "The cyclops nobles are an ancient bloodline with roots dating back to the "
-#| "extinct cyclops magi civilization. They possess the ability of using "
-#| "their eyes as a magic medium, but have become merely a shadow of their "
-#| "ancestors' power, being little more than magic-using brutes."
 msgid ""
 "The cyclops nobles are an ancient bloodline with roots dating back to the "
 "extinct cyclops magi civilization. They possess the ability of using their "
@@ -719,14 +706,14 @@ msgstr ""
 "Magnaci cyklopów posiadają starożytny rodowód, którego korzenie sięgają "
 "wymarłej cywilizacji Cyklopów. Mają oni zdolność wykorzystywania swoich oczu "
 "jako magicznego medium, lecz dziś są jedynie cieniem mocy swoich przodków, "
-"będąc niewiele więcej niż brutalami o pewnych magicznych zdolnościach."
+"będąc niewiele więcej niż brutalami o pewnych magicznych zdolnościach. "
+"Niemniej jednak ci o wyjątkowo wysokiej inteligencji mają szansę stać się "
+"kimś więcej niż obecnie."
 
 #. [unit_type]: id=EoMa_Cyclops_Ritualist, race=eoma_cyclops
 #: Era_of_Magic\units\Barbarians\Cyclops_Ritualist.cfg:4
-#, fuzzy
-#| msgid "Cyclops Goliath"
 msgid "Cyclops Ritualist"
-msgstr "Cyklop Goliat"
+msgstr "Cyklop Rytualista"
 
 #. [unit_type]: id=EoMa_Cyclops_Ritualist, race=eoma_cyclops
 #: Era_of_Magic\units\Barbarians\Cyclops_Ritualist.cfg:18
@@ -828,14 +815,12 @@ msgstr ""
 #. [advancement]: id=GOB_AS_STR
 #: Era_of_Magic\units\Barbarians\Goblin_Assassin.cfg:52
 msgid "+1 melee strike, +3 HP, +20% max XP"
-msgstr ""
+msgstr "+1 cios wręcz; +3 PŻ; +20% max XP"
 
 #. [advancement]: id=GOB_AS_HNR
 #: Era_of_Magic\units\Barbarians\Goblin_Assassin.cfg:81
-#, fuzzy
-#| msgid "+Hit and Run 2; +2 max HP; +25% XP"
 msgid "Hit and run 3, +2 HP, +20% max XP"
-msgstr "+Cios i Ucieczka 2; +2 max PŻ; +25% XP"
+msgstr "+Cios i Ucieczka 3; +2 PŻ; +25% max XP"
 
 #. [advancement]: id=GOB_AS_FORAGE
 #. [advancement]: id=goblindruid_forage
@@ -885,7 +870,7 @@ msgstr ""
 #. [advancement]: id=goblin_druid_curse
 #: Era_of_Magic\units\Barbarians\Goblin_Druid.cfg:116
 msgid "+1 strike on curse, +3 HP, +20% max XP"
-msgstr ""
+msgstr "+1 dodatkowa klątwa, +3 PŻ; +20% max XP"
 
 #. [unit_type]: id=EoMa_Goblin_Hunter, race=goblin
 #: Era_of_Magic\units\Barbarians\Goblin_Hunter.cfg:4
@@ -1054,10 +1039,8 @@ msgstr ""
 
 #. [advancement]: id=GOB_WB_DMG
 #: Era_of_Magic\units\Barbarians\Goblin_Warbanner.cfg:52
-#, fuzzy
-#| msgid "+2 magical powder damage; +3 max HP; +20% XP"
 msgid "+3 ranged damage, +3 HP, +20% max XP"
-msgstr "+2 obrażenia od magicznego proszku; +3 maks. PŻ; +20% XP"
+msgstr "+1 cios na odległość; +3 PŻ; +20% max XP"
 
 #. [advancement]: id=GOB_WB_DAU
 #: Era_of_Magic\units\Barbarians\Goblin_Warbanner.cfg:81
@@ -1098,10 +1081,8 @@ msgstr "Goblin Czarodziej"
 
 #. [advancement]: id=goblin_wizard_regen
 #: Era_of_Magic\units\Barbarians\Goblin_Wizard.cfg:19
-#, fuzzy
-#| msgid "Regeneration +10, Max HP bonus +2"
 msgid "Regeneration +8, +3 HP, +20% max XP"
-msgstr "Regeneracja +10, Bonus do maksymalnego HP +2"
+msgstr "Regeneracja +8, HP +3, +20% max XP"
 
 #. [advancement]: id=goblin_wizard_landmass
 #: Era_of_Magic\units\Barbarians\Goblin_Wizard.cfg:55
@@ -1116,7 +1097,7 @@ msgstr ""
 #. [advancement]: id=goblin_wizard_staff
 #: Era_of_Magic\units\Barbarians\Goblin_Wizard.cfg:122
 msgid "+1 strike on staff, +3 HP, +20% max XP"
-msgstr ""
+msgstr "+1 uderzenie laską; +3 PŻ; +20% max XP"
 
 #. [attack]: type=impact
 #: Era_of_Magic\units\Barbarians\Goblin_Wizard.cfg:189
@@ -1295,14 +1276,12 @@ msgstr ""
 #. [advancement]: id=TRO_WB_DMG
 #: Era_of_Magic\units\Barbarians\Troll_Warbanner.cfg:48
 msgid "+1 strike on fireball, +4 HP, +20% max XP"
-msgstr ""
+msgstr "+1 cios kulą ognia; +4 PŻ; +20% max XP"
 
 #. [advancement]: id=TRO_WB_RES
 #: Era_of_Magic\units\Barbarians\Troll_Warbanner.cfg:77
-#, fuzzy
-#| msgid "+15% fire resistance, Max HP bonus +2"
 msgid "+15% fire/cold resistance, +4 HP +20% max XP"
-msgstr "+15% do odporności na ogień, Bonus do maksymalnego HP +2"
+msgstr "+15% do odporności na ogień i chłód, +4 PŻ, + 20% max XP"
 
 #. [attack]: type=impact
 #: Era_of_Magic\units\Barbarians\Troll_Warbanner.cfg:145
@@ -1460,10 +1439,8 @@ msgstr "krzyk"
 
 #. [unit_type]: id=EoMa_Chaos_Rider, race=lizard, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Dark_Blood_Alliance\Chaos_Wyvern_Knight.cfg:4
-#, fuzzy
-#| msgid "Wyvern Knight"
 msgid "Chaos Wyvern Knight"
-msgstr "Poskramiacz Wiwern"
+msgstr "Poskramiacz Chaotycznych Wiwern"
 
 #. [unit_type]: id=EoMa_Chosen_of_Forest, race=lizard
 #: Era_of_Magic\units\Dark_Blood_Alliance\Chosen_of_Forest.cfg:4
@@ -1619,12 +1596,6 @@ msgstr "samobójcze leczenie"
 
 #. [dummy]: id=eoma_kamikazeheal
 #: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:24
-#, fuzzy
-#| msgid ""
-#| "This unit can be sacrificed to heal a selected friendly unit.\n"
-#| "\n"
-#| "For more information, choose the 'Forest Spirit Help' rightclick option "
-#| "which appears when rightclicking on a unit with this ability."
 msgid ""
 "This unit can be sacrificed to heal a selected friendly unit and cure poison/"
 "bleed.\n"
@@ -1632,11 +1603,11 @@ msgid ""
 "For more information, choose the 'Forest Spirit Help' rightclick option "
 "which appears when rightclicking on a unit with this ability."
 msgstr ""
-"Ta jednostka może zostać poświęcona, by wyleczyć sąsiednią przyjazną "
-"jednostkę.\n"
+"Jednostkę tę można poświęcić, aby uleczyć wybraną przyjazną jednostkę i "
+"wyleczyć truciznę/krwawienie.\n"
 "\n"
-"By uzyskać więcej informacji, kliknij Leśnego Ducha prawym przyciskiem myszy "
-"i wybierz opcję pomocy."
+"Aby uzyskać więcej informacji, wybierz opcję pomocy, która pojawia się po "
+"kliknięciu prawym przyciskiem myszy na jednostkę z tą umiejętnością."
 
 #. [set_menu_item]: id=fspirit
 #: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:171
@@ -1650,24 +1621,20 @@ msgstr "Pomoc Ducha Lasu"
 
 #. [message]: speaker=narrator
 #: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:256
-#: Era_of_Magic\utils\bonesplit.cfg:292 Era_of_Magic\utils\recruit.cfg:259
-#: Era_of_Magic\utils\summon.cfg:322
+#: Era_of_Magic\utils\bonesplit.cfg:292 Era_of_Magic\utils\summon.cfg:322
 msgid "Help"
 msgstr "Pomoc"
 
 #. [message]: speaker=narrator
 #: Era_of_Magic\units\Dark_Blood_Alliance\Forest_Spirit.cfg:257
-#, fuzzy
-#| msgid ""
-#| "To heal an adjacent friendly unit, rightclick that unit and choose the "
-#| "option 'Heal +25'. The Forest Spirit will be sacrificed in the process."
 msgid ""
 "To heal an adjacent friendly unit, rightclick that unit and choose the "
 "option 'Heal +25'. The Forest Spirit will be sacrificed in the process. This "
 "also cures poison and bleed."
 msgstr ""
-"By wyleczyć sąsiednią przyjazną jednostkę, kliknij ją prawym przyciskiem "
-"myszy i wybierz 'Ulecz +25'. Leśny Duch ulegnie wtedy zniszczeniu."
+"Aby uleczyć sąsiednią przyjazną jednostkę, kliknij ją prawym przyciskiem "
+"myszy i wybierz opcję \"Ulecz +25\". Duch Lasu zostanie przy tym poświęcony. "
+"Leczy to również truciznę i krwawienie."
 
 #. [unit_type]: id=EoMa_Great_Wyvern, race=monster, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic\units\Dark_Blood_Alliance\Great_Wyvern.cfg:4
@@ -1692,8 +1659,6 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Saurian_Assassin, race=lizard
 #: Era_of_Magic\units\Dark_Blood_Alliance\Jungle_Assassin.cfg:4
-#, fuzzy
-#| msgid "Saurian Assassin"
 msgid "Jungle Assassin"
 msgstr "Jaszczurzy Zabójca"
 
@@ -1745,10 +1710,8 @@ msgstr "Czempion Dżungli"
 
 #. [attack]: type=pierce
 #: Era_of_Magic\units\Dark_Blood_Alliance\Jungle_Champion.cfg:91
-#, fuzzy
-#| msgid "holy javelin"
 msgid "javelin"
-msgstr "święty oszczep"
+msgstr "oszczep"
 
 #. [unit_type]: id=EoMa_Saurian_Crossbowman, race=lizard
 #: Era_of_Magic\units\Dark_Blood_Alliance\Jungle_Crossbowman.cfg:4
@@ -1800,10 +1763,8 @@ msgstr ""
 
 #. [unit_type]: id=EoMa_Swamp_Salamander, race=eoma_salamander
 #: Era_of_Magic\units\Dark_Blood_Alliance\Jungle_Salamander.cfg:4
-#, fuzzy
-#| msgid "Blue Salamander"
 msgid "Jungle Salamander"
-msgstr "Błękitna Salamandra"
+msgstr "Dżunglowa Salamandra"
 
 #. [advancement]: id=SWMP_SAL_REG
 #: Era_of_Magic\units\Dark_Blood_Alliance\Jungle_Salamander.cfg:20
@@ -1817,10 +1778,8 @@ msgstr "Nieustraszony, Bonus do maksymalnego HP +2"
 
 #. [advancement]: id=SWMP_SAL_FORAGE
 #: Era_of_Magic\units\Dark_Blood_Alliance\Jungle_Salamander.cfg:78
-#, fuzzy
-#| msgid "Awe 1, Max HP bonus +2"
 msgid "Forage, Max HP bonus +2"
-msgstr "Strach 1, Bonus do maksymalnego HP +2"
+msgstr "Zbieranie, Bonus do maksymalnego HP +2"
 
 #. [unit_type]: id=EoMa_Swamp_Salamander, race=eoma_salamander
 #: Era_of_Magic\units\Dark_Blood_Alliance\Jungle_Salamander.cfg:104
@@ -1848,10 +1807,8 @@ msgstr "Magmowa Salamandra"
 
 #. [advancement]: id=LAVA_SAL_HEATAURA
 #: Era_of_Magic\units\Dark_Blood_Alliance\Lava_Salamander.cfg:18
-#, fuzzy
-#| msgid "Awe 1, Max HP bonus +2"
 msgid "Heat Aura 15%, Max HP bonus +3"
-msgstr "Strach 1, Bonus do maksymalnego HP +2"
+msgstr "Gorąca Aura 15%, Bonus do maksymalnego HP +3"
 
 #. [advancement]: id=LAVA_SAL_REG
 #: Era_of_Magic\units\Dark_Blood_Alliance\Lava_Salamander.cfg:50
@@ -2055,8 +2012,7 @@ msgstr "Duch Bagien"
 #. [dummy]: id=eoma_upgradable_kamikaze
 #. [effect]: type=fire
 #: Era_of_Magic\units\Dark_Blood_Alliance\Swamp_Spirit.cfg:111
-#: Era_of_Magic\utils\abilities.cfg:15
-#: Era_of_Magic\utils\drone-upgrades.cfg:50
+#: Era_of_Magic\utils\abilities.cfg:15 Era_of_Magic\utils\drone-upgrades.cfg:50
 #: Era_of_Magic\utils\drone-upgrades.cfg:328
 msgid "kamikaze"
 msgstr "kamikaze"
@@ -2550,16 +2506,6 @@ msgstr "głos ciemności"
 
 #. [leadership]: id=leadership
 #: Era_of_Magic\units\Destroyers\Dark_Apostle.cfg:37
-#, fuzzy
-#| msgid ""
-#| "This unit constantly whispers terrifying words in an unknown language, "
-#| "which somehow make friendly undead units that are next to it fight "
-#| "better.\n"
-#| "\n"
-#| "Adjacent friendly level 0 units will do 60% more damage in battle\n"
-#| "Adjacent friendly level 1 units will do 45% more damage in battle\n"
-#| "Adjacent friendly level 2 units will do 30% more damage in battle\n"
-#| "Adjacent friendly level 3 units will do 15% more damage in battle."
 msgid ""
 "This unit constantly whispers terrifying words in an unknown language, which "
 "somehow make friendly undead units that are next to it fight better.\n"
@@ -2567,15 +2513,12 @@ msgid ""
 "All adjacent lower-level undead units from the same side deal 15% more "
 "damage for each difference in level."
 msgstr ""
-"Ta jednostka może zainspirować przyjazne jednostki, które są obok niej, "
-"dzięki czemu będą lepiej walczyć.\n"
+"Ta jednostka nieustannie szepcze przerażające słowa w nieznanym języku, "
+"które w jakiś sposób sprawiają, że przyjazne nieumarłe jednostki znajdujące "
+"się obok niej walczą lepiej.\n"
 "\n"
-"Sąsiednie przyjazne poziomy 0 jednostek zadadzą 60% więcej obrażeń w walce.\n"
-"Sąsiednie przyjazne jednostki poziomu 1 zadadzą 45% więcej obrażeń w "
-"bitwie.\n"
-"Sąsiednie przyjazne jednostki poziomu 2 zadadzą 30% więcej obrażeń w "
-"bitwie.\n"
-"Sąsiednie przyjazne jednostki poziomu 3 zadadzą 15% więcej obrażeń w bitwie."
+"Wszystkie sąsiadujące jednostki nieumarłych niższego poziomu z tej samej "
+"strony zadają 15% więcej obrażeń za każdą różnicę w poziomie."
 
 #. [attack]: type=fire
 #: Era_of_Magic\units\Destroyers\Dark_Apostle.cfg:67
@@ -3049,18 +2992,13 @@ msgstr "Fanatyk"
 #. [advancement]: id=red_ulf_killandrun
 #: Era_of_Magic\units\Kharos\Fanatic.cfg:21
 #: Era_of_Magic\units\Runemasters\Red_Steam_Ulfserker.cfg:85
-#, fuzzy
-#| msgid "+Hit and Run 2; +2 max HP; +25% XP"
 msgid "Kill and Run 2, +3 HP, +20% max XP"
-msgstr "+Cios i Ucieczka 2; +2 max PŻ; +25% XP"
+msgstr "+Cios i Ucieczka 2; +3 max PŻ; +20% max XP"
 
 #. [advancement]: id=fanatic_melee
 #: Era_of_Magic\units\Kharos\Fanatic.cfg:51
-#, fuzzy
-#| msgid "+First strike to melee attacks; +5 max HP; +20% XP"
 msgid "+1 strike on melee, +3 HP, +20% max XP"
-msgstr ""
-"+Pierwszy cios dla ataków wręcz; +5 do maksymalnych punktów życia, +20% XP"
+msgstr "+1 cios wręcz; +3 PŻ; +20% max XP"
 
 #. [advancement]: id=fanatic_magicdodge
 #: Era_of_Magic\units\Kharos\Fanatic.cfg:80
@@ -3112,17 +3050,13 @@ msgstr "Ognisty Szermierz"
 
 #. [advancement]: id=fireswordsman_solarregen
 #: Era_of_Magic\units\Kharos\Fire_Swordsman.cfg:21
-#, fuzzy
-#| msgid "Nature Regeneration +8, Max HP bonus +2"
 msgid "Solar Regeneration 4/6, +3 HP +20% max XP"
-msgstr "Przyrodnicza Regeneracja +8, Bonus do maksymalnego HP +2"
+msgstr "Słoneczna Regeneracja +4/6, Bonus do maksymalnego HP +3, +20% max XP"
 
 #. [advancement]: id=fireswordsman_melee
 #: Era_of_Magic\units\Kharos\Fire_Swordsman.cfg:51
-#, fuzzy
-#| msgid "+2 magical powder damage; +3 max HP; +20% XP"
 msgid "+2 melee damage, +3 HP, +20% max XP"
-msgstr "+2 obrażenia od magicznego proszku; +3 maks. PŻ; +20% XP"
+msgstr "+2 obrażeń wręcz; +3 maks. PŻ; +20% max XP"
 
 #. [advancement]: id=fireswordsman_resistances
 #: Era_of_Magic\units\Kharos\Fire_Swordsman.cfg:80
@@ -3664,41 +3598,33 @@ msgstr "bomba"
 
 #. [advancement]: id=eoma_dronestrike
 #: Era_of_Magic\units\Runemasters\Drone.cfg:9
-#, fuzzy
-#| msgid "attack module (+1 melee strike/damage)"
 msgid "attack module (+1 melee strike/damage), +33% XP"
-msgstr "moduł ofensywny (+1 cios/obrażenia)"
+msgstr "moduł ofensywny (+1 cios/obrażenia), +33% XP"
 
 #. [advancement]: id=eoma_dronemoves
 #: Era_of_Magic\units\Runemasters\Drone.cfg:61
-#, fuzzy
-#| msgid "agility module (+1 mp; hit and run 2, +1 max hp)"
 msgid "agility module (+1 mp; hit and run 2, +1 max hp), +33% XP"
-msgstr "moduł zwinności (+1 ruch, atak i ucieczka 2, +1 max hp)"
+msgstr "moduł zwinności (+1 ruch, atak i ucieczka 2, +1 max hp), +33% XP"
 
 #. [advancement]: id=eoma_dronezoc
 #: Era_of_Magic\units\Runemasters\Drone.cfg:104
-#, fuzzy
-#| msgid "defense module (add zone of control and autorepair +6, +2 max hp)"
 msgid ""
 "defense module (add zone of control and autorepair +6, +2 max hp), +33% XP"
 msgstr ""
 "moduł defensywny (dodaje strefę kontroli i umożliwia autonaprawę +6, +2 max "
-"hp)"
+"hp), +33% XP"
 
 #. [advancement]: id=eoma_dronehp
 #: Era_of_Magic\units\Runemasters\Drone.cfg:147
-#, fuzzy
 #| msgid "+8 max hp"
 msgid "+8 max hp, +25% XP"
-msgstr "+8 max hp"
+msgstr "+8 max hp, +25% XP"
 
 #. [advancement]: id=eoma_dronehp2
 #: Era_of_Magic\units\Runemasters\Drone.cfg:173
-#, fuzzy
 #| msgid "+4 max hp"
 msgid "+4 max hp, +20% XP"
-msgstr "+4 max hp"
+msgstr "+4 max hp, +20% XP"
 
 #. [unit_type]: id=EoMa_Drone, race=mechanical
 #: Era_of_Magic\units\Runemasters\Drone.cfg:195
@@ -3738,8 +3664,7 @@ msgstr "Latający Dron"
 #. [unstore_unit]
 #: Era_of_Magic\units\Runemasters\Drone.cfg:486
 #: Era_of_Magic\units\Runemasters\Perfect_Drone.cfg:222
-#: Era_of_Magic\utils\abilities.cfg:57 Era_of_Magic\utils\abilities.cfg:85
-#: Era_of_Magic\utils\abilities.cfg:121
+#: Era_of_Magic\utils\abilities.cfg:57 Era_of_Magic\utils\abilities.cfg:121
 msgid "movepoints"
 msgstr "punkty ruchu"
 
@@ -3865,10 +3790,8 @@ msgstr "runiczny miecz"
 
 #. [attack]: type=secret
 #: Era_of_Magic\units\Runemasters\Dwarvish_Rune_Lord.cfg:67
-#, fuzzy
-#| msgid "charge"
 msgid "charged slash"
-msgstr "szarża"
+msgstr "naładowana szarża"
 
 #. [unit_type]: id=EoMa_Dwarvish_Rune_Warrior, race=dwarf, description={NO_DESCR_AVAILABLE}
 #. [unit_type]: id=EoMa_Dwarvish_Rune_Warrior_rpg
@@ -4119,10 +4042,8 @@ msgstr "Czerwony Parowy Ulfserker"
 
 #. [advancement]: id=red_ulf_melee
 #: Era_of_Magic\units\Runemasters\Red_Steam_Ulfserker.cfg:17
-#, fuzzy
-#| msgid "+Hit and Run 2; +2 max HP; +25% XP"
 msgid "Skilled on melee, +2 max HP, +20% XP"
-msgstr "+Cios i Ucieczka 2; +2 max PŻ; +25% XP"
+msgstr "Umiejętny w atakach wręcz, +2 max PŻ, +20% XP"
 
 #. [advancement]: id=red_ulf_regen
 #: Era_of_Magic\units\Runemasters\Red_Steam_Ulfserker.cfg:49
@@ -4379,10 +4300,8 @@ msgstr "Wymiatacz Okopów"
 #. [advancement]: id=shadowmage_hitandrun
 #: Era_of_Magic\units\Runemasters\Trench_Sweeper.cfg:20
 #: Era_of_Magic\units\Sky_Kingdom\Shadow_Mage.cfg:87
-#, fuzzy
-#| msgid "+Hit and Run 2; +2 max HP; +25% XP"
 msgid "Hit and run 1, +2 HP, +20% max XP"
-msgstr "+Cios i Ucieczka 2; +2 max PŻ; +25% XP"
+msgstr "+Cios i Ucieczka 1; +2 max PŻ; +20% max XP"
 
 #. [advancement]: id=TR_SW_MOUNTAIN_AMBUSH
 #: Era_of_Magic\units\Runemasters\Trench_Sweeper.cfg:80
@@ -4807,10 +4726,8 @@ msgstr "cios ziemi"
 #. [attack]: type=pierce
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Earth.cfg:132
 #: Era_of_Magic\units\Sky_Kingdom\Terramancer.cfg:74
-#, fuzzy
-#| msgid "metal claws"
 msgid "crystal claws"
-msgstr "metalowe pazury"
+msgstr "kryształowe pazury"
 
 #. [attack]: type=impact
 #: Era_of_Magic\units\Sky_Kingdom\Master_of_Earth.cfg:145
@@ -5077,10 +4994,8 @@ msgstr "Mag Cienia"
 
 #. [advancement]: id=shadowmage_nocturnalregen
 #: Era_of_Magic\units\Sky_Kingdom\Shadow_Mage.cfg:21
-#, fuzzy
-#| msgid "Nature Regeneration +8, Max HP bonus +2"
 msgid "Nocturnal Regeneration 8, +3 HP +20% max XP"
-msgstr "Przyrodnicza Regeneracja +8, Bonus do maksymalnego HP +2"
+msgstr "Przyrodnicza Regeneracja +8, Bonus do maksymalnego HP +3, +20% max XP"
 
 #. [advancement]: id=shadowmage_knives
 #: Era_of_Magic\units\Sky_Kingdom\Shadow_Mage.cfg:117
@@ -6302,11 +6217,8 @@ msgstr "Łańcuchowa Dama"
 
 #. [advancement]: id=chainlady_melee
 #: Era_of_Magic\units\Tharis\Chainlady.cfg:81
-#, fuzzy
-#| msgid "+First strike to melee attacks; +5 max HP; +20% XP"
 msgid "First strike and +2 damage to melee attacks; +3 max HP; +20% XP"
-msgstr ""
-"+Pierwszy cios dla ataków wręcz; +5 do maksymalnych punktów życia, +20% XP"
+msgstr "Pierwszy Cios; +5 punktów obrażeń do ataków wręcz, +3 max PŻ, +20% XP"
 
 #. [advancement]: id=chainlady_ranged
 #: Era_of_Magic\units\Tharis\Chainlady.cfg:113
@@ -6315,10 +6227,8 @@ msgstr ""
 
 #. [advancement]: id=chainlady_skirmisher
 #: Era_of_Magic\units\Tharis\Chainlady.cfg:138
-#, fuzzy
-#| msgid "+Skirmisher; +30% XP"
 msgid "Skirmisher, +2 HP, +25% max XP"
-msgstr "+Harcownik; +30% XP"
+msgstr "Harcownik, +2 max PŻ; +25% max XP"
 
 #. [unit_type]: id=EoMa_Chaos_Hydra, race=monster
 #: Era_of_Magic\units\Tharis\Chaos_Hydra.cfg:4
@@ -6534,17 +6444,13 @@ msgstr "Mroczny Władca"
 
 #. [abilities]
 #: Era_of_Magic\units\Tharis\Dark_Warlord.cfg:27
-#, fuzzy
-#| msgid "Recruit Orcish Warrior"
 msgid "Recruit Dark Warrior"
-msgstr "Rekrutuj Orka Wojownika"
+msgstr "Rekrutuj Morcznego Wojownika"
 
 #. [abilities]
 #: Era_of_Magic\units\Tharis\Dark_Warlord.cfg:28
-#, fuzzy
-#| msgid "Dark Hunter"
 msgid "Recruit Dark Hunter"
-msgstr "Mroczny Myśliwy"
+msgstr "Rekrutuj Mrocznego Myśliwego"
 
 #. [unit_type]: id=EoMa_Dark_Warrior, race=eoma_tharis
 #: Era_of_Magic\units\Tharis\Dark_Warrior.cfg:4
@@ -6952,11 +6858,8 @@ msgstr ""
 
 #. [advancement]: id=painsphere_blast
 #: Era_of_Magic\units\Tharis\Pain_Sphere.cfg:122
-#, fuzzy
-#| msgid "+First strike to melee attacks; +5 max HP; +20% XP"
 msgid "+1 strike on blast, +3 HP, +20% max XP"
-msgstr ""
-"+Pierwszy cios dla ataków wręcz; +5 do maksymalnych punktów życia, +20% XP"
+msgstr "+1 cios do uderzenia; +3 PŻ; +20% max XP"
 
 #. [advancement]: id=painsphere_resistances
 #: Era_of_Magic\units\Tharis\Pain_Sphere.cfg:151
@@ -6986,31 +6889,23 @@ msgstr "Przeładowana Sfera"
 
 #. [advancement]: id=stormsphere_nightstalk
 #: Era_of_Magic\units\Tharis\Storm_Sphere.cfg:18
-#, fuzzy
-#| msgid "Nature Regeneration +8, Max HP bonus +2"
 msgid "Nocturnal Regeneration 10, +3 HP +20% max XP"
-msgstr "Przyrodnicza Regeneracja +8, Bonus do maksymalnego HP +2"
+msgstr "Nocna Regeneracja +10, Bonus do maksymalnego HP +3, +20% max XP"
 
 #. [advancement]: id=stormsphere_skirmisher
 #: Era_of_Magic\units\Tharis\Storm_Sphere.cfg:54
-#, fuzzy
-#| msgid "+Skirmisher; +30% XP"
 msgid "Skirmisher, +2 HP, +20% max XP"
-msgstr "+Harcownik; +30% XP"
+msgstr "Harcownik; +2 max PŻ; +20% max XP"
 
 #. [advancement]: id=stormsphere_hitandrun
 #: Era_of_Magic\units\Tharis\Storm_Sphere.cfg:84
-#, fuzzy
-#| msgid "+Hit and Run 2; +2 max HP; +25% XP"
 msgid "Hit and run 2, +2 HP, +25% max XP"
-msgstr "+Cios i Ucieczka 2; +2 max PŻ; +25% XP"
+msgstr "Cios i Ucieczka 2; +2 max PŻ; +25% max XP"
 
 #. [advancement]: id=stormsphere_dmg
 #: Era_of_Magic\units\Tharis\Storm_Sphere.cfg:115
-#, fuzzy
-#| msgid "+2 magical powder damage; +3 max HP; +20% XP"
 msgid "+2 ranged damage, +3 HP, +20% max XP"
-msgstr "+2 obrażenia od magicznego proszku; +3 maks. PŻ; +20% XP"
+msgstr "+2 obrażeń na odległość; +3 maks. PŻ; +20% max XP"
 
 #. [attack]: type=cold
 #: Era_of_Magic\units\Tharis\Storm_Sphere.cfg:430
@@ -7024,17 +6919,13 @@ msgstr "Tancerz Mieczy"
 
 #. [advancement]: id=sworddancer_nocturnalregen
 #: Era_of_Magic\units\Tharis\Sword_Dancer.cfg:19
-#, fuzzy
-#| msgid "Nature Regeneration +8, Max HP bonus +2"
 msgid "Nocturnal Regeneration 7, +3 HP +20% max XP"
-msgstr "Przyrodnicza Regeneracja +8, Bonus do maksymalnego HP +2"
+msgstr "Nocna Regeneracja +7, Bonus do maksymalnego HP +3, +20% max XP"
 
 #. [advancement]: id=sworddancer_bloodlust
 #: Era_of_Magic\units\Tharis\Sword_Dancer.cfg:55
-#, fuzzy
-#| msgid "Bloodlust +5, Max HP bonus +2"
 msgid "Bloodlust 5, +3 HP +20% max XP"
-msgstr "Żądza krwi +5, Bonus do maksymalnego HP +2"
+msgstr "Żądza krwi +5, Bonus do maksymalnego HP +3, +20% max XP"
 
 #. [advancement]: id=sworddancer_melee
 #: Era_of_Magic\units\Tharis\Sword_Dancer.cfg:85
@@ -7293,7 +7184,7 @@ msgstr "Ta jednostka zawsze trafia cel ale za to jednocześnie ginie."
 
 #. [dummy]: id=eoma_hitandrun{VALUE}
 #. [dummy]: id=eoma_hitandrunspecial{VALUE}
-#: Era_of_Magic\utils\abilities.cfg:41 Era_of_Magic\utils\abilities.cfg:103
+#: Era_of_Magic\utils\abilities.cfg:41
 msgid "hit and run"
 msgstr "uderz i uciekaj"
 
@@ -7423,27 +7314,16 @@ msgstr "efekt obszarowy"
 
 #. [dummy]: id=eoma_areaeffect
 #: Era_of_Magic\utils\abilities.cfg:459
-#, fuzzy
-#| msgid ""
-#| "When this attack is used, random units adjacent to the target (except the "
-#| "attacker) get half of the basic damage.\n"
-#| "This effect works only on offence.\n"
-#| "This ability works even against allies.\n"
-#| "Secondary target may be hit even when primary attack misses.\n"
-#| "Chance to hit secondary target: "
 msgid ""
 "When this attack hits an enemy, units adjacent to the target (except the "
 "attacker) get half of the basic damage.\n"
 "This effect works only on offence.\n"
 "This ability works even against allies."
 msgstr ""
-"Kiedy ten atak jest używany, losowe jednostki sąsiadujące z celem (oprócz "
-"atakującego) otrzymują połowę podstawowych obrażeń. \n"
-"Nie działa w obronie.\n"
-"Nie działa na sojuszników.\n"
-"Drugorzędny cel może zostać trafiony nawet jeśli główny atak się nie "
-"powiedzie.\n"
-"Szansa na trafienie drugorzędnego celu: "
+"Gdy ten atak trafi wroga, jednostki sąsiadujące z celem (z wyjątkiem "
+"atakującego) otrzymują połowę podstawowych obrażeń.\n"
+"Ten efekt działa tylko w przypadku ataku.\n"
+"Ta umiejętność działa nawet przeciwko sojusznikom."
 
 #. [dummy]: id=eoma_swallow{VALUE}
 #: Era_of_Magic\utils\abilities.cfg:600
@@ -7462,12 +7342,6 @@ msgstr "zbieracz"
 
 #. [dummy]: id=eoma_collector{VALUE}
 #: Era_of_Magic\utils\abilities.cfg:663
-#, fuzzy
-#| msgid ""
-#| "This unit gains some HP added to its current health whenever it kills a "
-#| "non-magical unit. It also gains +1 max HP with each successful kill of a "
-#| "non-magical unit. This special works only on offense.\n"
-#| "The amount of hitpoints gained:"
 msgid ""
 "This unit gains some HP added to its current health whenever it kills a non-"
 "magical unit. It also gains +1 max HP with each successful kill of a non-"
@@ -7475,10 +7349,11 @@ msgid ""
 "\n"
 "The amount of hitpoints gained:"
 msgstr ""
-"Ta jednostka otrzymuje dodatkowe punkty życia za każdym razem gdy pokona "
-"niemagiczną istotę. Dodatkowo zyskuje +1 do maksymalnych punktów życia. Ta "
-"umiejętność działa tylko w ataku.\n"
-"Liczba uzyskanych punktów życia:"
+"Ta jednostka zyskuje nieco PŻ dodawanych do jej aktualnego zdrowia za każdym "
+"razem, gdy zabije jednostkę niemagiczną. Zyskuje również +1 PŻ za każde "
+"udane zabicie jednostki niemagicznej.\n"
+"\n"
+"Ilość zdobytych punktów wytrzymałości:"
 
 #. [floating_text]
 #: Era_of_Magic\utils\abilities.cfg:748
@@ -7670,14 +7545,12 @@ msgstr ""
 "Liczba uzyskanych punktów życia:"
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic\utils\abilities.cfg:1668
-#: Era_of_Magic\utils\abilities.cfg:1669
+#: Era_of_Magic\utils\abilities.cfg:1668 Era_of_Magic\utils\abilities.cfg:1669
 msgid "dread"
 msgstr "strach"
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic\utils\abilities.cfg:1670
-#: Era_of_Magic\utils\abilities.cfg:1671
+#: Era_of_Magic\utils\abilities.cfg:1670 Era_of_Magic\utils\abilities.cfg:1671
 msgid ""
 "When this attack is used offensively, this unit takes one third less damage "
 "in retaliation."
@@ -7686,14 +7559,12 @@ msgstr ""
 "jedną trzecią obrażeń mniej."
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic\utils\abilities.cfg:1681
-#: Era_of_Magic\utils\abilities.cfg:1682
+#: Era_of_Magic\utils\abilities.cfg:1681 Era_of_Magic\utils\abilities.cfg:1682
 msgid "evade"
 msgstr "unik"
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic\utils\abilities.cfg:1683
-#: Era_of_Magic\utils\abilities.cfg:1684
+#: Era_of_Magic\utils\abilities.cfg:1683 Era_of_Magic\utils\abilities.cfg:1684
 msgid ""
 "When this attack is used offensively, this unit takes 25% less damage in "
 "retaliation."
@@ -7813,26 +7684,19 @@ msgstr ""
 
 #. [dummy]: id=eoma_pain_chainingII
 #: Era_of_Magic\utils\abilities.cfg:1979
-#, fuzzy
-#| msgid "pain chaining"
 msgid "pain chaining II"
-msgstr "łączenie bólu"
+msgstr "łączenie bólu II"
 
 #. [dummy]: id=eoma_pain_chainingII
 #: Era_of_Magic\utils\abilities.cfg:1980
-#, fuzzy
-#| msgid ""
-#| "When this unit attacks or is attacked, it reduces all physical "
-#| "resistances of all adjacent enemy units by 10%. This effect lasts only "
-#| "during active side's turn."
 msgid ""
 "When this unit attacks or is attacked, it reduces all physical/magical "
 "resistances of all adjacent enemy units by 10%. This effect lasts only "
 "during active side's turn."
 msgstr ""
-"Kiedy ta jednostka zostanie zaatakowana, zmniejsza fizyczne odporności "
-"pobliskich wrogich jednostek o 10%. Efekt ten trwa tylko w trakcie tury "
-"aktywnego obecnie gracza."
+"Kiedy ta jednostka atakuje lub jest atakowana, zmniejsza wszystkie fizyczne/"
+"magiczne odporności wszystkich sąsiadujących jednostek wroga o 10%. Efekt "
+"ten trwa tylko podczas tury aktywnej strony."
 
 #. [dummy]: id=eoma_upkeepless
 #: Era_of_Magic\utils\abilities.cfg:2224
@@ -7841,34 +7705,28 @@ msgstr "bez utrzymania"
 
 #. [dummy]: id=eoma_upkeepless
 #: Era_of_Magic\utils\abilities.cfg:2225
-#, fuzzy
-#| msgid "This unit doesn't cost upkeep."
 msgid "This unit costs no upkeep."
 msgstr "Ta jednostka nie musi być utrzymywana za złoto."
 
 #. [dummy]: id=eoma_upkeep{VALUE}
 #: Era_of_Magic\utils\abilities.cfg:2237
-#, fuzzy
-#| msgid "low upkeep"
 msgid "upkeep"
-msgstr "niskie utrzymanie"
+msgstr "utrzymanie"
 
 #. [dummy]: id=eoma_upkeep{VALUE}
 #: Era_of_Magic\utils\abilities.cfg:2238
-#, fuzzy
-#| msgid "This unit doesn't cost upkeep."
 msgid "This unit costs "
-msgstr "Ta jednostka nie musi być utrzymywana za złoto."
+msgstr "Przywołanie jednostki kosztuje "
 
 #. [dummy]: id=eoma_upkeep{VALUE}
 #: Era_of_Magic\utils\abilities.cfg:2238
 msgid " upkeep instead of the amount equal to level."
-msgstr ""
+msgstr "kosztów utrzymania zamiast ilości charakterystycznej dla tego poziomu."
 
 #. [regenerate]: id=eoma_forage
 #: Era_of_Magic\utils\abilities.cfg:2251
 msgid "forage"
-msgstr ""
+msgstr "zbieracz"
 
 #. [regenerate]: id=eoma_forage
 #: Era_of_Magic\utils\abilities.cfg:2252
@@ -7876,11 +7734,14 @@ msgid ""
 "When resting on forest/fungus/farm/village tile, this unit will not cost any "
 "upkeep for a turn and regenerates 4 HP per turn. (does not cure poison)."
 msgstr ""
+"Gdy jednostka spoczywa na kafelku lasu/grzyba/gospodarstwa/wioski, nie "
+"kosztuje utrzymania przez turę i regeneruje 4 PŻ na turę. (nie leczy "
+"trucizny)."
 
 #. [floating_text]
 #: Era_of_Magic\utils\abilities.cfg:2317
 msgid "foraging"
-msgstr ""
+msgstr "zbieranie"
 
 #. [disable]: id=eoma_disable_in_rpg, description=
 #: Era_of_Magic\utils\abilities_rpg.cfg:6
@@ -8009,12 +7870,6 @@ msgstr "przebudzony"
 
 #. [dummy]: id=eoma_awake
 #: Era_of_Magic\utils\awake.cfg:7
-#, fuzzy
-#| msgid ""
-#| "If a friendly adjacent unit with more than one hitpoint dies, it is "
-#| "resurrected, gets +6 experience and remains in battle with one hitpoint. "
-#| "If it dies again (having one hitpoint), it will be killed for sure.\n"
-#| "Doesn't work on units attacked indirectly e.g. by area weapons."
 msgid ""
 "If a friendly adjacent unit with more than one hitpoint dies, it is "
 "resurrected, gets +6 experience and remains in battle with one hitpoint. If "
@@ -8023,12 +7878,13 @@ msgid ""
 "Doesn't work on units killed by attacks with plague/supercharge/swallow "
 "specials, or attacked indirectly e.g. by area weapons."
 msgstr ""
-"Jeśli przyjazna sąsiednia jednostka zginie, zostaje wskrzeszona, dostaje +6 "
-"punktów doświadczenia i pozostaje na polu bitwy z jednym punktem życia. "
-"Jeśli zginie ponownie (mając 1 punkt życia), nie będzie można wskrzesić jej "
-"ponownie.\n"
-"Nie działa w przypadku jednostek pokonanych niebezpośrednio, np. za pomocą "
-"broni obszarowych."
+"Jeśli sojusznicza sąsiadująca jednostka z więcej niż jednym punktem "
+"wytrzymałości zginie, zostanie wskrzeszona, otrzyma +6 doświadczenia i "
+"pozostanie w bitwie z jednym punktem wytrzymałości. Jeśli zginie ponownie "
+"(mając jeden punkt wytrzymałości), na pewno zostanie zabita.\n"
+"\n"
+"Nie działa na jednostki zabite przez ataki plagą/super szarżą/płytką "
+"specjalną lub zaatakowane pośrednio, np. bronią obszarową."
 
 #. [unstore_unit]
 #: Era_of_Magic\utils\awake.cfg:82
@@ -8125,7 +7981,7 @@ msgid "awe 4"
 msgstr "strach 4"
 
 #. [damage]: id=eoma_banish
-#: Era_of_Magic\utils\banish.cfg:19 Era_of_Magic\utils\banish.cfg:20
+#: Era_of_Magic\utils\banish.cfg:19
 msgid "banish"
 msgstr "wygnanie"
 
@@ -8143,11 +7999,9 @@ msgstr ""
 "samym poziomie, zdolność nie zadziała."
 
 #. [unstore_unit]
-#: Era_of_Magic\utils\banish.cfg:238 Era_of_Magic\utils\bonesplit.cfg:126
-#: Era_of_Magic\utils\bonesplit.cfg:179 Era_of_Magic\utils\bonesplit.cfg:228
-#: Era_of_Magic\utils\drone-upgrades.cfg:607
-#: Era_of_Magic\utils\recruit.cfg:145 Era_of_Magic\utils\recruit.cfg:181
-#: Era_of_Magic\utils\recruit.cfg:211 Era_of_Magic\utils\summon.cfg:270
+#: Era_of_Magic\utils\banish.cfg:238 Era_of_Magic\utils\bonesplit.cfg:179
+#: Era_of_Magic\utils\drone-upgrades.cfg:607 Era_of_Magic\utils\recruit.cfg:145
+#: Era_of_Magic\utils\recruit.cfg:211
 msgid "+3 exp"
 msgstr "+3 doświadczenie"
 
@@ -8189,7 +8043,7 @@ msgstr ""
 "Krawienie samo w sobie nie może zabić jednostki."
 
 #. [unstore_unit]
-#: Era_of_Magic\utils\bleed.cfg:54 Era_of_Magic\utils\bleed.cfg:119
+#: Era_of_Magic\utils\bleed.cfg:54
 msgid "bleeding"
 msgstr "krwawi"
 
@@ -8213,25 +8067,23 @@ msgstr ""
 "która pojawia się po kliknięciu prawym przyciskiem myszy na jednostkę ze "
 "zdolnością \"rozdwojenia kości\"."
 
-#. [set_menu_item]: id=bonesplit_{ID}, description= - 
+#. [set_menu_item]: id=bonesplit_{ID}, description= -
 #. [set_menu_item]: id=completerepair
-#. [set_menu_item]: id=recruit_{ID}, description= - 
-#. [set_menu_item]: id=summon_{ID}, description= - 
+#. [set_menu_item]: id=recruit_{ID}, description= -
+#. [set_menu_item]: id=summon_{ID}, description= -
 #: Era_of_Magic\utils\bonesplit.cfg:48
-#: Era_of_Magic\utils\drone-upgrades.cfg:494
-#: Era_of_Magic\utils\recruit.cfg:54 Era_of_Magic\utils\summon.cfg:94
+#: Era_of_Magic\utils\drone-upgrades.cfg:494 Era_of_Magic\utils\recruit.cfg:54
 msgid "gold:"
 msgstr "złoto:"
 
-#. [set_menu_item]: id=bonesplit_{ID}, description= - 
+#. [set_menu_item]: id=bonesplit_{ID}, description= -
 #: Era_of_Magic\utils\bonesplit.cfg:48
 msgid "-10HP"
 msgstr "-10HP"
 
 #. [message]: speaker=narrator
 #: Era_of_Magic\utils\bonesplit.cfg:261
-#: Era_of_Magic\utils\drone-upgrades.cfg:615
-#: Era_of_Magic\utils\recruit.cfg:228 Era_of_Magic\utils\statue-copy.cfg:345
+#: Era_of_Magic\utils\drone-upgrades.cfg:615 Era_of_Magic\utils\recruit.cfg:228
 #: Era_of_Magic\utils\summon.cfg:291
 msgid "Error"
 msgstr "Błąd"
@@ -8516,12 +8368,6 @@ msgstr "aura czasu (aktywna)"
 
 #. [firststrike]: id=eoma_chronoauractive
 #: Era_of_Magic\utils\chronoaura.cfg:159
-#, fuzzy
-#| msgid ""
-#| "This unit and all adjacent friendly units strike first and receive +15% "
-#| "chance to hit bonus, while all adjacent enemy units receive -15% chance "
-#| "to hit penalty (except for attacks which always hit). The ability lasts "
-#| "one turn."
 msgid ""
 "This unit and all adjacent friendly units strike first and receive +20% "
 "chance to hit bonus (+5% from passive aura, +15% from active aura), while "
@@ -8932,16 +8778,12 @@ msgstr "wzbierająca furia"
 
 #. [damage]: id=eoma_growingfury{ARRAY}{ADD}
 #: Era_of_Magic\utils\growing-fury.cfg:14
-#, fuzzy
-#| msgid ""
-#| "When this attack is used, this units damage increases after each "
-#| "successful hit until 4th strike."
 msgid ""
 "When this attack is used, this units damage increases after each successful "
 "hit (if the attack has more than 5 strikes, only the first 5 successful hits "
 "per attack increase damage)."
 msgstr ""
-"Gdy ten atak jest użyty, obrażenia rosną za każdym uderzeniem, aż do 4 ciosu."
+"Gdy ten atak jest użyty, obrażenia rosną za każdym uderzeniem, aż do 5 ciosu."
 
 #. [heals]: id=eoma_healing{VALUE}
 #: Era_of_Magic\utils\healing.cfg:41
@@ -8975,7 +8817,7 @@ msgstr ""
 "Ilość odzyskanych punktów życia:"
 
 #. [regenerate]: id=eoma_regenerates{VALUE}
-#: Era_of_Magic\utils\healing.cfg:77 Era_of_Magic\utils\healing.cfg:92
+#: Era_of_Magic\utils\healing.cfg:77
 msgid "regenerates"
 msgstr "regeneruje się"
 
@@ -9025,19 +8867,14 @@ msgstr "wodna regeneracja"
 
 #. [regenerate]: id=eoma_water_regeneration{VALUE}
 #: Era_of_Magic\utils\healing.cfg:144
-#, fuzzy
-#| msgid ""
-#| "When standing on water, this unit will heal itself some HP per turn. If "
-#| "it is poisoned, it will remove the poison instead of healing.\n"
-#| "The amount of hitpoints restored:"
 msgid ""
 "When standing on water/swamp, this unit will heal itself some HP per turn. "
 "If it is poisoned, it will remove the poison instead of healing.\n"
 "The amount of hitpoints restored:"
 msgstr ""
-"Kiedy ta jednostka stoi w wodzie, odzyskuje określoną ilość punktów życia na "
-"turę. Jeśli jest zatruta, usunie truciznę zamiast leczenia.\n"
-"Ilość odzyskanych punktów życia:"
+"Stojąc na wodzie/bagnach, jednostka ta będzie leczyć się co turę. Jeśli "
+"zostanie zatruta, usunie truciznę zamiast się leczyć.\n"
+"Ilość przywróconych punktów życia:"
 
 #. [regenerate]: id=eoma_frozen_regeneration{VALUE}
 #: Era_of_Magic\utils\healing.cfg:160
@@ -9114,12 +8951,6 @@ msgstr "słoneczna regeneracja"
 
 #. [regenerate]: id=eoma_regeneratessolar1_{VALUE}_{VALUE2}
 #: Era_of_Magic\utils\healing.cfg:237
-#, fuzzy
-#| msgid ""
-#| "The unit will heal itself some HP at dawn or dusk and some HP during day. "
-#| "If it is poisoned, it will remove the poison instead of healing.\n"
-#| "The amount of hitpoints restored during dawn or dusk (first value) and "
-#| "during day (second value):"
 msgid ""
 "The unit will heal itself some HP at dawn/dusk (or any neutral ToD) and some "
 "HP during day (or other lawful ToD). If it is poisoned, it will remove the "
@@ -9131,11 +8962,15 @@ msgid ""
 "The amount of hitpoints restored during dawn or dusk (first value) and "
 "during day (second value):"
 msgstr ""
-"Jednostka odzyskuje określoną ilość punktów życia w ciągu dnia oraz inną "
-"ilość o świcie i zmierzchu. Jeśli jest zatruta, leczy zatrucie zamiast "
-"odzyskiwać HP.\n"
-"Ilość odzyskanych punktów życia o świcie i zmierzchu (pierwsza wartość) oraz "
-"za dnia (druga wartość) :"
+"Jednostka wyleczy się z części PŻ o świcie/zmierzchu (lub w dowolnym "
+"neutralnym ToD) i z części PŻ w ciągu dnia (lub w innym praworządnym ToD). "
+"Jeśli zostanie zatruta, usunie truciznę zamiast się leczyć.\n"
+"\n"
+"(jeśli jednostka ma 0 regeneracji o świcie/zmierzchu (na przykład +0/+3), "
+"trucizna nie będzie leczona o świcie/zmierzchu)\n"
+"\n"
+"Ilość punktów życia przywracanych podczas świtu lub zmierzchu (pierwsza "
+"wartość) i podczas dnia (druga wartość):"
 
 #. [regenerate]: id=eoma_regeneratesnight1_{VALUE}
 #: Era_of_Magic\utils\healing.cfg:272
@@ -9144,22 +8979,16 @@ msgstr "nocna regeneracja"
 
 #. [regenerate]: id=eoma_regeneratesnight1_{VALUE}
 #: Era_of_Magic\utils\healing.cfg:273
-#, fuzzy
-#| msgid ""
-#| "The unit will heal itself some HP during night and when in caves or "
-#| "indoors. If it is poisoned, it will remove the poison instead of "
-#| "healing.\n"
-#| "The amount of hitpoints restored:"
 msgid ""
 "The unit will heal itself some HP during night/other dark ToD (including "
 "tiles darkened by dark aura). If it is poisoned, it will remove the poison "
 "instead of healing.\n"
 "The amount of hitpoints restored:"
 msgstr ""
-"Ta jednostka odzyskuje określoną ilość punktów życia w nocy oraz w "
-"jaskiniach i pomieszczeniach. Jeśli jest zatruta, leczy truciznę zamiast "
-"odzyskiwać HP.\n"
-"Ilość odzyskanych punktów życia:"
+"Jednostka będzie leczyć się podczas nocy/innych ciemnych ToD (w tym płytek "
+"zaciemnionych przez ciemną aurę). Jeśli zostanie zatruta, usunie truciznę "
+"zamiast się leczyć.\n"
+"Ilość przywróconych punktów życia:"
 
 #. [heals]: id=undeadheal{VALUE}
 #: Era_of_Magic\utils\healing.cfg:293
@@ -9269,6 +9098,10 @@ msgid ""
 "stacks with other damage-buffing auras like leadership/inspires/racial "
 "leader/etc.). Does not affect other units with the same ability."
 msgstr ""
+"Wszystkie przyległe przyjazne jednostki będą zadawać 10% więcej obrażeń "
+"podczas bitwy (premia ta kumuluje się z innymi aurami zmniejszającymi "
+"obrażenia, takimi jak przywództwo/inspiracje/przywódca rasowy itp.) Nie "
+"wpływa na inne jednostki z tą samą umiejętnością."
 
 #. [leadership]: id=leadership
 #: Era_of_Magic\utils\leaderships.cfg:136
@@ -9291,27 +9124,23 @@ msgstr ""
 
 #. [leadership]: id=leadership
 #: Era_of_Magic\utils\leaderships.cfg:158
-#, fuzzy
-#| msgid "camel leadership"
 msgid "leadership"
-msgstr "dowodzenie wielbłądami"
+msgstr "dowodzenie"
 
 #. [leadership]: id=leadership
 #: Era_of_Magic\utils\leaderships.cfg:159
-#, fuzzy
-#| msgid "female^Cleric"
 msgid "female^leadership"
-msgstr "Kleryk"
+msgstr "dowodzenie"
 
 #. [leadership]: id=leadership
 #: Era_of_Magic\utils\leaderships.cfg:160
 msgid "Acts like leadership, but as if this unit's level was"
-msgstr ""
+msgstr "Działa jak przywództwo, ale tak, jakby poziom tej jednostki wynosił"
 
 #. [leadership]: id=leadership
 #: Era_of_Magic\utils\leaderships.cfg:160
 msgid "instead of the unit's actual level."
-msgstr ""
+msgstr "zamiast rzeczywistego poziomu jednostki."
 
 #. [dummy]: id=eoma_painabsorb{VALUE}
 #: Era_of_Magic\utils\pain_absorption.cfg:11
@@ -9371,18 +9200,6 @@ msgstr "Pomoc Rekrutacji"
 
 #. [message]: speaker=narrator
 #: Era_of_Magic\utils\recruit.cfg:260
-#, fuzzy
-#| msgid ""
-#| "To recruit a unit right-click on hexes adjacent to a selected recruiter.\n"
-#| "\n"
-#| "You need all movement points (and remaining attacks) to recruit one "
-#| "creature. You can only recruit in villages. A new unit can’t be recruited "
-#| "on water.\n"
-#| "Every recruiting adds +3 to current experience.\n"
-#| "\n"
-#| "If there are 2 or more recruiters, a new unit will be recruited by the "
-#| "last selected unit able to recruit, or if no recruiter has been selected, "
-#| "a recruiter next to the selected tile will be chosen randomly."
 msgid ""
 "To recruit a unit right-click on hexes adjacent to a selected recruiter.\n"
 "\n"
@@ -9398,17 +9215,21 @@ msgid ""
 "In multiplayer modes, leaders are unable to use the recruit ability, unless "
 "you are playing the RPG Unbalanced mode."
 msgstr ""
-"Aby rekrutować jednostkę, kliknij prawym przyciskiem myszy na sąsiednie "
-"heksy w pobliżu wybranego rekrutera.\n"
+"Aby zrekrutować jednostkę, kliknij prawym przyciskiem myszy na heksach "
+"sąsiadujących z wybranym rekruterem.\n"
 "\n"
-"Potrzebujesz wszystkich punktów ruchu (i pozostałych ataków), aby rekrutować "
-"jedną jednostkę. Możesz rekrutować tylko będąc we wiosce. Nowa jednostka nie "
-"może zostać zrekrutowana na wodzie.\n"
-"Każda rekrutacja dodaje +3 do obecnego doświadczenia.\n"
+"Aby zrekrutować jedną istotę, musisz mieć wszystkie punkty ruchu (i "
+"pozostałe ataki). Rekrutować można tylko w wioskach. Nowa jednostka nie może "
+"być rekrutowana na wodzie.\n"
+"Każda rekrutacja dodaje +3 do aktualnego doświadczenia.\n"
 "\n"
-"Jeśli jest dwóch lub więcej rekruterów, nowa jednostka zostanie przywołana "
-"przez ostatnią wybraną jednostkę zdolną do przywołania, lub jeśli nie "
-"wybrano rekrutera, rekruter obok wybranego pola zostanie wybrany losowo."
+"Jeśli jest 2 lub więcej rekrutujących, nowa jednostka zostanie zrekrutowana "
+"przez ostatnią wybraną jednostkę zdolną do rekrutacji lub, jeśli żaden "
+"rekrutujący nie został wybrany, rekrutujący obok wybranego kafelka zostanie "
+"wybrany losowo.\n"
+"\n"
+"W trybach wieloosobowych liderzy nie mogą korzystać ze zdolności rekrutacji, "
+"chyba że grasz w niezbalansowany tryb RPG."
 
 #. [resistance]: id=eoma_defender
 #: Era_of_Magic\utils\resistance.cfg:8
@@ -9431,16 +9252,12 @@ msgstr "bastion"
 
 #. [resistance]: id=eoma_bulwark
 #: Era_of_Magic\utils\resistance.cfg:37
-#, fuzzy
-#| msgid ""
-#| "Adjacent friendly units receive a +20% bonus to all resistances (up to a "
-#| "maximum of 85%). Does not stack with the defender ability."
 msgid ""
 "Adjacent friendly units receive a +25% bonus to all resistances (up to a "
 "maximum of 60%). Does not stack with the defender ability."
 msgstr ""
-"Sąsiednie przyjazne jednostki zyskują bonus +20% do wszystkich odporności "
-"(do maksymalnie 85%). Ta umiejętność nie sumuje się z umiejętnością obrońca."
+"Sąsiadujące przyjazne jednostki otrzymują premię +25% do wszystkich "
+"odporności (maksymalnie do 60%). Nie kumuluje się ze zdolnością obrońcy."
 
 #. [resistance]: id=eoma_circleres
 #: Era_of_Magic\utils\resistance.cfg:55
@@ -9500,18 +9317,6 @@ msgstr "chłodna aura"
 
 #. [resistance]: id=eoma_coldaura
 #: Era_of_Magic\utils\resistance.cfg:128
-#, fuzzy
-#| msgid ""
-#| "- All water tiles around this unit turn to ice on this unit's next turn "
-#| "(this effect lasts 1 turn).\n"
-#| "- The owner of this ability deals 4 cold damage to adjacent enemies every "
-#| "turn.\n"
-#| "- All adjacent units with water regeneration (including Water Elementals "
-#| "and their advancements) become slowed.\n"
-#| "- Area around this unit provides a 40% (50% max) bonus to fire resistance "
-#| "and a −25% (-75% max) reduction to cold resistance.\n"
-#| "- This ability does not affect other units with the same ability.\n"
-#| "- This ability does not work on tiles affected by the heat aura ability."
 msgid ""
 "- All water/swamp tiles around this unit turn to ice on this unit's next "
 "turn (this effect lasts 1 turn).\n"
@@ -9526,16 +9331,19 @@ msgid ""
 "- This ability does not affect other units with the same ability.\n"
 "- This ability does not work on tiles affected by the heat aura ability."
 msgstr ""
-"- Wszystkie wodne heksy wokół tej jednostki zamieniają się w lód na "
+"- Wszystkie heksy wody/bagien wokół tej jednostki zamieniają się w lód w "
 "następnej turze tej jednostki (efekt ten trwa 1 turę).\n"
-"- Właściciel tej zdolności zadaje 4 obrażenia od zimna sąsiadującym wrogom "
-"co turę.\n"
-"- Wszystkie przyległe jednostki z regeneracją wody (w tym Żywiołaki Wody i "
-"ich wyższe poziomy) zostają spowolnione.\n"
-"- Obszar wokół tej jednostki zapewnia 40% (50% max) premii do odporności na "
-"ogień i -25% (-75% max) redukcji do odporności na zimno.\n"
+"- Posiadacz tej zdolności zadaje sąsiadującym wrogom 4 obrażenia od zimna co "
+"turę.\n"
+"- Wszystkie sąsiadujące jednostki z regeneracją wody (w tym żywiołaki wody i "
+"ich postępy) zostają spowolnione na początku tury tej jednostki.\n"
+"- Obszar wokół tej jednostki zapewnia 40% (maks. 50%) premii do odporności "
+"na ogień i -25% (maks. -75%) redukcji odporności na zimno.\n"
+"- Sąsiadujący sojusznicy poruszają się szybciej po zamrożeniu (koszt ruchu 2 "
+"staje się 1, 3 staje się 2 itd.) przez 1 turę na początku tury tej "
+"jednostki. Nie kumuluje się.\n"
 "- Ta zdolność nie wpływa na inne jednostki z tą samą zdolnością.\n"
-"- Ta zdolność nie działa na heksy w zasięgu zdolności 'Aura ciepła'."
+"- Zdolność ta nie działa na pola, na które wpływa zdolność aury ciepła."
 
 #. [resistance]: id=eoma_heataura{VALUE}
 #: Era_of_Magic\utils\resistance.cfg:411
@@ -9591,8 +9399,7 @@ msgstr ""
 
 #. [resistance]: id=eoma_shielded
 #. [dummy]: id=eoma_shielded_special
-#: Era_of_Magic\utils\resistance.cfg:477
-#: Era_of_Magic\utils\resistance.cfg:490
+#: Era_of_Magic\utils\resistance.cfg:477 Era_of_Magic\utils\resistance.cfg:490
 msgid "shielded"
 msgstr "osłona"
 
@@ -9626,16 +9433,6 @@ msgstr "runiczna aura"
 
 #. [dummy]: id=eoma_runeaura
 #: Era_of_Magic\utils\runeaura.cfg:6
-#, fuzzy
-#| msgid ""
-#| "When this ability is activated, all Rune Masters create special auras.\n"
-#| "-all ajdacent enemy units get 20 damage,\n"
-#| "-adjacent units on hexes: s, ne, nw receive a 99% bonus to fire, cold and "
-#| "arcane resistance,\n"
-#| "-other units receive a -99% bonus to fire, cold and arcane resistance,\n"
-#| "-the aura can be rotated once per turn to cover appropriate units,\n"
-#| "-unit gets higher physical/magical resistances,\n"
-#| "-the transformation lasts one turn."
 msgid ""
 "When this ability is activated, all Rune Masters create special auras.\n"
 "-all ajdacent enemy units get 20 damage,\n"
@@ -9651,9 +9448,11 @@ msgstr ""
 "Po aktywacji tej zdolności wszyscy Mistrzowie Run tworzą specjalne aury.\n"
 "-wszystkie sąsiadujące jednostki wroga otrzymują 20 pkt. obrażeń,\n"
 "-sąsiadujące jednostki na heksach: s, ne, nw otrzymują 99% premii do "
-"odporności na ogień, zimno i magię,\n"
-"-pozostałe jednostki otrzymują premię -99% do odporności na ogień, zimno i "
-"magię,\n"
+"odporności na ogień, zimno i tajemny typ obrażeń (do 99%) oraz 30% premii do "
+"odporności na sieczne, kłute i obuchowe obrażenia (do 60%),\n"
+"-inne jednostki otrzymują -99% to odporności na ogień, zimno i tajemny typ "
+"obrażeń oraz -30% to odporności na sieczne, kłute i obuchowe obrażenia (do "
+"60%),\n"
 "-aurę można obrócić raz na turę, aby objęła odpowiednie jednostki,\n"
 "-jednostka otrzymuje wyższe odporności fizyczne/magiczne,\n"
 "-transformacja trwa jedną turę."
@@ -9685,20 +9484,17 @@ msgstr "runiczna aura (aktywna)"
 
 #. [resistance]: id=eoma_runeauraactive1
 #: Era_of_Magic\utils\runeaura.cfg:162
-#, fuzzy
-#| msgid ""
-#| "Adjacent units on hexes: s, ne, nw receive a 99% bonus to fire, cold and "
-#| "arcane resistance. Other units receive a -99% bonus to fire, cold and "
-#| "arcane resistance."
 msgid ""
 "Adjacent units on hexes: s, ne, nw receive a 99% bonus to fire, cold and "
 "arcane resistance (up to 99%), and a 30% bonus to blade, pierce and impact "
 "resistance (up to 60%). Other units receive -99% to fire, cold and arcane "
 "resistance and -30% to blade, pierce and impact resistance."
 msgstr ""
-"Przyległe jednostki na heksach: s, ne, nw otrzymują 99% bonus do ognia, "
-"chłodu i tajemnego typu obrażeń. Pozostałe jednostki otrzymują -99% do tych "
-"samych typów obrażeń."
+"Jednostki sąsiadujące na heksach: s, ne, nw otrzymują 99% premii do "
+"odporności na ogień, zimno i tajemny typ obrażeń (do 99%) oraz 30% premii do "
+"odporności na sieczne, kłute i obuchowe obrażenia (do 60%). Pozostałe "
+"jednostki otrzymują -99% to odporności na ogień, zimno i tajemny typ obrażeń "
+"oraz -30% to odporności na sieczne, kłute i obuchowe obrażenia."
 
 #. [resistance]: id=eoma_runeauraactive3
 #: Era_of_Magic\utils\runeaura.cfg:217
@@ -9707,20 +9503,17 @@ msgstr "runiczna aura (odwrócona)"
 
 #. [resistance]: id=eoma_runeauraactive3
 #: Era_of_Magic\utils\runeaura.cfg:218
-#, fuzzy
-#| msgid ""
-#| "Adjacent units on hexes: n, se, sw receive a 99% bonus to fire, cold and "
-#| "arcane resistance. Other units receive a -99% bonus to fire, cold and "
-#| "arcane resistance."
 msgid ""
 "Adjacent units on hexes: n, se, sw receive a 99% bonus to fire, cold and "
 "arcane resistance (up to 99%), and a 30% bonus to blade, pierce and impact "
 "resistance (up to 60%). Other units receive -99% to fire, cold and arcane "
 "resistance and -30% to blade, pierce and impact resistance."
 msgstr ""
-"Przyległe jednostki na heksach: n, se, sw otrzymują 99% bonus do ognia, "
-"chłodu i tajemnego typu obrażeń. Pozostałe jednostki otrzymują -99% do tych "
-"samych typów obrażeń."
+"Jednostki sąsiadujące na heksach: n, se, sw otrzymują 99% premii do "
+"odporności na ogień, zimno i tajemny typ obrażeń (do 99%) oraz 30% premii do "
+"odporności na sieczne, kłute i obuchowe obrażenia (do 60%). Pozostałe "
+"jednostki otrzymują -99% to odporności na ogień, zimno i tajemny typ obrażeń "
+"oraz -30% to odporności na sieczne, kłute i obuchowe obrażenia."
 
 #. [petrifies]: id=eoma_sculpts
 #: Era_of_Magic\utils\sculpt.cfg:8
@@ -9757,13 +9550,6 @@ msgstr "kopiowanie"
 
 #. [dummy]: id=eoma_statuecopy
 #: Era_of_Magic\utils\statue-copy.cfg:6
-#, fuzzy
-#| msgid ""
-#| "This unit can create a living statue from any adjacent petrified unit (or "
-#| "any of your normal units, but the process ends the turn of both units). "
-#| "The statues have similar stats than the unit they are based on, but will "
-#| "always be slightly weaker, slower and weak to arcane. Making a statue "
-#| "costs 50% of the original unit price."
 msgid ""
 "This unit can create a living statue from any adjacent petrified unit (or "
 "any of your normal units, but the process ends the turn of both units). The "
@@ -9777,11 +9563,18 @@ msgid ""
 "\n"
 "Cannot copy other units of the 'statue copy' ability, or copy copies."
 msgstr ""
-"Ta jednostka potrafi tworzyć żywe kopie każdej sąsiedniej, zamienionej w "
-"kamień jednostki (lub normalnej przyjaznej jednostki, ale proces ten kończy "
-"turę dla obu zaangażowanych jednostek). Kopie mają podobne statystyki do "
-"oryginałów, ale zawsze są odrobinę słabsze, wolniejsze i podatne na tajemny "
-"typ obrażeń. Stworzenie kopi kosztuje 50% oryginalnej ceny danej jednostki."
+"Jednostka ta może stworzyć żywy posąg z dowolnej sąsiedniej skamieniałej "
+"jednostki (lub dowolnej zwykłej jednostki, ale proces ten kończy turę obu "
+"jednostek). Posągi mają podobne statystyki do jednostek, na których bazują, "
+"ale zawsze będą słabsze, wolniejsze i bardziej podatne na obrażenia od mocy "
+"tajemnej. Stworzenie posągu kosztuje 50% oceny oryginalnej jednostki.\n"
+"\n"
+"Skopiowane jednostki przetrwają tylko do końca scenariusza, a następnie "
+"znikną. Jeśli skopiowana jednostka była liderem, kopia staje się normalną "
+"jednostką.\n"
+"\n"
+"Nie można kopiować innych jednostek ze zdolnością \"kopia posągu\" ani "
+"kopiować kopii."
 
 #. [set_menu_item]: id=statuecopy
 #: Era_of_Magic\utils\statue-copy.cfg:58
@@ -9790,15 +9583,13 @@ msgstr "Stwórz kopię"
 
 #. [message]: speaker=narrator
 #: Era_of_Magic\utils\statue-copy.cfg:128
-#, fuzzy
-#| msgid "statue copy"
 msgid "Statue Copy"
-msgstr "kopiowanie"
+msgstr "Kopiowanie"
 
 #. [message]: speaker=narrator
 #: Era_of_Magic\utils\statue-copy.cfg:130
 msgid "Copy this unit? ($gold_check| Gold)"
-msgstr ""
+msgstr "Skopiować jednostkę? ($gold_check| szt. złota)"
 
 #. [unstore_unit]
 #: Era_of_Magic\utils\statue-copy.cfg:174
@@ -9859,26 +9650,6 @@ msgstr "Przywołanie - Pomoc"
 
 #. [message]: speaker=narrator
 #: Era_of_Magic\utils\summon.cfg:323
-#, fuzzy
-#| msgid ""
-#| "To summon a unit right-click on hexes adjacent to a selected summoner.\n"
-#| "\n"
-#| "You need all movement points (and remaining attacks) to summon one "
-#| "creature. You are unable to summon in villages. A new unit can’t be "
-#| "summoned on water (with the exception of Water and Air Elementals).\n"
-#| "\n"
-#| "Castle hexes work as a barrier for summoning:\n"
-#| "If the summoner is inside a castle, he can summon a new unit only on "
-#| "adjacent castle hexes but not ouside the castle. To summon outside the "
-#| "castle, the summoner needs to leave it first.\n"
-#| "If the summoner is outside a castle, he cannot summon a new unit on "
-#| "adjacent castle hexes (the summoner needs to enter the castle first).\n"
-#| "\n"
-#| "Every summoning adds +3 to current experience.\n"
-#| "\n"
-#| "If there are 2 or more summoners, a new unit will be summoned by the last "
-#| "selected unit able to summon, or if no summoner has been selected, a "
-#| "summoner next to the selected tile will be chosen randomly."
 msgid ""
 "To summon a unit right-click on hexes adjacent to a selected summoner.\n"
 "\n"
@@ -9902,27 +9673,31 @@ msgid ""
 "In multiplayer modes, leaders are unable to summon, unless you are playing "
 "the RPG Unbalanced mode."
 msgstr ""
-"Aby przywołać jednostkę, kliknij prawym przyciskiem myszy na sąsiednie heksy "
-"w pobliżu wybranego przywoływacza.\n"
+"Aby przywołać jednostkę, kliknij prawym przyciskiem myszy na heksach "
+"sąsiadujących z wybranym przywoływaczem.\n"
 "\n"
-"Potrzebujesz wszystkich punktów ruchu (i pozostałych ataków), aby przywołać "
-"jedno stworzenie. Nie możesz przywoływać będąc we wiosce. Nowa jednostka nie "
-"może zostać przywołana na wodzie (z paroma wyjątkami w postaci Żywiołaków "
-"Wody i Powietrza).\n"
+"Do przywołania jednego stworzenia potrzebne są wszystkie punkty ruchu (i "
+"pozostałe ataki). Nie można przywoływać jednostek w wioskach. Nowej "
+"jednostki nie można przywołać na wodzie (z wyjątkiem żywiołaków wody i "
+"powietrza).\n"
 "\n"
-"Pola zamku działają jak bariera do przywołania:\n"
-"Jeśli przywoływacz znajduje się w zamku, to może przywoływać nowe jednostki "
-"ale jedynie wewnątrz zamku. Aby przywołać jednostkę poza terenem zamku, "
-"przywoływacz musi go opuścić.\n"
-"Jeśli przywoływacz jest poza zamkiem, to nie może przywołać nowych jednostek "
-"na obszarze zamku (musi najpierw do niego wejść).\n"
+"Heksy zamkowe działają jako bariera dla przywoływania:\n"
+"Jeśli przywoływacz znajduje się wewnątrz zamku, może przywołać nową "
+"jednostkę tylko na sąsiednich heksach zamku, ale nie poza nim. Aby przywołać "
+"jednostkę poza zamkiem, przywoływacz musi go najpierw opuścić.\n"
+"Jeśli przywoływacz znajduje się poza zamkiem, nie może przywołać nowej "
+"jednostki na sąsiednich heksach zamku (przywoływacz musi najpierw wejść do "
+"zamku).\n"
 "\n"
-"Każde przywołanie dodaje +3 do obecnego doświadczenia.\n"
+"Każde przywołanie dodaje +3 do aktualnego doświadczenia.\n"
 "\n"
-"Jeśli jest dwóch lub więcej przywoływaczy, nowa jednostka zostanie "
-"przywołana przez ostatnią wybraną jednostkę zdolną do przywołania, lub jeśli "
-"nie wybrano przywoływacza, przywoływacz obok wybranego pola zostanie wybrany "
-"losowo."
+"Jeśli jest 2 lub więcej przyzywających, nowa jednostka zostanie przyzwana "
+"przez ostatnią wybraną jednostkę zdolną do przyzwania lub, jeśli żaden "
+"przyzywający nie został wybrany, przyzywający obok wybranego kafelka "
+"zostanie wybrany losowo.\n"
+"\n"
+"W trybach wieloosobowych przywódcy nie mogą przywoływać jednostek, chyba że "
+"grasz w niezbalansowany tryb RPG."
 
 #. [trait]: id=magical, description={STR_NONLIVING_DESCRIPTION}
 #: Era_of_Magic\utils\traits.cfg:7
@@ -9946,13 +9721,13 @@ msgstr "heroiczna"
 
 #. [trait]: id=eoma_elite
 #. [trait]: id=eoma_elite_alt
-#: Era_of_Magic\utils\traits.cfg:62 Era_of_Magic\utils\traits.cfg:97
+#: Era_of_Magic\utils\traits.cfg:62
 msgid "elite"
 msgstr "elitarny"
 
 #. [trait]: id=eoma_elite
 #. [trait]: id=eoma_elite_alt
-#: Era_of_Magic\utils\traits.cfg:63 Era_of_Magic\utils\traits.cfg:98
+#: Era_of_Magic\utils\traits.cfg:63
 msgid "female^elite"
 msgstr "elitarna"
 
@@ -9983,10 +9758,8 @@ msgstr "skopiowany"
 
 #. [trait]: id=eoma_copied
 #: Era_of_Magic\utils\traits.cfg:170
-#, fuzzy
-#| msgid "female^Inspired"
 msgid "female^copied"
-msgstr "Natchniona"
+msgstr "skopiowana"
 
 #. [trait]: id=eoma_copied
 #: Era_of_Magic\utils\traits.cfg:171
@@ -9994,6 +9767,8 @@ msgid ""
 "<span color='red'>-30%</span> to arcane resistance\n"
 "immune to poison, drain, and plague"
 msgstr ""
+"-<span color='red'>30%</span> do odporności na magię\n"
+"odporność na truciznę, wysysanie i zarazę"
 
 #. [dummy]: id=eoma_triplestrike
 #: Era_of_Magic\utils\triplestrike.cfg:7
