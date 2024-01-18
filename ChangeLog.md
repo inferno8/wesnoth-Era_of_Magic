@@ -1,6 +1,267 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 4.6
+ ### Gameplay
+   * added 2 new units: Cyclops Ritualist (lvl3) and Cyclops Lorekeeper (lvl4)
+   * added new AMLAs for Blood Warrior, Cyclops Breaker, Cyclops Lord, Goblin Assassin, Goblin Druid, Goblin Warbanner, Goblin Wizard, Troll Warbanner, Jungle Assassin, Jungle Champion, Jungle Salamander, Lava Salamander, Fanatic, Fire Swordsman, Recruitment Officer, Red Steam Ulfserker, Trench Sweeper, Master of Earth, Shadow Mage, Pain Sphere, Storm Sphere, Sword Dancer
+   * many terrain defense and movecost adjustments making units good on their factions' preferable terrain
+   * renamed Chaos Wyvern Rider to Chaos Wyvern Knight
+   * renamed Swamp Salamander to Jungle Salamander
+   * renamed Saurian Assassin to Jungle Assassin
+   * Hydra movetype changes: lvl2-4 are consistent with lvl1, fungus defense got buffed from 40 to 50, mountain defense 40 -> 50, mountain movecost 5 -> 3; hydra line: reef mpcost 2 -> 1
+   * Salamander movetype changes: forest 2 -> 1 for every salamander (except ones who already had 1mpcost), reef 2 -> 1 on every salamander (except ones who already had 1mpcost), frozen 40 -> 30 on most salamanders, cave 60 -> 40 on lvl1 and 50 -> 40 on many
+   * Toad movetype changes: castle defense from 50% to 40%, cave defense from 50% to 30%, frozen defense from 40% to 30%, reef mpcost 2 -> 1
+   * removed the survivor trait
+   * disabled the 'scavenger' ability in RPG mode
+   * drone upgrade points system rework: now players need every non-repeatable AMLA + every upgrade to get Perfect Drone, instead of being able to spam drone upgrade with a few technicians to mass-produced perfect drones without even needing any other upgrades
+ ### Units
+   * Barbarians:
+     * Barbarian: 2 -> 1 sand movement cost; 30% -> 40% sand defense
+     * Barbarian Berserker: 2 -> 1 sand movement cost; 30% -> 40% sand defense
+     * Barbarian King: 2 -> 1 sand movement cost; 30% -> 40% sand defense
+     * Barbarian Lord: 2 -> 1 sand movement cost; 30% -> 40% sand defense
+     * Blood Warrior: 2 -> 1 sand movement cost; 30% -> 40% sand defense; XP from 100 to 75
+     * Cyclops: 2 -> 1 sand movement cost
+     * Cyclops Breaker: XP from 100 to 80; 2 -> 1 sand movement cost
+     * Cyclops Brute: 2 -> 1 sand movement cost
+     * Cyclops Goliath: 2 -> 1 sand movement cost
+     * Cyclops Lord: 2 -> 1 sand movement cost; now has 'inspire 1'; removed the 19-1 ranged attack; the ranged 25-1 gaze attack has precision (offensive) now, removed the 'attack only' special from the attack
+     * Cyclops Noble: 2 -> 1 sand movement cost; removed the 12-1 ranged attack; the ranged 17-1 gaze attack has precision (offensive) now, removed the 'attack only' special from the attack
+     * Cyclops Warmonger: 2 -> 1 sand movement cost
+     * Goblin Archer: 2 -> 1 sand movement cost; 30% -> 40% sand defense
+     * Goblin Assassin: XP from 100 to 55; 1 sand movement cost; 60% sand defense
+     * Goblin Druid: XP from 100 to 55; 2 -> 1 sand movement cost; 30% -> 40% sand defense
+     * Goblin Hunter: XP from 50 to 40; 1 sand movement cost; 60% sand defense
+     * Goblin Invader: 2 -> 1 sand movement cost; 40% -> 50% sand defense; 50% -> 60% hills defense; changed ranged pierce attack damage from 14-1 to 15-1
+     * Goblin Kamikaze: 2 -> 1 sand movement cost; 30% -> 40% sand defense
+     * Goblin Raider: 2 -> 1 sand movement cost; 30% -> 40% sand defense
+     * Goblin Runt: 2 -> 1 sand movement cost; 30% -> 40% sand defense
+     * Goblin Shaman: 2 -> 1 sand movement cost; 30% -> 40% sand defense
+     * Goblin Sniper: 2 -> 1 sand movement cost; 30% -> 40% sand defense
+     * Goblin Veteran: 2 -> 1 sand movement cost; 30% -> 40% sand defense
+     * Goblin Warbanner: XP from 100 to 55; 2 -> 1 sand movement cost; 30% -> 40% sand defense
+     * Goblin Wizard: XP from 100 to 60; 2 -> 1 sand movement cost; 30% -> 40% sand defense
+     * Orcish Brawler: 2 -> 1 sand movement cost; 30% -> 40% sand defense
+     * Orcish Chieftain: 2 -> 1 sand movement cost; 30% -> 40% sand defense
+     * Orcish Warbanner: 2 -> 1 sand movement cost; 30% -> 40% sand defense
+     * Orcish Warrior: 2 -> 1 sand movement cost; 30% -> 40% sand defense
+     * Troll Fire Wizard: 2 -> 1 sand movement cost
+     * Troll Warbanner: XP from 100 to 60; 2 -> 1 sand movement cost
+     * Troll Warbanner (rpg): fixed incorrect weapon special
+     * Troll Warlock: 2 -> 1 sand movement cost
+   * Darkbood Alliance:
+     * Battle Toad: XP from 103 to 92
+     * Black Salamander: deep water defense from 20% to 30%; reef defense from 30% to 50%, cave defense 60% to 50%
+     * Blue Salamander: reef defense from 50% to 60%
+     * Chosen of Forest: 4 -> 2 frozen move cost, 60% -> 50% sand defense and 30% -> 40% frozen defense; replaced 'regenerates +12' with 'nature regeneration +12';; added the 'inspire 2' ability; replaced the 'skilled' weapon special with 'very skilled for the ranged attack, changed damage from 5-5 to 7-4
+     * Chosen of Marsh: hitpoints from 60 to 64; sand defense from 60% to 50%; added the 'bleed' weapon special to the melee attack
+     * Clan Leader: XP from 100 to 90; 4 -> 3 frozen movecost
+     * Corrupted Shaman: hitpoints from 36 to 39; cost from 32 to 34; sand defense from 60% to 50%; changed fireball attack damage from 5-5 to 6-5
+     * Desert Salamander: 2 -> 1 cave movecost; 60% -> 50% cave defense
+     * Dreadnought: hitpoints from 84 to 85; changed pierce resistance from 0% to 10%
+     * Forest Spirit: can now cure bleed, still cures poison (and it is now mentioned in ability description), no longer removes slow
+     * Jungle Assassin: 60% -> 70% forest defense
+     * Jungle Champion: now has a new 12-1 ranged pierce attack
+     * Jungle Salamander: forest defense from 60% to 70%
+     * Lava Salamander: 2 -> 1 sand movecost, 2 -> 1 cave movecost; 50% -> 60% cave defense, 40% -> 60% fungus defense; has 'heat aura 10%' now; has 'heat aura 15%' AMLA instead of +15% fire resistance AMLA; buffed fire resitance from 40% to 60%; fire bite attack damage from 11-3 (attack only) to 9-2 + backstab (removed the 'attack only' special); 1 cave movecost; 30% frozen defense
+     * Mystic: XP from 190 to 180; 4 -> 2 frozen movecost, 60% -> 50% sand defense and 30% -> 40% frozen defense; replaced 'regenerates +8' with 'nature regeneration +8'
+     * Red Salamander: 2 -> 1 sand movecost, 2 -> 1 cave movescost; 40% -> 60% fungus defense; added a new melee fire attack with backstab; 30% frozen defense
+     * Salamander Marine: 2 -> 1 sand movecost
+     * Shadow salamander: 2 -> 1 cave movecost; shallow water defense from 40% to 50%, deep water defense from 20% to 30%; 30% to 50% reef defense; 
+     * Shamanistic Adept: now has 3 frozen movecost
+     * Swamp Mage: hitpoints from 48 to 52; sand defense from 60% to 50%
+     * Temple Guard: +1 damage to all attacks
+     * Toad Archer: XP from 93 to 86
+     * Toad Mystic: hitpoints from 75 to 77; 2 -> 1 frozen movecost; keeps 40% frozen defense unlike other toads
+     * Toad Rider: XP from 52 to 50
+     * Toad Shaman: XP from 110 to 100; 2 -> 1 frozen movecost; keeps 40% frozen defense unlike other toads
+     * Twin Archer Toad: hitpoints from 82 to 83; changed impact resistance from 10% to 20%
+     * Yellow Salamander: cave defense from 60% to 50%
+   * Destroyers:
+     * Atokpi Charger: deep water resistance from 30% to 40%, swamp water resistance from 40% to 50%
+     * Atokpi Infantry: 30% to 40% swamp water defense, 30% to 40% frozen defense
+     * Bone Beast: 4 -> 2 frozen movecost
+     * Bone Giant: 4 -> 2 frozen movecost
+     * Bone Golem: 4 -> 2 frozen movecost
+     * Bone Splitter: 4 -> 2 frozen movecost
+     * Crimson Atokpi: 30% to 40% swamp water defense
+     * Cyclops Necromancer: 2 -> 1 frozen movecost; replaced 'undead heal +8' with 'undead heal +5'
+     * Cyclops Skeleton: 4 -> 2 frozen movecost
+     * Dark Apostle: now has 'awe 1'
+     * Extinct Cyclops Mage: 4 -> 2 frozen movecost
+     * Fallen Cyclops King: 4 -> 2 frozen movecost; changed summon costs: Nightmare cost from 14g to 13g, Atokpi cost from 12g to 11g
+     * Greater Cyclops Skeleton: 4 -> 2 frozen movecost
+     * Moloch: 4 -> 2 frozen movecost
+   * Kharos:
+     * Fanatic: XP from 100 to 60
+     * Fire Priestess: cost from 35g to 37g; 30% to 40% sand defense
+     * Fire Swordsman: XP from 100 to 60
+     * Fire Templar: cost from 55g to 57g; 30% to 40% sand defense
+     * Kharosian Legionnaire: changed the melee pierce damage from 10-3 to 12-3; changed the melee impact damage from 17-1 to 20-1
+     * Recruitment Officer: XP from 126 to 100; now has 'leadership 2', which acts like leadership of a lvl2 unit
+     * Solar Guardian: XP from 200 to 185
+     * Solar Master: 50% to 60% reef defense, 70% to 50% frozen defense
+   * Runemasters:
+     * Constructor: 2 -> 1 frozen movecost, 1 -> 2 sand movecost; 30% -> 40% frozen defense
+     * Drone: 4 -> 1 frozen movecost; 20% -> 30% frozen defense
+     * Dwarvish Cadet: 50% fungus resistance, 30% -> 40% frozen defense; 2 -> 1 frozen movecost, 1 -> 2 sand movecost
+     * Dwarvish Cannoneer: forest defense from 40% to 50%; 1 -> 2 sand movecost
+     * Dwarvish Commando: 50% fungus resistance, 50% frozen resistance; 2 -> 1 frozen movecost, 1 -> 2 sand movecost
+     * Dwarvish Gunner: 50% frozen resistance; 2 -> 1 frozen movecost, 1 -> 2 sand movecost
+     * Dwarvish Rune Lord: 30% -> 40% frozen defense; 2 -> 1 frozen movecost, 1 -> 2 sand movecost; changed the melee blade attack damage from 16-3 to 17-3; added a new melee secret attack "charged slash"; replaced the 'precision (offensive)' and 'skilled' specials with 'precision (cumulative)' for the gun attack
+     * Dwarvish Runic Warrior: 30% -> 40% frozen defense; 2 -> 1 frozen movecost, 1 -> 2 sand movecost
+     * Dwarvish Tank: 20% -> 30% frozen defense; 4 -> 2 frozen movecost
+     * Dwarvish Veteran: 30% -> 40% frozen defense; 2 -> 1 frozen movecost, 1 -> 2 sand movecost
+     * Dwarvish Warrior: 30% -> 40% frozen defense; 2 -> 1 frozen movecost, 1 -> 2 sand movecost
+     * Flying Fortress: changed the melee pierce attack damage from 15-1 to 10-2
+     * Heavy Balloon: changed the melee pierce attack damage from 9-1 to 7-2
+     * Mechanic: 30% -> 40% frozen defense; 2 -> 1 frozen movecost, 1 -> 2 sand movecost
+     * Mobile Defensive Platform: deep water movecost from 4 to 3; swamp water defense from 20% to 30%
+     * Pacificator: 4 -> 2 frozen movecost; 20% -> 30% frozen defense
+     * Parachutist: 30% -> 40% frozen defense; 2 -> 1 frozen movecost, 1 -> 2 sand movecost
+     * Red Steam Ulfserker: XP from 100 to 60; 4 -> 1 frozen movecost;
+     * Rune Adept: 30% -> 40% frozen defense; 2 -> 1 frozen movecost, 1 -> 2 sand movecost
+     * Rune Artist: 30% -> 40% frozen defense; 2 -> 1 frozen movecost, 1 -> 2 sand movecost; changed the ice rune attack damage from 16-2 to 17-2
+     * Runemaster: 30% -> 40% frozen defense; 2 -> 1 frozen movecost, 1 -> 2 sand movecost; changed the ice rune attack damage from 19-2 to 21-2
+     * Runesmith: 30% -> 40% frozen defense; 2 -> 1 frozen movecost, 1 -> 2 sand movecost
+     * Steam Berserker: 4 -> 2 frozen movecost
+     * Steam Turboserker: 4 -> 2 frozen movecost; changed the melee impact attack damage from 14-2 to 15-2; changed the ranged fire attack damage from 9-2 to 10-2
+     * Steam Ulfserker: 4 -> 2 frozen movecost
+     * Striding Machine: 4 -> 2 frozen movecost; 20% -> 30% frozen defense
+     * Technician: 30% -> 40% frozen defense; 2 -> 1 frozen movecost, 1 -> 2 sand movecost
+     * Technocrat: 30% -> 40% frozen defense; 2 -> 1 frozen movecost, 1 -> 2 sand movecost
+     * Technologist: 30% -> 40% frozen defense; 2 -> 1 frozen movecost, 1 -> 2 sand movecost
+     * Trench Sweeper: forest defense from 40% to 50%
+   * Sky Kingdom:
+     * Architect: 3 -> 2 mountains movecost
+     * Battle Mage: 3 -> 2 mountains movecost
+     * Black Mage: 3 -> 2 mountains movecost
+     * Elementalist: 20% -> 30% swamp water defense, 30% -> 40% reef defense
+     * Golden Mage: 3 -> 2 mountains movecost
+     * Guru of Magic: fungus defense from 40% to 50%; castle/village/mountain defenses from 50% to 60%
+     * Hidden Face: 3 -> 2 mountains movecost
+     * Hydromancer: frozen movecost from 2 to 1, swamp water movecost from 2 to 1, 2 -> 1 reef movecost; fire resistance from 8% to 10%, cold resistance from 8% to 10%; frozen defense from 30% to 40%
+     * Master of Air: changed summon costs: Air Elemental cost from 16g to 18g, Air Avatar from 42g to 43g
+     * Master of Earth: shallow water defense from 40% to 20%, forest defense from 50% to 60%; forest movecost from 2 to 1; pierce melee attack damage from 13-2 to 14-2; changed summon costs: Earth Elemental cost from 16g to 17g, Earth Avatar cost from 35g to 40g; renamed the pierce melee attack to 'crystal claws'
+     * Master of Elements: 20% -> 40% frozen defense, 30% -> 40% sand defense; 2 -> 1 hills movecost, 2 -> 1 forest movecost
+     * Master of Fire: can now move on shallow water/swamp/unwalkable (3mpcost), 20% unwalkable defense
+     * Master of Water: frozen movecost from 2 to 1, swamp water movecost from 2 to 1, 1 reef movecost; fire resistance from 8% to 10%, cold resistance from 8% to 10%; shallow water defense from 40% to 50%, swamp water defense from 40% to 50%; frozen defense from 30% to 40%; changed summon costs: Water Avatar cost from 44g to 37g
+     * Mirrorshield: 3 -> 2 mountains movecost; changed fire/cold/arcane resistances from 40% to 50%; added the 'magic dodge' weapon special to all melee attacks
+     * Mystic Warrior: 3 -> 2 mountains movecost
+     * Sculptor: 3 -> 2 mountains movecost
+     * Shadow Mage: XP from 150 to 126, 2 -> 1 hills movecost, 2 -> 1 forest movecost, 2 -> 1 fungus movecost; 40% -> 50% swamp water defense, 50% -> 60% cave defense
+     * Sky Guardian: 3 -> 2 mountains movecost
+     * Subversive Mage: 3 -> 2 mountains movecost
+     * Terramancer: shallow water defense from 40% to 20%, forest defense from 50% to 60%; 2 -> 1 mountains movecost, 2 -> 1 forest movecost; renamed the pierce melee attack to 'crystal claws'
+     * War Mage: 3 -> 2 mountains movecost
+   * Summoners:
+     * Air Avatar: 2 -> 1 fungus movecost
+     * Air Elemental: 2 -> 1 fungus movecost
+     * Air God: 2 -> 1 fungus movecost
+     * Earth Avatar: XP from 90 to 82
+     * Fire Elemental: 3 shallow water movecost; swamp water defense from 40% to 20%
+     * Water Avatar: 5 -> 3 forest movecost, 5 -> 3 hills movecost, 3 -> 2 fungus movecost, 2 -> 1 reef movecost; 20% -> 30% fungus defense
+     * Water Elemental: 5 -> 3 forest movecost, 5 -> 3 hills movecost, 3 -> 2 fungus movecost, 2 -> 1 reef movecost; 20% -> 30% fungus defense
+     * Water God: 5 -> 3 forest movecost, 5 -> 3 hills movecost, 3 -> 2 fungus movecost, 2 -> 1 reef movecost; 20% -> 30% fungus defense
+   * Tharis
+     * Black Orb: now uses the smallfly movement type (meaning cave movcost 3 -> 1, fungus movecost 3 -> 2, cave defense 20% -> 60%, fungus defense 30% -> 60%)
+     * Blade Dancer: 3 -> 2 mountains movecost, 2 -> 1 cave movecost, 2 -> 1 hills movecost, 2 -> 1 fungus movecost
+     * Chainlady: removed the Max HP bonus AMLA; replaced the 'pain absorb strict 1' ability with 'bloodlust 5'; removed the 'pain absorb 1' weapon special from the melee attack; added the 'bloodlust 3' ability; replaced the 'pain aborbption' AMLA with 'bloodlust' AMLA; improved other AMLAs; the unit can now get the veteran trait
+     * Dark Commander: hitpoints from 45 to 46
+     * Dark General: hitpoints from 58 to 60
+     * Dark Observer: now uses the smallfly movement type (meaning cave movcost 3 -> 1, fungus movecost 3 -> 2, cave defense 20% -> 60%, fungus defense 30% -> 60%)
+     * Dark Warlord: can recruit Dark Warriors and Dark Hunters in villages; changed fire resticance from 20% to 30%; changed blade/pierce/impact resistances to 20%/20%/30%
+     * Dark Wizard: XP from 88 to 92
+     * Great Warlock: 40% frozen defense, 30% -> 40% sand defense, 30% -> 40% reef defense; swamp water defense from 40% to 30%; shallow water movecost from 2 to 1; swamp water movecost from 2 to 1; 2 to 1 reef movecost
+     * Master of Darkness: cave defense 40% -> 60% uses the fly movetype instead of spirit (terrain stats except the ones mentioned before are adjusted to remain unchanged from 4.5)
+     * Matriarch of Frost: hitpoints from 57 to 55; frozen defense from 40% to 50%; now has 'frozen regeneration +4'
+     * Pain Sphere: XP from 100 to 55; now uses the smallfly movement type (meaning cave movcost 3 -> 1, fungus movecost 3 -> 2, cave defense 20% -> 60%, fungus defense 30% -> 60%)
+     * Storm Sphere: XP from 100 to 55; now uses the smallfly movement type (meaning cave movcost 3 -> 1, fungus movecost 3 -> 2, cave defense 20% -> 60%, fungus defense 30% -> 60%)
+     * Sword Dancer: XP from 100 to 65; 3 -> 2 mountains movecost, 2 -> 1 cave movecost, 2 -> 1 hills movecost, 2 -> 1 fungus movecost
+ ### Abilities
+   * added a new ability: 'fixed leadership'
+   * added a new ability: 'forage'
+   * added a new ability: 'pain chaining II'
+   * added a new ability: 'custom upkeep' (replaces the old 'low upkeep' ability that the pirafly line had, shows as 'X upkeep' in-game)
+   * 'upkeepless' ability has been rewritten, and now has a macro instead of being pirafly-exclusive
+   * the summon and recruit abilities' help now mentions that they do not work in normal multiplayer modes on leader
+   * statue copy changes: if the copied unit was a leader, the copy becomes a normal unit; cannot copy other units of the 'statue copy' ability, or copy copies
+   * 'statue copy' arcane resistance penalty is now shown correctly as -30% 
+   * 'statue copy' copied units now are greyscale with slight purple tint instead of bright blue tint
+   * water regeneration: now works with swamp tiles too
+   * frozen regeneration: now supports tiles with overlays and snowy castles
+   * solar regeneration: now works with lawful/neutral ToD, and is now affected by illuminates/dark aura
+   * nocturnal regeneration: now works with custom ToD, and is now affected by dark aura/illuminates
+   * cold aura: swamp and terrain with overlays can be frozen now too
+   * cold aura improvement: adjacent allies move faster on frozen (2 move cost becomes 1, 3 becomes 2, etc.) for 1 turn. Does not stack.
+   * all ambush abilities now support overlays
+   * fixed zombie limit in campaigns - if a zombie spawned by cyclops necromancer survives a scenario in campaigns it will no longer count towards the limit if recalled
+   * collector, bleed and triple strike no longer restore unit statuses (slow/poison)
+   * made some abilities still usable when above max moves
+   * awaken now ignores units killed by attacks with plague/supercharge specials, swallowed units or attacked indirectly e.g. by area weapons
+   * the collector ability now also works on defense
+   * the collector ability now does not add max hp if the enemy gets revived
+   * if supercharging onto a village, a unit captures that village and fires a capture event for good measure
+   * the 'bulwark' ability rebalance: nerfed the limit from 85% to 60%; buffed the bonus from 20% to 25%
+   * the cave ambush no longer allow units to hide in cave road terrain
+   * restored an improved version of the 'area effect' wepaon special used for units where it does not make sense to damage enemies on miss (used by Guru of Magic and Master of Earth)
+   * solar regeneration change: poison will not be cured in cases when there is 0 regeneration value at given ToD (like Mystical Archer's +0/+3 regen)
+   * the rune aura can now affect physical resistances too (30% bonus / penalty - up to 60%)
+ ### Graphics
+   * added 24fps animations for Roc Rider, Roc Tamer and Roc Master
+   * various animation tweaks
+   * added a better pierce melee attack icon for Terramancer and Master of Earth (icon was made by ForestDragon)
+   * added a better cold melee attack icon for Matriarch of Frost (icon was made by ForestDragon)
+ ### Descriptions
+   * added new unit descriptions for Jungle Guardian, Jungle Assassin, Wyvern Knight
+   * improved the Red Salamander description
+   * improved the 'chrono aura (active)' description
+   * improved the 'warcry' description
+   * improved the 'frozen aura' description
+ ### Code
+   * the era uses [load_resource] now
+   * implemented a new hydra movetype
+   * fixed coldaura's coldmemory variables not getting cleared on victory, which previously caused water to appear on the same coordinates in the next level
+   * if a tile in the coldmemory array gets replaced by some other factors (like scenario code) to a non-ice terrain, then do not reset the terrain to an older state, instead letting coldmemory of that hex get wiped by [store_locations] + mode=replace
+   * Inspire uses a unique ability id to prevent conflicts with leadership
+   * fixed Carpet Master's AMLA not having slow/poison removal
+   * simplified and improved the summon filter
+   * fixed a summon bug where leaders were still able to summon in normal multiplayer modes
+   * refactored the 'statue copy' ability
+   * use a simple lawful/neutral/chaotic ToD animation filter instead of hardcoded ids for Master of Darkness
+   * improved animation filters for Matriarch of Frost
+   * adjusted animation terrain filters to include overlays
+   * added macros for unwalkable and impassable terrain
+   * fixed many incorrect attack and defense sounds
+   * fixed incorrect zombie salamander movetype
+   * fixed the 'supercharge prevents kill and run and bloodlust from triggering' bug
+   * fixed a bug where both chronoaura and runeaura abilities menus were not shown post advance
+   * fixed missing inherit=yes for the flying drone variant
+   * fixed the flying drone variation having old resistances
+   * fix some lvl3 units with a lvl4 branch not being on the veteran list
+   * fixed the 'nature detox' filter not working properly
+   * fixed the 'nature detox' ability showing as inactive all the time
+   * refactored the 'immobilize' weapon special code
+   * fixed the "immobilize does not work if side 2 immobilizes side 1 unit" (or any other side with higher number immobilizing a unit from lower side) bug
+   * replaced [damage] with [dummy] for abilities/specials that do not directly modify damage
+   * refactored 'growing fury' code
+   * refactored 'double attack' code
+   * fixed the 'cleave' ability not working properly
+   * refactored the 'voice of darkness' ability
+   * reworked javelin sounds to be more similar to mainline spearman ones
+   * the 'anti-mech' ability now has "or trait=mechanical" to work on some modded mechanical units to make it more versatile
+   * added the undrainable filter to some abilities
+   * fixed pain absorb triggering on aoe regardless of aoe attack location
+   * now fearless check in awe is simpler
+   * repair/heal undead also heal units who have mechanical/undead traits but not the race
+   * prepared Banisher for the addition of Master Banisher in the future
+   * any type of heat aura affects cold aura now (previously it was hardcoded)
+   * refactored the 'crimson aura' ability
+  ### Translations
+   * updated EoMa_translation_template.pot and all .po files
+   * updated the Polish translation
+
 ## Version 4.5
  ### Gameplay
    * added 3 new units: Fire Priestess (lvl2), Fire Templar (lvl3), Titan Golem (lvl3)
@@ -75,7 +336,7 @@ Era of Magic - ChangeLog
      * Great Warlock: summoning Dark Observer costs 2g less (16g)
      * Master of Darkness: now can summon Storm Spheres summoning Dark Observer costs 4g less (12g)
      * Matriarch of Emptiness: now renegerates +6hp instead of +8
-     * Matriarch of Pain: now can summon 'Pain Spheres' hitpoints from 56 to 57; increased blade resistace from 10% to 15%; increased 'pain absorption aura' value by 1; removed 'magic counter' 'drain' and 'lesser revenge' from all attacks; added the 'skilled' special to the 'whip' attack; changed the 'pain' attack damage type from fire to impact, replaced the 'skilled' special with 'very skilled', increased the number of strikes by 1
+     * Matriarch of Pain: now can summon 'Pain Spheres' hitpoints from 56 to 57; increased blade resistance from 10% to 15%; increased 'pain absorption aura' value by 1; removed 'magic counter' 'drain' and 'lesser revenge' from all attacks; added the 'skilled' special to the 'whip' attack; changed the 'pain' attack damage type from fire to impact, replaced the 'skilled' special with 'very skilled', increased the number of strikes by 1
      * Pain Mistress: now has 'pain absorption +1' aura; hitpoints from 44 to 46; XP from 90 to 88; removed 'pain absorption' and 'drain' specials from all attacks; changed the 'pain' attack damage type from fire to impact, increased the number of strikes by 1
  ### Abilities
    * renamed 'magic counter (offensive)' to 'magic dodge'
@@ -511,7 +772,7 @@ Era of Magic - ChangeLog
      * Wyverns / Chaos Wyverns / Chaos Wyvern Rider (RPG): removed the 'marksman' weapon special from all ranged attacks
      * Chaos Wyvern (RPG): replaced the 'skilled' weapon special with 'marksman'
      * Battle Toad: increased regeneration from 8 to 9
-     * Dreadnaught: increased regeneration from 9 to 10
+     * Dreadnought: increased regeneration from 9 to 10
      * Toad Archer: increased regeneration from 8 to 9
      * Twin Archer Toad: increased regeneration from 9 to 10
      * Toad Shaman: increased regeneration from 8 to 9
