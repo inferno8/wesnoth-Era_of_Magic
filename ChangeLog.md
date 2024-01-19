@@ -208,6 +208,8 @@ Era of Magic - ChangeLog
    * restored an improved version of the 'area effect' wepaon special used for units where it does not make sense to damage enemies on miss (used by Guru of Magic and Master of Earth)
    * solar regeneration change: poison will not be cured in cases when there is 0 regeneration value at given ToD (like Mystical Archer's +0/+3 regen)
    * the rune aura can now affect physical resistances too (30% bonus / penalty - up to 60%)
+   * chosen of marsh's poison aura now checks unpoisonable instead of race
+   * growing fury attack limit has been raised from 3 to 5
  ### Graphics
    * added 24fps animations for Roc Rider, Roc Tamer and Roc Master
    * various animation tweaks
