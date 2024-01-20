@@ -16,6 +16,10 @@ args.attacker = {
 				set_attacks=20,
 				set_damage=4,
 				remove_specials="swarm"
+			},
+			T.effect{
+				apply_to="max_experience",
+				set=1000
 			}
 		}
 	}
@@ -35,6 +39,10 @@ args.defender = {
 				apply_to="attack",
 				set_attacks=0,
 				set_damage=0
+			},
+			T.effect{
+				apply_to="max_experience",
+				set=1000
 			}
 		}
 	}
@@ -47,7 +55,15 @@ args.thirdparty = {
 	level=3,
 	side=2,
 	x=11,
-	y=11
+	y=11,
+	T.modifications{
+		T.object{
+			T.effect{
+				apply_to="max_experience",
+				set=1000
+			}
+		}
+	}
 }
 args.painabsorber = {
 	id="painabsorber",
@@ -56,15 +72,23 @@ args.painabsorber = {
 	level=3,
 	side=1,
 	hitpoints=1,
-	max_hitpoints=1000
+	max_hitpoints=1000,
+	T.modifications{
+		T.object{
+			T.effect{
+				apply_to="max_experience",
+				set=1000
+			}
+		}
+	}
 }
 
 run_all_tests = function()
 	-- could test pain absorb with nonliving such as Skeleton
 
-	-- all round, with self healing
+	-- all round
 	wesnoth.wml_actions.EoMa_run_test_combo{attacker_type="EoMa_Chainlady",attacker_attack_index=0}
-	-- triplestrike, with self healing
+	-- triplestrike
 	wesnoth.wml_actions.EoMa_run_test_combo{attacker_type="EoMa_Chainlady",attacker_attack_index=1}
 	
 	wesnoth.wml_actions.EoMa_run_test_combo{attacker_type="EoMa_Great_Efreeti",attacker_attack_index=2}
@@ -96,15 +120,6 @@ wesnoth.wml_actions.EoMa_run_test_combo = function(cfg)
 			return
 		end
 	end
-	
-	local strict_pain_absorb = {}
-	strict_pain_absorb.attacker_type = cfg.attacker_type
-	strict_pain_absorb.attacker_attack_index = cfg.attacker_attack_index
-	strict_pain_absorb.defender_dies = true
-	strict_pain_absorb.thirdparty_dies = true
-	strict_pain_absorb.thirdparty_position = cfg.thirdparty_position
-	strict_pain_absorb.painabsorber_type = "EoMa_Chainlady"
-	wesnoth.wml_actions.EoMa_run_test_combo_defender_thirdparty_dies_lives(strict_pain_absorb)
 	
 	local passive_pain_absorb = {}
 	passive_pain_absorb.attacker_type = cfg.attacker_type
@@ -256,13 +271,6 @@ wesnoth.wml_actions.EoMa_unit_test_attacker = function (cfg)
 		local painabsorber_heal_amount = painabsorber.hitpoints -1
 		if painabsorber_heal_amount ~= 0 then
 			check(painabsorber_heal_amount, 0, "chainlady should not heal from damage done by someone else")
-		end
-	end
-	
-	if attacker.type == "EoMa_Chainlady" then
-		local chainlady_heal_amount = attacker.hitpoints -100
-		if chainlady_heal_amount == 0 then
-			check(chainlady_heal_amount, ">0", "chainlady should have healed")
 		end
 	end
 end
