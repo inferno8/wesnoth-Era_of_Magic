@@ -1,6 +1,14 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 4.6.1
+ ### Code
+   * hit and run amla is no longer available in balanced rpg mode
+ ### Code
+   * improved preload.lua code to prevent some lua errors
+   * fixed multiple defense tags in one unit (Master of Fire)
+   * removed some comments
+
 ## Version 4.6
  ### Gameplay
    * added 2 new units: Cyclops Ritualist (lvl3) and Cyclops Lorekeeper (lvl4)
