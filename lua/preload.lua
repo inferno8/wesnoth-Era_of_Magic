@@ -91,6 +91,9 @@ function wesnoth.wml_actions.EoMa_trigger_pain_absorbation_aura_on_location(cfg)
 --			},
 			wml.tag.primary_unit{
 				id=cfg.primary_unit
+			},
+			wml.tag.secondary_unit{
+				id=cfg.primary_unit
 			}
 		}
 	else
