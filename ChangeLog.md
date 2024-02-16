@@ -1,8 +1,57 @@
 Era of Magic - ChangeLog
 ------------------------
 
-## Version 4.6.1
+## Version 4.6.2
+ ### Units
+   * Barbarians:
+     * Goblin Sniper XP to 72 (-3)
+     * Troll Warlock now regenerates +9
+   * Darkblood Alliance:
+     * Jungle Crossbowman HP to 39 (+1)
+     * Jungle Assasin HP to 54 (+2)
+     * Jungle Guardian HP to 49 (+1) , XP to 74 (-3)
+     * Clan Leader XP to 87 (-3)
+     * Mystic HP to 49 (+1)
+     * All lv3 salamanders HP increased by +2
+   * Destroyers:
+     * Atokpi Infantry XP to 84 (-3)
+     * Bone Golem XP to 82 (-3)
+   * Kharos:
+     * Prophet of Light HP to 53 (+2)
+     * Inspired AMLA XP value to 80 (-20)
+   * Sky Kingdom:
+     * Mystic Warrior XP to 94 (-6)
+     * Black Mage XP to 93 (-2)
+     * Sorcerer XP to 95 (-5)
+     * War Mage XP to 100 (-5)
+   * Summoners:
+     * Elite Camel Rider XP to 83 (-5)
+     * Dispeller XP to 92 (-3)
+     * Summoner XP to 82 (-3)
+     * Earth Elemental HP to 42 (+2)
+     * Air Avatar XP to 101 (-3)
+     * Fire Avatar XP to 93 (-2)
+   * Tharis:
+     * Pain Mistress XP to 82 (-6)
+     * Disciple XP to 44 (-2)
+     * Dark Wizard XP to 88 (-4)
+     * Dark Warrior XP to 39 (-3)
+     * Frontliner XP to 76 (-4)
+     * Dark Slayer HP to 46 (+2) , XP to 80 (-5)
+     * Dark Hunter XP to 42 (-3) , price to 18g (-1g)
+     * Dark Assasin XP to 78 (-6)
+     * Great Hunter XP to 83 (-5)
+     * Hydra HP to 46 (+1) , XP to 51 (-3)
+     * Great Hydra to regenerates(+9) , XP to 87 (-3)
+     * Chaos Hydra to regenerates(+9)
+     * Witch HP to 31 (+1) , XP to 42 (-2)
+     * Great Witch XP to 90 (-3)
+	 * Dark Warlord: summoning Dark Hunter costs 1g less (13g -> 12g)
  ### Code
+   * fixed missing ifdef MULTIPLAYER for some rpg checks in AMLA filters
+
+## Version 4.6.1
+ ### Gameplay
    * hit and run amla is no longer available in balanced rpg mode
  ### Code
    * improved preload.lua code to prevent some lua errors
