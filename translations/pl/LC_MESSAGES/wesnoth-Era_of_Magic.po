@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2024-04-28 15:38 UTC\n"
-"PO-Revision-Date: 2024-01-16 15:24+0100\n"
+"PO-Revision-Date: 2024-04-30 13:26+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl\n"
@@ -449,6 +449,8 @@ msgstr "Krwawy Wojownik"
 #: Era_of_Magic/units/Barbarians/Blood_Warrior.cfg:20
 msgid "+3 non-berserk damage, +2 berserk damage, +2 HP, +25% max XP"
 msgstr ""
+"+3 obrażenia bez berserkera, +2 obrażenia do berserkera, +2 HP, +25% "
+"maksymalnych XP"
 
 #. [advancement]: id=blood_warrior_bloodlust
 #. [advancement]: id=chainlady_bloodlust
@@ -461,13 +463,15 @@ msgstr "Żądza krwi +8, Bonus do maksymalnego HP +4, +20% max XP"
 #: Era_of_Magic/units/Barbarians/Blood_Warrior.cfg:90
 msgid "+15% blade/pierce/impact resistance, +3 HP +20% max XP"
 msgstr ""
+"+15% odporności do siecznych/kłutych/obuchowych obrażeń, +3 HP +20% "
+"maksymalnego XP"
 
 #. [advancement]: id=blood_warrior_mp
 #. [advancement]: id=goblin_druid_mp
 #: Era_of_Magic/units/Barbarians/Blood_Warrior.cfg:122
 #: Era_of_Magic/units/Barbarians/Goblin_Druid.cfg:145
 msgid "+1 MP, +2 HP, +20% max XP"
-msgstr ""
+msgstr "+1 punkt ruchu, +2 HP, +20% maksymalnego XP"
 
 #. [unit_type]: id=EoMa_Blood_Warrior, race=orc
 #: Era_of_Magic/units/Barbarians/Blood_Warrior.cfg:149
@@ -510,8 +514,7 @@ msgstr "Cyklop"
 
 #. [unit_type]: id=EoMa_Cyclops, race=eoma_cyclops
 #. [race]: id=eoma_cyclops
-#: Era_of_Magic/units/Barbarians/Cyclops.cfg:19
-#: Era_of_Magic/units/units.cfg:19
+#: Era_of_Magic/units/Barbarians/Cyclops.cfg:19 Era_of_Magic/units/units.cfg:19
 msgid ""
 "Cumbersome and lacking fine intellect, the Cyclops race had been driven near "
 "to extinction before becoming a part of the barbarian horde. Two centuries "
@@ -542,7 +545,7 @@ msgstr "Nieustraszony, Bonus do maksymalnego HP +5, +20% max XP"
 #. [advancement]: id=GOB_WB_MOV
 #: Era_of_Magic/units/Barbarians/Cyclops_Breaker.cfg:49
 msgid "+1 MP, +5 HP, +20% max XP"
-msgstr ""
+msgstr "+1 punkt ruchu, +5 HP, +20% maksymalnego XP"
 
 #. [unit_type]: id=EoMa_Cyclops_Breaker, race=eoma_cyclops
 #: Era_of_Magic/units/Barbarians/Cyclops_Breaker.cfg:77
@@ -811,7 +814,7 @@ msgstr "Goblin Zabójca"
 #: Era_of_Magic/units/Barbarians/Goblin_Assassin.cfg:22
 #: Era_of_Magic/units/Runemasters/Trench_Sweeper.cfg:55
 msgid "Concealment, +3 HP, +20% max XP"
-msgstr ""
+msgstr "Ukrycie, +3 HP, +20% maksymalnego XP"
 
 #. [advancement]: id=GOB_AS_STR
 #: Era_of_Magic/units/Barbarians/Goblin_Assassin.cfg:52
@@ -838,12 +841,12 @@ msgstr "+Cios i Ucieczka 3; +2 PŻ; +25% max XP"
 #: Era_of_Magic/units/Sky_Kingdom/Master_of_Earth.cfg:19
 #: Era_of_Magic/units/Sky_Kingdom/Shadow_Mage.cfg:57
 msgid "Forage, +3 HP, +20% max XP"
-msgstr ""
+msgstr "Zbieractwo, +3 HP, +20% maksymalnego XP"
 
 #. [advancement]: id=GOB_AS_BOL
 #: Era_of_Magic/units/Barbarians/Goblin_Assassin.cfg:152
 msgid "Marksman on bolas, +2 HP, +20% max XP"
-msgstr ""
+msgstr "Strzelec wyborowy w ataku bolami, +2 HP, +20% maksymalnego XP"
 
 #. [attack]: type=impact
 #: Era_of_Magic/units/Barbarians/Goblin_Assassin.cfg:240
@@ -861,12 +864,12 @@ msgstr "Goblin Druid"
 #. [advancement]: id=goblin_druid_heal
 #: Era_of_Magic/units/Barbarians/Goblin_Druid.cfg:19
 msgid "Heal +8, +2 HP, +20% max XP"
-msgstr ""
+msgstr "Leczy +8, +2 HP, +20% max XP"
 
 #. [advancement]: id=goblin_druid_missile
 #: Era_of_Magic/units/Barbarians/Goblin_Druid.cfg:87
 msgid "+2 damage on missile, +3 HP, +20% max XP"
-msgstr ""
+msgstr "+2 obrażenia od pocisków, +3 HP, +20% max XP"
 
 #. [advancement]: id=goblin_druid_curse
 #: Era_of_Magic/units/Barbarians/Goblin_Druid.cfg:116
@@ -1036,7 +1039,7 @@ msgstr "Gobliński Chorąży"
 #. [advancement]: id=GOB_WB_LREV
 #: Era_of_Magic/units/Barbarians/Goblin_Warbanner.cfg:20
 msgid "Lesser revenge on melee, +3 HP, +20% max XP"
-msgstr ""
+msgstr "Mniejsza zemsta w walce wręcz, +3 HP, +20% max XP"
 
 #. [advancement]: id=GOB_WB_DMG
 #: Era_of_Magic/units/Barbarians/Goblin_Warbanner.cfg:52
@@ -1047,13 +1050,15 @@ msgstr "+1 cios na odległość; +3 PŻ; +20% max XP"
 #: Era_of_Magic/units/Barbarians/Goblin_Warbanner.cfg:81
 msgid "Dauntless, +10% blade/pierce/impact resistance, +3 HP +20% max XP"
 msgstr ""
+"Nieustraszony, +10% odporności na sieczny/kłuty/obuchowy typ obrażeń, +3 HP "
+"+20% max XP"
 
 #. [advancement]: id=GOB_WB_MOV
 #. [advancement]: id=shadowsphere_mp
 #: Era_of_Magic/units/Barbarians/Goblin_Warbanner.cfg:120
 #: Era_of_Magic/units/Tharis/Storm_Sphere.cfg:149
 msgid "+1 MP, +3 HP, +20% max XP"
-msgstr ""
+msgstr "+1 MP, +3 HP, +20% max XP"
 
 #. [unit_type]: id=EoMa_Goblin_Warbanner, race=goblin
 #: Era_of_Magic/units/Barbarians/Goblin_Warbanner.cfg:147
@@ -1089,11 +1094,12 @@ msgstr "Regeneracja +8, HP +3, +20% max XP"
 #: Era_of_Magic/units/Barbarians/Goblin_Wizard.cfg:55
 msgid "+3 damage and very skilled on landmass, +1 HP, +20% max XP"
 msgstr ""
+"+3 obrażenia i bardzo umiejętny do ataku masą ziemi, +1 HP, +20% max XP"
 
 #. [advancement]: id=goblin_wizard_curse
 #: Era_of_Magic/units/Barbarians/Goblin_Wizard.cfg:89
 msgid "+1 damage and Drain on curse, +1 HP, +20% max XP"
-msgstr ""
+msgstr "+1 obrażenia i wysysanie dla klątwy, +1 HP, +20% max XP"
 
 #. [advancement]: id=goblin_wizard_staff
 #: Era_of_Magic/units/Barbarians/Goblin_Wizard.cfg:122
@@ -1272,7 +1278,7 @@ msgstr "Troll Chorąży"
 #. [advancement]: id=TRO_WB_INS
 #: Era_of_Magic/units/Barbarians/Troll_Warbanner.cfg:18
 msgid "Inspire 1, +4 HP +20% max XP"
-msgstr ""
+msgstr "Inspiracja 1, +4 HP +20% max XP"
 
 #. [advancement]: id=TRO_WB_DMG
 #: Era_of_Magic/units/Barbarians/Troll_Warbanner.cfg:48
@@ -1622,8 +1628,7 @@ msgstr "Pomoc Ducha Lasu"
 
 #. [message]: speaker=narrator
 #: Era_of_Magic/units/Dark_Blood_Alliance/Forest_Spirit.cfg:256
-#: Era_of_Magic/utils/bonesplit.cfg:292 Era_of_Magic/utils/recruit.cfg:259
-#: Era_of_Magic/utils/summon.cfg:322
+#: Era_of_Magic/utils/bonesplit.cfg:292 Era_of_Magic/utils/summon.cfg:322
 msgid "Help"
 msgstr "Pomoc"
 
@@ -2012,8 +2017,7 @@ msgstr "Duch Bagien"
 #. [dummy]: id=eoma_upgradable_kamikaze
 #. [effect]: type=fire
 #: Era_of_Magic/units/Dark_Blood_Alliance/Swamp_Spirit.cfg:111
-#: Era_of_Magic/utils/abilities.cfg:15
-#: Era_of_Magic/utils/drone-upgrades.cfg:50
+#: Era_of_Magic/utils/abilities.cfg:15 Era_of_Magic/utils/drone-upgrades.cfg:50
 #: Era_of_Magic/utils/drone-upgrades.cfg:311
 msgid "kamikaze"
 msgstr "kamikaze"
@@ -3004,7 +3008,7 @@ msgstr "+1 cios wręcz; +3 PŻ; +20% max XP"
 #. [advancement]: id=fanatic_magicdodge
 #: Era_of_Magic/units/Kharos/Fanatic.cfg:80
 msgid "Magic Dodge on melee, +3 HP, +20% max XP"
-msgstr ""
+msgstr "Magiczny unik w walce wręcz, +3 HP, +20% max XP"
 
 #. [unit_type]: id=EoMa_Fanatic, race=human
 #: Era_of_Magic/units/Kharos/Fanatic.cfg:111
@@ -3063,6 +3067,8 @@ msgstr "+2 obrażeń wręcz; +3 maks. PŻ; +20% max XP"
 #: Era_of_Magic/units/Kharos/Fire_Swordsman.cfg:80
 msgid "+10% blade/pierce/impact/fire resistance, +3 HP +20% max XP"
 msgstr ""
+"+10% odporności na sieczne/kłute/obuchowe obrażenia oraz ogień, +3 HP +20% "
+"max XP"
 
 #. [unit_type]: id=EoMa_Fire_Swordsman, race=human
 #: Era_of_Magic/units/Kharos/Fire_Swordsman.cfg:113
@@ -3318,6 +3324,8 @@ msgstr "Rekruter"
 #: Era_of_Magic/units/Kharos/Recruitment_Officer.cfg:19
 msgid "Leadership 2 is replaced by normal lvl3 Leadership, +2 HP +25% max XP"
 msgstr ""
+"Dowodzenie 2 zostaje zastąpione normalnym dowodzeniem poziomu 3, +2 HP +25% "
+"max XP"
 
 #. [unit_type]: id=EoMa_Recruitment_Officer, race=human
 #: Era_of_Magic/units/Kharos/Recruitment_Officer.cfg:56
@@ -3663,8 +3671,7 @@ msgstr "Latający Dron"
 #. [unstore_unit]
 #: Era_of_Magic/units/Runemasters/Drone.cfg:486
 #: Era_of_Magic/units/Runemasters/Perfect_Drone.cfg:222
-#: Era_of_Magic/utils/abilities.cfg:57 Era_of_Magic/utils/abilities.cfg:84
-#: Era_of_Magic/utils/abilities.cfg:117
+#: Era_of_Magic/utils/abilities.cfg:57 Era_of_Magic/utils/abilities.cfg:117
 msgid "movepoints"
 msgstr "punkty ruchu"
 
@@ -4048,7 +4055,7 @@ msgstr "Umiejętny w atakach wręcz, +2 max PŻ, +20% XP"
 #. [advancement]: id=red_ulf_regen
 #: Era_of_Magic/units/Runemasters/Red_Steam_Ulfserker.cfg:49
 msgid "Autorepair +8, +5 max HP, +20% XP"
-msgstr ""
+msgstr "Autonaprawa +8, +5 maks. HP, +20% XP"
 
 #. [unit_type]: id=EoMa_Red_Steam_Ulfserker, race=mechanical
 #: Era_of_Magic/units/Runemasters/Red_Steam_Ulfserker.cfg:114
@@ -4306,12 +4313,12 @@ msgstr "+Cios i Ucieczka 1; +2 max PŻ; +20% max XP"
 #. [advancement]: id=TR_SW_MOUNTAIN_AMBUSH
 #: Era_of_Magic/units/Runemasters/Trench_Sweeper.cfg:85
 msgid "Mountain Ambush, +3 HP, +20% max XP"
-msgstr ""
+msgstr "Górska zasadzka, +3 HP, +20% max XP"
 
 #. [advancement]: id=TR_SW_CAVE_AMBUSH
 #: Era_of_Magic/units/Runemasters/Trench_Sweeper.cfg:115
 msgid "Cave Ambush, +3 HP, +20% max XP"
-msgstr ""
+msgstr "Jaskiniowa zasadzka, +3 HP, +20% max XP"
 
 #. [attack]: type=pierce
 #: Era_of_Magic/units/Runemasters/Trench_Sweeper.cfg:210
@@ -5001,6 +5008,8 @@ msgstr "Przyrodnicza Regeneracja +8, Bonus do maksymalnego HP +3, +20% max XP"
 #: Era_of_Magic/units/Sky_Kingdom/Shadow_Mage.cfg:122
 msgid "+1 damage and very skilled on cursed knives, +3 HP, +20% max XP"
 msgstr ""
+"+1 obrażeń i bardzo dobra umiejętność posługiwania się przeklętymi nożami, "
+"+3 HP, +20% max XP"
 
 #. [unit_type]: id=EoMa_Shadow_Mage, race=human
 #: Era_of_Magic/units/Sky_Kingdom/Shadow_Mage.cfg:156
@@ -5471,17 +5480,13 @@ msgstr "żółty płomień"
 
 #. [unit_type]: id=EoMa_Dimensional_Gate_III, race=eoma_magical, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic/units/Summoners/Dimensional_Gate_3.cfg:4
-#, fuzzy
-#| msgid "Dimensional Gate II"
 msgid "Dimensional Gate III"
-msgstr "Wrota Wymiarów II"
+msgstr "Wrota Wymiarów III"
 
 #. [attack]: type=arcane
 #: Era_of_Magic/units/Summoners/Dimensional_Gate_3.cfg:154
-#, fuzzy
-#| msgid "blue flame"
 msgid "abyssal flame"
-msgstr "błękitny płomień"
+msgstr "płomień Otchłani"
 
 #. [unit_type]: id=EoMa_Dispeller, race=eoma_summoner
 #: Era_of_Magic/units/Summoners/Dispeller.cfg:4
@@ -5844,15 +5849,13 @@ msgstr "magiczny sztylet"
 
 #. [unit_type]: id=EoMa_Master_Banisher, race=eoma_summoner, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic/units/Summoners/Master_Banisher.cfg:4
-#, fuzzy
-#| msgid "Banisher"
 msgid "Master Banisher"
-msgstr "Wyganiacz"
+msgstr "Mistrz Wyganiaczy"
 
 #. [chance_to_hit]: id=eoma_proficiency
 #: Era_of_Magic/units/Summoners/Master_Banisher.cfg:147
 msgid "proficiency"
-msgstr ""
+msgstr "biegłość"
 
 #. [chance_to_hit]: id=eoma_proficiency
 #: Era_of_Magic/units/Summoners/Master_Banisher.cfg:148
@@ -6259,6 +6262,8 @@ msgstr "Pierwszy Cios; +5 punktów obrażeń do ataków wręcz, +3 max PŻ, +20%
 #: Era_of_Magic/units/Tharis/Chainlady.cfg:113
 msgid "Greater Marksman and +4 damage on ranged chain, +3 max HP; +20% XP"
 msgstr ""
+"Większy Strzelec i +4 pkt. obrażeń od łańcucha dystansowego, +3 maks. HP; "
+"+20% XP"
 
 #. [advancement]: id=chainlady_skirmisher
 #: Era_of_Magic/units/Tharis/Chainlady.cfg:138
@@ -6880,16 +6885,17 @@ msgstr "Sfera Bólu"
 #: Era_of_Magic/units/Tharis/Pain_Sphere.cfg:18
 msgid "Pain Chaining now reduces magical resistances too, +1 HP +25% max XP"
 msgstr ""
+"Łączenie Bólu zmniejsza teraz również odporność na magię, +1 HP +25% max XP"
 
 #. [advancement]: id=painsphere_scavenger
 #: Era_of_Magic/units/Tharis/Pain_Sphere.cfg:54
 msgid "Scavenger 3, +3 HP +20% max XP"
-msgstr ""
+msgstr "Łupieżca 3, +3 HP +20% max XP"
 
 #. [advancement]: id=painsphere_magicdodge
 #: Era_of_Magic/units/Tharis/Pain_Sphere.cfg:90
 msgid "Magic Dodge on blast, +2 HP, +20% max XP"
-msgstr ""
+msgstr "Magiczny unik przy wybuchu, +2 HP, +20% max XP"
 
 #. [advancement]: id=painsphere_blast
 #: Era_of_Magic/units/Tharis/Pain_Sphere.cfg:122
@@ -6899,7 +6905,7 @@ msgstr "+1 cios do uderzenia; +3 PŻ; +20% max XP"
 #. [advancement]: id=painsphere_resistances
 #: Era_of_Magic/units/Tharis/Pain_Sphere.cfg:151
 msgid "+10% blade/pierce/impact resistance, +3 HP +20% max XP"
-msgstr ""
+msgstr "+10% odporności na sieczne/kłute/obuchowe obrażenia, +3 HP +20% max XP"
 
 #. [attack]: type=impact
 #: Era_of_Magic/units/Tharis/Pain_Sphere.cfg:353
@@ -6965,12 +6971,12 @@ msgstr "Żądza krwi +5, Bonus do maksymalnego HP +3, +20% max XP"
 #. [advancement]: id=sworddancer_melee
 #: Era_of_Magic/units/Tharis/Sword_Dancer.cfg:85
 msgid "+1 damage and magic counter on melee, +3 HP, +20% max XP"
-msgstr ""
+msgstr "+1 obrażenia i magiczny unik w walce wręcz, +3 HP, +20% max XP"
 
 #. [advancement]: id=sworddancer_ranged
 #: Era_of_Magic/units/Tharis/Sword_Dancer.cfg:119
 msgid "+2 damage and very skilled on chakram, +3 HP, +20% max XP"
-msgstr ""
+msgstr "+2 obrażenia i bardzo umiejętny w ataku czakramem, +3 HP, +20% max XP"
 
 #. [unit_type]: id=EoMa_Sword_Dancer, race=eoma_tharis
 #: Era_of_Magic/units/Tharis/Sword_Dancer.cfg:153
@@ -7238,7 +7244,7 @@ msgstr "Ta jednostka zawsze trafia cel ale za to jednocześnie ginie."
 
 #. [dummy]: id=eoma_hitandrun{VALUE}
 #. [dummy]: id=eoma_hitandrunspecial{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:41 Era_of_Magic/utils/abilities.cfg:99
+#: Era_of_Magic/utils/abilities.cfg:41
 msgid "hit and run"
 msgstr "uderz i uciekaj"
 
@@ -7431,23 +7437,17 @@ msgstr "anty-tarcza"
 
 #. [dummy]: id=eoma_antishield
 #: Era_of_Magic/utils/abilities.cfg:770
-#, fuzzy
-#| msgid ""
-#| "This attack negates all possible resistances, thus the damage output is "
-#| "always constant."
 msgid ""
 "This attack negates all possible resistances, thus the damage output is "
 "always constant (unless the opponent has the 'secret shield' ability)."
 msgstr ""
 "Ten atak ignoruje wszelkie odporności celu i zadaje zawsze taką samą ilość "
-"obrażeń."
+"obrażeń (chyba, że przeciwnik posiada umiejętność 'sekretna tarcza')."
 
 #. [dummy]: id=eoma_secretshield{VALUE}
 #: Era_of_Magic/utils/abilities.cfg:777
-#, fuzzy
-#| msgid "secret hit"
 msgid "secret shield"
-msgstr "sekretny cios"
+msgstr "sekretna tarcza"
 
 #. [dummy]: id=eoma_secretshield{VALUE}
 #: Era_of_Magic/utils/abilities.cfg:778
@@ -7455,6 +7455,8 @@ msgid ""
 "This unit has some level of resistance against attacks dealing secret type "
 "of damage."
 msgstr ""
+"Jednostka ta posiada pewien poziom odporności na ataki zadające sekretny typ "
+"obrażeń."
 
 #. [dummy]: id=eoma_poisonousaura
 #: Era_of_Magic/utils/abilities.cfg:785
@@ -7617,14 +7619,12 @@ msgstr ""
 "Liczba uzyskanych punktów życia:"
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic/utils/abilities.cfg:1604
-#: Era_of_Magic/utils/abilities.cfg:1605
+#: Era_of_Magic/utils/abilities.cfg:1604 Era_of_Magic/utils/abilities.cfg:1605
 msgid "dread"
 msgstr "strach"
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic/utils/abilities.cfg:1606
-#: Era_of_Magic/utils/abilities.cfg:1607
+#: Era_of_Magic/utils/abilities.cfg:1606 Era_of_Magic/utils/abilities.cfg:1607
 msgid ""
 "When this attack is used offensively, this unit takes one third less damage "
 "in retaliation."
@@ -7633,14 +7633,12 @@ msgstr ""
 "jedną trzecią obrażeń mniej."
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic/utils/abilities.cfg:1617
-#: Era_of_Magic/utils/abilities.cfg:1618
+#: Era_of_Magic/utils/abilities.cfg:1617 Era_of_Magic/utils/abilities.cfg:1618
 msgid "evade"
 msgstr "unik"
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic/utils/abilities.cfg:1619
-#: Era_of_Magic/utils/abilities.cfg:1620
+#: Era_of_Magic/utils/abilities.cfg:1619 Era_of_Magic/utils/abilities.cfg:1620
 msgid ""
 "When this attack is used offensively, this unit takes 25% less damage in "
 "retaliation."
@@ -8016,23 +8014,11 @@ msgstr ""
 
 #. [leadership]: id=eoma_cob2
 #: Era_of_Magic/utils/awe.cfg:89
-#, fuzzy
-#| msgid "circle of banishment"
 msgid "greater circle of banishment"
-msgstr "krąg wygnania"
+msgstr "większy krąg wygnania"
 
 #. [leadership]: id=eoma_cob2
 #: Era_of_Magic/utils/awe.cfg:90
-#, fuzzy
-#| msgid ""
-#| "This unit can affect enemy magical units that are next to it, making them "
-#| "fight worse.\n"
-#| "\n"
-#| "Adjacent enemy magical units of lower level will do less damage in "
-#| "battle. When a unit adjacent to, of the same level, or a lower level "
-#| "than, and is an enemy of the unit with Circle of Banishment engages in "
-#| "combat, its attacks do less damage (−40% lvl0, −30% lvl1, −20% lvl2, −10% "
-#| "lvl3)."
 msgid ""
 "This unit can affect enemy magical units that are next to it, making them "
 "fight worse. It can also slow them down at the start of the turn.\n"
@@ -8042,16 +8028,17 @@ msgid ""
 "enemy of the unit with Circle of Banishment engages in combat, its attacks "
 "do less damage (−50% lvl0, −40% lvl1, −30% lvl2, −20% lvl3, -10% lvl4)."
 msgstr ""
-"Ta jednostka sprawia, że pobliskie wrogie jednostki magiczne walczą gorzej.\n"
+"Ta jednostka sprawia, że pobliskie wrogie jednostki magiczne walczą gorzej. "
+"Potrafi je również spowolnić na początku swojej tury.\n"
 "\n"
 "Sąsiednie wrogie jednostki magiczne niższego poziomu będą zadawać niższe "
-"obrażenia w walce (-40% obrażeń dla poziomu 0, -30% dla poziomu 1, -20% dla "
-"poziomu 2, -10% dla poziomu 3)."
+"obrażenia w walce (-50% obrażeń dla poziomu 0, -40% dla poziomu 1, -30% dla "
+"poziomu 2, -20% dla poziomu 3, -10% dla poziomu 4)."
 
 #. [unstore_unit]
 #: Era_of_Magic/utils/awe.cfg:189
 msgid "slowed"
-msgstr ""
+msgstr "spowolniony"
 
 #: Era_of_Magic/utils/awe.cfg:237
 msgid ""
@@ -8096,7 +8083,7 @@ msgid "awe 4"
 msgstr "strach 4"
 
 #. [damage]: id=eoma_banish
-#: Era_of_Magic/utils/banish.cfg:19 Era_of_Magic/utils/banish.cfg:20
+#: Era_of_Magic/utils/banish.cfg:19
 msgid "banish"
 msgstr "wygnanie"
 
@@ -8114,11 +8101,9 @@ msgstr ""
 "samym poziomie, zdolność nie zadziała."
 
 #. [unstore_unit]
-#: Era_of_Magic/utils/banish.cfg:313 Era_of_Magic/utils/bonesplit.cfg:126
-#: Era_of_Magic/utils/bonesplit.cfg:179 Era_of_Magic/utils/bonesplit.cfg:228
-#: Era_of_Magic/utils/drone-upgrades.cfg:590
-#: Era_of_Magic/utils/recruit.cfg:145 Era_of_Magic/utils/recruit.cfg:181
-#: Era_of_Magic/utils/recruit.cfg:211 Era_of_Magic/utils/summon.cfg:270
+#: Era_of_Magic/utils/banish.cfg:313 Era_of_Magic/utils/bonesplit.cfg:179
+#: Era_of_Magic/utils/drone-upgrades.cfg:590 Era_of_Magic/utils/recruit.cfg:145
+#: Era_of_Magic/utils/recruit.cfg:211
 msgid "+3 exp"
 msgstr "+3 doświadczenie"
 
@@ -8160,7 +8145,7 @@ msgstr ""
 "Krawienie samo w sobie nie może zabić jednostki."
 
 #. [unstore_unit]
-#: Era_of_Magic/utils/bleed.cfg:54 Era_of_Magic/utils/bleed.cfg:119
+#: Era_of_Magic/utils/bleed.cfg:54
 msgid "bleeding"
 msgstr "krwawi"
 
@@ -8184,25 +8169,23 @@ msgstr ""
 "która pojawia się po kliknięciu prawym przyciskiem myszy na jednostkę ze "
 "zdolnością \"rozdwojenia kości\"."
 
-#. [set_menu_item]: id=bonesplit_{ID}, description= - 
+#. [set_menu_item]: id=bonesplit_{ID}, description= -
 #. [set_menu_item]: id=completerepair
-#. [set_menu_item]: id=recruit_{ID}, description= - 
-#. [set_menu_item]: id=summon_{ID}, description= - 
+#. [set_menu_item]: id=recruit_{ID}, description= -
+#. [set_menu_item]: id=summon_{ID}, description= -
 #: Era_of_Magic/utils/bonesplit.cfg:48
-#: Era_of_Magic/utils/drone-upgrades.cfg:477
-#: Era_of_Magic/utils/recruit.cfg:54 Era_of_Magic/utils/summon.cfg:94
+#: Era_of_Magic/utils/drone-upgrades.cfg:477 Era_of_Magic/utils/recruit.cfg:54
 msgid "gold:"
 msgstr "złoto:"
 
-#. [set_menu_item]: id=bonesplit_{ID}, description= - 
+#. [set_menu_item]: id=bonesplit_{ID}, description= -
 #: Era_of_Magic/utils/bonesplit.cfg:48
 msgid "-10HP"
 msgstr "-10HP"
 
 #. [message]: speaker=narrator
 #: Era_of_Magic/utils/bonesplit.cfg:261
-#: Era_of_Magic/utils/drone-upgrades.cfg:598
-#: Era_of_Magic/utils/recruit.cfg:228 Era_of_Magic/utils/statue-copy.cfg:345
+#: Era_of_Magic/utils/drone-upgrades.cfg:598 Era_of_Magic/utils/recruit.cfg:228
 #: Era_of_Magic/utils/summon.cfg:291
 msgid "Error"
 msgstr "Błąd"
@@ -8931,7 +8914,7 @@ msgstr ""
 "Ilość odzyskanych punktów życia:"
 
 #. [regenerate]: id=eoma_regenerates{VALUE}
-#: Era_of_Magic/utils/healing.cfg:77 Era_of_Magic/utils/healing.cfg:92
+#: Era_of_Magic/utils/healing.cfg:77
 msgid "regenerates"
 msgstr "regeneruje się"
 
@@ -9513,8 +9496,7 @@ msgstr ""
 
 #. [resistance]: id=eoma_shielded
 #. [dummy]: id=eoma_shielded_special
-#: Era_of_Magic/utils/resistance.cfg:477
-#: Era_of_Magic/utils/resistance.cfg:490
+#: Era_of_Magic/utils/resistance.cfg:477 Era_of_Magic/utils/resistance.cfg:490
 msgid "shielded"
 msgstr "osłona"
 
@@ -9836,13 +9818,13 @@ msgstr "heroiczna"
 
 #. [trait]: id=eoma_elite
 #. [trait]: id=eoma_elite_alt
-#: Era_of_Magic/utils/traits.cfg:62 Era_of_Magic/utils/traits.cfg:97
+#: Era_of_Magic/utils/traits.cfg:62
 msgid "elite"
 msgstr "elitarny"
 
 #. [trait]: id=eoma_elite
 #. [trait]: id=eoma_elite_alt
-#: Era_of_Magic/utils/traits.cfg:63 Era_of_Magic/utils/traits.cfg:98
+#: Era_of_Magic/utils/traits.cfg:63
 msgid "female^elite"
 msgstr "elitarna"
 
