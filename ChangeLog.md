@@ -1,6 +1,125 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 4.7
+ ### Gameplay
+   * added 2 new units: Master Banisher (lvl4) and Dimensional Gate III (lvl2)
+   * removed Cyclops Breaker from the barbarian leaderpool
+   * removed Cadet/Commando from recruit/leader lists
+   * removed Inspired from the leaderpool
+   * Goblin Sniper, Goblin Raider and Goblin Veteran leaders now start with the resilient trait
+   * add some level of secret resistance to Cyclops Lorekeeper, Fallen Cyclops King, Runemaster (runeaura active) and Guru of Magic
+ ### Units
+   * Barbarians:
+     * Cyclops Noble: price to 34g (+2g)
+     * Warmonger: price to 66g (+3g)
+     * Cyclops Goliath: price to 93g (+5g)
+     * Cyclos Lord: price to 66g (+3g)
+     * Cyclops Lorekeeper: price to 90g (+4g)
+     * Barbarian: price to 26g (-1g)
+     * Goblin Sniper: price to 24g (-2g)
+     * Goblin Veteran: price to 25g (-2g)
+     * Goblin Druid: price to 28g (-3g)
+     * Goblin Wizard: price to 31g (-3g)
+     * Roc Tamer: price to 38g (+2g)
+     * Troll Warlock: price to 62g (+4g)
+   * Dark Blood Alliance:
+     * Crossbowman: price to 27g (-1g)
+     * Jungle Guardian: price to 25g (-1g)
+     * Blue Salamander: price to 31g (-2g)
+     * Green Salamander: price to 31g (-2g)
+     * Clan Leader: price to 33g (-1g)
+     * Corrupted Shaman: price to 36g (+2g)
+   * Destroyers:
+     * All Atokpies: nocturnal regen values increase by +1
+     * Dark Portal: HP to 36 (+1), XP to 72 (+12)
+     * Black Portal: HP to 57 (+5), AMLA XP to 166 (+16), price to 60g (+2g)
+     * Infernal Vortex: HP to 55 (+3), AMLA XP to 166 (+16), price to 58g (+1)
+     * Atokpi Charger: HP to 57 (+2)
+     * Atokpi Samurai: price to 28g (-1g)
+     * Atokpi General: XP to 170 (-10), Staff damage increase to 19-2 (+1)
+     * Atokpi Master & Alter ego: version staff damage increases by +2
+     * Bone Golem: price to 28g (-1g)
+     * Bone Giant: XP to 155 (-5), price to 53g (+2g)
+     * Moloch: HP to 99 (+3)
+     * Bone Splitter: HP to 72 (+2)
+     * Pirania Mounstrosa: price to 25g (-1g)
+     * Devourer: XP to 145 (-5), price to 50g (+1g)
+     * Titania: HP to 65 (+2)
+     * Obliterator: HP to 58 (+3), sword damage increase to 13-3 (+1), accuracy nerf to +Marksman; stab damage increase to 18-2 (+2), accuracy nerf to +Precision (offensive)
+     * Abaddon: HP to 70 (+3), sword damage increase to 17-3 (+2), accuracy nerf to +Marksman; Stab damage damage increase to 23-2 (+2), accuracy nerf to +Precision (offensive)
+   * Kharos:
+     * Elemental Archer: XP to 92 (-3)
+     * Heavy Calvary: XP to 84 (-2)
+     * Cleric Arcane: res to 30% (-10%), XP to 46 (-4)
+     * Bishop Arcane: res to 50% (-10%), XP to 90 (-5), price to 36g (-2g)
+     * Fire Priestess: arcane res to 30% (-10%), XP to 97 (-3)
+     * Grand Kharosian Warbanner: price to 73g (+3g)
+     * Fire Swordsman: HP to 47 (+3)
+     * Golden Warrior: XP to 180 (-10)
+     * Solar Guardian: XP to 193 (+8)
+     * Javelineer: price to 23g (-1g)
+     * Fanatic: price to 42g (+7g)
+   * Runemasters:
+     * Technologist: XP to 80 (-4), price to 29g (-2g)   
+     * Flying Fortress: price to 69g (+3g)
+     * Mechanical Wyrm: price to 66g (+2g)
+     * Mechanical Dragon: price to 93g (+8g)
+     * Technician: price to 28g (-1g)
+     * Rune Arist: price to 61g (+2g)
+     * Runemaster: price to 86g (+3g)
+   * Sky Kingdom:
+     * Mu: XP to 80 (+5)
+     * War Golem: XP to 88 (-7)
+     * Battlemage: XP to 49 (-3), price to 33g (-1g)
+     * Hidden Face: XP to 37 (-1)
+     * Master of Air: price to 33g (-1g)
+     * Mystic Warrior" price to 28g (-2g)
+     * Sky Guardian" +magic-dodge in melee gets replaced by +magic-counter
+     * Um: price to 70g (+3g)
+     * Void Mage: price to 63g (+3g)
+   * Summoners:
+     * Rhami: XP to 46 (-2)
+     * Air Avatar: price to 35g (-1g)
+     * Air God: price to 62g (+1g)
+     * Earth Avatar: price to 32g (-1g)
+     * Water Avatar: price to 30g (-1g)
+   * Tharis:
+     * Chainlady: price to 28g (-3g)
+     * Dark Assassin: price to 32g (-2g)
+     * Great Hunter: price to 31g (-3g)
+     * Dark Commaner: price to 35g (-1g)
+     * Dark Slayer: price to 31g (-1g)
+     * Frontliner: price to 30g (-3g)
+     * Great Witch: HP to 39 (+1), price to 34g (-1g)
+     * Matriarch of Darkness: price to 62g (+5g)
+     * Matriarch of Emptiness: price to 63g (+3g)
+     * Matriarch of Frost: price to 60g (+2g)
+     * Pain Mistress: price to 30g (-2g)
+ ### Abilities
+   * added a new ability: secret shield
+ ### Descriptions
+   * improved faction descriptions
+   * improved the salamander race description
+ ### Graphics
+   * tweaked some animations related to banishment and DG3
+ ### Code
+   * changed unit ids to match their names
+   * renamed some unit sprites, portraits and zombie variations
+   * the add-on uses custom variants of BfW 1.16 movetypes now
+   * changed movetype naming convention
+   * removed unused movetypes
+   * fixed incorrect race id in the triple strike code
+   * replaced I8 with EOMA_ in all macros
+   * fixed incorrect hit sound for Atokpi General
+   * made EoMa_is_rpg EoMa_is_unbalanced EoMa_is_masters false in campaign
+   * updated hide_help.cfg
+   * updated CREDITS.txt
+   * added _info.cfg
+  ### Translations
+   * updated EoMa_translation_template.pot and all .po files
+   * updated the Polish translation
+
 ## Version 4.6.2
  ### Units
    * Barbarians:
@@ -46,7 +165,7 @@ Era of Magic - ChangeLog
      * Chaos Hydra to regenerates(+9)
      * Witch HP to 31 (+1) , XP to 42 (-2)
      * Great Witch XP to 90 (-3)
-	 * Dark Warlord: summoning Dark Hunter costs 1g less (13g -> 12g)
+     * Dark Warlord: summoning Dark Hunter costs 1g less (13g -> 12g)
  ### Code
    * fixed missing ifdef MULTIPLAYER for some rpg checks in AMLA filters
 
