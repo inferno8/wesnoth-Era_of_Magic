@@ -1,6 +1,12 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 4.7.0b
+ ### Units
+   * Sky Kingdom:
+     * Aeromancer: price to 33g (-1)
+     * Master of Air: price to 66g
+
 ## Version 4.7.0a
  ### Units
    * Sky Kingdom:
