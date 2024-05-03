@@ -102,6 +102,9 @@ Era of Magic - ChangeLog
    * improved faction descriptions
    * improved the salamander race description
  ### Graphics
+   * switched to .webp format for portraits
+   * renamed some unit sprites
+   * fixed some TC issues
    * tweaked some animations related to banishment and DG3
  ### Code
    * changed unit ids to match their names
@@ -114,6 +117,9 @@ Era of Magic - ChangeLog
    * fixed incorrect hit sound for Atokpi General
    * made EoMa_is_rpg EoMa_is_unbalanced EoMa_is_masters false in campaign
    * updated hide_help.cfg
+   * added missing ids to some events
+   * renamed 'touch' event to 'eoma_touch'
+   * changed event id from 'banish-touched' to 'eoma_banish_touched'
    * updated CREDITS.txt
    * added _info.cfg
   ### Translations
