@@ -1,6 +1,11 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 4.7.0a
+ ### Units
+   * Sky Kingdom:
+     * Battlemage: price back to 20g
+
 ## Version 4.7
  ### Gameplay
    * added 2 new units: Master Banisher (lvl4) and Dimensional Gate III (lvl2)
