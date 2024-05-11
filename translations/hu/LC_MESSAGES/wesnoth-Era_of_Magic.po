@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2024-04-28 15:38 UTC\n"
+"POT-Creation-Date: 2024-05-11 11:31 UTC\n"
 "PO-Revision-Date: 2011-04-11 11:35+0100\n"
 "Last-Translator: Kelemen Zoltan <kelemen_zoltan@freemail.hu>\n"
 "Language-Team: none\n"
@@ -276,15 +276,47 @@ msgid ""
 "Authors: inferno8, ForestDragon"
 msgstr ""
 
+#. [slider]: id=spawnturn
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:576
+msgid "(default:2) first wave's turn"
+msgstr ""
+
+#. [slider]: id=interval
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:584
+msgid "(default:3) delay between each wave (in turns)"
+msgstr ""
+
 #. [slider]: id=interval
 #: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:585
 msgid "spawns zombies every (number) turns."
+msgstr ""
+
+#. [slider]: id=wavestrength
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:593
+msgid "(default:3) strength of the first wave"
+msgstr ""
+
+#. [slider]: id=wavestrength
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:594
+msgid ""
+"amount of zombies in the first wave per corner (multiply by 4 for total "
+"amount)"
+msgstr ""
+
+#. [slider]: id=waveincrease
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:602
+msgid "(default:1) add more zombies each wave by (number) (per corner)"
 msgstr ""
 
 #. [slider]: id=waveincrease
 #: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:603
 msgid ""
 "the amount of zombies in each wave increases by (number) (in each corner)"
+msgstr ""
+
+#. [slider]: id=smallspawnturn
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:611
+msgid "(default:8) small waves of zombies spawn every <number turns>"
 msgstr ""
 
 #. [slider]: id=smallspawnturn
@@ -295,8 +327,18 @@ msgid ""
 msgstr ""
 
 #. [slider]: id=rewardturn
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:620
+msgid "(default:10) a gold/income reward every (number) turns"
+msgstr ""
+
+#. [slider]: id=rewardturn
 #: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:621
 msgid "all players get a gold/income reward every (number) turns"
+msgstr ""
+
+#. [slider]: id=bonusincome
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:629
+msgid "(default:1) bonus income per reward turn"
 msgstr ""
 
 #. [slider]: id=bonusincome
@@ -307,6 +349,11 @@ msgid ""
 msgstr ""
 
 #. [slider]: id=bonusgold
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:638
+msgid "(default:25) bonus gold per reward turn"
+msgstr ""
+
+#. [slider]: id=bonusgold
 #: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:639
 msgid ""
 "the amount of bonus gold a player gets every reward turn. the bonus "
@@ -314,9 +361,19 @@ msgid ""
 msgstr ""
 
 #. [checkbox]: id=zombiesvillages
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:644
+msgid "(default:yes) Enemy villages spawn zombies"
+msgstr ""
+
+#. [checkbox]: id=zombiesvillages
 #: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:645
 msgid ""
 "Every new turn all villages captured by the enemy will spawn 1 zombie each."
+msgstr ""
+
+#. [checkbox]: id=zombiesguard
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:650
+msgid "(default:yes) Capturing enemy village spawns 2 zombies"
 msgstr ""
 
 #. [checkbox]: id=zombiesguard
@@ -539,9 +596,11 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
+#. [variation]
 #: Era_of_Magic/units/Barbarians/Cyclops_Brute.cfg:39
 #: Era_of_Magic/units/Barbarians/Cyclops_Goliath.cfg:62
 #: Era_of_Magic/units/Barbarians/Cyclops_Warmonger.cfg:53
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:347
 msgid "tree"
 msgstr "fa"
 
@@ -578,6 +637,7 @@ msgstr ""
 #. [attack]: type=secret
 #. [attack]: type=cold
 #. [attack]: type=arcane
+#. [variation]
 #: Era_of_Magic/units/Barbarians/Cyclops_Goliath.cfg:74
 #: Era_of_Magic/units/Barbarians/Cyclops_Lord.cfg:91
 #: Era_of_Magic/units/Barbarians/Cyclops_Lorekeeper.cfg:83
@@ -593,6 +653,7 @@ msgstr ""
 #: Era_of_Magic/units/Destroyers/Fallen_Cyclops_King.cfg:111
 #: Era_of_Magic/units/Destroyers/Greater_Cyclops_Skeleton.cfg:80
 #: Era_of_Magic/units/Destroyers/Greater_Cyclops_Skeleton.cfg:93
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:362
 #: Era_of_Magic/units/Summoners/Ho_rhami.cfg:95
 #: Era_of_Magic/units/Summoners/Rhami_kai.cfg:81
 msgid "gaze"
@@ -645,11 +706,23 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=arcane
+#. [variation]
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
 #. [attack]: type=fire
 #. [attack]: type=impact
 #. [attack]: type=secret
 #: Era_of_Magic/units/Barbarians/Cyclops_Lorekeeper.cfg:71
 #: Era_of_Magic/units/Barbarians/Cyclops_Ritualist.cfg:57
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:706
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:709
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1127
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1140
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1159
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1258
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1304
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1452
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1803
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1206
 #: Era_of_Magic/units/Runemasters/Battlecopter.cfg:94
 #: Era_of_Magic/units/Runemasters/Battlecopter.cfg:106
 #: Era_of_Magic/units/Runemasters/Steam_Turboserker.cfg:78
@@ -765,8 +838,11 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=pierce
+#. [variation]
 #: Era_of_Magic/units/Barbarians/Goblin_Archer.cfg:53
 #: Era_of_Magic/units/Barbarians/Goblin_Sniper.cfg:51
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:678
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:692
 msgid "poisoned arrow"
 msgstr "mérgezett nyíl"
 
@@ -815,10 +891,14 @@ msgid "Marksman on bolas, +2 HP, +20% max XP"
 msgstr ""
 
 #. [attack]: type=impact
+#. [variation]
 #: Era_of_Magic/units/Barbarians/Goblin_Assassin.cfg:240
 #: Era_of_Magic/units/Barbarians/Goblin_Hunter.cfg:77
 #: Era_of_Magic/units/Barbarians/Roc_Master.cfg:56
 #: Era_of_Magic/units/Barbarians/unused/Savage_Roc_Rider.cfg:76
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:482
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:605
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:637
 msgid "bolas"
 msgstr "bola"
 
@@ -871,6 +951,8 @@ msgid "torch"
 msgstr ""
 
 #. [attack]: type=pierce
+#. [variation]
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
 #: Era_of_Magic/units/Barbarians/Goblin_Invader.cfg:73
 #: Era_of_Magic/units/Barbarians/Goblin_Runt.cfg:51
 #: Era_of_Magic/units/Barbarians/Goblin_Veteran.cfg:54
@@ -878,6 +960,10 @@ msgstr ""
 #: Era_of_Magic/units/Barbarians/Goblin_Warrior.cfg:54
 #: Era_of_Magic/units/Dark_Blood_Alliance/Battle_Toad.cfg:83
 #: Era_of_Magic/units/Dark_Blood_Alliance/Dreadnought.cfg:84
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:591
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:666
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:554
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:571
 msgid "spear throw"
 msgstr "hajítódárda"
 
@@ -904,6 +990,8 @@ msgstr ""
 #. [attack]: type=impact
 #: Era_of_Magic/units/Barbarians/Goblin_Kamikaze.cfg:46
 #: Era_of_Magic/units/Barbarians/Goblin_Kamikaze.cfg:58
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:517
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:529
 #: Era_of_Magic/units/Tharis/Dark_Warlord.cfg:78
 #: Era_of_Magic/units/Tharis/Dark_Warlord_rpg.cfg:15
 msgid "explosion"
@@ -1264,7 +1352,9 @@ msgstr ""
 "pusztító tűzvihart bocsátanak ellenségeikre."
 
 #. [attack]: type=fire
+#. [variation]
 #: Era_of_Magic/units/Barbarians/Troll_Fire_Wizard.cfg:49
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:501
 msgid "flame blast"
 msgstr "tűzvihar"
 
@@ -1315,7 +1405,9 @@ msgid "+15% fire/cold resistance, +4 HP +20% max XP"
 msgstr ""
 
 #. [attack]: type=impact
+#. [variation]
 #: Era_of_Magic/units/Barbarians/Troll_Warbanner.cfg:137
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1981
 #: Era_of_Magic/units/Kharos/Kharos_War_Banner.cfg:50
 msgid "banner"
 msgstr "hadizászló"
@@ -1370,6 +1462,7 @@ msgid "Battle Toad"
 msgstr "Harcivarangy"
 
 #. [attack]: type=impact
+#. [variation]
 #: Era_of_Magic/units/Dark_Blood_Alliance/Battle_Toad.cfg:40
 #: Era_of_Magic/units/Dark_Blood_Alliance/Dreadnought.cfg:41
 #: Era_of_Magic/units/Dark_Blood_Alliance/Toad_Archer.cfg:40
@@ -1377,10 +1470,12 @@ msgstr "Harcivarangy"
 #: Era_of_Magic/units/Dark_Blood_Alliance/Toad_Rider.cfg:48
 #: Era_of_Magic/units/Dark_Blood_Alliance/Toad_Shaman.cfg:50
 #: Era_of_Magic/units/Dark_Blood_Alliance/Twin_Archer_Toad.cfg:42
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:131
 msgid "paw"
 msgstr "mancs"
 
 #. [attack]: type=impact
+#. [variation]
 #: Era_of_Magic/units/Dark_Blood_Alliance/Battle_Toad.cfg:49
 #: Era_of_Magic/units/Dark_Blood_Alliance/Dreadnought.cfg:50
 #: Era_of_Magic/units/Dark_Blood_Alliance/Toad_Archer.cfg:49
@@ -1388,6 +1483,7 @@ msgstr "mancs"
 #: Era_of_Magic/units/Dark_Blood_Alliance/Toad_Rider.cfg:57
 #: Era_of_Magic/units/Dark_Blood_Alliance/Toad_Shaman.cfg:59
 #: Era_of_Magic/units/Dark_Blood_Alliance/Twin_Archer_Toad.cfg:51
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:132
 msgid "tongue"
 msgstr "nyelv"
 
@@ -1422,6 +1518,7 @@ msgstr ""
 
 #. [attack]: type=blade
 #. [attack]: type=pierce
+#. [variation]
 #: Era_of_Magic/units/Dark_Blood_Alliance/Black_Salamander.cfg:78
 #: Era_of_Magic/units/Dark_Blood_Alliance/Desert_Salamander.cfg:116
 #: Era_of_Magic/units/Dark_Blood_Alliance/Desert_Salamander.cfg:129
@@ -1430,6 +1527,7 @@ msgstr ""
 #: Era_of_Magic/units/Dark_Blood_Alliance/Shadow_Salamander_rpg.cfg:24
 #: Era_of_Magic/units/Dark_Blood_Alliance/Yellow_Salamander.cfg:63
 #: Era_of_Magic/units/Dark_Blood_Alliance/Yellow_Salamander.cfg:75
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:149
 msgid "wrist blade"
 msgstr "csuklópenge"
 
@@ -1449,14 +1547,20 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=pierce
+#. [variation]
 #: Era_of_Magic/units/Dark_Blood_Alliance/Blue_Salamander.cfg:68
 #: Era_of_Magic/units/Dark_Blood_Alliance/Blue_Salamander.cfg:79
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2626
 msgid "spear"
 msgstr "dárda"
 
 #. [attack]: type=blade
+#. [variation]
 #: Era_of_Magic/units/Dark_Blood_Alliance/Blue_Salamander.cfg:91
 #: Era_of_Magic/units/Dark_Blood_Alliance/Salamander_Marine.cfg:144
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2455
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2458
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2496
 #: Era_of_Magic/units/Tharis/Blade_Dancer.cfg:56
 #: Era_of_Magic/units/Tharis/Blade_Dancer.cfg:68
 #: Era_of_Magic/units/Tharis/Crimson_Blade.cfg:67
@@ -1509,10 +1613,13 @@ msgid "Summon Forest Spirit"
 msgstr ""
 
 #. [attack]: type=cold
+#. [variation]
 #: Era_of_Magic/units/Dark_Blood_Alliance/Chosen_of_Forest.cfg:132
 #: Era_of_Magic/units/Dark_Blood_Alliance/Clan_Leader.cfg:117
 #: Era_of_Magic/units/Dark_Blood_Alliance/Mystic.cfg:105
 #: Era_of_Magic/units/Dark_Blood_Alliance/Shamanistic_Adept.cfg:101
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:254
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:274
 msgid "iceball"
 msgstr "jéggolyó"
 
@@ -1780,7 +1887,9 @@ msgstr ""
 "kellő erővel tudnak harcba vetni, akár szúrnak vele, akár elhajítják."
 
 #. [attack]: type=pierce
+#. [variation]
 #: Era_of_Magic/units/Dark_Blood_Alliance/Jungle_Blowgunner.cfg:51
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:193
 msgid "blowgun"
 msgstr ""
 
@@ -1790,7 +1899,11 @@ msgid "Jungle Champion"
 msgstr ""
 
 #. [attack]: type=pierce
+#. [variation]
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
 #: Era_of_Magic/units/Dark_Blood_Alliance/Jungle_Champion.cfg:91
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1769
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1737
 msgid "javelin"
 msgstr ""
 
@@ -2514,11 +2627,14 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
+#. [variation]
 #: Era_of_Magic/units/Destroyers/Bone_Beast.cfg:71
 #: Era_of_Magic/units/Destroyers/Bone_Giant.cfg:69
 #: Era_of_Magic/units/Destroyers/Bone_Golem.cfg:69
 #: Era_of_Magic/units/Destroyers/Bone_Splitter.cfg:74
 #: Era_of_Magic/units/Destroyers/Moloch.cfg:74
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2177
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2201
 #: Era_of_Magic/units/Tharis/Chaos_Hydra.cfg:58
 #: Era_of_Magic/units/Tharis/Corrupted_Hydra.cfg:89
 #: Era_of_Magic/units/Tharis/Great_Hydra.cfg:50
@@ -3039,6 +3155,1065 @@ msgstr "Szellemirtó"
 msgid "Titania"
 msgstr ""
 
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:31
+msgid "Animated Corpse"
+msgstr ""
+
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:43
+msgid ""
+"Animated Corpses are the bodies of the dead, re-animated by the Destroyers' "
+"anti-magic. Interestingly enough, these undead beings still retain their "
+"skills, reflexes, and some memories, albeit being merely grotesque withered "
+"shadows of their former selves."
+msgstr ""
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:96
+#, fuzzy
+#| msgid "Chaos Wyvern"
+msgid "Fallen Wyvern"
+msgstr "Káosz sárkánykígyó"
+
+#. [variation]
+#. [attack]: type=impact
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:100
+#: Era_of_Magic/units/Summoners/Dharma_rhami.cfg:88
+msgid "tackle"
+msgstr "szerszám"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:109
+#, fuzzy
+#| msgid "Wyvern Rider"
+msgid "Fallen Wyvern Rider"
+msgstr "Sárkánykígyólovas"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:126
+#, fuzzy
+#| msgid "Battle Toad"
+msgid "Fallen Toad"
+msgstr "Harcivarangy"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:144
+#, fuzzy
+#| msgid "Blue Salamander"
+msgid "Fallen Salamander"
+msgstr "Kék szalamandra"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:189
+msgid "Fallen Saurian Shooter"
+msgstr ""
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:196
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:206
+#, fuzzy
+#| msgid "Crossbowman"
+msgid "Fallen Saurian Crossbowman"
+msgstr "Számszeríjász"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:223
+msgid "Fallen Saurian Pikeman"
+msgstr ""
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:229
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:237
+#, fuzzy
+#| msgid "Sun Guardian"
+msgid "Fallen Jungle Guardian"
+msgstr "Napőr"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:250
+msgid "Fallen Saurian Shaman"
+msgstr ""
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:265
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:270
+#, fuzzy
+#| msgid "Clan Leader"
+msgid "Fallen Clan Leader"
+msgstr "Klánfőnök"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:266
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:289
+#, fuzzy
+#| msgid "Corrupted Shaman"
+msgid "Fallen Corrupted Shaman"
+msgstr "Megrontott sámán"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:295
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2627
+#, fuzzy
+#| msgid "fireball"
+msgid "fireball"
+msgstr "tűzgolyó"
+
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:311
+#, fuzzy
+#| msgid "Fire Cyclops"
+msgid "Fallen Cyclops"
+msgstr "Tűzküklopsz"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:322
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:343
+#, fuzzy
+#| msgid "Mighty Cyclops"
+msgid "Fallen Mighty Cyclops"
+msgstr "Brutális küklopsz"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:323
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:356
+#, fuzzy
+#| msgid "Fire Cyclops"
+msgid "Fallen Noble Cyclops"
+msgstr "Tűzküklopsz"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:324
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:329
+#, fuzzy
+#| msgid "Cyclops Breaker"
+msgid "Fallen Cyclops Breaker"
+msgstr "Romboló küklopsz"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:397
+#, fuzzy
+#| msgid "Barbarian"
+msgid "Fallen Orc Barbarian"
+msgstr "Barbár"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:408
+#, fuzzy
+#| msgid "Steam Berserker"
+msgid "Fallen Orc Berserker"
+msgstr "Gőzös dühöngő"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:416
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:422
+#, fuzzy
+#| msgid "Blood Warrior"
+msgid "Fallen Orc Bloodwarrior"
+msgstr "Véreskezű"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:417
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:436
+#, fuzzy
+#| msgid "Orcish Warbanner"
+msgid "Fallen Orcish Brawler"
+msgstr "Ork zászlótartó"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:450
+#, fuzzy
+#| msgid "Roc Rider"
+msgid "Fallen Roc Rider"
+msgstr "Roklovas"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:455
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:464
+#, fuzzy
+#| msgid "Roc Master"
+msgid "Fallen Roc Master"
+msgstr "Rokhajcsár"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:456
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:478
+#, fuzzy
+#| msgid "Roc Rider"
+msgid "Fallen Savage Roc Rider"
+msgstr "Roklovas"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:495
+#, fuzzy
+#| msgid "Troll Sorcerer"
+msgid "Fallen Troll Sorcerer"
+msgstr "Troll boszorkány"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:510
+#, fuzzy
+#| msgid "Goblin Kamikaze"
+msgid "Fallen Goblin Kamikaze"
+msgstr "Kobold kamikázé"
+
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:550
+#, fuzzy
+#| msgid "Goblin Runt"
+msgid "Fallen Goblin Runt"
+msgstr "Nyápic kobold"
+
+#. [variation]
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:561
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:566
+#, fuzzy
+#| msgid "Goblin Warrior"
+msgid "Fallen Goblin Warrior"
+msgstr "Kobold harcos"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:562
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:598
+#, fuzzy
+#| msgid "Goblin Hunter"
+msgid "Fallen Goblin Hunter"
+msgstr "Kobold vadász"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:578
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:584
+#, fuzzy
+#| msgid "Goblin Hunter"
+msgid "Fallen Goblin Veteran"
+msgstr "Kobold vadász"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:579
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:660
+#, fuzzy
+#| msgid "Goblin Warbanner"
+msgid "Fallen Goblin Warbanner"
+msgstr "Kobold zászlótartó"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:609
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:629
+#, fuzzy
+#| msgid "Goblin Assassin"
+msgid "Fallen Goblin Assassin"
+msgstr "Kobold bérgyilkos"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:674
+#, fuzzy
+#| msgid "Goblin Archer"
+msgid "Fallen Goblin Archer"
+msgstr "Kobold íjász"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:683
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:688
+#, fuzzy
+#| msgid "Goblin Sniper"
+msgid "Fallen Goblin Sniper"
+msgstr "Kobold mesterlövész"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:702
+#, fuzzy
+#| msgid "Goblin Kamikaze"
+msgid "Fallen Goblin Shaman"
+msgstr "Kobold kamikázé"
+
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:719
+#, fuzzy
+#| msgid "Novice Summoner"
+msgid "Fallen Novice Summoner"
+msgstr "Varázslótanonc"
+
+#. [variation]
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
+#. [attack]: type=blade
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:779
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:998
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1013
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:722
+#: Era_of_Magic/units/Summoners/Camel_Master.cfg:48
+#: Era_of_Magic/units/Summoners/Camel_Rider.cfg:46
+#: Era_of_Magic/units/Summoners/Elite_Camel_Rider.cfg:45
+#: Era_of_Magic/units/Summoners/Grand_Summoner.cfg:180
+#: Era_of_Magic/units/Summoners/Heavy_Summoner.cfg:218
+#: Era_of_Magic/units/Summoners/Neutral_Summoner.cfg:186
+#: Era_of_Magic/units/Summoners/Novice_Summoner.cfg:59
+#: Era_of_Magic/units/Summoners/Summoner.cfg:45
+msgid "scimitar"
+msgstr "handzsár"
+
+#. [variation]
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
+#. [attack]: type=pierce
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:784
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:724
+#: Era_of_Magic/units/Summoners/Heavy_Summoner.cfg:248
+#: Era_of_Magic/units/Summoners/Novice_Summoner.cfg:77
+#: Era_of_Magic/units/Summoners/Summoner.cfg:75
+msgid "scroll"
+msgstr "tekercs"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:770
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:776
+#, fuzzy
+#| msgid "Grand Summoner"
+msgid "Fallen Summoner"
+msgstr "Nagy varázsló"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:771
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:851
+#, fuzzy
+#| msgid "Dispeller"
+msgid "Fallen Dispeller"
+msgstr "Démonűző"
+
+#. [variation]
+#. [attack]: type=fire
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:781
+#: Era_of_Magic/units/Summoners/Heavy_Summoner.cfg:236
+#: Era_of_Magic/units/Summoners/Summoner.cfg:63
+msgid "magic arrow"
+msgstr "mágikus nyíl"
+
+#. [variation]
+#. [attack]: type=arcane
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:854
+#: Era_of_Magic/units/Summoners/Banisher.cfg:126
+#: Era_of_Magic/units/Summoners/Dispeller.cfg:38
+#: Era_of_Magic/units/Summoners/Master_Banisher.cfg:136
+msgid "banishment"
+msgstr "likvidálás"
+
+#. [variation]
+#. [attack]: type=cold
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:858
+#: Era_of_Magic/units/Summoners/Banisher.cfg:148
+#: Era_of_Magic/units/Summoners/Dispeller.cfg:60
+#: Era_of_Magic/units/Summoners/Master_Banisher.cfg:187
+msgid "frozen gate"
+msgstr "fagykapu"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:965
+#, fuzzy
+#| msgid "Carpet Rider"
+msgid "Fallen Carpet Rider"
+msgstr "Repülőszőnyeges"
+
+#. [variation]
+#. [attack]: type=cold
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:968
+#: Era_of_Magic/units/Summoners/Carpet_Master.cfg:202
+#: Era_of_Magic/units/Summoners/Carpet_Rider.cfg:55
+msgid "magical powder"
+msgstr "mágikus por"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:995
+#, fuzzy
+#| msgid "Camel Rider"
+msgid "Fallen Camel Rider"
+msgstr "Tevegelő"
+
+#. [variation]
+#. [attack]: type=blade
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:999
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1014
+#: Era_of_Magic/units/Summoners/Camel_Master.cfg:57
+#: Era_of_Magic/units/Summoners/Camel_Rider.cfg:55
+#: Era_of_Magic/units/Summoners/Elite_Camel_Rider.cfg:54
+msgid "scimitar throw"
+msgstr "hajítóhandzsár"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1002
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1010
+#, fuzzy
+#| msgid "Camel Rider"
+msgid "Fallen Elite Camel Rider"
+msgstr "Tevegelő"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1025
+#, fuzzy
+#| msgid "Runeadept"
+msgid "Fallen Rune Adept"
+msgstr "Rúnatanítvány"
+
+#. [variation]
+#. [attack]: type=fire
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1031
+#: Era_of_Magic/units/Runemasters/Rune_Adept.cfg:54
+#: Era_of_Magic/units/Runemasters/Rune_Artist.cfg:51
+#: Era_of_Magic/units/Runemasters/Runemaster.cfg:57
+#: Era_of_Magic/units/Runemasters/Runesmith.cfg:64
+#, fuzzy
+#| msgid "runes"
+msgid "fire runes"
+msgstr "rúnák"
+
+#. [variation]
+#. [attack]: type=cold
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1034
+#: Era_of_Magic/units/Runemasters/Rune_Adept.cfg:66
+#: Era_of_Magic/units/Runemasters/Rune_Artist.cfg:63
+#: Era_of_Magic/units/Runemasters/Runemaster.cfg:69
+#: Era_of_Magic/units/Runemasters/Runesmith.cfg:76
+#, fuzzy
+#| msgid "runes"
+msgid "ice runes"
+msgstr "rúnák"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1049
+#, fuzzy
+#| msgid "Dark Warrior"
+msgid "Fallen Dwarf Warrior"
+msgstr "Sötét harcos"
+
+#. [variation]
+#. [attack]: type=pierce
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1053
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1069
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1095
+#: Era_of_Magic/units/Runemasters/Dwarvish_Cadet.cfg:58
+#: Era_of_Magic/units/Runemasters/Dwarvish_Cannoneer.cfg:50
+#: Era_of_Magic/units/Runemasters/Dwarvish_Cannoneer.cfg:62
+#: Era_of_Magic/units/Runemasters/Dwarvish_Commando.cfg:59
+#: Era_of_Magic/units/Runemasters/Dwarvish_Gunner.cfg:55
+#: Era_of_Magic/units/Runemasters/Dwarvish_Rune_Lord.cfg:80
+#: Era_of_Magic/units/Runemasters/Dwarvish_Runic_Warrior.cfg:50
+#: Era_of_Magic/units/Runemasters/Dwarvish_Veteran.cfg:46
+#: Era_of_Magic/units/Runemasters/Dwarvish_Warrior.cfg:51
+#: Era_of_Magic/units/Runemasters/Parachutist.cfg:43
+msgid "gun"
+msgstr "fegyver"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1063
+#, fuzzy
+#| msgid "Dwarvish Rune Lord"
+msgid "Fallen Dwarvish Gunner"
+msgstr "Törp rúnaúr"
+
+#. [variation]
+#. [attack]: type=impact
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1068
+#: Era_of_Magic/units/Runemasters/Dwarvish_Cannoneer.cfg:41
+#: Era_of_Magic/units/Runemasters/Dwarvish_Gunner.cfg:46
+#: Era_of_Magic/units/Runemasters/Trench_Sweeper.cfg:201
+#, fuzzy
+#| msgid "bow bash"
+msgid "gun bash"
+msgstr "íjütés"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1091
+#, fuzzy
+#| msgid "Parachutist"
+msgid "Fallen Parachutist"
+msgstr "Ejtőernyős"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1106
+#, fuzzy
+#| msgid "Mechanic"
+msgid "Fallen Mechanic"
+msgstr "Mechanikus"
+
+#. [variation]
+#. [attack]: type=blade
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1109
+#: Era_of_Magic/units/Runemasters/Constructor.cfg:80
+#: Era_of_Magic/units/Runemasters/Mechanic.cfg:63
+#: Era_of_Magic/units/Runemasters/Technician.cfg:88
+msgid "saw"
+msgstr "fűrész"
+
+#. [variation]
+#. [attack]: type=impact
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1110
+#: Era_of_Magic/units/Runemasters/Constructor.cfg:89
+#: Era_of_Magic/units/Runemasters/Mechanic.cfg:72
+#: Era_of_Magic/units/Runemasters/Technician.cfg:97
+msgid "wrench"
+msgstr ""
+
+#. [variation]
+#. [attack]: type=pierce
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1111
+#: Era_of_Magic/units/Runemasters/Constructor.cfg:98
+#: Era_of_Magic/units/Runemasters/Mechanic.cfg:81
+#: Era_of_Magic/units/Runemasters/Technician.cfg:106
+msgid "screwdriver"
+msgstr "csavarhúzó"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1123
+#, fuzzy
+#| msgid "Elementalist"
+msgid "Fallen Elementalist"
+msgstr "Elemvarázsló"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1136
+#, fuzzy
+#| msgid "Battlemage"
+msgid "Fallen Battle Mage"
+msgstr "Harcimágus"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1145
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1155
+#, fuzzy
+#| msgid "Troll Sorcerer"
+msgid "Fallen Sorcerer"
+msgstr "Troll boszorkány"
+
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1202
+#, fuzzy
+#| msgid "Subversive mage"
+msgid "Fallen Subversive Mage"
+msgstr "Pusztító mágus"
+
+#. [variation]
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
+#. [attack]: type=impact
+#. [attack]: type=cold
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1261
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1307
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1209
+#: Era_of_Magic/units/Sky_Kingdom/Architect.cfg:59
+#: Era_of_Magic/units/Sky_Kingdom/Black_Mage.cfg:63
+#: Era_of_Magic/units/Sky_Kingdom/Chronomancer.cfg:104
+#: Era_of_Magic/units/Sky_Kingdom/Sculptor.cfg:56
+#: Era_of_Magic/units/Sky_Kingdom/Subversive_Mage.cfg:63
+#: Era_of_Magic/units/Sky_Kingdom/Void_Mage.cfg:101
+msgid "entrapment spell"
+msgstr ""
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1248
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1254
+#, fuzzy
+#| msgid "Black Mage"
+msgid "Fallen Black Mage"
+msgstr "Fekete mágus"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1249
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1300
+msgid "Fallen Sculptor"
+msgstr ""
+
+#. [variation]
+#. [attack]: type=cold
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1311
+#: Era_of_Magic/units/Sky_Kingdom/Architect.cfg:73
+#: Era_of_Magic/units/Sky_Kingdom/Sculptor.cfg:69
+msgid "petrifying spell"
+msgstr ""
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1427
+#, fuzzy
+#| msgid "Hidden Face"
+msgid "Fallen Hidden Face"
+msgstr "Álarcos"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1443
+msgid "Fallen Mu"
+msgstr ""
+
+#. [variation]
+#. [attack]: type=secret
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1447
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1531
+#: Era_of_Magic/units/Sky_Kingdom/Mu.cfg:56
+#: Era_of_Magic/units/Sky_Kingdom/Um.cfg:98
+#, fuzzy
+#| msgid "magic arrow"
+msgid "magic barrage"
+msgstr "mágikus nyíl"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1457
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1523
+msgid "Fallen Um"
+msgstr ""
+
+#. [variation]
+#. [attack]: type=secret
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1536
+#: Era_of_Magic/units/Sky_Kingdom/Um.cfg:112
+#, fuzzy
+#| msgid "flame blast"
+msgid "um blast"
+msgstr "tűzvihar"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1558
+#, fuzzy
+#| msgid "female^Cleric"
+msgid "Fallen Cleric"
+msgstr "Papnő"
+
+#. [variation]
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1562
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1646
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1982
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1604
+#, fuzzy
+#| msgid "dark ball"
+msgid "darkness beam"
+msgstr "sötét labda"
+
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1598
+msgid "Fallen Sister"
+msgstr ""
+
+#. [variation]
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
+#. [attack]: type=cold
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1666
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1601
+#: Era_of_Magic/units/Tharis/Black_Orb.cfg:191
+#: Era_of_Magic/units/Tharis/Dark_Observer.cfg:157
+#: Era_of_Magic/units/Tharis/Pain_Sphere.cfg:341
+#: Era_of_Magic/units/Tharis/Storm_Sphere.cfg:411
+#: Era_of_Magic/units/Tharis/Storm_Sphere_rpg.cfg:9
+msgid "touch"
+msgstr "érintés"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1632
+#, fuzzy
+#| msgid "Master of Darkness"
+msgid "Fallen Child of Darkness"
+msgstr "Sötétség Mestere"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1633
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1639
+#, fuzzy
+#| msgid "female^Inspired"
+msgid "Fallen Inspired"
+msgstr "Ösztönzött"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1661
+msgid "Fallen Angel"
+msgstr ""
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1669
+#, fuzzy
+#| msgid "water blast"
+msgid "dark blast"
+msgstr "hullámverés"
+
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1730
+#, fuzzy
+#| msgid "Shielder"
+msgid "Fallen Shielder"
+msgstr "Pajzsos"
+
+#. [variation]
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
+#. [attack]: type=impact
+#. [attack]: type=blade
+#. [attack]: type=pierce
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1766
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1736
+#: Era_of_Magic/units/Kharos/Avenger.cfg:44
+#: Era_of_Magic/units/Kharos/Hoplite.cfg:44
+#: Era_of_Magic/units/Kharos/Kharosian_Bulwark.cfg:49
+#: Era_of_Magic/units/Kharos/Kharosian_Legionnaire.cfg:47
+#: Era_of_Magic/units/Kharos/Shielder.cfg:50
+#: Era_of_Magic/units/Sky_Kingdom/Mirrorshield.cfg:89
+#: Era_of_Magic/units/Sky_Kingdom/Mirrorshield.cfg:101
+#: Era_of_Magic/units/Sky_Kingdom/Mirrorshield_rpg.cfg:16
+#: Era_of_Magic/units/Sky_Kingdom/Mirrorshield_rpg.cfg:25
+msgid "shield"
+msgstr "pajzs"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1752
+msgid "Fallen Darkness Follower"
+msgstr ""
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1753
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1758
+#, fuzzy
+#| msgid "Revenger"
+msgid "Fallen Avenger"
+msgstr "Bosszúálló"
+
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1783
+#, fuzzy
+#| msgid "White Warrior"
+msgid "Fallen White Warrior"
+msgstr "Fehér harcos"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1792
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1798
+#, fuzzy
+#| msgid "Silver Warrior"
+msgid "Fallen Silver Warrior"
+msgstr "Ezüstharcos"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1793
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1851
+#, fuzzy
+#| msgid "Brown Warrior"
+msgid "Fallen Brown Warrior"
+msgstr "Barna harcos"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1868
+#, fuzzy
+#| msgid "Sun Follower"
+msgid "Fallen Sun Follower"
+msgstr "Naphívő"
+
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1885
+#, fuzzy
+#| msgid "Slicer"
+msgid "Fallen Slicer"
+msgstr "Daraboló"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1906
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1912
+#, fuzzy
+#| msgid "Fanatic"
+msgid "Fallen Fanatic"
+msgstr "Fanatikus"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1907
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1939
+#, fuzzy
+#| msgid "Fire God"
+msgid "Fallen Fire Swordsman"
+msgstr "Tűzisten"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1976
+#, fuzzy
+#| msgid "War Banner"
+msgid "Fallen War Banner"
+msgstr "Hadizászló"
+
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1996
+#, fuzzy
+#| msgid "Cavalry Archer"
+msgid "Fallen Cavalry Archer"
+msgstr "Lovas íjász"
+
+#. [variation]
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
+#. [attack]: type=impact
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2033
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2062
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1999
+#: Era_of_Magic/units/Kharos/Cavalry_Archer.cfg:36
+#: Era_of_Magic/units/Kharos/Elemental_Archer.cfg:40
+#: Era_of_Magic/units/Kharos/Heavy_Cavalry.cfg:35
+#: Era_of_Magic/units/Kharos/Kharosian_Cataphract.cfg:42
+#: Era_of_Magic/units/Kharos/Mystical_Archer.cfg:44
+#: Era_of_Magic/units/Runemasters/Dwarvish_Tank.cfg:47
+#: Era_of_Magic/units/Runemasters/Pacificator.cfg:48
+#: Era_of_Magic/units/Runemasters/Striding_Machine.cfg:72
+msgid "trample"
+msgstr "taposóláb"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2022
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2059
+#, fuzzy
+#| msgid "Elemental Archer"
+msgid "Fallen Elemental Archer"
+msgstr "Elemi íjász"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2023
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2028
+#, fuzzy
+#| msgid "Cavalry Archer"
+msgid "Fallen Heavy Cavalry Archer"
+msgstr "Lovas íjász"
+
+#. [variation]
+#. [attack]: type=fire
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2063
+#: Era_of_Magic/units/Kharos/Elemental_Archer.cfg:49
+#: Era_of_Magic/units/Kharos/Mystical_Archer.cfg:53
+msgid "fire arrow"
+msgstr "tüzes nyíl"
+
+#. [variation]
+#. [attack]: type=cold
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2066
+#: Era_of_Magic/units/Kharos/Elemental_Archer.cfg:61
+#: Era_of_Magic/units/Kharos/Mystical_Archer.cfg:65
+msgid "ice arrow"
+msgstr "jeges nyíl"
+
+#. [variation]
+#. [attack]: type=pierce
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2070
+#: Era_of_Magic/units/Kharos/Elemental_Archer.cfg:74
+#: Era_of_Magic/units/Kharos/Heavy_Cavalry.cfg:44
+#: Era_of_Magic/units/Kharos/Kharosian_Cataphract.cfg:66
+msgid "arrow"
+msgstr "nyíl"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2168
+#, fuzzy
+#| msgid "Raging Hydra"
+msgid "Fallen Hydra"
+msgstr "Őrjöngő hidra"
+
+#. [variation]
+#. [attack]: type=pierce
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2173
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2197
+#: Era_of_Magic/units/Tharis/Chaos_Hydra.cfg:44
+#: Era_of_Magic/units/Tharis/Corrupted_Hydra.cfg:75
+#: Era_of_Magic/units/Tharis/Great_Hydra.cfg:36
+#: Era_of_Magic/units/Tharis/Hellish_Hydra.cfg:75
+#: Era_of_Magic/units/Tharis/Hydra.cfg:40
+msgid "bite"
+msgstr "harapás"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2180
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2192
+msgid "Fallen Deephydra"
+msgstr ""
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2215
+#, fuzzy
+#| msgid "Disciple"
+msgid "Fallen Disciple"
+msgstr "Tanítvány"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2219
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2268
+#, fuzzy
+#| msgid "Shadowmage"
+msgid "shadow wave"
+msgstr "Árnymágus"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2228
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2264
+#, fuzzy
+#| msgid "Dark Wizard"
+msgid "Fallen Dark Wizard"
+msgstr "Sötét varázsló"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2327
+#, fuzzy
+#| msgid "Dark Witch"
+msgid "Fallen Witch"
+msgstr "Sötét boszorkány"
+
+#. [variation]
+#. [attack]: type=fire
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2331
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2385
+#: Era_of_Magic/units/Tharis/Great_Witch.cfg:46
+#: Era_of_Magic/units/Tharis/Matriarch_of_Darkness.cfg:59
+#: Era_of_Magic/units/Tharis/Witch.cfg:45
+msgid "witch-fire"
+msgstr "boszorkánytűz"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2335
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2381
+#, fuzzy
+#| msgid "Great Warlock"
+msgid "Fallen Great Witch"
+msgstr "Nagy sámán"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2452
+#, fuzzy
+#| msgid "Bladedancer"
+msgid "Fallen Blade Dancer"
+msgstr "Pengetáncos"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2459
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2490
+#, fuzzy
+#| msgid "Sworddancer"
+msgid "Fallen Sword Dancer"
+msgstr "Kardtáncos"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2493
+msgid "sword"
+msgstr "kard"
+
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2517
+#, fuzzy
+#| msgid "Goblin Hunter"
+msgid "Fallen Hunter"
+msgstr "Kobold vadász"
+
+#. [variation]
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
+#. [attack]: type=blade
+#. [attack]: type=pierce
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2543
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2546
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2561
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2520
+#: Era_of_Magic/units/Tharis/Dark_Assassin.cfg:33
+#: Era_of_Magic/units/Tharis/Dark_Assassin.cfg:46
+#: Era_of_Magic/units/Tharis/Dark_Assassin.cfg:55
+#: Era_of_Magic/units/Tharis/Dark_Executioner.cfg:40
+#: Era_of_Magic/units/Tharis/Dark_Hunter.cfg:40
+#: Era_of_Magic/units/Tharis/Dark_Hunter.cfg:52
+#: Era_of_Magic/units/Tharis/Great_Hunter.cfg:31
+#: Era_of_Magic/units/Tharis/Great_Hunter.cfg:43
+#: Era_of_Magic/units/Tharis/Shadowblade.cfg:50
+msgid "knives"
+msgstr "kések"
+
+#. [variation]
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2547
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2564
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2523
+msgid "throwing knives"
+msgstr ""
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2532
+#, fuzzy
+#| msgid "Great Hunter"
+msgid "Fallen Great Hunter"
+msgstr "Nagy vadász"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2533
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2538
+#, fuzzy
+#| msgid "Dark Assassin"
+msgid "Fallen Dark Assassin"
+msgstr "Sötét orgyilkos"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2558
+#, fuzzy
+#| msgid "Great Hunter"
+msgid "Fallen Greathunter"
+msgstr "Nagy vadász"
+
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2593
+#, fuzzy
+#| msgid "Dark Warrior"
+msgid "Fallen Dark Warrior"
+msgstr "Sötét harcos"
+
+#. [variation]
+#. [unit_type]: id=EoMa_Walking_Corpse, race=undead
+#. [attack]: type=blade
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2613
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2596
+#: Era_of_Magic/units/Tharis/Dark_Slayer.cfg:50
+#: Era_of_Magic/units/Tharis/Dark_Warrior.cfg:74
+msgid "daggers"
+msgstr "tőrök"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2604
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2610
+#, fuzzy
+#| msgid "Dark Slayer"
+msgid "Fallen Dark Slayer"
+msgstr "Sátáni vérengző"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2605
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2621
+#, fuzzy
+#| msgid "Commander"
+msgid "Fallen Dark Commander"
+msgstr "Parancsnok"
+
+#. [variation]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2640
+#, fuzzy
+#| msgid "fury"
+msgid "Fallen Bladefury"
+msgstr "őrjöngés"
+
+#. [variation]
+#. [attack]: type=blade
+#. [attack]: type=pierce
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2643
+#: Era_of_Magic/units/Tharis/Bladefury.cfg:57
+#: Era_of_Magic/units/Tharis/Chainlady.cfg:201
+#: Era_of_Magic/units/Tharis/Chainlady.cfg:215
+#: Era_of_Magic/units/Tharis/Chainlady.cfg:227
+msgid "chain"
+msgstr ""
+
+#. [unstore_unit]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2760
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2776
+#: Era_of_Magic/units/Runemasters/Drone.cfg:486
+#: Era_of_Magic/units/Runemasters/Perfect_Drone.cfg:222
+#: Era_of_Magic/utils/abilities.cfg:57 Era_of_Magic/utils/abilities.cfg:84
+#: Era_of_Magic/utils/abilities.cfg:117
+msgid "movepoints"
+msgstr ""
+
+#. [unstore_unit]
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2793
+#: Era_of_Magic/utils/abilities.cfg:150
+msgid "FURY!"
+msgstr "ŐRÜLET!"
+
+#. [attack]: type=impact
+#: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2902
+msgid "dummy"
+msgstr ""
+
 #. [unit_type]: id=EoMa_Chaotic_Observer, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic/units/Destroyers/unused/Chaotic_Observer.cfg:4
 msgid "Chaotic Observer"
@@ -3070,21 +4245,6 @@ msgid ""
 msgstr ""
 "A bosszúálló egy nehézfegyverzettel ellátott védőegység. Az ellencsapása "
 "mindig talál."
-
-#. [attack]: type=impact
-#. [attack]: type=blade
-#. [attack]: type=pierce
-#: Era_of_Magic/units/Kharos/Avenger.cfg:44
-#: Era_of_Magic/units/Kharos/Hoplite.cfg:44
-#: Era_of_Magic/units/Kharos/Kharosian_Bulwark.cfg:49
-#: Era_of_Magic/units/Kharos/Kharosian_Legionnaire.cfg:47
-#: Era_of_Magic/units/Kharos/Shielder.cfg:50
-#: Era_of_Magic/units/Sky_Kingdom/Mirrorshield.cfg:89
-#: Era_of_Magic/units/Sky_Kingdom/Mirrorshield.cfg:101
-#: Era_of_Magic/units/Sky_Kingdom/Mirrorshield_rpg.cfg:16
-#: Era_of_Magic/units/Sky_Kingdom/Mirrorshield_rpg.cfg:25
-msgid "shield"
-msgstr "pajzs"
 
 #. [unit_type]: id=EoMa_Bishop, gender=female, race=human
 #: Era_of_Magic/units/Kharos/Bishop.cfg:4
@@ -3134,18 +4294,6 @@ msgid ""
 "They are mainly used as scouts or messengers, but they are also quite good "
 "for flanking, or chasing down retreating enemies."
 msgstr ""
-
-#. [attack]: type=impact
-#: Era_of_Magic/units/Kharos/Cavalry_Archer.cfg:36
-#: Era_of_Magic/units/Kharos/Elemental_Archer.cfg:40
-#: Era_of_Magic/units/Kharos/Heavy_Cavalry.cfg:35
-#: Era_of_Magic/units/Kharos/Kharosian_Cataphract.cfg:42
-#: Era_of_Magic/units/Kharos/Mystical_Archer.cfg:44
-#: Era_of_Magic/units/Runemasters/Dwarvish_Tank.cfg:47
-#: Era_of_Magic/units/Runemasters/Pacificator.cfg:48
-#: Era_of_Magic/units/Runemasters/Striding_Machine.cfg:72
-msgid "trample"
-msgstr "taposóláb"
 
 #. [unit_type]: id=EoMa_Child_of_Light, race=human, gender=female, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic/units/Kharos/Child_of_Light.cfg:4
@@ -3215,25 +4363,6 @@ msgid ""
 "upper hand in combat. The process of making these arrows remains a mystery, "
 "but some speculate that the Sky Kingdom is involved in it."
 msgstr ""
-
-#. [attack]: type=fire
-#: Era_of_Magic/units/Kharos/Elemental_Archer.cfg:49
-#: Era_of_Magic/units/Kharos/Mystical_Archer.cfg:53
-msgid "fire arrow"
-msgstr "tüzes nyíl"
-
-#. [attack]: type=cold
-#: Era_of_Magic/units/Kharos/Elemental_Archer.cfg:61
-#: Era_of_Magic/units/Kharos/Mystical_Archer.cfg:65
-msgid "ice arrow"
-msgstr "jeges nyíl"
-
-#. [attack]: type=pierce
-#: Era_of_Magic/units/Kharos/Elemental_Archer.cfg:74
-#: Era_of_Magic/units/Kharos/Heavy_Cavalry.cfg:44
-#: Era_of_Magic/units/Kharos/Kharosian_Cataphract.cfg:66
-msgid "arrow"
-msgstr "nyíl"
 
 #. [unit_type]: id=EoMa_Fanatic, race=human
 #: Era_of_Magic/units/Kharos/Fanatic.cfg:4
@@ -3868,27 +4997,6 @@ msgstr ""
 msgid "armor"
 msgstr ""
 
-#. [attack]: type=blade
-#: Era_of_Magic/units/Runemasters/Constructor.cfg:80
-#: Era_of_Magic/units/Runemasters/Mechanic.cfg:63
-#: Era_of_Magic/units/Runemasters/Technician.cfg:88
-msgid "saw"
-msgstr "fűrész"
-
-#. [attack]: type=impact
-#: Era_of_Magic/units/Runemasters/Constructor.cfg:89
-#: Era_of_Magic/units/Runemasters/Mechanic.cfg:72
-#: Era_of_Magic/units/Runemasters/Technician.cfg:97
-msgid "wrench"
-msgstr ""
-
-#. [attack]: type=pierce
-#: Era_of_Magic/units/Runemasters/Constructor.cfg:98
-#: Era_of_Magic/units/Runemasters/Mechanic.cfg:81
-#: Era_of_Magic/units/Runemasters/Technician.cfg:106
-msgid "screwdriver"
-msgstr "csavarhúzó"
-
 #. [attack]: type=fire
 #: Era_of_Magic/units/Runemasters/Constructor.cfg:107
 #: Era_of_Magic/units/Runemasters/Technocrat.cfg:61
@@ -3969,14 +5077,6 @@ msgstr ""
 msgid "Flying Drone"
 msgstr "Repülő erőd"
 
-#. [unstore_unit]
-#: Era_of_Magic/units/Runemasters/Drone.cfg:486
-#: Era_of_Magic/units/Runemasters/Perfect_Drone.cfg:222
-#: Era_of_Magic/utils/abilities.cfg:57 Era_of_Magic/utils/abilities.cfg:84
-#: Era_of_Magic/utils/abilities.cfg:117
-msgid "movepoints"
-msgstr ""
-
 #. [unit_type]: id=EoMa_Dwarvish_Cadet, race=dwarf
 #: Era_of_Magic/units/Runemasters/Dwarvish_Cadet.cfg:4
 #, fuzzy
@@ -3993,20 +5093,6 @@ msgid ""
 "technologists they are faster and can strike more times than their runic "
 "counterparts."
 msgstr ""
-
-#. [attack]: type=pierce
-#: Era_of_Magic/units/Runemasters/Dwarvish_Cadet.cfg:58
-#: Era_of_Magic/units/Runemasters/Dwarvish_Cannoneer.cfg:50
-#: Era_of_Magic/units/Runemasters/Dwarvish_Cannoneer.cfg:62
-#: Era_of_Magic/units/Runemasters/Dwarvish_Commando.cfg:59
-#: Era_of_Magic/units/Runemasters/Dwarvish_Gunner.cfg:55
-#: Era_of_Magic/units/Runemasters/Dwarvish_Rune_Lord.cfg:80
-#: Era_of_Magic/units/Runemasters/Dwarvish_Runic_Warrior.cfg:50
-#: Era_of_Magic/units/Runemasters/Dwarvish_Veteran.cfg:46
-#: Era_of_Magic/units/Runemasters/Dwarvish_Warrior.cfg:51
-#: Era_of_Magic/units/Runemasters/Parachutist.cfg:43
-msgid "gun"
-msgstr "fegyver"
 
 #. [unit_type]: id=EoMa_Dwarvish_Cannoneer, race=dwarf, description=
 #: Era_of_Magic/units/Runemasters/Dwarvish_Cannoneer.cfg:4
@@ -4031,15 +5117,6 @@ msgstr "Törp tank"
 #: Era_of_Magic/utils/drone-upgrades.cfg:286
 msgid "cannon"
 msgstr "ágyú"
-
-#. [attack]: type=impact
-#: Era_of_Magic/units/Runemasters/Dwarvish_Cannoneer.cfg:41
-#: Era_of_Magic/units/Runemasters/Dwarvish_Gunner.cfg:46
-#: Era_of_Magic/units/Runemasters/Trench_Sweeper.cfg:201
-#, fuzzy
-#| msgid "bow bash"
-msgid "gun bash"
-msgstr "íjütés"
 
 #. [unit_type]: id=EoMa_Dwarvish_Commando, race=dwarf, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic/units/Runemasters/Dwarvish_Commando.cfg:4
@@ -4563,26 +5640,6 @@ msgstr ""
 "mivel a fegyvereiket átjáró mágia hatástalanítja az ellenséges védekező "
 "trükköket."
 
-#. [attack]: type=fire
-#: Era_of_Magic/units/Runemasters/Rune_Adept.cfg:54
-#: Era_of_Magic/units/Runemasters/Rune_Artist.cfg:51
-#: Era_of_Magic/units/Runemasters/Runemaster.cfg:57
-#: Era_of_Magic/units/Runemasters/Runesmith.cfg:64
-#, fuzzy
-#| msgid "runes"
-msgid "fire runes"
-msgstr "rúnák"
-
-#. [attack]: type=cold
-#: Era_of_Magic/units/Runemasters/Rune_Adept.cfg:66
-#: Era_of_Magic/units/Runemasters/Rune_Artist.cfg:63
-#: Era_of_Magic/units/Runemasters/Runemaster.cfg:69
-#: Era_of_Magic/units/Runemasters/Runesmith.cfg:76
-#, fuzzy
-#| msgid "runes"
-msgid "ice runes"
-msgstr "rúnák"
-
 #. [unit_type]: id=EoMa_Rune_Artist, race=dwarf, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic/units/Runemasters/Rune_Artist.cfg:4
 msgid "Rune Artist"
@@ -4882,23 +5939,6 @@ msgstr "kis villám"
 #. [unit_type]: id=EoMa_Architect, race=human, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic/units/Sky_Kingdom/Architect.cfg:4
 msgid "Architect"
-msgstr ""
-
-#. [attack]: type=impact
-#. [attack]: type=cold
-#: Era_of_Magic/units/Sky_Kingdom/Architect.cfg:59
-#: Era_of_Magic/units/Sky_Kingdom/Black_Mage.cfg:63
-#: Era_of_Magic/units/Sky_Kingdom/Chronomancer.cfg:104
-#: Era_of_Magic/units/Sky_Kingdom/Sculptor.cfg:56
-#: Era_of_Magic/units/Sky_Kingdom/Subversive_Mage.cfg:63
-#: Era_of_Magic/units/Sky_Kingdom/Void_Mage.cfg:101
-msgid "entrapment spell"
-msgstr ""
-
-#. [attack]: type=cold
-#: Era_of_Magic/units/Sky_Kingdom/Architect.cfg:73
-#: Era_of_Magic/units/Sky_Kingdom/Sculptor.cfg:69
-msgid "petrifying spell"
 msgstr ""
 
 #. [unit_type]: id=EoMa_Battle_Eye, race=mechanical
@@ -5520,14 +6560,6 @@ msgid ""
 "underestimated when in large numbers."
 msgstr ""
 
-#. [attack]: type=secret
-#: Era_of_Magic/units/Sky_Kingdom/Mu.cfg:56
-#: Era_of_Magic/units/Sky_Kingdom/Um.cfg:98
-#, fuzzy
-#| msgid "magic arrow"
-msgid "magic barrage"
-msgstr "mágikus nyíl"
-
 #. [unit_type]: id=EoMa_Mystic_Warrior, race=human
 #: Era_of_Magic/units/Sky_Kingdom/Mystic_Warrior.cfg:4
 msgid "Mystic Warrior"
@@ -5710,13 +6742,6 @@ msgid ""
 "of any other artificial being the Sky Kingdom has created."
 msgstr ""
 
-#. [attack]: type=secret
-#: Era_of_Magic/units/Sky_Kingdom/Um.cfg:112
-#, fuzzy
-#| msgid "flame blast"
-msgid "um blast"
-msgstr "tűzvihar"
-
 #. [unit_type]: id=EoMa_Void_Mage, race=human
 #: Era_of_Magic/units/Sky_Kingdom/Void_Mage.cfg:4
 #, fuzzy
@@ -5852,20 +6877,6 @@ msgid ""
 "thus contributing to the Banishers' task."
 msgstr ""
 
-#. [attack]: type=arcane
-#: Era_of_Magic/units/Summoners/Banisher.cfg:126
-#: Era_of_Magic/units/Summoners/Dispeller.cfg:38
-#: Era_of_Magic/units/Summoners/Master_Banisher.cfg:136
-msgid "banishment"
-msgstr "likvidálás"
-
-#. [attack]: type=cold
-#: Era_of_Magic/units/Summoners/Banisher.cfg:148
-#: Era_of_Magic/units/Summoners/Dispeller.cfg:60
-#: Era_of_Magic/units/Summoners/Master_Banisher.cfg:187
-msgid "frozen gate"
-msgstr "fagykapu"
-
 #. [unit_type]: id=EoMa_Camel_Master, race=eoma_summoner
 #: Era_of_Magic/units/Summoners/Camel_Master.cfg:4
 #, fuzzy
@@ -5884,25 +6895,6 @@ msgid ""
 "and dedication have earned them the highest ranks within their societies, "
 "and they are considered among the most formidable warriors in the land."
 msgstr ""
-
-#. [attack]: type=blade
-#: Era_of_Magic/units/Summoners/Camel_Master.cfg:48
-#: Era_of_Magic/units/Summoners/Camel_Rider.cfg:46
-#: Era_of_Magic/units/Summoners/Elite_Camel_Rider.cfg:45
-#: Era_of_Magic/units/Summoners/Grand_Summoner.cfg:180
-#: Era_of_Magic/units/Summoners/Heavy_Summoner.cfg:218
-#: Era_of_Magic/units/Summoners/Neutral_Summoner.cfg:186
-#: Era_of_Magic/units/Summoners/Novice_Summoner.cfg:59
-#: Era_of_Magic/units/Summoners/Summoner.cfg:45
-msgid "scimitar"
-msgstr "handzsár"
-
-#. [attack]: type=blade
-#: Era_of_Magic/units/Summoners/Camel_Master.cfg:57
-#: Era_of_Magic/units/Summoners/Camel_Rider.cfg:55
-#: Era_of_Magic/units/Summoners/Elite_Camel_Rider.cfg:54
-msgid "scimitar throw"
-msgstr "hajítóhandzsár"
 
 #. [unit_type]: id=EoMa_Camel_Rider, race=eoma_summoner
 #: Era_of_Magic/units/Summoners/Camel_Rider.cfg:4
@@ -5969,12 +6961,6 @@ msgstr ""
 msgid "irritant powder"
 msgstr "mágikus por"
 
-#. [attack]: type=cold
-#: Era_of_Magic/units/Summoners/Carpet_Master.cfg:202
-#: Era_of_Magic/units/Summoners/Carpet_Rider.cfg:55
-msgid "magical powder"
-msgstr "mágikus por"
-
 #. [unit_type]: id=EoMa_Carpet_Rider, race=eoma_summoner
 #: Era_of_Magic/units/Summoners/Carpet_Rider.cfg:4
 msgid "Carpet Rider"
@@ -6034,11 +7020,6 @@ msgstr "kardok"
 #| msgid "devine spear"
 msgid "divine spear"
 msgstr "csodás dárda"
-
-#. [attack]: type=impact
-#: Era_of_Magic/units/Summoners/Dharma_rhami.cfg:88
-msgid "tackle"
-msgstr "szerszám"
 
 #. [attack]: type=fire
 #: Era_of_Magic/units/Summoners/Dharma_rhami.cfg:101
@@ -6448,19 +7429,6 @@ msgstr ""
 #| msgid "Summon "
 msgid "Summon Rhami"
 msgstr "Megidézés"
-
-#. [attack]: type=fire
-#: Era_of_Magic/units/Summoners/Heavy_Summoner.cfg:236
-#: Era_of_Magic/units/Summoners/Summoner.cfg:63
-msgid "magic arrow"
-msgstr "mágikus nyíl"
-
-#. [attack]: type=pierce
-#: Era_of_Magic/units/Summoners/Heavy_Summoner.cfg:248
-#: Era_of_Magic/units/Summoners/Novice_Summoner.cfg:77
-#: Era_of_Magic/units/Summoners/Summoner.cfg:75
-msgid "scroll"
-msgstr "tekercs"
 
 #. [unit_type]: id=EoMa_Ho_rhami, race=eoma_magical, gender=female
 #: Era_of_Magic/units/Summoners/Ho_rhami.cfg:4
@@ -6941,15 +7909,6 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=cold
-#: Era_of_Magic/units/Tharis/Black_Orb.cfg:191
-#: Era_of_Magic/units/Tharis/Dark_Observer.cfg:157
-#: Era_of_Magic/units/Tharis/Pain_Sphere.cfg:341
-#: Era_of_Magic/units/Tharis/Storm_Sphere.cfg:411
-#: Era_of_Magic/units/Tharis/Storm_Sphere_rpg.cfg:9
-msgid "touch"
-msgstr "érintés"
-
-#. [attack]: type=cold
 #: Era_of_Magic/units/Tharis/Black_Orb.cfg:203
 #: Era_of_Magic/units/Tharis/Dark_Observer.cfg:169
 #: Era_of_Magic/units/Tharis/Storm_Sphere.cfg:423
@@ -6986,15 +7945,6 @@ msgstr ""
 #| msgid "fury"
 msgid "Bladefury"
 msgstr "őrjöngés"
-
-#. [attack]: type=blade
-#. [attack]: type=pierce
-#: Era_of_Magic/units/Tharis/Bladefury.cfg:57
-#: Era_of_Magic/units/Tharis/Chainlady.cfg:201
-#: Era_of_Magic/units/Tharis/Chainlady.cfg:215
-#: Era_of_Magic/units/Tharis/Chainlady.cfg:227
-msgid "chain"
-msgstr ""
 
 #. [unit_type]: id=EoMa_Blademaster, race=eoma_tharis
 #: Era_of_Magic/units/Tharis/Blademaster.cfg:4
@@ -7055,15 +8005,6 @@ msgid ""
 "relentless hunter with no regard for mercy or quarter, leaving nothing but "
 "ruin in its path."
 msgstr ""
-
-#. [attack]: type=pierce
-#: Era_of_Magic/units/Tharis/Chaos_Hydra.cfg:44
-#: Era_of_Magic/units/Tharis/Corrupted_Hydra.cfg:75
-#: Era_of_Magic/units/Tharis/Great_Hydra.cfg:36
-#: Era_of_Magic/units/Tharis/Hellish_Hydra.cfg:75
-#: Era_of_Magic/units/Tharis/Hydra.cfg:40
-msgid "bite"
-msgstr "harapás"
 
 #. [unit_type]: id=EoMa_Corrupted_Hydra, race=monster
 #: Era_of_Magic/units/Tharis/Corrupted_Hydra.cfg:4
@@ -7151,20 +8092,6 @@ msgid ""
 "surprise."
 msgstr ""
 
-#. [attack]: type=blade
-#. [attack]: type=pierce
-#: Era_of_Magic/units/Tharis/Dark_Assassin.cfg:33
-#: Era_of_Magic/units/Tharis/Dark_Assassin.cfg:46
-#: Era_of_Magic/units/Tharis/Dark_Assassin.cfg:55
-#: Era_of_Magic/units/Tharis/Dark_Executioner.cfg:40
-#: Era_of_Magic/units/Tharis/Dark_Hunter.cfg:40
-#: Era_of_Magic/units/Tharis/Dark_Hunter.cfg:52
-#: Era_of_Magic/units/Tharis/Great_Hunter.cfg:31
-#: Era_of_Magic/units/Tharis/Great_Hunter.cfg:43
-#: Era_of_Magic/units/Tharis/Shadowblade.cfg:50
-msgid "knives"
-msgstr "kések"
-
 #. [unit_type]: id=EoMa_Dark_Commander, race=eoma_tharis
 #: Era_of_Magic/units/Tharis/Dark_Commander.cfg:4
 #, fuzzy
@@ -7247,12 +8174,6 @@ msgid ""
 "maintain a significant advantage in close quarters combat against various "
 "foes."
 msgstr ""
-
-#. [attack]: type=blade
-#: Era_of_Magic/units/Tharis/Dark_Slayer.cfg:50
-#: Era_of_Magic/units/Tharis/Dark_Warrior.cfg:74
-msgid "daggers"
-msgstr "tőrök"
 
 #. [unit_type]: id=EoMa_Dark_Warlord, race=eoma_tharis, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic/units/Tharis/Dark_Warlord.cfg:4
@@ -7459,13 +8380,6 @@ msgid ""
 "she unleashes curse after curse upon her enemies, draining their strength "
 "and corrupting their minds."
 msgstr ""
-
-#. [attack]: type=fire
-#: Era_of_Magic/units/Tharis/Great_Witch.cfg:46
-#: Era_of_Magic/units/Tharis/Matriarch_of_Darkness.cfg:59
-#: Era_of_Magic/units/Tharis/Witch.cfg:45
-msgid "witch-fire"
-msgstr "boszorkánytűz"
 
 #. [unit_type]: id=EoMa_Hellish_Hydra, race=monster
 #: Era_of_Magic/units/Tharis/Hellish_Hydra.cfg:4
@@ -8122,11 +9036,6 @@ msgstr ""
 "Őrjöngés:\n"
 "Ez az egység újra támadhat egy ellenséges egység megölése után."
 
-#. [unstore_unit]
-#: Era_of_Magic/utils/abilities.cfg:150
-msgid "FURY!"
-msgstr "ŐRÜLET!"
-
 #. [dummy]: id=eoma_furiousdeath{DMG}{TYPE}
 #: Era_of_Magic/utils/abilities.cfg:160
 msgid "furious death"
@@ -8401,17 +9310,17 @@ msgid ""
 msgstr ""
 
 #. [unstore_unit]
-#: Era_of_Magic/utils/abilities.cfg:1348
+#: Era_of_Magic/utils/abilities.cfg:1349
 msgid "stunned"
 msgstr ""
 
 #. [dummy]: id=eoma_bloodlust{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:1433
+#: Era_of_Magic/utils/abilities.cfg:1435
 msgid "bloodlust"
 msgstr "vérszomj"
 
 #. [dummy]: id=eoma_bloodlust{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:1434
+#: Era_of_Magic/utils/abilities.cfg:1436
 #, fuzzy
 #| msgid ""
 #| "Swallow +4:\n"
@@ -8427,14 +9336,14 @@ msgstr ""
 "egységet."
 
 #. [damage]: id=eoma_supercharge
-#: Era_of_Magic/utils/abilities.cfg:1479
+#: Era_of_Magic/utils/abilities.cfg:1481
 #, fuzzy
 #| msgid "charge"
 msgid "supercharge"
 msgstr "roham"
 
 #. [damage]: id=eoma_supercharge
-#: Era_of_Magic/utils/abilities.cfg:1480
+#: Era_of_Magic/utils/abilities.cfg:1482
 msgid ""
 "When used offensively, this attack deals 150% damage to the target. It also "
 "causes this unit to take 150% damage from the target’s counterattack.\n"
@@ -8444,14 +9353,14 @@ msgid ""
 msgstr ""
 
 #. [dummy]: id=eoma_scavenger{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:1555
+#: Era_of_Magic/utils/abilities.cfg:1557
 #, fuzzy
 #| msgid "Revenger"
 msgid "scavenger"
 msgstr "Bosszúálló"
 
 #. [dummy]: id=eoma_scavenger{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:1556
+#: Era_of_Magic/utils/abilities.cfg:1558
 #, fuzzy
 #| msgid ""
 #| "Swallow +4:\n"
@@ -8467,14 +9376,14 @@ msgstr ""
 "egységet."
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic/utils/abilities.cfg:1604
-#: Era_of_Magic/utils/abilities.cfg:1605
+#: Era_of_Magic/utils/abilities.cfg:1606
+#: Era_of_Magic/utils/abilities.cfg:1607
 msgid "dread"
 msgstr ""
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic/utils/abilities.cfg:1606
-#: Era_of_Magic/utils/abilities.cfg:1607
+#: Era_of_Magic/utils/abilities.cfg:1608
+#: Era_of_Magic/utils/abilities.cfg:1609
 #, fuzzy
 #| msgid ""
 #| "Evasion:\n"
@@ -8489,14 +9398,14 @@ msgstr ""
 "sebzést okoz a normálnál."
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic/utils/abilities.cfg:1617
-#: Era_of_Magic/utils/abilities.cfg:1618
+#: Era_of_Magic/utils/abilities.cfg:1619
+#: Era_of_Magic/utils/abilities.cfg:1620
 msgid "evade"
 msgstr ""
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic/utils/abilities.cfg:1619
-#: Era_of_Magic/utils/abilities.cfg:1620
+#: Era_of_Magic/utils/abilities.cfg:1621
+#: Era_of_Magic/utils/abilities.cfg:1622
 #, fuzzy
 #| msgid ""
 #| "Evasion:\n"
@@ -8511,14 +9420,14 @@ msgstr ""
 "sebzést okoz a normálnál."
 
 #. [damage]: id=eoma_magic_hardening
-#: Era_of_Magic/utils/abilities.cfg:1631
+#: Era_of_Magic/utils/abilities.cfg:1633
 #, fuzzy
 #| msgid "magic arrow"
 msgid "magic hardening"
 msgstr "mágikus nyíl"
 
 #. [damage]: id=eoma_magic_hardening
-#: Era_of_Magic/utils/abilities.cfg:1632
+#: Era_of_Magic/utils/abilities.cfg:1634
 #, fuzzy
 #| msgid ""
 #| "Evasion:\n"
@@ -8533,29 +9442,29 @@ msgstr ""
 "sebzést okoz a normálnál."
 
 #. [dummy]: id=eoma_chaos_channeling
-#: Era_of_Magic/utils/abilities.cfg:1646
+#: Era_of_Magic/utils/abilities.cfg:1648
 msgid "chaos channelling"
 msgstr ""
 
 #. [dummy]: id=eoma_chaos_channeling
-#: Era_of_Magic/utils/abilities.cfg:1647
+#: Era_of_Magic/utils/abilities.cfg:1649
 msgid ""
 "When this unit dies a new Chaotic Observer unit is placed on the recall list "
 "of this unit's side."
 msgstr ""
 
 #. [floating_text]
-#: Era_of_Magic/utils/abilities.cfg:1667
+#: Era_of_Magic/utils/abilities.cfg:1669
 msgid "Recalling..."
 msgstr ""
 
 #. [illuminates]: id=eoma_illuminates_weak
-#: Era_of_Magic/utils/abilities.cfg:1679
+#: Era_of_Magic/utils/abilities.cfg:1681
 msgid "illuminates (weak)"
 msgstr ""
 
 #. [illuminates]: id=eoma_illuminates_weak
-#: Era_of_Magic/utils/abilities.cfg:1680
+#: Era_of_Magic/utils/abilities.cfg:1682
 msgid ""
 "This unit illuminates the surrounding area, making lawful units fight "
 "better, and chaotic units fight worse.\n"
@@ -8565,40 +9474,40 @@ msgid ""
 msgstr ""
 
 #. [damage]: id=eoma_antimech{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:1690
+#: Era_of_Magic/utils/abilities.cfg:1692
 #, fuzzy
 #| msgid "magic"
 msgid "anti-mech"
 msgstr "mágia"
 
 #. [damage]: id=eoma_antimech{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:1691
+#: Era_of_Magic/utils/abilities.cfg:1693
 msgid ""
 "This attacks deals additional points of damage against mechanical units.\n"
 "Additional damage dealt:"
 msgstr ""
 
 #. [disable]: id=eoma_divine
-#: Era_of_Magic/utils/abilities.cfg:1707
+#: Era_of_Magic/utils/abilities.cfg:1709
 msgid "divine"
 msgstr ""
 
 #. [disable]: id=eoma_divine
-#: Era_of_Magic/utils/abilities.cfg:1708
+#: Era_of_Magic/utils/abilities.cfg:1710
 msgid ""
 "This attack will only be used against monsters and undrainable units such as "
 "magical and undead beings."
 msgstr ""
 
 #. [attacks]: id=eoma_swiftstrike
-#: Era_of_Magic/utils/abilities.cfg:1724
+#: Era_of_Magic/utils/abilities.cfg:1726
 #, fuzzy
 #| msgid "ice strike"
 msgid "swift strike"
 msgstr "jeges csapás"
 
 #. [attacks]: id=eoma_swiftstrike
-#: Era_of_Magic/utils/abilities.cfg:1725
+#: Era_of_Magic/utils/abilities.cfg:1727
 #, fuzzy
 #| msgid ""
 #| "Evasion:\n"
@@ -8612,14 +9521,14 @@ msgstr ""
 "sebzést okoz a normálnál."
 
 #. [dummy]: id=eoma_pain_chaining
-#: Era_of_Magic/utils/abilities.cfg:1735
+#: Era_of_Magic/utils/abilities.cfg:1737
 #, fuzzy
 #| msgid "magic arrow"
 msgid "pain chaining"
 msgstr "mágikus nyíl"
 
 #. [dummy]: id=eoma_pain_chaining
-#: Era_of_Magic/utils/abilities.cfg:1736
+#: Era_of_Magic/utils/abilities.cfg:1738
 msgid ""
 "When this unit attacks or is attacked, it reduces all physical resistances "
 "of all adjacent enemy units by 10%. This effect lasts only during active "
@@ -8627,14 +9536,14 @@ msgid ""
 msgstr ""
 
 #. [dummy]: id=eoma_pain_chainingII
-#: Era_of_Magic/utils/abilities.cfg:1915
+#: Era_of_Magic/utils/abilities.cfg:1917
 #, fuzzy
 #| msgid "magic arrow"
 msgid "pain chaining II"
 msgstr "mágikus nyíl"
 
 #. [dummy]: id=eoma_pain_chainingII
-#: Era_of_Magic/utils/abilities.cfg:1916
+#: Era_of_Magic/utils/abilities.cfg:1918
 msgid ""
 "When this unit attacks or is attacked, it reduces all physical/magical "
 "resistances of all adjacent enemy units by 10%. This effect lasts only "
@@ -8642,44 +9551,44 @@ msgid ""
 msgstr ""
 
 #. [dummy]: id=eoma_upkeepless
-#: Era_of_Magic/utils/abilities.cfg:2160
+#: Era_of_Magic/utils/abilities.cfg:2162
 msgid "upkeepless"
 msgstr ""
 
 #. [dummy]: id=eoma_upkeepless
-#: Era_of_Magic/utils/abilities.cfg:2161
+#: Era_of_Magic/utils/abilities.cfg:2163
 msgid "This unit costs no upkeep."
 msgstr ""
 
 #. [dummy]: id=eoma_upkeep{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:2173
+#: Era_of_Magic/utils/abilities.cfg:2175
 msgid "upkeep"
 msgstr ""
 
 #. [dummy]: id=eoma_upkeep{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:2174
+#: Era_of_Magic/utils/abilities.cfg:2176
 msgid "This unit costs "
 msgstr ""
 
 #. [dummy]: id=eoma_upkeep{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:2174
+#: Era_of_Magic/utils/abilities.cfg:2176
 msgid " upkeep instead of the amount equal to level."
 msgstr ""
 
 #. [regenerate]: id=eoma_forage
-#: Era_of_Magic/utils/abilities.cfg:2187
+#: Era_of_Magic/utils/abilities.cfg:2189
 msgid "forage"
 msgstr ""
 
 #. [regenerate]: id=eoma_forage
-#: Era_of_Magic/utils/abilities.cfg:2188
+#: Era_of_Magic/utils/abilities.cfg:2190
 msgid ""
 "When resting on forest/fungus/farm/village tile, this unit will not cost any "
 "upkeep for a turn and regenerates 4 HP per turn. (does not cure poison)."
 msgstr ""
 
 #. [floating_text]
-#: Era_of_Magic/utils/abilities.cfg:2253
+#: Era_of_Magic/utils/abilities.cfg:2255
 msgid "foraging"
 msgstr ""
 
@@ -8969,11 +9878,11 @@ msgstr ""
 "szinten)."
 
 #. [unstore_unit]
-#: Era_of_Magic/utils/awe.cfg:189
+#: Era_of_Magic/utils/awe.cfg:190
 msgid "slowed"
 msgstr ""
 
-#: Era_of_Magic/utils/awe.cfg:237
+#: Era_of_Magic/utils/awe.cfg:238
 msgid ""
 "This unit can frighten enemy units that are next to it, making them fight "
 "worse.\n"
@@ -8986,22 +9895,22 @@ msgid ""
 msgstr ""
 
 #. [leadership]: id=eoma_awe1
-#: Era_of_Magic/utils/awe.cfg:250
+#: Era_of_Magic/utils/awe.cfg:251
 msgid "awe 1"
 msgstr ""
 
 #. [leadership]: id=eoma_awe2
-#: Era_of_Magic/utils/awe.cfg:275
+#: Era_of_Magic/utils/awe.cfg:276
 msgid "awe 2"
 msgstr ""
 
 #. [leadership]: id=eoma_awe3
-#: Era_of_Magic/utils/awe.cfg:302
+#: Era_of_Magic/utils/awe.cfg:303
 msgid "awe 3"
 msgstr ""
 
 #. [leadership]: id=eoma_awe4
-#: Era_of_Magic/utils/awe.cfg:331
+#: Era_of_Magic/utils/awe.cfg:332
 msgid "awe 4"
 msgstr ""
 
@@ -9034,7 +9943,7 @@ msgstr ""
 "nem történik semmi."
 
 #. [unstore_unit]
-#: Era_of_Magic/utils/banish.cfg:313 Era_of_Magic/utils/bonesplit.cfg:126
+#: Era_of_Magic/utils/banish.cfg:314 Era_of_Magic/utils/bonesplit.cfg:126
 #: Era_of_Magic/utils/bonesplit.cfg:179 Era_of_Magic/utils/bonesplit.cfg:228
 #: Era_of_Magic/utils/drone-upgrades.cfg:590
 #: Era_of_Magic/utils/recruit.cfg:145 Era_of_Magic/utils/recruit.cfg:181
@@ -10952,11 +11861,6 @@ msgstr ""
 #~ msgstr "Káosz sárkánykígyó"
 
 #, fuzzy
-#~| msgid "fireball"
-#~ msgid "fire ball"
-#~ msgstr "tűzgolyó"
-
-#, fuzzy
 #~| msgid "Salamander"
 #~ msgid "Swamp Salamander"
 #~ msgstr "Szalamandra"
@@ -11408,9 +12312,6 @@ msgstr ""
 #~ "A Sötétség Ősanyja hideg aurát von maga köré, amely felerősíti a hideg "
 #~ "támadásokat (+25%) s nagyon legyengíti a tűzvarázslatokat."
 
-#~ msgid "Dark Witch"
-#~ msgstr "Sötét boszorkány"
-
 #~ msgid ""
 #~ "Dark Wizard is equipped whit special staff, which reinforces his "
 #~ "spellpower. He can make a lot of damage but his mana ends quicly. That's "
@@ -11653,9 +12554,6 @@ msgstr ""
 #~ "mágikus erőt a levegőből, ezért a mágikus támadások alig ejtenek rajta "
 #~ "némi karcolást."
 
-#~ msgid "Mighty Cyclops"
-#~ msgstr "Brutális küklopsz"
-
 #~ msgid ""
 #~ "Mistress of Light is an extremely powerful healer. All friendly units "
 #~ "near her recive 12hp. She flies and illuminates.\n"
@@ -11706,9 +12604,6 @@ msgstr ""
 
 #~ msgid "Raging Cyclops"
 #~ msgstr "Őrjöngő küklopsz"
-
-#~ msgid "Raging Hydra"
-#~ msgstr "Őrjöngő hidra"
 
 #~ msgid "Random Default"
 #~ msgstr "Véletlen alapbeállítás"
@@ -11885,9 +12780,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Az umok a Megvilágosodottak Királyságának legtitkosabb fegyverei. Ezek a "
 #~ "nagyerejű mágikus kreatúrák hosszú tanulmányok és kísérletek eredményei."
-
-#~ msgid "War Banner"
-#~ msgstr "Hadizászló"
 
 #~ msgid ""
 #~ "War Magi are equiped with longswords, and are quit proficient in their "
@@ -12092,9 +12984,6 @@ msgstr ""
 
 #~ msgid "summon roc"
 #~ msgstr "rokmadár megidézése"
-
-#~ msgid "sword"
-#~ msgstr "kard"
 
 #~ msgid "thunder"
 #~ msgstr "zivatar"
