@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2024-05-11 11:31 UTC\n"
-"PO-Revision-Date: 2024-04-30 13:26+0200\n"
+"PO-Revision-Date: 2024-05-11 14:25+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl\n"
@@ -306,20 +306,21 @@ msgstr ""
 "Dająca się skonfigurować wersja oryginalnej mapy, pozwalająca graczom na "
 "dostosowanie poziomu trudności na różny sposób.\n"
 "\n"
-"Note: This map's waves system is compatible with any turn limit, not just "
-"the one in default map settings. You can even play it with no turn limit, "
-"resulting in a 'survive as long as possible' type of a match.\n"
-"Authors: inferno8, ForestDragon"
+"Informacja: System fal ataków na tej mapie jest w pełni kompatybilny z "
+"dowolnym limitem tur, nie tylko tym z domyślnych ustawień mapy. Możesz nawet "
+"grać z wyłączonym limitem, przekształcając rozgrywkę w scenariusz typu "
+"'wytrzymaj najdłużej jak się da'.\n"
+"Autorzy: inferno8, ForestDragon"
 
 #. [slider]: id=spawnturn
 #: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:576
 msgid "(default:2) first wave's turn"
-msgstr ""
+msgstr "(domyślnie:2) tura pierwszej fali"
 
 #. [slider]: id=interval
 #: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:584
 msgid "(default:3) delay between each wave (in turns)"
-msgstr ""
+msgstr "(domyślnie:3) opóźnienie między każdą falą (w obrotach)"
 
 #. [slider]: id=interval
 #: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:585
@@ -329,7 +330,7 @@ msgstr "nowe zombie pojawiają się raz na określoną liczbę tur."
 #. [slider]: id=wavestrength
 #: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:593
 msgid "(default:3) strength of the first wave"
-msgstr ""
+msgstr "(domyślnie:3) siła pierwszej fali"
 
 #. [slider]: id=wavestrength
 #: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:594
@@ -337,15 +338,14 @@ msgid ""
 "amount of zombies in the first wave per corner (multiply by 4 for total "
 "amount)"
 msgstr ""
+"liczba zombie w pierwszej fali na jeden róg mapy (pomnóż przez 4, aby "
+"uzyskać całkowitą liczbę)"
 
 #. [slider]: id=waveincrease
 #: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:602
-#, fuzzy
-#| msgid ""
-#| "the amount of zombies in each wave increases by (number) (in each corner)"
 msgid "(default:1) add more zombies each wave by (number) (per corner)"
 msgstr ""
-"liczba zombie w każdej fali zwiększa się o określoną ilość (w każdym rogu)"
+"(domyślnie:1) dodaj więcej zombie w każdej fali o (liczba) (na róg mapy)"
 
 #. [slider]: id=waveincrease
 #: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:603
@@ -356,14 +356,8 @@ msgstr ""
 
 #. [slider]: id=smallspawnturn
 #: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:611
-#, fuzzy
-#| msgid ""
-#| "small waves of zombies spawn from north/south/east/west tunnels every "
-#| "(number turns)"
 msgid "(default:8) small waves of zombies spawn every <number turns>"
-msgstr ""
-"małe grupy zombie pojawiają się na północy/południu/wschodzie/zachodzie raz "
-"na określoną ilość tur"
+msgstr "(domyślnie: 8) małe fale zombie pojawiają się co <ilość tur>"
 
 #. [slider]: id=smallspawnturn
 #: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:612
@@ -376,12 +370,8 @@ msgstr ""
 
 #. [slider]: id=rewardturn
 #: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:620
-#, fuzzy
-#| msgid "all players get a gold/income reward every (number) turns"
 msgid "(default:10) a gold/income reward every (number) turns"
-msgstr ""
-"wszyscy gracze dostają nagrodę w postaci złota/dochodu raz na określoną "
-"liczbę tur"
+msgstr "(domyślnie: 10) nagroda w złocie/dochodzie co (liczba) tur"
 
 #. [slider]: id=rewardturn
 #: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:621
@@ -393,7 +383,7 @@ msgstr ""
 #. [slider]: id=bonusincome
 #: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:629
 msgid "(default:1) bonus income per reward turn"
-msgstr ""
+msgstr "(domyślnie:1) dodatkowy dochód na turę nagrody"
 
 #. [slider]: id=bonusincome
 #: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:630
@@ -407,7 +397,7 @@ msgstr ""
 #. [slider]: id=bonusgold
 #: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:638
 msgid "(default:25) bonus gold per reward turn"
-msgstr ""
+msgstr "(domyślnie: 25) dodatkowe złoto na turę nagrody"
 
 #. [slider]: id=bonusgold
 #: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:639
@@ -421,7 +411,7 @@ msgstr ""
 #. [checkbox]: id=zombiesvillages
 #: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:644
 msgid "(default:yes) Enemy villages spawn zombies"
-msgstr ""
+msgstr "(domyślnie: tak) Wrogie wioski przywołują zombie"
 
 #. [checkbox]: id=zombiesvillages
 #: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:645
@@ -434,7 +424,7 @@ msgstr ""
 #. [checkbox]: id=zombiesguard
 #: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:650
 msgid "(default:yes) Capturing enemy village spawns 2 zombies"
-msgstr ""
+msgstr "(domyślnie: tak) Przejęcie wioski wroga przywołuje 2 zombie"
 
 #. [checkbox]: id=zombiesguard
 #: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:651
@@ -585,8 +575,7 @@ msgstr "Cyklop"
 
 #. [unit_type]: id=EoMa_Cyclops, race=eoma_cyclops
 #. [race]: id=eoma_cyclops
-#: Era_of_Magic/units/Barbarians/Cyclops.cfg:19
-#: Era_of_Magic/units/units.cfg:19
+#: Era_of_Magic/units/Barbarians/Cyclops.cfg:19 Era_of_Magic/units/units.cfg:19
 msgid ""
 "Cumbersome and lacking fine intellect, the Cyclops race had been driven near "
 "to extinction before becoming a part of the barbarian horde. Two centuries "
@@ -1750,8 +1739,7 @@ msgstr "Pomoc Ducha Lasu"
 
 #. [message]: speaker=narrator
 #: Era_of_Magic/units/Dark_Blood_Alliance/Forest_Spirit.cfg:256
-#: Era_of_Magic/utils/bonesplit.cfg:292 Era_of_Magic/utils/recruit.cfg:259
-#: Era_of_Magic/utils/summon.cfg:322
+#: Era_of_Magic/utils/bonesplit.cfg:292 Era_of_Magic/utils/summon.cfg:322
 msgid "Help"
 msgstr "Pomoc"
 
@@ -2146,8 +2134,7 @@ msgstr "Duch Bagien"
 #. [dummy]: id=eoma_upgradable_kamikaze
 #. [effect]: type=fire
 #: Era_of_Magic/units/Dark_Blood_Alliance/Swamp_Spirit.cfg:111
-#: Era_of_Magic/utils/abilities.cfg:15
-#: Era_of_Magic/utils/drone-upgrades.cfg:50
+#: Era_of_Magic/utils/abilities.cfg:15 Era_of_Magic/utils/drone-upgrades.cfg:50
 #: Era_of_Magic/utils/drone-upgrades.cfg:311
 msgid "kamikaze"
 msgstr "kamikaze"
@@ -2942,7 +2929,7 @@ msgstr "Tytania"
 #. [unit_type]: id=EoMa_Walking_Corpse, race=undead
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:31
 msgid "Animated Corpse"
-msgstr ""
+msgstr "Animowane zwłoki"
 
 #. [unit_type]: id=EoMa_Walking_Corpse, race=undead
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:43
@@ -2955,10 +2942,8 @@ msgstr ""
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:96
-#, fuzzy
-#| msgid "Chaos Wyvern"
 msgid "Fallen Wyvern"
-msgstr "Chaotyczna Wiwerna"
+msgstr "Upadła Wiwerna"
 
 #. [variation]
 #. [attack]: type=impact
@@ -2969,254 +2954,192 @@ msgstr "uderzenie"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:109
-#, fuzzy
-#| msgid "Wyvern Rider"
 msgid "Fallen Wyvern Rider"
-msgstr "Jeździec Wiwern"
+msgstr "Upadły Jeździec Wiwern"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:126
-#, fuzzy
-#| msgid "Battle Toad"
 msgid "Fallen Toad"
-msgstr "Bitewna Ropucha"
+msgstr "Upadła Ropucha"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:144
-#, fuzzy
-#| msgid "Blue Salamander"
 msgid "Fallen Salamander"
-msgstr "Błękitna Salamandra"
+msgstr "Upadła Salamandra"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:189
 msgid "Fallen Saurian Shooter"
-msgstr ""
+msgstr "Upadły Jaszczurzy Strzelec"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:196
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:206
-#, fuzzy
-#| msgid "Jungle Crossbowman"
 msgid "Fallen Saurian Crossbowman"
-msgstr "Kusznik Dżungli"
+msgstr "Upadły Kusznik Dżungli"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:223
 msgid "Fallen Saurian Pikeman"
-msgstr ""
+msgstr "Upadły Jaszczurzy Pikinier"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:229
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:237
-#, fuzzy
-#| msgid "Jungle Guardian"
 msgid "Fallen Jungle Guardian"
-msgstr "Strażnik Dżungli"
+msgstr "Upadły Strażnik Dżungli"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:250
 msgid "Fallen Saurian Shaman"
-msgstr ""
+msgstr "Upadły Jaszczurzy Szaman"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:265
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:270
-#, fuzzy
-#| msgid "Clan Leader"
 msgid "Fallen Clan Leader"
-msgstr "Przywódca Klanu"
+msgstr "Upadły Przywódca Klanu"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:266
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:289
-#, fuzzy
-#| msgid "Corrupted Shaman"
 msgid "Fallen Corrupted Shaman"
-msgstr "Zdeprawowany Szaman"
+msgstr "Upadły Zdeprawowany Szaman"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:295
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2627
-#, fuzzy
-#| msgid "fire ball"
 msgid "fireball"
 msgstr "kula ognia"
 
 #. [unit_type]: id=EoMa_Walking_Corpse, race=undead
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:311
-#, fuzzy
-#| msgid "Fallen Cyclops King"
 msgid "Fallen Cyclops"
-msgstr "Upadły Cyklopi Król"
+msgstr "Upadły Cyklop"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:322
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:343
-#, fuzzy
-#| msgid "Fallen Cyclops King"
 msgid "Fallen Mighty Cyclops"
-msgstr "Upadły Cyklopi Król"
+msgstr "Upadły Mocarny Cyklop"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:323
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:356
-#, fuzzy
-#| msgid "Fallen Cyclops King"
 msgid "Fallen Noble Cyclops"
-msgstr "Upadły Cyklopi Król"
+msgstr "Upadły Szlachetny Cyklop"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:324
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:329
-#, fuzzy
-#| msgid "Cyclops Breaker"
 msgid "Fallen Cyclops Breaker"
-msgstr "Cyklop Łamacz"
+msgstr "Upadły Cyklop Łamacz"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:397
-#, fuzzy
-#| msgid "Barbarian"
 msgid "Fallen Orc Barbarian"
-msgstr "Barbarzyńca"
+msgstr "Upadły Barbarzyńca"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:408
-#, fuzzy
-#| msgid "Steam Berserker"
 msgid "Fallen Orc Berserker"
-msgstr "Parowy Berserker"
+msgstr "Upadł Orkowy Berserker"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:416
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:422
-#, fuzzy
-#| msgid "Blood Warrior"
 msgid "Fallen Orc Bloodwarrior"
-msgstr "Krwawy Wojownik"
+msgstr "Upadły Krwawy Wojownik"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:417
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:436
-#, fuzzy
-#| msgid "Orcish Brawler"
 msgid "Fallen Orcish Brawler"
-msgstr "Ork Awanturnik"
+msgstr "Upadły Ork Awanturnik"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:450
-#, fuzzy
-#| msgid "Savage Roc Rider"
 msgid "Fallen Roc Rider"
-msgstr "Dziki Jeździec Roków"
+msgstr "Upadły Jeździec Roków"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:455
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:464
-#, fuzzy
-#| msgid "Roc Master"
 msgid "Fallen Roc Master"
-msgstr "Mistrz Roków"
+msgstr "Upadły Mistrz Roków"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:456
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:478
-#, fuzzy
-#| msgid "Savage Roc Rider"
 msgid "Fallen Savage Roc Rider"
-msgstr "Dziki Jeździec Roków"
+msgstr "Upadły Dziki Jeździec Roków"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:495
-#, fuzzy
-#| msgid "Troll Sorcerer"
 msgid "Fallen Troll Sorcerer"
-msgstr "Troll Czarodziej"
+msgstr "Upadły Troll Czarodziej"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:510
-#, fuzzy
-#| msgid "Goblin Kamikaze"
 msgid "Fallen Goblin Kamikaze"
-msgstr "Goblin Kamikaze"
+msgstr "Upadły Goblin Kamikaze"
 
 #. [unit_type]: id=EoMa_Walking_Corpse, race=undead
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:550
-#, fuzzy
-#| msgid "Goblin Runt"
 msgid "Fallen Goblin Runt"
-msgstr "Mały Goblin"
+msgstr "Upadły Mały Goblin"
 
 #. [variation]
 #. [unit_type]: id=EoMa_Walking_Corpse, race=undead
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:561
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:566
-#, fuzzy
-#| msgid "Goblin Warrior"
 msgid "Fallen Goblin Warrior"
-msgstr "Goblin Wojownik"
+msgstr "Upadły Goblin Wojownik"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:562
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:598
-#, fuzzy
-#| msgid "Goblin Hunter"
 msgid "Fallen Goblin Hunter"
-msgstr "Goblin Myśliwy"
+msgstr "Upadły Goblin Myśliwy"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:578
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:584
-#, fuzzy
-#| msgid "Goblin Veteran"
 msgid "Fallen Goblin Veteran"
-msgstr "Goblin Weteran"
+msgstr "Upadły Goblin Weteran"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:579
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:660
-#, fuzzy
-#| msgid "Goblin Warbanner"
 msgid "Fallen Goblin Warbanner"
-msgstr "Gobliński Chorąży"
+msgstr "Upadły Gobliński Chorąży"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:609
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:629
-#, fuzzy
-#| msgid "Goblin Assassin"
 msgid "Fallen Goblin Assassin"
-msgstr "Goblin Zabójca"
+msgstr "Upadły Goblin Zabójca"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:674
-#, fuzzy
-#| msgid "Goblin Archer"
 msgid "Fallen Goblin Archer"
-msgstr "Goblin Łucznik"
+msgstr "Upadły Goblin Łucznik"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:683
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:688
-#, fuzzy
-#| msgid "Goblin Sniper"
 msgid "Fallen Goblin Sniper"
-msgstr "Goblin Snajper"
+msgstr "Upadły Goblin Snajper"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:702
-#, fuzzy
-#| msgid "Goblin Shaman"
 msgid "Fallen Goblin Shaman"
-msgstr "Goblin Szaman"
+msgstr "Upadły Goblin Szaman"
 
 #. [unit_type]: id=EoMa_Walking_Corpse, race=undead
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:719
-#, fuzzy
-#| msgid "Novice Summoner"
 msgid "Fallen Novice Summoner"
-msgstr "Przywoływacz Nowicjusz"
+msgstr "Upadły Przywoływacz Nowicjusz"
 
 #. [variation]
 #. [unit_type]: id=EoMa_Walking_Corpse, race=undead
@@ -3250,18 +3173,14 @@ msgstr "zwój"
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:770
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:776
-#, fuzzy
-#| msgid "Grand Summoner"
 msgid "Fallen Summoner"
-msgstr "Wielki Przywoływacz"
+msgstr "Upadły Wielki Przywoływacz"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:771
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:851
-#, fuzzy
-#| msgid "Dispeller"
 msgid "Fallen Dispeller"
-msgstr "Odczyniacz"
+msgstr "Upadły Odczyniacz"
 
 #. [variation]
 #. [attack]: type=fire
@@ -3291,10 +3210,8 @@ msgstr "zamrożone wrota"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:965
-#, fuzzy
-#| msgid "Carpet Rider"
 msgid "Fallen Carpet Rider"
-msgstr "Jeździec Dywanów"
+msgstr "Upadły Jeździec Dywanów"
 
 #. [variation]
 #. [attack]: type=cold
@@ -3306,10 +3223,8 @@ msgstr "magiczny proszek"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:995
-#, fuzzy
-#| msgid "Elite Camel Rider"
 msgid "Fallen Camel Rider"
-msgstr "Elitarny Wielbłądzi Jeździec"
+msgstr "Upadły Wielbłądzi Jeździec"
 
 #. [variation]
 #. [attack]: type=blade
@@ -3324,17 +3239,13 @@ msgstr "rzut sejmitarem"
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1002
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1010
-#, fuzzy
-#| msgid "Elite Camel Rider"
 msgid "Fallen Elite Camel Rider"
-msgstr "Elitarny Wielbłądzi Jeździec"
+msgstr "Upadły Elitarny Wielbłądzi Jeździec"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1025
-#, fuzzy
-#| msgid "Rune Adept"
 msgid "Fallen Rune Adept"
-msgstr "Adept Run"
+msgstr "Upadły Adept Run"
 
 #. [variation]
 #. [attack]: type=fire
@@ -3358,10 +3269,8 @@ msgstr "lodowe runy"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1049
-#, fuzzy
-#| msgid "Dark Warrior"
 msgid "Fallen Dwarf Warrior"
-msgstr "Mroczny Wojownik"
+msgstr "Upadły Kransoludzki Wojownik"
 
 #. [variation]
 #. [attack]: type=pierce
@@ -3383,10 +3292,8 @@ msgstr "pistolet"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1063
-#, fuzzy
-#| msgid "Dwarvish Gunner"
 msgid "Fallen Dwarvish Gunner"
-msgstr "Krasnoludzki Strzelec"
+msgstr "Upadły Krasnoludzki Strzelec"
 
 #. [variation]
 #. [attack]: type=impact
@@ -3399,17 +3306,13 @@ msgstr "uderzenie kolbą"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1091
-#, fuzzy
-#| msgid "Parachutist"
 msgid "Fallen Parachutist"
-msgstr "Spadochroniarz"
+msgstr "Upadły Spadochroniarz"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1106
-#, fuzzy
-#| msgid "Mechanic"
 msgid "Fallen Mechanic"
-msgstr "Mechanik"
+msgstr "Upadły Mechanik"
 
 #. [variation]
 #. [attack]: type=blade
@@ -3440,32 +3343,24 @@ msgstr "śrubokręt"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1123
-#, fuzzy
-#| msgid "Elementalist"
 msgid "Fallen Elementalist"
-msgstr "Elementalista"
+msgstr "Upadły Elementalista"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1136
-#, fuzzy
-#| msgid "Battle Mage"
 msgid "Fallen Battle Mage"
-msgstr "Mag Bitewny"
+msgstr "Upadły Mag Bitewny"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1145
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1155
-#, fuzzy
-#| msgid "Troll Sorcerer"
 msgid "Fallen Sorcerer"
-msgstr "Troll Czarodziej"
+msgstr "Upadły Troll Czarodziej"
 
 #. [unit_type]: id=EoMa_Walking_Corpse, race=undead
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1202
-#, fuzzy
-#| msgid "Subversive Mage"
 msgid "Fallen Subversive Mage"
-msgstr "Mag Dywersyjny"
+msgstr "Upadły Mag Dywersyjny"
 
 #. [variation]
 #. [unit_type]: id=EoMa_Walking_Corpse, race=undead
@@ -3486,18 +3381,14 @@ msgstr "zaklęcie spętania"
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1248
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1254
-#, fuzzy
-#| msgid "Black Mage"
 msgid "Fallen Black Mage"
-msgstr "Czarny Mag"
+msgstr "Upadły Czarny Mag"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1249
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1300
-#, fuzzy
-#| msgid "Sculptor"
 msgid "Fallen Sculptor"
-msgstr "Rzeźbiarz"
+msgstr "Upadły Rzeźbiarz"
 
 #. [variation]
 #. [attack]: type=cold
@@ -3509,15 +3400,13 @@ msgstr "zaklęcie rzeźbiące"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1427
-#, fuzzy
-#| msgid "Hidden Face"
 msgid "Fallen Hidden Face"
-msgstr "Zamaskowany"
+msgstr "Upadły Zamaskowany"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1443
 msgid "Fallen Mu"
-msgstr ""
+msgstr "Upadły Mu"
 
 #. [variation]
 #. [attack]: type=secret
@@ -3532,7 +3421,7 @@ msgstr "magiczny grad pocisków"
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1457
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1523
 msgid "Fallen Um"
-msgstr ""
+msgstr "Upadły Um"
 
 #. [variation]
 #. [attack]: type=secret
@@ -3543,10 +3432,8 @@ msgstr "atak um"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1558
-#, fuzzy
-#| msgid "female^Cleric"
 msgid "Fallen Cleric"
-msgstr "Kleryk"
+msgstr "Upadły Kleryk"
 
 #. [variation]
 #. [unit_type]: id=EoMa_Walking_Corpse, race=undead
@@ -3554,15 +3441,13 @@ msgstr "Kleryk"
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1646
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1982
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1604
-#, fuzzy
-#| msgid "dark ball"
 msgid "darkness beam"
-msgstr "mroczna kula"
+msgstr "promień ciemności"
 
 #. [unit_type]: id=EoMa_Walking_Corpse, race=undead
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1598
 msgid "Fallen Sister"
-msgstr ""
+msgstr "Upadła Siostra"
 
 #. [variation]
 #. [unit_type]: id=EoMa_Walking_Corpse, race=undead
@@ -3579,37 +3464,29 @@ msgstr "dotyk"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1632
-#, fuzzy
-#| msgid "Master of Darkness"
 msgid "Fallen Child of Darkness"
-msgstr "Mistrz Ciemności"
+msgstr "Upadłe Dziecię Ciemności"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1633
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1639
-#, fuzzy
-#| msgid "female^Inspired"
 msgid "Fallen Inspired"
-msgstr "Natchniona"
+msgstr "Upadła Natchniona"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1661
 msgid "Fallen Angel"
-msgstr ""
+msgstr "Upadły Anioł"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1669
-#, fuzzy
-#| msgid "water blast"
 msgid "dark blast"
-msgstr "fala wody"
+msgstr "mroczny podmuch"
 
 #. [unit_type]: id=EoMa_Walking_Corpse, race=undead
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1730
-#, fuzzy
-#| msgid "Shielder"
 msgid "Fallen Shielder"
-msgstr "Tarczownik"
+msgstr "Upadły Tarczownik"
 
 #. [variation]
 #. [unit_type]: id=EoMa_Walking_Corpse, race=undead
@@ -3633,82 +3510,62 @@ msgstr "tarcza"
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1752
 msgid "Fallen Darkness Follower"
-msgstr ""
+msgstr "Upadły Wyznawca Ciemności"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1753
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1758
-#, fuzzy
-#| msgid "Avenger"
 msgid "Fallen Avenger"
-msgstr "Mściciel"
+msgstr "Upadły Mściciel"
 
 #. [unit_type]: id=EoMa_Walking_Corpse, race=undead
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1783
-#, fuzzy
-#| msgid "White Warrior"
 msgid "Fallen White Warrior"
-msgstr "Biały Wojownik"
+msgstr "Upadły Biały Wojownik"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1792
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1798
-#, fuzzy
-#| msgid "Silver Warrior"
 msgid "Fallen Silver Warrior"
-msgstr "Srebrny Wojownik"
+msgstr "Upadły Srebrny Wojownik"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1793
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1851
-#, fuzzy
-#| msgid "Bronze Warrior"
 msgid "Fallen Brown Warrior"
-msgstr "Brązowy Wojownik"
+msgstr "Upadły Brązowy Wojownik"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1868
-#, fuzzy
-#| msgid "Sun Follower"
 msgid "Fallen Sun Follower"
-msgstr "Wyznawca Słońca"
+msgstr "Upadły Wyznawca Słońca"
 
 #. [unit_type]: id=EoMa_Walking_Corpse, race=undead
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1885
-#, fuzzy
-#| msgid "Slicer"
 msgid "Fallen Slicer"
-msgstr "Siekacz"
+msgstr "Upadły Siekacz"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1906
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1912
-#, fuzzy
-#| msgid "Fanatic"
 msgid "Fallen Fanatic"
-msgstr "Fanatyk"
+msgstr "Upadły Fanatyk"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1907
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1939
-#, fuzzy
-#| msgid "Fire Swordsman"
 msgid "Fallen Fire Swordsman"
-msgstr "Ognisty Szermierz"
+msgstr "Upadły Ognisty Szermierz"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1976
-#, fuzzy
-#| msgid "Kharos War Banner"
 msgid "Fallen War Banner"
-msgstr "Szandar Wojenny Kharos"
+msgstr "Upadły Szandar Wojenny Kharos"
 
 #. [unit_type]: id=EoMa_Walking_Corpse, race=undead
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:1996
-#, fuzzy
-#| msgid "Cavalry Archer"
 msgid "Fallen Cavalry Archer"
-msgstr "Konny Łucznik"
+msgstr "Upadły Konny Łucznik"
 
 #. [variation]
 #. [unit_type]: id=EoMa_Walking_Corpse, race=undead
@@ -3730,18 +3587,14 @@ msgstr "zdeptanie"
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2022
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2059
-#, fuzzy
-#| msgid "Elemental Archer"
 msgid "Fallen Elemental Archer"
-msgstr "Elementarny Łucznik"
+msgstr "Upadły Elementarny Łucznik"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2023
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2028
-#, fuzzy
-#| msgid "Cavalry Archer"
 msgid "Fallen Heavy Cavalry Archer"
-msgstr "Konny Łucznik"
+msgstr "Upadły Ciężki Konny Łucznik"
 
 #. [variation]
 #. [attack]: type=fire
@@ -3770,10 +3623,8 @@ msgstr "strzała"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2168
-#, fuzzy
-#| msgid "Hellish Hydra"
 msgid "Fallen Hydra"
-msgstr "Piekielna Hydra"
+msgstr "Upadła Piekielna Hydra"
 
 #. [variation]
 #. [attack]: type=pierce
@@ -3791,37 +3642,29 @@ msgstr "ugryzienie"
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2180
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2192
 msgid "Fallen Deephydra"
-msgstr ""
+msgstr "Upadła Wielka Hydra"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2215
-#, fuzzy
-#| msgid "Disciple"
 msgid "Fallen Disciple"
-msgstr "Uczeń"
+msgstr "Upadły Uczeń"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2219
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2268
-#, fuzzy
-#| msgid "Shadow Mage"
 msgid "shadow wave"
-msgstr "Mag Cienia"
+msgstr "fala cienia"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2228
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2264
-#, fuzzy
-#| msgid "Dark Wizard"
 msgid "Fallen Dark Wizard"
-msgstr "Mroczny Czarodziej"
+msgstr "Upadły Mroczny Czarodziej"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2327
-#, fuzzy
-#| msgid "Great Witch"
 msgid "Fallen Witch"
-msgstr "Wielka Wiedźma"
+msgstr "Upadła Wiedźma"
 
 #. [variation]
 #. [attack]: type=fire
@@ -3836,39 +3679,29 @@ msgstr "ogień wiedźm"
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2335
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2381
-#, fuzzy
-#| msgid "Great Witch"
 msgid "Fallen Great Witch"
-msgstr "Wielka Wiedźma"
+msgstr "Upadła Wielka Wiedźma"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2452
-#, fuzzy
-#| msgid "Blade Dancer"
 msgid "Fallen Blade Dancer"
-msgstr "Tancerz Ostrzy"
+msgstr "Upadły Tancerz Ostrzy"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2459
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2490
-#, fuzzy
-#| msgid "Sword Dancer"
 msgid "Fallen Sword Dancer"
-msgstr "Tancerz Mieczy"
+msgstr "Upadły Tancerz Mieczy"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2493
-#, fuzzy
-#| msgid "swords"
 msgid "sword"
-msgstr "miecze"
+msgstr "miecz"
 
 #. [unit_type]: id=EoMa_Walking_Corpse, race=undead
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2517
-#, fuzzy
-#| msgid "Goblin Hunter"
 msgid "Fallen Hunter"
-msgstr "Goblin Myśliwy"
+msgstr "Upadły Myśliwy"
 
 #. [variation]
 #. [unit_type]: id=EoMa_Walking_Corpse, race=undead
@@ -3896,36 +3729,28 @@ msgstr "noże"
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2564
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2523
 msgid "throwing knives"
-msgstr ""
+msgstr "noże do rzucania"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2532
-#, fuzzy
-#| msgid "Great Hunter"
 msgid "Fallen Great Hunter"
-msgstr "Wielki Łowca"
+msgstr "Upadły Wielki Łowca"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2533
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2538
-#, fuzzy
-#| msgid "Dark Assassin"
 msgid "Fallen Dark Assassin"
-msgstr "Mroczny Zabójca"
+msgstr "Upadły Mroczny Zabójca"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2558
-#, fuzzy
-#| msgid "Great Hunter"
 msgid "Fallen Greathunter"
-msgstr "Wielki Łowca"
+msgstr "Upadły Wielki Łowca"
 
 #. [unit_type]: id=EoMa_Walking_Corpse, race=undead
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2593
-#, fuzzy
-#| msgid "Dark Warrior"
 msgid "Fallen Dark Warrior"
-msgstr "Mroczny Wojownik"
+msgstr "Upadły Mroczny Wojownik"
 
 #. [variation]
 #. [unit_type]: id=EoMa_Walking_Corpse, race=undead
@@ -3940,25 +3765,19 @@ msgstr "sztylety"
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2604
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2610
-#, fuzzy
-#| msgid "Dark Slayer"
 msgid "Fallen Dark Slayer"
-msgstr "Mroczny Morderca"
+msgstr "Upadły Mroczny Morderca"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2605
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2621
-#, fuzzy
-#| msgid "Dark Commander"
 msgid "Fallen Dark Commander"
-msgstr "Mroczny Dowódca"
+msgstr "Upadły Mroczny Dowódca"
 
 #. [variation]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2640
-#, fuzzy
-#| msgid "Bladefury"
 msgid "Fallen Bladefury"
-msgstr "Furia Ostrzy"
+msgstr "Upadła Furia Ostrzy"
 
 #. [variation]
 #. [attack]: type=blade
@@ -3976,8 +3795,7 @@ msgstr "łańcuch"
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2776
 #: Era_of_Magic/units/Runemasters/Drone.cfg:486
 #: Era_of_Magic/units/Runemasters/Perfect_Drone.cfg:222
-#: Era_of_Magic/utils/abilities.cfg:57 Era_of_Magic/utils/abilities.cfg:84
-#: Era_of_Magic/utils/abilities.cfg:117
+#: Era_of_Magic/utils/abilities.cfg:57 Era_of_Magic/utils/abilities.cfg:117
 msgid "movepoints"
 msgstr "punkty ruchu"
 
@@ -3990,7 +3808,7 @@ msgstr "FURIA!"
 #. [attack]: type=impact
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2902
 msgid "dummy"
-msgstr ""
+msgstr "dummy"
 
 #. [unit_type]: id=EoMa_Chaotic_Observer, race=undead, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic/units/Destroyers/unused/Chaotic_Observer.cfg:4
@@ -8180,7 +7998,7 @@ msgstr "Ta jednostka zawsze trafia cel ale za to jednocześnie ginie."
 
 #. [dummy]: id=eoma_hitandrun{VALUE}
 #. [dummy]: id=eoma_hitandrunspecial{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:41 Era_of_Magic/utils/abilities.cfg:99
+#: Era_of_Magic/utils/abilities.cfg:41
 msgid "hit and run"
 msgstr "uderz i uciekaj"
 
@@ -8550,14 +8368,12 @@ msgstr ""
 "Liczba uzyskanych punktów życia:"
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic/utils/abilities.cfg:1606
-#: Era_of_Magic/utils/abilities.cfg:1607
+#: Era_of_Magic/utils/abilities.cfg:1606 Era_of_Magic/utils/abilities.cfg:1607
 msgid "dread"
 msgstr "strach"
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic/utils/abilities.cfg:1608
-#: Era_of_Magic/utils/abilities.cfg:1609
+#: Era_of_Magic/utils/abilities.cfg:1608 Era_of_Magic/utils/abilities.cfg:1609
 msgid ""
 "When this attack is used offensively, this unit takes one third less damage "
 "in retaliation."
@@ -8566,14 +8382,12 @@ msgstr ""
 "jedną trzecią obrażeń mniej."
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic/utils/abilities.cfg:1619
-#: Era_of_Magic/utils/abilities.cfg:1620
+#: Era_of_Magic/utils/abilities.cfg:1619 Era_of_Magic/utils/abilities.cfg:1620
 msgid "evade"
 msgstr "unik"
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic/utils/abilities.cfg:1621
-#: Era_of_Magic/utils/abilities.cfg:1622
+#: Era_of_Magic/utils/abilities.cfg:1621 Era_of_Magic/utils/abilities.cfg:1622
 msgid ""
 "When this attack is used offensively, this unit takes 25% less damage in "
 "retaliation."
@@ -9018,7 +8832,7 @@ msgid "awe 4"
 msgstr "strach 4"
 
 #. [damage]: id=eoma_banish
-#: Era_of_Magic/utils/banish.cfg:19 Era_of_Magic/utils/banish.cfg:20
+#: Era_of_Magic/utils/banish.cfg:19
 msgid "banish"
 msgstr "wygnanie"
 
@@ -9036,11 +8850,9 @@ msgstr ""
 "samym poziomie, zdolność nie zadziała."
 
 #. [unstore_unit]
-#: Era_of_Magic/utils/banish.cfg:314 Era_of_Magic/utils/bonesplit.cfg:126
-#: Era_of_Magic/utils/bonesplit.cfg:179 Era_of_Magic/utils/bonesplit.cfg:228
-#: Era_of_Magic/utils/drone-upgrades.cfg:590
-#: Era_of_Magic/utils/recruit.cfg:145 Era_of_Magic/utils/recruit.cfg:181
-#: Era_of_Magic/utils/recruit.cfg:211 Era_of_Magic/utils/summon.cfg:270
+#: Era_of_Magic/utils/banish.cfg:314 Era_of_Magic/utils/bonesplit.cfg:179
+#: Era_of_Magic/utils/drone-upgrades.cfg:590 Era_of_Magic/utils/recruit.cfg:145
+#: Era_of_Magic/utils/recruit.cfg:211
 msgid "+3 exp"
 msgstr "+3 doświadczenie"
 
@@ -9082,7 +8894,7 @@ msgstr ""
 "Krawienie samo w sobie nie może zabić jednostki."
 
 #. [unstore_unit]
-#: Era_of_Magic/utils/bleed.cfg:54 Era_of_Magic/utils/bleed.cfg:119
+#: Era_of_Magic/utils/bleed.cfg:54
 msgid "bleeding"
 msgstr "krwawi"
 
@@ -9106,25 +8918,23 @@ msgstr ""
 "która pojawia się po kliknięciu prawym przyciskiem myszy na jednostkę ze "
 "zdolnością \"rozdwojenia kości\"."
 
-#. [set_menu_item]: id=bonesplit_{ID}, description= - 
+#. [set_menu_item]: id=bonesplit_{ID}, description= -
 #. [set_menu_item]: id=completerepair
-#. [set_menu_item]: id=recruit_{ID}, description= - 
-#. [set_menu_item]: id=summon_{ID}, description= - 
+#. [set_menu_item]: id=recruit_{ID}, description= -
+#. [set_menu_item]: id=summon_{ID}, description= -
 #: Era_of_Magic/utils/bonesplit.cfg:48
-#: Era_of_Magic/utils/drone-upgrades.cfg:477
-#: Era_of_Magic/utils/recruit.cfg:54 Era_of_Magic/utils/summon.cfg:94
+#: Era_of_Magic/utils/drone-upgrades.cfg:477 Era_of_Magic/utils/recruit.cfg:54
 msgid "gold:"
 msgstr "złoto:"
 
-#. [set_menu_item]: id=bonesplit_{ID}, description= - 
+#. [set_menu_item]: id=bonesplit_{ID}, description= -
 #: Era_of_Magic/utils/bonesplit.cfg:48
 msgid "-10HP"
 msgstr "-10HP"
 
 #. [message]: speaker=narrator
 #: Era_of_Magic/utils/bonesplit.cfg:261
-#: Era_of_Magic/utils/drone-upgrades.cfg:598
-#: Era_of_Magic/utils/recruit.cfg:228 Era_of_Magic/utils/statue-copy.cfg:345
+#: Era_of_Magic/utils/drone-upgrades.cfg:598 Era_of_Magic/utils/recruit.cfg:228
 #: Era_of_Magic/utils/summon.cfg:291
 msgid "Error"
 msgstr "Błąd"
@@ -9853,7 +9663,7 @@ msgstr ""
 "Ilość odzyskanych punktów życia:"
 
 #. [regenerate]: id=eoma_regenerates{VALUE}
-#: Era_of_Magic/utils/healing.cfg:77 Era_of_Magic/utils/healing.cfg:92
+#: Era_of_Magic/utils/healing.cfg:77
 msgid "regenerates"
 msgstr "regeneruje się"
 
@@ -10435,8 +10245,7 @@ msgstr ""
 
 #. [resistance]: id=eoma_shielded
 #. [dummy]: id=eoma_shielded_special
-#: Era_of_Magic/utils/resistance.cfg:477
-#: Era_of_Magic/utils/resistance.cfg:490
+#: Era_of_Magic/utils/resistance.cfg:477 Era_of_Magic/utils/resistance.cfg:490
 msgid "shielded"
 msgstr "osłona"
 
@@ -10758,13 +10567,13 @@ msgstr "heroiczna"
 
 #. [trait]: id=eoma_elite
 #. [trait]: id=eoma_elite_alt
-#: Era_of_Magic/utils/traits.cfg:62 Era_of_Magic/utils/traits.cfg:97
+#: Era_of_Magic/utils/traits.cfg:62
 msgid "elite"
 msgstr "elitarny"
 
 #. [trait]: id=eoma_elite
 #. [trait]: id=eoma_elite_alt
-#: Era_of_Magic/utils/traits.cfg:63 Era_of_Magic/utils/traits.cfg:98
+#: Era_of_Magic/utils/traits.cfg:63
 msgid "female^elite"
 msgstr "elitarna"
 
