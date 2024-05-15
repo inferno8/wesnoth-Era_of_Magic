@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2024-05-11 11:31 UTC\n"
+"POT-Creation-Date: 2024-05-15 08:06 UTC\n"
 "PO-Revision-Date: 2024-05-11 14:25+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -575,7 +575,8 @@ msgstr "Cyklop"
 
 #. [unit_type]: id=EoMa_Cyclops, race=eoma_cyclops
 #. [race]: id=eoma_cyclops
-#: Era_of_Magic/units/Barbarians/Cyclops.cfg:19 Era_of_Magic/units/units.cfg:19
+#: Era_of_Magic/units/Barbarians/Cyclops.cfg:19
+#: Era_of_Magic/units/units.cfg:19
 msgid ""
 "Cumbersome and lacking fine intellect, the Cyclops race had been driven near "
 "to extinction before becoming a part of the barbarian horde. Two centuries "
@@ -1739,7 +1740,8 @@ msgstr "Pomoc Ducha Lasu"
 
 #. [message]: speaker=narrator
 #: Era_of_Magic/units/Dark_Blood_Alliance/Forest_Spirit.cfg:256
-#: Era_of_Magic/utils/bonesplit.cfg:292 Era_of_Magic/utils/summon.cfg:322
+#: Era_of_Magic/utils/bonesplit.cfg:292 Era_of_Magic/utils/recruit.cfg:259
+#: Era_of_Magic/utils/summon.cfg:322
 msgid "Help"
 msgstr "Pomoc"
 
@@ -2134,7 +2136,8 @@ msgstr "Duch Bagien"
 #. [dummy]: id=eoma_upgradable_kamikaze
 #. [effect]: type=fire
 #: Era_of_Magic/units/Dark_Blood_Alliance/Swamp_Spirit.cfg:111
-#: Era_of_Magic/utils/abilities.cfg:15 Era_of_Magic/utils/drone-upgrades.cfg:50
+#: Era_of_Magic/utils/abilities.cfg:15
+#: Era_of_Magic/utils/drone-upgrades.cfg:50
 #: Era_of_Magic/utils/drone-upgrades.cfg:311
 msgid "kamikaze"
 msgstr "kamikaze"
@@ -3795,7 +3798,8 @@ msgstr "łańcuch"
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2776
 #: Era_of_Magic/units/Runemasters/Drone.cfg:486
 #: Era_of_Magic/units/Runemasters/Perfect_Drone.cfg:222
-#: Era_of_Magic/utils/abilities.cfg:57 Era_of_Magic/utils/abilities.cfg:117
+#: Era_of_Magic/utils/abilities.cfg:57 Era_of_Magic/utils/abilities.cfg:84
+#: Era_of_Magic/utils/abilities.cfg:117
 msgid "movepoints"
 msgstr "punkty ruchu"
 
@@ -7998,7 +8002,7 @@ msgstr "Ta jednostka zawsze trafia cel ale za to jednocześnie ginie."
 
 #. [dummy]: id=eoma_hitandrun{VALUE}
 #. [dummy]: id=eoma_hitandrunspecial{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:41
+#: Era_of_Magic/utils/abilities.cfg:41 Era_of_Magic/utils/abilities.cfg:99
 msgid "hit and run"
 msgstr "uderz i uciekaj"
 
@@ -8368,12 +8372,14 @@ msgstr ""
 "Liczba uzyskanych punktów życia:"
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic/utils/abilities.cfg:1606 Era_of_Magic/utils/abilities.cfg:1607
+#: Era_of_Magic/utils/abilities.cfg:1606
+#: Era_of_Magic/utils/abilities.cfg:1607
 msgid "dread"
 msgstr "strach"
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic/utils/abilities.cfg:1608 Era_of_Magic/utils/abilities.cfg:1609
+#: Era_of_Magic/utils/abilities.cfg:1608
+#: Era_of_Magic/utils/abilities.cfg:1609
 msgid ""
 "When this attack is used offensively, this unit takes one third less damage "
 "in retaliation."
@@ -8382,12 +8388,14 @@ msgstr ""
 "jedną trzecią obrażeń mniej."
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic/utils/abilities.cfg:1619 Era_of_Magic/utils/abilities.cfg:1620
+#: Era_of_Magic/utils/abilities.cfg:1619
+#: Era_of_Magic/utils/abilities.cfg:1620
 msgid "evade"
 msgstr "unik"
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic/utils/abilities.cfg:1621 Era_of_Magic/utils/abilities.cfg:1622
+#: Era_of_Magic/utils/abilities.cfg:1621
+#: Era_of_Magic/utils/abilities.cfg:1622
 msgid ""
 "When this attack is used offensively, this unit takes 25% less damage in "
 "retaliation."
@@ -8816,23 +8824,117 @@ msgstr ""
 msgid "awe 1"
 msgstr "strach 1"
 
+#. [leadership]: id=eoma_awe1
+#: Era_of_Magic/utils/awe.cfg:255
+#, fuzzy
+#| msgid ""
+#| "This unit can inspire friendly units that are next to it, making them "
+#| "fight better.\n"
+#| "\n"
+#| "Adjacent friendly level 0 units will do 30% more damage in battle.\n"
+#| "Adjacent friendly level 1 units will do 15% more damage in battle."
+msgid ""
+"Adjacent living enemy level 0 units will do 30% less damage in battle.\n"
+"Adjacent living enemy level 1 units will do 15% less damage in battle."
+msgstr ""
+"Ta jednostka może zainspirować przyjazne jednostki, które są obok niej, "
+"dzięki czemu będą lepiej walczyć.\n"
+"\n"
+"Sąsiednie przyjazne poziomy 0 jednostek zadadzą 30% więcej obrażeń w walce.\n"
+"Sąsiednie przyjazne jednostki poziomu 1 zadadzą 15% więcej obrażeń w bitwie."
+
 #. [leadership]: id=eoma_awe2
 #: Era_of_Magic/utils/awe.cfg:276
 msgid "awe 2"
 msgstr "strach 2"
+
+#. [leadership]: id=eoma_awe2
+#: Era_of_Magic/utils/awe.cfg:280
+#, fuzzy
+#| msgid ""
+#| "This unit can inspire friendly units that are next to it, making them "
+#| "fight better.\n"
+#| "\n"
+#| "Adjacent friendly level 0 units will do 30% more damage in battle.\n"
+#| "Adjacent friendly level 1 units will do 15% more damage in battle."
+msgid ""
+"Adjacent living enemy level 0 units will do 45% less damage in battle.\n"
+"Adjacent living enemy level 1 units will do 30% less damage in battle.\n"
+"Adjacent living enemy level 2 units will do 15% less damage in battle."
+msgstr ""
+"Ta jednostka może zainspirować przyjazne jednostki, które są obok niej, "
+"dzięki czemu będą lepiej walczyć.\n"
+"\n"
+"Sąsiednie przyjazne poziomy 0 jednostek zadadzą 30% więcej obrażeń w walce.\n"
+"Sąsiednie przyjazne jednostki poziomu 1 zadadzą 15% więcej obrażeń w bitwie."
 
 #. [leadership]: id=eoma_awe3
 #: Era_of_Magic/utils/awe.cfg:303
 msgid "awe 3"
 msgstr "strach 3"
 
+#. [leadership]: id=eoma_awe3
+#: Era_of_Magic/utils/awe.cfg:307
+#, fuzzy
+#| msgid ""
+#| "This unit can inspire friendly units that are next to it, making them "
+#| "fight better.\n"
+#| "\n"
+#| "Adjacent friendly level 0 units will do 50% more damage in battle.\n"
+#| "Adjacent friendly level 1 units will do 25% more damage in battle.\n"
+#| "Adjacent friendly level 2 units will do 12% more damage in battle.\n"
+#| "Adjacent friendly level 3 units will do 6% more damage in battle."
+msgid ""
+"Adjacent living enemy level 0 units will do 60% less damage in battle.\n"
+"Adjacent living enemy level 1 units will do 45% less damage in battle.\n"
+"Adjacent living enemy level 2 units will do 30% less damage in battle.\n"
+"Adjacent living enemy level 3 units will do 15% less damage in battle."
+msgstr ""
+"Ta jednostka może zainspirować przyjazne jednostki, które są obok niej, "
+"dzięki czemu będą lepiej walczyć.\n"
+"\n"
+"Sąsiednie przyjazne poziomy 0 jednostek zadadzą 50% więcej obrażeń w walce.\n"
+"Sąsiednie przyjazne jednostki poziomu 1 zadadzą 25% więcej obrażeń w "
+"bitwie.\n"
+"Sąsiednie przyjazne jednostki poziomu 2 zadadzą 12% więcej obrażeń w "
+"bitwie.\n"
+"Sąsiednie przyjazne jednostki poziomu 3 zadadzą 6% więcej obrażeń w bitwie."
+
 #. [leadership]: id=eoma_awe4
 #: Era_of_Magic/utils/awe.cfg:332
 msgid "awe 4"
 msgstr "strach 4"
 
+#. [leadership]: id=eoma_awe4
+#: Era_of_Magic/utils/awe.cfg:336
+#, fuzzy
+#| msgid ""
+#| "This unit can inspire friendly units that are next to it, making them "
+#| "fight better.\n"
+#| "\n"
+#| "Adjacent friendly level 0 units will do 50% more damage in battle.\n"
+#| "Adjacent friendly level 1 units will do 25% more damage in battle.\n"
+#| "Adjacent friendly level 2 units will do 12% more damage in battle.\n"
+#| "Adjacent friendly level 3 units will do 6% more damage in battle."
+msgid ""
+"Adjacent living enemy level 0 units will do 75% less damage in battle.\n"
+"Adjacent living enemy level 1 units will do 60% less damage in battle.\n"
+"Adjacent living enemy level 2 units will do 45% less damage in battle.\n"
+"Adjacent living enemy level 3 units will do 30% less damage in battle.\n"
+"Adjacent living enemy level 4 units will do 15% less damage in battle."
+msgstr ""
+"Ta jednostka może zainspirować przyjazne jednostki, które są obok niej, "
+"dzięki czemu będą lepiej walczyć.\n"
+"\n"
+"Sąsiednie przyjazne poziomy 0 jednostek zadadzą 50% więcej obrażeń w walce.\n"
+"Sąsiednie przyjazne jednostki poziomu 1 zadadzą 25% więcej obrażeń w "
+"bitwie.\n"
+"Sąsiednie przyjazne jednostki poziomu 2 zadadzą 12% więcej obrażeń w "
+"bitwie.\n"
+"Sąsiednie przyjazne jednostki poziomu 3 zadadzą 6% więcej obrażeń w bitwie."
+
 #. [damage]: id=eoma_banish
-#: Era_of_Magic/utils/banish.cfg:19
+#: Era_of_Magic/utils/banish.cfg:19 Era_of_Magic/utils/banish.cfg:20
 msgid "banish"
 msgstr "wygnanie"
 
@@ -8850,9 +8952,11 @@ msgstr ""
 "samym poziomie, zdolność nie zadziała."
 
 #. [unstore_unit]
-#: Era_of_Magic/utils/banish.cfg:314 Era_of_Magic/utils/bonesplit.cfg:179
-#: Era_of_Magic/utils/drone-upgrades.cfg:590 Era_of_Magic/utils/recruit.cfg:145
-#: Era_of_Magic/utils/recruit.cfg:211
+#: Era_of_Magic/utils/banish.cfg:314 Era_of_Magic/utils/bonesplit.cfg:126
+#: Era_of_Magic/utils/bonesplit.cfg:179 Era_of_Magic/utils/bonesplit.cfg:228
+#: Era_of_Magic/utils/drone-upgrades.cfg:590
+#: Era_of_Magic/utils/recruit.cfg:145 Era_of_Magic/utils/recruit.cfg:181
+#: Era_of_Magic/utils/recruit.cfg:211 Era_of_Magic/utils/summon.cfg:270
 msgid "+3 exp"
 msgstr "+3 doświadczenie"
 
@@ -8894,7 +8998,7 @@ msgstr ""
 "Krawienie samo w sobie nie może zabić jednostki."
 
 #. [unstore_unit]
-#: Era_of_Magic/utils/bleed.cfg:54
+#: Era_of_Magic/utils/bleed.cfg:54 Era_of_Magic/utils/bleed.cfg:119
 msgid "bleeding"
 msgstr "krwawi"
 
@@ -8918,23 +9022,25 @@ msgstr ""
 "która pojawia się po kliknięciu prawym przyciskiem myszy na jednostkę ze "
 "zdolnością \"rozdwojenia kości\"."
 
-#. [set_menu_item]: id=bonesplit_{ID}, description= -
+#. [set_menu_item]: id=bonesplit_{ID}, description= - 
 #. [set_menu_item]: id=completerepair
-#. [set_menu_item]: id=recruit_{ID}, description= -
-#. [set_menu_item]: id=summon_{ID}, description= -
+#. [set_menu_item]: id=recruit_{ID}, description= - 
+#. [set_menu_item]: id=summon_{ID}, description= - 
 #: Era_of_Magic/utils/bonesplit.cfg:48
-#: Era_of_Magic/utils/drone-upgrades.cfg:477 Era_of_Magic/utils/recruit.cfg:54
+#: Era_of_Magic/utils/drone-upgrades.cfg:477
+#: Era_of_Magic/utils/recruit.cfg:54 Era_of_Magic/utils/summon.cfg:94
 msgid "gold:"
 msgstr "złoto:"
 
-#. [set_menu_item]: id=bonesplit_{ID}, description= -
+#. [set_menu_item]: id=bonesplit_{ID}, description= - 
 #: Era_of_Magic/utils/bonesplit.cfg:48
 msgid "-10HP"
 msgstr "-10HP"
 
 #. [message]: speaker=narrator
 #: Era_of_Magic/utils/bonesplit.cfg:261
-#: Era_of_Magic/utils/drone-upgrades.cfg:598 Era_of_Magic/utils/recruit.cfg:228
+#: Era_of_Magic/utils/drone-upgrades.cfg:598
+#: Era_of_Magic/utils/recruit.cfg:228 Era_of_Magic/utils/statue-copy.cfg:345
 #: Era_of_Magic/utils/summon.cfg:291
 msgid "Error"
 msgstr "Błąd"
@@ -9663,7 +9769,7 @@ msgstr ""
 "Ilość odzyskanych punktów życia:"
 
 #. [regenerate]: id=eoma_regenerates{VALUE}
-#: Era_of_Magic/utils/healing.cfg:77
+#: Era_of_Magic/utils/healing.cfg:77 Era_of_Magic/utils/healing.cfg:92
 msgid "regenerates"
 msgstr "regeneruje się"
 
@@ -10245,7 +10351,8 @@ msgstr ""
 
 #. [resistance]: id=eoma_shielded
 #. [dummy]: id=eoma_shielded_special
-#: Era_of_Magic/utils/resistance.cfg:477 Era_of_Magic/utils/resistance.cfg:490
+#: Era_of_Magic/utils/resistance.cfg:477
+#: Era_of_Magic/utils/resistance.cfg:490
 msgid "shielded"
 msgstr "osłona"
 
@@ -10567,13 +10674,13 @@ msgstr "heroiczna"
 
 #. [trait]: id=eoma_elite
 #. [trait]: id=eoma_elite_alt
-#: Era_of_Magic/utils/traits.cfg:62
+#: Era_of_Magic/utils/traits.cfg:62 Era_of_Magic/utils/traits.cfg:97
 msgid "elite"
 msgstr "elitarny"
 
 #. [trait]: id=eoma_elite
 #. [trait]: id=eoma_elite_alt
-#: Era_of_Magic/utils/traits.cfg:63
+#: Era_of_Magic/utils/traits.cfg:63 Era_of_Magic/utils/traits.cfg:98
 msgid "female^elite"
 msgstr "elitarna"
 

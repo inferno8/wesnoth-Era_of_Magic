@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2024-05-11 11:31 UTC\n"
+"POT-Creation-Date: 2024-05-15 08:06 UTC\n"
 "PO-Revision-Date: 2010-12-05 13:58+0900\n"
 "Last-Translator: IWAI, Masaharu <iwaim.sub@gmail.com>\n"
 "Language-Team: <wesnoth-ja-translate@lists.sourceforge.jp>\n"
@@ -9459,20 +9459,118 @@ msgstr ""
 msgid "awe 1"
 msgstr ""
 
+#. [leadership]: id=eoma_awe1
+#: Era_of_Magic/utils/awe.cfg:255
+#, fuzzy
+#| msgid ""
+#| "Inspire:\n"
+#| "This unit can inspire friendly units that are next to it, making them "
+#| "fight better.\n"
+#| "\n"
+#| "Adjacent friendly level 0 units will do 25% more damage in battle.\n"
+#| "Adjacent friendly level 1 units will do 10% more damage in battle."
+msgid ""
+"Adjacent living enemy level 0 units will do 30% less damage in battle.\n"
+"Adjacent living enemy level 1 units will do 15% less damage in battle."
+msgstr ""
+"奮起:\n"
+"このユニットは、隣接する友好的なユニットをより良く戦うように奮起させることが"
+"できます。\n"
+"\n"
+"隣接している友好的なレベル 0 のユニットは、戦闘で与えるダメージが 25% 上昇し"
+"ます。\n"
+"隣接している友好的なレベル 1 のユニットは、戦闘で与えるダメージが 10% 上昇し"
+"ます。"
+
 #. [leadership]: id=eoma_awe2
 #: Era_of_Magic/utils/awe.cfg:276
 msgid "awe 2"
 msgstr ""
+
+#. [leadership]: id=eoma_awe2
+#: Era_of_Magic/utils/awe.cfg:280
+#, fuzzy
+#| msgid ""
+#| "Inspire:\n"
+#| "This unit can inspire friendly units that are next to it, making them "
+#| "fight better.\n"
+#| "\n"
+#| "Adjacent friendly level 0 units will do 25% more damage in battle.\n"
+#| "Adjacent friendly level 1 units will do 10% more damage in battle."
+msgid ""
+"Adjacent living enemy level 0 units will do 45% less damage in battle.\n"
+"Adjacent living enemy level 1 units will do 30% less damage in battle.\n"
+"Adjacent living enemy level 2 units will do 15% less damage in battle."
+msgstr ""
+"奮起:\n"
+"このユニットは、隣接する友好的なユニットをより良く戦うように奮起させることが"
+"できます。\n"
+"\n"
+"隣接している友好的なレベル 0 のユニットは、戦闘で与えるダメージが 25% 上昇し"
+"ます。\n"
+"隣接している友好的なレベル 1 のユニットは、戦闘で与えるダメージが 10% 上昇し"
+"ます。"
 
 #. [leadership]: id=eoma_awe3
 #: Era_of_Magic/utils/awe.cfg:303
 msgid "awe 3"
 msgstr ""
 
+#. [leadership]: id=eoma_awe3
+#: Era_of_Magic/utils/awe.cfg:307
+#, fuzzy
+#| msgid ""
+#| "Inspire:\n"
+#| "This unit can inspire friendly units that are next to it, making them "
+#| "fight better.\n"
+#| "\n"
+#| "Adjacent friendly level 0 units will do 25% more damage in battle.\n"
+#| "Adjacent friendly level 1 units will do 10% more damage in battle."
+msgid ""
+"Adjacent living enemy level 0 units will do 60% less damage in battle.\n"
+"Adjacent living enemy level 1 units will do 45% less damage in battle.\n"
+"Adjacent living enemy level 2 units will do 30% less damage in battle.\n"
+"Adjacent living enemy level 3 units will do 15% less damage in battle."
+msgstr ""
+"奮起:\n"
+"このユニットは、隣接する友好的なユニットをより良く戦うように奮起させることが"
+"できます。\n"
+"\n"
+"隣接している友好的なレベル 0 のユニットは、戦闘で与えるダメージが 25% 上昇し"
+"ます。\n"
+"隣接している友好的なレベル 1 のユニットは、戦闘で与えるダメージが 10% 上昇し"
+"ます。"
+
 #. [leadership]: id=eoma_awe4
 #: Era_of_Magic/utils/awe.cfg:332
 msgid "awe 4"
 msgstr ""
+
+#. [leadership]: id=eoma_awe4
+#: Era_of_Magic/utils/awe.cfg:336
+#, fuzzy
+#| msgid ""
+#| "Inspire:\n"
+#| "This unit can inspire friendly units that are next to it, making them "
+#| "fight better.\n"
+#| "\n"
+#| "Adjacent friendly level 0 units will do 25% more damage in battle.\n"
+#| "Adjacent friendly level 1 units will do 10% more damage in battle."
+msgid ""
+"Adjacent living enemy level 0 units will do 75% less damage in battle.\n"
+"Adjacent living enemy level 1 units will do 60% less damage in battle.\n"
+"Adjacent living enemy level 2 units will do 45% less damage in battle.\n"
+"Adjacent living enemy level 3 units will do 30% less damage in battle.\n"
+"Adjacent living enemy level 4 units will do 15% less damage in battle."
+msgstr ""
+"奮起:\n"
+"このユニットは、隣接する友好的なユニットをより良く戦うように奮起させることが"
+"できます。\n"
+"\n"
+"隣接している友好的なレベル 0 のユニットは、戦闘で与えるダメージが 25% 上昇し"
+"ます。\n"
+"隣接している友好的なレベル 1 のユニットは、戦闘で与えるダメージが 10% 上昇し"
+"ます。"
 
 #. [damage]: id=eoma_banish
 #: Era_of_Magic/utils/banish.cfg:19 Era_of_Magic/utils/banish.cfg:20

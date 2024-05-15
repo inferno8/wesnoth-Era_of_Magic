@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2024-05-11 11:31 UTC\n"
+"POT-Creation-Date: 2024-05-15 08:06 UTC\n"
 "PO-Revision-Date: 2023-06-07 22:09+0200\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
@@ -10475,20 +10475,120 @@ msgstr ""
 msgid "awe 1"
 msgstr "terror 1"
 
+#. [leadership]: id=eoma_awe1
+#: Era_of_Magic/utils/awe.cfg:255
+#, fuzzy
+#| msgid ""
+#| "This unit can inspire friendly units that are next to it, making them "
+#| "fight better.\n"
+#| "\n"
+#| "Adjacent friendly level 0 units will do 30% more damage in battle.\n"
+#| "Adjacent friendly level 1 units will do 15% more damage in battle."
+msgid ""
+"Adjacent living enemy level 0 units will do 30% less damage in battle.\n"
+"Adjacent living enemy level 1 units will do 15% less damage in battle."
+msgstr ""
+"Esta unidad puede infundir inspiración a las unidades aliadas que están "
+"junto a la misma, haciéndolas combatir mejor.\n"
+"\n"
+"Unidades aliadas adyacentes de nivel 0 causarán un 30% más de daño en "
+"combate.\n"
+"Unidades aliadas adyacentes de nivel 1 causarán un 15% más de daño en "
+"combate."
+
 #. [leadership]: id=eoma_awe2
 #: Era_of_Magic/utils/awe.cfg:276
 msgid "awe 2"
 msgstr "terror 2"
+
+#. [leadership]: id=eoma_awe2
+#: Era_of_Magic/utils/awe.cfg:280
+#, fuzzy
+#| msgid ""
+#| "This unit can inspire friendly units that are next to it, making them "
+#| "fight better.\n"
+#| "\n"
+#| "Adjacent friendly level 0 units will do 30% more damage in battle.\n"
+#| "Adjacent friendly level 1 units will do 15% more damage in battle."
+msgid ""
+"Adjacent living enemy level 0 units will do 45% less damage in battle.\n"
+"Adjacent living enemy level 1 units will do 30% less damage in battle.\n"
+"Adjacent living enemy level 2 units will do 15% less damage in battle."
+msgstr ""
+"Esta unidad puede infundir inspiración a las unidades aliadas que están "
+"junto a la misma, haciéndolas combatir mejor.\n"
+"\n"
+"Unidades aliadas adyacentes de nivel 0 causarán un 30% más de daño en "
+"combate.\n"
+"Unidades aliadas adyacentes de nivel 1 causarán un 15% más de daño en "
+"combate."
 
 #. [leadership]: id=eoma_awe3
 #: Era_of_Magic/utils/awe.cfg:303
 msgid "awe 3"
 msgstr "terror 3"
 
+#. [leadership]: id=eoma_awe3
+#: Era_of_Magic/utils/awe.cfg:307
+#, fuzzy
+#| msgid ""
+#| "This unit can inspire friendly units that are next to it, making them "
+#| "fight better.\n"
+#| "\n"
+#| "Adjacent friendly level 0 units will do 50% more damage in battle.\n"
+#| "Adjacent friendly level 1 units will do 25% more damage in battle.\n"
+#| "Adjacent friendly level 2 units will do 12% more damage in battle.\n"
+#| "Adjacent friendly level 3 units will do 6% more damage in battle."
+msgid ""
+"Adjacent living enemy level 0 units will do 60% less damage in battle.\n"
+"Adjacent living enemy level 1 units will do 45% less damage in battle.\n"
+"Adjacent living enemy level 2 units will do 30% less damage in battle.\n"
+"Adjacent living enemy level 3 units will do 15% less damage in battle."
+msgstr ""
+"Esta unidad puede infundir inspiración a las unidades aliadas que están "
+"junto a la misma, haciéndolas combatir mejor.\n"
+"\n"
+"Unidades aliadas adyacentes de nivel 0 causarán un 50% más de daño en "
+"combate.\n"
+"Unidades aliadas adyacentes de nivel 1 causarán un 25% más de daño en "
+"combate.\n"
+"Unidades aliadas adyacentes de nivel 2 causarán un 12% más de daño en "
+"combate.\n"
+"Unidades aliadas adyacentes de nivel 3 causarán un 6% más de daño en combate."
+
 #. [leadership]: id=eoma_awe4
 #: Era_of_Magic/utils/awe.cfg:332
 msgid "awe 4"
 msgstr "terror 4"
+
+#. [leadership]: id=eoma_awe4
+#: Era_of_Magic/utils/awe.cfg:336
+#, fuzzy
+#| msgid ""
+#| "This unit can inspire friendly units that are next to it, making them "
+#| "fight better.\n"
+#| "\n"
+#| "Adjacent friendly level 0 units will do 50% more damage in battle.\n"
+#| "Adjacent friendly level 1 units will do 25% more damage in battle.\n"
+#| "Adjacent friendly level 2 units will do 12% more damage in battle.\n"
+#| "Adjacent friendly level 3 units will do 6% more damage in battle."
+msgid ""
+"Adjacent living enemy level 0 units will do 75% less damage in battle.\n"
+"Adjacent living enemy level 1 units will do 60% less damage in battle.\n"
+"Adjacent living enemy level 2 units will do 45% less damage in battle.\n"
+"Adjacent living enemy level 3 units will do 30% less damage in battle.\n"
+"Adjacent living enemy level 4 units will do 15% less damage in battle."
+msgstr ""
+"Esta unidad puede infundir inspiración a las unidades aliadas que están "
+"junto a la misma, haciéndolas combatir mejor.\n"
+"\n"
+"Unidades aliadas adyacentes de nivel 0 causarán un 50% más de daño en "
+"combate.\n"
+"Unidades aliadas adyacentes de nivel 1 causarán un 25% más de daño en "
+"combate.\n"
+"Unidades aliadas adyacentes de nivel 2 causarán un 12% más de daño en "
+"combate.\n"
+"Unidades aliadas adyacentes de nivel 3 causarán un 6% más de daño en combate."
 
 #. [damage]: id=eoma_banish
 #: Era_of_Magic/utils/banish.cfg:19 Era_of_Magic/utils/banish.cfg:20

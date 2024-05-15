@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2024-05-11 11:31 UTC\n"
+"POT-Creation-Date: 2024-05-15 08:06 UTC\n"
 "PO-Revision-Date: 2011-07-02 10:00-0800\n"
 "Last-Translator: Carson Callis aka Mountian_King <tree_rings@rocketmail."
 "com>\n"
@@ -9134,9 +9134,24 @@ msgstr ""
 msgid "awe 1"
 msgstr ""
 
+#. [leadership]: id=eoma_awe1
+#: Era_of_Magic/utils/awe.cfg:255
+msgid ""
+"Adjacent living enemy level 0 units will do 30% less damage in battle.\n"
+"Adjacent living enemy level 1 units will do 15% less damage in battle."
+msgstr ""
+
 #. [leadership]: id=eoma_awe2
 #: Era_of_Magic/utils/awe.cfg:276
 msgid "awe 2"
+msgstr ""
+
+#. [leadership]: id=eoma_awe2
+#: Era_of_Magic/utils/awe.cfg:280
+msgid ""
+"Adjacent living enemy level 0 units will do 45% less damage in battle.\n"
+"Adjacent living enemy level 1 units will do 30% less damage in battle.\n"
+"Adjacent living enemy level 2 units will do 15% less damage in battle."
 msgstr ""
 
 #. [leadership]: id=eoma_awe3
@@ -9144,9 +9159,28 @@ msgstr ""
 msgid "awe 3"
 msgstr ""
 
+#. [leadership]: id=eoma_awe3
+#: Era_of_Magic/utils/awe.cfg:307
+msgid ""
+"Adjacent living enemy level 0 units will do 60% less damage in battle.\n"
+"Adjacent living enemy level 1 units will do 45% less damage in battle.\n"
+"Adjacent living enemy level 2 units will do 30% less damage in battle.\n"
+"Adjacent living enemy level 3 units will do 15% less damage in battle."
+msgstr ""
+
 #. [leadership]: id=eoma_awe4
 #: Era_of_Magic/utils/awe.cfg:332
 msgid "awe 4"
+msgstr ""
+
+#. [leadership]: id=eoma_awe4
+#: Era_of_Magic/utils/awe.cfg:336
+msgid ""
+"Adjacent living enemy level 0 units will do 75% less damage in battle.\n"
+"Adjacent living enemy level 1 units will do 60% less damage in battle.\n"
+"Adjacent living enemy level 2 units will do 45% less damage in battle.\n"
+"Adjacent living enemy level 3 units will do 30% less damage in battle.\n"
+"Adjacent living enemy level 4 units will do 15% less damage in battle."
 msgstr ""
 
 #. [damage]: id=eoma_banish
