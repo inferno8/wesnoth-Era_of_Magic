@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2024-06-08 15:09 UTC\n"
-"PO-Revision-Date: 2024-06-08 18:05+0200\n"
+"PO-Revision-Date: 2024-06-08 18:10+0200\n"
 "Last-Translator: Fardeil <fardeil@mail.ru>\n"
 "Language-Team: none\n"
 "Language: ru\n"
@@ -11127,7 +11127,7 @@ msgstr ""
 #. [dummy]: id=eoma_modernization
 #: Era_of_Magic/utils/drone-upgrades.cfg:449
 msgid "modernization"
-msgstr ""
+msgstr "Модернизация"
 
 #. [dummy]: id=eoma_modernization
 #: Era_of_Magic/utils/drone-upgrades.cfg:450
