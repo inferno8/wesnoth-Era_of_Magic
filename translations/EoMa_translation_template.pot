@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2024-05-15 08:06 UTC\n"
+"POT-Creation-Date: 2024-06-08 15:09 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1707,12 +1707,12 @@ msgid "area attack"
 msgstr ""
 
 #. [attack]: type=fire
-#: Era_of_Magic/units/Destroyers/Abaddon.cfg:71
+#: Era_of_Magic/units/Destroyers/Abaddon.cfg:72
 #: Era_of_Magic/units/Destroyers/Apocalypse.cfg:68
 #: Era_of_Magic/units/Destroyers/Dark_Apostle.cfg:94
 #: Era_of_Magic/units/Destroyers/Mara.cfg:55
 #: Era_of_Magic/units/Destroyers/Nightmare.cfg:57
-#: Era_of_Magic/units/Destroyers/Obliterator.cfg:69
+#: Era_of_Magic/units/Destroyers/Obliterator.cfg:70
 #: Era_of_Magic/units/Destroyers/unused/Chaotic_Observer.cfg:50
 msgid "chaotic blast"
 msgstr ""
@@ -7161,10 +7161,8 @@ msgstr ""
 
 #. [dummy]: id=eoma_upgradedrone_{MODULE}
 #. [dummy]: id=eoma_upgradedrone_ui_{MODULE1}_{MODULE2}
-#. [dummy]: id=eoma_upgradedrone
 #: Era_of_Magic/utils/drone-upgrades.cfg:75
 #: Era_of_Magic/utils/drone-upgrades.cfg:86
-#: Era_of_Magic/utils/drone-upgrades.cfg:449
 msgid "upgrade drone"
 msgstr ""
 
@@ -7231,7 +7229,12 @@ msgstr ""
 msgid "This unit may receive different upgrades when adjacent to specific units. Also, when advancing, it can get different improvements."
 msgstr ""
 
-#. [dummy]: id=eoma_upgradedrone
+#. [dummy]: id=eoma_modernization
+#: Era_of_Magic/utils/drone-upgrades.cfg:449
+msgid "modernization"
+msgstr ""
+
+#. [dummy]: id=eoma_modernization
 #: Era_of_Magic/utils/drone-upgrades.cfg:450
 msgid "This unit can make an adjacent drone advance, yet retain its exp after doing so. The unit uses up all of his movepoints, and then gains some exp. Also, the drone is unable to move/attack on the same turn as it is advanced."
 msgstr ""
