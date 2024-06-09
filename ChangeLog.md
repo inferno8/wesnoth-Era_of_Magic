@@ -1,6 +1,22 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 4.7.1
+ ### Units
+   * Sky Kingdom:
+     * War Mage: price to 33g (-1)
+   * Destroyers:
+     * Punisher: 13-2 pierce melee attack accuracy adjusted to marskman special; XP to 110 (-15); price to 42g (-2g)
+     * Obliterator: HP to 60 (+2); pierce melee attack now gains +Evade; 7-2 fire ranged attack damage increase to 8-2
+     * Abbadon: HP to 72 (+2); pierce melee attack now gains +Evade; 11-2 fire ranged damage increase to 12-2
+ ### Abilities
+   * renamed the 'upgrade drone' ability to 'modernization'
+ ### Translations
+   * Zombies Challenge custom settings are now translatable
+   * updated the EoMa_raw_translation_file.pot
+   * updated the Polish translation
+   * updated the Russian translation
+
 ## Version 4.7.0b
  ### Units
    * Sky Kingdom:
