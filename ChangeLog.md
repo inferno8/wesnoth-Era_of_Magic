@@ -8,7 +8,7 @@ Era of Magic - ChangeLog
    * Destroyers:
      * Punisher: 13-2 pierce melee attack accuracy adjusted to marskman special; XP to 110 (-15); price to 42g (-2g)
      * Obliterator: HP to 60 (+2); pierce melee attack now gains +Evade; 7-2 fire ranged attack damage increase to 8-2
-     * Abbadon: HP to 72 (+2); pierce melee attack now gains +Evade; 11-2 fire ranged damage increase to 12-2
+     * Abaddon: HP to 72 (+2); pierce melee attack now gains +Evade; 11-2 fire ranged damage increase to 12-2
  ### Abilities
    * renamed the 'upgrade drone' ability to 'modernization'
  ### Translations
