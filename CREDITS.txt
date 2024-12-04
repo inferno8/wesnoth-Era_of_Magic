@@ -1,5 +1,5 @@
 ﻿--Era of Magic Supporters--
-Ravana, Gryfon, Big Secret, Swangdoodles, Kalle H., Bart
+Ravana, Gryfon, Big Secret, Swangdoodles, Kalle H., Bart, Tomasz Z., Michael F.
 
 --Credits--
 ERA CREATOR
@@ -96,6 +96,7 @@ IceSandslash
 Razor
 Toranks
 wuxiangjinxing
+Zores
 
 SPECIAL THANKS
 ForestDragon for his incredible EoMa 2.0-4.0 feedback regarding almost every aspect of the era.
