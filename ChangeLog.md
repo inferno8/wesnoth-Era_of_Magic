@@ -1,6 +1,31 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 4.8
+ ### Units
+   * Tharis:
+     * Pain Mistress: now has "lesser revenge" in melee
+     * Great Warlock: lesser implosion (impact) damage from 9-3 to 16-2
+     * Master of Darkness: implosion (impact) damage from 13-3 to 22-2
+ ### Abilities
+   * unified all ambush abilities to exclude castle/keep/unwalkable/impassable/village/bridge
+   * the 'greater circle of banishment' now slows enemy units only
+   * 'banish' no longer works against leaders
+   * fixed the awake ability not reviving neighboring units if they are killed by kamikaze attack
+   * added a note that recruit and summon are disabled for leaders
+ ### Descriptions
+   * added new descriptions for Rune Adept, Runesmith and Runemaster
+   * improved the 'banish' weapon special description
+ ### Graphics
+   * improved unit portraits (partial)
+ ### Code
+   * used [filter] instead of [filter_self] for abilities
+   * added eoma_ prefix to splitfire
+   * fixed constructor and heavy summoner summons being mutually exclusive in a game
+   * removed ellipse
+ ### Translations
+   * updated the Russian translation
+
 ## Version 4.7.1
  ### Units
    * Sky Kingdom:
