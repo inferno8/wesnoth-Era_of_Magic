@@ -1,6 +1,19 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 4.8.1
+ ### Units
+   * Destroyers:
+     * Omen: XP to 75 (-7)
+     * Punisher: XP to 117 (+7)
+ ### Descriptions
+   * added special notes with summoning costs
+ ### Graphics
+   * Shamanistic Adept: idle animation now uses halo (to make it compatible with UCC and UCV)
+   * Jungle Blowgunner: fixed incorrect color palette (to make it compatible with UCC and UCV) +  sprite cleanup
+ ### Code
+   * RPG units no longer load in non-rpg eras and campaigns
+
 ## Version 4.8
  ### Units
    * Tharis:
