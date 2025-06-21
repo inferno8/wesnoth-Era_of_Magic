@@ -1,6 +1,13 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 4.8.2
+ ### Abilities
+   * fixed filter in ABILITY_EOMA_LEADERSHIP_FIXED
+ ### Code
+   * excluded TLU leader from getting the veteran trait
+   * replaced png with webp for portraits
+
 ## Version 4.8.1
  ### Units
    * Destroyers:
