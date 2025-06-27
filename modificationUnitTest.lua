@@ -93,7 +93,7 @@ run_all_tests = function()
 	
 	wesnoth.wml_actions.EoMa_run_test_combo{attacker_type="EoMa_Great_Efreeti",attacker_attack_index=2}
 	-- wesnoth.wml_actions.EoMa_run_test_combo{attacker_type="EoMa_Omen",attacker_attack_index=0} -- covered by chainlady
-	wesnoth.wml_actions.EoMa_run_test_combo{attacker_type="EoMa_Chaos_Rider",attacker_attack_index=2}
+	wesnoth.wml_actions.EoMa_run_test_combo{attacker_type="EoMa_Chaos_Wyvern_Knight",attacker_attack_index=2}
 	-- wesnoth.wml_actions.EoMa_run_test_combo{attacker_type="EoMa_Chaos_Hydra",attacker_attack_index=0,skip_pain_absorb=true} -- covered by chainlady
 	wesnoth.wml_actions.EoMa_run_test_combo{attacker_type="EoMa_Mechanical_Dragon",attacker_attack_index=2,thirdparty_position="beam"}
 	wesnoth.wml_actions.EoMa_run_test_combo{attacker_type="EoMa_Kirios",attacker_attack_index=2,thirdparty_position="beam"}
