@@ -5,7 +5,7 @@ Era of Magic - ChangeLog
  ### Code
    * linked halos to abilities instead of [unit_type]
    * WEAPON_SPECIAL_EOMA_PAINABSORB uses [heal_on_hit] directly to avoid unnecessary [event] calls
-   * chronoaura now uses [filter_self] instead of [filter_student]
+   * chronoaura now uses [filter_student] instead of [filter_self]
    * updated credits.txt
  ### Translations
    * updated the EoMa_raw_translation_file.pot
