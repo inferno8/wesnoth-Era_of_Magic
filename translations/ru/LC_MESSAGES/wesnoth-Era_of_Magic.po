@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2025-07-06 06:58 UTC\n"
+"POT-Creation-Date: 2026-06-06 18:36 UTC\n"
 "PO-Revision-Date: 2024-10-14 12:42+0300\n"
 "Last-Translator: Fardeil <fardeil@mail.ru>\n"
 "Language-Team: none\n"
@@ -233,35 +233,35 @@ msgid "Underground"
 msgstr "Подземье"
 
 #. [side]
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:227
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:231
 msgid "teamname^Zombies"
 msgstr "Зомби"
 
 #. [side]
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:248
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:263
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:278
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:293
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:252
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:267
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:282
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:297
 msgid "teamname^Defenders"
 msgstr "Защитники"
 
 #. [print]
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:381
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:385
 msgid "income"
 msgstr "доход"
 
 #. [print]
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:381
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:385
 msgid "gold bonus"
 msgstr "бонус золота"
 
 #. [multiplayer]: id=multiplayer_EoMa_Zombies_Challenge
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:535
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:539
 msgid "EoMa 4p — Zombies Challenge"
 msgstr "EoMa 4и — Испытание зомби"
 
 #. [multiplayer]: id=multiplayer_EoMa_Zombies_Challenge
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:537
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:541
 msgid ""
 "Can you survive in a dark cavern full of zombies? This 1-4 players survival "
 "scenario gives you a chance to test your skills against endless hordes of "
@@ -281,12 +281,12 @@ msgstr ""
 "Авторы: inferno8, ForestDragon"
 
 #. [multiplayer]: id=multiplayer_EoMa_Zombies_Challenge_configurable
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:561
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:565
 msgid "EoMa 4p — Zombies Challenge (Configurable)"
 msgstr "EoMa 4и — Испытание зомби (настраиваемый)"
 
 #. [multiplayer]: id=multiplayer_EoMa_Zombies_Challenge_configurable
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:563
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:567
 msgid ""
 "Configurable version of the map, allowing players to adjust the map's "
 "difficulty in a variety of ways, using the options during map creation.\n"
@@ -304,27 +304,27 @@ msgstr ""
 "Авторы: inferno8, ForestDragon"
 
 #. [slider]: id=spawnturn
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:576
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:580
 msgid "(default:2) first wave's turn"
 msgstr "(по умолчанию: 2) ход появления первой волны"
 
 #. [slider]: id=interval
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:584
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:588
 msgid "(default:3) delay between each wave (in turns)"
 msgstr "(по умолчанию: 3) задержка между волнами (ходов)"
 
 #. [slider]: id=interval
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:585
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:589
 msgid "spawns zombies every (number) turns."
 msgstr "зомби появляются каждые (число) ходов."
 
 #. [slider]: id=wavestrength
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:593
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:597
 msgid "(default:3) strength of the first wave"
 msgstr "(по умолчанию: 3) сила первой волны"
 
 #. [slider]: id=wavestrength
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:594
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:598
 msgid ""
 "amount of zombies in the first wave per corner (multiply by 4 for total "
 "amount)"
@@ -333,24 +333,24 @@ msgstr ""
 "количества)"
 
 #. [slider]: id=waveincrease
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:602
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:606
 msgid "(default:1) add more zombies each wave by (number) (per corner)"
 msgstr ""
 "(по умолчанию: 1) дополнительное число зомби в каждой волне (в каждом углу)"
 
 #. [slider]: id=waveincrease
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:603
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:607
 msgid ""
 "the amount of zombies in each wave increases by (number) (in each corner)"
 msgstr "количество зомби увеличивается на (число) ( в каждом углу)"
 
 #. [slider]: id=smallspawnturn
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:611
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:615
 msgid "(default:8) small waves of zombies spawn every <number turns>"
 msgstr "(по умолчанию: 8) через сколько ходов появляются небольшие волны зомби"
 
 #. [slider]: id=smallspawnturn
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:612
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:616
 msgid ""
 "small waves of zombies spawn from north/south/east/west tunnels every "
 "(number turns)"
@@ -359,57 +359,57 @@ msgstr ""
 "западного туннелей через (число) ходов"
 
 #. [slider]: id=rewardturn
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:620
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:624
 msgid "(default:10) a gold/income reward every (number) turns"
 msgstr "(по умолчанию: 10) награда в виде дохода/золота каждые … ходов"
 
 #. [slider]: id=rewardturn
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:621
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:625
 msgid "all players get a gold/income reward every (number) turns"
 msgstr "все игроки получают бонус золота через (число) ходов"
 
 #. [slider]: id=bonusincome
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:629
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:633
 msgid "(default:1) bonus income per reward turn"
 msgstr "(по умолчанию: 1) размер дохода в каждой награде"
 
 #. [slider]: id=bonusincome
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:630
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:634
 msgid ""
 "the amount of bonus income a player gets every reward turn. the bonus "
 "increases the specified amount every reward turn."
 msgstr "прирост бонусного дохода после каждого получения."
 
 #. [slider]: id=bonusgold
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:638
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:642
 msgid "(default:25) bonus gold per reward turn"
 msgstr "(по умолчанию: 25) размер золота в каждой награде"
 
 #. [slider]: id=bonusgold
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:639
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:643
 msgid ""
 "the amount of bonus gold a player gets every reward turn. the bonus "
 "increases the specified amount every reward turn."
 msgstr "прирост бонусного золота после каждого получения."
 
 #. [checkbox]: id=zombiesvillages
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:644
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:648
 msgid "(default:yes) Enemy villages spawn zombies"
 msgstr "(по умолчанию: да) вражеские деревни создают зомби"
 
 #. [checkbox]: id=zombiesvillages
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:645
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:649
 msgid ""
 "Every new turn all villages captured by the enemy will spawn 1 zombie each."
 msgstr "Каждая захваченная врагами деревня будет создавать 1 зомби."
 
 #. [checkbox]: id=zombiesguard
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:650
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:654
 msgid "(default:yes) Capturing enemy village spawns 2 zombies"
 msgstr "(по умолчанию: да) захват вражеских деревень создаёт 2 зомби"
 
 #. [checkbox]: id=zombiesguard
-#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:651
+#: Era_of_Magic/scenarios/4p_Zombies_Challenge.cfg:655
 msgid ""
 "Every time you capture an enemy village, 2 zombies appear in close vicinity."
 msgstr "Когда вы освободите деревню от врагов, из неё появится 2 зомби."
@@ -4327,7 +4327,7 @@ msgstr "Бездушный бунтарка"
 #: Era_of_Magic/units/Tharis/Bladefury.cfg:55
 #: Era_of_Magic/units/Tharis/Chainlady.cfg:199
 #: Era_of_Magic/units/Tharis/Chainlady.cfg:213
-#: Era_of_Magic/units/Tharis/Chainlady.cfg:225
+#: Era_of_Magic/units/Tharis/Chainlady.cfg:227
 msgid "chain"
 msgstr "цепь"
 
@@ -4336,14 +4336,14 @@ msgstr "цепь"
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2776
 #: Era_of_Magic/units/Runemasters/Drone.cfg:484
 #: Era_of_Magic/units/Runemasters/Perfect_Drone.cfg:219
-#: Era_of_Magic/utils/abilities.cfg:88 Era_of_Magic/utils/abilities.cfg:115
-#: Era_of_Magic/utils/abilities.cfg:148
+#: Era_of_Magic/utils/abilities.cfg:93 Era_of_Magic/utils/abilities.cfg:120
+#: Era_of_Magic/utils/abilities.cfg:158
 msgid "movepoints"
 msgstr "очки хода"
 
 #. [unstore_unit]
 #: Era_of_Magic/units/Destroyers/corpse_walking.cfg:2793
-#: Era_of_Magic/utils/abilities.cfg:181
+#: Era_of_Magic/utils/abilities.cfg:191
 msgid "FURY!"
 msgstr "ЯРОСТЬ!"
 
@@ -6183,7 +6183,7 @@ msgstr "искры"
 
 #. [attack]: type=arcane
 #: Era_of_Magic/units/Sky_Kingdom/Aeromancer.cfg:101
-#: Era_of_Magic/units/Summoners/Air_Elemental.cfg:77
+#: Era_of_Magic/units/Summoners/Air_Elemental.cfg:79
 msgid "small lightning"
 msgstr "малая молния"
 
@@ -6522,8 +6522,8 @@ msgstr "магическое касание"
 #. [attack]: type=arcane
 #: Era_of_Magic/units/Sky_Kingdom/Master_Mage.cfg:77
 #: Era_of_Magic/units/Sky_Kingdom/Master_of_Air.cfg:117
-#: Era_of_Magic/units/Summoners/Air_Avatar.cfg:111
-#: Era_of_Magic/units/Summoners/Air_God.cfg:110
+#: Era_of_Magic/units/Summoners/Air_Avatar.cfg:113
+#: Era_of_Magic/units/Summoners/Air_God.cfg:112
 msgid "lightning"
 msgstr "молния"
 
@@ -7237,9 +7237,9 @@ msgstr ""
 "молниями изнутри своих эфирных внутренностей."
 
 #. [attack]: type=impact
-#: Era_of_Magic/units/Summoners/Air_Avatar.cfg:99
-#: Era_of_Magic/units/Summoners/Air_Elemental.cfg:65
-#: Era_of_Magic/units/Summoners/Air_God.cfg:98
+#: Era_of_Magic/units/Summoners/Air_Avatar.cfg:101
+#: Era_of_Magic/units/Summoners/Air_Elemental.cfg:67
+#: Era_of_Magic/units/Summoners/Air_God.cfg:100
 msgid "hurricane"
 msgstr "ураган"
 
@@ -7301,7 +7301,7 @@ msgstr ""
 "туда, куда смотрит око его бкри."
 
 #. [attack]: type=impact
-#: Era_of_Magic/units/Summoners/Air_God.cfg:122
+#: Era_of_Magic/units/Summoners/Air_God.cfg:124
 msgid "storm"
 msgstr "шторм"
 
@@ -9785,7 +9785,7 @@ msgstr "Боец всегда попадает по врагу, но сразу 
 
 #. [dummy]: id=eoma_hitandrun{VALUE}
 #. [dummy]: id=eoma_hitandrunspecial{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:72 Era_of_Magic/utils/abilities.cfg:130
+#: Era_of_Magic/utils/abilities.cfg:72 Era_of_Magic/utils/abilities.cfg:135
 msgid "hit and run"
 msgstr "ударил-убежал"
 
@@ -9798,12 +9798,12 @@ msgstr ""
 "После атаки такой боец получает очки движения, но не может снова атаковать."
 
 #. [dummy]: id=eoma_killandrun{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:98
+#: Era_of_Magic/utils/abilities.cfg:103
 msgid "kill and run"
 msgstr "убил-убежал"
 
 #. [dummy]: id=eoma_killandrun{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:99
+#: Era_of_Magic/utils/abilities.cfg:104
 msgid ""
 "This unit gains additional moves back after eliminating an opponent, but "
 "cannot attack again."
@@ -9812,7 +9812,7 @@ msgstr ""
 "атаковать."
 
 #. [dummy]: id=eoma_hitandrunspecial{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:131
+#: Era_of_Magic/utils/abilities.cfg:136
 msgid ""
 "This unit gains additional moves back after attacking with this weapon, but "
 "cannot attack again."
@@ -9821,22 +9821,22 @@ msgstr ""
 "атаковать."
 
 #. [dummy]: id=eoma_fury
-#: Era_of_Magic/utils/abilities.cfg:164
+#: Era_of_Magic/utils/abilities.cfg:174
 msgid "fury"
 msgstr "ярость"
 
 #. [dummy]: id=eoma_fury
-#: Era_of_Magic/utils/abilities.cfg:165
+#: Era_of_Magic/utils/abilities.cfg:175
 msgid "This unit can attack another unit after killing an enemy."
 msgstr "После убийства противника такой боец может атаковать вновь."
 
 #. [dummy]: id=eoma_furiousdeath{DMG}{TYPE}
-#: Era_of_Magic/utils/abilities.cfg:191
+#: Era_of_Magic/utils/abilities.cfg:201
 msgid "furious death"
 msgstr "яростная смерть"
 
 #. [dummy]: id=eoma_furiousdeath{DMG}{TYPE}
-#: Era_of_Magic/utils/abilities.cfg:192
+#: Era_of_Magic/utils/abilities.cfg:202
 msgid ""
 "Moments before this unit's death, it flies into a fury, dealing some impact "
 "damage to adjacent units, friend or foes alike. When a harmed adjacent unit "
@@ -9849,12 +9849,12 @@ msgstr ""
 "Количество наносимого урона:"
 
 #. [dummy]: id=eoma_hardlanding{DMG}{TYPE}
-#: Era_of_Magic/utils/abilities.cfg:246
+#: Era_of_Magic/utils/abilities.cfg:256
 msgid "hard landing"
 msgstr "грубая посадка"
 
 #. [dummy]: id=eoma_hardlanding{DMG}{TYPE}
-#: Era_of_Magic/utils/abilities.cfg:247
+#: Era_of_Magic/utils/abilities.cfg:257
 msgid ""
 "When this large unit is destroyed, it falls on a ground dealing damage to "
 "all adjacent units. When a harmed adjacent unit goes to or below 0 HP, its "
@@ -9864,12 +9864,12 @@ msgstr ""
 "нельзя убить, всегда останется 1 ОЗ."
 
 #. [dummy]: id=eoma_parachute
-#: Era_of_Magic/utils/abilities.cfg:293
+#: Era_of_Magic/utils/abilities.cfg:303
 msgid "parachute"
 msgstr "парашют"
 
 #. [dummy]: id=eoma_parachute
-#: Era_of_Magic/utils/abilities.cfg:294
+#: Era_of_Magic/utils/abilities.cfg:304
 msgid ""
 "The pilot of this machine is equipped with a parachute, and he can survive "
 "the destruction of his vehicle, continuing to fight as a lvl0 unit."
@@ -9878,12 +9878,12 @@ msgstr ""
 "воином 0 уровня."
 
 #. [dummy]: id=eoma_areaeffectrandom_{CHANCETOHIT}
-#: Era_of_Magic/utils/abilities.cfg:334
+#: Era_of_Magic/utils/abilities.cfg:344
 msgid "random area effect"
 msgstr "случайный площадной эффект"
 
 #. [dummy]: id=eoma_areaeffectrandom_{CHANCETOHIT}
-#: Era_of_Magic/utils/abilities.cfg:336
+#: Era_of_Magic/utils/abilities.cfg:346
 msgid ""
 "When this attack is used, random units adjacent to the target (except the "
 "attacker) get half of the basic damage.\n"
@@ -9900,12 +9900,12 @@ msgstr ""
 "Шанс попасть по соседней цели: "
 
 #. [dummy]: id=eoma_areaeffect
-#: Era_of_Magic/utils/abilities.cfg:485
+#: Era_of_Magic/utils/abilities.cfg:495
 msgid "area effect"
 msgstr "площадной эффект"
 
 #. [dummy]: id=eoma_areaeffect
-#: Era_of_Magic/utils/abilities.cfg:486
+#: Era_of_Magic/utils/abilities.cfg:496
 msgid ""
 "When this attack hits an enemy, units adjacent to the target (except the "
 "attacker) get half of the basic damage.\n"
@@ -9918,22 +9918,22 @@ msgstr ""
 "Эта способность сработает даже против союзника."
 
 #. [dummy]: id=eoma_swallow{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:627
+#: Era_of_Magic/utils/abilities.cfg:637
 msgid "swallow"
 msgstr "поглощение"
 
 #. [dummy]: id=eoma_swallow{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:628
+#: Era_of_Magic/utils/abilities.cfg:638
 msgid "When killing a living enemy, this unit is healed by "
 msgstr "Когда боец убивает живого врага, он лечится на "
 
 #. [dummy]: id=eoma_collector{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:689
+#: Era_of_Magic/utils/abilities.cfg:699
 msgid "collector"
 msgstr "трупоед"
 
 #. [dummy]: id=eoma_collector{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:690
+#: Era_of_Magic/utils/abilities.cfg:700
 msgid ""
 "This unit gains some HP added to its current health whenever it kills a non-"
 "magical unit. It also gains +1 max HP with each successful kill of a non-"
@@ -9947,27 +9947,27 @@ msgstr ""
 "Будет вылечено ОЗ:"
 
 #. [floating_text]
-#: Era_of_Magic/utils/abilities.cfg:739
+#: Era_of_Magic/utils/abilities.cfg:749
 msgid "+1 max hp"
 msgstr "+1 макс. ОЗ"
 
 #. [dummy]: id=eoma_split
-#: Era_of_Magic/utils/abilities.cfg:768
+#: Era_of_Magic/utils/abilities.cfg:778
 msgid "split"
 msgstr "деление"
 
 #. [dummy]: id=eoma_split
-#: Era_of_Magic/utils/abilities.cfg:769
+#: Era_of_Magic/utils/abilities.cfg:779
 msgid "When dying this unit splits into 2 smaller versions of itself."
 msgstr "Когда боец погибает, он делится на 2 костяных зверей."
 
 #. [dummy]: id=eoma_antishield
-#: Era_of_Magic/utils/abilities.cfg:800
+#: Era_of_Magic/utils/abilities.cfg:810
 msgid "anti-shield"
 msgstr "пробивание"
 
 #. [dummy]: id=eoma_antishield
-#: Era_of_Magic/utils/abilities.cfg:801
+#: Era_of_Magic/utils/abilities.cfg:811
 msgid ""
 "This attack negates all possible resistances, thus the damage output is "
 "always constant (unless the opponent has the 'secret shield' ability)."
@@ -9976,24 +9976,24 @@ msgstr ""
 "способности \"тайный щит\")"
 
 #. [dummy]: id=eoma_secretshield{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:808
+#: Era_of_Magic/utils/abilities.cfg:818
 msgid "secret shield"
 msgstr "тайный щит"
 
 #. [dummy]: id=eoma_secretshield{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:809
+#: Era_of_Magic/utils/abilities.cfg:819
 msgid ""
 "This unit has some level of resistance against attacks dealing secret type "
 "of damage."
 msgstr "Боец имеет сопротивление к тайному урону."
 
 #. [dummy]: id=eoma_poisonousaura
-#: Era_of_Magic/utils/abilities.cfg:816
+#: Era_of_Magic/utils/abilities.cfg:826
 msgid "poisonous aura"
 msgstr "ядовитая аура"
 
 #. [dummy]: id=eoma_poisonousaura
-#: Era_of_Magic/utils/abilities.cfg:817
+#: Era_of_Magic/utils/abilities.cfg:827
 msgid ""
 "All living non-magical enemy units adjacent to this unit lose 2 HP and "
 "become poisoned at the beginning of this unit's turn. If an enemy unit's HP "
@@ -10002,22 +10002,22 @@ msgstr ""
 "Все живые враги вокруг бойца в начале хода теряют 2 ОЗ и получают отравление."
 
 #. [dummy]: id=eoma_alterego#purely visual, does not have {ID} to ensure units with the ability are grouped together in description
-#: Era_of_Magic/utils/abilities.cfg:877
+#: Era_of_Magic/utils/abilities.cfg:887
 msgid "alter ego"
 msgstr "другая форма"
 
 #. [dummy]: id=eoma_alterego#purely visual, does not have {ID} to ensure units with the ability are grouped together in description
-#: Era_of_Magic/utils/abilities.cfg:878
+#: Era_of_Magic/utils/abilities.cfg:888
 msgid "At night this unit transforms into its alternative version."
 msgstr "Ночью боец становится другой версией себя."
 
 #. [dummy]: id=eoma_damageaura{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:933
+#: Era_of_Magic/utils/abilities.cfg:943
 msgid "damage aura"
 msgstr "аура урона"
 
 #. [dummy]: id=eoma_damageaura{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:934
+#: Era_of_Magic/utils/abilities.cfg:944
 msgid ""
 "This unit harms all adjacent enemies at the start of each turn by a certain "
 "amount of damage (affected by the ToD bonus), giving the unit experience for "
@@ -10027,12 +10027,12 @@ msgstr ""
 "каждого убитого/пораженного врага боец получает опыт."
 
 #. [dummy]: id=lesser_eoma_damageaura{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:1027
+#: Era_of_Magic/utils/abilities.cfg:1037
 msgid "lesser damage aura"
 msgstr "аура малого урона"
 
 #. [dummy]: id=lesser_eoma_damageaura{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:1028
+#: Era_of_Magic/utils/abilities.cfg:1038
 msgid ""
 "This unit harms all adjacent enemies at the start of each turn by a certain "
 "amount of damage (affected by the ToD bonus), without giving the unit "
@@ -10042,12 +10042,12 @@ msgstr ""
 "не получает опыт и не может убить врага."
 
 #. [dummy]: id=eoma_immoblize
-#: Era_of_Magic/utils/abilities.cfg:1122
+#: Era_of_Magic/utils/abilities.cfg:1132
 msgid "immobilize"
 msgstr "обездвиживание"
 
 #. [dummy]: id=eoma_immoblize
-#: Era_of_Magic/utils/abilities.cfg:1123
+#: Era_of_Magic/utils/abilities.cfg:1133
 msgid ""
 "When used offensively, units hit with this attack become unable to move for "
 "1 turn"
@@ -10055,12 +10055,12 @@ msgstr ""
 "При попавшем ударе в нападении - жертвы не смогут двигаться в течение 1 хода"
 
 #. [dummy]: id=eoma_dazzle
-#: Era_of_Magic/utils/abilities.cfg:1196
+#: Era_of_Magic/utils/abilities.cfg:1206
 msgid "dazzle"
 msgstr "ошеломление"
 
 #. [dummy]: id=eoma_dazzle
-#: Era_of_Magic/utils/abilities.cfg:1197
+#: Era_of_Magic/utils/abilities.cfg:1207
 msgid ""
 "When used offensively, units hit with this attack suffer a 35% reduction in "
 "damage and a 10% reduction in defenses for 1 turn"
@@ -10069,12 +10069,12 @@ msgstr ""
 "уворота в течение 1 хода"
 
 #. [dummy]: id=eoma_stun
-#: Era_of_Magic/utils/abilities.cfg:1342
+#: Era_of_Magic/utils/abilities.cfg:1352
 msgid "stun"
 msgstr "оглушение"
 
 #. [dummy]: id=eoma_stun
-#: Era_of_Magic/utils/abilities.cfg:1343
+#: Era_of_Magic/utils/abilities.cfg:1353
 msgid ""
 "This attack puts enormous pressure on the enemy, disrupting his ZOC if a hit "
 "is landed. Not active on defense. Does not work on units that do not have a "
@@ -10084,17 +10084,17 @@ msgstr ""
 "хода."
 
 #. [unstore_unit]
-#: Era_of_Magic/utils/abilities.cfg:1380
+#: Era_of_Magic/utils/abilities.cfg:1390
 msgid "stunned"
 msgstr "оглушённый"
 
 #. [dummy]: id=eoma_bloodlust{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:1466
+#: Era_of_Magic/utils/abilities.cfg:1476
 msgid "bloodlust"
 msgstr "жажда крови"
 
 #. [dummy]: id=eoma_bloodlust{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:1467
+#: Era_of_Magic/utils/abilities.cfg:1477
 msgid ""
 "This unit gains hitpoints added to its current health whenever it kills a "
 "living unit. This ability works only on offense.\n"
@@ -10104,12 +10104,12 @@ msgstr ""
 "прибавляется ОЗ:"
 
 #. [damage]: id=eoma_supercharge
-#: Era_of_Magic/utils/abilities.cfg:1512
+#: Era_of_Magic/utils/abilities.cfg:1522
 msgid "supercharge"
 msgstr "сверхзаряд"
 
 #. [damage]: id=eoma_supercharge
-#: Era_of_Magic/utils/abilities.cfg:1513
+#: Era_of_Magic/utils/abilities.cfg:1523
 msgid ""
 "When used offensively, this attack deals 150% damage to the target. It also "
 "causes this unit to take 150% damage from the target’s counterattack.\n"
@@ -10123,12 +10123,12 @@ msgstr ""
 "Если враг повержен, боец занимает его позицию."
 
 #. [dummy]: id=eoma_scavenger{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:1588
+#: Era_of_Magic/utils/abilities.cfg:1598
 msgid "scavenger"
 msgstr "падальщик"
 
 #. [dummy]: id=eoma_scavenger{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:1589
+#: Era_of_Magic/utils/abilities.cfg:1599
 msgid ""
 "This unit gains some hitpoints added to its current health whenever an "
 "adjacent unit dies.\n"
@@ -10138,36 +10138,36 @@ msgstr ""
 "Будет получено ОЗ:"
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic/utils/abilities.cfg:1637 Era_of_Magic/utils/abilities.cfg:1638
+#: Era_of_Magic/utils/abilities.cfg:1647 Era_of_Magic/utils/abilities.cfg:1648
 msgid "dread"
 msgstr "ужас"
 
 #. [damage]: id=eoma_dread
-#: Era_of_Magic/utils/abilities.cfg:1639 Era_of_Magic/utils/abilities.cfg:1640
+#: Era_of_Magic/utils/abilities.cfg:1649 Era_of_Magic/utils/abilities.cfg:1650
 msgid ""
 "When this attack is used offensively, this unit takes one third less damage "
 "in retaliation."
 msgstr "В нападении боец получает на треть меньше урона в ответ."
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic/utils/abilities.cfg:1650 Era_of_Magic/utils/abilities.cfg:1651
+#: Era_of_Magic/utils/abilities.cfg:1660 Era_of_Magic/utils/abilities.cfg:1661
 msgid "evade"
 msgstr "уклонение"
 
 #. [damage]: id=eoma_evade
-#: Era_of_Magic/utils/abilities.cfg:1652 Era_of_Magic/utils/abilities.cfg:1653
+#: Era_of_Magic/utils/abilities.cfg:1662 Era_of_Magic/utils/abilities.cfg:1663
 msgid ""
 "When this attack is used offensively, this unit takes 25% less damage in "
 "retaliation."
 msgstr "В нападении боец получает на 25% меньше урона в ответ."
 
 #. [damage]: id=eoma_magic_hardening
-#: Era_of_Magic/utils/abilities.cfg:1664
+#: Era_of_Magic/utils/abilities.cfg:1674
 msgid "magic hardening"
 msgstr "волшебное отвердение"
 
 #. [damage]: id=eoma_magic_hardening
-#: Era_of_Magic/utils/abilities.cfg:1665
+#: Era_of_Magic/utils/abilities.cfg:1675
 msgid ""
 "While attacking, this unit will take 20% less fire/cold/arcane damage in "
 "retaliation."
@@ -10176,12 +10176,12 @@ msgstr ""
 "урона в ответ."
 
 #. [dummy]: id=eoma_chaos_channeling
-#: Era_of_Magic/utils/abilities.cfg:1679
+#: Era_of_Magic/utils/abilities.cfg:1689
 msgid "chaos channelling"
 msgstr "проведение хаоса"
 
 #. [dummy]: id=eoma_chaos_channeling
-#: Era_of_Magic/utils/abilities.cfg:1680
+#: Era_of_Magic/utils/abilities.cfg:1690
 msgid ""
 "When this unit dies a new Chaotic Observer unit is placed on the recall list "
 "of this unit's side."
@@ -10189,17 +10189,17 @@ msgstr ""
 "Когда этот боец погибает, новая Искра хаоса появляется в списке призыва."
 
 #. [floating_text]
-#: Era_of_Magic/utils/abilities.cfg:1700
+#: Era_of_Magic/utils/abilities.cfg:1710
 msgid "Recalling..."
 msgstr "Призыв..."
 
 #. [illuminates]: id=eoma_illuminates_weak
-#: Era_of_Magic/utils/abilities.cfg:1714
+#: Era_of_Magic/utils/abilities.cfg:1724
 msgid "illuminates (weak)"
 msgstr "освещает(слабое)"
 
 #. [illuminates]: id=eoma_illuminates_weak
-#: Era_of_Magic/utils/abilities.cfg:1715
+#: Era_of_Magic/utils/abilities.cfg:1725
 msgid ""
 "This unit illuminates the surrounding area, making lawful units fight "
 "better, and chaotic units fight worse.\n"
@@ -10213,49 +10213,53 @@ msgstr ""
 "В отличие от способности \"освещает\", изменяет урон на 15%, а не на 25%."
 
 #. [damage]: id=eoma_antimech{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:1726
+#: Era_of_Magic/utils/abilities.cfg:1736
 msgid "anti-mech"
 msgstr "разборщик"
 
 #. [damage]: id=eoma_antimech{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:1727
+#: Era_of_Magic/utils/abilities.cfg:1737
 msgid ""
 "This attacks deals additional points of damage against mechanical units.\n"
 "Additional damage dealt:"
 msgstr "Эта атака наносит дополнительный урон механизмам:"
 
 #. [disable]: id=eoma_divine
-#: Era_of_Magic/utils/abilities.cfg:1743
+#: Era_of_Magic/utils/abilities.cfg:1753
 msgid "divine"
 msgstr "святость"
 
 #. [disable]: id=eoma_divine
-#: Era_of_Magic/utils/abilities.cfg:1744
+#: Era_of_Magic/utils/abilities.cfg:1754
+#, fuzzy
+#| msgid ""
+#| "This attack will only be used against monsters and undrainable units such "
+#| "as magical and undead beings."
 msgid ""
-"This attack will only be used against monsters and undrainable units such as "
-"magical and undead beings."
+"This attack can only be used against undrainable units such as magical, "
+"mechanical and undead beings."
 msgstr ""
 "Эта атака действует только против нежити,монстров или существ устойчивых к "
 "высасыванию здоровья."
 
 #. [attacks]: id=eoma_swiftstrike
-#: Era_of_Magic/utils/abilities.cfg:1760
+#: Era_of_Magic/utils/abilities.cfg:1767
 msgid "swift strike"
 msgstr "ловкий выпад"
 
 #. [attacks]: id=eoma_swiftstrike
-#: Era_of_Magic/utils/abilities.cfg:1761
+#: Era_of_Magic/utils/abilities.cfg:1768
 msgid ""
 "When this attack is used offensively, the attacker gets +1 bonus strike."
 msgstr "При нападении эта атака получает +1 удар."
 
 #. [dummy]: id=eoma_pain_chaining
-#: Era_of_Magic/utils/abilities.cfg:1771
+#: Era_of_Magic/utils/abilities.cfg:1778
 msgid "pain chaining"
 msgstr "волна слабости"
 
 #. [dummy]: id=eoma_pain_chaining
-#: Era_of_Magic/utils/abilities.cfg:1772
+#: Era_of_Magic/utils/abilities.cfg:1779
 msgid ""
 "When this unit attacks or is attacked, it reduces all physical resistances "
 "of all adjacent enemy units by 10%. This effect lasts only during active "
@@ -10265,12 +10269,12 @@ msgstr ""
 "врагов на 10%. Эффект длится до конца хода атакующего."
 
 #. [dummy]: id=eoma_pain_chainingII
-#: Era_of_Magic/utils/abilities.cfg:1951
+#: Era_of_Magic/utils/abilities.cfg:1958
 msgid "pain chaining II"
 msgstr "волна слабости 2"
 
 #. [dummy]: id=eoma_pain_chainingII
-#: Era_of_Magic/utils/abilities.cfg:1952
+#: Era_of_Magic/utils/abilities.cfg:1959
 msgid ""
 "When this unit attacks or is attacked, it reduces all physical/magical "
 "resistances of all adjacent enemy units by 10%. This effect lasts only "
@@ -10281,37 +10285,37 @@ msgstr ""
 "атакующего."
 
 #. [dummy]: id=eoma_upkeepless
-#: Era_of_Magic/utils/abilities.cfg:2196
+#: Era_of_Magic/utils/abilities.cfg:2203
 msgid "upkeepless"
 msgstr "бессеребренник"
 
 #. [dummy]: id=eoma_upkeepless
-#: Era_of_Magic/utils/abilities.cfg:2197
+#: Era_of_Magic/utils/abilities.cfg:2204
 msgid "This unit costs no upkeep."
 msgstr "Боец не требует содержания."
 
 #. [dummy]: id=eoma_upkeep{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:2209
+#: Era_of_Magic/utils/abilities.cfg:2216
 msgid "upkeep"
 msgstr "содержание"
 
 #. [dummy]: id=eoma_upkeep{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:2210
+#: Era_of_Magic/utils/abilities.cfg:2217
 msgid "This unit costs "
 msgstr "Плата этому бойцу составляет "
 
 #. [dummy]: id=eoma_upkeep{VALUE}
-#: Era_of_Magic/utils/abilities.cfg:2210
+#: Era_of_Magic/utils/abilities.cfg:2217
 msgid " upkeep instead of the amount equal to level."
 msgstr " золота, вместо значения равного уровню."
 
 #. [regenerate]: id=eoma_forage
-#: Era_of_Magic/utils/abilities.cfg:2223
+#: Era_of_Magic/utils/abilities.cfg:2230
 msgid "forage"
 msgstr "выживание"
 
 #. [regenerate]: id=eoma_forage
-#: Era_of_Magic/utils/abilities.cfg:2224
+#: Era_of_Magic/utils/abilities.cfg:2231
 msgid ""
 "When resting on forest/fungus/farm/village tile, this unit will not cost any "
 "upkeep for a turn and regenerates 4 HP per turn. (does not cure poison)."
@@ -10320,7 +10324,7 @@ msgstr ""
 "восстанавливает 4 ОЗ в ход. (не исцеляет яд)."
 
 #. [floating_text]
-#: Era_of_Magic/utils/abilities.cfg:2289
+#: Era_of_Magic/utils/abilities.cfg:2296
 msgid "foraging"
 msgstr "выживание"
 
