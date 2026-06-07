@@ -1,6 +1,60 @@
 Era of Magic - ChangeLog
 ------------------------
 
+## Version 4.9
+ ### Units
+   * Barbarians:
+     * Barbarian: XP to 84 (+12)
+     * Barbarian Lord: HP to 78 (+5), price to 56g (+3g)
+     * Barbarian King: HP to 90 (+3), price to 87g (+5g)
+     * Orcish Chieftain: HP to 72 (+6), price to 58g (+3g)
+     * Roc Rider: price to 21g (+1g)
+  * Dark Blood Alliance:
+     * Jungle Blowgunner: XP to 36 (+4)
+     * Jungle Crossbowman: XP to 73 (+3), price to 28g (+1g)
+     * Jungle Champion: HP to 62 (+2), price to 54g (+2g)
+     * Temple Guard: HP to 57 (+3), now has the fearless trait (must-have) as a third trait
+     * All lv2 Salamanders XP to 85 (-5) (with the exception of red ones)
+     * Toad Archer: HP to 63 (+2), price to 37g (-1g)
+   * Destroyers:
+     * Cyclops Skeleton: HP to 29 (+1), XP to 50 (-2)
+     * Infernal Vortex: melee damage to 19-1 (+2), but accuracy decreased to +Magical
+   * Kharos:
+     * Platinium Warrior: HP to 72 (-3), price to 60g (+1g)
+     * Recruitment Officer: HP to 67 (+2), price to 56g (+1g)
+     * Inspired: price to 39g (+3g)
+   * Sky Kingdom:
+     * Hidden Face: HP to 36 (+1)
+     * Magical Eye: price to 12g (+1g)
+     * Battle Eye: price to 24g (+3g)
+   * Summoners:
+     * Carpet Rider: XP to 45 (+3)
+     * Carpet Master: AMLA XP to 63 (+3), price to 36g (+1g)
+     * Novice Summoner: HP to 37 (+1)
+     * Earth Avatar: health to 63 (+3)
+     * Earth God: HP to 87 (+2), secondary impact melee damage to 19-2 (+1)
+     * Air Elemental and all advancements: village/forest defense to 50% (-10%), fungus movement cost to 2 (+1)
+   * Tharis:
+     * Dark Observer: price to 19g (+1g)
+     * Chainlady: BloodLust value decreased to +3 (same value as lvl1), now has +Pain-Absortion(+1) as well, secondary melee now has hit-and-run(1) and +Magic-Counter
+     * Dark Wizard: XP to 85 (-3)
+     * Pain Mistress: XP to 87 (+5)
+     * Matriarch of Pain: AMLA XP to 150 (+24)
+ ### Abilities
+   * the divine weapon special can now be used against undrainable units only
+   * hit and run message is now only displayed if attacker survived
+ ### Descriptions
+   * added a special note about the fearless trait for Temple Guard
+ ### Code
+   * avoid wesnoth bug in progressive string expansion (animation)
+   * EoMa Resources is now loaded for zombie scenario
+   * weapon specials now use sub= instead of negative add=
+   * the 'active' version of special_id and special_type is now used to take into account the activity of the filtered weapon
+ ### Translations
+   * updated EoMa_translation_template.pot and all the .po files
+   * updated the Polish translation
+   * updated the Spanish translation
+
 ## Version 4.8.3
  ### Code
    * linked halos to abilities instead of [unit_type]
