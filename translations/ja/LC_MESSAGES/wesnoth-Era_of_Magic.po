@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-06-06 18:36 UTC\n"
+"POT-Creation-Date: 2026-06-07 15:46 UTC\n"
 "PO-Revision-Date: 2010-12-05 13:58+0900\n"
 "Last-Translator: IWAI, Masaharu <iwaim.sub@gmail.com>\n"
 "Language-Team: <wesnoth-ja-translate@lists.sourceforge.jp>\n"
@@ -2144,6 +2144,13 @@ msgstr "カミカゼ"
 #. [unit_type]: id=EoMa_Temple_Guard, race=lizard, description={NO_DESCR_AVAILABLE}
 #: Era_of_Magic/units/Dark_Blood_Alliance/Temple_Guard.cfg:4
 msgid "Temple Guard"
+msgstr ""
+
+#. [special_note]
+#: Era_of_Magic/units/Dark_Blood_Alliance/Temple_Guard.cfg:21
+msgid ""
+"Despite the unit's neutral alignment, fearless trait makes this unit immune "
+"to awe."
 msgstr ""
 
 #. [unit_type]: id=EoMa_Toad_Archer, race=lizard, description={NO_DESCR_AVAILABLE}
