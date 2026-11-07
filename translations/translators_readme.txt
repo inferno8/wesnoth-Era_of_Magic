@@ -8,7 +8,7 @@ https://github.com/inferno8/wesnoth-Era_of_Magic/tree/master/translations
 
 3. Find a .po file with your language inside one of the folders there and download it, then proceed to 4. If your language does not appear on the list, see 3a:
 
-    3a. Open TLU_translation_template.pot (usually located in Era_of_Magic/translations/
+    3a. Open EoMa_translation_template.pot (usually located in Era_of_Magic/translations/
 
     3b. Set your translation language.
 
